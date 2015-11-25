@@ -1,0 +1,64 @@
+table {
+	table-layout:fixed;
+}
+
+.card-core {
+	position: relative;
+}
+
+.card-left {
+	position: absolute;
+}
+
+.card-right {
+	position: absolute;
+	left: 10%;
+}
+
+.card-down {
+	position: absolute;
+	top: 10%;
+}
+
+.card-up {
+	position: absolute;
+	bottom: 10%;
+}
+
+.track-obtained {
+	color: #000000;
+}
+
+.track-not-obtained {
+	color: #D0D0D0;
+}
+
+.lr-sticky-header {
+    color: black;
+    background: white;
+    transition: all 0.6s;
+}
+
+.btn.active {
+	font-weight: bold;
+}
+
+.tooltip-inner {
+	white-space: pre-line;
+}
+
+.check-not-done {
+	color: #000000;
+}
+
+.check-done {
+	color: #00FF00;
+}
+
+.st-sort-ascent:before{
+	content: '\25B2';
+}
+
+.st-sort-descent:before{
+	content: '\25BC';
+}

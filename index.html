@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html ng-app="XIVTrack">
+	<head>
+		<link rel="stylesheet" type="test/css" href="format.css" />
+		<script type="text/javascript" src="jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="app.js"></script>
+		<script type="text/javascript" src="angular.js"></script>
+		<script type="text/javascript" src="bootstrap.js"></script>
+		<script type="text/javascript" src="lrStickyHeader.js"></script>
+		<script type="text/javascript" src="smart-table.js"></script>
+		<script type="text/javascript" src="stStickyHeader.js"></script>
+		<script type="text/javascript" src="ui-bootstrap.js"></script>
+		<script type="text/javascript" src="data/minionlibrary.js"></script>
+		<script type="text/javascript" src="data/mountlibrary.js"></script>
+		<script type="text/javascript" src="data/ttlibrary.js"></script>
+		<script type="text/javascript" src="data/bardinglibrary.js"></script>
+		<script type="text/javascript" src="data/cosmeticlibrary.js"></script>
+		<script type="text/javascript" src="data/filterlibrary.js"></script>
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" href="format.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	</head>
+	<body ng-controller="TableController as tableCtrl">
+		<nav class="navbar navbar-default">
+			<div class="navbar-header navbar-brand">XIVTrack</div>
+			<ul class="nav navbar-nav">
+				<li ng-class="navTabActive(0)"><a href="#" ng-click="setTab(0)">Minions</a></li>
+				<li ng-class="navTabActive(1)"><a href="#" ng-click="setTab(1)">Mounts</a></li>
+				<li ng-class="navTabActive(2)"><a href="#" ng-click="setTab(2)">Triple Triad</a></li>
+				<li ng-class="navTabActive(3)"><a href="#" ng-click="setTab(3)">Barding</a></li>
+				<li ng-class="navTabActive(4)"><a href="#" ng-click="setTab(4)">Cosmetics</a></li>
+				<li><a href="#" data-toggle="modal" data-target="#settingsModal">Settings</a></li>
+			</ul>
+			<div class="collapse navbar-collapse">
+				<uib-progress>
+						<uib-progressbar value="getNumObtained()" max="getMaxObtained()">{{getNumObtained()}} / {{getMaxObtained()}}</uib-bar>
+				</uib-progress>
+			</div>
+		</nav>
+		<table st-table="activeTab.data" class="table table-striped" st-sticky-header>
+			<thead>
+				<tr>
+					<th st-sort="obtained">Obtained?</td>
+					<th>Icon</td>
+					<th ng-repeat="column in activeTab.tableHeading" st-sort="{{column.toLowerCase()}}">
+						{{column}}
+					</th>
+				</tr>
+				<tr>
+					<th colspan="3"><input st-search="name" class="form-control" placeholder="Search name..." type="text"/></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr ng-hide="checkFilter(item.category, item.subcategory) || ($scope.filterObtained && item.obtained)" ng-repeat="item in activeTab.data | orderBy:sortType:reverseSort">
+					<td ng-click="toggleObtained(item, activeTab)">
+						<center><i class="fa fa-check track-not-obtained fa-2x" ng-hide="item.obtained"></i></center>
+						<center><i class="fa fa-check track-obtained fa-2x" ng-hide="!item.obtained"></i></center>
+					</td>
+					<td>
+						<img ng-src="icons/{{getImage(item)}}.png" height="48" width="48"> <i class="fa fa-sticky-note-o" tooltip-placement="right" uib-tooltip="{{item.lore}}"></i>
+					</td>
+					<td ng-repeat="column in activeTab.tableHeading">
+						<div ng-if="column.toLowerCase() != 'card'">{{item[column.toLowerCase()]}} <i class="fa fa-sticky-note-o" tooltip-placement="right" uib-tooltip="{{item[column.toLowerCase() + '_tt']}}" ng-if="item[column.toLowerCase() + '_tt'] != undefined"></i><img ng-repeat="i in getIcons(item, column.toLowerCase())" ng-src="icons/icon_{{i}}.png"></div>
+						<div class="card-core" ng-if="column.toLowerCase() == 'card'"><img class="card-left" ng-src="icons/card_{{getCard(item, 0)}}.png"><img class="card-up" ng-src="icons/card_{{getCard(item, 1)}}.png"><img class="card-down" ng-src="icons/card_{{getCard(item, 2)}}.png"><img class="card-right" ng-src="icons/card_{{getCard(item, 3)}}.png"></div>
+						</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<div class="modal fade" id="settingsModal" tabindex="-1" role="dialog" aria-labelledby="settingsModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="settingsModalLabel">Settings</h4>
+					</div>
+					<div class="modal-body">
+						<div>
+							<button type="button" class="btn btn-btnprimary" ng-model="$scope.filterObtained" uib-btn-checkbox>Obtained</button>
+						</div>
+						<div ng-repeat="category in filterLibrary">
+							<button type="button" class="btn btn-btnprimary" ng-model="category.state" uib-btn-checkbox>{{category.category}}</button>
+							<div class="btn-group">
+							<label ng-repeat="subcategory in category.subcategory" class="btn btn-primary" ng-model="subcategory.state" ng-hide="category.state" uib-btn-checkbox>{{subcategory.category}}</label>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+<!--<div>
+							<button type="button" class="btn btn-btnprimary" ng-model="$scope.filterObtained" uib-btn-checkbox>Obtained</button>
+						</div>
+						<div ng-repeat="category in filterLibrary">
+							<button type="button" class="btn btn-btnprimary" ng-model="category.state" uib-btn-checkbox>{{category.category}}</button>
+							<div class="btn-group">
+							<label ng-repeat="subcategory in category.subcategory" class="btn btn-primary" ng-model="subcategory.state" ng-hide="category.state" uib-btn-checkbox>{{subcategory.category}}</label>
+						</div>
+						-->
