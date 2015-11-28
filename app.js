@@ -10,11 +10,11 @@ $(document).ready(function(){
 		$scope.curHeader = null;
 		
 		$scope.tabs = [
-			{ title:'Minions', prefix: 'minion', data:minionLibrary, tableHeading:["Name", "Category", "Subcategory", "Info", "NPC", "Location", "Expansion"], numObtained:0, maxObtained: 0, active: true},
-			{ title:'Mounts', prefix: 'mount', data:mountLibrary, tableHeading:["Name", "Category", "Subcategory", "Info", "NPC", "Location", "Expansion"], numObtained:0, maxObtained: 0, active: false},
-			{ title:'Triple Triad', prefix: 'tt', data:ttLibrary, tableHeading:["Name", "Category", "Subcategory", "Rarity", "Card", "Info", "NPC", "Location", "Expansion"], numObtained:0, maxObtained: 0, active: false},
-			{ title:'Barding', prefix: 'barding', data:bardingLibrary, tableHeading:["Name", "Category", "Subcategory", "Info", "NPC", "Location", "Expansion"], numObtained:0, maxObtained: 0, active: false},
-			{ title:'Cosmetics', prefix: 'cosmetic', data:cosmeticLibrary, tableHeading:["Name", "Category", "Subcategory", "Info", "NPC", "Location", "Expansion"], numObtained:0, maxObtained: 0, active: false}
+			{ title:'Minions', prefix: 'minion', data:minionLibrary, tableHeading:["Name", "Category", "Subcategory", "Info", "Location", "Expansion"], numObtained:0, maxObtained: 0},
+			{ title:'Mounts', prefix: 'mount', data:mountLibrary, tableHeading:["Name", "Category", "Subcategory", "Info", "Location", "Expansion"], numObtained:0, maxObtained: 0},
+			{ title:'Triple Triad', prefix: 'triad', data:ttLibrary, tableHeading:["Name", "Category", "Subcategory", "Rarity", "Card", "Info", "Location", "NPCs", "Expansion"], numObtained:0, maxObtained: 0},
+			{ title:'Barding', prefix: 'barding', data:bardingLibrary, tableHeading:["Name", "Category", "Subcategory", "Info", "Location", "Expansion"], numObtained:0, maxObtained: 0},
+			{ title:'Cosmetics', prefix: 'cosmetic', data:cosmeticLibrary, tableHeading:["Name", "Category", "Subcategory", "Type", "Info", "Location", "Expansion"], numObtained:0, maxObtained: 0}
 		];
 		
 		$scope.activeTabNum = 0;
@@ -79,6 +79,19 @@ $(document).ready(function(){
 		
 		$scope.getIcons = function(item, column) {
 			if (item[column.toLowerCase() + '_icon'] == undefined) return [];
+			return item[column.toLowerCase() + '_icon'].split(" ");
+		}
+		
+		$scope.getTooltips = function(item, column) {
+			var arr = [];
+			var looper = 0;
+			while (item[column.toLowerCase() + '_tt' + looper] != undefined) {
+				arr[looper] = item[column.toLowerCase() + '_tt' + looper];
+				looper++;
+			}
+			return arr;
+			
+			if (item[column.toLowerCase() + '_tt0'] == undefined) return arr;
 			return item[column.toLowerCase() + '_icon'].split(" ");
 		}
 		

@@ -5,8 +5,7 @@ mountLibrary = [
 	"subcategory": "Gold Saucer",
 	"expansion": "ARR",
 	"info": "10,000 MGP",
-	"npc": "Gold Saucer Attendant",
-	"location": "Gold Saucer (5, 6)",
+	"location": "Gold Saucer Attendant, Gold Saucer (5, 6)",
 	"lore": "Native to the Near Eastern island of Thavnair, adamantoises were long thought to be impossible to domesticate. However, through the efforts of Ul'dahn zoologists, a handful of the colossal scalekin have been successfully trained to accept riders."
 },
 {
@@ -16,7 +15,6 @@ mountLibrary = [
 	"subcategory": "Veteran",
 	"expansion": "ARR",
 	"info": "90 days (3 months)",
-	"npc": "N/A",
 	"location": "N/A",
 	"lore": "Though little is known of the void and the creatures which call the extra-dimensional realm home, scholars have discovered that there is a strict hierarchy amongst voidsent consisting of twelve distinct tiers. Ahrimans are believed to fall into the fifth, making them formidable foes... when not enthralled by curses."
 },
@@ -26,8 +24,7 @@ mountLibrary = [
 	"category": "Group Content",
 	"subcategory": "Extreme Trial",
 	"expansion": "ARR",
-	"info": "Chest Drop",
-	"npc": "Ifrit",
+	"info": "Boss Chest",
 	"location": "The Bowl of Embers (Extreme)",
 	"lore": "Its breath is said to be as hot as the seventh hell. Legend states that the Lord of the Inferno, Ifrit, forged this magicked steed from a nightmare offered by the Amalj'aa in sacrifice."
 },
@@ -38,8 +35,10 @@ mountLibrary = [
 	"subcategory": "Recruit a Friend",
 	"expansion": "ARR",
 	"info": "8 Gold Chocobo Feathers",
-	"npc": "Calamity Salvager",
-	"location": "FIXME",
+	"location": "Calamity Salvager (Multiple)",
+	"location_tt0": "Limsa Lominsa Upper Decks (11, 14)",
+	"location_tt1": "Old Gridania (10, 8)",
+	"location_tt2": "Ul'dah - Steps of Thal (12, 13)",
 	"lore": "To Ishgardians, red represents true love and loyalty. To this wild chocobo from the Dravanian forelands, it meant capture at the hands of hunters who easily found a red chocobo sticking out like a sore thumb in the midst of all his yellow brethren."
 },
 {
@@ -48,7 +47,6 @@ mountLibrary = [
 	"subcategory": "Veteran",
 	"expansion": "ARR",
 	"info": "270 days (9 months)",
-	"npc": "N/A",
 	"location": "N/A",
 	"lore": "Immediately following the Calamity, an adventurer returning to Gridania from the Falcon's Nest in Coerthas happened upon a den of baby behemoths who had lost their mother to Bahamut's flames. Despite objections from friends and family alike, she kept the beasts, eventually training them to serve as mounts."
 },
@@ -58,8 +56,7 @@ mountLibrary = [
 	"subcategory": "Quests",
 	"expansion": "Heavensward",
 	"info": "Divine Intervention",
-	"npc": "House Fortemps Steward",
-	"location": "Fortemps Manor",
+	"location": "House Fortemps Steward, Fortemps Manor",
 	"lore": "A purebred Ishgardian black chocobo, trained from birth by House Fortemps knight, Ser Haurchefaunt, and presented to you in a gesture of true friendship. The bird is slightly more muscular than you expected and exhibits the strange habit of squatting when left to itself."
 },
 {
@@ -69,9 +66,8 @@ mountLibrary = [
 	"subcategory": "Gil",
 	"expansion": "ARR",
 	"info": "120,000 gil",
-	"npc": "Kobold Vendor",
-	"npc_tt": "Only offered with 'Trusted' reputation with Kobolds.",
-	"location": "Outer La Noscea (21, 17)",
+	"location": "Kobold Vendor, Outer La Noscea (21, 17)",
+	"location_tt0": "Only offered with 'Trusted' reputation with Kobolds.",
 	"lore": "Upon learning that his creations were forever lacking the power to combust, 789th Order Acolyte Ba Go did what any master of explosives would - attach the bombs to the corners of an iron bench and create a floating coach."
 },
 {
@@ -80,8 +76,7 @@ mountLibrary = [
 	"category": "Group Content",
 	"subcategory": "Extreme Trial",
 	"expansion": "ARR",
-	"info": "Chest Drop",
-	"npc": "Shiva",
+	"info": "Boss Chest",
 	"location": "The Akh Afah Ampitheatre (Extreme)",
 	"lore": "Legend states that the Lady of Frost, Shiva, birthed this magicked steed from a unicorn offered by her followers in sacrifice."
 },
@@ -91,9 +86,8 @@ mountLibrary = [
 	"subcategory": "Gil",
 	"expansion": "ARR",
 	"info": "120,000 gil",
-	"npc": "Amalj'aa Vendor",
-	"npc_tt": "Only offered with 'Trusted' reputation with Amalj'aa.",
-	"location": "Southern Thanalan (23, 14)",
+	"location": "Amalj'aa Vendor, Southern Thanalan (23, 14)",
+	"location_tt0": "Only offered with 'Trusted' reputation with Amalj'aa.",
 	"lore": "Training a cavalry drake is a long and arduous process that begins the moment the scalekin hatches. Never allowed to see its mother, the creature is raised solely in the presence of a drake whisperer while being weaned on the incendiary glands of aged battle drakes to ensure it is both submissive and deadly."
 },
 {
@@ -102,9 +96,8 @@ mountLibrary = [
 	"subcategory": "Gil",
 	"expansion": "ARR",
 	"info": "120,000 gil",
-	"npc": "Sahagin Vendor",
-	"npc_tt": "Only offered with 'Trusted' reputation with Sahagin.",
 	"location": "Western La Noscea (16, 22)",
+	"location_tt0": "Only offered with 'Trusted' reputation with Sahagin.",
 	"lore": "To ensure his elbst do not find themselves at a disadvantage to swift-running chocobos, Pahh of Novv's Clutch clips the webbing on their feet at a young age, rendering them more capable of achieving high speeds on land. This procedure, however, robs them of their natural- born ability to swim."
 },
 {
@@ -114,8 +107,7 @@ mountLibrary = [
 	"subcategory": "Other",
 	"expansion": "ARR",
 	"info": "Host a Ceremony of Eternal Bonding (Gold or Platinum)",
-	"npc": "N/A",
-	"location": "East Shroud (17, 16) FIXME",
+	"location": "East Shroud (17, 16)",
 	"lore": "Raised by Ishgard's master breeders for beauty and purity of stock, its snow white feathers are natural and, though fully developed, as soft as down. Temperament-wise, the bird is remarkably docile and one of few breeds who will allow dual riders upon its back."	
 },
 {
@@ -124,7 +116,6 @@ mountLibrary = [
 	"subcategory": "Merchandise Bonus",
 	"expansion": "ARR",
 	"info": "FFXIV: ARR Collector's Edition",
-	"npc": "N/A",
 	"location": "N/A",
 	"lore": "Native to the jungles of the Near East, coeurls were only recently introduced to Eorzea, brought over from faraway lands such as Thavnair by Ul'dahn nobles who thought to breed them as pets. Now, but a handful of skilled tamers living in recluse on the Pearl are said to be able to train them."
 },
@@ -135,9 +126,11 @@ mountLibrary = [
 	"subcategory": "Quests",
 	"expansion": "ARR",
 	"info": "My Little Chocobo",
-	"info_tt": "Becomes a flying mount after the quest FIXME",
-	"npc": "FIXME",
-	"location": "East Shroud (17, 16) FIXME",
+	"info_tt0": "Becomes a flying mount after the quest I Believe I Can Fly (Arnoulain, Foundation (8, 12))",
+	"location": "Multiple",
+	"location_tt0": "R'ashaht Rhiki, Limsa Lominsa Upper Decks (13, 13)",
+	"location_tt1": "Vorsaile Heuloix, New Gridania (10, 11)",
+	"location_tt2": "Swift, Ul'Dah - Steps of Nald (8, 9)",
 	"lore": "Born and bred in the city-state of Ishgard, the majority of company chocobos are geldings of the rouncey variety; however, massive destriers and miniature Belah'dian jennets are also raised to accommodate the builds of Roegadyn and Lalafell riders respectively.",
 },
 {
@@ -146,9 +139,8 @@ mountLibrary = [
 	"subcategory": "Gil",
 	"expansion": "ARR",
 	"info": "120,000 gil",
-	"npc": "Ixali Trader",
-	"npc_tt": "Only offered with 'Trusted' reputation with Ixal.",
-	"location": "North Shroud (24, 22)",
+	"location": "Ixali Trader, North Shroud (24, 22)",
+	"location_tt0": "Only offered with 'Trusted' reputation with Ixal.",
 	"lore": "Mass cullings of the beasts during the Sixth Astral Era prompted naturalists to deem the species extinct. However, this claim was proved false when Ixali scouts discovered a lone pack roaming the sparsely inhabited mountains of Xelphatol."
 },
 {
@@ -158,7 +150,6 @@ mountLibrary = [
 	"subcategory": "Recruit a Friend",
 	"expansion": "ARR",
 	"info": "Friend subscribes for 90 days",
-	"npc": "N/A",
 	"location": "N/A",
 	"lore": "This heretofore unseen breed of chocobo was said to have been discovered by chocobo hunters searching for the legendary Chocobo Forest. Its enormous size would make it a fine pack chocobo, but its foul temper prevents it from completing even the simplest of tasks without the injury of some poor rider."
 },
@@ -168,8 +159,7 @@ mountLibrary = [
 	"category": "Group Content",
 	"subcategory": "Extreme Trial",
 	"expansion": "ARR",
-	"info": "Chest Drop",
-	"npc": "Leviathan",
+	"info": "Boss Chest",
 	"location": "The Whorleater (Extreme)",
 	"lore": "Legend states that the Lord of the Whorl, Leviathan, birthed this magicked steed from a nightmare offered by the Sahagin in sacrifice."
 },
@@ -180,7 +170,6 @@ mountLibrary = [
 	"subcategory": "Merchandise Bonus",
 	"expansion": "ARR",
 	"info": "FFXIV: ARR Collector's Edition",
-	"npc": "N/A",
 	"location": "N/A",
 	"lore": "Playfully described by some as 'large and in charge,' in truth, when summoned, this gluttonous gourmand will flap nary a feather unless a garland of gysahl greens is dangled before him - in which case not even the laws of nature can slow the fat chocobo down."
 },
@@ -190,8 +179,7 @@ mountLibrary = [
 	"subcategory": "Gold Saucer",
 	"expansion": "ARR",
 	"info": "1,000,000 MGP",
-	"npc": "Gold Saucer Attendant",
-	"location": "Gold Saucer (5, 6)",
+	"location": "Gold Saucer Attendant, Gold Saucer (5, 6)",
 	"lore": "Following the rise of Ishgard, hoarhounds all but disappeared from the Coerthas highlands. However, the shift in climate caused by the Calamity has seen the legendary beasts descend from their mountain dens once more."
 },
 {
@@ -200,9 +188,8 @@ mountLibrary = [
 	"subcategory": "Achievement",
 	"expansion": "ARR",
 	"info": "A Line in the Sand IV",
-	"info_tt": "Guide the Immortal Flames to 100 Frontline victories.",
-	"npc": "Jonathas",
-	"location": "Old Gridania (10, 6)", 
+	"info_tt0": "Guide the Immortal Flames to 100 Frontline victories.",
+	"location": "Jonathas, Old Gridania (10, 6)", 
 	"lore": "After witnessing dazzling demonstrations of how a warsteed might turn the tide of battle, the Grand Companies of Eorzea emptied their coffers at the feet of the Far Eastern uma bugyo, each seeking to put themselves at an advantage during Frontline campaigns."
 },
 {
@@ -212,9 +199,8 @@ mountLibrary = [
 	"subcategory": "Achievement",
 	"expansion": "ARR",
 	"info": "Everybody's Darling",
-	"info_tt": "Receive 500 player commendations.",
-	"npc": "Jonathas",
-	"location": "Old Gridania (10, 6)",
+	"info_tt0": "Receive 500 player commendations.",
+	"location": "Jonathas, Old Gridania (10, 6)",
 	"lore": "It only took a few heated skirmishes with the allied city-states for Garlemald to realize that the magicks wielded by the realm's mages were too much for even the thickest of magitek armor plating. Alloyed gilding has since been discovered to dampen the effects of elemental charges and is now standard issue."
 },
 {
@@ -223,8 +209,7 @@ mountLibrary = [
 	"category": "Group Content",
 	"subcategory": "Savage Raid",
 	"expansion": "ARR",
-	"info": "Chest Drop",
-	"npc": "The Manipulator",
+	"info": "Boss Chest",
 	"location": "Alexander - The Burden of the Father (Savage)",
 	"lore": "Originally designed to be a less-fickle replacement for pack raptors, the gobwalker was quickly reoutfitted into a tool of war after it took twenty goblins to chase down and topple a walker that had gone out of control and destroyed an entire workshop."
 },
@@ -234,7 +219,6 @@ mountLibrary = [
 	"subcategory": "1.0",
 	"expansion": "ARR",
 	"info": "N/A",
-	"npc": "N/A",
 	"location": "N/A",
 	"lore": "Traded for a song by the High Satrap of a distant land, the secret to taming these creatures once thought to be unbreakable was introduced to Eorzea by a mysterious wandering minstrel who journeyed through the realm in the final days before the Calamity."
 },
@@ -245,7 +229,6 @@ mountLibrary = [
 	"subcategory": "Merchandise Bonus",
 	"expansion": "Heavensward",
 	"info": "Heavensward Collector's Edition",
-	"npc": "N/A",
 	"location": "N/A",
 	"lore": "Fantastical winged beasts native to the unscalable peaks of Abalathia's Spine, griffins actually have a long history of serving as mounts. Indeed, before the city-state's fall, the Ala Mhigan army maintained a regiment of griffin-back soldiers who would harry opposing forces."
 },
@@ -255,8 +238,7 @@ mountLibrary = [
 	"category": "Group Content",
 	"subcategory": "Extreme Trial",
 	"expansion": "ARR",
-	"info": "Chest Drop",
-	"npc": "Titan",
+	"info": "Boss Chest",
 	"location": "The Navel (Extreme)",
 	"lore": "Legend states that the Lord of Crags, Titan, wrought this magicked steed from a nightmare offered by the kobolds in sacrifice."
 },
@@ -267,9 +249,8 @@ mountLibrary = [
 	"subcategory": "Quests",
 	"expansion": "ARR",
 	"info": "A Legend for a Legend",
-	"npc": "Wandering Minstrel",
-	"npc_tt": "Only offers quest if you have the following mounts: Aithon, Boreas, Enbarr, Gullfaxi, Markab, and Xanathos.",
-	"location": "Mor Dhona (22, 9)",
+	"location": "Wandering Minstrel, Mor Dhona (22, 9)",
+	"location_tt0": "Only offers quest if you have the following mounts: Aithon, Boreas, Enbarr, Gullfaxi, Markab, and Xanathos.",
 	"lore": "Ask any man in Othard who rules the realm of beasts, and you will receive the same answer - Kirin. It is believed that the lion-like creature has walked the eastern lands for over a thousand years and will only answer the call of a hero it has deemed worthy."
 },
 {
@@ -278,9 +259,8 @@ mountLibrary = [
 	"subcategory": "Gil",
 	"expansion": "ARR",
 	"info": "120,000 gil",
-	"npc": "Sylphic Vendor",
-	"npc_tt": "Only offered with 'Trusted' reputation with Sylphs.",
-	"location": "East Shroud (22, 26)",
+	"location": "Sylphic Vendor, East Shroud (22, 26)",
+	"location_tt0": "Only offered with 'Trusted' reputation with Sylphs.",
 	"lore": "After having the moss and flowers growing upon his head pulled up and tossed aside like common weeds by a band of sylvan ne'er-do-wells, this quiet-mannered goobbue was taken in and cared for by the sylphs of Little Solace whose elders crafted for him a magnificent laurel with which to hide his scars."
 },
 {
@@ -289,7 +269,6 @@ mountLibrary = [
 	"subcategory": "1.0",
 	"expansion": "ARR",
 	"info": "N/A",
-	"npc": "N/A",
 	"location": "N/A",
 	"lore": "In the five years following your sudden disappearance from the Carteneau Flats, your ever-faithful chocobo spent each waking moment galloping across the realm in search of his lost master. His myriad adventures are nothing less than fantastical and heartbreaking...but that is a story for another day."
 },
@@ -300,9 +279,8 @@ mountLibrary = [
 	"subcategory": "Achievement",
 	"expansion": "ARR",
 	"info": "Behind Enemy Lines I",
-	"info_tt": "Guide any of the three Grand Companies to a total of 200 Frontline victories.",
-	"npc": "Jonathas",
-	"location": "Old Gridania (10, 6)",
+	"info_tt0": "Guide any of the three Grand Companies to a total of 200 Frontline victories.",
+	"location": "Jonathas, Old Gridania (10, 6)",
 	"lore": "One of the automated system drones deployed by the Allagans to maintain and protect their strongholds. After being unearthed by the Sons of Saint Coinach, the mechanical sphere was modified by Nero tol Scavea into a personal transportation device."
 },
 {
@@ -312,8 +290,7 @@ mountLibrary = [
 	"subcategory": "Quests",
 	"expansion": "ARR",
 	"info": "The Ultimate Weapon",
-	"npc": "Raubahn",
-	"location": "Northern Thanalan (16, 17)",
+	"location": "Raubahn, Northern Thanalan (16, 17)",
 	"lore": "This suit of Garlean-developed reaper-class magitek battle armor has had its original control systems purged and replaced with a new, modified core built by Cid of the Garlond Ironworks."
 },
 {
@@ -323,8 +300,7 @@ mountLibrary = [
 	"subcategory": "Quests",
 	"expansion": "Heavensward",
 	"info": "Into the Aery",
-	"npc": "Estinien",
-	"location": "Foundation (13, 11)",
+	"location": "Estinien, Foundation (13, 11)",
 	"lore": "Supervised (in spirit) by the ever-absent Cid, Biggs and Wedge (with a little bending over by Biggs) put their heads together to create this flight-ready miniature airship, powered by the realm's first corrupted crystal engine."
 },
 {
@@ -333,8 +309,7 @@ mountLibrary = [
 	"category": "Group Content",
 	"subcategory": "Extreme Trial",
 	"expansion": "ARR",
-	"info": "Chest Drop",
-	"npc": "Ramuh",
+	"info": "Boss Chest",
 	"location": "The Striking Tree (Extreme)",
 	"lore": "Legend states that the Lord of Levin, Ramuh, drew forth this magicked steed from a nightmare offered by the sylphs in sacrifice."
 },
@@ -345,8 +320,7 @@ mountLibrary = [
 	"subcategory": "Quests",
 	"expansion": "Heavensward",
 	"info": "Fetters of Lament",
-	"npc": "Guidance Node",
-	"location": "Azys Lla (19, 32)",
+	"location": "Guidance Node, Azys Lla (19, 32)",
 	"lore": "Only after proving your bravery in the face of countless perils has the father of dragons found you to be a worthy heir to the light, and granted you a place upon his back.",
 	"image": "midgardsormr_2"
 },
@@ -356,9 +330,11 @@ mountLibrary = [
 	"category": "Group Content",
 	"subcategory": "Extreme Trial",
 	"expansion": "ARR",
-	"info": "Chest Drop",
-	"npc": "Multiple (FIXME)",
-	"location": "The Striking Tree (Extreme)",
+	"info": "Boss Chest",
+	"location": "Multiple",
+	"location_tt0": "The Howling Eye (Extreme)",
+	"location_tt0": "The Navel (Extreme)",
+	"location_tt0": "The Bowl of Embers (Extreme)",
 	"lore": "While it is no secret that it was the enigmatic Ascians who provided the beast tribes with nightmares, their reasons for doing so remain shrouded in mystery. Otherwise untamable, the single piercing tone of a magicked whistle is the only method known to soothe the savage beasts."
 },
 {
@@ -368,9 +344,8 @@ mountLibrary = [
 	"subcategory": "Achievement",
 	"expansion": "ARR",
 	"info": "Leaving a Better Impression II",
-	"info_tt": "Receive 3,000 player commendations.",
-	"npc": "Jonathas",
-	"location": "Old Gridania (10, 6)",
+	"info_tt0": "Receive 3,000 player commendations.",
+	"location": "Jonathas, Old Gridania (10, 6)",
 	"lore": "Originally purchased by the Adventurers' Guild for use in festival parades, this portly steed quickly wore out his welcome by devouring a moon's worth of fodder in a single turn of the sun. Unable to pay the price of upkeep, the guild passed the reigns to some- one more 'commendable.'"
 },
 {
@@ -380,7 +355,6 @@ mountLibrary = [
 	"subcategory": "Unknown",
 	"expansion": "Heavensward",
 	"info": "N/A",
-	"npc": "N/A",
 	"location": "N/A",
 	"lore": "While rumors of a winged horse have graced ancient tomes for centuries, until recently, very little in the way of proof of their existence remained save the random feather or horseshoe housed in some remote monastery's reliquary."
 },
@@ -390,10 +364,9 @@ mountLibrary = [
 	"category": "Vendor",
 	"subcategory": "Gil",
 	"expansion": "Heavensward",
-	"info": "??? gil FIXME",
-	"npc": "Luna Vanu",
-	"npc_tt": "Only offered with 'Allied' reputation with Vanu Vanu. FIXME",
-	"location": "Sea of Clouds (7, 14)",
+	"info": "200,000 gil",
+	"location": "Luna Vanu, Sea of Clouds (7, 14)",
+	"location_tt0": "Only offered with 'Sworn' reputation with Vanu Vanu.",
 	"lore": "Countless turns of the sun did Luna Vanu train this wild sanuwa to obey the orders of man, and for many moons did he wait for one he deemed worthy of taking up this noble cloudkin's reins. Wait, he did, until you arrived."
 },
 {
@@ -402,9 +375,8 @@ mountLibrary = [
 	"subcategory": "Achievement",
 	"expansion": "ARR",
 	"info": "A Line in the Glade IV",
-	"info_tt": "Guide the Twin Adder to 100 Frontline victories.",
-	"npc": "Jonathas",
-	"location": "Old Gridania (10, 6)", 
+	"info_tt0": "Guide the Twin Adder to 100 Frontline victories.",
+	"location": "Jonathas, Old Gridania (10, 6)", 
 	"lore": "After witnessing dazzling demonstrations of how a warsteed might turn the tide of battle, the Grand Companies of Eorzea emptied their coffers at the feet of the Far Eastern uma bugyo, each seeking to put themselves at an advantage during Frontline campaigns."
 },
 {
@@ -413,7 +385,6 @@ mountLibrary = [
 	"subcategory": "Mog Station",
 	"expansion": "ARR",
 	"info": "$25",
-	"npc": "N/A",
 	"location": "N/A",
 	"lore": "Blessed by the elder primal himself, Sleipnir will forever remain loyal to those who have proven themselves worthy. In addition to being fearless in battle, the dark steed is also able to manipulate his corporeal form to accommodate any rider, large or small."
 },
@@ -423,9 +394,8 @@ mountLibrary = [
 	"subcategory": "Achievement",
 	"expansion": "ARR",
 	"info": "A Line in the Storm IV",
-	"info_tt": "Guide the Maelstrom to 100 Frontline victories.",
-	"npc": "Jonathas",
-	"location": "Old Gridania (10, 6)", 
+	"info_tt0": "Guide the Maelstrom to 100 Frontline victories.",
+	"location": "Jonathas, Old Gridania (10, 6)", 
 	"lore": "After witnessing dazzling demonstrations of how a warsteed might turn the tide of battle, the Grand Companies of Eorzea emptied their coffers at the feet of the Far Eastern uma bugyo, each seeking to put themselves at an advantage during Frontline campaigns."
 },
 {
@@ -435,8 +405,10 @@ mountLibrary = [
 	"subcategory": "Recruit a Friend",
 	"expansion": "ARR",
 	"info": "15 Gold Chocobo Feathers",
-	"npc": "Calamity Salvager",
-	"location": "FIXME",
+	"location": "Calamity Salvager (Multiple)",
+	"location_tt0": "Limsa Lominsa Upper Decks (11, 14)",
+	"location_tt1": "Old Gridania (10, 8)",
+	"location_tt2": "Ul'dah - Steps of Thal (12, 13)",
 	"lore": "Bound to eternal thralldom via an Allagan neurolink, this ancient wyvern from the southern continent of Meracydia will remain a loyal servant as long as you possess its identification key."
 },
 {
@@ -445,8 +417,7 @@ mountLibrary = [
 	"subcategory": "Quests",
 	"expansion": "ARR",
 	"info": "Unicorn Power",
-	"npc": "Braya",
-	"location": "Old Gridania (6, 11)",
+	"location": "Braya, Old Gridania (6, 11)",
 	"lore": "Not long ago, Eorzean unicorns numbered in the thousands, and could oft be seen roaming the Coerthas highlands in great majestic herds that would render the mountains white as snow. Poaching has caused the population to decline, and if it were not for your act of kindness, there would be one fewer."
 },
 {
@@ -455,9 +426,8 @@ mountLibrary = [
 	"subcategory": "Achievement",
 	"expansion": "Heavensward",
 	"info": "But Somebody's Gotta Do It (Dark Knight)",
-	"info_tt": "Complete 200 high-level full party duties as a dark knight.",
-	"npc": "Jonathas",
-	"location": "Old Gridania (10, 6)", 
+	"info_tt0": "Complete 200 high-level full party duties as a dark knight.",
+	"location": "Jonathas, Old Gridania (10, 6)", 
 	"lore": "While more difficult to train than their cousins the coeurls, panthers bring their riders much more advantage on the field due to the beasts' inherent affinity to various magic. It is also believed that many Dark Knight battle techniques were conceived by watching panthers hunt."
 },
 {
@@ -466,9 +436,8 @@ mountLibrary = [
 	"subcategory": "Achievement",
 	"expansion": "ARR",
 	"info": "But Somebody's Gotta Do It (Warrior)",
-	"info_tt": "Complete 200 high-level full party duties as a warrior.",
-	"npc": "Jonathas",
-	"location": "Old Gridania (10, 6)", 
+	"info_tt0": "Complete 200 high-level full party duties as a warrior.",
+	"location": "Jonathas, Old Gridania (10, 6)", 
 	"lore": "In generations past, warriors seeking fame and glory would journey out into the untamed wilds of Abalathia's Spine in search of the giant grizzled bears that roamed the mountains, and would wrestle the beasts into submission, riding their prizes back to civilization. That is, or die trying."
 },
 {
@@ -477,9 +446,8 @@ mountLibrary = [
 	"subcategory": "Achievement",
 	"expansion": "ARR",
 	"info": "But Somebody's Gotta Do It (Paladin)",
-	"info_tt": "Complete 200 high-level full party duties as a paladin.",
-	"npc": "Jonathas",
-	"location": "Old Gridania (10, 6)", 
+	"info_tt0": "Complete 200 high-level full party duties as a paladin.",
+	"location": "Jonathas, Old Gridania (10, 6)", 
 	"lore": "Early in the Sixth Astral Era, lions were brought over from the Near East and trained to serve as battle mounts for the Sultansworn of Ul'dah. Deemed unbreakable, those not sold to the Coliseum for venationes were released into the deserts of Thanalan where they eventually reverted back to a feral state."
 },
 {
@@ -489,7 +457,6 @@ mountLibrary = [
 	"subcategory": "Holiday",
 	"expansion": "ARR",
 	"info": "All Saint's Wake 2015",
-	"npc": "N/A",
 	"location": "N/A",
 	"lore": "Once an ordinary household cleaning tool, relegated to such menial tasks as sweeping and... sweeping, this broom's life changed upon being enchanted by the ogre pumpkinhead. Now the skies are its dusty floors."
 },
@@ -500,9 +467,8 @@ mountLibrary = [
 	"subcategory": "Other",
 	"expansion": "Heavensward",
 	"info": "6 Clan Mark Logs",
-	"info_tt": "500 Clan Seals each (or A/S rank Heavensward hunts)",
-	"npc": "Bertana",
-	"location": "Idyllshire (5, 5)",
+	"info_tt0": "500 Clan Seals each (or A/S rank Heavensward hunts)",
+	"location": "Bertana, dyllshire (5, 5)",
 	"lore": "Fifty score years ago, this wyvern made a pact with a knight to aid in vanquishing evil from the skies. Even now, long after the knight's passing, the wyvern has kept that promise, ever circling the heavens - ignoring the calls of his brethren to take up arms against mankind."
 },
 {
@@ -511,8 +477,7 @@ mountLibrary = [
 	"category": "Group Content",
 	"subcategory": "Extreme Trial",
 	"expansion": "ARR",
-	"info": "Chest Drop",
-	"npc": "Garuda",
+	"info": "Boss Chest",
 	"location": "The Howling Eye (Extreme)",
 	"lore": "Legend states that the Lady of the Vortex, Garuda, created this magicked steed from a nightmare offered by the Ixal in sacrifice."
 }];
