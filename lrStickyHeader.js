@@ -32,7 +32,8 @@
       var firstThs;
 
       function setCellWidth (cell) {
-        cell.style.width = cell.offsetWidth + 'px';
+		var w = Math.floor($(window).width() / $("#stickyhead th").length);
+        cell.style.width = w + 'px';
       }
 
       if (firstRow && trh) {

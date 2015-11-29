@@ -7,7 +7,7 @@ $(document).ready(function(){
 		$scope.settingTabActive = false;
 		$scope.sortType = "Name";
 		$scope.reverseSort = false;
-		$scope.curHeader = null;
+		$scope.header = lrStickyHeader(document.getElementById('maintable'));
 		
 		$scope.tabs = [
 			{ title:'Minions', prefix: 'minion', data:minionLibrary, tableHeading:["Name", "Category", "Subcategory", "Info", "Location", "Expansion"], numObtained:0, maxObtained: 0},
@@ -25,6 +25,13 @@ $(document).ready(function(){
 			$scope.reverseSort = false;
 			$scope.activeTab = $scope.tabs[num];
 			$scope.activeTabNum = num;
+			//$scope.header.setWidth();
+			var looper = 0;
+			var headers = $("th");
+			while(headers[looper] != undefined) {
+				$("th")[looper].style.width = "auto";
+				looper++;
+			}
 		}
 		
 		$scope.loadData = function() {

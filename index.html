@@ -37,9 +37,9 @@
 				</uib-progress>
 			</div>
 		</nav>
-		<table st-table="activeTab.data" class="table table-striped" st-sticky-header>
+		<table st-table="activeTab.data" class="table table-striped" id="maintable">
 			<thead>
-				<tr>
+				<tr id="stickyhead">
 					<th st-sort="obtained">Obtained?</td>
 					<th>Icon</td>
 					<th ng-repeat="column in activeTab.tableHeading" st-sort="{{column.toLowerCase()}}">
