@@ -7,14 +7,13 @@ $(document).ready(function(){
 		$scope.settingTabActive = false;
 		$scope.sortType = "Name";
 		$scope.reverseSort = false;
-		$scope.header = lrStickyHeader(document.getElementById('maintable'));
 		
 		$scope.tabs = [
-			{ title:'Minions', prefix: 'minion', data:minionLibrary, tableHeading:["Name", "Category", "Subcategory", "Info", "Location", "Expansion"], numObtained:0, maxObtained: 0},
-			{ title:'Mounts', prefix: 'mount', data:mountLibrary, tableHeading:["Name", "Category", "Subcategory", "Info", "Location", "Expansion"], numObtained:0, maxObtained: 0},
-			{ title:'Triple Triad', prefix: 'triad', data:ttLibrary, tableHeading:["Name", "Category", "Subcategory", "Rarity", "Card", "Info", "Location", "NPCs", "Expansion"], numObtained:0, maxObtained: 0},
-			{ title:'Barding', prefix: 'barding', data:bardingLibrary, tableHeading:["Name", "Category", "Subcategory", "Info", "Location", "Expansion"], numObtained:0, maxObtained: 0},
-			{ title:'Cosmetics', prefix: 'cosmetic', data:cosmeticLibrary, tableHeading:["Name", "Category", "Subcategory", "Type", "Info", "Location", "Expansion"], numObtained:0, maxObtained: 0}
+			{ title:'Minions', id: '0', prefix: 'minion', data:minionLibrary, tableHeading:["Name", "Category", "Subcategory", "Info", "Location", "Expansion"], numObtained:0, maxObtained: 0},
+			{ title:'Mounts', id: '1', prefix: 'mount', data:mountLibrary, tableHeading:["Name", "Category", "Subcategory", "Info", "Location", "Expansion"], numObtained:0, maxObtained: 0},
+			{ title:'Triple Triad', id: '2', prefix: 'triad', data:ttLibrary, tableHeading:["Name", "Category", "Subcategory", "Rarity", "Card", "Info", "Location", "NPCs", "Expansion"], numObtained:0, maxObtained: 0},
+			{ title:'Barding', id: '3', prefix: 'barding', data:bardingLibrary, tableHeading:["Name", "Category", "Subcategory", "Info", "Location", "Expansion"], numObtained:0, maxObtained: 0},
+			{ title:'Cosmetics', id: '4', prefix: 'cosmetic', data:cosmeticLibrary, tableHeading:["Name", "Category", "Subcategory", "Type", "Info", "Location", "Expansion"], numObtained:0, maxObtained: 0}
 		];
 		
 		$scope.activeTabNum = 0;
@@ -25,13 +24,6 @@ $(document).ready(function(){
 			$scope.reverseSort = false;
 			$scope.activeTab = $scope.tabs[num];
 			$scope.activeTabNum = num;
-			//$scope.header.setWidth();
-			var looper = 0;
-			var headers = $("th");
-			while(headers[looper] != undefined) {
-				$("th")[looper].style.width = "auto";
-				looper++;
-			}
 		}
 		
 		$scope.loadData = function() {
@@ -61,6 +53,11 @@ $(document).ready(function(){
 					}	
 				}
 			}
+		}
+		
+		$scope.tabActive = function(num) {
+			if ($scope.activeTabNum == num) return true;
+			else return false;
 		}
 		
 		$scope.navTabActive = function(num) {

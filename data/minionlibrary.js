@@ -328,7 +328,7 @@ minionLibrary = [
 	"name": "Gestahl",
 	"category": "Other",
 	"subcategory": "Venture",
-	"expansion": "Heavensward",
+	"expansion": "ARR",
 	"info": "Waterside Exploration XVIII",
 	"location": "N/A", 
 	"lore": "Despite being found lapping up day-old vomit behind the Forgotten Knight, the air of nobility displayed by this pup as he rolled in the filth was proof enough of his royal bloodline, and before the night was through, an offical pedigree was drawn up, changing Gestahl's life forever."
@@ -400,10 +400,11 @@ minionLibrary = [
 },
 {
 	"name": "Hoary the Snowman",
-	"category": "Unobtainable",
-	"subcategory": "Holiday",
+	"category": "Promotional",
+	"subcategory": "Holiday/Mog Station",
 	"expansion": "ARR",
 	"info": "Starlight Celebration 2014",
+	"info_tt0": "Currently available on Mog Station for $5",
 	"location": "N/A",
 	"lore": "While no one knows the exact origins of Hoary the Snowman and the legends surrounding this animated mass of ice and snow, the gifting of dolls created in his likeness to good girls and boys is not uncommon during the Starlight Celebration."
 },

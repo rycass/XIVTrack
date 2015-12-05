@@ -359,6 +359,15 @@ mountLibrary = [
 	"lore": "While rumors of a winged horse have graced ancient tomes for centuries, until recently, very little in the way of proof of their existence remained save the random feather or horseshoe housed in some remote monastery's reliquary."
 },
 {
+	"name": "Red Baron",
+	"category": "Promotional",
+	"subcategory": "Mog Station",
+	"expansion": "ARR",
+	"info": "$12",
+	"location": "N/A",
+	"lore": "FIXME"
+},
+{
 	"name": "Sanuwa",
 	"name_icon": "flying",
 	"category": "Vendor",
@@ -449,6 +458,15 @@ mountLibrary = [
 	"info_tt0": "Complete 200 high-level full party duties as a paladin.",
 	"location": "Jonathas, Old Gridania (10, 6)", 
 	"lore": "Early in the Sixth Astral Era, lions were brought over from the Near East and trained to serve as battle mounts for the Sultansworn of Ul'dah. Deemed unbreakable, those not sold to the Coliseum for venationes were released into the deserts of Thanalan where they eventually reverted back to a feral state."
+},
+{
+	"name": "White Devil",
+	"category": "Promotional",
+	"subcategory": "Mog Station",
+	"expansion": "ARR",
+	"info": "$12",
+	"location": "N/A",
+	"lore": "FIXME"
 },
 {
 	"name": "Witch's Broom",
