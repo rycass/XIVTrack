@@ -612,8 +612,8 @@ ttLibrary = [
 	"location": "Triple Triad Trader, Gold Saucer (4, 7)",
 	"npcs": "",
 	"npcs_tt0": "Hab, Southern Thanalan (24, 40) (Requires quest 'Zombies are People Too')",
-	"npcs_tt0": "King Elmer, Gold Saucer (3, 7)",
-	"npcs_tt0": "Ruhtwyda of the Three Hearts, Gold Saucer (3, 7)",
+	"npcs_tt1": "King Elmer, Gold Saucer (3, 7)",
+	"npcs_tt2": "Ruhtwyda of the Three Hearts, Gold Saucer (3, 7)",
 	"rarity": "3",
 	"card": "6 6 5 6",
 	"lore": "'But you were not drawn here by some coincidence, were you? No, you came in search of me, Godbert! Why else would you gyrate your hips in such a gentlemanly fashion, if not that?'"
