@@ -1040,7 +1040,7 @@ minionLibrary = [
 	"expansion": "ARR",
 	"info": "180 days",
 	"location": "N/A",
-	"lore": "Ancient records show that almost every Astral Era has had its own Warriors of Light�brave souls who appeared before forthcoming disasters to unite the people of that time...only to disappear once again as catastrophe rained down from the heavens."
+	"lore": "Ancient records show that almost every Astral Era has had its own Warriors of Light - brave souls who appeared before forthcoming disasters to unite the people of that time...only to disappear once again as catastrophe rained down from the heavens."
 },
 {
 	"name": "Wind-up Leader",

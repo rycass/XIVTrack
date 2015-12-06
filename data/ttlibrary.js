@@ -208,7 +208,7 @@ ttLibrary = [
 	"npcs_tt0": "Maisenta, New Gridania (11, 11)",
 	"rarity": "1",
 	"card": "4 2 5 4",
-	"lore": "Deep within the northeastern reaches of the Black Shroud live the reclusive sylphs. These diminutive beings resemble children's dolls wrapped in vibrant leaves. The demeanor of the sylphs is comparable to that of an innocent child, but their propensity to employ their magical talents to “playfully” torment travelers has all too often been the cause of untold anguish and even tragedy for their hapless victims."
+	"lore": "Deep within the northeastern reaches of the Black Shroud live the reclusive sylphs. These diminutive beings resemble children's dolls wrapped in vibrant leaves. The demeanor of the sylphs is comparable to that of an innocent child, but their propensity to employ their magical talents to 'playfully' torment travelers has all too often been the cause of untold anguish and even tragedy for their hapless victims."
 },
 {
 	"name": "Kobold",

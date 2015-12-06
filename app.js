@@ -2,6 +2,8 @@ $(document).ready(function(){
 	var app = angular.module('XIVTrack', ['ui.bootstrap', 'smart-table']);	
 	var control = app.controller('TableController', function($scope) {
 		
+		var filters = ["Vendor", "Quest", "Dungeon", "Raid", "Trial", "FATE", "Veteran Reward", "Achievement", "Unobtainable", "Merchandise", "Holiday", "Cash Shop", "Treasure Hunt", "Crafted", "Gathered", "Gardening", "Venture", "Other"];
+		
 		$scope.filterLibrary = filterLibrary;
 		$scope.filterObtained = false;
 		$scope.settingTabActive = false;
@@ -11,10 +13,11 @@ $(document).ready(function(){
 		$scope.tabs = [
 			{ title:'Minions', id: '0', prefix: 'minion', data:minionLibrary, tableHeading:["Name", "Category", "Subcategory", "Info", "Location", "Expansion"], numObtained:0, maxObtained: 0},
 			{ title:'Mounts', id: '1', prefix: 'mount', data:mountLibrary, tableHeading:["Name", "Category", "Subcategory", "Info", "Location", "Expansion"], numObtained:0, maxObtained: 0},
-			{ title:'Triple Triad', id: '2', prefix: 'triad', data:ttLibrary, tableHeading:["Name", "Category", "Subcategory", "Rarity", "Card", "Info", "Location", "NPCs", "Expansion"], numObtained:0, maxObtained: 0},
-			{ title:'Barding', id: '3', prefix: 'barding', data:bardingLibrary, tableHeading:["Name", "Category", "Subcategory", "Info", "Location", "Expansion"], numObtained:0, maxObtained: 0},
-			{ title:'Cosmetics', id: '4', prefix: 'cosmetic', data:cosmeticLibrary, tableHeading:["Name", "Category", "Subcategory", "Type", "Info", "Location", "Expansion"], numObtained:0, maxObtained: 0}
+			{ title:'Triple Triad', id: '2', prefix: 'triad', data:ttLibrary, tableHeading:["Name", "Category", "Subcategory", "Rarity", "Card", "Info", "Location", "NPCs", "Expansion"], numObtained:0, maxObtained: 0}
 		];
+		//the following tbi:
+		//	{ title:'Barding', id: '3', prefix: 'barding', data:bardingLibrary, tableHeading:["Name", "Category", "Subcategory", "Info", "Location", "Expansion"], numObtained:0, maxObtained: 0},
+		//	{ title:'Cosmetics', id: '4', prefix: 'cosmetic', data:cosmeticLibrary, tableHeading:["Name", "Category", "Subcategory", "Type", "Info", "Location", "Expansion"], numObtained:0, maxObtained: 0}
 		
 		$scope.activeTabNum = 0;
 		$scope.activeTab = $scope.tabs[0];
