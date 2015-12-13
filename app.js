@@ -2,42 +2,55 @@ $(document).ready(function(){
 	var app = angular.module('XIVTrack', ['ui.bootstrap', 'smart-table']);	
 	var control = app.controller('TableController', function($scope) {
 		
-		var filters = ["Vendor", "Quest", "Dungeon", "Raid", "Trial", "FATE", "Veteran Reward", "Achievement", "Unobtainable", "Merchandise", "Holiday", "Cash Shop", "Treasure Hunt", "Crafted", "Gathered", "Gardening", "Venture", "Other"];
-		
-		$scope.filterLibrary = filterLibrary;
+		$scope.filterLibrary = [{category: "Vendor"}, {category: "Quest"}, {category: "Dungeon"}, {category: "Raid"}, {category: "Trial"}, {category: "FATE"}, {category: "Veteran Reward"}, {category: "Achievement"}, {category: "Unobtainable"}, {category: "Merchandise"}, {category: "Holiday"}, {category: "Cash Shop"}, {category: "Treasure Hunt"}, {category: "Crafted"}, {category: "Gathered"}, {category: "Gardening"}, {category: "Venture"}, {category: "NPC"}, {category: "Other"}];
 		$scope.filterObtained = false;
 		$scope.settingTabActive = false;
 		$scope.sortType = "Name";
 		$scope.reverseSort = false;
 		
 		$scope.tabs = [
-			{ title:'Minions', id: '0', prefix: 'minion', data:minionLibrary, tableHeading:["Name", "Category", "Subcategory", "Info", "Location", "Expansion"], numObtained:0, maxObtained: 0},
-			{ title:'Mounts', id: '1', prefix: 'mount', data:mountLibrary, tableHeading:["Name", "Category", "Subcategory", "Info", "Location", "Expansion"], numObtained:0, maxObtained: 0},
-			{ title:'Triple Triad', id: '2', prefix: 'triad', data:ttLibrary, tableHeading:["Name", "Category", "Subcategory", "Rarity", "Card", "Info", "Location", "NPCs", "Expansion"], numObtained:0, maxObtained: 0}
+			{ title:'Minions', id: '0', prefix: 'minion', data: [], tableHeading:["Name", "Source"], numObtained:0, maxObtained: 0},
+			{ title:'Mounts', id: '1', prefix: 'mount', data: [], tableHeading:["Name", "Source"], numObtained:0, maxObtained: 0},
+			{ title:'Triple Triad', id: '2', prefix: 'triad', data: [], tableHeading:["Name", "Card", "Source"], numObtained:0, maxObtained: 0}
 		];
 		//the following tbi:
 		//	{ title:'Barding', id: '3', prefix: 'barding', data:bardingLibrary, tableHeading:["Name", "Category", "Subcategory", "Info", "Location", "Expansion"], numObtained:0, maxObtained: 0},
 		//	{ title:'Cosmetics', id: '4', prefix: 'cosmetic', data:cosmeticLibrary, tableHeading:["Name", "Category", "Subcategory", "Type", "Info", "Location", "Expansion"], numObtained:0, maxObtained: 0}
-		
+
 		$scope.activeTabNum = 0;
 		$scope.activeTab = $scope.tabs[0];
 		
-		$scope.setTab = function(num) {
-			$scope.sortType = "Name";
-			$scope.reverseSort = false;
-			$scope.activeTab = $scope.tabs[num];
-			$scope.activeTabNum = num;
+		$scope.setup = function() {
+			$scope.handleJson($scope.tabs[0]);
+			$scope.handleJson($scope.tabs[1]);
+			$scope.handleJson($scope.tabs[2]);
 		}
 		
-		$scope.loadData = function() {
-			for (t in $scope.tabs) {
-				tab = $scope.tabs[t];
+		$scope.handleJson = function(tab) {
+			var file = 'data/' + tab.prefix + 'library.json'
+			var req = new XMLHttpRequest();
+			req.open('GET', file);
+			req.onreadystatechange = function() {
+				if (req.responseText == "") {
+					return;
+				}
+				var j = $.parseJSON(req.responseText);
+				tab.data = j;
+				var item;
 				for (i in tab.data) {
 					item = tab.data[i];
 					item.obtained = $scope.fetchObtained(item, tab);
 					tab.maxObtained++;
 				}
 			}
+			req.send();
+		}
+		
+		$scope.setTab = function(num) {
+			$scope.sortType = "Name";
+			$scope.reverseSort = false;
+			$scope.activeTab = $scope.tabs[num];
+			$scope.activeTabNum = num;
 		}
 		
 		$scope.checkFilter = function(cat, subcat) {
@@ -78,15 +91,19 @@ $(document).ready(function(){
 		
 		$scope.getImage = function(item) {
 			if (item.image != undefined) return item.image;
-			var str = item.name;
+			return $scope.fixImgString(item.name);
+		}
+		
+		$scope.fixImgString = function(str) {
+			if (str == undefined) return "";
 			str = str.replace(/ |#|'/g, "_");
 			str = str.toLowerCase();
 			return str;
 		}
 		
-		$scope.getIcons = function(item, column) {
-			if (item[column.toLowerCase() + '_icon'] == undefined) return [];
-			return item[column.toLowerCase() + '_icon'].split(" ");
+		$scope.getFlags = function(item) {
+			if (item.flags == undefined) return [];
+			return item.flags.split(" ");
 		}
 		
 		$scope.getTooltips = function(item, column) {
@@ -124,6 +141,6 @@ $(document).ready(function(){
 			} else return false;
 		}
 		
-		$scope.loadData();
+		$scope.setup();
 	});
 });

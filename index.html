@@ -10,12 +10,6 @@
 		<script type="text/javascript" src="smart-table.js"></script>
 		<script type="text/javascript" src="stStickyHeader.js"></script>
 		<script type="text/javascript" src="ui-bootstrap.js"></script>
-		<script type="text/javascript" src="data/minionlibrary.js"></script>
-		<script type="text/javascript" src="data/mountlibrary.js"></script>
-		<script type="text/javascript" src="data/ttlibrary.js"></script>
-		<script type="text/javascript" src="data/bardinglibrary.js"></script>
-		<script type="text/javascript" src="data/cosmeticlibrary.js"></script>
-		<script type="text/javascript" src="data/filterlibrary.js"></script>
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
 		<link rel="stylesheet" href="format.css" />
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -56,8 +50,14 @@
 						<img ng-src="icons/{{getImage(item)}}.png" height="48" width="48"> <i class="fa fa-sticky-note-o fa-lg" tooltip-placement="right" uib-tooltip="{{item.lore}}"></i>
 					</td>
 					<td ng-repeat="column in activeTab.tableHeading">
-						<div ng-if="column.toLowerCase() != 'card'">{{item[column.toLowerCase()]}} <i class="fa fa-sticky-note-o fa-lg" tooltip-placement="right" uib-tooltip="{{tip}}" ng-repeat="tip in getTooltips(item, column)"> </i><img ng-repeat="i in getIcons(item, column.toLowerCase())" ng-src="icons/icon_{{i}}.png"></div>
-						<div class="card-core" ng-if="column.toLowerCase() == 'card'"><img class="card-left" ng-src="icons/card_{{getCard(item, 0)}}.png"><img class="card-up" ng-src="icons/card_{{getCard(item, 1)}}.png"><img class="card-down" ng-src="icons/card_{{getCard(item, 2)}}.png"><img class="card-right" ng-src="icons/card_{{getCard(item, 3)}}.png"></div>
+						<div ng-if="column.toLowerCase() == 'name'">{{item[column.toLowerCase()]}} <i class="fa fa-sticky-note-o fa-lg" tooltip-placement="right" uib-tooltip="{{tip}}" ng-repeat="tip in getTooltips(item, column)"> </i><img ng-repeat="i in getFlags(item)" ng-src="icons/system/icon_{{i}}.png"></div>
+						<div ng-if="column.toLowerCase() == 'card'" class="card-core""><img class="card-left" ng-src="icons/system/card_{{getCard(item, 0)}}.png"><img class="card-up" ng-src="icons/system/card_{{getCard(item, 1)}}.png"><img class="card-down" ng-src="icons/system/card_{{getCard(item, 2)}}.png"><img class="card-right" ng-src="icons/system/card_{{getCard(item, 3)}}.png"></div>
+						<div ng-if="column.toLowerCase() == 'source'"><img class="source" ng-src="icons/system/source_{{fixImgString(s.type)}}.png" tooltip-placement="right" uib-popover-template="'sourceTemplate.html'" popover-trigger="mouseenter" ng-repeat="s in item.sources"></div>
+						<script type="text/ng-template" id="sourceTemplate.html">
+							<div>Info: {{s.info}}</div>
+							<div>Location: {{s.location}}</div>
+							<div ng-if="s.details != undefined">Details: {{s.details}}</div>
+						</script>
 						</td>
 				</tr>
 			</tbody>
@@ -74,26 +74,15 @@
 						<div>
 							<button type="button" class="btn btn-btnprimary" ng-model="$scope.filterObtained" uib-btn-checkbox>Obtained</button>
 						</div>
-						<div ng-repeat="category in filterLibrary">
-							<button type="button" class="btn btn-btnprimary" ng-model="category.state" uib-btn-checkbox>{{category.category}}</button>
-							<div class="btn-group">
-							<label ng-repeat="subcategory in category.subcategory" class="btn btn-primary" ng-model="subcategory.state" ng-hide="category.state" uib-btn-checkbox>{{subcategory.category}}</label>
+						<div ng-repeat="f in filters">
+							<button type="button" class="btn btn-btnprimary" ng-model="f.state" uib-btn-checkbox>{{f.category}}</button>
 						</div>
-					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</body>
 </html>
-<!--<div>
-							<button type="button" class="btn btn-btnprimary" ng-model="$scope.filterObtained" uib-btn-checkbox>Obtained</button>
-						</div>
-						<div ng-repeat="category in filterLibrary">
-							<button type="button" class="btn btn-btnprimary" ng-model="category.state" uib-btn-checkbox>{{category.category}}</button>
-							<div class="btn-group">
-							<label ng-repeat="subcategory in category.subcategory" class="btn btn-primary" ng-model="subcategory.state" ng-hide="category.state" uib-btn-checkbox>{{subcategory.category}}</label>
-						</div>
-						-->
