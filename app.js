@@ -2,7 +2,7 @@ $(document).ready(function(){
 	var app = angular.module('XIVTrack', ['ui.bootstrap', 'smart-table']);	
 	var control = app.controller('TableController', function($scope) {
 		
-		$scope.filterLibrary = [{category: "Vendor"}, {category: "Quest"}, {category: "Dungeon"}, {category: "Raid"}, {category: "Trial"}, {category: "FATE"}, {category: "Veteran Reward"}, {category: "Achievement"}, {category: "Unobtainable"}, {category: "Merchandise"}, {category: "Holiday"}, {category: "Cash Shop"}, {category: "Treasure Hunt"}, {category: "Crafted"}, {category: "Gathered"}, {category: "Gardening"}, {category: "Venture"}, {category: "NPC"}, {category: "Other"}];
+		$scope.filterLibrary = {vendor:{name:"Vendor", filtered:false}, quest:{name:"Quest", filtered:false}, dungeon:{name:"Dungeon", filtered:false}, raid:{name:"Raid", filtered:false}, trial:{name:"Trial", filtered:false}, fate:{name:"FATE", filtered:false}, achievement:{name:"Achievement", filtered:false}, unobtainable:{name:"Unobtainable", filtered:false}, merchandise:{name:"Merchandise Bonus", filtered:false}, holiday:{name:"Holiday", filtered:false}, promotion:{name:"Promotion", filtered:false}, cashshop:{name:"Cash Shop", filtered:false}, treasurehunt:{name:"Treasure Hunt", filtered:false}, crafted:{name:"Crafted", filtered:false}, gathered:{name:"Gathered", filtered:false}, gardening:{name:"Gardening", filtered:false}, venture:{name:"Venture", filtered:false}, npc:{name:"NPC", filtered:false}, other:{name:"Other", filtered:false}};
 		$scope.filterObtained = false;
 		$scope.settingTabActive = false;
 		$scope.sortType = "Name";
@@ -53,22 +53,18 @@ $(document).ready(function(){
 			$scope.activeTabNum = num;
 		}
 		
-		$scope.checkFilter = function(cat, subcat) {
-			for (x in $scope.filterLibrary) {
-				obj = $scope.filterLibrary[x];
-				if (cat == obj.category) {
-					if (subcat == null || obj.state) {
-						return obj.state;
-					} else {
-						for (y in obj.subcategory) {
-							subobj = obj.subcategory[y];
-							if (subcat == subobj.category) {
-								return subobj.state;
-							}
-						}
-					}	
-				}
+		$scope.checkFilter = function(item) {
+			item.activesources = [];
+			for (var i = 0; i < item.sources.length; i++) {
+				s = item.sources[i];
+				if (!$scope.filterLibrary[s.type].filtered) item.activesources.push(s);
 			}
+			if (item.activesources.length == 0) return true;
+			return false;
+		}
+		
+		$scope.isFilterd = function(type) {
+			return $scope.filterLibrary[type].filtered;
 		}
 		
 		$scope.tabActive = function(num) {
@@ -89,14 +85,13 @@ $(document).ready(function(){
 			return $scope.activeTab.maxObtained;
 		}
 		
-		$scope.getImage = function(item) {
-			if (item.image != undefined) return item.image;
-			return $scope.fixImgString(item.name);
+		$scope.getItemImage = function(item, prefix) {
+			return $scope.fixImgString(item.name) + "_" + prefix;
 		}
 		
 		$scope.fixImgString = function(str) {
 			if (str == undefined) return "";
-			str = str.replace(/ |#|'/g, "_");
+			str = str.replace(/ |#|'|&/g, "_");
 			str = str.toLowerCase();
 			return str;
 		}
@@ -104,19 +99,6 @@ $(document).ready(function(){
 		$scope.getFlags = function(item) {
 			if (item.flags == undefined) return [];
 			return item.flags.split(" ");
-		}
-		
-		$scope.getTooltips = function(item, column) {
-			var arr = [];
-			var looper = 0;
-			while (item[column.toLowerCase() + '_tt' + looper] != undefined) {
-				arr[looper] = item[column.toLowerCase() + '_tt' + looper];
-				looper++;
-			}
-			return arr;
-			
-			if (item[column.toLowerCase() + '_tt0'] == undefined) return arr;
-			return item[column.toLowerCase() + '_icon'].split(" ");
 		}
 		
 		$scope.getCard = function (item, position) {

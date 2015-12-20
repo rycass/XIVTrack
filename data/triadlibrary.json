@@ -6,8 +6,8 @@
 		"rarity": "1",
 		"card": "4 4 3 2",
 		"sources": [{
-			"type": "Quest",
-			"info": "Triple Triad Trial",
+			"type": "quest",
+			"info": "Triple Triad trial",
 			"location": "Gold Saucer (4, 7)"
 		}]
 	},
@@ -18,15 +18,15 @@
 		"rarity": "1",
 		"card": "2 2 7 2",
 		"sources": [{
-			"type": "Dungeon",
+			"type": "dungeon",
 			"info": "Tonberry King",
 			"location": "Wanderer's Palace"
 		}, {
-			"type": "Dungeon",
+			"type": "dungeon",
 			"info": "Manxome Molaa Ja Ja",
 			"location": "Wanderer's Palace (Hard)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Memeroon",
 			"location": "Upper La Noscea (14, 24)"
 		}]
@@ -38,8 +38,8 @@
 		"rarity": "1",
 		"card": "3 4 3 3",
 		"sources": [{
-			"type": "Quest",
-			"info": "Triple Triad Trial",
+			"type": "quest",
+			"info": "Triple Triad trial",
 			"location": "Gold Saucer (4, 7)"
 		}]
 	},
@@ -50,11 +50,11 @@
 		"rarity": "1",
 		"card": "4 2 4 3",
 		"sources": [{
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "Bronze Triad Card",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Triple Triad Master",
 			"location": "Gold Saucer (4, 7)"
 		}]
@@ -66,11 +66,11 @@
 		"rarity": "1",
 		"card": "5 2 3 4",
 		"sources": [{
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "Bronze Triad Card",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Roger",
 			"location": "Central Thanalan (19, 20)"
 		}]
@@ -82,8 +82,8 @@
 		"rarity": "1",
 		"card": "3 3 3 4",
 		"sources": [{
-			"type": "Quest",
-			"info": "Triple Triad Trial",
+			"type": "quest",
+			"info": "Triple Triad trial",
 			"location": "Gold Saucer (4, 7)"
 		}]
 	},
@@ -94,8 +94,8 @@
 		"rarity": "1",
 		"card": "3 4 5 2",
 		"sources": [{
-			"type": "Quest",
-			"info": "Triple Triad Trial",
+			"type": "quest",
+			"info": "Triple Triad trial",
 			"location": "Gold Saucer (4, 7)"
 		}]
 	},
@@ -106,16 +106,16 @@
 		"rarity": "1",
 		"card": "4 3 3 3",
 		"sources": [{
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "Bronze Triad Card",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Maisenta",
 			"location": "New Gridania (11, 11)"
 		},
 		{
-			"type": "NPC",
+			"type": "npc",
 			"info": "Wymond",
 			"location": "Ul'dah - Steps of Nald (9, 8)"
 		}]
@@ -127,11 +127,11 @@
 		"rarity": "1",
 		"card": "2 5 5 2",
 		"sources": [{
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "Bronze Triad Card",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Roger",
 			"location": "Central Thanalan (19, 20)"
 		}]
@@ -143,8 +143,8 @@
 		"rarity": "1",
 		"card": "5 2 2 5",
 		"sources": [{
-			"type": "Quest",
-			"info": "Triple Triad Trial",
+			"type": "quest",
+			"info": "Triple Triad trial",
 			"location": "Gold Saucer (4, 7)"
 		}]
 	},
@@ -155,11 +155,11 @@
 		"rarity": "1",
 		"card": "2 5 2 5",
 		"sources": [{
-			"type": "Dungeon",
+			"type": "dungeon",
 			"info": "Batraal",
 			"location": "Dzemael Darkhold"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Ourdilic",
 			"location": "Coerthas Central Highlands (6, 22)"
 		}]
@@ -171,11 +171,11 @@
 		"rarity": "1",
 		"card": "2 2 5 5",
 		"sources": [{
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "Bronze Triad Card",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Aurifort of the Three Clubs",
 			"location": "Gold Saucer (4, 7)"
 		}]
@@ -187,23 +187,23 @@
 		"rarity": "1",
 		"card": "1 3 2 7",
 		"sources": [{
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "600 MGP",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Guhtwint of the Three Diamonds",
 			"location": "Gold Saucer (4, 6)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Maisenta",
 			"location": "New Gridania (11, 11)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Momodi",
 			"location": "Ul'dah - Steps of Nald (11, 9)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Mother Miounne",
 			"location": "New Gridania (11, 13)"
 		}]
@@ -216,11 +216,11 @@
 		"rarity": "1",
 		"card": "1 1 7 4",
 		"sources": [{
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "Silver Triad Card",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Memeroon",
 			"location": "Upper La Noscea (14, 24)"
 		}]
@@ -233,15 +233,15 @@
 		"rarity": "1",
 		"card": "4 6 3 1",
 		"sources": [{
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "Silver Triad Card",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Joellaut",
 			"location": "Coerthas Central Highlands (13, 15)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Jonas of the Three Spades",
 			"location": "Gold Saucer (4, 7)"
 		}]
@@ -254,11 +254,11 @@
 		"rarity": "1",
 		"card": "4 2 5 4",
 		"sources": [{
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "Silver Triad Card",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Maisenta",
 			"location": "New Gridania (11, 11)"
 		}]
@@ -271,7 +271,7 @@
 		"rarity": "1",
 		"card": "6 2 4 2",
 		"sources": [{
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "Silver Triad Card",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}]
@@ -284,15 +284,15 @@
 		"rarity": "1",
 		"card": "3 4 3 5",
 		"sources": [{
-			"type": "Dungeon",
+			"type": "dungeon",
 			"info": "Denn the Orcatoothed",
 			"location": "Sastasha"
 		}, {
-			"type": "Dungeon",
+			"type": "dungeon",
 			"info": "Kraken",
 			"location": "Sastasha (Hard)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Baderon",
 			"location": "Limsa Lominsa Upper Decks (11, 11)"
 		}]
@@ -305,7 +305,7 @@
 		"rarity": "1",
 		"card": "7 2 3 1",
 		"sources": [{
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "Silver Triad Card",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}]
@@ -317,15 +317,15 @@
 		"rarity": "1",
 		"card": "7 2 3 1",
 		"sources": [{
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "840 MGP",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Jonas of the Three Spades",
 			"location": "Gold Saucer (4, 7)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Trachtoum",
 			"location": "Lower La Noscea (35, 15)"
 		}]
@@ -337,11 +337,11 @@
 		"rarity": "2",
 		"card": "2 3 7 6",
 		"sources": [{
-			"type": "Dungeon",
+			"type": "dungeon",
 			"info": "Siren",
 			"location": "Pharos Sirius"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Mimidoa",
 			"location": "Lower La Noscea (25, 34)"
 		}]
@@ -353,11 +353,11 @@
 		"rarity": "2",
 		"card": "7 2 6 3",
 		"sources": [{
-			"type": "Trial",
+			"type": "trial",
 			"info": "Ultros & Typhon",
 			"location": "Dragon's Neck"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Helmhart",
 			"location": "Eastern Thanalan (20, 21)"
 		}]
@@ -369,15 +369,15 @@
 		"rarity": "2",
 		"card": "3 6 2 7",
 		"sources": [{
-			"type": "Dungeon",
+			"type": "dungeon",
 			"info": "Antaboga",
 			"location": "Amdapor Keep"
 		}, {
-			"type": "Dungeon",
+			"type": "dungeon",
 			"info": "Ferdiad",
 			"location": "Amdapor Keep (Hard)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Buscarron",
 			"location": "South Shroud (19, 19)"
 		}]
@@ -389,15 +389,15 @@
 		"rarity": "2",
 		"card": "6 7 2 3",
 		"sources": [{
-			"type": "Dungeon",
+			"type": "dungeon",
 			"info": "Lady Amandine",
 			"location": "Haukke Manor"
 		}, {
-			"type": "Dungeon",
+			"type": "dungeon",
 			"info": "Halicarnassus",
 			"location": "Haukke Manor (Hard)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Piralnaut",
 			"location": "East Shroud (17, 26)"
 		}]
@@ -409,11 +409,11 @@
 		"rarity": "2",
 		"card": "2 2 7 7",
 		"sources": [{
-			"type": "Dungeon",
+			"type": "dungeon",
 			"info": "Chimera",
 			"location": "Cutter's Cry"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"location": "Fufulupa, Western Thanalan (22, 17)"
 		}]
 	},
@@ -424,15 +424,15 @@
 		"rarity": "2",
 		"card": "7 2 7 2",
 		"sources": [{
-			"type": "Dungeon",
+			"type": "dungeon",
 			"info": "Isgebind",
 			"location": "Stone Vigil"
 		}, {
-		 	"type": "Dungeon",
+		 	"type": "dungeon",
 			"info": "Giruveganaus",
 			"location": "Stone Vigil (Hard)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Ourdilic",
 			"location": "Coerthas Central Highlands (6, 22)"
 		}]
@@ -444,7 +444,7 @@
 		"rarity": "2",
 		"card": "5 5 5 5",
 		"sources": [{
-			"type": "FATE",
+			"type": "fate",
 			"info": "Special Tarasque Force",
 			"location": "Dravanian Forelands (13, 36)"
 		}]
@@ -457,15 +457,15 @@
 		"rarity": "2",
 		"card": "6 6 2 6",
 		"sources": [{
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "Bronze Triad Card",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Guhtwint of the Three Diamonds",
 			"location": "Gold Saucer (4, 6)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Mimidoa",
 			"location": "Lower La Noscea (25, 34)"
 		}]
@@ -477,11 +477,11 @@
 		"rarity": "2",
 		"card": "3 7 5 5",
 		"sources": [{
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "Gold Triad Card",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Momodi Modi",
 			"location": "Ul'dah - Steps of Nald (11, 9)"
 		}]
@@ -493,11 +493,11 @@
 		"rarity": "2",
 		"card": "5 3 5 7",
 		"sources": [{
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "Gold Triad Card",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Baderon",
 			"location": "Limsa Lominsa Upper Decks (11, 11)"
 		}]
@@ -509,11 +509,11 @@
 		"rarity": "2",
 		"card": "7 5 3 5",
 		"sources": [{
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "Gold Triad Card",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Mother Miounne",
 			"location": "New Gridania (11, 13)"
 		}]
@@ -526,11 +526,11 @@
 		"rarity": "2",
 		"card": "1 3 7 7",
 		"sources": [{
-			"type": "Dungeon",
+			"type": "dungeon",
 			"info": "Livia sas Junis",
 			"location": "Castrum Meridianum"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Indolent Imperial",
 			"location": "Mor Dhona (11, 17)"
 		}]
@@ -543,11 +543,11 @@
 		"rarity": "2",
 		"card": "1 3 7 7",
 		"sources": [{
-			"type": "Trial",
+			"type": "trial",
 			"info": "Rhitahtyn Sas Arvina",
 			"location": "Cape Westwind"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Indolent Imperial",
 			"location": "Mor Dhona (11, 17)"
 		}]
@@ -559,11 +559,11 @@
 		"rarity": "2",
 		"card": "5 5 7 3",
 		"sources": [{
-			"type": "NPC",
+			"type": "npc",
 			"info": "Mimidoa",
 			"location": "Lower La Noscea (25, 34)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Sezul Totoloc",
 			"location": "North Shroud (24, 23)",
 			"details": "'Allied' Reputation with Ixal required to challenge"
@@ -576,15 +576,15 @@
 		"rarity": "2",
 		"card": "7 1 3 7",
 		"sources": [{
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "Gold Triad Card",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Helmhart",
 			"location": "Eastern Thanalan (20, 21)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Rowena",
 			"location": "Mor Dhona (21, 5)"
 		}]
@@ -597,11 +597,11 @@
 		"rarity": "2",
 		"card": "6 6 6 2",
 		"sources": [{
-			"type": "NPC",
+			"type": "npc",
 			"info": "Marcette",
 			"location": "Central Shroud (16, 18)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Piralnaut",
 			"location": "East Shroud (17, 26)"
 		}]
@@ -614,7 +614,7 @@
 		"rarity": "2",
 		"card": "6 2 6 6",
 		"sources": [{
-			"type": "NPC",
+			"type": "npc",
 			"info": "F'hobhas",
 			"location": "Central Thanalan (23, 13)"
 		}]
@@ -627,7 +627,7 @@
 		"rarity": "2",
 		"card": "2 6 6 6",
 		"sources": [{
-			"type": "NPC",
+			"type": "npc",
 			"info": "Memeroon",
 			"location": "Upper La Noscea (14, 24)"
 		}]
@@ -639,15 +639,15 @@
 		"rarity": "3",
 		"card": "2 7 4 8",
 		"sources": [{
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "Bronze Triad Card",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Ourdilic",
 			"location": "Coerthas Central Highlands (6, 22)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Sezul Totoloc",
 			"location": "North Shroud (24, 23)",
 			"details": "'Allied' Reputation with Ixal required to challenge"
@@ -661,15 +661,15 @@
 		"rarity": "3",
 		"card": "7 7 6 1",
 		"sources": [{
-			"type": "Trial",
+			"type": "trial",
 			"info": "Ifrit",
 			"location": "The Bowl of Embers (Hard)"
 		}, {
-			"type": "Trial",
+			"type": "trial",
 			"info": "Ifrit",
 			"location": "The Bowl of Embers (Extreme)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Swift",
 			"location": "Ul'dah - Steps of Nald (8, 8)"
 		}]
@@ -682,19 +682,19 @@
 		"rarity": "3",
 		"card": "6 1 7 7",
 		"sources": [{
-			"type": "Trial",
+			"type": "trial",
 			"info": "Titan",
 			"location": "The Navel (Hard)"
 		}, {
-			"type": "Trial",
+			"type": "trial",
 			"info": "Titan",
 			"location": "The Navel (Extreme)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Landenel",
 			"location": "South Shroud (16, 28)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Trachtoum",
 			"location": "Lower La Noscea (35, 15)"
 		}]
@@ -707,15 +707,15 @@
 		"rarity": "3",
 		"card": "7 7 1 6",
 		"sources": [{
-			"type": "Trial",
+			"type": "trial",
 			"info": "Garuda",
 			"location": "The Howling Eye (Hard)"
 		}, {
-			"type": "Trial",
+			"type": "trial",
 			"info": "Garuda",
 			"location": "The Howling Eye(Extreme)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Marcette",
 			"location": "Central Shroud (16, 18)"
 		}]
@@ -727,11 +727,11 @@
 		"rarity": "3",
 		"card": "3 8 7 3",
 		"sources": [{
-			"type": "Trial",
+			"type": "trial",
 			"info": "Gilgamesh",
 			"location": "Battle on the Big Bridge"
 		}, {
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "Mythril Triad Card",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}]
@@ -744,15 +744,15 @@
 		"rarity": "3",
 		"card": "1 7 7 6",
 		"sources": [{
-			"type": "Trial",
+			"type": "trial",
 			"info": "Good King Moggle Mog XIII",
 			"location": "Thornarch (Hard)"
 		}, {
-			"type": "Trial",
+			"type": "trial",
 			"info": "Good King Moggle Mog XIII",
 			"location": "Thornmarch (Extreme)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Vorsaile Heuloix",
 			"location": "New Gridania (9, 11)"
 		}]
@@ -764,11 +764,11 @@
 		"rarity": "3",
 		"card": "6 5 6 6",
 		"sources": [{
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "4,800 MGP",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Buscarron",
 			"location": "South Shroud (19, 19)"
 		}]
@@ -780,20 +780,20 @@
 		"rarity": "3",
 		"card": "6 6 5 6",
 		"sources": [{
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "9,600 MGP",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Hab",
 			"location": "Southern Thanalan (24, 40)",
-			"details": "Quest 'Zombies are People Too' must be completed to challenge"
+			"details": "quest 'Zombies are People Too' must be completed to challenge"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "King Elmer",
 			"location": "Gold Saucer (3, 7)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Ruhtwyda of the Three Hearts",
 			"location": "Gold Saucer (3, 7)"
 		}]
@@ -806,14 +806,14 @@
 		"rarity": "3",
 		"card": "7 2 8 3",
 		"sources": [{
-			"type": "NPC",
+			"type": "npc",
 			"info": "Fufulupa",
 			"location": "Western Thanalan (22, 17)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Hab",
 			"location": "Southern Thanalan (24, 40)",
-			"details": "Quest 'Zombies are People Too' must be completed to challenge"
+			"details": "quest 'Zombies are People Too' must be completed to challenge"
 		}]
 	},
 	{
@@ -824,7 +824,7 @@
 		"rarity": "3",
 		"card": "7 4 8 1",
 		"sources": [{
-			"type": "NPC",
+			"type": "npc",
 			"info": "Indolent Imperial",
 			"location": "Mor Dhona (11, 17)"
 		}]
@@ -837,11 +837,11 @@
 		"rarity": "3",
 		"card": "2 3 8 7",
 		"sources": [{
-			"type": "NPC",
+			"type": "npc",
 			"info": "Buscarron",
 			"location": "South Shroud (19, 19)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Vorsaile Heuloix",
 			"location": "New Gridania (9, 11)"
 		}]
@@ -854,11 +854,11 @@
 		"rarity": "3",
 		"card": "4 7 1 8",
 		"sources": [{
-			"type": "NPC",
+			"type": "npc",
 			"info": "Gegeruju",
 			"location": "Eastern La Noscea (33, 30)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "R'ashaht Rhiki",
 			"location": "Limsa Lominsa Upper Decks (13, 12)"
 		}]
@@ -871,11 +871,11 @@
 		"rarity": "3",
 		"card": "7 8 4 1",
 		"sources": [{
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "Silver Triad Card",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Ruhtwyda of the Three Hearts",
 			"location": "Gold Saucer (3, 7)"
 		}]
@@ -888,15 +888,15 @@
 		"rarity": "4",
 		"card": "1 7 9 8",
 		"sources": [{
-			"type": "Trial",
+			"type": "trial",
 			"info": "Ultima Weapon",
 			"location": "The Minstrel's Ballad: Ultima's Bane"
 		}, {
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "Gold Triad Card",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "Mythril Triad Card",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}]
@@ -909,15 +909,15 @@
 		"rarity": "4",
 		"card": "8 8 1 8",
 		"sources": [{
-			"type": "Trial",
+			"type": "trial",
 			"info": "Odin",
 			"location": "Urth's Fount"
 		}, {
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "Mythril Triad Card",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Landenel",
 			"location": "South Shroud (16, 28)"
 		}]
@@ -930,15 +930,15 @@
 		"rarity": "4",
 		"card": "8 8 8 1",
 		"sources": [{
-			"type": "Trial",
+			"type": "trial",
 			"info": "Ramuh",
 			"location": "The Striking Tree (Hard)"
 		}, {
-			"type": "Trial",
+			"type": "trial",
 			"info": "Ramuh",
 			"location": "The Striking Tree (Extreme)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Vorsaile Heuloix",
 			"location": "New Gridania (9, 11)"
 		}]
@@ -951,15 +951,15 @@
 		"rarity": "4",
 		"card": "1 8 8 8",
 		"sources": [{
-			"type": "Trial",
+			"type": "trial",
 			"info": "Leviathan",
 			"location": "The Whorleater (Hard)"
 		}, {
-			"type": "Trial",
+			"type": "trial",
 			"info": "Leviathan",
 			"location": "The Whorleater (Extreme)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "R'ashaht Rhiki",
 			"location": "Limsa Lominsa Upper Decks (13, 12)"
 		}]
@@ -972,15 +972,15 @@
 		"rarity": "4",
 		"card": "8 1 8 8",
 		"sources": [{
-			"type": "Trial",
+			"type": "trial",
 			"info": "Shiva",
 			"location": "Akh Afah Amphitheatre (Hard)"
 		}, {
-			"type": "Trial",
+			"type": "trial",
 			"info": "Shiva",
 			"location": "Akh Afah Ampitheatre (Extreme)"
 		}, {
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "Mythril Triad Card",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}]
@@ -993,11 +993,11 @@
 		"rarity": "4",
 		"card": "5 9 3 8",
 		"sources": [{
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "Silver Triad Card",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Gegeruju",
 			"location": "Eastern La Noscea (33, 30)"
 		}]
@@ -1009,11 +1009,11 @@
 		"rarity": "4",
 		"card": "8 4 4 9",
 		"sources": [{
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "Silver Triad Card",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
-			"type": "Other",
+			"type": "other",
 			"info": "Platinum Triad Card",
 			"location": "N/A"
 		}]
@@ -1025,11 +1025,11 @@
 		"rarity": "4",
 		"card": "2 5 9 9",
 		"sources": [{
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "Gold Triad Card",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Sezul Totoloc",
 			"location": "North Shroud (24, 23)",
 			"details": "'Allied' Reputation with Ixal required to challenge"
@@ -1043,11 +1043,11 @@
 		"rarity": "4",
 		"card": "9 9 3 3",
 		"sources": [{
-			"type": "NPC",
+			"type": "npc",
 			"info": "Joellaut",
 			"location": "Coerthas Central Highlands (13, 15)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Swift",
 			"location": "Ul'dah - Steps of Nald (8, 8)"
 		}]
@@ -1060,7 +1060,7 @@
 		"rarity": "4",
 		"card": "3 9 9 4",
 		"sources": [{
-			"type": "NPC",
+			"type": "npc",
 			"info": "Rowena",
 			"location": "Mor Dhona (21, 5)"
 		}]
@@ -1073,7 +1073,7 @@
 		"rarity": "5",
 		"card": "6 9 9 5",
 		"sources": [{
-			"type": "NPC",
+			"type": "npc",
 			"info": "King Elmer",
 			"location": "Gold Saucer (3, 7)"
 		}]
@@ -1085,10 +1085,10 @@
 		"rarity": "5",
 		"card": "8 1 A 8",
 		"sources": [{
-			"type": "NPC",
+			"type": "npc",
 			"info": "Hab",
 			"location": "Southern Thanalan (24, 40)",
-			"details": "Quest 'Zombies are People Too' must be completed to challenge"
+			"details": "quest 'Zombies are People Too' must be completed to challenge"
 		}]
 	},
 	{
@@ -1098,11 +1098,11 @@
 		"rarity": "5",
 		"card": "8 A 4 6",
 		"sources": [{
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "400,000 MGP",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
-			"type": "Other",
+			"type": "other",
 			"info": "Platinum Triad Card",
 			"location": "N/A"
 		}]
@@ -1115,11 +1115,11 @@
 		"rarity": "5",
 		"card": "9 4 5 A",
 		"sources": [{
-			"type": "Dungeon",
+			"type": "dungeon",
 			"info": "Lahabrea",
 			"location": "Praetorium"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Indolent Imperial",
 			"location": "Mor Dhona (11, 17)"
 		}]
@@ -1131,7 +1131,7 @@
 		"rarity": "5",
 		"card": "3 5 A 9",
 		"sources": [{
-			"type": "NPC",
+			"type": "npc",
 			"info": "R'ashaht Rhiki",
 			"location": "Limsa Lominsa Upper Decks (13, 12)"
 		}]
@@ -1143,7 +1143,7 @@
 		"rarity": "5",
 		"card": "7 9 1 A",
 		"sources": [{
-			"type": "NPC",
+			"type": "npc",
 			"info": "Vorsaile Heuloix",
 			"location": "New Gridania (9, 11)"
 		}]
@@ -1155,7 +1155,7 @@
 		"rarity": "5",
 		"card": "A 6 9 2",
 		"sources": [{
-			"type": "NPC",
+			"type": "npc",
 			"info": "Swift",
 			"location": "Ul'dah - Steps of Nald (8, 8)"
 		}]
@@ -1167,7 +1167,7 @@
 		"rarity": "5",
 		"card": "A A 5 2",
 		"sources": [{
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "Gold Triad Card",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}]
@@ -1179,7 +1179,7 @@
 		"rarity": "5",
 		"card": "1 A A 5",
 		"sources": [{
-			"type": "Other",
+			"type": "other",
 			"info": "Platinum Triad Card",
 			"location": "N/A"
 		}]
@@ -1191,15 +1191,15 @@
 		"rarity": "5",
 		"card": "A 8 8 2",
 		"sources": [{
-			"type": "Raid",
+			"type": "raid",
 			"info": "The Cloud of Darkness",
 			"location": "The World of Darkness"
 		}, {
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "Mythril Triad Card",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Lewena",
 			"location": "Gold Saucer (4, 6)"
 		}]
@@ -1211,7 +1211,7 @@
 		"rarity": "5",
 		"card": "A 4 4 A",
 		"sources": [{
-			"type": "Other",
+			"type": "other",
 			"info": "Platinum Triad Card",
 			"location": "N/A"
 		}]
@@ -1223,15 +1223,15 @@
 		"rarity": "5",
 		"card": "A 4 A 4",
 		"sources": [{
-			"type": "Trial",
+			"type": "trial",
 			"info": "Gilgamesh",
 			"location": "Battle in the Big Keep"
 		}, {
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "Mythril Triad Card",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Lewena",
 			"location": "Gold Saucer (4, 6)"
 		}]
@@ -1243,15 +1243,15 @@
 		"rarity": "5",
 		"card": "5 A 2 A",
 		"sources": [{
-			"type": "Trial",
+			"type": "trial",
 			"info": "Ultros & Typhon",
 			"location": "The Dragon's Neck"
 		}, {
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "Mythril Triad Card",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Lewena",
 			"location": "Gold Saucer (4, 6)"
 		}]
@@ -1263,7 +1263,7 @@
 		"rarity": "5",
 		"card": "8 9 9 3",
 		"sources": [{
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "1,000,000 MGP",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}]
@@ -1275,9 +1275,9 @@
 		"rarity": "5",
 		"card": "1 6 A A",
 		"sources": [{
-			"type": "Achievement",
+			"type": "achievement",
 			"info": "Triple Team II",
-			"details": "Defeat 30 NPCs at Triple Triad.",
+			"details": "Defeat 30 npcs at Triple Triad.",
 			"location": "Jonathas, Old Gridania (10, 6)"
 		}]
 	},
@@ -1288,7 +1288,7 @@
 		"rarity": "5",
 		"card": "8 5 6 A",
 		"sources": [{
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "Gold Triad Card",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}]
@@ -1300,7 +1300,7 @@
 		"rarity": "5",
 		"card": "9 A 1 7",
 		"sources": [{
-			"type": "Other",
+			"type": "other",
 			"info": "Platinum Triad Card",
 			"location": "N/A"
 		}]
@@ -1312,7 +1312,7 @@
 		"rarity": "5",
 		"card": "9 4 7 9",
 		"sources": [{
-			"type": "Achievement",
+			"type": "achievement",
 			"info": "Kumite Kumite Kumite",
 			"details": "Win 30 Triple Triad tournament matches.",
 			"location": "Jonathas, Old Gridania (10, 6)"
@@ -1325,7 +1325,7 @@
 		"rarity": "5",
 		"card": "9 1 A 7",
 		"sources": [{
-			"type": "Achievement",
+			"type": "achievement",
 			"info": "Wheel of Fortune V",
 			"details": "Win 300 Triple Triad roulette matches.",
 			"location": "Jonathas, Old Gridania (10, 6)"
@@ -1338,7 +1338,7 @@
 		"rarity": "5",
 		"card": "A 9 7 1",
 		"sources": [{
-			"type": "Other",
+			"type": "other",
 			"info": "Platinum Triad Card",
 			"location": "N/A"
 		}]
@@ -1350,7 +1350,7 @@
 		"rarity": "1",
 		"card": "7 4 1 1",
 		"sources": [{
-			"type": "NPC",
+			"type": "npc",
 			"info": "Noes",
 			"location": "Old Gridania (10, 5)"
 		}]
@@ -1363,10 +1363,10 @@
 		"rarity": "2",
 		"card": "7 2 4 6",
 		"sources": [{
-			"type": "NPC",
+			"type": "npc",
 			"info": "Mogmill",
 			"location": "The Churning Mists (28, 35)",
-			"details": "Quest 'A Secret From Everyone' must be completed to challenge"
+			"details": "quest 'A Secret From Everyone' must be completed to challenge"
 		}]
 	},
 	{
@@ -1377,10 +1377,10 @@
 		"rarity": "2",
 		"card": "3 6 7 3",
 		"sources": [{
-			"type": "NPC",
+			"type": "npc",
 			"info": "Mogmill",
 			"location": "The Churning Mists (28, 35)",
-			"details": "Quest 'A Secret From Everyone' must be completed to challenge"
+			"details": "quest 'A Secret From Everyone' must be completed to challenge"
 		}]
 	},
 	{
@@ -1390,7 +1390,7 @@
 		"rarity": "2",
 		"card": "3 7 1 7",
 		"sources": [{
-			"type": "NPC",
+			"type": "npc",
 			"info": "Yellow Moon",
 			"location": "Uh'Dah - Steps of Thal (14, 13)"
 		}]
@@ -1402,7 +1402,7 @@
 		"rarity": "3",
 		"card": "8 5 7 1",
 		"sources": [{
-			"type": "Dungeon",
+			"type": "dungeon",
 			"info": "Opinicus",
 			"location": "The Dusk Vigil"
 		}]
@@ -1414,7 +1414,7 @@
 		"rarity": "3",
 		"card": "7 1 8 5",
 		"sources": [{
-			"type": "Dungeon",
+			"type": "dungeon",
 			"info": "Tioman",
 			"location": "Sohm Al"
 		}]
@@ -1426,7 +1426,7 @@
 		"rarity": "3",
 		"card": "3 8 2 8",
 		"sources": [{
-			"type": "NPC",
+			"type": "npc",
 			"info": "Gibrillont",
 			"location": "Foundation (12, 11)"
 		}]
@@ -1438,7 +1438,7 @@
 		"rarity": "3",
 		"card": "8 8 3 2",
 		"sources": [{
-			"type": "NPC",
+			"type": "npc",
 			"info": "Wawalago",
 			"location": "Limsa Lominsa Lower Decks (8, 15)"
 		}]
@@ -1450,7 +1450,7 @@
 		"rarity": "3",
 		"card": "1 4 8 8",
 		"sources": [{
-			"type": "NPC",
+			"type": "npc",
 			"info": "Marcechamp",
 			"location": "Dravanian Forelands (31, 32)"
 		}]
@@ -1462,7 +1462,7 @@
 		"rarity": "3",
 		"card": "8 1 8 4",
 		"sources": [{
-			"type": "NPC",
+			"type": "npc",
 			"info": "Idle Imperial",
 			"location": "Azys Lla (28, 31)"
 		}]
@@ -1474,7 +1474,7 @@
 		"rarity": "3",
 		"card": "1 8 8 3",
 		"sources": [{
-			"type": "NPC",
+			"type": "npc",
 			"info": "Midnight Dew",
 			"location": "Idyllshire (5, 6)"
 		}]
@@ -1486,7 +1486,7 @@
 		"rarity": "3",
 		"card": "8 1 3 8",
 		"sources": [{
-			"type": "NPC",
+			"type": "npc",
 			"info": "Marielle",
 			"location": "The Sea of Clouds (15, 37)"
 		}]
@@ -1498,7 +1498,7 @@
 		"rarity": "3",
 		"card": "7 8 1 4",
 		"sources": [{
-			"type": "Dungeon",
+			"type": "dungeon",
 			"info": "The Everliving Bibliotaph",
 			"location": "The Great Gubal Library"
 		}]
@@ -1510,9 +1510,9 @@
 		"rarity": "4",
 		"card": "8 7 5 1",
 		"sources": [{
-			"type": "Achievement",
+			"type": "achievement",
 			"info": "Triple Team III",
-			"details": "Defeat 41 NPCs at Triple Triad.",
+			"details": "Defeat 41 npcs at Triple Triad.",
 			"location": "Jonathas, Old Gridania (10, 6)"
 		}]
 	},
@@ -1523,7 +1523,7 @@
 		"rarity": "4",
 		"card": "9 1 9 5",
 		"sources": [{
-			"type": "NPC",
+			"type": "npc",
 			"info": "Yayake",
 			"location": "Ul'dah - Steps of Nald (7, 12)"
 		}]
@@ -1536,12 +1536,12 @@
 		"rarity": "4",
 		"card": "1 9 8 7",
 		"sources": [{
-			"type": "Trial",
+			"type": "trial",
 			"info": "Ravana",
 			"location": "Thok Ast Thok (Hard)"
 		},
 		{
-			"type": "Trial",
+			"type": "trial",
 			"info": "Ravana",
 			"location": "Thok Ast Thok (Extreme)"
 		}]
@@ -1554,11 +1554,11 @@
 		"rarity": "4",
 		"card": "8 1 7 9",
 		"sources": [{
-			"type": "Trial",
+			"type": "trial",
 			"info": "Bismarck",
 			"location": "The Limitless Blue (Hard)"
 		}, {
-			"type": "Trial",
+			"type": "trial",
 			"info": "Bismarck",
 			"location": "The Limitless Blue (Extreme)"
 		}]
@@ -1570,7 +1570,7 @@
 		"rarity": "5",
 		"card": "8 A 3 7",
 		"sources": [{
-			"type": "Dungeon",
+			"type": "dungeon",
 			"info": "Nidhogg",
 			"location": "The Aery"
 		}]
@@ -1582,7 +1582,7 @@
 		"rarity": "5",
 		"card": "7 3 A 8",
 		"sources": [{
-			"type": "Achievement",
+			"type": "achievement",
 			"info": "Triple-Decker IV",
 			"details": "Obtain 90 unique Triple Triad cards.",
 			"location": "Jonathas, Old Gridania (10, 6)"
@@ -1595,7 +1595,7 @@
 		"rarity": "1",
 		"card": "2 1 7 3",
 		"sources": [{
-			"type": "NPC",
+			"type": "npc",
 			"info": "Dominiac",
 			"location": "Coerthas Western Highlands (16, 22)"
 		}]
@@ -1607,10 +1607,10 @@
 		"rarity": "2",
 		"card": "5 5 6 4",
 		"sources": [{
-			"type": "NPC",
+			"type": "npc",
 			"info": "Elaisse",
 			"location": "The Pillars (7, 11)",
-			"details": "Quest 'Caught in the Act' must be completed to challenge"
+			"details": "quest 'Caught in the Act' must be completed to challenge"
 		}]
 	},
 	{
@@ -1620,7 +1620,7 @@
 				"rarity": "2",
 		"card": "6 4 3 6",
 		"sources": [{
-			"type": "NPC",
+			"type": "npc",
 			"info": "Laniaitte",
 			"location": "The Sea of Clouds (16, 37)"
 		}]
@@ -1632,7 +1632,7 @@
 		"rarity": "2",
 		"card": "5 6 3 5",
 		"sources": [{
-			"type": "NPC",
+			"type": "npc",
 			"info": "Laniaitte",
 			"location": "The Sea of Clouds (16, 37)"
 		}]
@@ -1644,10 +1644,10 @@
 		"rarity": "2",
 		"card": "4 6 3 6",
 		"sources": [{
-			"type": "NPC",
+			"type": "npc",
 			"info": "Voracious Vath",
 			"location": "Dravanian Forelands (23, 19)",
-			"details": "Quest 'Yellow Stones' must be completed to challenge"
+			"details": "quest 'Yellow Stones' must be completed to challenge"
 		}]
 	},
 	{
@@ -1657,7 +1657,7 @@
 		"rarity": "2",
 		"card": "2 7 3 7",
 		"sources": [{
-			"type": "NPC",
+			"type": "npc",
 			"info": "Seika",
 			"location": "Idyllshire (6, 7)"
 		}]
@@ -1669,7 +1669,7 @@
 		"rarity": "2",
 		"card": "3 6 7 3",
 		"sources": [{
-			"type": "NPC",
+			"type": "npc",
 			"info": "Seika",
 			"location": "Idyllshire (6, 7)"
 		}]
@@ -1681,14 +1681,14 @@
 		"rarity": "3",
 		"card": "4 8 7 2",
 		"sources": [{
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "Mythril Triad Card",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Mogmill",
 			"location": "The Churning Mists (28, 35)",
-			"details": "Quest 'A Secret From Everyone' must be completed to challenge"
+			"details": "quest 'A Secret From Everyone' must be completed to challenge"
 		}]
 	},
 	{
@@ -1698,14 +1698,14 @@
 		"rarity": "3",
 		"card": "8 5 5 5",
 		"sources": [{
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "Mythril Triad Card",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Voracious Vath",
 			"location": "Dravanian Forelands (23, 19)",
-			"details": "Quest 'Yellow Stones' must be completed to challenge"
+			"details": "quest 'Yellow Stones' must be completed to challenge"
 		}]
 	},
 	{
@@ -1715,7 +1715,7 @@
 		"rarity": "3",
 		"card": "6 6 3 6",
 		"sources": [{
-			"type": "Dungeon",
+			"type": "dungeon",
 			"info": "Progenetrix & Progenetor",
 			"location": "Pharos Sirius (Hard)"
 		}]
@@ -1727,7 +1727,7 @@
 		"rarity": "3",
 		"card": "7 3 3 7",
 		"sources": [{
-			"type": "Dungeon",
+			"type": "dungeon",
 			"info": "Belladonna",
 			"location": "Saint Mocianne's Arboretum"
 		}]
@@ -1739,7 +1739,7 @@
 		"rarity": "3",
 		"card": "4 6 7 4",
 		"sources": [{
-			"type": "Raid",
+			"type": "raid",
 			"info": "Echidna",
 			"location": "The Void Ark"
 		}]
@@ -1751,11 +1751,11 @@
 		"rarity": "3",
 		"card": "6 6 6 5",
 		"sources": [{
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "Mythril Triad Card",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
-			"type": "NPC",
+			"type": "npc",
 			"info": "Swift",
 			"location": "Ul'dah - Steps of Nald (8, 8)"
 		}]
@@ -1767,7 +1767,7 @@
 		"rarity": "3",
 		"card": "7 6 5 6",
 		"sources": [{
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "14,400 MGP",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}]
@@ -1779,10 +1779,10 @@
 		"rarity": "3",
 		"card": "5 8 4 5",
 		"sources": [{
-			"type": "NPC",
+			"type": "npc",
 			"info": "Mogmill",
 			"location": "The Churning Mists (28, 35)",
-			"details": "Quest 'A Secret From Everyone' must be completed to challenge"
+			"details": "quest 'A Secret From Everyone' must be completed to challenge"
 		}]
 	},
 	{
@@ -1792,7 +1792,7 @@
 		"rarity": "3",
 		"card": "3 7 4 8",
 		"sources": [{
-			"type": "Dungeon",
+			"type": "dungeon",
 			"info": "Ser Charibert",
 			"location": "The Vault"
 		}]
@@ -1804,7 +1804,7 @@
 		"rarity": "3",
 		"card": "8 2 8 2",
 		"sources": [{
-			"type": "NPC",
+			"type": "npc",
 			"info": "Seika",
 			"location": "Idyllshire (6, 7)"
 		}]
@@ -1816,7 +1816,7 @@
 		"rarity": "4",
 		"card": "6 9 7 5",
 		"sources": [{
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "200,400 MGP",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}]
@@ -1829,7 +1829,7 @@
 		"rarity": "5",
 		"card": "8 8 6 8",
 		"sources": [{
-			"type": "NPC",
+			"type": "npc",
 			"info": "Idle Imperial",
 			"location": "Azys Lla (28, 31)"
 		}]
@@ -1841,7 +1841,7 @@
 		"rarity": "5",
 		"card": "9 7 A 1",
 		"sources": [{
-			"type": "Trial",
+			"type": "trial",
 			"info": "King Thordan",
 			"location": "The Minstrel's Ballad: Thordan's Reign"
 		}]

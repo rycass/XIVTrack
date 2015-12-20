@@ -4,25 +4,35 @@ table {
 
 .card-core {
 	position: relative;
+	height: 16px;
+	width: 16px;
 }
 
 .card-left {
 	position: absolute;
+	right: 100%;
+	top: 100%;
 }
 
 .card-right {
 	position: absolute;
-	left: 10%;
+	left: 100%;
+	top: 100%;
 }
 
 .card-down {
 	position: absolute;
-	top: 10%;
+	top: 200%;
 }
 
 .card-up {
 	position: absolute;
-	bottom: 10%;
+	bottom: 0%;
+}
+
+.card-rarity {
+	position: absolute;
+	left: 200%;
 }
 
 .track-obtained {

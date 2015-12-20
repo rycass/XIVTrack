@@ -5,22 +5,22 @@
 		"flags": "flying",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "Quest",
+			"type": "quest",
 			"info": "My Little Chocobo",
 			"location": "R'ashaht Rhiki, Limsa Lominsa Upper Decks (13, 13)"
 		},
 		{
-			"type": "Quest",
+			"type": "quest",
 			"info": "My Little Chocobo",
 			"location": "Vorsaile Heuloix, New Gridania (10, 11)"
 		},
 		{
-			"type": "Quest",
+			"type": "quest",
 			"info": "My Little Chocobo",
 			"location": "Swift, Ul'Dah - Steps of Nald (8, 9)"
 		},
 		{
-			"type": "Quest",
+			"type": "quest",
 			"info": "I Believe I Can Fly",
 			"location": "Arnoulain, Foundation (8, 12)",
 			"details": "Completing quest allows mount to fly"
@@ -31,7 +31,7 @@
 		"lore": "In the five years following your sudden disappearance from the Carteneau Flats, your ever-faithful chocobo spent each waking moment galloping across the realm in search of his lost master. His myriad adventures are nothing less than fantastical and heartbreaking...but that is a story for another day.",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "Unobtainable",
+			"type": "unobtainable",
 			"info": "N/A",
 			"location": "N/A"
 		}]
@@ -42,7 +42,7 @@
 		"flags": "flying passenger",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "Promotion",
+			"type": "promotion",
 			"info": "Friend subscribes for 90 days",
 			"location": "N/A"
 		}]
@@ -53,7 +53,7 @@
 		"flags": "flying passenger",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "Other",
+			"type": "other",
 			"info": "Host a Ceremony of Eternal Bonding (Gold or Platinum)",
 			"location": "East Shroud (17, 16)"
 		}]
@@ -64,7 +64,7 @@
 		"flags": "flying",
 		"expansion": "Heavensward",
 		"sources": [{
-			"type": "Quest",
+			"type": "quest",
 			"info": "Divine Intervention",
 			"location": "House Fortemps Steward, Fortemps Manor"
 		}]
@@ -75,18 +75,18 @@
 		"flags": "flying passenger",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "Promotion",
-			"info": "8 Gold Chocobo Feathers",
+			"type": "promotion",
+			"info": "8 Gold Chocobo Feathers (Recruit-a-Friend)",
 			"location": "Calamity Salvager, Limsa Lominsa Upper Decks (11, 14)"
 		},
 		{
-			"type": "Promotion",
-			"info": "8 Gold Chocobo Feathers",
+			"type": "promotion",
+			"info": "8 Gold Chocobo Feathers (Recruit-a-Friend)",
 			"location": "Calamity Salvager, Old Gridania (10, 8)"
 		},
 		{
-			"type": "Promotion",
-			"info": "8 Gold Chocobo Feathers",
+			"type": "promotion",
+			"info": "8 Gold Chocobo Feathers (Recruit-a-Friend)",
 			"location": "Calamity Salvager, Ul'dah - Steps of Thal (12, 13)"
 		}]
 	},
@@ -96,7 +96,7 @@
 		"flags": "flying passenger",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "Merchandise",
+			"type": "merchandise",
 			"info": "FFXIV: ARR Collector's Edition",
 			"location": "N/A"
 		}]
@@ -107,7 +107,7 @@
 		"flags": "flying passenger",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "Achievement",
+			"type": "achievement",
 			"info": "Leaving a Better Impression II",
 			"details": "Receive 3,000 player commendations.",
 			"location": "Jonathas, Old Gridania (10, 6)"
@@ -119,7 +119,7 @@
 		"flags": "flying",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "Quest",
+			"type": "quest",
 			"info": "The Ultimate Weapon",
 			"location": "Raubahn, Northern Thanalan (16, 17)"
 		}]
@@ -130,7 +130,7 @@
 		"flags": "flying",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "Achievement",
+			"type": "achievement",
 			"info": "Everybody's Darling",
 			"details": "Receive 500 player commendations.",
 			"location": "Jonathas, Old Gridania (10, 6)"
@@ -142,7 +142,7 @@
 		"flags": "flying",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "Cash Shop",
+			"type": "cashshop",
 			"info": "$12",
 			"location": "N/A"
 		}]
@@ -153,7 +153,7 @@
 		"flags": "flying",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "Cash Shop",
+			"type": "cashshop",
 			"info": "$12",
 			"location": "N/A"
 		}]
@@ -164,7 +164,7 @@
 		"flags": "flying",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "Achievement",
+			"type": "achievement",
 			"info": "Behind Enemy Lines I",
 			"details": "Guide any of the three Grand Companies to a total of 200 Frontline victories.",
 			"location": "Jonathas, Old Gridania (10, 6)"
@@ -175,7 +175,7 @@
 		"lore": "Traded for a song by the High Satrap of a distant land, the secret to taming these creatures once thought to be unbreakable was introduced to Eorzea by a mysterious wandering minstrel who journeyed through the realm in the final days before the Calamity.",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "Unobtainable",
+			"type": "unobtainable",
 			"info": "N/A",
 			"location": "N/A"
 		}]
@@ -185,10 +185,10 @@
 		"lore": "After having the moss and flowers growing upon his head pulled up and tossed aside like common weeds by a band of sylvan ne'er-do-wells, this quiet-mannered goobbue was taken in and cared for by the sylphs of Little Solace whose elders crafted for him a magnificent laurel with which to hide his scars.",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "120,000 gil",
 			"details": "Only offered with 'Trusted' reputation with Sylphs.",
-			"location": "Sylphic Vendor, East Shroud (22, 26)"
+			"location": "Sylphic vendor, East Shroud (22, 26)"
 		}]
 	},
 	{
@@ -196,7 +196,7 @@
 		"lore": "Native to the jungles of the Near East, coeurls were only recently introduced to Eorzea, brought over from faraway lands such as Thavnair by Ul'dahn nobles who thought to breed them as pets. Now, but a handful of skilled tamers living in recluse on the Pearl are said to be able to train them.",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "Merchandise",
+			"type": "merchandise",
 			"info": "FFXIV: ARR Collector's Edition",
 			"location": "N/A"
 		}]
@@ -206,7 +206,7 @@
 		"lore": "While more difficult to train than their cousins the coeurls, panthers bring their riders much more advantage on the field due to the beasts' inherent affinity to various magic. It is also believed that many Dark Knight battle techniques were conceived by watching panthers hunt.",
 		"expansion": "Heavensward",
 		"sources": [{
-			"type": "Achievement",
+			"type": "achievement",
 			"info": "But Somebody's Gotta Do It (Dark Knight)",
 			"details": "Complete 200 high-level full party duties as a dark knight.",
 			"location": "Jonathas, Old Gridania (10, 6)"
@@ -218,8 +218,8 @@
 		"flags": "flying",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "Promotion",
-			"info": "90 days (3 months)",
+			"type": "promotion",
+			"info": "90 days (3 months) subscribed",
 			"location": "N/A"
 		}]
 	},
@@ -228,8 +228,8 @@
 		"lore": "Immediately following the Calamity, an adventurer returning to Gridania from the Falcon's Nest in Coerthas happened upon a den of baby behemoths who had lost their mother to Bahamut's flames. Despite objections from friends and family alike, she kept the beasts, eventually training them to serve as mounts.",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "Promotion",
-			"info": "270 days (9 months)",
+			"type": "promotion",
+			"info": "270 days (9 months) subscribed",
 			"location": "N/A"
 		}]
 	},
@@ -238,10 +238,10 @@
 		"lore": "Training a cavalry drake is a long and arduous process that begins the moment the scalekin hatches. Never allowed to see its mother, the creature is raised solely in the presence of a drake whisperer while being weaned on the incendiary glands of aged battle drakes to ensure it is both submissive and deadly.",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "120,000 gil",
 			"details": "Only offered with 'Trusted' reputation with Amalj'aa.",
-			"location": "Amalj'aa Vendor, Southern Thanalan (23, 14)"
+			"location": "Amalj'aa vendor, Southern Thanalan (23, 14)"
 		}]
 	},
 	{
@@ -249,7 +249,7 @@
 		"lore": "To ensure his elbst do not find themselves at a disadvantage to swift-running chocobos, Pahh of Novv's Clutch clips the webbing on their feet at a young age, rendering them more capable of achieving high speeds on land. This procedure, however, robs them of their natural- born ability to swim.",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "120,000 gil",
 			"details": "Only offered with 'Trusted' reputation with Sahagin.",
 			"location": "Western La Noscea (16, 22)"
@@ -261,10 +261,10 @@
 		"flags": "flying",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "120,000 gil",
 			"details": "Only offered with 'Trusted' reputation with Kobolds.",
-			"location": "Kobold Vendor, Outer La Noscea (21, 17)"
+			"location": "Kobold vendor, Outer La Noscea (21, 17)"
 		}]
 	},
 	{
@@ -272,7 +272,7 @@
 		"lore": "Early in the Sixth Astral Era, lions were brought over from the Near East and trained to serve as battle mounts for the Sultansworn of Ul'dah. Deemed unbreakable, those not sold to the Coliseum for venationes were released into the deserts of Thanalan where they eventually reverted back to a feral state.",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "Achievement",
+			"type": "achievement",
 			"info": "But Somebody's Gotta Do It (Paladin)",
 			"details" :"Complete 200 high-level full party duties as a paladin.",
 			"location": "Jonathas, Old Gridania (10, 6)"
@@ -283,7 +283,7 @@
 		"lore": "In generations past, warriors seeking fame and glory would journey out into the untamed wilds of Abalathia's Spine in search of the giant grizzled bears that roamed the mountains, and would wrestle the beasts into submission, riding their prizes back to civilization. That is, or die trying.",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "Achievement",
+			"type": "achievement",
 			"info": "But Somebody's Gotta Do It (Warrior)",
 			"details" :"Complete 200 high-level full party duties as a warrior.",
 			"location": "Jonathas, Old Gridania (10, 6)"
@@ -294,7 +294,7 @@
 		"lore": "Mass cullings of the beasts during the Sixth Astral Era prompted naturalists to deem the species extinct. However, this claim was proved false when Ixali scouts discovered a lone pack roaming the sparsely inhabited mountains of Xelphatol.",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "120,000 gil",
 			"details": "Only offered with 'Trusted' reputation with Ixal.",
 			"location": "Ixali Trader, North Shroud (24, 22)"
@@ -305,7 +305,7 @@
 		"lore": "Native to the Near Eastern island of Thavnair, adamantoises were long thought to be impossible to domesticate. However, through the efforts of Ul'dahn zoologists, a handful of the colossal scalekin have been successfully trained to accept riders.",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "Vendor/Gold Saucer",
+			"type": "vendor",
 			"info": "10,000 MGP",
 			"location": "Gold Saucer Attendant, Gold Saucer (5, 6)"
 		}]
@@ -315,7 +315,7 @@
 		"lore": "Following the rise of Ishgard, hoarhounds all but disappeared from the Coerthas highlands. However, the shift in climate caused by the Calamity has seen the legendary beasts descend from their mountain dens once more.",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "Vendor/Gold Saucer",
+			"type": "vendor",
 			"info": "1,000,000 MGP",
 			"location": "Gold Saucer Attendant, Gold Saucer (5, 6)"
 		}]
@@ -326,7 +326,7 @@
 		"flags": "flying",
 		"expansion": "Heavensward",
 		"sources": [{
-			"type": "Merchandise",
+			"type": "merchandise",
 			"info": "Heavensward Collector's Edition",
 			"location": "N/A"
 		}]
@@ -337,7 +337,7 @@
 		"flags": "flying",
 		"expansion": "Heavensward",
 		"sources": [{
-			"type": "Quest",
+			"type": "quest",
 			"info": "Into the Aery",
 			"location": "Estinien, Foundation (13, 11)"
 		}]
@@ -348,7 +348,7 @@
 		"flags": "flying",
 		"expansion": "Heavensward",
 		"sources": [{
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "200,000 gil",
 			"details": "Only offered with 'Sworn' reputation with Vanu Vanu.",
 			"location": "Luna Vanu, Sea of Clouds (7, 14)"
@@ -360,7 +360,7 @@
 		"flags": "flying",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "Holiday",
+			"type": "holiday",
 			"info": "All Saint's Wake 2015",
 			"location": "N/A"
 		}]
@@ -371,7 +371,7 @@
 		"flags": "flying",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "Raid",
+			"type": "raid",
 			"info": "The Manipulator",
 			"location": "Alexander - The Burden of the Father (Savage)"
 		}]
@@ -382,18 +382,18 @@
 		"flags": "flying",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "Promotion",
-			"info": "15 Gold Chocobo Feathers",
+			"type": "promotion",
+			"info": "15 Gold Chocobo Feathers (Recruit-a-Friend)",
 			"location": "Calamity Salvager, Limsa Lominsa Upper Decks (11, 14)"
 		},
 		{
-			"type": "Promotion",
-			"info": "15 Gold Chocobo Feathers",
+			"type": "promotion",
+			"info": "15 Gold Chocobo Feathers (Recruit-a-Friend)",
 			"location": "Calamity Salvager, Old Gridania (10, 8)"
 		},
 		{
-			"type": "Promotion",
-			"info": "15 Gold Chocobo Feathers",
+			"type": "promotion",
+			"info": "15 Gold Chocobo Feathers (Recruit-a-Friend)",
 			"location": "Calamity Salvager, Ul'dah - Steps of Thal (12, 13)"
 		}]
 	},
@@ -403,7 +403,7 @@
 		"flags": "flying",
 		"expansion": "Heavensward",
 		"sources": [{
-			"type": "Vendor",
+			"type": "vendor",
 			"info": "6 Clan Mark Logs",
 			"location": "Bertana, dyllshire (5, 5)"
 		}]
@@ -413,7 +413,7 @@
 		"lore": "Not long ago, Eorzean unicorns numbered in the thousands, and could oft be seen roaming the Coerthas highlands in great majestic herds that would render the mountains white as snow. Poaching has caused the population to decline, and if it were not for your act of kindness, there would be one fewer.",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "Quest",
+			"type": "quest",
 			"info": "Unicorn Power",
 			"location": "Braya, Old Gridania (6, 11)"
 		}]
@@ -424,17 +424,17 @@
 		"flags": "flying",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "Trial",
+			"type": "trial",
 			"info": "Garuda",
 			"location": "The Howling Eye (Extreme)"
 		},
 		{
-			"type": "Trial",
+			"type": "trial",
 			"info": "Titan",
 			"location": "The Navel (Extreme)"
 		},
 		{
-			"type": "Trial",
+			"type": "trial",
 			"info": "Ifrit",
 			"location": "The Bowl of Embers (Extreme)"
 		}]
@@ -445,7 +445,7 @@
 		"flags": "flying",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "Trial",
+			"type": "trial",
 			"info": "Ifrit",
 			"location": "The Bowl of Embers (Extreme)"
 		}]
@@ -456,7 +456,7 @@
 		"flags": "flying",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "Trial",
+			"type": "trial",
 			"info": "Garuda",
 			"location": "The Howling Eye (Extreme)"
 		}]
@@ -467,7 +467,7 @@
 		"flags": "flying",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "Trial",
+			"type": "trial",
 			"info": "Titan",
 			"location": "The Navel (Extreme)"
 		}]
@@ -478,7 +478,7 @@
 		"flags": "flying",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "Trial",
+			"type": "trial",
 			"info": "Leviathan",
 			"location": "The Whorleater (Extreme)"
 		}]
@@ -489,7 +489,7 @@
 		"flags": "flying",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "Trial",
+			"type": "trial",
 			"info": "Ramuh",
 			"location": "The Striking Tree (Extreme)"
 		}]
@@ -500,7 +500,7 @@
 		"flags": "flying",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "Trial",
+			"type": "trial",
 			"info": "Shiva",
 			"location": "Akh Afah Ampitheatre (Extreme)"
 		}]
@@ -511,9 +511,9 @@
 		"flags": "flying",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "Quest",
+			"type": "quest",
 			"info": "A Legend for a Legend",
-			"details": "Quest requires the following mounts to begin: Aithon, Boreas, Enbarr, Gullfaxi, Markab, and Xanathos.",
+			"details": "quest requires the following mounts to begin: Aithon, Boreas, Enbarr, Gullfaxi, Markab, and Xanathos.",
 			"location": "Wandering Minstrel, Mor Dhona (22, 9)"
 		}]
 	},
@@ -523,8 +523,8 @@
 		"flags": "flying",
 		"expansion": "Heavensward",
 		"sources": [{
-			"type": "Unknown",
-			"info": "N/A",
+			"type": "other",
+			"info": "Unknown",
 			"location": "N/A"
 		}]
 	},
@@ -533,7 +533,7 @@
 		"lore": "After witnessing dazzling demonstrations of how a warsteed might turn the tide of battle, the Grand Companies of Eorzea emptied their coffers at the feet of the Far Eastern uma bugyo, each seeking to put themselves at an advantage during Frontline campaigns.",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "Achievement",
+			"type": "achievement",
 			"info": "A Line in the Storm IV",
 			"details": "Guide the Maelstrom to 100 Frontline victories.",
 			"location": "Jonathas, Old Gridania (10, 6)"
@@ -544,7 +544,7 @@
 		"lore": "After witnessing dazzling demonstrations of how a warsteed might turn the tide of battle, the Grand Companies of Eorzea emptied their coffers at the feet of the Far Eastern uma bugyo, each seeking to put themselves at an advantage during Frontline campaigns.",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "Achievement",
+			"type": "achievement",
 			"info": "A Line in the Glade IV",
 			"details": "Guide the Order of the Twin Adder to 100 Frontline victories.",
 			"location": "Jonathas, Old Gridania (10, 6)"
@@ -555,7 +555,7 @@
 		"lore": "After witnessing dazzling demonstrations of how a warsteed might turn the tide of battle, the Grand Companies of Eorzea emptied their coffers at the feet of the Far Eastern uma bugyo, each seeking to put themselves at an advantage during Frontline campaigns.",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "Achievement",
+			"type": "achievement",
 			"info": "A Line in the Sand IV",
 			"details": "Guide the Immortal Flames to 100 Frontline victories.",
 			"location": "Jonathas, Old Gridania (10, 6)"
@@ -567,7 +567,7 @@
 		"flags": "flying",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "Cash Shop",
+			"type": "cashshop",
 			"info": "$25",
 			"location": "N/A"
 		}]
@@ -578,7 +578,7 @@
 		"flags": "flying",
 		"expansion": "Heavensward",
 		"sources": [{
-			"type": "Quest",
+			"type": "quest",
 			"info": "Fetters of Lament",
 			"location": "Guidance Node, Azys Lla (19, 32)"
 		}]
