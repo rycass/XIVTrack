@@ -9,15 +9,17 @@ $(document).ready(function(){
 		$scope.reverseSort = false;
 		
 		$scope.tabs = [
-			{ title:'Minions', id: '0', prefix: 'minion', data: [], tableHeading:["Name", "Source"], numObtained:0, maxObtained: 0},
-			{ title:'Mounts', id: '1', prefix: 'mount', data: [], tableHeading:["Name", "Source"], numObtained:0, maxObtained: 0},
-			{ title:'Triple Triad', id: '2', prefix: 'triad', data: [], tableHeading:["Name", "Card", "Source"], numObtained:0, maxObtained: 0}
+			{ title:'Minions', id: '0', prefix: 'minion', data: [], tableHeading:["Source"], numObtained:0, maxObtained: 0, color: '#FFFFFF', ready: false},
+			{ title:'Mounts', id: '1', prefix: 'mount', data: [], tableHeading:["Source"], numObtained:0, maxObtained: 0, color:'#000000', ready: false},
+			{ title:'Triple Triad', id: '2', prefix: 'triad', data: [], tableHeading:["Card", "Source"], numObtained:0, maxObtained: 0, color:'#123456', ready: false}
 		];
+		
+		$scope.flags = {flying:'Flying Mount', passenger: 'Passenger Mount', beastman: 'Beastman', primal: 'Primal', scion: 'Scion', garlean: 'Garlean'};
 		//the following tbi:
 		//	{ title:'Barding', id: '3', prefix: 'barding', data:bardingLibrary, tableHeading:["Name", "Category", "Subcategory", "Info", "Location", "Expansion"], numObtained:0, maxObtained: 0},
 		//	{ title:'Cosmetics', id: '4', prefix: 'cosmetic', data:cosmeticLibrary, tableHeading:["Name", "Category", "Subcategory", "Type", "Info", "Location", "Expansion"], numObtained:0, maxObtained: 0}
 
-		$scope.activeTabNum = 0;
+		$scope.activeTabNum = -1;
 		$scope.activeTab = $scope.tabs[0];
 		
 		$scope.setup = function() {
@@ -31,29 +33,37 @@ $(document).ready(function(){
 			var req = new XMLHttpRequest();
 			req.open('GET', file);
 			req.onreadystatechange = function() {
-				if (req.responseText == "") {
-					return;
-				}
-				var j = $.parseJSON(req.responseText);
-				tab.data = j;
-				var item;
-				for (i in tab.data) {
-					item = tab.data[i];
-					item.obtained = $scope.fetchObtained(item, tab);
-					tab.maxObtained++;
+				if (req.readyState == 4 && req.status == 200) {
+					var num = 1;
+					if (req.responseText == "") {
+						return;
+					}
+					var j = $.parseJSON(req.responseText);
+					tab.data = j;
+					var item;
+					for (i in tab.data) {
+						item = tab.data[i];
+						item.number = num;
+						num++;
+						item.obtained = $scope.fetchObtained(item, tab);
+						tab.maxObtained++;
+					}
 				}
 			}
 			req.send();
 		}
 		
 		$scope.setTab = function(num) {
-			$scope.sortType = "Name";
-			$scope.reverseSort = false;
+			//$scope.sortType = "Name";
+			//$scope.reverseSort = false;
 			$scope.activeTab = $scope.tabs[num];
 			$scope.activeTabNum = num;
 		}
 		
 		$scope.checkFilter = function(item) {
+			if(item.obtained && $scope.filterObtained) {
+				return true;
+			}
 			item.activesources = [];
 			for (var i = 0; i < item.sources.length; i++) {
 				s = item.sources[i];
@@ -63,7 +73,7 @@ $(document).ready(function(){
 			return false;
 		}
 		
-		$scope.isFilterd = function(type) {
+		$scope.isFiltered = function(type) {
 			return $scope.filterLibrary[type].filtered;
 		}
 		
@@ -78,10 +88,12 @@ $(document).ready(function(){
 		}
 		
 		$scope.getNumObtained = function() {
+			if ($scope.activeTabNum == -1) return 0;
 			return $scope.activeTab.numObtained;
 		}
 		
 		$scope.getMaxObtained = function() {
+			if ($scope.activeTabNum == -1) return 0;
 			return $scope.activeTab.maxObtained;
 		}
 		

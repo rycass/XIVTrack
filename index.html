@@ -18,7 +18,7 @@
 		<nav class="navbar navbar-default">
 			<div class="navbar-header navbar-brand">XIVTrack (Alpha Version)</div>
 			<ul class="nav navbar-nav">
-				<li ng-repeat="t in tabs" ng-class="navTabActive(t.id)"><a href="#" ng-click="setTab(t.id)">{{t.title}}</a></li>
+				<li ng-repeat="t in tabs" ng-class="navTabActive(t.id)"><a ng-click="setTab(t.id)">{{t.title}}</a></li>
 				<li><a href="#" data-toggle="modal" data-target="#settingsModal">Settings</a></li>
 			</ul>
 			<div class="collapse navbar-collapse">
@@ -27,31 +27,40 @@
 				</uib-progress>
 			</div>
 		</nav>
-		<table st-table="activeTab.data" class="table" st-sticky-header ng-repeat="activeTab in tabs" ng-if="tabActive(activeTab.id)">
+		<div ng-if="tabActive(-1)">Pick a tab. This should be fancier later.</div>
+		<table st-table="t.data" class="table" st-sticky-header ng-repeat="t in tabs" ng-if="tabActive(t.id)">
 			<thead>
 				<tr>
-					<th st-sort="obtained">Obtained?</td>
-					<th>Icon</td>
-					<th ng-repeat="column in activeTab.tableHeading" st-sort="{{column.toLowerCase()}}">
+					<th st-sort="obtained" st-skip-natural="true">Obtained?</th>
+					<th>Icon</th>
+					<th st-sort="number" st-skip-natural="true" st-sort-default="true">Number</th>
+					<th st-sort="name" st-skip-natural="true">Name</th>
+					<th ng-repeat="column in t.tableHeading">
 						{{column}}
 					</th>
 				</tr>
 				<tr>
-					<th colspan="3"><input st-search="name" class="form-control" placeholder="Search name..." type="text"/></th>
+					<th ng-if="!tabActive(2)" colspan="5"><input st-search="name" class="form-control" placeholder="Search name..." type="text"/></th>
+					<th ng-if="tabActive(2)" colspan="6"><input st-search="name" class="form-control" placeholder="Search name..." type="text"/></th>
 				</tr>
 			</thead>
 			<tbody>
-				<tr ng-hide="checkFilter(item)" ng-repeat="item in activeTab.data | orderBy:sortType:reverseSort">
-					<td ng-click="toggleObtained(item, activeTab)">
-						<center><i class="fa fa-check track-not-obtained fa-2x" ng-hide="item.obtained"></i></center>
-						<center><i class="fa fa-check track-obtained fa-2x" ng-hide="!item.obtained"></i></center>
+				<tr ng-hide="checkFilter(item)" ng-repeat="item in t.data">
+					<td ng-click="toggleObtained(item, t)">
+						<i class="fa fa-check track-not-obtained fa-2x" ng-hide="item.obtained"></i>
+						<i class="fa fa-check track-obtained fa-2x" ng-hide="!item.obtained"></i>
 					</td>
 					<td>
-						<img ng-src="icons/{{getItemImage(item, activeTab.prefix)}}.png" height="48" width="48" tooltip-placement="right" uib-tooltip="{{item.lore}}">
+						<img ng-src="icons/{{getItemImage(item, t.prefix)}}.png" height="48" width="48" tooltip-placement="right" uib-tooltip="{{item.lore}}">
 					</td>
-					<td ng-repeat="column in activeTab.tableHeading">
-						<div ng-if="column.toLowerCase() == 'name'">{{item[column.toLowerCase()]}} <img ng-repeat="i in getFlags(item)" ng-src="icons/system/icon_{{i}}.png"></div>
-						<div ng-if="column.toLowerCase() == 'card'" class="card-core""><img class="card-left" ng-src="icons/system/card_{{getCard(item, 0)}}.png"><img class="card-up" ng-src="icons/system/card_{{getCard(item, 1)}}.png"><img class="card-down" ng-src="icons/system/card_{{getCard(item, 2)}}.png"><img class="card-right" ng-src="icons/system/card_{{getCard(item, 3)}}.png"><img class="card-rarity" ng-src="icons/system/card_rarity_{{item.rarity}}.png"></div>
+					<td>
+						{{item["number"]}}
+					</td>
+					<td>
+						<div>{{item["name"]}} <img ng-repeat="i in getFlags(item)" ng-src="icons/system/icon_{{i}}.png" tooltip-placement="right", uib-tooltip="{{flags[i]}}"></div>
+					</td>
+					<td ng-repeat="column in t.tableHeading">
+						<div ng-if="column.toLowerCase() == 'card'" class="card-core"><img class="card-left" ng-src="icons/system/card_{{getCard(item, 0)}}.png"><img class="card-up" ng-src="icons/system/card_{{getCard(item, 1)}}.png"><img class="card-down" ng-src="icons/system/card_{{getCard(item, 2)}}.png"><img class="card-right" ng-src="icons/system/card_{{getCard(item, 3)}}.png"><img class="card-rarity" ng-src="icons/system/card_rarity_{{item.rarity}}.png"></div>
 						<div ng-if="column.toLowerCase() == 'source'"><img class="source" ng-src="icons/system/source_{{fixImgString(s.type)}}.png" tooltip-placement="right" uib-popover-template="'sourceTemplate.html'" popover-trigger="mouseenter" ng-repeat="s in item.activesources"></div>
 						<script type="text/ng-template" id="sourceTemplate.html">
 							<div><b>{{filterLibrary[s.type].name}}</b></div>
@@ -72,11 +81,12 @@
 						<h4 class="modal-title" id="settingsModalLabel">Settings</h4>
 					</div>
 					<div class="modal-body">
+						<h3>Filters</h3>
 						<div>
-							<button type="button" class="btn btn-btnprimary" ng-model="$scope.filterObtained" uib-btn-checkbox>Obtained</button>
+							<button type="button" class="btn btn-btnprimary" ng-class="{'filter-on':filterObtained, 'filter-off': !filterObtained}" ng-model="filterObtained" uib-btn-checkbox>Obtained</button>
 						</div>
-						<div ng-repeat="f in filterLibrary">
-							<button type="button" class="btn btn-btnprimary" ng-model="f.filtered" uib-btn-checkbox>{{f.name}}</button>
+						<div class="btn-group">
+							<button ng-repeat="f in filterLibrary" type="button" class="btn btn-btnprimary" ng-class="{'filter-on':f.filtered, 'filter-off': !f.filtered}" ng-model="f.filtered" uib-btn-checkbox>{{f.name}}</button>
 						</div>
 						<div class="modal-footer">
 							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

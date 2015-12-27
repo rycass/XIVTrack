@@ -4,35 +4,40 @@ table {
 
 .card-core {
 	position: relative;
-	height: 16px;
-	width: 16px;
+	height: 48px;
+	width: 48px;
+	border: 2px solid gold;
+	background-color: grey;
 }
 
 .card-left {
 	position: absolute;
-	right: 100%;
-	top: 100%;
+	left: 3px;
+	top: 16px;
 }
 
 .card-right {
 	position: absolute;
-	left: 100%;
-	top: 100%;
+	right: 3px;
+	top: 16px;
 }
 
 .card-down {
 	position: absolute;
-	top: 200%;
+	bottom: 3px;
+	left: 16px;
 }
 
 .card-up {
 	position: absolute;
-	bottom: 0%;
+	top: 3px;
+	left: 16px;
 }
 
 .card-rarity {
 	position: absolute;
-	left: 200%;
+	left: 48px;
+	top: 16px;
 }
 
 .track-obtained {
@@ -43,14 +48,18 @@ table {
 	color: #D0D0D0;
 }
 
+.filter-on {
+	background-color: #FF0000;
+}
+
+.filter-off {
+	background-color: #00FF00;
+}
+
 .lr-sticky-header {
     color: black;
     background: white;
     transition: all 0.6s;
-}
-
-.btn.active {
-	font-weight: bold;
 }
 
 .tooltip-inner {
