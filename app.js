@@ -9,9 +9,9 @@ $(document).ready(function(){
 		$scope.reverseSort = false;
 		
 		$scope.tabs = [
-			{ title:'Minions', id: '0', prefix: 'minion', data: [], tableHeading:["Source"], numObtained:0, maxObtained: 0, color: '#FFFFFF', ready: false},
-			{ title:'Mounts', id: '1', prefix: 'mount', data: [], tableHeading:["Source"], numObtained:0, maxObtained: 0, color:'#000000', ready: false},
-			{ title:'Triple Triad', id: '2', prefix: 'triad', data: [], tableHeading:["Card", "Source"], numObtained:0, maxObtained: 0, color:'#123456', ready: false}
+			{ title:'Minions', id: '0', prefix: 'minion', data: [], sData: [], tableHeading:["Source"], numObtained:0, maxObtained: 0, color: '#FFFFFF'},
+			{ title:'Mounts', id: '1', prefix: 'mount', data: [], sData: [], tableHeading:["Source"], numObtained:0, maxObtained: 0, color:'#000000'},
+			{ title:'Triple Triad', id: '2', prefix: 'triad', data: [], sData: [], tableHeading:["Card", "Source"], numObtained:0, maxObtained: 0, color:'#123456'}
 		];
 		
 		$scope.flags = {flying:'Flying Mount', passenger: 'Passenger Mount', beastman: 'Beastman', primal: 'Primal', scion: 'Scion', garlean: 'Garlean'};
@@ -19,7 +19,7 @@ $(document).ready(function(){
 		//	{ title:'Barding', id: '3', prefix: 'barding', data:bardingLibrary, tableHeading:["Name", "Category", "Subcategory", "Info", "Location", "Expansion"], numObtained:0, maxObtained: 0},
 		//	{ title:'Cosmetics', id: '4', prefix: 'cosmetic', data:cosmeticLibrary, tableHeading:["Name", "Category", "Subcategory", "Type", "Info", "Location", "Expansion"], numObtained:0, maxObtained: 0}
 
-		$scope.activeTabNum = -1;
+		$scope.activeTabNum = 0;
 		$scope.activeTab = $scope.tabs[0];
 		
 		$scope.setup = function() {
@@ -39,23 +39,22 @@ $(document).ready(function(){
 						return;
 					}
 					var j = $.parseJSON(req.responseText);
-					tab.data = j;
+					tab.sData = j;
 					var item;
-					for (i in tab.data) {
-						item = tab.data[i];
+					for (i in tab.sData) {
+						item = tab.sData[i];
 						item.number = num;
 						num++;
 						item.obtained = $scope.fetchObtained(item, tab);
 						tab.maxObtained++;
 					}
+					tab.data.concat(tab.sData);
 				}
 			}
 			req.send();
 		}
 		
 		$scope.setTab = function(num) {
-			//$scope.sortType = "Name";
-			//$scope.reverseSort = false;
 			$scope.activeTab = $scope.tabs[num];
 			$scope.activeTabNum = num;
 		}
@@ -88,12 +87,10 @@ $(document).ready(function(){
 		}
 		
 		$scope.getNumObtained = function() {
-			if ($scope.activeTabNum == -1) return 0;
 			return $scope.activeTab.numObtained;
 		}
 		
 		$scope.getMaxObtained = function() {
-			if ($scope.activeTabNum == -1) return 0;
 			return $scope.activeTab.maxObtained;
 		}
 		

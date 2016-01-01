@@ -27,8 +27,8 @@
 				</uib-progress>
 			</div>
 		</nav>
-		<div ng-if="tabActive(-1)">Pick a tab. This should be fancier later.</div>
-		<table st-table="t.data" class="table" st-sticky-header ng-repeat="t in tabs" ng-if="tabActive(t.id)">
+
+		<table st-table="t.data" st-safe-src="t.sData" class="table" st-sticky-header ng-repeat="t in tabs" ng-if="tabActive(t.id)">
 			<thead>
 				<tr>
 					<th st-sort="obtained" st-skip-natural="true">Obtained?</th>
