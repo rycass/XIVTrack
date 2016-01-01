@@ -8,36 +8,42 @@ table {
 	width: 48px;
 	border: 2px solid gold;
 	background-color: grey;
+	z-index: -10;
 }
 
 .card-left {
 	position: absolute;
 	left: 3px;
 	top: 16px;
+	z-index: -10;
 }
 
 .card-right {
 	position: absolute;
 	right: 3px;
 	top: 16px;
+	z-index: -10;
 }
 
 .card-down {
 	position: absolute;
 	bottom: 3px;
 	left: 16px;
+	z-index: -10;
 }
 
 .card-up {
 	position: absolute;
 	top: 3px;
 	left: 16px;
+	z-index: -10;
 }
 
 .card-rarity {
 	position: absolute;
 	left: 48px;
 	top: 16px;
+	z-index: -10;
 }
 
 .track-obtained {
