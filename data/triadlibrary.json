@@ -189,7 +189,8 @@
 		"sources": [{
 			"type": "npc",
 			"info": "Noes",
-			"location": "Old Gridania (10, 5)"
+			"location": "Old Gridania (10, 5)",
+			"details": "10AM - 8PM"
 		}]
 	},
 	{
@@ -201,7 +202,8 @@
 		"sources": [{
 			"type": "npc",
 			"info": "Dominiac",
-			"location": "Coerthas Western Highlands (16, 22)"
+			"location": "Coerthas Western Highlands (16, 22)",
+			"details": "4PM - 8PM"
 		}]
 	},
 	{
@@ -351,7 +353,8 @@
 		}, {
 			"type": "npc",
 			"info": "Trachtoum",
-			"location": "Lower La Noscea (35, 15)"
+			"location": "Lower La Noscea (35, 15)",
+			"details": "8PM - 8AM"
 		}]
 	},
 	{
@@ -364,7 +367,7 @@
 			"type": "npc",
 			"info": "Elaisse",
 			"location": "The Pillars (7, 11)",
-			"details": "quest 'Caught in the Act' must be completed to challenge"
+			"details": "Quest 'Caught in the Act' must be completed to challenge, 2AM - 6AM"
 		}]
 	},
 	{
@@ -376,7 +379,8 @@
 		"sources": [{
 			"type": "npc",
 			"info": "Laniaitte",
-			"location": "The Sea of Clouds (16, 37)"
+			"location": "The Sea of Clouds (16, 37)",
+			"details": "11PM - 2AM"
 		}]
 	},
 	{
@@ -388,7 +392,8 @@
 		"sources": [{
 			"type": "npc",
 			"info": "Laniaitte",
-			"location": "The Sea of Clouds (16, 37)"
+			"location": "The Sea of Clouds (16, 37)",
+			"details": "11PM - 2AM"
 		}]
 	},
 	{
@@ -401,7 +406,7 @@
 			"type": "npc",
 			"info": "Voracious Vath",
 			"location": "Dravanian Forelands (23, 19)",
-			"details": "quest 'Yellow Stones' must be completed to challenge"
+			"details": "Quest 'Yellow Stones' must be completed to challenge, 6AM - 12PM"
 		}]
 	},
 	{
@@ -413,7 +418,8 @@
 		"sources": [{
 			"type": "npc",
 			"info": "Seika",
-			"location": "Idyllshire (6, 7)"
+			"location": "Idyllshire (6, 7)",
+			"details": "2PM - 7AM"
 		}]
 	},
 	{
@@ -425,7 +431,8 @@
 		"sources": [{
 			"type": "npc",
 			"info": "Seika",
-			"location": "Idyllshire (6, 7)"
+			"location": "Idyllshire (6, 7)",
+			"details": "2PM - 7AM"
 		}]
 	},
 	{
@@ -457,7 +464,8 @@
 		}, {
 			"type": "npc",
 			"info": "Helmhart",
-			"location": "Eastern Thanalan (20, 21)"
+			"location": "Eastern Thanalan (20, 21)",
+			"details": "10AM - 8PM"
 		}]
 	},
 	{
@@ -497,7 +505,8 @@
 		}, {
 			"type": "npc",
 			"info": "Piralnaut",
-			"location": "East Shroud (17, 26)"
+			"location": "East Shroud (17, 26)",
+			"details": "12PM - 8PM"
 		}]
 	},
 	{
@@ -578,11 +587,13 @@
 		"sources": [{
 			"type": "npc",
 			"info": "Marcette",
-			"location": "Central Shroud (16, 18)"
+			"location": "Central Shroud (16, 18)",
+			"details": "4PM - 8AM"
 		}, {
 			"type": "npc",
 			"info": "Piralnaut",
-			"location": "East Shroud (17, 26)"
+			"location": "East Shroud (17, 26)",
+			"details": "12PM - 8PM"
 		}]
 	},
 	{
@@ -622,7 +633,7 @@
 			"type": "npc",
 			"info": "Mogmill",
 			"location": "The Churning Mists (28, 35)",
-			"details": "quest 'A Secret From Everyone' must be completed to challenge"
+			"details": "Quest 'A Secret From Everyone' must be completed to challenge"
 		}]
 	},
 	{
@@ -636,7 +647,7 @@
 			"type": "npc",
 			"info": "Mogmill",
 			"location": "The Churning Mists (28, 35)",
-			"details": "quest 'A Secret From Everyone' must be completed to challenge"
+			"details": "Quest 'A Secret From Everyone' must be completed to challenge"
 		}]
 	},
 	{
@@ -751,7 +762,8 @@
 		}, {
 			"type": "npc",
 			"info": "Helmhart",
-			"location": "Eastern Thanalan (20, 21)"
+			"location": "Eastern Thanalan (20, 21)",
+			"details": "10AM - 8PM"
 		}, {
 			"type": "npc",
 			"info": "Rowena",
@@ -767,7 +779,8 @@
 		"sources": [{
 			"type": "npc",
 			"info": "Yellow Moon",
-			"location": "Uh'Dah - Steps of Thal (14, 13)"
+			"location": "Uh'Dah - Steps of Thal (14, 13)",
+			"details": "10PM - 6AM"
 		}]
 	},
 	{
@@ -805,7 +818,7 @@
 			"type": "npc",
 			"info": "Mogmill",
 			"location": "The Churning Mists (28, 35)",
-			"details": "quest 'A Secret From Everyone' must be completed to challenge"
+			"details": "Quest 'A Secret From Everyone' must be completed to challenge"
 		}]
 	},
 	{
@@ -822,7 +835,7 @@
 			"type": "npc",
 			"info": "Voracious Vath",
 			"location": "Dravanian Forelands (23, 19)",
-			"details": "quest 'Yellow Stones' must be completed to challenge"
+			"details": "Quest 'Yellow Stones' must be completed to challenge, 6AM - 12PM"
 		}]
 	},
 	{
@@ -915,7 +928,8 @@
 		}, {
 			"type": "npc",
 			"info": "Swift",
-			"location": "Ul'dah - Steps of Nald (8, 8)"
+			"location": "Ul'dah - Steps of Nald (8, 8)",
+			"details": "6AM - 11AM"
 		}]
 	},
 	{
@@ -940,7 +954,8 @@
 		}, {
 			"type": "npc",
 			"info": "Trachtoum",
-			"location": "Lower La Noscea (35, 15)"
+			"location": "Lower La Noscea (35, 15)",
+			"details": "8PM - 8AM"
 		}]
 	},
 	{
@@ -961,7 +976,8 @@
 		}, {
 			"type": "npc",
 			"info": "Marcette",
-			"location": "Central Shroud (16, 18)"
+			"location": "Central Shroud (16, 18)",
+			"details": "4PM - 8AM"
 		}]
 	},
 	{
@@ -982,7 +998,8 @@
 		}, {
 			"type": "npc",
 			"info": "Vorsaile Heuloix",
-			"location": "New Gridania (9, 11)"
+			"location": "New Gridania (9, 11)",
+			"details": "10PM - 3AM"
 		}]
 	},
 		{
@@ -1013,7 +1030,7 @@
 			"type": "npc",
 			"info": "Hab",
 			"location": "Southern Thanalan (24, 40)",
-			"details": "quest 'Zombies are People Too' must be completed to challenge"
+			"details": "Quest 'Zombies are People Too' must be completed to challenge"
 		}]
 	},
 	{
@@ -1030,7 +1047,8 @@
 		}, {
 			"type": "npc",
 			"info": "Vorsaile Heuloix",
-			"location": "New Gridania (9, 11)"
+			"location": "New Gridania (9, 11)",
+			"details": "10PM - 3AM"
 		}]
 	},
 	{
@@ -1047,7 +1065,8 @@
 		}, {
 			"type": "npc",
 			"info": "R'ashaht Rhiki",
-			"location": "Limsa Lominsa Upper Decks (13, 12)"
+			"location": "Limsa Lominsa Upper Decks (13, 12)",
+			"details": "2PM - 7PM"
 		}]
 	},
 	{
@@ -1113,7 +1132,7 @@
 			"type": "npc",
 			"info": "Hab",
 			"location": "Southern Thanalan (24, 40)",
-			"details": "quest 'Zombies are People Too' must be completed to challenge"
+			"details": "Quest 'Zombies are People Too' must be completed to challenge"
 		}, {
 			"type": "npc",
 			"info": "King Elmer",
@@ -1133,7 +1152,8 @@
 		"sources": [{
 			"type": "npc",
 			"info": "Gibrillont",
-			"location": "Foundation (12, 11)"
+			"location": "Foundation (12, 11)",
+			"details": "2AM - 10AM"
 		}]
 	},
 	{
@@ -1145,7 +1165,8 @@
 		"sources": [{
 			"type": "npc",
 			"info": "Wawalago",
-			"location": "Limsa Lominsa Lower Decks (8, 15)"
+			"location": "Limsa Lominsa Lower Decks (8, 15)",
+			"details": "3PM - 3AM"
 		}]
 	},
 	{
@@ -1157,7 +1178,8 @@
 		"sources": [{
 			"type": "npc",
 			"info": "Marcechamp",
-			"location": "Dravanian Forelands (31, 32)"
+			"location": "Dravanian Forelands (31, 32)",
+			"details": "7PM - 5AM"
 		}]
 	},
 	{
@@ -1169,7 +1191,8 @@
 		"sources": [{
 			"type": "npc",
 			"info": "Idle Imperial",
-			"location": "Azys Lla (28, 31)"
+			"location": "Azys Lla (28, 31)",
+			"details": "9PM - 8AM"
 		}]
 	},
 	{
@@ -1193,7 +1216,8 @@
 		"sources": [{
 			"type": "npc",
 			"info": "Marielle",
-			"location": "The Sea of Clouds (15, 37)"
+			"location": "The Sea of Clouds (15, 37)",
+			"details": "2AM - 10AM"
 		}]
 	},
 	{
@@ -1222,7 +1246,8 @@
 		}, {
 			"type": "npc",
 			"info": "Swift",
-			"location": "Ul'dah - Steps of Nald (8, 8)"
+			"location": "Ul'dah - Steps of Nald (8, 8)",
+			"details": "6AM - 11AM"
 		}]
 	},
 	{
@@ -1247,7 +1272,7 @@
 			"type": "npc",
 			"info": "Mogmill",
 			"location": "The Churning Mists (28, 35)",
-			"details": "quest 'A Secret From Everyone' must be completed to challenge"
+			"details": "Quest 'A Secret From Everyone' must be completed to challenge"
 		}]
 	},
 	{
@@ -1271,7 +1296,8 @@
 		"sources": [{
 			"type": "npc",
 			"info": "Seika",
-			"location": "Idyllshire (6, 7)"
+			"location": "Idyllshire (6, 7)",
+			"details": "2PM - 7AM"
 		}]
 	},
 		{
@@ -1313,7 +1339,8 @@
 		}, {
 			"type": "npc",
 			"info": "Vorsaile Heuloix",
-			"location": "New Gridania (9, 11)"
+			"location": "New Gridania (9, 11)",
+			"details": "10PM - 3AM"
 		}]
 	},
 	{
@@ -1334,7 +1361,8 @@
 		}, {
 			"type": "npc",
 			"info": "R'ashaht Rhiki",
-			"location": "Limsa Lominsa Upper Decks (13, 12)"
+			"location": "Limsa Lominsa Upper Decks (13, 12)",
+			"details": "2PM - 7PM"
 		}]
 	},
 	{
@@ -1445,7 +1473,8 @@
 		}, {
 			"type": "npc",
 			"info": "Swift",
-			"location": "Ul'dah - Steps of Nald (8, 8)"
+			"location": "Ul'dah - Steps of Nald (8, 8)",
+			"details": "6AM - 11AM"
 		}]
 	},
 	{
@@ -1503,7 +1532,8 @@
 		"sources": [{
 			"type": "npc",
 			"info": "Yayake",
-			"location": "Ul'dah - Steps of Nald (7, 12)"
+			"location": "Ul'dah - Steps of Nald (7, 12)",
+			"details": "9AM - 8PM"
 		}]
 	},
 	{
@@ -1570,7 +1600,8 @@
 		"sources": [{
 			"type": "npc",
 			"info": "Idle Imperial",
-			"location": "Azys Lla (28, 31)"
+			"location": "Azys Lla (28, 31)",
+			"details": "9PM - 8AM"
 		}]
 	},
 	{
@@ -1583,7 +1614,7 @@
 			"type": "npc",
 			"info": "Hab",
 			"location": "Southern Thanalan (24, 40)",
-			"details": "quest 'Zombies are People Too' must be completed to challenge"
+			"details": "Quest 'Zombies are People Too' must be completed to challenge"
 		}]
 	},
 	{
@@ -1611,7 +1642,8 @@
 		"sources": [{
 			"type": "npc",
 			"info": "R'ashaht Rhiki",
-			"location": "Limsa Lominsa Upper Decks (13, 12)"
+			"location": "Limsa Lominsa Upper Decks (13, 12)",
+			"details": "2PM - 7PM"
 		}]
 	},
 	{
@@ -1623,7 +1655,8 @@
 		"sources": [{
 			"type": "npc",
 			"info": "Vorsaile Heuloix",
-			"location": "New Gridania (9, 11)"
+			"location": "New Gridania (9, 11)",
+			"details": "10PM - 3AM"
 		}]
 	},
 	{
@@ -1635,7 +1668,8 @@
 		"sources": [{
 			"type": "npc",
 			"info": "Swift",
-			"location": "Ul'dah - Steps of Nald (8, 8)"
+			"location": "Ul'dah - Steps of Nald (8, 8)",
+			"details": "6AM - 11AM"
 		}]
 	},
 		{
@@ -1704,7 +1738,8 @@
 		}, {
 			"type": "npc",
 			"info": "Lewena",
-			"location": "Gold Saucer (4, 6)"
+			"location": "Gold Saucer (4, 6)",
+			"details": "9PM - 7AM"
 		}]
 	},
 	{
@@ -1736,7 +1771,8 @@
 		}, {
 			"type": "npc",
 			"info": "Lewena",
-			"location": "Gold Saucer (4, 6)"
+			"location": "Gold Saucer (4, 6)",
+			"details": "9PM - 7AM"
 		}]
 	},
 	{
@@ -1756,7 +1792,8 @@
 		}, {
 			"type": "npc",
 			"info": "Lewena",
-			"location": "Gold Saucer (4, 6)"
+			"location": "Gold Saucer (4, 6)",
+			"details": "9PM - 7AM"
 		}]
 	},
 	{
