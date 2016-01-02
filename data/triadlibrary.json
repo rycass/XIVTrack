@@ -237,7 +237,7 @@
 	{
 		"name": "Amalj'aa",
 		"lore": "The Amalj'aa are a race of nomadic beastmen who inhabit the grasslands of Paglth'an, where they subsist by hunting the native wildlife. They share a long and bitter history of conflict with the people of Ul'dah. Trained in the arts of war from a tender age, all members of an Amalj'aa clan, old and young, male and female, are skilled warriors. They also boast a fine mastery of metallurgy, and their weapons fetch a tidy sum from those seeking arms of quality.",
-		"flags": "beastman",
+		"attributes": "beastman",
 		"expansion": "ARR",
 		"rarity": "1",
 		"card": "1 1 7 4",
@@ -254,7 +254,7 @@
 	{
 		"name": "Ixal",
 		"lore": "This aggressive mountain tribe claim the wind-blasted canyons of Xelphatol as their domain. Though their race has long since lost the capacity for flight, the feathered beastmen are fervently proud of their vestigial wings. The Ixal seek to reestablish their presence in the Black Shroud that they might once again fell trees in worship of their fickle deity-an ambition which places them at odds with the people of Gridania.",
-		"flags": "beastman",
+		"attributes": "beastman",
 		"expansion": "ARR",
 		"rarity": "1",
 		"card": "4 6 3 1",
@@ -275,7 +275,7 @@
 	{
 		"name": "Sylph",
 		"lore": "Deep within the northeastern reaches of the Black Shroud live the reclusive sylphs. These diminutive beings resemble children's dolls wrapped in vibrant leaves. The demeanor of the sylphs is comparable to that of an innocent child, but their propensity to employ their magical talents to 'playfully' torment travelers has all too often been the cause of untold anguish and even tragedy for their hapless victims.",
-		"flags": "beastman",
+		"attributes": "beastman",
 		"expansion": "ARR",
 		"rarity": "1",
 		"card": "4 2 5 4",
@@ -292,7 +292,7 @@
 	{
 		"name": "Kobold",
 		"lore": "The kobolds are a race of mole-like creatures who have excavated a warren of tunnels under O'Ghomoro, a mountain situated in northern Vylbrand. Believing the ores of the earth to be a gift of the primal Titan, these subterranean beastmen seek to divine their deity's teachings through the arts of alchemy. The peace agreement forged between the kobolds and Limsa Lominsa has served little to quell resurgent hostilities.",
-		"flags": "beastman",
+		"attributes": "beastman",
 		"expansion": "ARR",
 		"rarity": "1",
 		"card": "6 2 4 2",
@@ -305,7 +305,7 @@
 	{
 		"name": "Sahagin",
 		"lore": "These aquatic beastmen reside in a city at the bottom of the Indigo Deep. They breathe water as well as air, and glide through the depths with graceful ease. The social structure of the Sahagin resembles a pyramid, with a single queen-like figure stationed at its point. On the streets of Limsa Lominsa, to mention the name of Sahagin is to invite dark looks and muttered curses.",
-		"flags": "beastman",
+		"attributes": "beastman",
 		"expansion": "ARR",
 		"rarity": "1",
 		"card": "3 4 3 5",
@@ -326,7 +326,7 @@
 	{
 		"name": "Tataru Taru",
 		"lore": "'Deep in the desert of my heart,♪ A lonely flower blooms...♪ Yearning for the heavens above♪ To quench my thirst for you.♪ Trololololo~ lololo~♪'",
-		"flags": "scion",
+		"attributes": "scion",
 		"expansion": "ARR",
 		"rarity": "1",
 		"card": "7 2 3 1",
@@ -559,7 +559,7 @@
 	{
 		"name": "Scarface Bugaal Ja",
 		"lore": "'Mamool Ja wants freedom - freedom to dance! Why does no one understand?'",
-		"flags": "beastman",
+		"attributes": "beastman",
 		"expansion": "ARR",
 		"rarity": "2",
 		"card": "6 6 2 6",
@@ -580,7 +580,7 @@
 		{
 		"name": "Frixio",
 		"lore": "'Mayhap not so fresh...but better than before.'",
-		"flags": "beastman",
+		"attributes": "beastman",
 		"expansion": "ARR",
 		"rarity": "2",
 		"card": "6 6 6 2",
@@ -599,7 +599,7 @@
 	{
 		"name": "Mutamix Bubblypots",
 		"lore": "'Pshhh... Shkohhh... Uplander seeks knowings of shifty-making, yes? Then uplander should make openears to tongueflaps of Mutamix.'",
-		"flags": "beastman",
+		"attributes": "beastman",
 		"expansion": "ARR",
 		"rarity": "2",
 		"card": "6 2 6 6",
@@ -612,7 +612,7 @@
 	{
 		"name": "Memeroon",
 		"lore": "'Stop, stop, stop! Memeroon give you shinies! Many, many shinies to repay repayments!'",
-		"flags": "beastman",
+		"attributes": "beastman",
 		"expansion": "ARR",
 		"rarity": "2",
 		"card": "2 6 6 6",
@@ -625,7 +625,7 @@
 	{
 		"name": "Vanu Vanu",
 		"lore": "An avian beast tribe that makes their home on the floating islands of the Sea of Clouds. Isolated from the world in the years prior to the advent of airship technology, in recent years they have grown wary of those who would encroach upon their homeland.",
-		"flags": "beastman",
+		"attributes": "beastman",
 		"expansion": "Heavensward",
 		"rarity": "2",
 		"card": "7 2 4 6",
@@ -639,7 +639,7 @@
 	{
 		"name": "Gnath",
 		"lore": "A tribe of insect-like beastmen known to inhabit the southern reaches of the Dravanian forelands. Hunters first and foremost, they burn a sort of incense to defend their homeland from the dragon threat. At the center of Gnath society sits the king-like “Overmind,” its presence allowing its subjects to communicate without need of word or gesture.",
-		"flags": "beastman",
+		"attributes": "beastman",
 		"expansion": "Heavensward",
 		"rarity": "2",
 		"card": "3 6 7 3",
@@ -653,7 +653,7 @@
 	{
 		"name": "Livia sas Junius",
 		"lore": "'Fail to do as my lord commands...and I will spare him the trouble of punishing you.'",
-		"flags": "garlean",
+		"attributes": "garlean",
 		"expansion": "ARR",
 		"rarity": "2",
 		"card": "1 3 7 7",
@@ -670,7 +670,7 @@
 	{
 		"name": "Rhitahtyn Sas Arvina",
 		"lore": "'In the name of Lord van Baelsar, I, Rhitahtyn sas Arvina, do swear to strike you down!'",
-		"flags": "garlean",
+		"attributes": "garlean",
 		"expansion": "ARR",
 		"rarity": "2",
 		"card": "1 3 7 7",
@@ -913,7 +913,7 @@
 	{
 		"name": "Ifrit",
 		"lore": "Summoned by the Amalj'aa of sunbaked Paglth'an, the Lord of the Inferno-with molten claws that render metal into bubbling pools of molten ooze, and terrible horns that stretch skyward, ever threatening to brand the heavens above-is feared across the realm for a blazing fury almost as unquenchable as his desire to swell the ranks of his tempered armies.",
-		"flags": "primal",
+		"attributes": "primal",
 		"expansion": "ARR",
 		"rarity": "3",
 		"card": "7 7 6 1",
@@ -935,7 +935,7 @@
 	{
 		"name": "Titan",
 		"lore": "Summoned by the kobolds of O'Ghomoro, the Lord of Crags maintains an air of forbearance rarely seen in the realm's other primals. However, should he sense the lives of his loyal acolytes are in peril, he will not hesitate to call upon the very mountains themselves to crush the life from those who would bring them harm.",
-		"flags": "primal",
+		"attributes": "primal",
 		"expansion": "ARR",
 		"rarity": "3",
 		"card": "6 1 7 7",
@@ -961,7 +961,7 @@
 	{
 		"name": "Garuda",
 		"lore": "Summoned by the Ixal tribes of Xelphatol, Garuda harbors the uncanny ability to manipulate the very air which surrounds her. The winds she wields, however, have twisted her heart and broken her mind, rendering the Lady of the Vortex a merciless tyrant with an appetite for destruction that is nigh insatiable.",
-		"flags": "primal",
+		"attributes": "primal",
 		"expansion": "ARR",
 		"rarity": "3",
 		"card": "7 7 1 6",
@@ -983,7 +983,7 @@
 	{
 		"name": "Good King Moggle Mog XIII",
 		"lore": "Summoned by a rogue sect of Twelveswood moogles believing the regent to be the very figure who led their peoples from their home in the starry welkin down to the realm of Eorzea, Good King Moggle Mog XII is only actually 'good' to his handful of subjects, doling out healthy dollops of royal justice to all others who would dare stand in his way.",
-		"flags": "primal",
+		"attributes": "primal",
 		"expansion": "ARR",
 		"rarity": "3",
 		"card": "1 7 7 6",
@@ -1005,7 +1005,7 @@
 		{
 		"name": "Nero Tol Scaeva",
 		"lore": "'Garlond... Soon you will be made to know the true power of magitek.'",
-		"flags": "garlean",
+		"attributes": "garlean",
 		"expansion": "ARR",
 		"rarity": "3",
 		"card": "7 4 8 1",
@@ -1018,7 +1018,7 @@
 	{
 		"name": "Thancred",
 		"lore": "'I've been something of a liability of late, I know. 'Tis high time I set about making amends.'",
-		"flags": "scion",
+		"attributes": "scion",
 		"expansion": "ARR",
 		"rarity": "3",
 		"card": "7 2 8 3",
@@ -1036,7 +1036,7 @@
 	{
 		"name": "Papalymo & Yda",
 		"lore": "'The great beyond! I do believe we're dead, Papalymo!' 'Oh, Rhalgr take you and your great beyond!'",
-		"flags": "scion",
+		"attributes": "scion",
 		"expansion": "ARR",
 		"rarity": "3",
 		"card": "2 3 8 7",
@@ -1054,7 +1054,7 @@
 	{
 		"name": "Y'shtola",
 		"lore": "'The seas continue to rise while the lesser moon continues to fall, and ilm by ilm, the world becomes ever more unlike itself.'",
-		"flags": "scion",
+		"attributes": "scion",
 		"expansion": "ARR",
 		"rarity": "3",
 		"card": "4 7 1 8",
@@ -1072,7 +1072,7 @@
 	{
 		"name": "Urianger",
 		"lore": "'Truth interpreted is truth transformed. Today's heroes may yet become tomorrow's gods...or something else.''",
-		"flags": "scion",
+		"attributes": "scion",
 		"expansion": "ARR",
 		"rarity": "3",
 		"card": "7 8 4 1",
@@ -1303,7 +1303,7 @@
 		{
 		"name": "Odin",
 		"lore": "While no one knows exactly when or by whom the Dark Divinity was summoned, the elder primal roams the Twelveswood astride his loyal warhorse Sleipnir seeking a bloody reckoning for misdeeds lost but unforgotten.",
-		"flags": "primal",
+		"attributes": "primal",
 		"expansion": "ARR",
 		"rarity": "4",
 		"card": "8 8 1 8",
@@ -1324,7 +1324,7 @@
 	{
 		"name": "Ramuh",
 		"lore": "Worshipped by the sylphs of the Twelveswood, the Lord of Levin is a thunderous entity with boundless knowledge of ages past. He is stern yet just, but his judgment is final, and those found guilty of mortal sin will be met with mighty bolts of white-hot lightning.",
-		"flags": "primal",
+		"attributes": "primal",
 		"expansion": "ARR",
 		"rarity": "4",
 		"card": "8 8 8 1",
@@ -1346,7 +1346,7 @@
 	{
 		"name": "Leviathan",
 		"lore": "Summoned by the Sahagin tribes of the Indigo Deep, the Lord of the Whorl ever lurks beneath the sea's surface, seeking ships to swallow and sailors to join his ranks of drowned minions. Fishers and saltwives throughout history have believed the tidal waves which oft flood their coastal villages are created by the thrashing tail of an angered Leviathan, and have for centuries offered sacrifices to the sea in hopes of soothing the serpent.",
-		"flags": "primal",
+		"attributes": "primal",
 		"expansion": "ARR",
 		"rarity": "4",
 		"card": "1 8 8 8",
@@ -1368,7 +1368,7 @@
 	{
 		"name": "Shiva",
 		"lore": "The Enchiridion, holy scripture for the Ishgardian faith, brands Shiva the Original Heretic-the first to succumb to the temptation of the dragons. Her followers, however, venerate her as a saint who tried, yet failed, to bring together man and dragon through selfless sacrifice.",
-		"flags": "primal",
+		"attributes": "primal",
 		"expansion": "ARR",
 		"rarity": "4",
 		"card": "8 1 8 8",
@@ -1389,7 +1389,7 @@
 	{
 		"name": "Ravana",
 		"lore": "Wrath of the Colony and the god and savior of the Gnath tribe. A proud warrior and conqueror, Lord Ravana exalts strength and abhors weakness in any form. Believing the rite of combat to be sacred, he revels in battle with worthy opponents while wielding the Chandrahas─legendary blades of moonlight that obey his every command.",
-		"flags": "primal",
+		"attributes": "primal",
 		"expansion": "Heavensward",
 		"rarity": "4",
 		"card": "1 9 8 7",
@@ -1407,7 +1407,7 @@
 	{
 		"name": "Bismarck",
 		"lore": "Long thought to be little more than myth, the Lord of the Expanse was summoned forth and given form by the fervent prayers of the Vanu Vanu, who worship him as the god that led their ancestors to their island home. With a flood-blast of water from his great blowhole, the great white whale purges the skies of those who would do his followers harm.",
-		"flags": "primal",
+		"attributes": "primal",
 		"expansion": "Heavensward",
 		"rarity": "4",
 		"card": "8 1 7 9",
@@ -1424,7 +1424,7 @@
 	{
 		"name": "Ultima Weapon",
 		"lore": "A relic of the Third Astral Era, the Ultima Weapon is a feat of Allagan technology-the same technology which saw the reach of the Allagan Empire extend to the four corners of Hydaelyn. Upon rediscovery of the mechanical juggernaut buried deep beneath the lands just beyond Ala Mhigo, the XIVth Legion of the Imperial Garlean Army refitted it to serve as a countermeasure against the ever-growing primal threat.",
-		"flags": "garlean",
+		"attributes": "garlean",
 		"expansion": "ARR",
 		"rarity": "4",
 		"card": "1 7 9 8",
@@ -1445,7 +1445,7 @@
 	{
 		"name": "Minfilia",
 		"lore": "'No doubt you're ripe to burst with questions, but have patience-all will be revealed in time.'",
-		"flags": "scion",
+		"attributes": "scion",
 		"expansion": "ARR",
 		"rarity": "4",
 		"card": "5 9 3 8",
@@ -1462,7 +1462,7 @@
 		{
 		"name": "Alphinaud & Alisaie",
 		"lore": "'Our paths may differ, but our destination is the same. In time, I daresay we will see eye to eye.'",
-		"flags": "scion",
+		"attributes": "scion",
 		"expansion": "ARR",
 		"rarity": "4",
 		"card": "9 9 3 3",
@@ -1480,7 +1480,7 @@
 	{
 		"name": "Louisoix Leveilleur",
 		"lore": "'Silence, chattering raven. Your wretched wings are broken, and you shall soar no more.'",
-		"flags": "scion",
+		"attributes": "scion",
 		"expansion": "ARR",
 		"rarity": "4",
 		"card": "3 9 9 4",
@@ -1563,7 +1563,7 @@
 	{
 		"name": "Bahamut",
 		"lore": "Forgotten for millennia, the elder primal Bahamut was finally freed from his celestial prison Dalamud in the 1572nd year of the Sixth Astral Era through the machinations of the Garlean legatus Nael van Darnus. Unfettered at last, the dreadwyrm unleashed an endless rain of fire on the land, the destruction he wrought ushering in a dark age of death and suffering.",
-		"flags": "primal",
+		"attributes": "primal",
 		"expansion": "ARR",
 		"rarity": "5",
 		"card": "6 9 9 5",
@@ -1576,7 +1576,7 @@
 	{
 		"name": "Gaius Van Baelsar",
 		"lore": "'Unworthy is the ruler whose subjects seek the solace of false gods.'",
-		"flags": "garlean",
+		"attributes": "garlean",
 		"expansion": "ARR",
 		"rarity": "5",
 		"card": "9 4 5 A",
@@ -1593,7 +1593,7 @@
 	{
 		"name": "Regula Van Hydrus",
 		"lore": "'Come! Show me your power, champions of Eorzea!'",
-		"flags": "garlean",
+		"attributes": "garlean",
 		"expansion": "Heavensward",
 		"rarity": "5",
 		"card": "8 8 6 8",

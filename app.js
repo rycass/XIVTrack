@@ -9,12 +9,12 @@ $(document).ready(function(){
 		$scope.reverseSort = false;
 		
 		$scope.tabs = [
-			{ title:'Minions', id: '0', prefix: 'minion', data: [], sData: [], tableHeading:["Source"], numObtained:0, maxObtained: 0, color: '#FFFFFF'},
-			{ title:'Mounts', id: '1', prefix: 'mount', data: [], sData: [], tableHeading:["Source"], numObtained:0, maxObtained: 0, color:'#000000'},
-			{ title:'Triple Triad', id: '2', prefix: 'triad', data: [], sData: [], tableHeading:["Card", "Source"], numObtained:0, maxObtained: 0, color:'#123456'}
+			{ title:'Minions', id: '0', prefix: 'minion', data: [], sData: [], tableHeading:[], numObtained:0, maxObtained: 0, color: '#FFFFFF'},
+			{ title:'Mounts', id: '1', prefix: 'mount', data: [], sData: [], tableHeading:["Attributes"], numObtained:0, maxObtained: 0, color:'#000000'},
+			{ title:'Triple Triad', id: '2', prefix: 'triad', data: [], sData: [], tableHeading:["Card"], numObtained:0, maxObtained: 0, color:'#123456'}
 		];
 		
-		$scope.flags = {flying:'Flying Mount', passenger: 'Passenger Mount', beastman: 'Beastman', primal: 'Primal', scion: 'Scion', garlean: 'Garlean'};
+		$scope.attributes = {flying:'Flying Mount', passenger: 'Passenger Mount', beastman: 'Beastman', primal: 'Primal', scion: 'Scion', garlean: 'Garlean'};
 		//the following tbi:
 		//	{ title:'Barding', id: '3', prefix: 'barding', data:bardingLibrary, tableHeading:["Name", "Category", "Subcategory", "Info", "Location", "Expansion"], numObtained:0, maxObtained: 0},
 		//	{ title:'Cosmetics', id: '4', prefix: 'cosmetic', data:cosmeticLibrary, tableHeading:["Name", "Category", "Subcategory", "Type", "Info", "Location", "Expansion"], numObtained:0, maxObtained: 0}
@@ -105,9 +105,9 @@ $(document).ready(function(){
 			return str;
 		}
 		
-		$scope.getFlags = function(item) {
-			if (item.flags == undefined) return [];
-			return item.flags.split(" ");
+		$scope.getAttributes = function(item) {
+			if (item.attributes == undefined) return [];
+			return item.attributes.split(" ");
 		}
 		
 		$scope.getCard = function (item, position) {

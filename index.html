@@ -2,6 +2,7 @@
 <html ng-app="XIVTrack">
 	<head>
 		<title>XIVTrack</title>
+		<link rel="icon" type="img/ico" href="icons/favicon.ico" />
 		<link rel="stylesheet" type="test/css" href="format.css" />
 		<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
 		<script type="text/javascript" src="app.js"></script>
@@ -33,14 +34,14 @@
 					<th class="clickable small-column" st-sort="obtained" st-skip-natural="true">Have?</th>
 					<th class="clickable small-column" st-sort="number" st-skip-natural="true" st-sort-default="true">Num</th>
 					<th class="small-column">Icon</th>
-					<th class="clickable" st-sort="name" st-skip-natural="true">Name</th>
+					<th class="clickable name-column" st-sort="name" st-skip-natural="true">Name</th>
 					<th ng-repeat="column in t.tableHeading">
 						{{column}}
 					</th>
+					<th>Source</th>
 				</tr>
 				<tr>
-					<th ng-if="!tabActive(2)" colspan="5"><input st-search="name" class="form-control" placeholder="Search name..." type="text"/></th>
-					<th ng-if="tabActive(2)" colspan="6"><input st-search="name" class="form-control" placeholder="Search name..." type="text"/></th>
+					<th colspan="{{t.tableHeading.length + 5}}"><input st-search="name" class="form-control" placeholder="Search name..." type="text"/></th>
 				</tr>
 			</thead>
 			<tbody>
@@ -56,18 +57,15 @@
 						<img ng-src="icons/{{getItemImage(item, t.prefix)}}.png" height="48" width="48" tooltip-placement="right" uib-tooltip="{{item.lore}}">
 					</td>
 					<td>
-						<div>{{item["name"]}} <img ng-repeat="i in getFlags(item)" ng-src="icons/system/icon_{{i}}.png" tooltip-placement="right", uib-tooltip="{{flags[i]}}"></div>
+						<div>{{item["name"]}}</div>
 					</td>
 					<td ng-repeat="column in t.tableHeading">
-						<div ng-if="column.toLowerCase() == 'card'" class="card-core"><img class="card-left" ng-src="icons/system/card_{{getCard(item, 0)}}.png"><img class="card-up" ng-src="icons/system/card_{{getCard(item, 1)}}.png"><img class="card-down" ng-src="icons/system/card_{{getCard(item, 2)}}.png"><img class="card-right" ng-src="icons/system/card_{{getCard(item, 3)}}.png"><img class="card-rarity" ng-src="icons/system/card_rarity_{{item.rarity}}.png"></div>
-						<div ng-if="column.toLowerCase() == 'source'"><img class="source" ng-src="icons/system/source_{{fixImgString(s.type)}}.png" tooltip-placement="right" uib-popover-template="'sourceTemplate.html'" popover-trigger="mouseenter" ng-repeat="s in item.activesources"></div>
-						<script type="text/ng-template" id="sourceTemplate.html">
-							<div><b>{{filterLibrary[s.type].name}}</b></div>
-							<div>Info: {{s.info}}</div>
-							<div>Location: {{s.location}}</div>
-							<div ng-if="s.details != undefined">Details: {{s.details}}</div>
-						</script>
-						</td>
+						<div ng-if="column.toLowerCase() == 'attributes'"><img ng-repeat="i in getAttributes(item)" ng-src="icons/system/icon_{{i}}.png" tooltip-placement="right", uib-tooltip="{{attributes[i]}}"></div>
+						<div ng-if="column.toLowerCase() == 'card'" class="card-core"><img class="card-left" ng-src="icons/system/card_{{getCard(item, 0)}}.png"><img class="card-up" ng-src="icons/system/card_{{getCard(item, 1)}}.png"><img class="card-down" ng-src="icons/system/card_{{getCard(item, 2)}}.png"><img class="card-right" ng-src="icons/system/card_{{getCard(item, 3)}}.png"><img class="card-rarity" ng-src="icons/system/card_rarity_{{item.rarity}}.png"><img class="card-tribe" ng-repeat="i in getAttributes(item)" ng-src="icons/system/icon_{{i}}.png" tooltip-placement="right", uib-tooltip="{{attributes[i]}}"></div>
+					</td>
+					<td>
+						<img class="source" ng-src="icons/system/source_{{fixImgString(s.type)}}.png" tooltip-placement="right" uib-popover-template="'sourceTemplate.html'" popover-trigger="mouseenter" ng-repeat="s in item.activesources">
+					</td>
 				</tr>
 			</tbody>
 		</table>
@@ -94,5 +92,12 @@
 				</div>
 			</div>
 		</div>
+		
+		<script type="text/ng-template" id="sourceTemplate.html">
+			<div><b>{{filterLibrary[s.type].name}}</b></div>
+			<div>Info: {{s.info}}</div>
+			<div>Location: {{s.location}}</div>
+			<div ng-if="s.details != undefined">Details: {{s.details}}</div>
+		</script>
 	</body>
 </html>

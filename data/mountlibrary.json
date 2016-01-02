@@ -2,7 +2,7 @@
 	{
 		"name": "Company Chocobo",
 		"lore": "Born and bred in the city-state of Ishgard, the majority of company chocobos are geldings of the rouncey variety; however, massive destriers and miniature Belah'dian jennets are also raised to accommodate the builds of Roegadyn and Lalafell riders respectively.",
-		"flags": "flying",
+		"attributes": "flying",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "quest",
@@ -39,7 +39,7 @@
 	{
 		"name": "Draught Chocobo",
 		"lore": "This heretofore unseen breed of chocobo was said to have been discovered by chocobo hunters searching for the legendary Chocobo Forest. Its enormous size would make it a fine pack chocobo, but its foul temper prevents it from completing even the simplest of tasks without the injury of some poor rider.",
-		"flags": "flying passenger",
+		"attributes": "flying passenger",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "promotion",
@@ -50,7 +50,7 @@
 	{
 		"name": "Ceremony Chocobo",
 		"lore": "Raised by Ishgard's master breeders for beauty and purity of stock, its snow white feathers are natural and, though fully developed, as soft as down. Temperament-wise, the bird is remarkably docile and one of few breeds who will allow dual riders upon its back.",
-		"flags": "flying passenger",
+		"attributes": "flying passenger",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "other",
@@ -61,7 +61,7 @@
 	{
 		"name": "Black Chocobo",
 		"lore": "A purebred Ishgardian black chocobo, trained from birth by House Fortemps knight, Ser Haurchefaunt, and presented to you in a gesture of true friendship. The bird is slightly more muscular than you expected and exhibits the strange habit of squatting when left to itself.",
-		"flags": "flying",
+		"attributes": "flying",
 		"expansion": "Heavensward",
 		"sources": [{
 			"type": "quest",
@@ -72,7 +72,7 @@
 	{
 		"name": "Amber Draught Chocobo",
 		"lore": "To Ishgardians, red represents true love and loyalty. To this wild chocobo from the Dravanian forelands, it meant capture at the hands of hunters who easily found a red chocobo sticking out like a sore thumb in the midst of all his yellow brethren.",
-		"flags": "flying passenger",
+		"attributes": "flying passenger",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "promotion",
@@ -93,7 +93,7 @@
 	{
 		"name": "Fat Chocobo",
 		"lore": "Playfully described by some as 'large and in charge,' in truth, when summoned, this gluttonous gourmand will flap nary a feather unless a garland of gysahl greens is dangled before him - in which case not even the laws of nature can slow the fat chocobo down.",
-		"flags": "flying passenger",
+		"attributes": "flying passenger",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "merchandise",
@@ -104,7 +104,7 @@
 	{
 		"name": "Parade Chocobo",
 		"lore": "Originally purchased by the Adventurers' Guild for use in festival parades, this portly steed quickly wore out his welcome by devouring a moon's worth of fodder in a single turn of the sun. Unable to pay the price of upkeep, the guild passed the reigns to some- one more 'commendable.'",
-		"flags": "flying passenger",
+		"attributes": "flying passenger",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -116,7 +116,7 @@
 	{
 		"name": "Magitek Armor",
 		"lore": "This suit of Garlean-developed reaper-class magitek battle armor has had its original control systems purged and replaced with a new, modified core built by Cid of the Garlond Ironworks.",
-		"flags": "flying",
+		"attributes": "flying",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "quest",
@@ -127,7 +127,7 @@
 	{
 		"name": "Gilded Magitek Armor",
 		"lore": "It only took a few heated skirmishes with the allied city-states for Garlemald to realize that the magicks wielded by the realm's mages were too much for even the thickest of magitek armor plating. Alloyed gilding has since been discovered to dampen the effects of elemental charges and is now standard issue.",
-		"flags": "flying",
+		"attributes": "flying",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -139,7 +139,7 @@
 	{
 		"name": "White Devil",
 		"lore": "This masterpiece of Imperial ingenuity is the selfsame suit of warmachina operated by XIVth Legion tribunus Livia sas Junius in the Garlean Empire's invasion and subjugation of Ilsabard's northern reaches.",
-		"flags": "flying",
+		"attributes": "flying",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "cashshop",
@@ -150,7 +150,7 @@
 	{
 		"name": "Red Baron",
 		"lore": "Constantly modified and improved by the Nero himself, this warmachina of Garlean construct barely resembles the suit issued to tol Scaeva on the day of his promotion to tribunus.",
-		"flags": "flying",
+		"attributes": "flying",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "cashshop",
@@ -161,7 +161,7 @@
 	{
 		"name": "Logistics System",
 		"lore": "One of the automated system drones deployed by the Allagans to maintain and protect their strongholds. After being unearthed by the Sons of Saint Coinach, the mechanical sphere was modified by Nero tol Scavea into a personal transportation device.",
-		"flags": "flying",
+		"attributes": "flying",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -215,7 +215,7 @@
 	{
 		"name": "Ahriman",
 		"lore": "Though little is known of the void and the creatures which call the extra-dimensional realm home, scholars have discovered that there is a strict hierarchy amongst voidsent consisting of twelve distinct tiers. Ahrimans are believed to fall into the fifth, making them formidable foes... when not enthralled by curses.",
-		"flags": "flying",
+		"attributes": "flying",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "promotion",
@@ -258,7 +258,7 @@
 	{
 		"name": "Bomb Palanquin",
 		"lore": "Upon learning that his creations were forever lacking the power to combust, 789th Order Acolyte Ba Go did what any master of explosives would - attach the bombs to the corners of an iron bench and create a floating coach.",
-		"flags": "flying",
+		"attributes": "flying",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -323,7 +323,7 @@
 	{
 		"name": "Griffin",
 		"lore": "Fantastical winged beasts native to the unscalable peaks of Abalathia's Spine, griffins actually have a long history of serving as mounts. Indeed, before the city-state's fall, the Ala Mhigan army maintained a regiment of griffin-back soldiers who would harry opposing forces.",
-		"flags": "flying",
+		"attributes": "flying",
 		"expansion": "Heavensward",
 		"sources": [{
 			"type": "merchandise",
@@ -334,7 +334,7 @@
 	{
 		"name": "Manacutter",
 		"lore": "Supervised (in spirit) by the ever-absent Cid, Biggs and Wedge (with a little bending over by Biggs) put their heads together to create this flight-ready miniature airship, powered by the realm's first corrupted crystal engine.",
-		"flags": "flying",
+		"attributes": "flying",
 		"expansion": "Heavensward",
 		"sources": [{
 			"type": "quest",
@@ -345,7 +345,7 @@
 	{
 		"name": "Sanuwa",
 		"lore": "Countless turns of the sun did Luna Vanu train this wild sanuwa to obey the orders of man, and for many moons did he wait for one he deemed worthy of taking up this noble cloudkin's reins. Wait, he did, until you arrived.",
-		"flags": "flying",
+		"attributes": "flying",
 		"expansion": "Heavensward",
 		"sources": [{
 			"type": "vendor",
@@ -357,7 +357,7 @@
 	{
 		"name": "Witch's Broom",
 		"lore": "Once an ordinary household cleaning tool, relegated to such menial tasks as sweeping and... sweeping, this broom's life changed upon being enchanted by the ogre pumpkinhead. Now the skies are its dusty floors.",
-		"flags": "flying",
+		"attributes": "flying",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "holiday",
@@ -368,7 +368,7 @@
 	{
 		"name": "Gobwalker",
 		"lore": "Originally designed to be a less-fickle replacement for pack raptors, the gobwalker was quickly reoutfitted into a tool of war after it took twenty goblins to chase down and topple a walker that had gone out of control and destroyed an entire workshop.",
-		"flags": "flying",
+		"attributes": "flying",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "raid",
@@ -379,7 +379,7 @@
 	{
 		"name": "Twintania",
 		"lore": "Bound to eternal thralldom via an Allagan neurolink, this ancient wyvern from the southern continent of Meracydia will remain a loyal servant as long as you possess its identification key.",
-		"flags": "flying",
+		"attributes": "flying",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "promotion",
@@ -400,7 +400,7 @@
 	{
 		"name": "Wyvern",
 		"lore": "Fifty score years ago, this wyvern made a pact with a knight to aid in vanquishing evil from the skies. Even now, long after the knight's passing, the wyvern has kept that promise, ever circling the heavens - ignoring the calls of his brethren to take up arms against mankind.",
-		"flags": "flying",
+		"attributes": "flying",
 		"expansion": "Heavensward",
 		"sources": [{
 			"type": "vendor",
@@ -421,7 +421,7 @@
 	{
 		"name": "Nightmare",
 		"lore": "While it is no secret that it was the enigmatic Ascians who provided the beast tribes with nightmares, their reasons for doing so remain shrouded in mystery. Otherwise untamable, the single piercing tone of a magicked whistle is the only method known to soothe the savage beasts.",
-		"flags": "flying",
+		"attributes": "flying",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "trial",
@@ -442,7 +442,7 @@
 	{
 		"name": "Aithon",
 		"lore": "Its breath is said to be as hot as the seventh hell. Legend states that the Lord of the Inferno, Ifrit, forged this magicked steed from a nightmare offered by the Amalj'aa in sacrifice.",
-		"flags": "flying",
+		"attributes": "flying",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "trial",
@@ -453,7 +453,7 @@
 	{
 		"name": "Xanthos",
 		"lore": "Legend states that the Lady of the Vortex, Garuda, created this magicked steed from a nightmare offered by the Ixal in sacrifice.",
-		"flags": "flying",
+		"attributes": "flying",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "trial",
@@ -464,7 +464,7 @@
 	{
 		"name": "Gullfaxi",
 		"lore": "Legend states that the Lord of Crags, Titan, wrought this magicked steed from a nightmare offered by the kobolds in sacrifice.",
-		"flags": "flying",
+		"attributes": "flying",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "trial",
@@ -475,7 +475,7 @@
 	{
 		"name": "Enbarr",
 		"lore": "Legend states that the Lord of the Whorl, Leviathan, birthed this magicked steed from a nightmare offered by the Sahagin in sacrifice.",
-		"flags": "flying",
+		"attributes": "flying",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "trial",
@@ -486,7 +486,7 @@
 	{
 		"name": "Markab",
 		"lore": "Legend states that the Lord of Levin, Ramuh, drew forth this magicked steed from a nightmare offered by the sylphs in sacrifice.",
-		"flags": "flying",
+		"attributes": "flying",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "trial",
@@ -497,7 +497,7 @@
 	{
 		"name": "Boreas",
 		"lore": "Legend states that the Lady of Frost, Shiva, birthed this magicked steed from a unicorn offered by her followers in sacrifice.",
-		"flags": "flying",
+		"attributes": "flying",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "trial",
@@ -508,7 +508,7 @@
 	{
 		"name": "Kirin",
 		"lore": "Ask any man in Othard who rules the realm of beasts, and you will receive the same answer - Kirin. It is believed that the lion-like creature has walked the eastern lands for over a thousand years and will only answer the call of a hero it has deemed worthy.",
-		"flags": "flying",
+		"attributes": "flying",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "quest",
@@ -520,7 +520,7 @@
 	{
 		"name": "Pegasus",
 		"lore": "While rumors of a winged horse have graced ancient tomes for centuries, until recently, very little in the way of proof of their existence remained save the random feather or horseshoe housed in some remote monastery's reliquary.",
-		"flags": "flying",
+		"attributes": "flying",
 		"expansion": "Heavensward",
 		"sources": [{
 			"type": "other",
@@ -564,7 +564,7 @@
 	{
 		"name": "Sleipnir",
 		"lore": "Blessed by the elder primal himself, Sleipnir will forever remain loyal to those who have proven themselves worthy. In addition to being fearless in battle, the dark steed is also able to manipulate his corporeal form to accommodate any rider, large or small.",
-		"flags": "flying",
+		"attributes": "flying",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "cashshop",
@@ -575,7 +575,7 @@
 	{
 		"name": "Midgardsormr",
 		"lore": "Only after proving your bravery in the face of countless perils has the father of dragons found you to be a worthy heir to the light, and granted you a place upon his back.",
-		"flags": "flying",
+		"attributes": "flying",
 		"expansion": "Heavensward",
 		"sources": [{
 			"type": "quest",
