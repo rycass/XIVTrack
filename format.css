@@ -2,6 +2,19 @@ table {
 	table-layout:auto;
 }
 
+.clickable {
+	cursor:pointer;
+}
+
+.small-column {
+	width: 100px;
+	max-width: 100px;
+}
+
+.name-column {
+	width: 500px;
+}
+
 .card-core {
 	position: relative;
 	height: 48px;
@@ -52,14 +65,6 @@ table {
 
 .track-not-obtained {
 	color: #D0D0D0;
-}
-
-.filter-on {
-	background-color: #FF0000;
-}
-
-.filter-off {
-	background-color: #00FF00;
 }
 
 .lr-sticky-header {

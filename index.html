@@ -1,40 +1,39 @@
 <!DOCTYPE html>
 <html ng-app="XIVTrack">
 	<head>
+		<title>XIVTrack</title>
 		<link rel="stylesheet" type="test/css" href="format.css" />
 		<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
 		<script type="text/javascript" src="app.js"></script>
-		<script type="text/javascript" src="angular.js"></script>
+		<script type="text/javascript" src="angular.min.js"></script>
 		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="lrStickyHeader.js"></script>
-		<script type="text/javascript" src="smart-table.js"></script>
-		<script type="text/javascript" src="stStickyHeader.js"></script>
-		<script type="text/javascript" src="ui-bootstrap.js"></script>
+		<script type="text/javascript" src="smart-table.min.js"></script>
+		<script type="text/javascript" src="ui-bootstrap.min.js"></script>
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
 		<link rel="stylesheet" href="format.css" />
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	</head>
 	<body ng-controller="TableController as tableCtrl">
 		<nav class="navbar navbar-default">
-			<div class="navbar-header navbar-brand">XIVTrack (Alpha Version)</div>
+			<div class="navbar-header navbar-brand">XIVTrack</div>
 			<ul class="nav navbar-nav">
-				<li ng-repeat="t in tabs" ng-class="navTabActive(t.id)"><a ng-click="setTab(t.id)">{{t.title}}</a></li>
+				<li ng-repeat="t in tabs" ng-class="navTabActive(t.id)"><a href="#" ng-click="setTab(t.id)">{{t.title}}</a></li>
 				<li><a href="#" data-toggle="modal" data-target="#settingsModal">Settings</a></li>
 			</ul>
 			<div class="collapse navbar-collapse">
-				<uib-progress>
+				<uib-progress style="margin:15px;">
 						<uib-progressbar value="getNumObtained()" max="getMaxObtained()">{{getNumObtained()}} / {{getMaxObtained()}}</uib-bar>
 				</uib-progress>
 			</div>
 		</nav>
 
-		<table st-table="t.data" st-safe-src="t.sData" class="table" st-sticky-header ng-repeat="t in tabs" ng-if="tabActive(t.id)">
-			<thead>
+		<table st-table="t.data" st-safe-src="t.sData" class="table" ng-repeat="t in tabs" ng-if="tabActive(t.id)">
+			<thead style="left: 0px; top: 0px; position: initial;">
 				<tr>
-					<th st-sort="obtained" st-skip-natural="true">Obtained?</th>
-					<th>Icon</th>
-					<th st-sort="number" st-skip-natural="true" st-sort-default="true">Number</th>
-					<th st-sort="name" st-skip-natural="true">Name</th>
+					<th class="clickable small-column" st-sort="obtained" st-skip-natural="true">Have?</th>
+					<th class="clickable small-column" st-sort="number" st-skip-natural="true" st-sort-default="true">Num</th>
+					<th class="small-column">Icon</th>
+					<th class="clickable" st-sort="name" st-skip-natural="true">Name</th>
 					<th ng-repeat="column in t.tableHeading">
 						{{column}}
 					</th>
@@ -46,15 +45,15 @@
 			</thead>
 			<tbody>
 				<tr ng-hide="checkFilter(item)" ng-repeat="item in t.data">
-					<td ng-click="toggleObtained(item, t)">
+					<td class="small-column" class="clickable" ng-click="toggleObtained(item, t)">
 						<i class="fa fa-check track-not-obtained fa-2x" ng-hide="item.obtained"></i>
 						<i class="fa fa-check track-obtained fa-2x" ng-hide="!item.obtained"></i>
 					</td>
-					<td>
-						<img ng-src="icons/{{getItemImage(item, t.prefix)}}.png" height="48" width="48" tooltip-placement="right" uib-tooltip="{{item.lore}}">
-					</td>
-					<td>
+					<td class="small-column">
 						{{item["number"]}}
+					</td>
+					<td class="small-column">
+						<img ng-src="icons/{{getItemImage(item, t.prefix)}}.png" height="48" width="48" tooltip-placement="right" uib-tooltip="{{item.lore}}">
 					</td>
 					<td>
 						<div>{{item["name"]}} <img ng-repeat="i in getFlags(item)" ng-src="icons/system/icon_{{i}}.png" tooltip-placement="right", uib-tooltip="{{flags[i]}}"></div>
@@ -83,10 +82,10 @@
 					<div class="modal-body">
 						<h3>Filters</h3>
 						<div>
-							<button type="button" class="btn btn-btnprimary" ng-class="{'filter-on':filterObtained, 'filter-off': !filterObtained}" ng-model="filterObtained" uib-btn-checkbox>Obtained</button>
+							<button type="button" class="btn btn-btnprimary" ng-class="{'btn-danger':filterObtained, 'btn-success': !filterObtained}" ng-model="filterObtained" uib-btn-checkbox>Obtained</button>
 						</div>
 						<div class="btn-group">
-							<button ng-repeat="f in filterLibrary" type="button" class="btn btn-btnprimary" ng-class="{'filter-on':f.filtered, 'filter-off': !f.filtered}" ng-model="f.filtered" uib-btn-checkbox>{{f.name}}</button>
+							<button ng-repeat="f in filterLibrary" type="button" class="btn btn-btnprimary" ng-class="{'btn-danger':f.filtered, 'btn-success': !f.filtered}" ng-model="f.filtered" uib-btn-checkbox>{{f.name}}</button>
 						</div>
 						<div class="modal-footer">
 							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
