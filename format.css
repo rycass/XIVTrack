@@ -1,28 +1,70 @@
 table {
-	table-layout:fixed;
+	table-layout:auto;
+}
+
+.clickable {
+	cursor:pointer;
+}
+
+.small-column {
+	width: 100px;
+	max-width: 100px;
+}
+
+.med-column {
+	width: 300px;
+	max-width: 300px;
 }
 
 .card-core {
 	position: relative;
+	height: 48px;
+	width: 48px;
+	border: 2px solid gold;
+	background-color: grey;
+	z-index: -10;
 }
 
 .card-left {
 	position: absolute;
+	left: 3px;
+	top: 16px;
+	z-index: -10;
 }
 
 .card-right {
 	position: absolute;
-	left: 10%;
+	right: 3px;
+	top: 16px;
+	z-index: -10;
 }
 
 .card-down {
 	position: absolute;
-	top: 10%;
+	bottom: 3px;
+	left: 16px;
+	z-index: -10;
 }
 
 .card-up {
 	position: absolute;
-	bottom: 10%;
+	top: 3px;
+	left: 16px;
+	z-index: -10;
+}
+
+.card-rarity {
+	position: absolute;
+	left: 48px;
+	top: 12px;
+	z-index: -10;
+}
+
+.card-tribe {
+	position: absolute;
+	left: 78px;
+	top: 16px;
+	z-index: -10;
 }
 
 .track-obtained {
@@ -37,10 +79,6 @@ table {
     color: black;
     background: white;
     transition: all 0.6s;
-}
-
-.btn.active {
-	font-weight: bold;
 }
 
 .tooltip-inner {

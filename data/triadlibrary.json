@@ -1,0 +1,1886 @@
+[
+	{
+		"name": "Dodo",
+		"lore": "These large, flightless cloudkin originated from the island of Mazlaya, and were brought to the mainland by Qiqirn who bred them for their eggs. The free races of Eorzea have reared the rotund creatures ever since, though they are now valued primarily for their meat. Would-be poultry farmers be warned: when seeking to defend itself, a dodo will spit forth a sleep-inducing secretion.",
+		"expansion": "ARR",
+		"rarity": "1",
+		"card": "4 4 3 2",
+		"sources": [{
+			"type": "quest",
+			"info": "Triple Triad trial",
+			"location": "Gold Saucer (4, 7)"
+		}]
+	},
+	{
+		"name": "Tonberry",
+		"lore": "Little is known about this inscrutable race of man-like creatures that inhabits the ruins of Nym-a culture that reached its peak during the Fifth Astral Era. Tonberries wear clothing and are adept in the use of complex tools, both of which would seem to suggest a civilized level of intelligence. Recently discovered texts from Nymian times suggest that the green denizens of the Wanderer's Palace are the carriers of a terrible pestilence.",
+		"expansion": "ARR",
+		"rarity": "1",
+		"card": "2 2 7 2",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Tonberry King",
+			"location": "Wanderer's Palace"
+		}, {
+			"type": "dungeon",
+			"info": "Manxome Molaa Ja Ja",
+			"location": "Wanderer's Palace (Hard)"
+		}, {
+			"type": "npc",
+			"info": "Memeroon",
+			"location": "Upper La Noscea (14, 24)"
+		}]
+	},
+	{
+		"name": "Sabotender",
+		"lore": "Found exclusively in arid regions, cactuars are known for their ability to survive extended periods under the scorching sun on naught but the moisture stored within their bodies. Conditioned by the brutal nature of their surroundings, cactuars are quick to defend themselves, launching a barrage of needle-like projectiles at potential predators-and the occasional unwary traveler.",
+		"expansion": "ARR",
+		"rarity": "1",
+		"card": "3 4 3 3",
+		"sources": [{
+			"type": "quest",
+			"info": "Triple Triad trial",
+			"location": "Gold Saucer (4, 7)"
+		}]
+	},
+	{
+		"name": "Spriggan",
+		"lore": "Spriggans are neither sprites nor faeries, but share similarities with both. They are known to inhabit rocky regions and the deep recesses of mines. These black-furred soulkin are famous for carrying a gem or chunk of ore about with them at all times-a custom which may explain the popularly held belief within the mining fraternity that they are bringers of good fortune. Their classification as soulkin is based on a theory expounded in the Codex of Stone, which asserts that the creatures are naught but vessels for the will of the earth.",
+		"expansion": "ARR",
+		"rarity": "1",
+		"card": "4 2 4 3",
+		"sources": [{
+			"type": "vendor",
+			"info": "Bronze Triad Card",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}, {
+			"type": "npc",
+			"info": "Triple Triad Master",
+			"location": "Gold Saucer (4, 7)"
+		}]
+	},
+	{
+		"name": "Pudding",
+		"lore": "These gelatinous creatures spawn in the agglomerations of residual matter that sometimes form in the void. Though able to mimic rudimentary sounds of speech in order to draw forth their prey, they are not thought to be especially intelligent beings. As a relatively low-ranked voidsent, flans occupy the tenth rung of the hierarchy.",
+		"expansion": "ARR",
+		"rarity": "1",
+		"card": "5 2 3 4",
+		"sources": [{
+			"type": "vendor",
+			"info": "Bronze Triad Card",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}, {
+			"type": "npc",
+			"info": "Roger",
+			"location": "Central Thanalan (19, 20)"
+		}]
+	},
+	{
+		"name": "Bomb",
+		"lore": "This barely contained sphere of volatile gas and flame occupies the eleventh rung of the voidsent's hierarchy of twelve. Bombs must replenish their internal reserves of fuel in order to survive, and are drawn to consume any source of oil or fat that they encounter, be it plant, animal, or man. Grenades, an even more explosive species of bomb, are a place higher in the hierarchy, standing upon the tenth rung.",
+		"expansion": "ARR",
+		"rarity": "1",
+		"card": "3 3 3 4",
+		"sources": [{
+			"type": "quest",
+			"info": "Triple Triad trial",
+			"location": "Gold Saucer (4, 7)"
+		}]
+	},
+	{
+		"name": "Mandragora",
+		"lore": "The enigmatic mandragoras were first observed in the aftermath of the Seventh Umbral Era. It is not known whence they came, or if they even existed prior to the Calamity. Preliminary studies appear to suggest that the diminutive seedkin are sentient and capable of an advanced form of nonverbal communication, but further research is required to confirm these findings. The rest is mere speculation.",
+		"expansion": "ARR",
+		"rarity": "1",
+		"card": "3 4 5 2",
+		"sources": [{
+			"type": "quest",
+			"info": "Triple Triad trial",
+			"location": "Gold Saucer (4, 7)"
+		}]
+	},
+	{
+		"name": "Coblyn",
+		"lore": "The coblyn is a creature of startling appearance that skitters around on its tentacle-like appendages in search of ore. Gridanian scholars claim that a coblyn is an animal that fuses minerals to its body to create a defensive shell. Ul'dahn scholars dispute this theory, stating that these soulkin are, in fact, sentient clumps of geological matter that have adopted biological organs in order to facilitate propagation.",
+		"expansion": "ARR",
+		"rarity": "1",
+		"card": "4 3 3 3",
+		"sources": [{
+			"type": "vendor",
+			"info": "Bronze Triad Card",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}, {
+			"type": "npc",
+			"info": "Maisenta",
+			"location": "New Gridania (11, 11)"
+		},
+		{
+			"type": "npc",
+			"info": "Wymond",
+			"location": "Ul'dah - Steps of Nald (9, 8)"
+		}]
+	},
+	{
+		"name": "Morbol",
+		"lore": "The morbol is a terrible beast that moves upon its slime-covered vines and roots. Highly aggressive, it kills both animals and plants with a combination of its noxious breath and ceaselessly flailing tendrils. Upon occasion, the beast will also emit a sweet-smelling gas which induces a deep sleep. Rather than rending or chewing, the fang-shaped thorns which line the morbol's maw serve to hold prey immobile during digestion.",
+		"expansion": "ARR",
+		"rarity": "1",
+		"card": "2 5 5 2",
+		"sources": [{
+			"type": "vendor",
+			"info": "Bronze Triad Card",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}, {
+			"type": "npc",
+			"info": "Roger",
+			"location": "Central Thanalan (19, 20)"
+		}]
+	},
+	{
+		"name": "Coeurl",
+		"lore": "Native to the regions of the Near East, these predatory quadrupeds are unrivaled in their savagery. A coeurl subdues its prey by unleashing electrical shocks from the two whip-like appendages that frame its fang-lined jaws. The feral specimens encountered in Eorzea descend from escaped war beasts once trained on a remote island at the mouth of the Rothlyt Sound known as the Pearl.",
+		"expansion": "ARR",
+		"rarity": "1",
+		"card": "5 2 2 5",
+		"sources": [{
+			"type": "quest",
+			"info": "Triple Triad trial",
+			"location": "Gold Saucer (4, 7)"
+		}]
+	},
+	{
+		"name": "Ahriman",
+		"lore": "Ahriman are a family of voidsent that manifest in the physical plane by investing their essences in the eyes of animals. They are possessed of great arcane ability, and fly by clawing their way along airborne currents of aether. According to studies of voidsent hierarchy, the ahriman family is of middling class, its various forms occupying the fourth and fifth rungs.",
+		"expansion": "ARR",
+		"rarity": "1",
+		"card": "2 5 2 5",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Batraal",
+			"location": "Dzemael Darkhold"
+		}, {
+			"type": "npc",
+			"info": "Ourdilic",
+			"location": "Coerthas Central Highlands (6, 22)"
+		}]
+	},
+	{
+		"name": "Goobbue",
+		"lore": "A goobbue is a lumbering beast that has a symbiotic relationship with the moss and lichen growing atop its head. This growth provides the creature with a measure of camouflage, and, in return, the goobbue keeps the vegetation moist during the drier seasons with water scooped up in its hands. Though seemingly placid, the goobbue is a relentless predator, snatching up anything that skitters or crawls and shoveling it into its cavernous mouth.",
+		"expansion": "ARR",
+		"rarity": "1",
+		"card": "2 2 5 5",
+		"sources": [{
+			"type": "vendor",
+			"info": "Bronze Triad Card",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}, {
+			"type": "npc",
+			"info": "Aurifort of the Three Clubs",
+			"location": "Gold Saucer (4, 7)"
+		}]
+	},
+	{
+		"name": "Gaelicat",
+		"lore": "A curious, charming creature with a feline body and the wings of a bat. Some scholars posit that it is a type of beastkin, while others insist that it is a lesser voidsent belonging to the eleventh rung of the hierarchy of twelve. One thing that cannot be denied is that it clearly possesses a keen, michievous intelligence.",
+		"expansion": "ARR",
+		"rarity": "1",
+		"card": "7 4 1 1",
+		"sources": [{
+			"type": "npc",
+			"info": "Noes",
+			"location": "Old Gridania (10, 5)",
+			"details": "10AM - 8PM"
+		}]
+	},
+	{
+		"name": "Deepeye",
+		"lore": "Possessed of one grotesquely huge eye, the otherwise diminutive deepeye is thought to manifest upon the physical plane by investing its essence exclusively in the ocular organs of beings that perished with their eyes wide open. Though scholars agree that it belongs on the lower rungs of the hierarchy of twelve, this voidsent's acute vision and arcane prowess constitute a respectable threat.",
+		"expansion": "Heavensward",
+		"rarity": "1",
+		"card": "2 1 7 3",
+		"sources": [{
+			"type": "npc",
+			"info": "Dominiac",
+			"location": "Coerthas Western Highlands (16, 22)",
+			"details": "4PM - 8PM"
+		}]
+	},
+	{
+		"name": "Chocobo",
+		"lore": "The domestication of chocobos in Eorzea appears to date back to prehistory, with ancient paintings recently discovered near Ishgard showing tribesfolk using the flightless yellow cloudkin to till the earth, transport grain, and carry warriors into battle. While the overwhelming majority of chocobos seen in Eorzea today are of Coerthan stock, it is rumored that wild breeds of the species-including those which have retained the capacity for flight-still thrive throughout forests nestled in the vastly unexplored valleys of Abalathia's Spine.",
+		"expansion": "ARR",
+		"rarity": "1",
+		"card": "1 3 2 7",
+		"sources": [{
+			"type": "vendor",
+			"info": "600 MGP",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}, {
+			"type": "npc",
+			"info": "Guhtwint of the Three Diamonds",
+			"location": "Gold Saucer (4, 6)"
+		}, {
+			"type": "npc",
+			"info": "Maisenta",
+			"location": "New Gridania (11, 11)"
+		}, {
+			"type": "npc",
+			"info": "Momodi",
+			"location": "Ul'dah - Steps of Nald (11, 9)"
+		}, {
+			"type": "npc",
+			"info": "Mother Miounne",
+			"location": "New Gridania (11, 13)"
+		}]
+	},
+	{
+		"name": "Amalj'aa",
+		"lore": "The Amalj'aa are a race of nomadic beastmen who inhabit the grasslands of Paglth'an, where they subsist by hunting the native wildlife. They share a long and bitter history of conflict with the people of Ul'dah. Trained in the arts of war from a tender age, all members of an Amalj'aa clan, old and young, male and female, are skilled warriors. They also boast a fine mastery of metallurgy, and their weapons fetch a tidy sum from those seeking arms of quality.",
+		"attributes": "beastman",
+		"expansion": "ARR",
+		"rarity": "1",
+		"card": "1 1 7 4",
+		"sources": [{
+			"type": "vendor",
+			"info": "Silver Triad Card",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}, {
+			"type": "npc",
+			"info": "Memeroon",
+			"location": "Upper La Noscea (14, 24)"
+		}]
+	},
+	{
+		"name": "Ixal",
+		"lore": "This aggressive mountain tribe claim the wind-blasted canyons of Xelphatol as their domain. Though their race has long since lost the capacity for flight, the feathered beastmen are fervently proud of their vestigial wings. The Ixal seek to reestablish their presence in the Black Shroud that they might once again fell trees in worship of their fickle deity-an ambition which places them at odds with the people of Gridania.",
+		"attributes": "beastman",
+		"expansion": "ARR",
+		"rarity": "1",
+		"card": "4 6 3 1",
+		"sources": [{
+			"type": "vendor",
+			"info": "Silver Triad Card",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}, {
+			"type": "npc",
+			"info": "Joellaut",
+			"location": "Coerthas Central Highlands (13, 15)"
+		}, {
+			"type": "npc",
+			"info": "Jonas of the Three Spades",
+			"location": "Gold Saucer (4, 7)"
+		}]
+	},
+	{
+		"name": "Sylph",
+		"lore": "Deep within the northeastern reaches of the Black Shroud live the reclusive sylphs. These diminutive beings resemble children's dolls wrapped in vibrant leaves. The demeanor of the sylphs is comparable to that of an innocent child, but their propensity to employ their magical talents to 'playfully' torment travelers has all too often been the cause of untold anguish and even tragedy for their hapless victims.",
+		"attributes": "beastman",
+		"expansion": "ARR",
+		"rarity": "1",
+		"card": "4 2 5 4",
+		"sources": [{
+			"type": "vendor",
+			"info": "Silver Triad Card",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}, {
+			"type": "npc",
+			"info": "Maisenta",
+			"location": "New Gridania (11, 11)"
+		}]
+	},
+	{
+		"name": "Kobold",
+		"lore": "The kobolds are a race of mole-like creatures who have excavated a warren of tunnels under O'Ghomoro, a mountain situated in northern Vylbrand. Believing the ores of the earth to be a gift of the primal Titan, these subterranean beastmen seek to divine their deity's teachings through the arts of alchemy. The peace agreement forged between the kobolds and Limsa Lominsa has served little to quell resurgent hostilities.",
+		"attributes": "beastman",
+		"expansion": "ARR",
+		"rarity": "1",
+		"card": "6 2 4 2",
+		"sources": [{
+			"type": "vendor",
+			"info": "Silver Triad Card",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}]
+	},
+	{
+		"name": "Sahagin",
+		"lore": "These aquatic beastmen reside in a city at the bottom of the Indigo Deep. They breathe water as well as air, and glide through the depths with graceful ease. The social structure of the Sahagin resembles a pyramid, with a single queen-like figure stationed at its point. On the streets of Limsa Lominsa, to mention the name of Sahagin is to invite dark looks and muttered curses.",
+		"attributes": "beastman",
+		"expansion": "ARR",
+		"rarity": "1",
+		"card": "3 4 3 5",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Denn the Orcatoothed",
+			"location": "Sastasha"
+		}, {
+			"type": "dungeon",
+			"info": "Kraken",
+			"location": "Sastasha (Hard)"
+		}, {
+			"type": "npc",
+			"info": "Baderon",
+			"location": "Limsa Lominsa Upper Decks (11, 11)"
+		}]
+	},
+	{
+		"name": "Tataru Taru",
+		"lore": "'Deep in the desert of my heart,♪ A lonely flower blooms...♪ Yearning for the heavens above♪ To quench my thirst for you.♪ Trololololo~ lololo~♪'",
+		"attributes": "scion",
+		"expansion": "ARR",
+		"rarity": "1",
+		"card": "7 2 3 1",
+		"sources": [{
+			"type": "vendor",
+			"info": "Silver Triad Card",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}]
+	},
+	{
+		"name": "Moogle",
+		"lore": "Do not be fooled by their winsome personae, for moogles are a highly intelligent race of creatures capable of creating utter chaos with the unique brand of elemental magicks at their disposal. For the most part, they are content to keep to themselves, choosing to roam the Twelveswood hidden behind glamours rendering them invisible to all but the most spiritually acute.",
+		"expansion": "ARR",
+		"rarity": "1",
+		"card": "7 2 3 1",
+		"sources": [{
+			"type": "vendor",
+			"info": "840 MGP",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}, {
+			"type": "npc",
+			"info": "Jonas of the Three Spades",
+			"location": "Gold Saucer (4, 7)"
+		}, {
+			"type": "npc",
+			"info": "Trachtoum",
+			"location": "Lower La Noscea (35, 15)",
+			"details": "8PM - 8AM"
+		}]
+	},
+	{
+		"name": "Archaeornis",
+		"lore": "These large, feathered beasts are primarily found in the northern reaches of Aldenard, and are often seen under the sway of the more powerful dragons. Long thought to belong to the cloudkin family, recent studies claim that the archaeornis are, in fact, descended from an ancient species of scalekin.",
+		"expansion": "Heavensward",
+		"rarity": "2",
+		"card": "5 5 6 4",
+		"sources": [{
+			"type": "npc",
+			"info": "Elaisse",
+			"location": "The Pillars (7, 11)",
+			"details": "Quest 'Caught in the Act' must be completed to challenge, 2AM - 6AM"
+		}]
+	},
+	{
+		"name": "Paissa",
+		"lore": "Discovered on the floating islands of the Sea of Clouds, paissas are mischievous, fur-covered beastkin with barrel-like bodies and saucer-sized eyes. There is a theory gaining popularity among naturalists that the paissa is closely related to the opo-opo; the Vanu, however, are content to simply classify these creatures as incarnations of pure idiocy.",
+		"expansion": "Heavensward",
+				"rarity": "2",
+		"card": "6 4 3 6",
+		"sources": [{
+			"type": "npc",
+			"info": "Laniaitte",
+			"location": "The Sea of Clouds (16, 37)",
+			"details": "11PM - 2AM"
+		}]
+	},
+	{
+		"name": "Dhalmel",
+		"lore": "Dhalmels are herbivorous beastkin that inhabit the Sea of Clouds. It is thought that their characteristically long necks developed from a need to reach the leaves of trees growing on neighboring islands. Perhaps due to the scarcity of foliage found on the floating landmasses, dhalmels exhibit excessive aggression towards any creature that intrudes upon their territory.",
+		"expansion": "Heavensward",
+		"rarity": "2",
+		"card": "5 6 3 5",
+		"sources": [{
+			"type": "npc",
+			"info": "Laniaitte",
+			"location": "The Sea of Clouds (16, 37)",
+			"details": "11PM - 2AM"
+		}]
+	},
+	{
+		"name": "Bandersnatch",
+		"lore": "A forest-dwelling beastkin, the bandersnatch is a vicious hunter that employs long, curved fangs to rend the flesh of its prey. Though it feeds predominantly on chocobos and other forest creatures, this frenzied carnivore has been known to launch itself at dragons when lost in the throes of uncontrollable bloodlust.",
+		"expansion": "Heavensward",
+		"rarity": "2",
+		"card": "4 6 3 6",
+		"sources": [{
+			"type": "npc",
+			"info": "Voracious Vath",
+			"location": "Dravanian Forelands (23, 19)",
+			"details": "Quest 'Yellow Stones' must be completed to challenge, 6AM - 12PM"
+		}]
+	},
+	{
+		"name": "Crawler",
+		"lore": "This corpulent vilekin infests the Dravanian hinterlands, its distinctive black and yellow coloring warning potential predators of its toxic nature. Curious gourmands beware: consuming a crawler's flesh without the proper preparation invariably results in excruciating abdominal pain.",
+		"expansion": "Heavensward",
+		"rarity": "2",
+		"card": "2 7 3 7",
+		"sources": [{
+			"type": "npc",
+			"info": "Seika",
+			"location": "Idyllshire (6, 7)",
+			"details": "2PM - 7AM"
+		}]
+	},
+	{
+		"name": "Poroggo",
+		"lore": "Poroggos were once lowly toads, transformed into creatures of speech and reason through the magicks of Sharlayan mages. Their intelligence is such that they can even be taught to cast spells. Should poroggos be isolated from other sentient beings, however, their minds gradually regress into a feral state.",
+		"expansion": "Heavensward",
+		"rarity": "2",
+		"card": "3 6 7 3",
+		"sources": [{
+			"type": "npc",
+			"info": "Seika",
+			"location": "Idyllshire (6, 7)",
+			"details": "2PM - 7AM"
+		}]
+	},
+	{
+		"name": "Siren",
+		"lore": "Once feared across the five seas, today sirens are but the stuff of legend, due in part to a thorough culling of the creatures some years past by the renowned pirate Mistbeard. Recent sightings of the seductive she-devils, however, once again have sea- and landsmen alike exchanging tales of sirens entrancing entire ship crews with their accursed songs, then feeding on their captives' souls until all that remain are lifeless husks.",
+		"expansion": "ARR",
+		"rarity": "2",
+		"card": "2 3 7 6",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Siren",
+			"location": "Pharos Sirius"
+		}, {
+			"type": "npc",
+			"info": "Mimidoa",
+			"location": "Lower La Noscea (25, 34)"
+		}]
+	},
+	{
+		"name": "Ultros & Typhon",
+		"lore": "A queer duo of heretofore unseen creatures believed, but not yet confirmed, to be voidsent summoned to this realm via an arcane spell discovered by a student of the Thaumaturges' Guild. Upon their arrival in the corporeal plane, both were quick to acclimate to life in Eorzea-Ultros earning a position as headliner for Coliseum-run venationes, and Typhon entering the employ of Godbert Manderville at his high-end gaming establishment, the Gold Saucer.",
+		"expansion": "ARR",
+		"rarity": "2",
+		"card": "7 2 6 3",
+		"sources": [{
+			"type": "trial",
+			"info": "Ultros & Typhon",
+			"location": "Dragon's Neck"
+		}, {
+			"type": "npc",
+			"info": "Helmhart",
+			"location": "Eastern Thanalan (20, 21)",
+			"details": "10AM - 8PM"
+		}]
+	},
+	{
+		"name": "Demon Wall",
+		"lore": "These frightful guardians are the creations of ancient spellcraft, given life when a chosen wall was inscribed with an arcane pattern of blood. Though their masters have long since perished, these sentinels of demonic visage continue to protect the crumbling ruins to which they are bound-to the surprise and horror of many an unsuspecting adventurer.",
+		"expansion": "ARR",
+		"rarity": "2",
+		"card": "3 6 2 7",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Antaboga",
+			"location": "Amdapor Keep"
+		}, {
+			"type": "dungeon",
+			"info": "Ferdiad",
+			"location": "Amdapor Keep (Hard)"
+		}, {
+			"type": "npc",
+			"info": "Buscarron",
+			"location": "South Shroud (19, 19)"
+		}]
+	},
+	{
+		"name": "Succubus",
+		"lore": "Succubi manifest on the physical plane by forcing their souls into the bodies of deceased women. Once the transition is complete, the resultant creature is said to be both fair and fey to look upon. Still more disconcerting, researchers claim that these voidsent occasionally exhibit the personality traits of their deceased hosts. Succubi occupy the third and fourth rungs of the voidsent hierarchy.",
+		"expansion": "ARR",
+		"rarity": "2",
+		"card": "6 7 2 3",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Lady Amandine",
+			"location": "Haukke Manor"
+		}, {
+			"type": "dungeon",
+			"info": "Halicarnassus",
+			"location": "Haukke Manor (Hard)"
+		}, {
+			"type": "npc",
+			"info": "Piralnaut",
+			"location": "East Shroud (17, 26)",
+			"details": "12PM - 8PM"
+		}]
+	},
+	{
+		"name": "Chimera",
+		"lore": "A nightmarish combination of lion, goat, and dragon, the fell chimera has three heads, a pair of mighty wings, and a cruelly barbed tail. Its origins have been furiously debated, with some insisting the creature a cruel jest of the gods, while others believe it the twisted creation of forbidden sorcery.",
+		"expansion": "ARR",
+		"rarity": "2",
+		"card": "2 2 7 7",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Chimera",
+			"location": "Cutter's Cry"
+		}, {
+			"type": "npc",
+			"location": "Fufulupa, Western Thanalan (22, 17)"
+		}]
+	},
+	{
+		"name": "Blue Dragon",
+		"lore": "Sharing the blood of Midgardsormr and his progeny, the great wyrms, a blue dragon can live upwards of a thousand summers-a period during which the creature will undergo divers changes to its physical and mental capacities. This independent 'evolution' of sorts renders each member of the species unique, making it all the more difficult for enemies of the dragons to conceive and establish any manner of standardized battle strategy.",
+		"expansion": "ARR",
+		"rarity": "2",
+		"card": "7 2 7 2",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Isgebind",
+			"location": "Stone Vigil"
+		}, {
+		 	"type": "dungeon",
+			"info": "Giruveganaus",
+			"location": "Stone Vigil (Hard)"
+		}, {
+			"type": "npc",
+			"info": "Ourdilic",
+			"location": "Coerthas Central Highlands (6, 22)"
+		}]
+	},
+	{
+		"name": "Fat Chocobo",
+		"lore": "A chocobo whose insatiable appetite and utter lack of willpower have resulted in a body more fit for a behemoth than a bird. Goblin legend has it this oversized avian is worshipped as a god in the world below, but no compelling evidence has been found to support this myth.",
+		"expansion": "Heavensward",
+		"rarity": "2",
+		"card": "5 5 5 5",
+		"sources": [{
+			"type": "fate",
+			"info": "Special Tarasque Force",
+			"location": "Dravanian Forelands (13, 36)"
+		}]
+	},
+	{
+		"name": "Scarface Bugaal Ja",
+		"lore": "'Mamool Ja wants freedom - freedom to dance! Why does no one understand?'",
+		"attributes": "beastman",
+		"expansion": "ARR",
+		"rarity": "2",
+		"card": "6 6 2 6",
+		"sources": [{
+			"type": "vendor",
+			"info": "Bronze Triad Card",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}, {
+			"type": "npc",
+			"info": "Guhtwint of the Three Diamonds",
+			"location": "Gold Saucer (4, 6)"
+		}, {
+			"type": "npc",
+			"info": "Mimidoa",
+			"location": "Lower La Noscea (25, 34)"
+		}]
+	},
+		{
+		"name": "Frixio",
+		"lore": "'Mayhap not so fresh...but better than before.'",
+		"attributes": "beastman",
+		"expansion": "ARR",
+		"rarity": "2",
+		"card": "6 6 6 2",
+		"sources": [{
+			"type": "npc",
+			"info": "Marcette",
+			"location": "Central Shroud (16, 18)",
+			"details": "4PM - 8AM"
+		}, {
+			"type": "npc",
+			"info": "Piralnaut",
+			"location": "East Shroud (17, 26)",
+			"details": "12PM - 8PM"
+		}]
+	},
+	{
+		"name": "Mutamix Bubblypots",
+		"lore": "'Pshhh... Shkohhh... Uplander seeks knowings of shifty-making, yes? Then uplander should make openears to tongueflaps of Mutamix.'",
+		"attributes": "beastman",
+		"expansion": "ARR",
+		"rarity": "2",
+		"card": "6 2 6 6",
+		"sources": [{
+			"type": "npc",
+			"info": "F'hobhas",
+			"location": "Central Thanalan (23, 13)"
+		}]
+	},
+	{
+		"name": "Memeroon",
+		"lore": "'Stop, stop, stop! Memeroon give you shinies! Many, many shinies to repay repayments!'",
+		"attributes": "beastman",
+		"expansion": "ARR",
+		"rarity": "2",
+		"card": "2 6 6 6",
+		"sources": [{
+			"type": "npc",
+			"info": "Memeroon",
+			"location": "Upper La Noscea (14, 24)"
+		}]
+	},
+	{
+		"name": "Vanu Vanu",
+		"lore": "An avian beast tribe that makes their home on the floating islands of the Sea of Clouds. Isolated from the world in the years prior to the advent of airship technology, in recent years they have grown wary of those who would encroach upon their homeland.",
+		"attributes": "beastman",
+		"expansion": "Heavensward",
+		"rarity": "2",
+		"card": "7 2 4 6",
+		"sources": [{
+			"type": "npc",
+			"info": "Mogmill",
+			"location": "The Churning Mists (28, 35)",
+			"details": "Quest 'A Secret From Everyone' must be completed to challenge"
+		}]
+	},
+	{
+		"name": "Gnath",
+		"lore": "A tribe of insect-like beastmen known to inhabit the southern reaches of the Dravanian forelands. Hunters first and foremost, they burn a sort of incense to defend their homeland from the dragon threat. At the center of Gnath society sits the king-like “Overmind,” its presence allowing its subjects to communicate without need of word or gesture.",
+		"attributes": "beastman",
+		"expansion": "Heavensward",
+		"rarity": "2",
+		"card": "3 6 7 3",
+		"sources": [{
+			"type": "npc",
+			"info": "Mogmill",
+			"location": "The Churning Mists (28, 35)",
+			"details": "Quest 'A Secret From Everyone' must be completed to challenge"
+		}]
+	},
+	{
+		"name": "Livia sas Junius",
+		"lore": "'Fail to do as my lord commands...and I will spare him the trouble of punishing you.'",
+		"attributes": "garlean",
+		"expansion": "ARR",
+		"rarity": "2",
+		"card": "1 3 7 7",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Livia sas Junis",
+			"location": "Castrum Meridianum"
+		}, {
+			"type": "npc",
+			"info": "Indolent Imperial",
+			"location": "Mor Dhona (11, 17)"
+		}]
+	},
+	{
+		"name": "Rhitahtyn Sas Arvina",
+		"lore": "'In the name of Lord van Baelsar, I, Rhitahtyn sas Arvina, do swear to strike you down!'",
+		"attributes": "garlean",
+		"expansion": "ARR",
+		"rarity": "2",
+		"card": "1 3 7 7",
+		"sources": [{
+			"type": "trial",
+			"info": "Rhitahtyn Sas Arvina",
+			"location": "Cape Westwind"
+		}, {
+			"type": "npc",
+			"info": "Indolent Imperial",
+			"location": "Mor Dhona (11, 17)"
+		}]
+	},
+	{
+		"name": "Momodi Modi",
+		"lore": "'Course, I do enjoy hearin' a lady muse on the many manhoods of her acquaintance from time to time...'",
+		"expansion": "ARR",
+		"rarity": "2",
+		"card": "3 7 5 5",
+		"sources": [{
+			"type": "vendor",
+			"info": "Gold Triad Card",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}, {
+			"type": "npc",
+			"info": "Momodi Modi",
+			"location": "Ul'dah - Steps of Nald (11, 9)"
+		}]
+	},
+	{
+		"name": "Baderon Tenfingers",
+		"lore": "'Me da once said, if me ma 'erself was ever t' stand 'twixt 'im and a life o' 'venturin', 'e'd straightways up an' drown th' wench.'",
+		"expansion": "ARR",
+		"rarity": "2",
+		"card": "5 3 5 7",
+		"sources": [{
+			"type": "vendor",
+			"info": "Gold Triad Card",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}, {
+			"type": "npc",
+			"info": "Baderon",
+			"location": "Limsa Lominsa Upper Decks (11, 11)"
+		}]
+	},
+	{
+		"name": "Mother Miounne",
+		"lore": "'Great or small, every contribution counts. I trust you will play your part.'",
+		"expansion": "ARR",
+		"rarity": "2",
+		"card": "7 5 3 5",
+		"sources": [{
+			"type": "vendor",
+			"info": "Gold Triad Card",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}, {
+			"type": "npc",
+			"info": "Mother Miounne",
+			"location": "New Gridania (11, 13)"
+		}]
+	},
+	{
+		"name": "Biggs & Wedge",
+		"lore": "'Biggs-I'm going in! See everyone to safety!' 'No! Wedge-don't do it!'",
+		"expansion": "ARR",
+		"rarity": "2",
+		"card": "5 5 7 3",
+		"sources": [{
+			"type": "npc",
+			"info": "Mimidoa",
+			"location": "Lower La Noscea (25, 34)"
+		}, {
+			"type": "npc",
+			"info": "Sezul Totoloc",
+			"location": "North Shroud (24, 23)",
+			"details": "'Allied' Reputation with Ixal required to challenge"
+		}]
+	},
+	{
+		"name": "Gerolt",
+		"lore": "'Jus' let me make one thing clear: it might be as I'm repairin' kettles to pay for yesterday's mead, but I still got me pride as a master weaponsmith. Ye'll get no less than the finest out of me forge.'",
+		"expansion": "ARR",
+		"rarity": "2",
+		"card": "7 1 3 7",
+		"sources": [{
+			"type": "vendor",
+			"info": "Gold Triad Card",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}, {
+			"type": "npc",
+			"info": "Helmhart",
+			"location": "Eastern Thanalan (20, 21)",
+			"details": "10AM - 8PM"
+		}, {
+			"type": "npc",
+			"info": "Rowena",
+			"location": "Mor Dhona (21, 5)"
+		}]
+	},
+	{
+		"name": "Yugiri Mistwalker",
+		"lore": "'To whom much is given, much is expected...'",
+		"expansion": "ARR",
+		"rarity": "2",
+		"card": "3 7 1 7",
+		"sources": [{
+			"type": "npc",
+			"info": "Yellow Moon",
+			"location": "Uh'Dah - Steps of Thal (14, 13)",
+			"details": "10PM - 6AM"
+		}]
+	},
+	{
+		"name": "Behemoth",
+		"lore": "The first sightings of these heavily muscled beasts in the mountains of Coerthas coincided with the advent of the Seventh Umbral Era. Scholars believe them to be the spawn of the elder primal Bahamut, and have dubbed the creatures 'behemoths.'Aside from their obvious physical traits, much about behemoth behavior and physiology remains shrouded in mystery.",
+		"expansion": "ARR",
+		"rarity": "3",
+		"card": "2 7 4 8",
+		"sources": [{
+			"type": "vendor",
+			"info": "Bronze Triad Card",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}, {
+			"type": "npc",
+			"info": "Ourdilic",
+			"location": "Coerthas Central Highlands (6, 22)"
+		}, {
+			"type": "npc",
+			"info": "Sezul Totoloc",
+			"location": "North Shroud (24, 23)",
+			"details": "'Allied' Reputation with Ixal required to challenge"
+		}]
+	},
+	{
+		"name": "Vedrfolnir",
+		"lore": "Sired by the great wyrm Hraesvelgr, Vedrfolnir's fiercely aggressive demeanor sets him apart from his tranquil broodmates. This mighty dragon revels in the glory of combat, and has fostered a deadly rivalry with Darkscale, a general in Nidhogg's Horde.",
+		"expansion": "ARR",
+		"rarity": "3",
+		"card": "4 8 7 2",
+		"sources": [{
+			"type": "vendor",
+			"info": "Mythril Triad Card",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}, {
+			"type": "npc",
+			"info": "Mogmill",
+			"location": "The Churning Mists (28, 35)",
+			"details": "Quest 'A Secret From Everyone' must be completed to challenge"
+		}]
+	},
+	{
+		"name": "Coeurlregina",
+		"lore": "A legend amongst the hunters of Tailfeather, this aged matriarch of the coeurls has attained immense size and magical potency. By conducting vast arcane energies through her massive elk-like horns and dispersing it into the surrounding air, Coeurlregina is said to be capable of altering the weather itself.",
+		"expansion": "ARR",
+		"rarity": "3",
+		"card": "8 5 5 5",
+		"sources": [{
+			"type": "vendor",
+			"info": "Mythril Triad Card",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}, {
+			"type": "npc",
+			"info": "Voracious Vath",
+			"location": "Dravanian Forelands (23, 19)",
+			"details": "Quest 'Yellow Stones' must be completed to challenge, 6AM - 12PM"
+		}]
+	},
+	{
+		"name": "Griffin",
+		"lore": "The majestic winged creatures inhabit the untamed wilds of Abalathia's Spine. Possessed of unmatched sharpness of vision, a griffin swooping down from the heights to seize its prey in its mighty talons is truly a sight to behold. A symbol of courage and ferocity, the griffin adorns the crest of the fallen nation of Ala Mhigo.",
+		"expansion": "Heavensward",
+		"rarity": "3",
+		"card": "8 5 7 1",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Opinicus",
+			"location": "The Dusk Vigil"
+		}]
+	},
+	{
+		"name": "Tioman",
+		"lore": "A mighty and vengeful dragon who makes her lair in the ghostly peak of Sohm Al. Consort of Nidhogg, one of the seven great wyrms, Tioman is known as the dark dragon among the Ishgardian people by virtue of her scales, which are said to be darker than a starless night.",
+		"expansion": "Heavensward",
+		"rarity": "3",
+		"card": "7 1 8 5",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Tioman",
+			"location": "Sohm Al"
+		}]
+	},
+	{
+		"name": "Byblos",
+		"lore": "A forbidding presence that guards the door to the forbidden halls of the Great Gubal Library. Presumed to be a voidsent summoned from the dark realm by Sharlayan magi, it dutifully guards its post as if bound there by some dark covenant.",
+		"expansion": "Heavensward",
+		"rarity": "3",
+		"card": "7 8 1 4",
+		"sources": [{
+			"type": "dungeon",
+			"info": "The Everliving Bibliotaph",
+			"location": "The Great Gubal Library"
+		}]
+	},
+	{
+		"name": "Progenitrix",
+		"lore": "The Progenitrix is a prototype bomb developed by ambitious kobold alchemists. Creating a bomb of this size requires a heat-shielded cobalt furnace, as well as a willingness to accept the possibility of lethal explosions during the compression process. For the kobolds, however, the exponential gain in potency appears to be worth risking a horrible, fiery death.",
+		"expansion": "Heavensward",
+		"rarity": "3",
+		"card": "6 6 3 6",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Progenetrix & Progenetor",
+			"location": "Pharos Sirius (Hard)"
+		}]
+	},
+	{
+		"name": "Belladonna",
+		"lore": "A carnivorous plant native to the Orn Wild, this voracious specimen of flora lures in potential victims by contorting its petals into the form of various beasts. Research conducted at Saint Mocianne's Arboretum concluded that the murderous Belladonna is as likely to prey upon two-legged victims as four.",
+		"expansion": "Heavensward",
+		"rarity": "3",
+		"card": "7 3 3 7",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Belladonna",
+			"location": "Saint Mocianne's Arboretum"
+		}]
+	},
+		{
+		"name": "Echidna",
+		"lore": "Echidna is the name of an alluring voidsent bound within the enigmatic Void Ark. The voidmages of Mhach, a city that thrived during the Fifth Astral Era, were said to have employed the fiendish entity as a strategic weapon in their endless conflicts. Scholars conjecture that as a member of voidsent nobility, Echidna likely occupies one of the higher rungs of the hierarchy.",
+		"expansion": "Heavensward",
+		"rarity": "3",
+		"card": "4 6 7 4",
+		"sources": [{
+			"type": "raid",
+			"info": "Echidna",
+			"location": "The Void Ark"
+		}]
+	},
+	{
+		"name": "Ifrit",
+		"lore": "Summoned by the Amalj'aa of sunbaked Paglth'an, the Lord of the Inferno-with molten claws that render metal into bubbling pools of molten ooze, and terrible horns that stretch skyward, ever threatening to brand the heavens above-is feared across the realm for a blazing fury almost as unquenchable as his desire to swell the ranks of his tempered armies.",
+		"attributes": "primal",
+		"expansion": "ARR",
+		"rarity": "3",
+		"card": "7 7 6 1",
+		"sources": [{
+			"type": "trial",
+			"info": "Ifrit",
+			"location": "The Bowl of Embers (Hard)"
+		}, {
+			"type": "trial",
+			"info": "Ifrit",
+			"location": "The Bowl of Embers (Extreme)"
+		}, {
+			"type": "npc",
+			"info": "Swift",
+			"location": "Ul'dah - Steps of Nald (8, 8)",
+			"details": "6AM - 11AM"
+		}]
+	},
+	{
+		"name": "Titan",
+		"lore": "Summoned by the kobolds of O'Ghomoro, the Lord of Crags maintains an air of forbearance rarely seen in the realm's other primals. However, should he sense the lives of his loyal acolytes are in peril, he will not hesitate to call upon the very mountains themselves to crush the life from those who would bring them harm.",
+		"attributes": "primal",
+		"expansion": "ARR",
+		"rarity": "3",
+		"card": "6 1 7 7",
+		"sources": [{
+			"type": "trial",
+			"info": "Titan",
+			"location": "The Navel (Hard)"
+		}, {
+			"type": "trial",
+			"info": "Titan",
+			"location": "The Navel (Extreme)"
+		}, {
+			"type": "npc",
+			"info": "Landenel",
+			"location": "South Shroud (16, 28)"
+		}, {
+			"type": "npc",
+			"info": "Trachtoum",
+			"location": "Lower La Noscea (35, 15)",
+			"details": "8PM - 8AM"
+		}]
+	},
+	{
+		"name": "Garuda",
+		"lore": "Summoned by the Ixal tribes of Xelphatol, Garuda harbors the uncanny ability to manipulate the very air which surrounds her. The winds she wields, however, have twisted her heart and broken her mind, rendering the Lady of the Vortex a merciless tyrant with an appetite for destruction that is nigh insatiable.",
+		"attributes": "primal",
+		"expansion": "ARR",
+		"rarity": "3",
+		"card": "7 7 1 6",
+		"sources": [{
+			"type": "trial",
+			"info": "Garuda",
+			"location": "The Howling Eye (Hard)"
+		}, {
+			"type": "trial",
+			"info": "Garuda",
+			"location": "The Howling Eye(Extreme)"
+		}, {
+			"type": "npc",
+			"info": "Marcette",
+			"location": "Central Shroud (16, 18)",
+			"details": "4PM - 8AM"
+		}]
+	},
+	{
+		"name": "Good King Moggle Mog XIII",
+		"lore": "Summoned by a rogue sect of Twelveswood moogles believing the regent to be the very figure who led their peoples from their home in the starry welkin down to the realm of Eorzea, Good King Moggle Mog XII is only actually 'good' to his handful of subjects, doling out healthy dollops of royal justice to all others who would dare stand in his way.",
+		"attributes": "primal",
+		"expansion": "ARR",
+		"rarity": "3",
+		"card": "1 7 7 6",
+		"sources": [{
+			"type": "trial",
+			"info": "Good King Moggle Mog XIII",
+			"location": "Thornarch (Hard)"
+		}, {
+			"type": "trial",
+			"info": "Good King Moggle Mog XIII",
+			"location": "Thornmarch (Extreme)"
+		}, {
+			"type": "npc",
+			"info": "Vorsaile Heuloix",
+			"location": "New Gridania (9, 11)",
+			"details": "10PM - 3AM"
+		}]
+	},
+		{
+		"name": "Nero Tol Scaeva",
+		"lore": "'Garlond... Soon you will be made to know the true power of magitek.'",
+		"attributes": "garlean",
+		"expansion": "ARR",
+		"rarity": "3",
+		"card": "7 4 8 1",
+		"sources": [{
+			"type": "npc",
+			"info": "Indolent Imperial",
+			"location": "Mor Dhona (11, 17)"
+		}]
+	},
+	{
+		"name": "Thancred",
+		"lore": "'I've been something of a liability of late, I know. 'Tis high time I set about making amends.'",
+		"attributes": "scion",
+		"expansion": "ARR",
+		"rarity": "3",
+		"card": "7 2 8 3",
+		"sources": [{
+			"type": "npc",
+			"info": "Fufulupa",
+			"location": "Western Thanalan (22, 17)"
+		}, {
+			"type": "npc",
+			"info": "Hab",
+			"location": "Southern Thanalan (24, 40)",
+			"details": "Quest 'Zombies are People Too' must be completed to challenge"
+		}]
+	},
+	{
+		"name": "Papalymo & Yda",
+		"lore": "'The great beyond! I do believe we're dead, Papalymo!' 'Oh, Rhalgr take you and your great beyond!'",
+		"attributes": "scion",
+		"expansion": "ARR",
+		"rarity": "3",
+		"card": "2 3 8 7",
+		"sources": [{
+			"type": "npc",
+			"info": "Buscarron",
+			"location": "South Shroud (19, 19)"
+		}, {
+			"type": "npc",
+			"info": "Vorsaile Heuloix",
+			"location": "New Gridania (9, 11)",
+			"details": "10PM - 3AM"
+		}]
+	},
+	{
+		"name": "Y'shtola",
+		"lore": "'The seas continue to rise while the lesser moon continues to fall, and ilm by ilm, the world becomes ever more unlike itself.'",
+		"attributes": "scion",
+		"expansion": "ARR",
+		"rarity": "3",
+		"card": "4 7 1 8",
+		"sources": [{
+			"type": "npc",
+			"info": "Gegeruju",
+			"location": "Eastern La Noscea (33, 30)"
+		}, {
+			"type": "npc",
+			"info": "R'ashaht Rhiki",
+			"location": "Limsa Lominsa Upper Decks (13, 12)",
+			"details": "2PM - 7PM"
+		}]
+	},
+	{
+		"name": "Urianger",
+		"lore": "'Truth interpreted is truth transformed. Today's heroes may yet become tomorrow's gods...or something else.''",
+		"attributes": "scion",
+		"expansion": "ARR",
+		"rarity": "3",
+		"card": "7 8 4 1",
+		"sources": [{
+			"type": "vendor",
+			"info": "Silver Triad Card",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}, {
+			"type": "npc",
+			"info": "Ruhtwyda of the Three Hearts",
+			"location": "Gold Saucer (3, 7)"
+		}]
+	},
+	{
+		"name": "Gilgamesh & Enkidu",
+		"lore": "'At long last, we meet again on the battlefield! I daresay Enkidu shall come to enjoy our tussles as much as I.'",
+		"expansion": "ARR",
+		"rarity": "3",
+		"card": "3 8 7 3",
+		"sources": [{
+			"type": "trial",
+			"info": "Gilgamesh",
+			"location": "Battle on the Big Bridge"
+		}, {
+			"type": "vendor",
+			"info": "Mythril Triad Card",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}]
+	},
+	{
+		"name": "Raya-O-Senna & A-Ruhn-Senna",
+		"lore": "'My name may be unfamiliar to you, but doubtless you know of my sister. That would be Kan-E-Senna, Elder Seedseer of Gridania and supreme commander of the Order of the Twin Adder. Together, we are known as the three Seedseers-my sister, myself, and our younger brother, A-Ruhn-Senna.'",
+		"expansion": "ARR",
+		"rarity": "3",
+		"card": "6 5 6 6",
+		"sources": [{
+			"type": "vendor",
+			"info": "4,800 MGP",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}, {
+			"type": "npc",
+			"info": "Buscarron",
+			"location": "South Shroud (19, 19)"
+		}]
+	},
+	{
+		"name": "Godbert Manderville",
+		"lore": "'But you were not drawn here by some coincidence, were you? No, you came in search of me, Godbert! Why else would you gyrate your hips in such a gentlemanly fashion, if not that?'",
+		"expansion": "ARR",
+		"rarity": "3",
+		"card": "6 6 5 6",
+		"sources": [{
+			"type": "vendor",
+			"info": "9,600 MGP",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}, {
+			"type": "npc",
+			"info": "Hab",
+			"location": "Southern Thanalan (24, 40)",
+			"details": "Quest 'Zombies are People Too' must be completed to challenge"
+		}, {
+			"type": "npc",
+			"info": "King Elmer",
+			"location": "Gold Saucer (3, 7)"
+		}, {
+			"type": "npc",
+			"info": "Ruhtwyda of the Three Hearts",
+			"location": "Gold Saucer (3, 7)"
+		}]
+	},
+		{
+		"name": "Estinien",
+		"lore": "'...But I yearn to spill the blood of a great wyrm, Nidhogg, and only your death will sate my lance.'",
+		"expansion": "Heavensward",
+		"rarity": "3",
+		"card": "3 8 2 8",
+		"sources": [{
+			"type": "npc",
+			"info": "Gibrillont",
+			"location": "Foundation (12, 11)",
+			"details": "2AM - 10AM"
+		}]
+	},
+	{
+		"name": "Lucia Goe Junius",
+		"lore": "'Those who dwell in the past risk losing sight of their future.'",
+		"expansion": "ARR",
+		"rarity": "3",
+		"card": "8 8 3 2",
+		"sources": [{
+			"type": "npc",
+			"info": "Wawalago",
+			"location": "Limsa Lominsa Lower Decks (8, 15)",
+			"details": "3PM - 3AM"
+		}]
+	},
+	{
+		"name": "Ysayle",
+		"lore": "'We whom gods and men have forsaken shall be the instruments of our own deliverance!'",
+		"expansion": "Heavensward",
+		"rarity": "3",
+		"card": "1 4 8 8",
+		"sources": [{
+			"type": "npc",
+			"info": "Marcechamp",
+			"location": "Dravanian Forelands (31, 32)",
+			"details": "7PM - 5AM"
+		}]
+	},
+	{
+		"name": "Hilda",
+		"lore": "'...And what makes you think I have friends in high places?'",
+		"expansion": "Heavensward",
+		"rarity": "3",
+		"card": "8 1 8 4",
+		"sources": [{
+			"type": "npc",
+			"info": "Idle Imperial",
+			"location": "Azys Lla (28, 31)",
+			"details": "9PM - 8AM"
+		}]
+	},
+	{
+		"name": "Matoya",
+		"lore": "'Spare me the hollow pleasantries, boy. I'll wager my remaining good teeth you didn't come to a forgotten corner of Eorzea to flirt with a wrinkly old woman.'",
+		"expansion": "Heavensward",
+		"rarity": "3",
+		"card": "1 8 8 3",
+		"sources": [{
+			"type": "npc",
+			"info": "Midnight Dew",
+			"location": "Idyllshire (5, 6)"
+		}]
+	},
+	{
+		"name": "Count Edmont De Fortemps",
+		"lore": "'As wards of House Fortemps, you shall be afforded every courtesy. My home is your home.'",
+		"expansion": "Heavensward",
+		"rarity": "3",
+		"card": "8 1 3 8",
+		"sources": [{
+			"type": "npc",
+			"info": "Marielle",
+			"location": "The Sea of Clouds (15, 37)",
+			"details": "2AM - 10AM"
+		}]
+	},
+	{
+		"name": "Haurchefant",
+		"lore": "'The docility to accept well-nigh impossible commands, the physical talents to carry them out─to a warrior born such as I there are no virtues greater in a steed! I say, be my personal steed!'",
+		"expansion": "Heavensward",
+		"rarity": "4",
+		"card": "8 7 5 1",
+		"sources": [{
+			"type": "achievement",
+			"info": "Triple Team III",
+			"details": "Defeat 41 npcs at Triple Triad.",
+			"location": "Jonathas, Old Gridania (10, 6)"
+		}]
+	},
+		{
+		"name": "Pipin Tarupin",
+		"lore": "'There will be ample time for soul-searching later. For now, we must put some malms between us and Ul'dah.'",
+		"expansion": "ARR",
+		"rarity": "3",
+		"card": "6 6 6 5",
+		"sources": [{
+			"type": "vendor",
+			"info": "Mythril Triad Card",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}, {
+			"type": "npc",
+			"info": "Swift",
+			"location": "Ul'dah - Steps of Nald (8, 8)",
+			"details": "6AM - 11AM"
+		}]
+	},
+	{
+		"name": "Julyan Manderville",
+		"lore": "'Bloody brilliant! Aye, I'd take you over my muscle-headed half-wit of a husband any day!'",
+		"expansion": "ARR",
+		"rarity": "3",
+		"card": "7 6 5 6",
+		"sources": [{
+			"type": "vendor",
+			"info": "14,400 MGP",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}]
+	},
+	{
+		"name": "Moglin",
+		"lore": "'And what better way to help you pass the time than by having you perform all the tiresome tasks that no one ever wants to do, kupo!'",
+		"expansion": "Heavensward",
+		"rarity": "3",
+		"card": "5 8 4 5",
+		"sources": [{
+			"type": "npc",
+			"info": "Mogmill",
+			"location": "The Churning Mists (28, 35)",
+			"details": "Quest 'A Secret From Everyone' must be completed to challenge"
+		}]
+	},
+	{
+		"name": "Charibert",
+		"lore": "'Sickness is wont to fester and spread. It must be burned out ere the infection takes hold.'",
+		"expansion": "Heavensward",
+		"rarity": "3",
+		"card": "3 7 4 8",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Ser Charibert",
+			"location": "The Vault"
+		}]
+	},
+	{
+		"name": "Roundrox",
+		"lore": "'Pssshkoh... Someday, Roundrox wants to live in place like giant, together with whirlycog things aplenty.'",
+		"expansion": "Heavensward",
+		"rarity": "3",
+		"card": "8 2 8 2",
+		"sources": [{
+			"type": "npc",
+			"info": "Seika",
+			"location": "Idyllshire (6, 7)",
+			"details": "2PM - 7AM"
+		}]
+	},
+		{
+		"name": "Odin",
+		"lore": "While no one knows exactly when or by whom the Dark Divinity was summoned, the elder primal roams the Twelveswood astride his loyal warhorse Sleipnir seeking a bloody reckoning for misdeeds lost but unforgotten.",
+		"attributes": "primal",
+		"expansion": "ARR",
+		"rarity": "4",
+		"card": "8 8 1 8",
+		"sources": [{
+			"type": "trial",
+			"info": "Odin",
+			"location": "Urth's Fount"
+		}, {
+			"type": "vendor",
+			"info": "Mythril Triad Card",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}, {
+			"type": "npc",
+			"info": "Landenel",
+			"location": "South Shroud (16, 28)"
+		}]
+	},
+	{
+		"name": "Ramuh",
+		"lore": "Worshipped by the sylphs of the Twelveswood, the Lord of Levin is a thunderous entity with boundless knowledge of ages past. He is stern yet just, but his judgment is final, and those found guilty of mortal sin will be met with mighty bolts of white-hot lightning.",
+		"attributes": "primal",
+		"expansion": "ARR",
+		"rarity": "4",
+		"card": "8 8 8 1",
+		"sources": [{
+			"type": "trial",
+			"info": "Ramuh",
+			"location": "The Striking Tree (Hard)"
+		}, {
+			"type": "trial",
+			"info": "Ramuh",
+			"location": "The Striking Tree (Extreme)"
+		}, {
+			"type": "npc",
+			"info": "Vorsaile Heuloix",
+			"location": "New Gridania (9, 11)",
+			"details": "10PM - 3AM"
+		}]
+	},
+	{
+		"name": "Leviathan",
+		"lore": "Summoned by the Sahagin tribes of the Indigo Deep, the Lord of the Whorl ever lurks beneath the sea's surface, seeking ships to swallow and sailors to join his ranks of drowned minions. Fishers and saltwives throughout history have believed the tidal waves which oft flood their coastal villages are created by the thrashing tail of an angered Leviathan, and have for centuries offered sacrifices to the sea in hopes of soothing the serpent.",
+		"attributes": "primal",
+		"expansion": "ARR",
+		"rarity": "4",
+		"card": "1 8 8 8",
+		"sources": [{
+			"type": "trial",
+			"info": "Leviathan",
+			"location": "The Whorleater (Hard)"
+		}, {
+			"type": "trial",
+			"info": "Leviathan",
+			"location": "The Whorleater (Extreme)"
+		}, {
+			"type": "npc",
+			"info": "R'ashaht Rhiki",
+			"location": "Limsa Lominsa Upper Decks (13, 12)",
+			"details": "2PM - 7PM"
+		}]
+	},
+	{
+		"name": "Shiva",
+		"lore": "The Enchiridion, holy scripture for the Ishgardian faith, brands Shiva the Original Heretic-the first to succumb to the temptation of the dragons. Her followers, however, venerate her as a saint who tried, yet failed, to bring together man and dragon through selfless sacrifice.",
+		"attributes": "primal",
+		"expansion": "ARR",
+		"rarity": "4",
+		"card": "8 1 8 8",
+		"sources": [{
+			"type": "trial",
+			"info": "Shiva",
+			"location": "Akh Afah Amphitheatre (Hard)"
+		}, {
+			"type": "trial",
+			"info": "Shiva",
+			"location": "Akh Afah Ampitheatre (Extreme)"
+		}, {
+			"type": "vendor",
+			"info": "Mythril Triad Card",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}]
+	},
+	{
+		"name": "Ravana",
+		"lore": "Wrath of the Colony and the god and savior of the Gnath tribe. A proud warrior and conqueror, Lord Ravana exalts strength and abhors weakness in any form. Believing the rite of combat to be sacred, he revels in battle with worthy opponents while wielding the Chandrahas─legendary blades of moonlight that obey his every command.",
+		"attributes": "primal",
+		"expansion": "Heavensward",
+		"rarity": "4",
+		"card": "1 9 8 7",
+		"sources": [{
+			"type": "trial",
+			"info": "Ravana",
+			"location": "Thok Ast Thok (Hard)"
+		},
+		{
+			"type": "trial",
+			"info": "Ravana",
+			"location": "Thok Ast Thok (Extreme)"
+		}]
+	},
+	{
+		"name": "Bismarck",
+		"lore": "Long thought to be little more than myth, the Lord of the Expanse was summoned forth and given form by the fervent prayers of the Vanu Vanu, who worship him as the god that led their ancestors to their island home. With a flood-blast of water from his great blowhole, the great white whale purges the skies of those who would do his followers harm.",
+		"attributes": "primal",
+		"expansion": "Heavensward",
+		"rarity": "4",
+		"card": "8 1 7 9",
+		"sources": [{
+			"type": "trial",
+			"info": "Bismarck",
+			"location": "The Limitless Blue (Hard)"
+		}, {
+			"type": "trial",
+			"info": "Bismarck",
+			"location": "The Limitless Blue (Extreme)"
+		}]
+	},
+	{
+		"name": "Ultima Weapon",
+		"lore": "A relic of the Third Astral Era, the Ultima Weapon is a feat of Allagan technology-the same technology which saw the reach of the Allagan Empire extend to the four corners of Hydaelyn. Upon rediscovery of the mechanical juggernaut buried deep beneath the lands just beyond Ala Mhigo, the XIVth Legion of the Imperial Garlean Army refitted it to serve as a countermeasure against the ever-growing primal threat.",
+		"attributes": "garlean",
+		"expansion": "ARR",
+		"rarity": "4",
+		"card": "1 7 9 8",
+		"sources": [{
+			"type": "trial",
+			"info": "Ultima Weapon",
+			"location": "The Minstrel's Ballad: Ultima's Bane"
+		}, {
+			"type": "vendor",
+			"info": "Gold Triad Card",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}, {
+			"type": "vendor",
+			"info": "Mythril Triad Card",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}]
+	},
+	{
+		"name": "Minfilia",
+		"lore": "'No doubt you're ripe to burst with questions, but have patience-all will be revealed in time.'",
+		"attributes": "scion",
+		"expansion": "ARR",
+		"rarity": "4",
+		"card": "5 9 3 8",
+		"sources": [{
+			"type": "vendor",
+			"info": "Silver Triad Card",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}, {
+			"type": "npc",
+			"info": "Gegeruju",
+			"location": "Eastern La Noscea (33, 30)"
+		}]
+	},
+		{
+		"name": "Alphinaud & Alisaie",
+		"lore": "'Our paths may differ, but our destination is the same. In time, I daresay we will see eye to eye.'",
+		"attributes": "scion",
+		"expansion": "ARR",
+		"rarity": "4",
+		"card": "9 9 3 3",
+		"sources": [{
+			"type": "npc",
+			"info": "Joellaut",
+			"location": "Coerthas Central Highlands (13, 15)"
+		}, {
+			"type": "npc",
+			"info": "Swift",
+			"location": "Ul'dah - Steps of Nald (8, 8)",
+			"details": "6AM - 11AM"
+		}]
+	},
+	{
+		"name": "Louisoix Leveilleur",
+		"lore": "'Silence, chattering raven. Your wretched wings are broken, and you shall soar no more.'",
+		"attributes": "scion",
+		"expansion": "ARR",
+		"rarity": "4",
+		"card": "3 9 9 4",
+		"sources": [{
+			"type": "npc",
+			"info": "Rowena",
+			"location": "Mor Dhona (21, 5)"
+		}]
+	},
+	{
+		"name": "Lahabrea",
+		"lore": "'For the end of your tale is but the beginning of another... The tale of the Crystal's demise!'",
+		"expansion": "ARR",
+		"rarity": "4",
+		"card": "8 4 4 9",
+		"sources": [{
+			"type": "vendor",
+			"info": "Silver Triad Card",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}, {
+			"type": "other",
+			"info": "Platinum Triad Card",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Cid Garlond",
+		"lore": "'Just how long have I worn these damn goggles?'",
+		"expansion": "ARR",
+		"rarity": "4",
+		"card": "2 5 9 9",
+		"sources": [{
+			"type": "vendor",
+			"info": "Gold Triad Card",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}, {
+			"type": "npc",
+			"info": "Sezul Totoloc",
+			"location": "North Shroud (24, 23)",
+			"details": "'Allied' Reputation with Ixal required to challenge"
+		}]
+	},
+	{
+		"name": "Aymeric",
+		"lore": "'Upon the souls of they who have sacrificed themselves to pave the way for peace, we will never abandon our cause.'",
+		"expansion": "ARR",
+		"rarity": "4",
+		"card": "9 1 9 5",
+		"sources": [{
+			"type": "npc",
+			"info": "Yayake",
+			"location": "Ul'dah - Steps of Nald (7, 12)",
+			"details": "9AM - 8PM"
+		}]
+	},
+	{
+		"name": "Senor Sabotender",
+		"lore": "'Oh-ho-ho! Keep our secrets and we'll keep yours! Apply today to start your career here at the Manderville Gold Saucer-make money, friends, and so much more!'",
+		"expansion": "ARR",
+		"rarity": "4",
+		"card": "6 9 7 5",
+		"sources": [{
+			"type": "vendor",
+			"info": "200,400 MGP",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}]
+	},
+	{
+		"name": "Nidhogg",
+		"lore": "One of the seven great wyrms sired by Midgardsormr, Father of Dragons. Leader of the Dravanian Horde, Nidhogg and his minions have tormented the Holy See for a thousand years in a bloody conflict that has come to be known as the Dragonsong War. The sound of his cry piercing the heavens can strike fear into the heart of the bravest of knights.",
+		"expansion": "Heavensward",
+		"rarity": "5",
+		"card": "8 A 3 7",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Nidhogg",
+			"location": "The Aery"
+		}]
+	},
+	{
+		"name": "Bahamut",
+		"lore": "Forgotten for millennia, the elder primal Bahamut was finally freed from his celestial prison Dalamud in the 1572nd year of the Sixth Astral Era through the machinations of the Garlean legatus Nael van Darnus. Unfettered at last, the dreadwyrm unleashed an endless rain of fire on the land, the destruction he wrought ushering in a dark age of death and suffering.",
+		"attributes": "primal",
+		"expansion": "ARR",
+		"rarity": "5",
+		"card": "6 9 9 5",
+		"sources": [{
+			"type": "npc",
+			"info": "King Elmer",
+			"location": "Gold Saucer (3, 7)"
+		}]
+	},
+	{
+		"name": "Gaius Van Baelsar",
+		"lore": "'Unworthy is the ruler whose subjects seek the solace of false gods.'",
+		"attributes": "garlean",
+		"expansion": "ARR",
+		"rarity": "5",
+		"card": "9 4 5 A",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Lahabrea",
+			"location": "Praetorium"
+		}, {
+			"type": "npc",
+			"info": "Indolent Imperial",
+			"location": "Mor Dhona (11, 17)"
+		}]
+	},
+	{
+		"name": "Regula Van Hydrus",
+		"lore": "'Come! Show me your power, champions of Eorzea!'",
+		"attributes": "garlean",
+		"expansion": "Heavensward",
+		"rarity": "5",
+		"card": "8 8 6 8",
+		"sources": [{
+			"type": "npc",
+			"info": "Idle Imperial",
+			"location": "Azys Lla (28, 31)",
+			"details": "9PM - 8AM"
+		}]
+	},
+	{
+		"name": "Hildibrand & Nashu Mhaakaracca",
+		"lore": "'I swear to you, here and now: I, Hildibrand, agent of enquiry, inspector extraordinaire, shall scour all creation-from the deepest pit of the seven hells to the very pinnacle of the heavens-for your Pure Heart!'",
+		"expansion": "ARR",
+		"rarity": "5",
+		"card": "8 1 A 8",
+		"sources": [{
+			"type": "npc",
+			"info": "Hab",
+			"location": "Southern Thanalan (24, 40)",
+			"details": "Quest 'Zombies are People Too' must be completed to challenge"
+		}]
+	},
+	{
+		"name": "Nanamo Ul Namo",
+		"lore": "'The true wealth of Ul'dah lies in the health, happiness, and hopes of her people.'",
+		"expansion": "ARR",
+		"rarity": "5",
+		"card": "8 A 4 6",
+		"sources": [{
+			"type": "vendor",
+			"info": "400,000 MGP",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}, {
+			"type": "other",
+			"info": "Platinum Triad Card",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Merlwyb Bloefhiswyn",
+		"lore": "'Victory is a far-flung shore. Mark the skies, abide the tides, trust to your crew-and she will be yours.'",
+		"expansion": "ARR",
+		"rarity": "5",
+		"card": "3 5 A 9",
+		"sources": [{
+			"type": "npc",
+			"info": "R'ashaht Rhiki",
+			"location": "Limsa Lominsa Upper Decks (13, 12)",
+			"details": "2PM - 7PM"
+		}]
+	},
+	{
+		"name": "Kan-E-Senna",
+		"lore": "'Eorzea's children are as trees in a grove-bending to the wind like the willow, or bearing it like the oak. Yet live how we might, the wind shall blow.'",
+		"expansion": "ARR",
+		"rarity": "5",
+		"card": "7 9 1 A",
+		"sources": [{
+			"type": "npc",
+			"info": "Vorsaile Heuloix",
+			"location": "New Gridania (9, 11)",
+			"details": "10PM - 3AM"
+		}]
+	},
+	{
+		"name": "Raubahn Aldynn",
+		"lore": "'Bwahaha! The battlefield is the best and worst of places. Where else can a man's enemy become his mentor, or an ally his enemy?'",
+		"expansion": "ARR",
+		"rarity": "5",
+		"card": "A 6 9 2",
+		"sources": [{
+			"type": "npc",
+			"info": "Swift",
+			"location": "Ul'dah - Steps of Nald (8, 8)",
+			"details": "6AM - 11AM"
+		}]
+	},
+		{
+		"name": "Midgardsormr",
+		"lore": "'Thou hast forgotten the face of thy lord. Remember, mortal, and fear me.'",
+		"expansion": "Heavensward",
+		"rarity": "5",
+		"card": "7 3 A 8",
+		"sources": [{
+			"type": "achievement",
+			"info": "Triple-Decker IV",
+			"details": "Obtain 90 unique Triple Triad cards.",
+			"location": "Jonathas, Old Gridania (10, 6)"
+		}]
+	},
+	{
+		"name": "Archbishop Thordan VII",
+		"lore": "'We seek to excise the root of an evil that has blighted us for a thousand years. The risk is worth the reward.'",
+		"expansion": "Heavensward",
+		"rarity": "5",
+		"card": "9 7 A 1",
+		"sources": [{
+			"type": "trial",
+			"info": "King Thordan",
+			"location": "The Minstrel's Ballad: Thordan's Reign"
+		}]
+	},
+	{
+		"name": "Warrior of Light",
+		"lore": "'The light shall never fade!'",
+		"expansion": "ARR",
+		"rarity": "5",
+		"card": "A A 5 2",
+		"sources": [{
+			"type": "vendor",
+			"info": "Gold Triad Card",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}]
+	},
+	{
+		"name": "Firion",
+		"lore": "'My dream...is a world filled with wild roses.'",
+		"expansion": "ARR",
+		"rarity": "5",
+		"card": "1 A A 5",
+		"sources": [{
+			"type": "other",
+			"info": "Platinum Triad Card",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Onion Knight",
+		"lore": "'My dream...is a world filled with wild roses.'",
+		"expansion": "ARR",
+		"rarity": "5",
+		"card": "A 8 8 2",
+		"sources": [{
+			"type": "raid",
+			"info": "The Cloud of Darkness",
+			"location": "The World of Darkness"
+		}, {
+			"type": "vendor",
+			"info": "Mythril Triad Card",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}, {
+			"type": "npc",
+			"info": "Lewena",
+			"location": "Gold Saucer (4, 6)",
+			"details": "9PM - 7AM"
+		}]
+	},
+	{
+		"name": "Cecil Harvey",
+		"lore": "'I told you before, you've drawn us into nothing. This fight is as much ours as yours.'",
+		"expansion": "ARR",
+		"rarity": "5",
+		"card": "A 4 4 A",
+		"sources": [{
+			"type": "other",
+			"info": "Platinum Triad Card",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Bartz Klauser",
+		"lore": "'It was my dad's last request, you know, to go out and travel the world... And this time, it feels like- like the wind is calling me.'",
+		"expansion": "ARR",
+		"rarity": "5",
+		"card": "A 4 A 4",
+		"sources": [{
+			"type": "trial",
+			"info": "Gilgamesh",
+			"location": "Battle in the Big Keep"
+		}, {
+			"type": "vendor",
+			"info": "Mythril Triad Card",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}, {
+			"type": "npc",
+			"info": "Lewena",
+			"location": "Gold Saucer (4, 6)",
+			"details": "9PM - 7AM"
+		}]
+	},
+	{
+		"name": "Terra Branford",
+		"lore": "'Don't worry. I'm sure a peaceful future is right around the corner!'",
+		"expansion": "ARR",
+		"rarity": "5",
+		"card": "5 A 2 A",
+		"sources": [{
+			"type": "trial",
+			"info": "Ultros & Typhon",
+			"location": "The Dragon's Neck"
+		}, {
+			"type": "vendor",
+			"info": "Mythril Triad Card",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}, {
+			"type": "npc",
+			"info": "Lewena",
+			"location": "Gold Saucer (4, 6)",
+			"details": "9PM - 7AM"
+		}]
+	},
+	{
+		"name": "Cloud Strife",
+		"lore": "'I can't remain trapped in an illusion anymore.'",
+		"expansion": "ARR",
+		"rarity": "5",
+		"card": "8 9 9 3",
+		"sources": [{
+			"type": "vendor",
+			"info": "1,000,000 MGP",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}]
+	},
+	{
+		"name": "Squall Leonhart",
+		"lore": "'Don't talk about me in the past tense!'",
+		"expansion": "ARR",
+		"rarity": "5",
+		"card": "1 6 A A",
+		"sources": [{
+			"type": "achievement",
+			"info": "Triple Team II",
+			"details": "Defeat 30 npcs at Triple Triad.",
+			"location": "Jonathas, Old Gridania (10, 6)"
+		}]
+	},
+	{
+		"name": "Zidane Tribal",
+		"lore": "'Do I need a reason to help someone?'",
+		"expansion": "ARR",
+		"rarity": "5",
+		"card": "8 5 6 A",
+		"sources": [{
+			"type": "vendor",
+			"info": "Gold Triad Card",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}]
+	},
+	{
+		"name": "Tidus",
+		"lore": "'This is our story! Now let's see this thing through together!'",
+		"expansion": "ARR",
+		"rarity": "5",
+		"card": "9 A 1 7",
+		"sources": [{
+			"type": "other",
+			"info": "Platinum Triad Card",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Shantotto",
+		"lore": "'That's quite enough! Time to play rough.'",
+		"expansion": "ARR",
+		"rarity": "5",
+		"card": "9 4 7 9",
+		"sources": [{
+			"type": "achievement",
+			"info": "Kumite Kumite Kumite",
+			"details": "Win 30 Triple Triad tournament matches.",
+			"location": "Jonathas, Old Gridania (10, 6)"
+		}]
+	},
+	{
+		"name": "Vaan",
+		"lore": "'Who said anything about strong? You'll make it. You got good friends.'",
+		"expansion": "ARR",
+		"rarity": "5",
+		"card": "9 1 A 7",
+		"sources": [{
+			"type": "achievement",
+			"info": "Wheel of Fortune V",
+			"details": "Win 300 Triple Triad roulette matches.",
+			"location": "Jonathas, Old Gridania (10, 6)"
+		}]
+	},
+	{
+		"name": "Lightning",
+		"lore": "'It's not a question of can or can't. There are something things in life you just do.'",
+		"expansion": "ARR",
+		"rarity": "5",
+		"card": "A 9 7 1",
+		"sources": [{
+			"type": "other",
+			"info": "Platinum Triad Card",
+			"location": "N/A"
+		}]
+	}
+]

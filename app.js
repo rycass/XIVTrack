@@ -2,57 +2,78 @@ $(document).ready(function(){
 	var app = angular.module('XIVTrack', ['ui.bootstrap', 'smart-table']);	
 	var control = app.controller('TableController', function($scope) {
 		
-		$scope.filterLibrary = filterLibrary;
+		$scope.filterLibrary = {vendor:{name:"Vendor", filtered:false}, quest:{name:"Quest", filtered:false}, dungeon:{name:"Dungeon", filtered:false}, raid:{name:"Raid", filtered:false}, trial:{name:"Trial", filtered:false}, fate:{name:"FATE", filtered:false}, achievement:{name:"Achievement", filtered:false}, unobtainable:{name:"Unobtainable", filtered:false}, merchandise:{name:"Merchandise Bonus", filtered:false}, holiday:{name:"Holiday", filtered:false}, promotion:{name:"Promotion", filtered:false}, cashshop:{name:"Cash Shop", filtered:false}, treasurehunt:{name:"Treasure Hunt", filtered:false}, crafted:{name:"Crafted", filtered:false}, gathered:{name:"Gathered", filtered:false}, gardening:{name:"Gardening", filtered:false}, venture:{name:"Venture", filtered:false}, npc:{name:"NPC", filtered:false}, other:{name:"Other", filtered:false}};
 		$scope.filterObtained = false;
 		$scope.settingTabActive = false;
 		$scope.sortType = "Name";
 		$scope.reverseSort = false;
 		
 		$scope.tabs = [
-			{ title:'Minions', id: '0', prefix: 'minion', data:minionLibrary, tableHeading:["Name", "Category", "Subcategory", "Info", "Location", "Expansion"], numObtained:0, maxObtained: 0},
-			{ title:'Mounts', id: '1', prefix: 'mount', data:mountLibrary, tableHeading:["Name", "Category", "Subcategory", "Info", "Location", "Expansion"], numObtained:0, maxObtained: 0},
-			{ title:'Triple Triad', id: '2', prefix: 'triad', data:ttLibrary, tableHeading:["Name", "Category", "Subcategory", "Rarity", "Card", "Info", "Location", "NPCs", "Expansion"], numObtained:0, maxObtained: 0},
-			{ title:'Barding', id: '3', prefix: 'barding', data:bardingLibrary, tableHeading:["Name", "Category", "Subcategory", "Info", "Location", "Expansion"], numObtained:0, maxObtained: 0},
-			{ title:'Cosmetics', id: '4', prefix: 'cosmetic', data:cosmeticLibrary, tableHeading:["Name", "Category", "Subcategory", "Type", "Info", "Location", "Expansion"], numObtained:0, maxObtained: 0}
+			{ title:'Minions', id: '0', prefix: 'minion', data: [], sData: [], tableHeading:[], numObtained:0, maxObtained: 0, color: '#FFFFFF'},
+			{ title:'Mounts', id: '1', prefix: 'mount', data: [], sData: [], tableHeading:["Attributes"], numObtained:0, maxObtained: 0, color:'#000000'},
+			{ title:'Triple Triad', id: '2', prefix: 'triad', data: [], sData: [], tableHeading:["Card"], numObtained:0, maxObtained: 0, color:'#123456'}
 		];
 		
+		$scope.attributes = {flying:'Flying Mount', passenger: 'Passenger Mount', beastman: 'Beastman', primal: 'Primal', scion: 'Scion', garlean: 'Garlean'};
+		//the following tbi:
+		//	{ title:'Barding', id: '3', prefix: 'barding', data:bardingLibrary, tableHeading:["Name", "Category", "Subcategory", "Info", "Location", "Expansion"], numObtained:0, maxObtained: 0},
+		//	{ title:'Cosmetics', id: '4', prefix: 'cosmetic', data:cosmeticLibrary, tableHeading:["Name", "Category", "Subcategory", "Type", "Info", "Location", "Expansion"], numObtained:0, maxObtained: 0}
+
 		$scope.activeTabNum = 0;
 		$scope.activeTab = $scope.tabs[0];
 		
+		$scope.setup = function() {
+			$scope.handleJson($scope.tabs[0]);
+			$scope.handleJson($scope.tabs[1]);
+			$scope.handleJson($scope.tabs[2]);
+		}
+		
+		$scope.handleJson = function(tab) {
+			var file = 'data/' + tab.prefix + 'library.json'
+			var req = new XMLHttpRequest();
+			req.open('GET', file);
+			req.onreadystatechange = function() {
+				if (req.readyState == 4 && req.status == 200) {
+					var num = 1;
+					if (req.responseText == "") {
+						return;
+					}
+					var j = $.parseJSON(req.responseText);
+					tab.sData = j;
+					var item;
+					for (i in tab.sData) {
+						item = tab.sData[i];
+						item.number = num;
+						num++;
+						item.obtained = $scope.fetchObtained(item, tab);
+						tab.maxObtained++;
+					}
+					tab.data.concat(tab.sData);
+				}
+			}
+			req.send();
+		}
+		
 		$scope.setTab = function(num) {
-			$scope.sortType = "Name";
-			$scope.reverseSort = false;
 			$scope.activeTab = $scope.tabs[num];
 			$scope.activeTabNum = num;
 		}
 		
-		$scope.loadData = function() {
-			for (t in $scope.tabs) {
-				tab = $scope.tabs[t];
-				for (i in tab.data) {
-					item = tab.data[i];
-					item.obtained = $scope.fetchObtained(item, tab);
-					tab.maxObtained++;
-				}
+		$scope.checkFilter = function(item) {
+			if(item.obtained && $scope.filterObtained) {
+				return true;
 			}
+			item.activesources = [];
+			for (var i = 0; i < item.sources.length; i++) {
+				s = item.sources[i];
+				if (!$scope.filterLibrary[s.type].filtered) item.activesources.push(s);
+			}
+			if (item.activesources.length == 0) return true;
+			return false;
 		}
 		
-		$scope.checkFilter = function(cat, subcat) {
-			for (x in $scope.filterLibrary) {
-				obj = $scope.filterLibrary[x];
-				if (cat == obj.category) {
-					if (subcat == null || obj.state) {
-						return obj.state;
-					} else {
-						for (y in obj.subcategory) {
-							subobj = obj.subcategory[y];
-							if (subcat == subobj.category) {
-								return subobj.state;
-							}
-						}
-					}	
-				}
-			}
+		$scope.isFiltered = function(type) {
+			return $scope.filterLibrary[type].filtered;
 		}
 		
 		$scope.tabActive = function(num) {
@@ -73,30 +94,20 @@ $(document).ready(function(){
 			return $scope.activeTab.maxObtained;
 		}
 		
-		$scope.getImage = function(item) {
-			if (item.image != undefined) return item.image;
-			var str = item.name;
-			str = str.replace(/ |#|'/g, "_");
+		$scope.getItemImage = function(item, prefix) {
+			return $scope.fixImgString(item.name) + "_" + prefix;
+		}
+		
+		$scope.fixImgString = function(str) {
+			if (str == undefined) return "";
+			str = str.replace(/ |#|'|&/g, "_");
 			str = str.toLowerCase();
 			return str;
 		}
 		
-		$scope.getIcons = function(item, column) {
-			if (item[column.toLowerCase() + '_icon'] == undefined) return [];
-			return item[column.toLowerCase() + '_icon'].split(" ");
-		}
-		
-		$scope.getTooltips = function(item, column) {
-			var arr = [];
-			var looper = 0;
-			while (item[column.toLowerCase() + '_tt' + looper] != undefined) {
-				arr[looper] = item[column.toLowerCase() + '_tt' + looper];
-				looper++;
-			}
-			return arr;
-			
-			if (item[column.toLowerCase() + '_tt0'] == undefined) return arr;
-			return item[column.toLowerCase() + '_icon'].split(" ");
+		$scope.getAttributes = function(item) {
+			if (item.attributes == undefined) return [];
+			return item.attributes.split(" ");
 		}
 		
 		$scope.getCard = function (item, position) {
@@ -121,6 +132,6 @@ $(document).ready(function(){
 			} else return false;
 		}
 		
-		$scope.loadData();
+		$scope.setup();
 	});
 });
