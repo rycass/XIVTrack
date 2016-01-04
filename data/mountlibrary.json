@@ -32,7 +32,7 @@
 		"expansion": "ARR",
 		"sources": [{
 			"type": "unobtainable",
-			"info": "N/A",
+			"info": "1.x legacy mount",
 			"location": "N/A"
 		}]
 	},
@@ -93,7 +93,7 @@
 	{
 		"name": "Fat Chocobo",
 		"lore": "Playfully described by some as 'large and in charge,' in truth, when summoned, this gluttonous gourmand will flap nary a feather unless a garland of gysahl greens is dangled before him - in which case not even the laws of nature can slow the fat chocobo down.",
-		"attributes": "flying passenger",
+		"attributes": "flying",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "merchandise",
@@ -104,7 +104,7 @@
 	{
 		"name": "Parade Chocobo",
 		"lore": "Originally purchased by the Adventurers' Guild for use in festival parades, this portly steed quickly wore out his welcome by devouring a moon's worth of fodder in a single turn of the sun. Unable to pay the price of upkeep, the guild passed the reigns to some- one more 'commendable.'",
-		"attributes": "flying passenger",
+		"attributes": "flying",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -176,7 +176,7 @@
 		"expansion": "ARR",
 		"sources": [{
 			"type": "unobtainable",
-			"info": "N/A",
+			"info": "1.x legacy mount",
 			"location": "N/A"
 		}]
 	},
@@ -405,7 +405,7 @@
 		"sources": [{
 			"type": "vendor",
 			"info": "6 Clan Mark Logs",
-			"location": "Bertana, dyllshire (5, 5)"
+			"location": "Bertana, Idyllshire (5, 5)"
 		}]
 	},
 	{
@@ -523,9 +523,9 @@
 		"attributes": "flying",
 		"expansion": "Heavensward",
 		"sources": [{
-			"type": "other",
-			"info": "Unknown",
-			"location": "N/A"
+			"type": "vendor",
+			"info": "99 Brass Pirate Sky Spoils",
+			"location": "Spoils Collector, The Pillars (15, 11)"
 		}]
 	},
 	{
