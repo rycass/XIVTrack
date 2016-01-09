@@ -1229,7 +1229,7 @@
 		"sources": [{
 			"type": "achievement",
 			"info": "Triple Team III",
-			"details": "Defeat 41 npcs at Triple Triad.",
+			"details": "Defeat 41 NPCs at Triple Triad.",
 			"location": "Jonathas, Old Gridania (10, 6)"
 		}]
 	},
@@ -1817,7 +1817,7 @@
 		"sources": [{
 			"type": "achievement",
 			"info": "Triple Team II",
-			"details": "Defeat 30 npcs at Triple Triad.",
+			"details": "Defeat 30 NPCs at Triple Triad.",
 			"location": "Jonathas, Old Gridania (10, 6)"
 		}]
 	},
