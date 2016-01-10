@@ -1,9 +1,80 @@
-table {
-	table-layout:auto;
+.main {
+	margin-top: 60px;
+	margin-bottom: 10px;
+	background-color: #eee;
+	background-color: rgba(238,238,238,0.7);
+}
+
+.background {
+	background-size: cover;
+	background-attachment: fixed;
+	position: fixed;
+	min-width: 100%;
+	min-height: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
 }
 
 .clickable {
-	cursor:pointer;
+	cursor: pointer;
+}
+
+.navbar-brand {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.navbar-default .navbar-nav > li > a {
+	transition: all 0.1s ease;
+	-webkit-transition: all 0.1s ease;
+}
+
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li.active > a,
+.navbar-default .navbar-nav > li.active > a:focus,
+.navbar-default .navbar-nav > li.active > a:hover {
+	background-color: #337AB7;
+	color: #fff;
+}
+
+.progress {
+	margin: 0;
+}
+
+.progress-wrapper {
+	margin: 15px 30px;
+}
+
+.progress-bar span {
+	padding-left: 6px;
+	padding-right: 6px;
+	cursor: default;
+}
+
+table {
+	margin-top: 15px;
+	border: 2px solid #ddd;
+}
+
+table > thead > tr {
+	background-color: rgba(248,248,248,0.7);
+}
+
+table > tbody > tr {
+	background-color: rgba(248,248,248,0.7);
+	transition: background-color 0.1s ease;
+	-webkit-transition: background-color 0.1s ease;
+}
+
+table > tbody > tr:nth-of-type(2n+1) {
+	background-color: rgba(238,238,238,0.7);
+}
+
+.xsmall-column {
+	width: 75px;
+	max-width: 75px;
 }
 
 .small-column {
@@ -16,55 +87,81 @@ table {
 	max-width: 300px;
 }
 
+.item-number {
+	margin-top: 6px;
+	font-weight: bold;
+}
+
+.item-name {
+	margin-left: 40px;
+	margin-top: 4px;
+	font-size: 1.2em;
+}
+
 .card-core {
 	position: relative;
-	height: 48px;
-	width: 48px;
-	border: 2px solid gold;
-	background-color: grey;
-	z-index: -10;
+	height: 30px;
+	width: 30px;
 }
 
 .card-left {
 	position: absolute;
-	left: 3px;
-	top: 16px;
-	z-index: -10;
+	left: -3px;
+	top: 10px;
 }
 
 .card-right {
 	position: absolute;
-	right: 3px;
-	top: 16px;
-	z-index: -10;
+	right: -6px;
+	top: 10px;
 }
 
 .card-down {
 	position: absolute;
-	bottom: 3px;
-	left: 16px;
-	z-index: -10;
+	bottom: -4px;
+	left: 9px;
 }
 
 .card-up {
 	position: absolute;
-	top: 3px;
-	left: 16px;
-	z-index: -10;
+	top: -1px;
+	left: 9px;
 }
 
 .card-rarity {
 	position: absolute;
-	left: 48px;
-	top: 12px;
-	z-index: -10;
+	left: 44px;
+	top: 2px;
 }
 
 .card-tribe {
 	position: absolute;
 	left: 78px;
-	top: 16px;
-	z-index: -10;
+	top: 8px;
+}
+
+.reflection-box {
+	float: left;
+	position: relative;
+	display: block;
+}
+
+.reflection-box img {
+	height: 30px;
+	width: 30px;
+	top: 0px;
+	left: 0px;
+	margin: 2px 0 0 4px;
+}
+
+.reflection-frame {
+	width: 36px;
+	height: 36px;
+	background: url('../icons/system/reflection_frame.png') no-repeat;
+	position: absolute;
+	pointer-events: none;
+	top: 0;
+	left: 0;
 }
 
 .track-obtained {
