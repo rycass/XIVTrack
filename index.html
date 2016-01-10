@@ -3,7 +3,7 @@
 	<head>
 		<title>XIVTrack</title>
 		<link rel="icon" type="img/ico" href="assets/icons/favicon.ico" />
-		<script type="text/javascript" src="assets/js/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="assets/js/jquery-1.12.0.min.js"></script>
 		<script type="text/javascript" src="assets/js/app.js"></script>
 		<script type="text/javascript" src="assets/js/angular.min.js"></script>
 		<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
@@ -14,60 +14,75 @@
 		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
 	</head>
 	<body ng-controller="TableController as tableCtrl">
-		<nav class="navbar navbar-default">
-			<div class="navbar-header navbar-brand">XIVTrack</div>
+		<div class="background" style="background-image: url('assets/backgrounds/santa.jpg')"></div>
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="navbar-header">
+				<div class="navbar-brand">XIVTrack</div>
+			</div>
 			<ul class="nav navbar-nav">
 				<li ng-repeat="t in tabs" ng-class="navTabActive(t.id)"><a href="#" ng-click="setTab(t.id)">{{t.title}}</a></li>
 				<li><a href="#" data-toggle="modal" data-target="#settingsModal">Settings</a></li>
 			</ul>
 			<div class="collapse navbar-collapse">
-				<uib-progress style="margin:15px;">
-						<uib-progressbar value="getNumObtained()" max="getMaxObtained()">{{getNumObtained()}} / {{getMaxObtained()}}</uib-bar>
-				</uib-progress>
+				<div class="progress-wrapper">
+					<uib-progressbar value="getNumObtained()" max="getMaxObtained()">{{getNumObtained()}}/{{getMaxObtained()}}</uib-progressbar>
+				</div>
 			</div>
 		</nav>
 
-		<table st-table="t.data" st-safe-src="t.sData" class="table" ng-repeat="t in tabs" ng-if="tabActive(t.id)">
-			<thead style="left: 0px; top: 0px; position: initial;">
-				<tr>
-					<th class="clickable small-column" st-sort="obtained" st-skip-natural="true">Have?</th>
-					<th class="clickable small-column" st-sort="number" st-skip-natural="true" st-sort-default="true">Num</th>
-					<th class="small-column">Icon</th>
-					<th class="clickable med-column" st-sort="name" st-skip-natural="true">Name</th>
-					<th class="med-column" ng-repeat="column in t.tableHeading">
-						{{column}}
-					</th>
-					<th>Source</th>
-				</tr>
-				<tr>
-					<th colspan="{{t.tableHeading.length + 5}}"><input st-search="name" class="form-control" placeholder="Search name..." type="text"/></th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr ng-hide="checkFilter(item)" ng-repeat="item in t.data">
-					<td class="small-column" class="clickable" ng-click="toggleObtained(item, t)">
-						<i class="fa fa-check track-not-obtained fa-2x" ng-hide="item.obtained"></i>
-						<i class="fa fa-check track-obtained fa-2x" ng-hide="!item.obtained"></i>
-					</td>
-					<td class="small-column">
-						{{item["number"]}}
-					</td>
-					<td class="small-column">
-						<img ng-src="assets/icons/{{getItemImage(item, t.prefix)}}.png" height="48" width="48" tooltip-placement="right" uib-tooltip="{{item.lore}}">
-					</td>
-					<td class="med-column">
-						<div>{{item["name"]}}</div>
-					</td>
-					<td class="med-column" ng-repeat="column in t.tableHeading">
-						<div ng-if="column.toLowerCase() == 'attributes'"><img ng-repeat="i in getAttributes(item)" ng-src="assets/icons/system/icon_{{i}}.png" tooltip-placement="right", uib-tooltip="{{attributes[i]}}"></div>
-						<div ng-if="column.toLowerCase() == 'card'" class="card-core"><img class="card-left" ng-src="assets/icons/system/card_{{getCard(item, 0)}}.png"><img class="card-up" ng-src="assets/icons/system/card_{{getCard(item, 1)}}.png"><img class="card-down" ng-src="assets/icons/system/card_{{getCard(item, 2)}}.png"><img class="card-right" ng-src="assets/icons/system/card_{{getCard(item, 3)}}.png"><img class="card-rarity" ng-src="assets/icons/system/card_rarity_{{item.rarity}}.png"><img class="card-tribe" ng-repeat="i in getAttributes(item)" ng-src="assets/icons/system/icon_{{i}}.png" tooltip-placement="right", uib-tooltip="{{attributes[i]}}"></div>
-					</td>
-					<td>
-						<img class="source" ng-src="assets/icons/system/source_{{fixImgString(s.type)}}.png" tooltip-placement="right" uib-popover-template="'sourceTemplate.html'" popover-trigger="mouseenter" ng-repeat="s in item.activesources">
-					</td>
-				</tr>
-			</tbody>
-		</table>
+		<div class="container main">
+			<table class="table table-hover table-condensed" st-table="t.data" st-safe-src="t.sData" ng-repeat="t in tabs" ng-if="tabActive(t.id)">
+				<thead>
+					<tr>
+						<th class="clickable xsmall-column text-center" st-sort="number" st-skip-natural="true" st-sort-default="true">Num</th>
+						<th class="clickable med-column" st-sort="name" st-skip-natural="true">Name</th>
+						<th class="med-column" ng-repeat="column in t.tableHeading">
+							{{column}}
+						</th>
+						<th>Source</th>
+						<th class="clickable small-column text-center" st-sort="obtained" st-skip-natural="true">Have?</th>
+					</tr>
+					<tr>
+						<th colspan="{{t.tableHeading.length + 5}}"><input st-search="name" class="form-control" placeholder="Search name..." type="text"/></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr ng-hide="checkFilter(item)" ng-repeat="item in t.data">
+						<td class="xsmall-column text-center">
+							<div class="item-number">{{item["number"]}}</div>
+						</td>
+						<td class="med-column">
+							<div class="reflection-box" tooltip-placement="right" uib-tooltip="{{item.lore}}">
+								<img ng-src="assets/icons/{{getItemImage(item, t.prefix)}}.png">
+								<div class="reflection-frame"></div>
+							</div>
+							<div class="item-name">{{item["name"]}}</div>
+						</td>
+						<td class="med-column" ng-repeat="column in t.tableHeading">
+							<div ng-if="column.toLowerCase() == 'attributes'">
+								<div class="reflection-box" ng-repeat="i in getAttributes(item)" tooltip-placement="top", uib-tooltip="{{attributes[i]}}">
+									<img ng-src="assets/icons/system/icon_{{i}}.png">
+									<div class="reflection-frame"></div>
+								</div>
+							</div>
+							<div ng-if="column.toLowerCase() == 'card'" class="card-core">
+								<img class="card-left" ng-src="assets/icons/system/card_{{getCard(item, 0)}}.png"><img class="card-up" ng-src="assets/icons/system/card_{{getCard(item, 1)}}.png"><img class="card-down" ng-src="assets/icons/system/card_{{getCard(item, 2)}}.png"><img class="card-right" ng-src="assets/icons/system/card_{{getCard(item, 3)}}.png"><img class="card-rarity" ng-src="assets/icons/system/card_rarity_{{item.rarity}}.png"><img class="card-tribe" ng-repeat="i in getAttributes(item)" ng-src="assets/icons/system/icon_{{i}}.png" tooltip-placement="right", uib-tooltip="{{attributes[i]}}">
+							</div>
+						</td>
+						<td>
+							<div class="reflection-box" popover-trigger="mouseenter" ng-repeat="s in item.activesources" tooltip-placement="right" uib-popover-template="'sourceTemplate.html'">
+								<img class="source" ng-src="assets/icons/system/source_{{fixImgString(s.type)}}.png">
+								<div class="reflection-frame"></div>
+							</div>
+						</td>
+						<td class="small-column clickable text-center" ng-click="toggleObtained(item, t)">
+							<i class="fa fa-check track-not-obtained fa-2x" ng-hide="item.obtained"></i>
+							<i class="fa fa-check track-obtained fa-2x" ng-hide="!item.obtained"></i>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
 		
 		<div class="modal fade" id="settingsModal" tabindex="-1" role="dialog" aria-labelledby="settingsModalLabel">
 			<div class="modal-dialog" role="document">
