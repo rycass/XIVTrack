@@ -188,7 +188,7 @@
 			"type": "vendor",
 			"info": "120,000 gil",
 			"details": "Only offered with 'Trusted' reputation with Sylphs.",
-			"location": "Sylphic vendor, East Shroud (22, 26)"
+			"location": "Sylphic Vendor, East Shroud (22, 26)"
 		}]
 	},
 	{
@@ -241,7 +241,7 @@
 			"type": "vendor",
 			"info": "120,000 gil",
 			"details": "Only offered with 'Trusted' reputation with Amalj'aa.",
-			"location": "Amalj'aa vendor, Southern Thanalan (23, 14)"
+			"location": "Amalj'aa Vendor, Southern Thanalan (23, 14)"
 		}]
 	},
 	{
@@ -264,7 +264,7 @@
 			"type": "vendor",
 			"info": "120,000 gil",
 			"details": "Only offered with 'Trusted' reputation with Kobolds.",
-			"location": "Kobold vendor, Outer La Noscea (21, 17)"
+			"location": "Kobold Vendor, Outer La Noscea (21, 17)"
 		}]
 	},
 	{
@@ -421,7 +421,6 @@
 	{
 		"name": "Nightmare",
 		"lore": "While it is no secret that it was the enigmatic Ascians who provided the beast tribes with nightmares, their reasons for doing so remain shrouded in mystery. Otherwise untamable, the single piercing tone of a magicked whistle is the only method known to soothe the savage beasts.",
-		"attributes": "flying",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "trial",
@@ -442,7 +441,6 @@
 	{
 		"name": "Aithon",
 		"lore": "Its breath is said to be as hot as the seventh hell. Legend states that the Lord of the Inferno, Ifrit, forged this magicked steed from a nightmare offered by the Amalj'aa in sacrifice.",
-		"attributes": "flying",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "trial",
@@ -453,7 +451,6 @@
 	{
 		"name": "Xanthos",
 		"lore": "Legend states that the Lady of the Vortex, Garuda, created this magicked steed from a nightmare offered by the Ixal in sacrifice.",
-		"attributes": "flying",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "trial",
@@ -464,7 +461,6 @@
 	{
 		"name": "Gullfaxi",
 		"lore": "Legend states that the Lord of Crags, Titan, wrought this magicked steed from a nightmare offered by the kobolds in sacrifice.",
-		"attributes": "flying",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "trial",
@@ -475,7 +471,6 @@
 	{
 		"name": "Enbarr",
 		"lore": "Legend states that the Lord of the Whorl, Leviathan, birthed this magicked steed from a nightmare offered by the Sahagin in sacrifice.",
-		"attributes": "flying",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "trial",
@@ -486,7 +481,6 @@
 	{
 		"name": "Markab",
 		"lore": "Legend states that the Lord of Levin, Ramuh, drew forth this magicked steed from a nightmare offered by the sylphs in sacrifice.",
-		"attributes": "flying",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "trial",
@@ -497,7 +491,6 @@
 	{
 		"name": "Boreas",
 		"lore": "Legend states that the Lady of Frost, Shiva, birthed this magicked steed from a unicorn offered by her followers in sacrifice.",
-		"attributes": "flying",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "trial",
@@ -513,7 +506,7 @@
 		"sources": [{
 			"type": "quest",
 			"info": "A Legend for a Legend",
-			"details": "quest requires the following mounts to begin: Aithon, Boreas, Enbarr, Gullfaxi, Markab, and Xanathos.",
+			"details": "Quest requires the following mounts to begin: Aithon, Boreas, Enbarr, Gullfaxi, Markab, and Xanathos.",
 			"location": "Wandering Minstrel, Mor Dhona (22, 9)"
 		}]
 	},

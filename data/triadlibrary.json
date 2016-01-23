@@ -7,7 +7,7 @@
 		"card": "4 4 3 2",
 		"sources": [{
 			"type": "quest",
-			"info": "Triple Triad trial",
+			"info": "Triple Triad Trial",
 			"location": "Gold Saucer (4, 7)"
 		}]
 	},
@@ -39,7 +39,7 @@
 		"card": "3 4 3 3",
 		"sources": [{
 			"type": "quest",
-			"info": "Triple Triad trial",
+			"info": "Triple Triad Trial",
 			"location": "Gold Saucer (4, 7)"
 		}]
 	},
@@ -83,7 +83,7 @@
 		"card": "3 3 3 4",
 		"sources": [{
 			"type": "quest",
-			"info": "Triple Triad trial",
+			"info": "Triple Triad Trial",
 			"location": "Gold Saucer (4, 7)"
 		}]
 	},
@@ -95,7 +95,7 @@
 		"card": "3 4 5 2",
 		"sources": [{
 			"type": "quest",
-			"info": "Triple Triad trial",
+			"info": "Triple Triad Trial",
 			"location": "Gold Saucer (4, 7)"
 		}]
 	},
@@ -144,7 +144,7 @@
 		"card": "5 2 2 5",
 		"sources": [{
 			"type": "quest",
-			"info": "Triple Triad trial",
+			"info": "Triple Triad Trial",
 			"location": "Gold Saucer (4, 7)"
 		}]
 	},
@@ -1503,7 +1503,8 @@
 		}, {
 			"type": "other",
 			"info": "Platinum Triad Card",
-			"location": "N/A"
+			"location": "Tournament Recordkeeper, Gold Saucer (4, 7)",
+			"details": "Available as a tournament reward."
 		}]
 	},
 	{
@@ -1630,7 +1631,8 @@
 		}, {
 			"type": "other",
 			"info": "Platinum Triad Card",
-			"location": "N/A"
+			"location": "Tournament Recordkeeper, Gold Saucer (4, 7)",
+			"details": "Available as a tournament reward."
 		}]
 	},
 	{
@@ -1718,12 +1720,18 @@
 		"sources": [{
 			"type": "other",
 			"info": "Platinum Triad Card",
-			"location": "N/A"
+			"location": "Tournament Recordkeeper, Gold Saucer (4, 7)",
+			"details": "Available as a tournament reward."
+		},
+		{
+			"type": "other",
+			"info": "Win top 3 in the 'Durai Memoria' Triple Triad tournament.",
+			"location": "Tournament Recordkeeper, Gold Saucer (4, 7)"
 		}]
 	},
 	{
 		"name": "Onion Knight",
-		"lore": "'My dream...is a world filled with wild roses.'",
+		"lore": "'Being small has its advantages.'",
 		"expansion": "ARR",
 		"rarity": "5",
 		"card": "A 8 8 2",
@@ -1751,7 +1759,13 @@
 		"sources": [{
 			"type": "other",
 			"info": "Platinum Triad Card",
-			"location": "N/A"
+			"location": "Tournament Recordkeeper, Gold Saucer (4, 7)",
+			"details": "Available as a tournament reward."
+		},
+		{
+			"type": "other",
+			"info": "Win top 3 in the 'Spinner's Pull' Triple Triad tournament.",
+			"location": "Tournament Recordkeeper, Gold Saucer (4, 7)"
 		}]
 	},
 	{
@@ -1842,7 +1856,13 @@
 		"sources": [{
 			"type": "other",
 			"info": "Platinum Triad Card",
-			"location": "N/A"
+			"location": "Tournament Recordkeeper, Gold Saucer (4, 7)",
+			"details": "Available as a tournament reward."
+		},
+		{
+			"type": "other",
+			"info": "Win top 3 in the 'Rowena Cup Classic' Triple Triad tournament.",
+			"location": "Tournament Recordkeeper, Gold Saucer (4, 7)"
 		}]
 	},
 	{
@@ -1880,7 +1900,13 @@
 		"sources": [{
 			"type": "other",
 			"info": "Platinum Triad Card",
-			"location": "N/A"
+			"location": "Tournament Recordkeeper, Gold Saucer (4, 7)",
+			"details": "Available as a tournament reward."
+		},
+		{
+			"type": "other",
+			"info": "Win top 3 in the 'Manderville Tournament of Champions' Triple Triad tournament.",
+			"location": "Tournament Recordkeeper, Gold Saucer (4, 7)"
 		}]
 	}
 ]
