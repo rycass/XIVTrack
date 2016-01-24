@@ -25,23 +25,11 @@ $(document).ready(function(){
 			$scope.handleJson($scope.tabs[0]);
 			$scope.handleJson($scope.tabs[1]);
 			$scope.handleJson($scope.tabs[2]);
-			$scope.setBackground(0);
+			$scope.setBackground();
 		}
 		
 		$scope.setBackground = function() {
 			var bglist = $scope.activeTab.backgrounds;
-			if (Math.random() <= .1) {
-				bglist = $scope.rareBackgrounds;
-			}
-			var chosenbg;
-			var numInList = bglist.length;
-			chosenbg = bglist[Math.floor(Math.random() * numInList)];
-			
-			$scope.bgStyle = "url('assets/backgrounds/" + chosenbg + "')";
-		}
-		
-		$scope.setBackground = function(tabNum) {
-			var bglist = $scope.tabs[tabNum].backgrounds;
 			if (Math.random() <= .1) {
 				bglist = $scope.rareBackgrounds;
 			}
