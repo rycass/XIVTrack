@@ -9,11 +9,13 @@ $(document).ready(function(){
 		$scope.reverseSort = false;
 		
 		$scope.tabs = [
-			{ title:'Minions', id: '0', prefix: 'minion', data: [], sData: [], tableHeading:[], numObtained:0, maxObtained: 0, color: '#FFFFFF'},
-			{ title:'Mounts', id: '1', prefix: 'mount', data: [], sData: [], tableHeading:["Attributes"], numObtained:0, maxObtained: 0, color:'#000000'},
-			{ title:'Triple Triad', id: '2', prefix: 'triad', data: [], sData: [], tableHeading:["Card"], numObtained:0, maxObtained: 0, color:'#123456'}
+			{ title:'Minions', id: '0', prefix: 'minion', data: [], sData: [], tableHeading:[], numObtained:0, maxObtained: 0, backgrounds:["cat.jpg", "verminion.jpg"]},
+			{ title:'Mounts', id: '1', prefix: 'mount', data: [], sData: [], tableHeading:["Attributes"], numObtained:0, maxObtained: 0, backgrounds:["fatchocobo.jpg", "ahriman.jpg"]},
+			{ title:'Triple Triad', id: '2', prefix: 'triad', data: [], sData: [], tableHeading:["Card"], numObtained:0, maxObtained: 0, backgrounds:["goldsaucer.jpg"]}
 		];
 		
+		$scope.bgStyle = "";
+		$scope.rareBackgrounds = ["santa.jpg"];
 		$scope.attributes = {flying:'Flying Mount', passenger: 'Passenger Mount', beastman: 'Beastman', primal: 'Primal', scion: 'Scion', garlean: 'Garlean'};
 		
 		$scope.activeTabNum = 0;
@@ -23,6 +25,19 @@ $(document).ready(function(){
 			$scope.handleJson($scope.tabs[0]);
 			$scope.handleJson($scope.tabs[1]);
 			$scope.handleJson($scope.tabs[2]);
+			$scope.setBackground();
+		}
+		
+		$scope.setBackground = function() {
+			var bglist = $scope.activeTab.backgrounds;
+			if (Math.random() <= .1) {
+				bglist = $scope.rareBackgrounds;
+			}
+			var chosenbg;
+			var numInList = bglist.length;
+			chosenbg = bglist[Math.floor(Math.random() * numInList)];
+			
+			$scope.bgStyle = "url('assets/backgrounds/" + chosenbg + "')";
 		}
 		
 		$scope.handleJson = function(tab) {
@@ -54,6 +69,7 @@ $(document).ready(function(){
 		$scope.setTab = function(num) {
 			$scope.activeTab = $scope.tabs[num];
 			$scope.activeTabNum = num;
+			$scope.setBackground();
 		}
 		
 		$scope.checkFilter = function(item) {

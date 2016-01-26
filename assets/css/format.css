@@ -53,6 +53,11 @@
 	cursor: default;
 }
 
+footer.footer {
+	padding: 20px 0;
+	background-color: #efefef;
+}
+
 table {
 	margin-top: 15px;
 	border: 2px solid #ddd;
