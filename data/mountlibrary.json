@@ -306,7 +306,7 @@
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
-			"info": "10,000 MGP",
+			"info": "200,000 MGP",
 			"location": "Gold Saucer Attendant, Gold Saucer (5, 6)"
 		}]
 	},
@@ -557,7 +557,6 @@
 	{
 		"name": "Sleipnir",
 		"lore": "Blessed by the elder primal himself, Sleipnir will forever remain loyal to those who have proven themselves worthy. In addition to being fearless in battle, the dark steed is also able to manipulate his corporeal form to accommodate any rider, large or small.",
-		"attributes": "flying",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "cashshop",
