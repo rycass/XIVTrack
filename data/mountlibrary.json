@@ -574,5 +574,75 @@
 			"info": "Fetters of Lament",
 			"location": "Guidance Node, Azys Lla (19, 32)"
 		}]
+	},
+	{
+		"name": "Kongamato",
+		"lore": "TBD",
+		"expansion": "TBD",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Zu",
+		"lore": "TBD",
+		"expansion": "TBD",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "White Lanner",
+		"lore": "TBD",
+		"expansion": "TBD",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Rose Lanner",
+		"lore": "TBD",
+		"expansion": "TBD",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Round Lanner",
+		"lore": "TBD",
+		"expansion": "TBD",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Warring Lanner",
+		"lore": "TBD",
+		"expansion": "TBD",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Gloria",
+		"lore": "TBD",
+		"expansion": "TBD",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"location": "TBD"
+		}]
 	}
 ]

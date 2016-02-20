@@ -1908,5 +1908,233 @@
 			"info": "Win top 3 in the 'Manderville Tournament of Champions' Triple Triad tournament.",
 			"location": "Tournament Recordkeeper, Gold Saucer (4, 7)"
 		}]
+	},
+	{
+		"name": "Honoroit",
+		"lore": "TBD",
+		"expansion": "TBD",
+		"rarity": "2",
+		"card": "1 1 1 1",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Hoary Boulder & Coultenet",
+		"lore": "TBD",
+		"expansion": "TBD",
+		"rarity": "2",
+		"card": "1 1 1 1",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Brachiosaur",
+		"lore": "TBD",
+		"expansion": "TBD",
+		"rarity": "3",
+		"card": "1 1 1 1",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Fenrir",
+		"lore": "TBD",
+		"expansion": "TBD",
+		"rarity": "3",
+		"card": "1 1 1 1",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Kraken",
+		"lore": "TBD",
+		"expansion": "TBD",
+		"rarity": "3",
+		"card": "1 1 1 1",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Vicegerent to the Warden",
+		"lore": "TBD",
+		"expansion": "TBD",
+		"rarity": "3",
+		"card": "1 1 1 1",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Manxome Molaa Ja Ja",
+		"lore": "TBD",
+		"expansion": "TBD",
+		"rarity": "3",
+		"card": "1 1 1 1",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Ferdiad",
+		"lore": "TBD",
+		"expansion": "TBD",
+		"rarity": "3",
+		"card": "1 1 1 1",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Calcabrina",
+		"lore": "TBD",
+		"expansion": "TBD",
+		"rarity": "3",
+		"card": "1 1 1 1",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Kuribu",
+		"lore": "TBD",
+		"expansion": "TBD",
+		"rarity": "3",
+		"card": "1 1 1 1",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Phlegethon",
+		"lore": "TBD",
+		"expansion": "TBD",
+		"rarity": "3",
+		"card": "1 1 1 1",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Artoirel de Fortemps",
+		"lore": "TBD",
+		"expansion": "TBD",
+		"rarity": "3",
+		"card": "1 1 1 1",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Emmanellain de Fortemps",
+		"lore": "TBD",
+		"expansion": "TBD",
+		"rarity": "3",
+		"card": "1 1 1 1",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Xande",
+		"lore": "TBD",
+		"expansion": "TBD",
+		"rarity": "4",
+		"card": "1 1 1 1",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Brute Justice",
+		"lore": "TBD",
+		"expansion": "TBD",
+		"rarity": "4",
+		"card": "1 1 1 1",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Sephirot",
+		"lore": "TBD",
+		"expansion": "TBD",
+		"rarity": "4",
+		"card": "1 1 1 1",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "F'lhaminn",
+		"lore": "TBD",
+		"expansion": "TBD",
+		"rarity": "4",
+		"card": "1 1 1 1",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Vidofnir",
+		"lore": "TBD",
+		"expansion": "TBD",
+		"rarity": "4",
+		"card": "1 1 1 1",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Cloud of Darkness",
+		"lore": "TBD",
+		"expansion": "TBD",
+		"rarity": "5",
+		"card": "1 1 1 1",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"location": "TBD"
+		}]
 	}
 ]
