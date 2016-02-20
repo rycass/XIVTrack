@@ -1,4 +1,4 @@
-[
+﻿[
 	{
 		"name": "Dodo",
 		"lore": "These large, flightless cloudkin originated from the island of Mazlaya, and were brought to the mainland by Qiqirn who bred them for their eggs. The free races of Eorzea have reared the rotund creatures ever since, though they are now valued primarily for their meat. Would-be poultry farmers be warned: when seeking to defend itself, a dodo will spit forth a sleep-inducing secretion.",
@@ -419,7 +419,7 @@
 			"type": "npc",
 			"info": "Seika",
 			"location": "Idyllshire (6, 7)",
-			"details": "2PM - 7AM"
+			"details": "2PM - 8PM"
 		}]
 	},
 	{
@@ -432,7 +432,7 @@
 			"type": "npc",
 			"info": "Seika",
 			"location": "Idyllshire (6, 7)",
-			"details": "2PM - 7AM"
+			"details": "2PM - 8PM"
 		}]
 	},
 	{
@@ -1297,7 +1297,7 @@
 			"type": "npc",
 			"info": "Seika",
 			"location": "Idyllshire (6, 7)",
-			"details": "2PM - 7AM"
+			"details": "2PM - 8PM"
 		}]
 	},
 		{

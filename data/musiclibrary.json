@@ -1,0 +1,508 @@
+[
+	{
+		"name": "A Cold Wind",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Wailers and Waterwheels",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "I Am the Sea",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "A New Hope",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Solid",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "The Waking Sands",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Four-Sided Circle",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Sport of Kings",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Another Round",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Painted Foothills",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD (Dravanian Forelands?)",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Lost In The Clouds",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD (Sea of Clouds?)",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Prelude - Discoveries",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Agent of Inquiry",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "The Only Path",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD (Treasure hunts?)",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "A World Apart",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "When A Tree Falls",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD (Sea of Clouds?)",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Tenacity",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Blood For Blood",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Starved",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Riptide",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD (Sastasha?)",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Dark Vows",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD (Tam-tara?)",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "The Dark's Embrace",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD (Copperbell?)",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "A Light In the Storm",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD (Pharos Sirius?)",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Imagination",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD (Aetherochemical Research Facility?)",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Down the Up",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD (Antitower?)",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "The Scars of Battle",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD (Lost City of Amdapor?)",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Torn from the Heavens",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Ultima",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "The Maker's Ruin",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Primal Judgement",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD (Ifrit?)",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Fallen Angel",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD (Garuda?)",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Under the Weight",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD (Titan?)",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Heroes",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD (King Thordan?)",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Fiend",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Hubris",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD (LotA?)",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Tumbling Down",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD (LotA?)",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Now I Know the Truth",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD (Syrcus?)",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Out of the Labyrinth",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD (Syrcus?)",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Blind To the Dark",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD (World of Darkness?)",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Hunger",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD (World of Darkness?)",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Eternal Wind",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Thunder Rolls",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD (Coil T3?)",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Rise of the White Raven",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD (Coil T5?)",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "From the Ashes",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD (Coil T9?)",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Contention",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	},
+	{
+		"name": "Answers",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "TBD (Coil T13?)",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	}
+]

@@ -1,0 +1,404 @@
+[
+	{
+		"name": "Lominsan Saddle",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "Join the Maelstrom Grand Company",
+			"location": "Storm Personnel Officer, Limsa Lominsa Upper Decks (13, 12)"
+		}]
+	},
+	{
+		"name": "Lominsan Half Barding",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "4,000 Storm Seals",
+			"location": "Storm Quartermaster, Limsa Lominsa Upper Decks (13, 12)"
+		}]
+	},
+	{
+		"name": "Lominsan Barding",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "6,000 Storm Seals",
+			"location": "Storm Quartermaster, Limsa Lominsa Upper Decks (13, 12)"
+		}]
+	},
+	{
+		"name": "Lominsan Crested Barding",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "8,000 Storm Seals",
+			"location": "Storm Quartermaster, Limsa Lominsa Upper Decks (13, 12)"
+		}]
+	},
+	{
+		"name": "Gridanian Saddle",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "Join the Order of the Twin Adder Grand Company",
+			"location": "Serpent Personnel Officer, New Gridania (9, 11)"
+		}]
+	},
+	{
+		"name": "Gridanian Half Barding",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "4,000 Serpent Seals",
+			"location": "Serpent Quartermaster, New Gridania (9, 11)"
+		}]
+	},
+	{
+		"name": "Gridanian Barding",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "6,000 Serpent Seals",
+			"location": "Serpent Quartermaster, New Gridania (9, 11)"
+		}]
+	},
+	{
+		"name": "Gridanian Crested Barding",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "8,000 Serpent Seals",
+			"location": "Serpent Quartermaster, New Gridania (9, 11)"
+		}]
+	},
+	{
+		"name": "Ul'dahn Saddle",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "Join the Immortal Flames Grand Company",
+			"location": "Flame Personnel Officer, Ul'dah - Steps of Nald (8, 9)"
+		}]
+	},
+	{
+		"name": "Ul'dahn Half Barding",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "4,000 Flame Seals",
+			"location": "Flame Quartermaster, Ul'dah - Steps of Nald (8, 9)"
+		}]
+	},
+	{
+		"name": "Ul'dahn Barding",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "6,000 Flame Seals",
+			"location": "Flame Quartermaster, Ul'dah - Steps of Nald (8, 9)"
+		}]
+	},
+	{
+		"name": "Ul'dahn Crested Barding",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "8,000 Flame Seals",
+			"location": "Flame Quartermaster, Ul'dah - Steps of Nald (8, 9)"
+		}]
+	},
+	{
+		"name": "Paladin Barding",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "Reach level 10 in the 'Defender' skill tree on your chocobo companion",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "White Mage Barding",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "Reach level 10 in the 'Healer' skill tree on your chocobo companion",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Dragoon Barding",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "Reach level 10 in the 'Attacker' skill tree on your chocobo companion",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Black Mage Barding",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "promotion",
+			"info": "180 days (6 months) subscribed",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Sleipnir Barding",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "Odin's Mantle x5",
+			"location": "Aelina, Mor Dhona (22, 6)"
+		}]
+	},
+	{
+		"name": "Behemoth Barding",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "merchandise",
+			"info": "FFXIV: ARR Collector's Edition",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Flyer Shaffron",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "quest",
+			"info": "I Believe I Can Fly",
+			"location": "Arnoulain, Foundation (8, 12)"
+		}]
+	},
+	{
+		"name": "Sovereign Barding",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Leaving a Good Impression IV",
+			"details": "Receive 300 player commendations.",
+			"location": "Jonathas, Old Gridania (10, 6)"
+		}]
+	},
+	{
+		"name": "Starlight Barding",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "holiday",
+			"info": "Starlight Celebration 2013",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Egg Barding",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "holiday",
+			"info": "Hatching-tide 2014",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Barding of Light",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "promotion",
+			"info": "360 days (12 months) subscribed",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Tidal Barding",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Armorer 50***",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Levin Barding",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Leatherworker 50***",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Ice Barding",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Leatherworker 50****",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Plumed Barding",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Breaking Bo",
+			"details": "Train another player's chocobo companion 30 times.",
+			"location": "Jonathas, Old Gridania (10, 6)"
+		}]
+	},
+	{
+		"name": "Eerie Barding",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "holiday",
+			"info": "All Saints' Wake 2014",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Paramour Barding",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "holiday",
+			"info": "Valentione's Day 2015",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Gambler Barding",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "20,000 MGP",
+			"location": "Gold Saucer Attendant, Gold Saucer (5, 6)"
+		}]
+	},
+	{
+		"name": "Ishgardian Half Barding",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "fate",
+			"info": "Vedrfolnir Devoteth (Gold)",
+			"location": "The Churning Mists (11, 36)"
+		}]
+	},
+	{
+		"name": "Ishgardian Barding",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "350 Centurio Seals",
+			"location": "Ardolain, Foundation (12, 11)"
+		}]
+	},
+	{
+		"name": "Noble Barding",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Hairstyle Contest, 2015",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Highland Barding",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Leatherworker 40",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Expanse Barding",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Armorer 60*",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Hive Barding",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Armorer 60*",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Orthodox Barding",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Weaver 56",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Wild Rose Barding",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "promotion",
+			"info": "960 days (32 months) subscribed",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Round Table Barding",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "Heavens' Ward Helm Fragment x15",
+			"location": "Bertana, Idyllshire (5, 5)"
+		}]
+	},
+		{
+		"name": "Sephirotic Barding",
+		"lore": "TBD",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"details": "TBD",
+			"location": "TBD"
+		}]
+	}
+]

@@ -11,7 +11,9 @@ $(document).ready(function(){
 		$scope.tabs = [
 			{ title:'Minions', id: '0', prefix: 'minion', data: [], sData: [], tableHeading:[], numObtained:0, maxObtained: 0, backgrounds:["cat.jpg", "verminion.jpg"]},
 			{ title:'Mounts', id: '1', prefix: 'mount', data: [], sData: [], tableHeading:["Attributes"], numObtained:0, maxObtained: 0, backgrounds:["fatchocobo.jpg", "ahriman.jpg"]},
-			{ title:'Triple Triad', id: '2', prefix: 'triad', data: [], sData: [], tableHeading:["Card"], numObtained:0, maxObtained: 0, backgrounds:["goldsaucer.jpg"]}
+			{ title:'Triple Triad', id: '2', prefix: 'triad', data: [], sData: [], tableHeading:["Card"], numObtained:0, maxObtained: 0, backgrounds:["goldsaucer.jpg"]},
+			{ title:'Barding', id: '3', prefix: 'barding', data: [], sData: [], tableHeading:[], numObtained:0, maxObtained: 0, backgrounds:["goldsaucer.jpg"]},
+			{ title:'Orchestrion', id: '4', prefix: 'music', data: [], sData: [], tableHeading:[], numObtained:0, maxObtained: 0, backgrounds:["goldsaucer.jpg"]}
 		];
 		
 		$scope.bgStyle = "";
@@ -22,9 +24,11 @@ $(document).ready(function(){
 		$scope.activeTab = $scope.tabs[0];
 		
 		$scope.setup = function() {
-			$scope.handleJson($scope.tabs[0]);
-			$scope.handleJson($scope.tabs[1]);
-			$scope.handleJson($scope.tabs[2]);
+			var loop = 0;
+			while (loop < $scope.tabs.length) {
+				$scope.handleJson($scope.tabs[loop]);
+				loop++;
+			}
 			$scope.setBackground();
 		}
 		
