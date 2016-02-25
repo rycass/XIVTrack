@@ -1,145 +1,156 @@
 [
 	{
-		"name": "A Cold Wind",
-		"lore": "TBD",
+		"name": "Prelude - Discoveries",
+		"lore": "ARR login theme",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "other",
-			"info": "TBD",
-			"details": "TBD",
-			"location": "TBD"
+			"type": "achievement",
+			"info": "The Leader of the Band I",
+			"details": "Add 10 unique music rolls to your orchestrion.",
+			"location": "Jonathas, Old Gridania (10, 6)"
+		}]
+	},
+	{
+		"name": "Torn from the Heavens",
+		"lore": "Hydra/Chimera theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "50,000 MGP",
+			"location": "Gold Saucer Attendant, Gold Saucer (5, 6)"
+		}]
+	},
+	{
+		"name": "A Cold Wind",
+		"lore": "Heavensward login theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "5,000 MGP",
+			"location": "Gold Saucer Attendant, Gold Saucer (5, 6)"
+		}]
+	},
+	{
+		"name": "Contention",
+		"lore": "Zenith (The Churning Mists) theme FIXME",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "750 Allagan Tomestones of Esoterics",
+			"location": "Hismena, Idyllshire (6, 5)"
 		}]
 	},
 	{
 		"name": "Wailers and Waterwheels",
-		"lore": "TBD",
+		"lore": "Gridania theme, daytime",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "other",
-			"info": "TBD",
-			"details": "TBD",
-			"location": "TBD"
+			"type": "vendor",
+			"info": "5000 Gil",
+			"location": "Maisenta, New Gridania (12, 11)"
 		}]
 	},
 	{
 		"name": "I Am the Sea",
-		"lore": "TBD",
+		"lore": "Limsa Lominsa theme, daytime",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "other",
-			"info": "TBD",
-			"details": "TBD",
-			"location": "TBD"
+			"type": "vendor",
+			"info": "5000 Gil",
+			"location": "Bango Zango, Limsa Lominsa Lower Decks (10, 11)"
 		}]
 	},
 	{
 		"name": "A New Hope",
-		"lore": "TBD",
+		"lore": "Thanalan theme, daytime",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "other",
-			"info": "TBD",
-			"details": "TBD",
-			"location": "TBD"
+			"type": "vendor",
+			"info": "5000 Gil",
+			"location": "Roarich, Ul'Dah - Steps of Nald (11, 10)"
 		}]
 	},
 	{
 		"name": "Solid",
-		"lore": "TBD",
+		"lore": "Ishgard theme, daytime",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "other",
-			"info": "TBD",
-			"details": "TBD",
-			"location": "TBD"
+			"type": "vendor",
+			"info": "5000 Gil",
+			"location": "Frine, The Pillars (6, 10)"
 		}]
 	},
 	{
 		"name": "The Waking Sands",
-		"lore": "TBD",
+		"lore": "The Waking Sands theme",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "other",
-			"info": "TBD",
-			"details": "TBD",
-			"location": "TBD"
-		}]
-	},
-	{
-		"name": "Four-Sided Circle",
-		"lore": "TBD",
-		"expansion": "ARR",
-		"sources": [{
-			"type": "other",
-			"info": "TBD",
-			"details": "TBD",
-			"location": "TBD"
-		}]
-	},
-	{
-		"name": "Sport of Kings",
-		"lore": "TBD",
-		"expansion": "ARR",
-		"sources": [{
-			"type": "other",
-			"info": "TBD",
-			"details": "TBD",
-			"location": "TBD"
-		}]
-	},
-	{
-		"name": "Another Round",
-		"lore": "TBD",
-		"expansion": "ARR",
-		"sources": [{
-			"type": "other",
-			"info": "TBD",
-			"details": "TBD",
-			"location": "TBD"
+			"type": "vendor",
+			"info": "5000 Gil",
+			"location": "Haneko Burneko, The Waking Sands (6, 4)"
 		}]
 	},
 	{
 		"name": "Painted Foothills",
-		"lore": "TBD",
+		"lore": "Dravanian Forelands theme, daytime",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "other",
-			"info": "TBD (Dravanian Forelands?)",
-			"details": "TBD",
-			"location": "TBD"
+			"type": "crafted",
+			"info": "Alchemist 60 (Requires Master Alchemist III)",
+			"location": "N/A",
+			"details": "Faded roll available: Hunts in Forelands? FIXME"
 		}]
 	},
 	{
 		"name": "Lost In The Clouds",
-		"lore": "TBD",
+		"lore": "The Sea of Clouds theme, daytime",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "other",
-			"info": "TBD (Sea of Clouds?)",
-			"details": "TBD",
-			"location": "TBD"
+			"type": "crafted",
+			"info": "Alchemist 60 (Requires Master Alchemist III)",
+			"location": "N/A",
+			"details": "Faded roll available: Hunts in Sea of Clouds? FIXME"
 		}]
 	},
 	{
-		"name": "Prelude - Discoveries",
-		"lore": "TBD",
+		"name": "Another Round",
+		"lore": "Bar theme",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "other",
-			"info": "TBD",
-			"details": "TBD",
-			"location": "TBD"
+			"type": "crafted",
+			"info": "Alchemist 50",
+			"location": "N/A",
+			"details": "Faded roll available: 1000 Allagan Tomestones of Poetics, Auriana, Mor Dhona (22, 6)"
 		}]
 	},
 	{
 		"name": "Agent of Inquiry",
-		"lore": "TBD",
+		"lore": "Hildibrand theme",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "other",
-			"info": "TBD",
-			"details": "TBD",
-			"location": "TBD"
+			"type": "vendor",
+			"info": "30,000 MGP",
+			"location": "Gold Saucer Attendant, Gold Saucer (5, 6)"
+		}]
+	},
+	{
+		"name": "Four-Sided Circle",
+		"lore": "Gold Saucer theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "10,000 MGP",
+			"location": "Gold Saucer Attendant, Gold Saucer (5, 6)"
+		}]
+	},
+	{
+		"name": "Sport of Kings",
+		"lore": "Chocobo Racing theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "15,000 MGP",
+			"location": "Gold Saucer Attendant, Gold Saucer (5, 6)"
 		}]
 	},
 	{
@@ -147,10 +158,10 @@
 		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "other",
-			"info": "TBD (Treasure hunts?)",
-			"details": "TBD",
-			"location": "TBD"
+			"type": "crafted",
+			"info": "Alchemist 50",
+			"location": "N/A",
+			"details": "Faded roll available: Treasure Hunts FIXME"
 		}]
 	},
 	{
@@ -158,307 +169,294 @@
 		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "other",
-			"info": "TBD",
-			"details": "TBD",
-			"location": "TBD"
+			"type": "crafted",
+			"info": "Alchemist 50",
+			"location": "N/A",
+			"details": "Faded roll available: Exploratory Voyages FIXME"
 		}]
 	},
 	{
 		"name": "When A Tree Falls",
-		"lore": "TBD",
+		"lore": "Fieldcraft Levequest theme",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "other",
-			"info": "TBD (Sea of Clouds?)",
-			"details": "TBD",
-			"location": "TBD"
+			"type": "vendor",
+			"info": "10 Amber-encased Vilekin",
+			"location": "Amber Trader, Foundation (10, 10)"
 		}]
 	},
 	{
 		"name": "Tenacity",
-		"lore": "TBD",
+		"lore": "Battlecraft Levequest theme",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "other",
-			"info": "TBD",
-			"details": "TBD",
-			"location": "TBD"
+			"type": "vendor",
+			"info": "Amber-encased Vilekin x5",
+			"location": "Amber Trader, Foundation (10, 10)"
 		}]
 	},
 	{
 		"name": "Blood For Blood",
-		"lore": "TBD",
+		"lore": "Frontlines theme",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "other",
-			"info": "TBD",
-			"details": "TBD",
-			"location": "TBD"
+			"type": "crafted",
+			"info": "Alchemist 60 (Requires Master Alchemist III)",
+			"location": "N/A",
+			"details": "Faded roll available: 5000 Wolf Marks, Storm Sergeant, Wolves' Den Pier"
 		}]
 	},
 	{
 		"name": "Starved",
-		"lore": "TBD",
+		"lore": "The Feast theme",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "other",
-			"info": "TBD",
-			"details": "TBD",
-			"location": "TBD"
-		}]
-	},
-	{
-		"name": "Riptide",
-		"lore": "TBD",
-		"expansion": "ARR",
-		"sources": [{
-			"type": "other",
-			"info": "TBD (Sastasha?)",
-			"details": "TBD",
-			"location": "TBD"
-		}]
-	},
-	{
-		"name": "Dark Vows",
-		"lore": "TBD",
-		"expansion": "ARR",
-		"sources": [{
-			"type": "other",
-			"info": "TBD (Tam-tara?)",
-			"details": "TBD",
-			"location": "TBD"
-		}]
-	},
-	{
-		"name": "The Dark's Embrace",
-		"lore": "TBD",
-		"expansion": "ARR",
-		"sources": [{
-			"type": "other",
-			"info": "TBD (Copperbell?)",
-			"details": "TBD",
-			"location": "TBD"
+			"type": "crafted",
+			"info": "Alchemist 60 (Requires Master Alchemist III)",
+			"location": "N/A",
+			"details": "Faded roll available: 10,000 Wolf Marks, Storm Sergeant, Wolves' Den Pier"
 		}]
 	},
 	{
 		"name": "A Light In the Storm",
-		"lore": "TBD",
+		"lore": "Pharos Sirius theme",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "other",
-			"info": "TBD (Pharos Sirius?)",
-			"details": "TBD",
-			"location": "TBD"
+			"type": "crafted",
+			"info": "Alchemist 50** (Requires Master Alchemist I)",
+			"location": "N/A",
+			"details": "Faded roll available: FIXME"
 		}]
 	},
 	{
-		"name": "Imagination",
-		"lore": "TBD",
+		"name": "The Dark's Embrace",
+		"lore": "Copperbell Mines theme",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "other",
-			"info": "TBD (Aetherochemical Research Facility?)",
-			"details": "TBD",
-			"location": "TBD"
-		}]
-	},
-	{
-		"name": "Down the Up",
-		"lore": "TBD",
-		"expansion": "ARR",
-		"sources": [{
-			"type": "other",
-			"info": "TBD (Antitower?)",
-			"details": "TBD",
-			"location": "TBD"
+			"type": "crafted",
+			"info": "Alchemist 30",
+			"location": "N/A",
+			"details": "Faded roll available: FIXME"
 		}]
 	},
 	{
 		"name": "The Scars of Battle",
-		"lore": "TBD",
+		"lore": "Lost City of Amdapor theme FIXME",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "other",
-			"info": "TBD (Lost City of Amdapor?)",
-			"details": "TBD",
-			"location": "TBD"
+			"type": "crafted",
+			"info": "Alchemist 60** (Requires Master Alchemist III)",
+			"location": "N/A",
+			"details": "Faded roll available: FIXME"
 		}]
 	},
 	{
-		"name": "Torn from the Heavens",
-		"lore": "TBD",
+		"name": "Dark Vows",
+		"lore": "Tam-tara Deepcroft theme",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "other",
-			"info": "TBD",
-			"details": "TBD",
-			"location": "TBD"
+			"type": "crafted",
+			"info": "Alchemist 30",
+			"location": "N/A",
+			"details": "Faded roll available: FIXME"
+		}]
+	},
+	{
+		"name": "Riptide",
+		"lore": "Sastasha theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 30",
+			"location": "N/A",
+			"details": "Faded roll available: FIXME"
+		}]
+	},
+	{
+		"name": "Imagination",
+		"lore": "Aetherochemical Research Facility theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 60 (Requires Master Alchemist III)",
+			"location": "N/A",
+			"details": "Faded roll available: FIXME"
+		}]
+	},
+	{
+		"name": "Down the Up Staircase",
+		"lore": "Antitower theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 60* (Requires Master Alchemist III)",
+			"location": "N/A",
+			"details": "Faded roll available: FIXME"
 		}]
 	},
 	{
 		"name": "Ultima",
-		"lore": "TBD",
+		"lore": "Ultima Weapon Phase 2 theme",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "other",
-			"info": "TBD",
-			"details": "TBD",
-			"location": "TBD"
+			"type": "achievement",
+			"info": "The Leader of the Band II",
+			"details": "Add 30 unique music rolls to your orchestrion.",
+			"location": "Jonathas, Old Gridania (10, 6)"
 		}]
 	},
 	{
 		"name": "The Maker's Ruin",
-		"lore": "TBD",
+		"lore": "Ultima Weapon Phase 1 theme",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "other",
-			"info": "TBD",
-			"details": "TBD",
-			"location": "TBD"
+			"type": "crafted",
+			"info": "Alchemist 50*** (Requires Master Alchemist I)",
+			"location": "N/A",
+			"details": "Faded roll available: Ultima Weapon, Minstrel's Ballad: Ultima's Bane"
 		}]
 	},
 	{
 		"name": "Primal Judgement",
-		"lore": "TBD",
+		"lore": "The Bowl of Embers theme",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "other",
-			"info": "TBD (Ifrit?)",
-			"details": "TBD",
-			"location": "TBD"
+			"type": "crafted",
+			"info": "Alchemist 50*** (Requires Master Alchemist I)",
+			"location": "N/A",
+			"details": "Faded roll available: Ifrit, The Bowl of Embers (Extreme)"
 		}]
 	},
 	{
 		"name": "Fallen Angel",
-		"lore": "TBD",
+		"lore": "The Howling Eye theme",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "other",
-			"info": "TBD (Garuda?)",
-			"details": "TBD",
-			"location": "TBD"
+			"type": "crafted",
+			"info": "Alchemist 50*** (Requires Master Alchemist I)",
+			"location": "N/A",
+			"details": "Faded roll available: Garuda, The Howling Eye (Extreme)"
 		}]
 	},
 	{
 		"name": "Under the Weight",
-		"lore": "TBD",
+		"lore": "The Navel theme",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "other",
-			"info": "TBD (Titan?)",
-			"details": "TBD",
-			"location": "TBD"
+			"type": "crafted",
+			"info": "Alchemist 50*** (Requires Master Alchemist I)",
+			"location": "N/A",
+			"details": "Faded roll available: Titan, The Navel (Extreme)"
 		}]
 	},
 	{
 		"name": "Heroes",
-		"lore": "TBD",
+		"lore": "The Singularity Reactor theme",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "other",
-			"info": "TBD (King Thordan?)",
-			"details": "TBD",
-			"location": "TBD"
+			"type": "crafted",
+			"info": "Alchemist 60* (Requires Master Alchemist III)",
+			"location": "N/A",
+			"details": "Faded roll available: Minstrel's Ballad: Thordan's Reign"
 		}]
 	},
 	{
 		"name": "Fiend",
-		"lore": "TBD",
+		"lore": "Containment Bay S1T7 theme",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "other",
-			"info": "TBD",
-			"details": "TBD",
-			"location": "TBD"
+			"type": "crafted",
+			"info": "Alchemist 60* (Requires Master Alchemist III)",
+			"location": "N/A",
+			"details": "Faded roll available: Sephirot, Containment Bay S1T7 (Extreme)"
 		}]
 	},
 	{
 		"name": "Hubris",
-		"lore": "TBD",
+		"lore": "Labyrinth of the Ancients theme",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "other",
-			"info": "TBD (LotA?)",
-			"details": "TBD",
-			"location": "TBD"
+			"type": "crafted",
+			"info": "Alchemist 50**** (Requires Master Alchemist II)",
+			"location": "N/A",
+			"details": "Faded roll available: Labyrinth of the Ancients (FIXME)"
 		}]
 	},
 	{
 		"name": "Tumbling Down",
-		"lore": "TBD",
+		"lore": "Acheron theme",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "other",
-			"info": "TBD (LotA?)",
-			"details": "TBD",
-			"location": "TBD"
+			"type": "crafted",
+			"info": "Alchemist 50**** (Requires Master Alchemist II)",
+			"location": "N/A",
+			"details": "Faded roll available: FIXME"
 		}]
 	},
 	{
 		"name": "Now I Know the Truth",
-		"lore": "TBD",
+		"lore": "Xande theme? (FIXME)",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "other",
-			"info": "TBD (Syrcus?)",
-			"details": "TBD",
-			"location": "TBD"
+			"type": "crafted",
+			"info": "Alchemist 50**** (Requires Master Alchemist II)",
+			"location": "N/A",
+			"details": "Faded roll available: FIXME"
 		}]
 	},
 	{
 		"name": "Out of the Labyrinth",
-		"lore": "TBD",
+		"lore": "Syrcus Tower theme, out of combat",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "other",
-			"info": "TBD (Syrcus?)",
-			"details": "TBD",
-			"location": "TBD"
+			"type": "crafted",
+			"info": "Alchemist 50**** (Requires Master Alchemist II)",
+			"location": "N/A",
+			"details": "Faded roll available: FIXME"
 		}]
 	},
 	{
-		"name": "Blind To the Dark",
-		"lore": "TBD",
+		"name": "Blind to the Dark",
+		"lore": "World of Darkness theme, out of combat",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "other",
-			"info": "TBD (World of Darkness?)",
-			"details": "TBD",
-			"location": "TBD"
+			"type": "crafted",
+			"info": "Alchemist 50**** (Requires Master Alchemist II)",
+			"location": "N/A",
+			"details": "Faded roll available: FIXME"
 		}]
 	},
 	{
 		"name": "Hunger",
-		"lore": "TBD",
+		"lore": "Cloud of Darkness theme",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "other",
-			"info": "TBD (World of Darkness?)",
-			"details": "TBD",
-			"location": "TBD"
+			"type": "crafted",
+			"info": "Alchemist 50**** (Requires Master Alchemist II)",
+			"location": "N/A",
+			"details": "Faded roll available: FIXME"
 		}]
 	},
 	{
 		"name": "Eternal Wind",
-		"lore": "TBD",
+		"lore": "Crystal Tower ending/Final Fantasy III map theme",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "other",
-			"info": "TBD",
-			"details": "TBD",
-			"location": "TBD"
+			"type": "crafted",
+			"info": "Alchemist 60* (Requires Master Alchemist III)",
+			"location": "N/A",
+			"details": "Faded roll available: FIXME"
 		}]
 	},
 	{
-		"name": "Thunder Rolls",
+		"name": "Thunderer",
 		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "other",
-			"info": "TBD (Coil T3?)",
-			"details": "TBD",
-			"location": "TBD"
+			"type": "crafted",
+			"info": "Alchemist 50**** (Requires Master Alchemist II)",
+			"location": "N/A",
+			"details": "Faded roll available: FIXME"
 		}]
 	},
 	{
@@ -466,10 +464,10 @@
 		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "other",
-			"info": "TBD (Coil T5?)",
-			"details": "TBD",
-			"location": "TBD"
+			"type": "crafted",
+			"info": "Alchemist 50**** (Requires Master Alchemist II)",
+			"location": "N/A",
+			"details": "Faded roll available: FIXME"
 		}]
 	},
 	{
@@ -477,21 +475,10 @@
 		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "other",
-			"info": "TBD (Coil T9?)",
-			"details": "TBD",
-			"location": "TBD"
-		}]
-	},
-	{
-		"name": "Contention",
-		"lore": "TBD",
-		"expansion": "ARR",
-		"sources": [{
-			"type": "other",
-			"info": "TBD",
-			"details": "TBD",
-			"location": "TBD"
+			"type": "crafted",
+			"info": "Alchemist 50**** (Requires Master Alchemist II)",
+			"location": "N/A",
+			"details": "Faded roll available: FIXME"
 		}]
 	},
 	{
@@ -499,10 +486,10 @@
 		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "other",
-			"info": "TBD (Coil T13?)",
-			"details": "TBD",
-			"location": "TBD"
+			"type": "crafted",
+			"info": "Alchemist 50**** (Requires Master Alchemist IV, specialist)",
+			"location": "N/A",
+			"details": "Faded roll available: FIXME"
 		}]
 	}
 ]

@@ -303,6 +303,7 @@
 	{
 		"name": "Adamantoise",
 		"lore": "Native to the Near Eastern island of Thavnair, adamantoises were long thought to be impossible to domesticate. However, through the efforts of Ul'dahn zoologists, a handful of the colossal scalekin have been successfully trained to accept riders.",
+		"attributes": "flying",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -580,9 +581,10 @@
 		"lore": "TBD",
 		"expansion": "TBD",
 		"sources": [{
-			"type": "other",
-			"info": "TBD",
-			"location": "TBD"
+			"type": "vendor",
+			"info": "200,000 gil",
+			"location": "Vath Stickpeddler, The Dravanian Forelands (24, 19)",
+			"details": "Only offered with 'Sworn' reputation with Vath."
 		}]
 	},
 	{
@@ -590,9 +592,9 @@
 		"lore": "TBD",
 		"expansion": "TBD",
 		"sources": [{
-			"type": "other",
-			"info": "TBD",
-			"location": "TBD"
+			"type": "vendor",
+			"info": "1 Iron Voyage Spoil",
+			"location": "Bertana, Idyllshire (5, 5)"
 		}]
 	},
 	{
@@ -600,9 +602,9 @@
 		"lore": "TBD",
 		"expansion": "TBD",
 		"sources": [{
-			"type": "other",
-			"info": "TBD",
-			"location": "TBD"
+			"type": "trial",
+			"info": "Bismarck",
+			"location": "The Limitless Blue (Extreme)"
 		}]
 	},
 	{
@@ -610,9 +612,9 @@
 		"lore": "TBD",
 		"expansion": "TBD",
 		"sources": [{
-			"type": "other",
-			"info": "TBD",
-			"location": "TBD"
+			"type": "trial",
+			"info": "Ravana",
+			"location": "Thok Ast Thok (Extreme)"
 		}]
 	},
 	{
@@ -620,9 +622,9 @@
 		"lore": "TBD",
 		"expansion": "TBD",
 		"sources": [{
-			"type": "other",
-			"info": "TBD",
-			"location": "TBD"
+			"type": "trial",
+			"info": "King Thordan",
+			"location": "The Minstrel's Ballad: Thordan's Reign"
 		}]
 	},
 	{
@@ -630,19 +632,20 @@
 		"lore": "TBD",
 		"expansion": "TBD",
 		"sources": [{
-			"type": "other",
-			"info": "TBD",
-			"location": "TBD"
+			"type": "trial",
+			"info": "Sephirot",
+			"location": "Containment Bay S1T7 (Extreme)"
 		}]
 	},
 	{
 		"name": "Gloria",
 		"lore": "TBD",
-		"expansion": "TBD",
+		"expansion": "Heavensward",
 		"sources": [{
-			"type": "other",
-			"info": "TBD",
-			"location": "TBD"
+			"type": "achievement",
+			"info": "You Are What You Eat IV",
+			"details": "Triumph in 200 matches at the Feast.",
+			"location": "Jonathas, Old Gridania (10, 6)"
 		}]
 	}
 ]

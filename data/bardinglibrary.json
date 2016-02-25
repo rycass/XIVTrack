@@ -165,7 +165,7 @@
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
-			"info": "Odin's Mantle x5",
+			"info": "5 Odin's Mantles",
 			"location": "Aelina, Mor Dhona (22, 6)"
 		}]
 	},
@@ -347,7 +347,7 @@
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
-			"info": "Armorer 60*",
+			"info": "Armorer 60* (Requires Master Armorer III)",
 			"location": "N/A"
 		}]
 	},
@@ -357,7 +357,7 @@
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
-			"info": "Armorer 60*",
+			"info": "Armorer 60* (Requires Master Armorer III)",
 			"location": "N/A"
 		}]
 	},
@@ -387,7 +387,7 @@
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
-			"info": "Heavens' Ward Helm Fragment x15",
+			"info": "15 Heavens' Ward Helm Fragments",
 			"location": "Bertana, Idyllshire (5, 5)"
 		}]
 	},
@@ -396,9 +396,9 @@
 		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "other",
-			"details": "TBD",
-			"location": "TBD"
+			"type": "crafted",
+			"info": "Leatherworker 60** (Requires Master Leatherworker IV, Specialist)",
+			"location": "N/A"
 		}]
 	}
 ]
