@@ -9,11 +9,12 @@ $(document).ready(function(){
 		$scope.reverseSort = false;
 		
 		$scope.tabs = [
-			{ title:'Minions', id: '0', prefix: 'minion', data: [], sData: [], tableHeading:[], numObtained:0, maxObtained: 0, backgrounds:["cat.jpg", "verminion.jpg"]},
-			{ title:'Mounts', id: '1', prefix: 'mount', data: [], sData: [], tableHeading:["Attributes"], numObtained:0, maxObtained: 0, backgrounds:["fatchocobo.jpg", "ahriman.jpg"]},
-			{ title:'Triple Triad', id: '2', prefix: 'triad', data: [], sData: [], tableHeading:["Card"], numObtained:0, maxObtained: 0, backgrounds:["goldsaucer.jpg"]},
-			{ title:'Barding', id: '3', prefix: 'barding', data: [], sData: [], tableHeading:[], numObtained:0, maxObtained: 0, backgrounds:["goldsaucer.jpg"]},
-			{ title:'Orchestrion', id: '4', prefix: 'music', data: [], sData: [], tableHeading:[], numObtained:0, maxObtained: 0, backgrounds:["goldsaucer.jpg"]}
+			{ title:'Minions', id: '0', prefix: 'minion', data: [], sData: [], tableHeading:[], numObtained:0, maxObtained: 0, backgrounds:["cat.jpg", "verminion.jpg"], oneIcon: false},
+			{ title:'Mounts', id: '1', prefix: 'mount', data: [], sData: [], tableHeading:["Attributes"], numObtained:0, maxObtained: 0, backgrounds:["fatchocobo.jpg", "ahriman.jpg"], oneIcon: false},
+			{ title:'Triple Triad', id: '2', prefix: 'triad', data: [], sData: [], tableHeading:["Card"], numObtained:0, maxObtained: 0, backgrounds:["goldsaucer.jpg"], oneIcon: false},
+			{ title:'Barding', id: '3', prefix: 'barding', data: [], sData: [], tableHeading:[], numObtained:0, maxObtained: 0, backgrounds:["goldsaucer.jpg"], oneIcon: false},
+			{ title:'Orchestrion', id: '4', prefix: 'music', data: [], sData: [], tableHeading:[], numObtained:0, maxObtained: 0, backgrounds:["goldsaucer.jpg"], oneIcon: true},
+			{ title:'Titles', id: '5', prefix: 'title', data: [], sData: [], tableHeading:[], numObtained:0, maxObtained: 0, backgrounds:["goldsaucer.jpg"], oneIcon: true}
 		];
 		
 		$scope.bgStyle = "";
@@ -111,8 +112,9 @@ $(document).ready(function(){
 			return $scope.activeTab.maxObtained;
 		}
 		
-		$scope.getItemImage = function(item, prefix) {
-			return $scope.fixImgString(item.name) + "_" + prefix;
+		$scope.getItemImage = function(item, tab) {
+			if (tab.oneIcon) return "all_" + tab.prefix;
+			else return $scope.fixImgString(item.name) + "_" + tab.prefix;
 		}
 		
 		$scope.fixImgString = function(str) {

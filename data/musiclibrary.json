@@ -32,7 +32,7 @@
 	},
 	{
 		"name": "Contention",
-		"lore": "Zenith (The Churning Mists) theme FIXME",
+		"lore": "Zenith (The Churning Mists) theme",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -98,7 +98,7 @@
 			"type": "crafted",
 			"info": "Alchemist 60 (Requires Master Alchemist III)",
 			"location": "N/A",
-			"details": "Faded roll available: Hunts in Forelands? FIXME"
+			"details": "Faded roll available: Hunts in Dravanian Forelands"
 		}]
 	},
 	{
@@ -109,7 +109,7 @@
 			"type": "crafted",
 			"info": "Alchemist 60 (Requires Master Alchemist III)",
 			"location": "N/A",
-			"details": "Faded roll available: Hunts in Sea of Clouds? FIXME"
+			"details": "Faded roll available: Hunts in Sea of Clouds"
 		}]
 	},
 	{
@@ -155,34 +155,24 @@
 	},
 	{
 		"name": "The Only Path",
-		"lore": "TBD",
+		"lore": "Treasure hunt theme",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
 			"info": "Alchemist 50",
 			"location": "N/A",
-			"details": "Faded roll available: Treasure Hunts FIXME"
+			"details": "Faded roll available: Treasure Hunts"
 		}]
 	},
 	{
 		"name": "A World Apart",
-		"lore": "TBD",
+		"lore": "Final Fantasy XIV ending theme",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
 			"info": "Alchemist 50",
 			"location": "N/A",
-			"details": "Faded roll available: Exploratory Voyages FIXME"
-		}]
-	},
-	{
-		"name": "When A Tree Falls",
-		"lore": "Fieldcraft Levequest theme",
-		"expansion": "ARR",
-		"sources": [{
-			"type": "vendor",
-			"info": "10 Amber-encased Vilekin",
-			"location": "Amber Trader, Foundation (10, 10)"
+			"details": "Faded roll available: Exploratory Voyages"
 		}]
 	},
 	{
@@ -192,6 +182,16 @@
 		"sources": [{
 			"type": "vendor",
 			"info": "Amber-encased Vilekin x5",
+			"location": "Amber Trader, Foundation (10, 10)"
+		}]
+	},
+	{
+		"name": "When A Tree Falls",
+		"lore": "Fieldcraft Levequest theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "10 Amber-encased Vilekin",
 			"location": "Amber Trader, Foundation (10, 10)"
 		}]
 	},
@@ -225,7 +225,7 @@
 			"type": "crafted",
 			"info": "Alchemist 50** (Requires Master Alchemist I)",
 			"location": "N/A",
-			"details": "Faded roll available: FIXME"
+			"details": "Faded roll available: Siren, Pharos Sirius"
 		}]
 	},
 	{
@@ -236,29 +236,29 @@
 			"type": "crafted",
 			"info": "Alchemist 30",
 			"location": "N/A",
-			"details": "Faded roll available: FIXME"
+			"details": "Faded roll available: Ouranos, Copperbell Mines (Hard)"
 		}]
 	},
 	{
 		"name": "The Scars of Battle",
-		"lore": "Lost City of Amdapor theme FIXME",
+		"lore": "The Lost City of Amdapor theme",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
 			"info": "Alchemist 60** (Requires Master Alchemist III)",
 			"location": "N/A",
-			"details": "Faded roll available: FIXME"
+			"details": "Faded roll available: Kuribu, The Lost City of Amdapor (Hard)"
 		}]
 	},
 	{
 		"name": "Dark Vows",
-		"lore": "Tam-tara Deepcroft theme",
+		"lore": "Tam-Tara Deepcroft theme",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
 			"info": "Alchemist 30",
 			"location": "N/A",
-			"details": "Faded roll available: FIXME"
+			"details": "Faded roll available: Avere Bravearm, Tam-Tara Deepcroft (Hard)"
 		}]
 	},
 	{
@@ -269,29 +269,29 @@
 			"type": "crafted",
 			"info": "Alchemist 30",
 			"location": "N/A",
-			"details": "Faded roll available: FIXME"
+			"details": "Faded roll available: Kraken, Sastasha (Hard)"
 		}]
 	},
 	{
 		"name": "Imagination",
-		"lore": "Aetherochemical Research Facility theme",
+		"lore": "The Aetherochemical Research Facility theme",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
 			"info": "Alchemist 60 (Requires Master Alchemist III)",
 			"location": "N/A",
-			"details": "Faded roll available: FIXME"
+			"details": "Faded roll available: Ascian Prime, The Aetherochemical Research Facility"
 		}]
 	},
 	{
 		"name": "Down the Up Staircase",
-		"lore": "Antitower theme",
+		"lore": "The Antitower theme",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
 			"info": "Alchemist 60* (Requires Master Alchemist III)",
 			"location": "N/A",
-			"details": "Faded roll available: FIXME"
+			"details": "Faded roll available: Calcabrina, The Antitower"
 		}]
 	},
 	{
@@ -357,7 +357,7 @@
 			"type": "crafted",
 			"info": "Alchemist 60* (Requires Master Alchemist III)",
 			"location": "N/A",
-			"details": "Faded roll available: Minstrel's Ballad: Thordan's Reign"
+			"details": "Faded roll available: King Thordan, Minstrel's Ballad: Thordan's Reign"
 		}]
 	},
 	{
@@ -373,13 +373,13 @@
 	},
 	{
 		"name": "Hubris",
-		"lore": "Labyrinth of the Ancients theme",
+		"lore": "The Labyrinth of the Ancients theme",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
 			"info": "Alchemist 50**** (Requires Master Alchemist II)",
 			"location": "N/A",
-			"details": "Faded roll available: Labyrinth of the Ancients (FIXME)"
+			"details": "Faded roll available: Acheron, The Labyrinth of the Ancients"
 		}]
 	},
 	{
@@ -390,18 +390,7 @@
 			"type": "crafted",
 			"info": "Alchemist 50**** (Requires Master Alchemist II)",
 			"location": "N/A",
-			"details": "Faded roll available: FIXME"
-		}]
-	},
-	{
-		"name": "Now I Know the Truth",
-		"lore": "Xande theme? (FIXME)",
-		"expansion": "ARR",
-		"sources": [{
-			"type": "crafted",
-			"info": "Alchemist 50**** (Requires Master Alchemist II)",
-			"location": "N/A",
-			"details": "Faded roll available: FIXME"
+			"details": "Faded roll available: Acheron, The Labyrinth of the Ancients"
 		}]
 	},
 	{
@@ -412,7 +401,18 @@
 			"type": "crafted",
 			"info": "Alchemist 50**** (Requires Master Alchemist II)",
 			"location": "N/A",
-			"details": "Faded roll available: FIXME"
+			"details": "Faded roll available: Xande, Syrcus Tower"
+		}]
+	},
+	{
+		"name": "Now I Know the Truth",
+		"lore": "Doga and Unei/Crystal Tower story theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 50**** (Requires Master Alchemist II)",
+			"location": "N/A",
+			"details": "Faded roll available: Xande, Syrcus Tower"
 		}]
 	},
 	{
@@ -423,7 +423,7 @@
 			"type": "crafted",
 			"info": "Alchemist 50**** (Requires Master Alchemist II)",
 			"location": "N/A",
-			"details": "Faded roll available: FIXME"
+			"details": "Faded roll available: Cloud of Darkness, The World of Darkness"
 		}]
 	},
 	{
@@ -434,7 +434,7 @@
 			"type": "crafted",
 			"info": "Alchemist 50**** (Requires Master Alchemist II)",
 			"location": "N/A",
-			"details": "Faded roll available: FIXME"
+			"details": "Faded roll available: Cloud of Darkness, The World of Darkness"
 		}]
 	},
 	{
@@ -445,51 +445,61 @@
 			"type": "crafted",
 			"info": "Alchemist 60* (Requires Master Alchemist III)",
 			"location": "N/A",
-			"details": "Faded roll available: FIXME"
+			"details": "Requires faded rolls for Tumbling Down, Out of the Labyrinth, and Hunger."
 		}]
 	},
 	{
 		"name": "Thunderer",
-		"lore": "TBD",
+		"lore": "Ascian Boss/Twintania theme",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
 			"info": "Alchemist 50**** (Requires Master Alchemist II)",
 			"location": "N/A",
-			"details": "Faded roll available: FIXME"
+			"details": "Faded roll available: Twintania, The Binding Coil of Bahamut - Turn 5"
 		}]
 	},
 	{
 		"name": "Rise of the White Raven",
-		"lore": "TBD",
+		"lore": "Nael Deus Darnus theme",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
 			"info": "Alchemist 50**** (Requires Master Alchemist II)",
 			"location": "N/A",
-			"details": "Faded roll available: FIXME"
+			"details": "Faded roll available: Nael Deus Darnus, The Second Coil of Bahamut - Turn 4"
 		}]
 	},
 	{
 		"name": "From the Ashes",
-		"lore": "TBD",
+		"lore": "Phoenix theme",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
 			"info": "Alchemist 50**** (Requires Master Alchemist II)",
 			"location": "N/A",
-			"details": "Faded roll available: FIXME"
+			"details": "Faded roll available: Phoenix, The Final Coil of Bahamut - Turn 3"
 		}]
 	},
 	{
 		"name": "Answers",
-		"lore": "TBD",
+		"lore": "Final Fantasy XIV main theme",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
 			"info": "Alchemist 50**** (Requires Master Alchemist IV, specialist)",
 			"location": "N/A",
-			"details": "Faded roll available: FIXME"
+			"details": "Faded roll available: Bahamut Prime, The Final Coil of Bahamut - Turn 4 (also requires faded rolls Thunderer, Rise of the White Raven, and From The Ashes)"
+		}]
+	},
+	{
+		"name": "Pa-Paya",
+		"lore": "Holiday theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "Unknown",
+			"location": "N/A"
 		}]
 	}
 ]

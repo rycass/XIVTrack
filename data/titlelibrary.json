@@ -1,0 +1,652 @@
+[
+	{
+		"name": "...The Insatiable",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Armed to the Teeth",
+			"details": "Obtain Curtana, a Holy Shield, a pair of Sphairai, a Bravura, Gae Bolg, the Artemis Bow, Thyrus, a Stardust Rod, the Veil of Wiyu, and a copy of the Omnilex in the quest 'A Relic Reborn.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...The True",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Raising the Curtana",
+			"details": "Obtain Curtana and a Holy Shield in the quest 'A Relic Reborn.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Coeurlfist...",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Enter the Coeurl",
+			"details": "Obtain a pair of Sphairai in the quest 'A Relic Reborn.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Ironeater...",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Cleaving to Tradition",
+			"details": "Obtain a Bravura in the quest 'A Relic Reborn.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...Of the Vengeful Lance",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Having a Gae Old Time",
+			"details": "Obtain Gae Bolg in the quest 'A Relic Reborn.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...The Godsbow",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Hard to Miss",
+			"details": "Obtain the Artemis Bow in the quest 'A Relic Reborn.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...The White",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Dressed to Heal",
+			"details": "Obtain Thyrus in the quest 'A Relic Reborn.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Starcaller...",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Ohohohohoho!",
+			"details": "Obtain a Stardust Rod in the quest 'A Relic Reborn.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...The Exterminator",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "To Crush Your Enemies VI",
+			"details": "Defeat 50,000 enemies.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Notorious Monster Hunter...",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: Notorious Monster Hunting",
+			"details": "Defeat 25 different notorious monsters.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...Honest Gillionaire",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Who Wants to Be a Gillionaire?",
+			"details": "Earn a cumulative total of 10,000,000 gil from levequests.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...Ruthless Gillionaire",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: Never Met a Corpse I Couldn't Rifle",
+			"details": "Earn a cumulative total of 100,000,000 gil from defeating enemies.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Warmonger...",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Mastering War I",
+			"details": "Achieve level 50 as a gladiator, pugilist, marauder, archer, and lancer.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Archmage...",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Mastering Magic I",
+			"details": "Achieve level 50 as a conjurer, thaumaturge, and arcanist.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...Builder of the Realm",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Mastering the Hand I",
+			"details": "Achieve level 50 as a carpenter, blacksmith, armorer, goldsmith, leatherworker, weaver, alchemist, and culinarian.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...Provider of the Realm",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Mastering the Land I",
+			"details": "Achieve level 50 as a miner, botanist, and fisher.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...Of the Golden Saw",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Going with the Grain: Artisan",
+			"details": "Successfully synthesize 3,000 times for level 41-50 woodworking recipies.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...Of the Golden Anvil",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Working the Bellows: Artisan",
+			"details": "Successfully synthesize 3,000 times for level 41-50 smithing recipies.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...Of the Golden Hammer",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Pounding Out the Dents: Artisan",
+			"details": "Successfully synthesize 3,000 times for level 41-50 armorcraft recipies.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...Of the Golden Leaf",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Cutting the Carats: Artisan",
+			"details": "Successfully synthesize 3,000 times for level 41-50 goldsmithing recipies.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...Of the Golden Hide",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Hiding in Plain Sight: Artisan",
+			"details": "Successfully synthesize 3,000 times for level 41-50 leatherworking recipies.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...Of the Golden Needle",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Threading the Needle: Artisan",
+			"details": "Successfully synthesize 3,000 times for level 41-50 clothcraft recipies.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...Of the Golden Lead",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Mixing It Up: Artisan",
+			"details": "Successfully synthesize 3,000 times for level 41-50 alchemy recipies.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...Of the Golden Ladle",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Savoring the Realm: Artisan",
+			"details": "Successfully synthesize 3,000 times for level 41-50 cooking recipies.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Meadowbreaker...",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "A Miner's Life for Me: La Noscea",
+			"details": "Obtain all five 'Mining Your Own Business: La Noscea' achievements.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Forestbreaker...",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "A Miner's Life for Me: Black Shroud",
+			"details": "Obtain all five 'Mining Your Own Business: Black Shroud' achievements.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Desertbreaker...",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "A Miner's Life for Me: Thanalan",
+			"details": "Obtain all five 'Mining Your Own Business: Thanalan' achievements.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...of the Meadow Mines",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: I'd Rather Be Quarrying: La Noscea",
+			"details": "Obtain all five 'Rocking Around the Clock: La Noscea' achievements.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...of the Forest Mines",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: I'd Rather Be Quarrying: Black Shroud",
+			"details": "Obtain all five 'Rocking Around the Clock: Black Shroud' achievements.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...of the Desert Mines",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: I'd Rather Be Quarrying: Thanalan",
+			"details": "Obtain all five 'Rocking Around the Clock: Thanalan' achievements.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Meadowreaper...",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "A Botanist's Life for Me: La Noscea",
+			"details": "Obtain all five 'Logging the Hours: La Noscea' achievements.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Forestreaper...",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "A Botanist's Life for Me: Black Shroud",
+			"details": "Obtain all five 'Logging the Hours: Black Shroud' achievements.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Desertreaper...",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "A Botanist's Life for Me: Thanalan",
+			"details": "Obtain all five 'Logging the Hours: Thanalan' achievements.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...of the Meadow Grasses",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: I'd Rather Be Harvesting: La Noscea",
+			"details": "Obtain all five 'Reaping What You Sow: La Noscea' achievements.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...of the Forest Grasses",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: I'd Rather Be Harvesting: Black Shroud",
+			"details": "Obtain all five 'Reaping What You Sow: Black Shroud' achievements.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...of the Desert Grasses",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: I'd Rather Be Harvesting: Thanalan",
+			"details": "Obtain all five 'Reaping What You Sow: Thanalan' achievements.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Meadowcaster...",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "A Fisher's Life for Me: La Noscea",
+			"details": "Obtain all five 'Good Things Come to Those Who Bait: La Noscea' achievements.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Forestcaster...",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "A Fisher's Life for Me: Black Shroud",
+			"details": "Obtain all five 'Good Things Come to Those Who Bait: Black Shroud' achievements.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Desertcaster...",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "A Fisher's Life for Me: Thanalan",
+			"details": "Obtain all five 'Good Things Come to Those Who Bait: Thanalan' achievements.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...of the Meadow Pools",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: I'd Rather Be Spearfishing: La Noscea",
+			"details": "Obtain all five 'Getting Giggy With It: La Noscea' achievements.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...of the Forest Pools",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: I'd Rather Be Spearfishing: Black Shroud",
+			"details": "Obtain all five 'Getting Giggy With It: Black Shroud' achievements.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...of the Desert Pools",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: I'd Rather Be Spearfishing: Thanalan",
+			"details": "Obtain all five 'Getting Giggy With It: Thanalan' achievements.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...Carrier of the Cauldron",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Materia Hysteria",
+			"details": "Successfully affix 1,000 materia.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...The Assimilator",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Living in a Materia World",
+			"details": "Successfully convert 1,000 spiritbound items into materia.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...Seeker Of Blood",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Tales of War",
+			"details": "Complete all Disciple of War quests available at level 30.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...Seeker Of Truth",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Tales of Magic",
+			"details": "Complete all Disciple of Magic quests available at level 30.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...Seeker Of Skill",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Tales of the Hand",
+			"details": "Complete all Disciple of the Hand quests available at level 30.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...Seeker Of Bounty",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Tales of the Land",
+			"details": "Complete all Disciple of the Land quests available at level 30.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Sidestepper...",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: Sideways",
+			"details": "Obtain all three 'A Little Something on the Side' achievements.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Lord/Lady Protector...",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "All the More Region to Leve VI",
+			"details": "Complete 500 regional battlecraft levequests.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Lord/Lady Creator...",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Think Global, Quest Local VI",
+			"details": "Complete 500 local tradecraft levequests.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Peacemaker...",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: A Slave to Faction III",
+			"details": "Complete 100 faction levequests.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...The Last Resort",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Serving a Greater Cause VI",
+			"details": "Complete 100 guildhests.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...The Sword Of La Noscea",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: And All I Got Was This Lousy Achievement: La Noscea",
+			"details": "Complete 20 regional battlecraft levequests at each aetherlyte camp and aetherial gate in La Noscea.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...The Sword Of The Shroud",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: And All I Got Was This Lousy Achievement: Black Shroud",
+			"details": "Complete 20 regional battlecraft levequests at each aetherlyte camp and aetherial gate in the Black Shroud.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...The Sword Of Thanalan",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: And All I Got Was This Lousy Achievement: Thanalan",
+			"details": "Complete 20 regional battlecraft levequests at each aetherlyte camp and aetherial gate in Thanalan.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...The Sword Of Eorzea",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: Globetrotter",
+			"details": "Complete 20 regional battlecraft levequests at each aetherlyte camp and aetherial gate in La Noscea, the Black Shroud, and Thanalan.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...The Shield Of La Noscea",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: La Noscea Got Served...and Protected",
+			"details": "Complete 10 behests at each aetherlyte camp and aetherial gate in La Noscea.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...The Shield Of The Shroud",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: The Black Shroud Got Served...and Protected",
+			"details": "Complete 10 behests at each aetherlyte camp and aetherial gate in the Black Shroud.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...The Shield Of Thanalan",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: Thanalan Got Served...and Protected",
+			"details": "Complete 10 behests at each aetherlyte camp and aetherial gate in Thanalan.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...The Shield Of Eorzea",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: Eorzea Got Served...and Protected",
+			"details": "Complete 10 behests at each aetherlyte camp and aetherial gate in La Noscea, the Black Shroud, and Thanalan.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...Brother/Sister Of The Broken Blade",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: Love Thy Brother",
+			"details": "Complete 50 faction levequests for the Brotherhood of the Broken Blade.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...The Warden's Wall",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: Another Brick in the Shield Wall",
+			"details": "Complete 50 faction levequests for Azeyma's Shields.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...Bearer Of The Horn",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: A Helping Horn",
+			"details": "Complete 50 faction levequests for the Brotherhood of the Horn and Hand.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "...The Uncommitted",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: Commitment Issues",
+			"details": "Complete 500 faction levequests for the Brotherhood of the Broken Blade, Azeyma's Shields, and the Horn and Hand.",
+			"location": "N/A"
+		}]
+	}
+]

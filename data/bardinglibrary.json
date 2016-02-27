@@ -1,7 +1,6 @@
 [
 	{
 		"name": "Lominsan Saddle",
-		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "other",
@@ -11,7 +10,6 @@
 	},
 	{
 		"name": "Lominsan Half Barding",
-		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -21,7 +19,6 @@
 	},
 	{
 		"name": "Lominsan Barding",
-		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -31,7 +28,6 @@
 	},
 	{
 		"name": "Lominsan Crested Barding",
-		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -41,7 +37,6 @@
 	},
 	{
 		"name": "Gridanian Saddle",
-		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "other",
@@ -51,7 +46,6 @@
 	},
 	{
 		"name": "Gridanian Half Barding",
-		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -61,7 +55,6 @@
 	},
 	{
 		"name": "Gridanian Barding",
-		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -71,7 +64,6 @@
 	},
 	{
 		"name": "Gridanian Crested Barding",
-		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -81,7 +73,6 @@
 	},
 	{
 		"name": "Ul'dahn Saddle",
-		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "other",
@@ -91,7 +82,6 @@
 	},
 	{
 		"name": "Ul'dahn Half Barding",
-		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -101,7 +91,6 @@
 	},
 	{
 		"name": "Ul'dahn Barding",
-		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -111,7 +100,6 @@
 	},
 	{
 		"name": "Ul'dahn Crested Barding",
-		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -121,7 +109,6 @@
 	},
 	{
 		"name": "Paladin Barding",
-		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "other",
@@ -131,7 +118,6 @@
 	},
 	{
 		"name": "White Mage Barding",
-		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "other",
@@ -141,7 +127,6 @@
 	},
 	{
 		"name": "Dragoon Barding",
-		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "other",
@@ -151,7 +136,6 @@
 	},
 	{
 		"name": "Black Mage Barding",
-		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "promotion",
@@ -161,7 +145,6 @@
 	},
 	{
 		"name": "Sleipnir Barding",
-		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -171,7 +154,6 @@
 	},
 	{
 		"name": "Behemoth Barding",
-		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "merchandise",
@@ -181,7 +163,6 @@
 	},
 	{
 		"name": "Flyer Shaffron",
-		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "quest",
@@ -191,7 +172,6 @@
 	},
 	{
 		"name": "Sovereign Barding",
-		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -202,7 +182,6 @@
 	},
 	{
 		"name": "Starlight Barding",
-		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "holiday",
@@ -211,8 +190,7 @@
 		}]
 	},
 	{
-		"name": "Egg Barding",
-		"lore": "TBD",
+		"name": "Egg Harness",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "holiday",
@@ -222,7 +200,6 @@
 	},
 	{
 		"name": "Barding of Light",
-		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "promotion",
@@ -232,7 +209,6 @@
 	},
 	{
 		"name": "Tidal Barding",
-		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -242,7 +218,6 @@
 	},
 	{
 		"name": "Levin Barding",
-		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -252,7 +227,6 @@
 	},
 	{
 		"name": "Ice Barding",
-		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -262,7 +236,6 @@
 	},
 	{
 		"name": "Plumed Barding",
-		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -273,7 +246,6 @@
 	},
 	{
 		"name": "Eerie Barding",
-		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "holiday",
@@ -283,7 +255,6 @@
 	},
 	{
 		"name": "Paramour Barding",
-		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "holiday",
@@ -293,7 +264,6 @@
 	},
 	{
 		"name": "Gambler Barding",
-		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -303,7 +273,6 @@
 	},
 	{
 		"name": "Ishgardian Half Barding",
-		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "fate",
@@ -313,7 +282,6 @@
 	},
 	{
 		"name": "Ishgardian Barding",
-		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -323,7 +291,6 @@
 	},
 	{
 		"name": "Noble Barding",
-		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "unobtainable",
@@ -333,7 +300,6 @@
 	},
 	{
 		"name": "Highland Barding",
-		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -343,7 +309,6 @@
 	},
 	{
 		"name": "Expanse Barding",
-		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -353,7 +318,6 @@
 	},
 	{
 		"name": "Hive Barding",
-		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -363,7 +327,6 @@
 	},
 	{
 		"name": "Orthodox Barding",
-		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -373,7 +336,6 @@
 	},
 	{
 		"name": "Wild Rose Barding",
-		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "promotion",
@@ -383,7 +345,6 @@
 	},
 	{
 		"name": "Round Table Barding",
-		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -393,7 +354,6 @@
 	},
 		{
 		"name": "Sephirotic Barding",
-		"lore": "TBD",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",

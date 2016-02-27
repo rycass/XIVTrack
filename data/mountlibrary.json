@@ -159,18 +159,6 @@
 		}]
 	},
 	{
-		"name": "Logistics System",
-		"lore": "One of the automated system drones deployed by the Allagans to maintain and protect their strongholds. After being unearthed by the Sons of Saint Coinach, the mechanical sphere was modified by Nero tol Scavea into a personal transportation device.",
-		"attributes": "flying",
-		"expansion": "ARR",
-		"sources": [{
-			"type": "achievement",
-			"info": "Behind Enemy Lines I",
-			"details": "Guide any of the three Grand Companies to a total of 200 Frontline victories.",
-			"location": "Jonathas, Old Gridania (10, 6)"
-		}]
-	},
-	{
 		"name": "Goobbue",
 		"lore": "Traded for a song by the High Satrap of a distant land, the secret to taming these creatures once thought to be unbreakable was introduced to Eorzea by a mysterious wandering minstrel who journeyed through the realm in the final days before the Calamity.",
 		"expansion": "ARR",
@@ -333,17 +321,6 @@
 		}]
 	},
 	{
-		"name": "Manacutter",
-		"lore": "Supervised (in spirit) by the ever-absent Cid, Biggs and Wedge (with a little bending over by Biggs) put their heads together to create this flight-ready miniature airship, powered by the realm's first corrupted crystal engine.",
-		"attributes": "flying",
-		"expansion": "Heavensward",
-		"sources": [{
-			"type": "quest",
-			"info": "Into the Aery",
-			"location": "Estinien, Foundation (13, 11)"
-		}]
-	},
-	{
 		"name": "Sanuwa",
 		"lore": "Countless turns of the sun did Luna Vanu train this wild sanuwa to obey the orders of man, and for many moons did he wait for one he deemed worthy of taking up this noble cloudkin's reins. Wait, he did, until you arrived.",
 		"attributes": "flying",
@@ -356,25 +333,14 @@
 		}]
 	},
 	{
-		"name": "Witch's Broom",
-		"lore": "Once an ordinary household cleaning tool, relegated to such menial tasks as sweeping and... sweeping, this broom's life changed upon being enchanted by the ogre pumpkinhead. Now the skies are its dusty floors.",
-		"attributes": "flying",
-		"expansion": "ARR",
+		"name": "Kongamato",
+		"lore": "After hatching from an egg laid near the riverbanks, the kongamato larva spends its early life as a water-dwelling insect. Its maturity is signified by metamorphosis, during which its wings sprout forth and it takes to the skies.",
+		"expansion": "Heavensward",
 		"sources": [{
-			"type": "holiday",
-			"info": "All Saint's Wake 2015",
-			"location": "N/A"
-		}]
-	},
-	{
-		"name": "Gobwalker",
-		"lore": "Originally designed to be a less-fickle replacement for pack raptors, the gobwalker was quickly reoutfitted into a tool of war after it took twenty goblins to chase down and topple a walker that had gone out of control and destroyed an entire workshop.",
-		"attributes": "flying",
-		"expansion": "ARR",
-		"sources": [{
-			"type": "raid",
-			"info": "The Manipulator",
-			"location": "Alexander - The Burden of the Father (Savage)"
+			"type": "vendor",
+			"info": "200,000 gil",
+			"location": "Vath Stickpeddler, The Dravanian Forelands (24, 19)",
+			"details": "Only offered with 'Sworn' reputation with Vath."
 		}]
 	},
 	{
@@ -407,6 +373,51 @@
 			"type": "vendor",
 			"info": "6 Clan Mark Logs",
 			"location": "Bertana, Idyllshire (5, 5)"
+		}]
+	},
+	{
+		"name": "Logistics System",
+		"lore": "One of the automated system drones deployed by the Allagans to maintain and protect their strongholds. After being unearthed by the Sons of Saint Coinach, the mechanical sphere was modified by Nero tol Scavea into a personal transportation device.",
+		"attributes": "flying",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Behind Enemy Lines I",
+			"details": "Guide any of the three Grand Companies to a total of 200 Frontline victories.",
+			"location": "Jonathas, Old Gridania (10, 6)"
+		}]
+	},
+	{
+		"name": "Manacutter",
+		"lore": "Supervised (in spirit) by the ever-absent Cid, Biggs and Wedge (with a little bending over by Biggs) put their heads together to create this flight-ready miniature airship, powered by the realm's first corrupted crystal engine.",
+		"attributes": "flying",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "quest",
+			"info": "Into the Aery",
+			"location": "Estinien, Foundation (13, 11)"
+		}]
+	},
+	{
+		"name": "Gobwalker",
+		"lore": "Originally designed to be a less-fickle replacement for pack raptors, the gobwalker was quickly reoutfitted into a tool of war after it took twenty goblins to chase down and topple a walker that had gone out of control and destroyed an entire workshop.",
+		"attributes": "flying",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "raid",
+			"info": "The Manipulator",
+			"location": "Alexander - The Burden of the Father (Savage)"
+		}]
+	},
+	{
+		"name": "Witch's Broom",
+		"lore": "Once an ordinary household cleaning tool, relegated to such menial tasks as sweeping and... sweeping, this broom's life changed upon being enchanted by the ogre pumpkinhead. Now the skies are its dusty floors.",
+		"attributes": "flying",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "holiday",
+			"info": "All Saint's Wake 2015",
+			"location": "N/A"
 		}]
 	},
 	{
@@ -556,6 +567,46 @@
 		}]
 	},
 	{
+		"name": "White Lanner",
+		"lore": "These birds are clad in roiling clouds, and noble Vanu Vanu warriors would sit astride them as part of Bismarck's retinue. The grace with which they glide through the skies evokes the image of a flower petal being carried by gentle western winds.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "trial",
+			"info": "Bismarck",
+			"location": "The Limitless Blue (Extreme)"
+		}]
+	},
+	{
+		"name": "Rose Lanner",
+		"lore": "The ferocity of these birds is enough to give pause to the bravest warrior, and their keen talons cut through flesh as cleanly the Chandrahas themselves. Any who endeavor to mount the rose lanner must possess the savagery that defines the Wrath of the Colony.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "trial",
+			"info": "Ravana",
+			"location": "Thok Ast Thok (Extreme)"
+		}]
+	},
+	{
+		"name": "Round Lanner",
+		"lore": "These birds are possessed of dignity equal to the noble personages whom they serve. Ancient Ishgardian knights often indulged themselves in falconry, and lanners were revered for their abilities, their lyncean eyes being well-suited for sighting prey on the ground.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "trial",
+			"info": "King Thordan",
+			"location": "The Minstrel's Ballad: Thordan's Reign"
+		}]
+	},
+	{
+		"name": "Warring Lanner",
+		"lore": "These birds are enveloped in an aura radiating a majesty that belies the savage nature of their master. According to the ancient legends of a treelike people native to Meracydia, the lanners bore the seeds of the World Tree across the seas, planting the verdant forests that dot the realm today.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "trial",
+			"info": "Sephirot",
+			"location": "Containment Bay S1T7 (Extreme)"
+		}]
+	},
+	{
 		"name": "Sleipnir",
 		"lore": "Blessed by the elder primal himself, Sleipnir will forever remain loyal to those who have proven themselves worthy. In addition to being fearless in battle, the dark steed is also able to manipulate his corporeal form to accommodate any rider, large or small.",
 		"expansion": "ARR",
@@ -577,20 +628,9 @@
 		}]
 	},
 	{
-		"name": "Kongamato",
-		"lore": "TBD",
-		"expansion": "TBD",
-		"sources": [{
-			"type": "vendor",
-			"info": "200,000 gil",
-			"location": "Vath Stickpeddler, The Dravanian Forelands (24, 19)",
-			"details": "Only offered with 'Sworn' reputation with Vath."
-		}]
-	},
-	{
 		"name": "Zu",
-		"lore": "TBD",
-		"expansion": "TBD",
+		"lore": "This massive bird hunts by grasping its prey within its saw-like beak, and finishes it off with a few violent shakes of its long neck before swallowing the now-dead quarry whole.",
+		"expansion": "Heavensward",
 		"sources": [{
 			"type": "vendor",
 			"info": "1 Iron Voyage Spoil",
@@ -598,54 +638,24 @@
 		}]
 	},
 	{
-		"name": "White Lanner",
-		"lore": "TBD",
-		"expansion": "TBD",
-		"sources": [{
-			"type": "trial",
-			"info": "Bismarck",
-			"location": "The Limitless Blue (Extreme)"
-		}]
-	},
-	{
-		"name": "Rose Lanner",
-		"lore": "TBD",
-		"expansion": "TBD",
-		"sources": [{
-			"type": "trial",
-			"info": "Ravana",
-			"location": "Thok Ast Thok (Extreme)"
-		}]
-	},
-	{
-		"name": "Round Lanner",
-		"lore": "TBD",
-		"expansion": "TBD",
-		"sources": [{
-			"type": "trial",
-			"info": "King Thordan",
-			"location": "The Minstrel's Ballad: Thordan's Reign"
-		}]
-	},
-	{
-		"name": "Warring Lanner",
-		"lore": "TBD",
-		"expansion": "TBD",
-		"sources": [{
-			"type": "trial",
-			"info": "Sephirot",
-			"location": "Containment Bay S1T7 (Extreme)"
-		}]
-	},
-	{
-		"name": "Gloria",
-		"lore": "TBD",
+		"name": "Gloria-class Airship",
+		"lore": "Taking inspiration from the half-remembered dream of his grandfather Tatanora, Tatamaru used his encyclopedic knowledge to design a small-scale version of a rotary-winged airship. Its name derives from an airship that appears in an obscure novel of unknown origins.",
 		"expansion": "Heavensward",
 		"sources": [{
 			"type": "achievement",
 			"info": "You Are What You Eat IV",
 			"details": "Triumph in 200 matches at the Feast.",
 			"location": "Jonathas, Old Gridania (10, 6)"
+		}]
+	},
+	{
+		"name": "Original Fat Chocobo",
+		"lore": "Maybe not larger, but definitely more in charge, this most gluttonous of gluttons inspired the others to great weights. Although most modern chocobos have yellow plumage, historic tomes portray birds covered in feathers whiter than the whitest snowfall─ All the better to see the stains of its many meals.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "other",
+			"info": "Unknown",
+			"location": "N/A"
 		}]
 	}
 ]
