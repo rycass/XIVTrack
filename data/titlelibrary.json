@@ -1,6 +1,6 @@
 [
 	{
-		"name": "...The Insatiable",
+		"name": "The Insatiable",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -10,7 +10,7 @@
 		}]
 	},
 	{
-		"name": "...The True",
+		"name": "The True",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -20,7 +20,7 @@
 		}]
 	},
 	{
-		"name": "Coeurlfist...",
+		"name": "Coeurlfist",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -30,7 +30,7 @@
 		}]
 	},
 	{
-		"name": "Ironeater...",
+		"name": "Ironeater",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -40,7 +40,7 @@
 		}]
 	},
 	{
-		"name": "...Of the Vengeful Lance",
+		"name": "Of The Vengeful Lance",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -50,7 +50,7 @@
 		}]
 	},
 	{
-		"name": "...The Godsbow",
+		"name": "The Godsbow",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -60,7 +60,7 @@
 		}]
 	},
 	{
-		"name": "...The White",
+		"name": "The White",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -70,7 +70,7 @@
 		}]
 	},
 	{
-		"name": "Starcaller...",
+		"name": "Starcaller",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -80,7 +80,7 @@
 		}]
 	},
 	{
-		"name": "...The Exterminator",
+		"name": "The Exterminator",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -90,8 +90,8 @@
 		}]
 	},
 	{
-		"name": "Notorious Monster Hunter...",
-		"expansion": "ARR",
+		"name": "Notorious Monster Hunter",
+		"expansion": "1.0",
 		"sources": [{
 			"type": "unobtainable",
 			"info": "Achievement: Notorious Monster Hunting",
@@ -100,7 +100,7 @@
 		}]
 	},
 	{
-		"name": "...Honest Gillionaire",
+		"name": "Honest Gillionaire",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -110,8 +110,8 @@
 		}]
 	},
 	{
-		"name": "...Ruthless Gillionaire",
-		"expansion": "ARR",
+		"name": "Ruthless Gillionaire",
+		"expansion": "1.0",
 		"sources": [{
 			"type": "unobtainable",
 			"info": "Achievement: Never Met a Corpse I Couldn't Rifle",
@@ -120,7 +120,7 @@
 		}]
 	},
 	{
-		"name": "Warmonger...",
+		"name": "Warmonger",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -130,7 +130,7 @@
 		}]
 	},
 	{
-		"name": "Archmage...",
+		"name": "Archmage",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -140,7 +140,7 @@
 		}]
 	},
 	{
-		"name": "...Builder of the Realm",
+		"name": "Builder of the Realm",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -150,7 +150,7 @@
 		}]
 	},
 	{
-		"name": "...Provider of the Realm",
+		"name": "Provider of the Realm",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -160,7 +160,7 @@
 		}]
 	},
 	{
-		"name": "...Of the Golden Saw",
+		"name": "Of the Golden Saw",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -170,7 +170,7 @@
 		}]
 	},
 	{
-		"name": "...Of the Golden Anvil",
+		"name": "Of the Golden Anvil",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -180,7 +180,7 @@
 		}]
 	},
 	{
-		"name": "...Of the Golden Hammer",
+		"name": "Of the Golden Hammer",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -190,7 +190,7 @@
 		}]
 	},
 	{
-		"name": "...Of the Golden Leaf",
+		"name": "Of the Golden Leaf",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -200,7 +200,7 @@
 		}]
 	},
 	{
-		"name": "...Of the Golden Hide",
+		"name": "Of the Golden Hide",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -210,7 +210,7 @@
 		}]
 	},
 	{
-		"name": "...Of the Golden Needle",
+		"name": "Of the Golden Needle",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -220,7 +220,7 @@
 		}]
 	},
 	{
-		"name": "...Of the Golden Lead",
+		"name": "Of the Golden Lead",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -230,7 +230,7 @@
 		}]
 	},
 	{
-		"name": "...Of the Golden Ladle",
+		"name": "Of the Golden Ladle",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -240,7 +240,7 @@
 		}]
 	},
 	{
-		"name": "Meadowbreaker...",
+		"name": "Meadowbreaker",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -250,7 +250,7 @@
 		}]
 	},
 	{
-		"name": "Forestbreaker...",
+		"name": "Forestbreaker",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -260,7 +260,7 @@
 		}]
 	},
 	{
-		"name": "Desertbreaker...",
+		"name": "Desertbreaker",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -270,8 +270,8 @@
 		}]
 	},
 	{
-		"name": "...of the Meadow Mines",
-		"expansion": "ARR",
+		"name": "of the Meadow Mines",
+		"expansion": "1.0",
 		"sources": [{
 			"type": "unobtainable",
 			"info": "Achievement: I'd Rather Be Quarrying: La Noscea",
@@ -280,8 +280,8 @@
 		}]
 	},
 	{
-		"name": "...of the Forest Mines",
-		"expansion": "ARR",
+		"name": "of the Forest Mines",
+		"expansion": "1.0",
 		"sources": [{
 			"type": "unobtainable",
 			"info": "Achievement: I'd Rather Be Quarrying: Black Shroud",
@@ -290,8 +290,8 @@
 		}]
 	},
 	{
-		"name": "...of the Desert Mines",
-		"expansion": "ARR",
+		"name": "of the Desert Mines",
+		"expansion": "1.0",
 		"sources": [{
 			"type": "unobtainable",
 			"info": "Achievement: I'd Rather Be Quarrying: Thanalan",
@@ -300,7 +300,7 @@
 		}]
 	},
 	{
-		"name": "Meadowreaper...",
+		"name": "Meadowreaper",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -310,7 +310,7 @@
 		}]
 	},
 	{
-		"name": "Forestreaper...",
+		"name": "Forestreaper",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -320,7 +320,7 @@
 		}]
 	},
 	{
-		"name": "Desertreaper...",
+		"name": "Desertreaper",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -330,8 +330,8 @@
 		}]
 	},
 	{
-		"name": "...of the Meadow Grasses",
-		"expansion": "ARR",
+		"name": "of the Meadow Grasses",
+		"expansion": "1.0",
 		"sources": [{
 			"type": "unobtainable",
 			"info": "Achievement: I'd Rather Be Harvesting: La Noscea",
@@ -340,8 +340,8 @@
 		}]
 	},
 	{
-		"name": "...of the Forest Grasses",
-		"expansion": "ARR",
+		"name": "of the Forest Grasses",
+		"expansion": "1.0",
 		"sources": [{
 			"type": "unobtainable",
 			"info": "Achievement: I'd Rather Be Harvesting: Black Shroud",
@@ -350,8 +350,8 @@
 		}]
 	},
 	{
-		"name": "...of the Desert Grasses",
-		"expansion": "ARR",
+		"name": "of the Desert Grasses",
+		"expansion": "1.0",
 		"sources": [{
 			"type": "unobtainable",
 			"info": "Achievement: I'd Rather Be Harvesting: Thanalan",
@@ -360,7 +360,7 @@
 		}]
 	},
 	{
-		"name": "Meadowcaster...",
+		"name": "Meadowcaster",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -370,7 +370,7 @@
 		}]
 	},
 	{
-		"name": "Forestcaster...",
+		"name": "Forestcaster",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -380,7 +380,7 @@
 		}]
 	},
 	{
-		"name": "Desertcaster...",
+		"name": "Desertcaster",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -390,8 +390,8 @@
 		}]
 	},
 	{
-		"name": "...of the Meadow Pools",
-		"expansion": "ARR",
+		"name": "of the Meadow Pools",
+		"expansion": "1.0",
 		"sources": [{
 			"type": "unobtainable",
 			"info": "Achievement: I'd Rather Be Spearfishing: La Noscea",
@@ -400,8 +400,8 @@
 		}]
 	},
 	{
-		"name": "...of the Forest Pools",
-		"expansion": "ARR",
+		"name": "of the Forest Pools",
+		"expansion": "1.0",
 		"sources": [{
 			"type": "unobtainable",
 			"info": "Achievement: I'd Rather Be Spearfishing: Black Shroud",
@@ -410,8 +410,8 @@
 		}]
 	},
 	{
-		"name": "...of the Desert Pools",
-		"expansion": "ARR",
+		"name": "of the Desert Pools",
+		"expansion": "1.0",
 		"sources": [{
 			"type": "unobtainable",
 			"info": "Achievement: I'd Rather Be Spearfishing: Thanalan",
@@ -420,7 +420,7 @@
 		}]
 	},
 	{
-		"name": "...Carrier of the Cauldron",
+		"name": "Carrier of the Cauldron",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -430,7 +430,7 @@
 		}]
 	},
 	{
-		"name": "...The Assimilator",
+		"name": "The Assimilator",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -440,7 +440,7 @@
 		}]
 	},
 	{
-		"name": "...Seeker Of Blood",
+		"name": "Seeker Of Blood",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -450,7 +450,7 @@
 		}]
 	},
 	{
-		"name": "...Seeker Of Truth",
+		"name": "Seeker Of Truth",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -460,7 +460,7 @@
 		}]
 	},
 	{
-		"name": "...Seeker Of Skill",
+		"name": "Seeker Of Skill",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -470,7 +470,7 @@
 		}]
 	},
 	{
-		"name": "...Seeker Of Bounty",
+		"name": "Seeker Of Bounty",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -480,8 +480,8 @@
 		}]
 	},
 	{
-		"name": "Sidestepper...",
-		"expansion": "ARR",
+		"name": "Sidestepper",
+		"expansion": "1.0",
 		"sources": [{
 			"type": "unobtainable",
 			"info": "Achievement: Sideways",
@@ -490,7 +490,7 @@
 		}]
 	},
 	{
-		"name": "Lord/Lady Protector...",
+		"name": "Lord Protector/Lady Protector",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -500,7 +500,7 @@
 		}]
 	},
 	{
-		"name": "Lord/Lady Creator...",
+		"name": "Lord/Lady Creator",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -510,8 +510,8 @@
 		}]
 	},
 	{
-		"name": "Peacemaker...",
-		"expansion": "ARR",
+		"name": "Peacemaker",
+		"expansion": "1.0",
 		"sources": [{
 			"type": "unobtainable",
 			"info": "Achievement: A Slave to Faction III",
@@ -520,7 +520,7 @@
 		}]
 	},
 	{
-		"name": "...The Last Resort",
+		"name": "The Last Resort",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -530,8 +530,8 @@
 		}]
 	},
 	{
-		"name": "...The Sword Of La Noscea",
-		"expansion": "ARR",
+		"name": "The Sword Of La Noscea",
+		"expansion": "1.0",
 		"sources": [{
 			"type": "unobtainable",
 			"info": "Achievement: And All I Got Was This Lousy Achievement: La Noscea",
@@ -540,8 +540,8 @@
 		}]
 	},
 	{
-		"name": "...The Sword Of The Shroud",
-		"expansion": "ARR",
+		"name": "The Sword Of The Shroud",
+		"expansion": "1.0",
 		"sources": [{
 			"type": "unobtainable",
 			"info": "Achievement: And All I Got Was This Lousy Achievement: Black Shroud",
@@ -550,8 +550,8 @@
 		}]
 	},
 	{
-		"name": "...The Sword Of Thanalan",
-		"expansion": "ARR",
+		"name": "The Sword Of Thanalan",
+		"expansion": "1.0",
 		"sources": [{
 			"type": "unobtainable",
 			"info": "Achievement: And All I Got Was This Lousy Achievement: Thanalan",
@@ -560,8 +560,8 @@
 		}]
 	},
 	{
-		"name": "...The Sword Of Eorzea",
-		"expansion": "ARR",
+		"name": "The Sword Of Eorzea",
+		"expansion": "1.0",
 		"sources": [{
 			"type": "unobtainable",
 			"info": "Achievement: Globetrotter",
@@ -570,48 +570,48 @@
 		}]
 	},
 	{
-		"name": "...The Shield Of La Noscea",
-		"expansion": "ARR",
+		"name": "The Shield Of La Noscea",
+		"expansion": "1.0",
 		"sources": [{
 			"type": "unobtainable",
-			"info": "Achievement: La Noscea Got Served...and Protected",
+			"info": "Achievement: La Noscea Got Servedand Protected",
 			"details": "Complete 10 behests at each aetherlyte camp and aetherial gate in La Noscea.",
 			"location": "N/A"
 		}]
 	},
 	{
-		"name": "...The Shield Of The Shroud",
-		"expansion": "ARR",
+		"name": "The Shield Of The Shroud",
+		"expansion": "1.0",
 		"sources": [{
 			"type": "unobtainable",
-			"info": "Achievement: The Black Shroud Got Served...and Protected",
+			"info": "Achievement: The Black Shroud Got Servedand Protected",
 			"details": "Complete 10 behests at each aetherlyte camp and aetherial gate in the Black Shroud.",
 			"location": "N/A"
 		}]
 	},
 	{
-		"name": "...The Shield Of Thanalan",
-		"expansion": "ARR",
+		"name": "The Shield Of Thanalan",
+		"expansion": "1.0",
 		"sources": [{
 			"type": "unobtainable",
-			"info": "Achievement: Thanalan Got Served...and Protected",
+			"info": "Achievement: Thanalan Got Servedand Protected",
 			"details": "Complete 10 behests at each aetherlyte camp and aetherial gate in Thanalan.",
 			"location": "N/A"
 		}]
 	},
 	{
-		"name": "...The Shield Of Eorzea",
-		"expansion": "ARR",
+		"name": "The Shield Of Eorzea",
+		"expansion": "1.0",
 		"sources": [{
 			"type": "unobtainable",
-			"info": "Achievement: Eorzea Got Served...and Protected",
+			"info": "Achievement: Eorzea Got Servedand Protected",
 			"details": "Complete 10 behests at each aetherlyte camp and aetherial gate in La Noscea, the Black Shroud, and Thanalan.",
 			"location": "N/A"
 		}]
 	},
 	{
-		"name": "...Brother/Sister Of The Broken Blade",
-		"expansion": "ARR",
+		"name": "Brother of the Broken Blade/Sister of the Broken Blade",
+		"expansion": "1.0",
 		"sources": [{
 			"type": "unobtainable",
 			"info": "Achievement: Love Thy Brother",
@@ -620,8 +620,8 @@
 		}]
 	},
 	{
-		"name": "...The Warden's Wall",
-		"expansion": "ARR",
+		"name": "The Warden's Wall",
+		"expansion": "1.0",
 		"sources": [{
 			"type": "unobtainable",
 			"info": "Achievement: Another Brick in the Shield Wall",
@@ -630,8 +630,8 @@
 		}]
 	},
 	{
-		"name": "...Bearer Of The Horn",
-		"expansion": "ARR",
+		"name": "Bearer Of The Horn",
+		"expansion": "1.0",
 		"sources": [{
 			"type": "unobtainable",
 			"info": "Achievement: A Helping Horn",
@@ -640,12 +640,2052 @@
 		}]
 	},
 	{
-		"name": "...The Uncommitted",
-		"expansion": "ARR",
+		"name": "The Uncommitted",
+		"expansion": "1.0",
 		"sources": [{
 			"type": "unobtainable",
 			"info": "Achievement: Commitment Issues",
 			"details": "Complete 500 faction levequests for the Brotherhood of the Broken Blade, Azeyma's Shields, and the Horn and Hand.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Professional",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Career Opportunities",
+			"details": "Complete the job quests 'Keeping the Oath,' 'Five Easy Pieces,' 'How to Quit You,' 'Into the Dragon's Maw,' 'Requiem for the Fallen,' 'Heart of the Forest,' and 'Always Bet on Black.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Inquisitor",
+		"expansion": "1.0",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: Patricide",
+			"details": "Defeat 11th Order Patriarch Gu Bu during the Battle for Aleport.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Divine Crusher",
+		"expansion": "1.0",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: To Kill a Mocking Bird",
+			"details": "Defeat Sazel Ciloc the Divine during the Battle for Hyrstmill.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Stonesplitter",
+		"expansion": "1.0",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: Pounding the Spike",
+			"details": "Defeat Stonespike Tanadd Gah during the Battle for the Golden Bazaar.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "A Kobold's Worst Nightmare",
+		"expansion": "1.0",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: First Blood: Aleport",
+			"details": "Receive a score of 50,000 or better for your efforts during a victorious campaign in the Battle for Aleport.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "An Ixal's Worst Nightmare",
+		"expansion": "1.0",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: First Blood: Hyrstmill",
+			"details": "Receive a score of 50,000 or better for your efforts during a victorious campaign in the Battle for Hyrstmill.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "An Amalj'aa's Worst Nightmare",
+		"expansion": "1.0",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: First Blood: Golden Bazaar",
+			"details": "Receive a score of 50,000 or better for your efforts during a victorious campaign in the Battle for the Golden Bazaar.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Guardian of Aleport",
+		"expansion": "1.0",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: To Be or Not to Be the Guardian of Aleport",
+			"details": "Defend Aleport from invading kobold forces 1,000 times.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Guardian of Hyrstmill",
+		"expansion": "1.0",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: To Be or Not to Be the Guardian of Hyrstmill",
+			"details": "Defend Hyrstmill from invading Ixali forces 1,000 times.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Guardian of the Golden Bazaar",
+		"expansion": "1.0",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: To Be or Not to Be the Guardian of the Golden Bazaar",
+			"details": "Defend the Golden Bazaar from invading Amalj'aa forces 1,000 times.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Wind of Aleport",
+		"expansion": "1.0",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: To Be or Not to Be the Wind of Aleport",
+			"details": "Procure and submit supplies 10,000 times during the Battle for Aleport.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Wind of Hyrstmill",
+		"expansion": "1.0",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: To Be or Not to Be the Wind of Hyrstmill",
+			"details": "Procure and submit supplies 10,000 times during the Battle for Hyrstmill.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Wind of the Golden Bazaar",
+		"expansion": "1.0",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: To Be or Not to Be the Wind of the Golden Bazaar",
+			"details": "Procure and submit supplies 10,000 times during the Battle for the Golden Bazaar.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Hand of Aleport",
+		"expansion": "1.0",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: To Be or Not to Be the Hand of Aleport",
+			"details": "Craft and submit materia-augmented equipment 10,000 times during the Battle for Aleport.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Hand of Hyrstmill",
+		"expansion": "1.0",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: To Be or Not to Be the Hand of Hyrstmill",
+			"details": "Craft and submit materia-augmented equipment 10,000 times during the Battle for Hyrstmill.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Hand of the Golden Bazaar",
+		"expansion": "1.0",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: To Be or Not to Be the Hand of the Golden Bazaar",
+			"details": "Craft and submit materia-augmented equipment 10,000 times during the Battle for the Golden Bazaar.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Wild Thing",
+		"expansion": "1.0",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: It's Reining Deer",
+			"details": "Obtain a festive Starlight Celebration outfit consisting of a set of reindeer antlers and a reindeer suit.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Winter Wyrm",
+		"expansion": "1.0",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: Get All the Things!",
+			"details": "Obtain all four dragon kabuto as part of the Heavensturn festivities.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Messenger of Love/Heartbreaker",
+		"expansion": "1.0",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: Love Makes the World Go Round",
+			"details": "Obtain a paramour's pendant, platinum paramour's pendant, and the Band of Eternal Passion during the Valentione's Day festivities.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Royal Seneschal/Princess for a Day",
+		"expansion": "1.0",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: Royal Audience",
+			"details": "Obtain a peach blossom earring.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Dreamseeker",
+		"expansion": "1.0",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: Seven Short of a Dozen",
+			"details": "Obtain all five egg rings.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Cascadier",
+		"expansion": "1.0",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: Cascadier for Life",
+			"details": "Obtain all six Moonfire Faire achievements.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Crystal Bearer",
+		"expansion": "1.0",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: Chock-full of Elemental Goodness",
+			"details": "Obtain an over-aspected cluster.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Stormlord/Stormlady",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "A Storm of Seals III",
+			"details": "Earn 100,000 Storm Seals.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Serpentlord/Serpentlady",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "A Snake in the Brass III",
+			"details": "Earn 100,000 Serpent Seals.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Flamelord/Flamelady",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Burning a Hole in My Pocket III",
+			"details": "Earn 100,000 Flame Seals.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Stormsworn",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "In Good Company: Maelstrom III",
+			"details": "Complete 200 company levequests for the Maelstrom.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Serpentsworn",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "In Good Company: Twin Adder III",
+			"details": "Complete 200 company levequests for the Order of the Twin Adder.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Flamesworn",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "In Good Company: Immortal Flames III",
+			"details": "Complete 200 company levequests for the Immortal Flames.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Stormcarrier",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Fueling the Storm III",
+			"details": "Complete 200 supply missions for the Maelstrom.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Serpentcarrier",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Feeding the Serpent III",
+			"details": "Complete 200 supply missions for the Order of the Twin Adder.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Flamecarrier",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Fanning the Flames III",
+			"details": "Complete 200 supply missions for the Immortal Flames.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Stormbringer",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "To Each According to His need: Maelstrom III",
+			"details": "Complete 200 provisioning missions for the Maelstrom.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Serpentbringer",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "To Each According to His need: Twin Adder III",
+			"details": "Complete 200 provisioning missions for the Order of the Twin Adder.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Flamebringer",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "To Each According to His need: Immortal Flames III",
+			"details": "Complete 200 provisioning missions for the Immortal Flames.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Featherfoot",
+		"expansion": "1.0",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: Eight Minutes or Less or Your Cargo's Free",
+			"details": "Complete level 20 caravan security in less than 8 minutes (Earth Time).",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "A Bo's Best Friend",
+		"expansion": "1.0",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: Handle with Care IV",
+			"details": "Protect a total of 5,000 packs of chocobo cargo.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Lightning",
+		"expansion": "1.0",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: Gone in Eight Minutes",
+			"details": "Complete level 40 caravan security in less than 8 minutes (Earth Time).",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Cavalier",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Pimp Your Ride",
+			"details": "Purchase all three sets of Grand Company chocobo barding.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Wanderer's Shadow",
+		"expansion": "1.0",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: Been There, Done That",
+			"details": "Attune with all 87 aetherlyte crystals and aetherial gates in La Noscea, the Black Shroud, Thanalan, Coerthas, and Mor Dhona.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Green Eyes",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Green Eyes",
+			"details": "Obtain a copy of The Veil of Wiyu in the quest 'A Relic Reborn.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Strategist",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "The Reader",
+			"details": "Obtain a copy of the Omnilex in the quest 'A Relic Reborn.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Reaper",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "In the Outfield VI",
+			"details": "Complete 500 fieldcraft quests.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Dungeon Master",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Dungeon Siege IV",
+			"details": "Complete 300 instanced dungeon raids.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Tempter of Fate/Temptress of Fate",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Date With Destiny IV",
+			"details": "Successfully complete 1,000 FATEs.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Elite Cascadier",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: Cascadier Reborn",
+			"details": "Obtain a summer morning, summer evening, or striped cascadier uniform during the Moonfire Faire festivities.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Storm Puppy",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Cutting Your Wolf Loose: Maelstrom I",
+			"details": "Achieve PvP rank 1 with the Maelstrom.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Storm Howler",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Cutting Your Wolf Loose: Maelstrom II",
+			"details": "Achieve PvP rank 10 with the Maelstrom.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Storm Growler",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Cutting Your Wolf Loose: Maelstrom III",
+			"details": "Achieve PvP rank 20 with the Maelstrom.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Storm Hound",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Cutting Your Wolf Loose: Maelstrom IV",
+			"details": "Achieve PvP rank 30 with the Maelstrom.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Storm Stalker",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Cutting Your Wolf Loose: Maelstrom V",
+			"details": "Achieve PvP rank 40 with the Maelstrom.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Storm Chaser",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Cutting Your Wolf Loose: Maelstrom VI",
+			"details": "Achieve PvP rank 50 with the Maelstrom.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Serpent Puppy",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Cutting Your Wolf Loose: Twin Adder I",
+			"details": "Achieve PvP rank 1 with the Twin Adder.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Serpent Howler",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Cutting Your Wolf Loose: Twin Adder II",
+			"details": "Achieve PvP rank 10 with the Twin Adder.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Serpent Growler",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Cutting Your Wolf Loose: Twin Adder III",
+			"details": "Achieve PvP rank 20 with the Twin Adder.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Serpent Hound",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Cutting Your Wolf Loose: Twin Adder IV",
+			"details": "Achieve PvP rank 30 with the Twin Adder.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Serpent Stalker",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Cutting Your Wolf Loose: Twin Adder V",
+			"details": "Achieve PvP rank 40 with the Twin Adder.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Serpent Chaser",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Cutting Your Wolf Loose: Twin Adder VI",
+			"details": "Achieve PvP rank 50 with the Twin Adder.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Flame Puppy",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Cutting Your Wolf Loose: Immortal Flames I",
+			"details": "Achieve PvP rank 1 with the Immortal Flames.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Flame Howler",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Cutting Your Wolf Loose: Immortal Flames II",
+			"details": "Achieve PvP rank 10 with the Immortal Flames.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Flame Growler",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Cutting Your Wolf Loose: Immortal Flames III",
+			"details": "Achieve PvP rank 20 with the Immortal Flames.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Flame Hound",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Cutting Your Wolf Loose: Immortal Flames IV",
+			"details": "Achieve PvP rank 30 with the Immortal Flames.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Flame Stalker",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Cutting Your Wolf Loose: Immortal Flames V",
+			"details": "Achieve PvP rank 40 with the Immortal Flames.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Flame Chaser",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Cutting Your Wolf Loose: Immortal Flames VI",
+			"details": "Achieve PvP rank 50 with the Immortal Flames.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Ravenous Wolf",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Wolfing It Down",
+			"details": "Participate in 5,000 matches in the Fold.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Alpha Wolf",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Leader of the Pack",
+			"details": "Triumph in 5,000 matches in the Fold.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Heart of the Party",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Leaving a Good Impression I",
+			"details": "Receive 10 player commendations.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Brother of Ash/Sister of Ash",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "A Real Bad Ash",
+			"details": "Attain rank 4 reputation (trusted) with the Brotherhood of Ash.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Sylph-Friend",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Sylph-assured",
+			"details": "Attain rank 4 reputation (trusted) with the sylphs of Little Solace.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Treasure Hunter",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "No Stone Unturned",
+			"details": "Decipher 20 timeworn peisteskin maps and open the treasure chests to which they lead.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "789th Order Champion",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Kobold as Brass",
+			"details": "Attain rank 4 reputation (trusted) with the 789th Order Kobolds.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Novv Clutchmate",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Licensed to Gill",
+			"details": "Attain rank 4 reputation (trusted) with Novv's Clutch.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Ambitious Angler",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "I Like Big Fish and I Cannot Lie",
+			"details": "Complete the quest 'The Beast of Brewer's Beacon.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Meat Shield",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "A Tankless Job I (Paladin)",
+			"details": "Complete 50 high-level full party duties as a paladin.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Meat Sword",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "A Tankless Job I (Warrior)",
+			"details": "Complete 50 high-level full party duties as a warrior.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Stalwart Shield",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "A Tankless Job II (Paladin)",
+			"details": "Complete 100 high-level full party duties as a paladin.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Stalwart Sword",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "A Tankless Job II (Warrior)",
+			"details": "Complete 100 high-level full party duties as a warrior.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Frontline Forerunner",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Walk the Line V",
+			"details": "Participate in 300 Frontline campaigns.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Storm Forerunner",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "A Line in the Storm V",
+			"details": "Guide the Maelstrom to 300 Frontline victories.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Flame Forerunner",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "A Line in the Sand V",
+			"details": "Guide the Immportal Flames to 300 Frontline victories.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Serpent Forerunner",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "A Line in the Glade V",
+			"details": "Guide the Order of the Twin Adder to 300 Frontline victories.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Drone Sniper",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Prime Air IV",
+			"details": "Destroy 100 interceptor drones.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Heliodrome Hero",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Just Say Node IV",
+			"details": "Destroy 20 interceptor nodes.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Hunter for Hire",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "On Your Mark: B",
+			"details": "Earn the following four achievements: Mark of the Holt: B, Mark of the Desert: B, Mark of the Sea: B, and Mark of the Lake: B.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Seeker of Fortune",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "On Your Mark: A",
+			"details": "Earn the following four achievements: Mark of the Holt: A, Mark of the Desert: A, Mark of the Sea: A, and Mark of the Lake: A.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Captain of the Hunt",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Bring Your S Game III",
+			"details": "Slay 200 rank S elite marks.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Rafflesia Reaper",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "A Flower By Any Other Name",
+			"details": "Defeat the rafflesia within the first turn of the Second Coil of Bahamut (Savage).",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Melusine Mauler",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Secondse",
+			"details": "Defeat Melusine within the second turn of the Second Coil of Bahamut (Savage).",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Avatar",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Obtanium",
+			"details": "Defeat the Avatar within the third turn of the Second Coil of Bahamut (Savage).",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Domitor/Domitrix",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Scent of a Woman",
+			"details": "Defeat Nael deus Darnus within the fourth turn of the Second Coil of Bahamut (Savage).",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Disassembler",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "You're Tearing Me Apart",
+			"details": "Successfully desynthesis 5,000 times.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Bearer of the Coffer",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Unhide and Seek",
+			"details": "Decipher unhidden leather maps to locate and loot 20 treasure coffers.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Defender of Eorzea",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Eorzea Defended",
+			"details": "Complete the quest 'Brave New Companions.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Postman/the Postwoman",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "The Postmoogle Always Rings Twice",
+			"details": "Complete the quest 'Of Errant Epistles.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Ehcatl Blackguard",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "That's Ixal, Folks",
+			"details": "Attain rank 7 reputation (sworn) with Ehcatl Nine.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Negotiator",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Sore Thumb",
+			"details": "Complete the quest 'Friends Forever.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Final Witness",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Uncoiled",
+			"details": "Complete the quest 'Alisaie's Path.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "of Dragons Deep",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Imagine Dragon",
+			"details": "Complete the quest 'Feast of Famine.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Master Caster",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Go Big or Go Home IX",
+			"details": "Catch 100 different varities of big fish.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Shadow",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Yoshimitsu's Island",
+			"details": "Obtain a pair of Yoshimitsu in the quest 'A Relic Reborn'.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Icebreaker",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Imagine Dragon",
+			"details": "Complete the quest 'Let Us Cling Together.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "of the Silver Lining",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Out of the Dark",
+			"details": "Complete the quest 'The Light of Hope.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Gentleman/Gentlewoman",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "I'll Be There for You",
+			"details": "Complete the quest 'Her Last Vow.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Cupid",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: Love Actually",
+			"details": "Complete the quest 'Now That We've Found Love.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Tamer of Steeds",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Ichiban",
+			"details": "Obtain the Kirin mount.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Unsevered",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Missed the Cut",
+			"details": "Defeat Odin at Urth's Fount.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Slaughterhouse",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Slaughterhouse Four",
+			"details": "Dispatch 1,000 enemies on a Frontline campaign.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Hand of Mercy",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Slaughterhouse Five",
+			"details": "Dispatch 5,000 enemies on a Frontline campaign.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Light in Hand",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Tool Time for the Hand",
+			"details": "Obtain a Disciple of the Hand Lucis tool.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Light of the Land",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Tool Time for the Land",
+			"details": "Obtain a Disciple of the Land Lucis tool.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Z",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "The Letter Z",
+			"details": "Obtain a Zodiac Weapon Zeta.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Golemancer",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: Welcome to the Dollhouse",
+			"details": "Complete the quest 'A Father's Folly.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Gambler",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "What Happens in the Saucer I",
+			"details": "Earn 1,000 MGP at Gold Saucer attractions.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "High Roller",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "How I Learned to Stop Worrying and Love the Saucer",
+			"details": "Earn the following seven achievements: Winningest Jockey, Always bet on Me, Bracket Breaker, Enemy at the GATE III, WTFungah III, Work Smarter, Not Harder, and Mountains out of Gil-hills.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Chocobo Breeder",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Go Forth and Multiply",
+			"details": "Obtain a new chocobo through covering.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Chocobo Trainer",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Training Day",
+			"details": "Train your chocobo to a rating of 285.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Bug Boy/Bug Girl",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Off to the Races I",
+			"details": "Participate in a sanctioned chocobo race.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Senior Jockey",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Off to the Races III",
+			"details": "Participate in 300 chocobo races.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Veteran Jockey",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Off to the Races IV",
+			"details": "Participate in 3,000 chocobo races.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the First Across",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Winningest Jockey",
+			"details": "Place first in 500 sanctioned chocobo races.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Deck Holder",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Triple-decker II",
+			"details": "Obtain 30 unique Triple Triad cards.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Deck Hoarder",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Triple-decker III",
+			"details": "Obtain 60 unique Triple Triad cards.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Trinity",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Always Bet on Me",
+			"details": "Win 1,000 Triple Triad roulette matches.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Duelist",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Bracket Breaker",
+			"details": "Win 100 Triple Triad tournament matches.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Keymaster/Gatekeeper",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Enemy at the GATE III",
+			"details": "Successfully complete 100 GATEs.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Fungah",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "WTFungah III",
+			"details": "Successfully complete the GATE 'Any Way the Wind Blows' 10 times.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Moneybags",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Work Smarter, Not Harder",
+			"details": "Win a cumulative total of 1,000,000 MGP from the Jumbo Cactpot.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Raiser of Mountains",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Mountains out of Gil-hills",
+			"details": "Win a cumulative total of 1,000,000 MGP from the Mini Cactpot.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Bearer of the Torch",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "My Left Arm",
+			"details": "Complete the quest 'Bearer of the Torch.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Postmaster",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Postal",
+			"details": "Complete the quest 'The Little Postmoogle that Could.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Half-boiled Hero/Half-boiled Heroine",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "Achievement: Eggspialidocious",
+			"details": "Complete the seasonal event quest 'Eggs Pluribus Unum.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Unbeliever",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "Lucky Number 7",
+			"details": "Complete the quest 'Disclosure.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "The Redeemed",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "Gaol Break",
+			"details": "Complete the quest 'Keeping the Flame Alive.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Nidhogg Slayer",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "Orthodox Mayhem",
+			"details": "Complete the quest 'Unrest in Ishgard.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "of the Silver Fuller",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "You Say you Want a Revolution",
+			"details": "Complete the quest 'The Sins of Antiquity.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Imperial Nuisance",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "The Faith that Drives Us",
+			"details": "Complete the quest 'One Good Turn.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Under-archon",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "Hope Enkindled",
+			"details": "Complete the quest 'Hour of Departure.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the End of Ascalon",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "Looking Up",
+			"details": "Complete the quest 'Heavensward.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Oathkeeper",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "Like a Knight in Shining Armor II",
+			"details": "Complete the paladin job quest 'This Little Sword of Mine.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "of the 14th Chakra",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "Bulletproof II",
+			"details": "Complete the monk job quest 'Appetite for Destruction.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Mythril Heart",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "I Am the Warrior II",
+			"details": "Complete the warrior job quest 'And My Axe.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Azure Dragoon",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "Dragoon Age II",
+			"details": "Complete the dragoon job quest 'Dragoon's Fate.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Skysinger",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "A Bard's Tale II",
+			"details": "Complete the bard job quest 'The Ballad of Oblivion.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Pure White",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "Seeing White II",
+			"details": "Complete the white mage job quest 'Hands of Healing.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Oathkeeper",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "Like a Knight in Shining Armor II",
+			"details": "Complete the paladin job quest 'This Little Sword of Mine.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Annihilator",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "Back in Black II",
+			"details": "Complete the black mage job quest 'The Defiant Ones.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Dreadspawn",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "Soul Summoner II",
+			"details": "Complete the summoner job quest 'A Flare for the Dramatic.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Nymian Marine",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "Flying Colors II",
+			"details": "Complete the scholar job quest 'Forward, the Royal Marines.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Darkest Shadow",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "Against the Ninja II",
+			"details": "Complete the ninja job quest 'In Her Defense.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Blackblood",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "A Dark Day's Knight II",
+			"details": "Complete the dark knight job quest 'Absolution.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Liberator",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "I'm a Machinist, Not a Man II",
+			"details": "Complete the machinist job quest 'Rise of the Machinists.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Stargazer",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "The Stars in Our Faults II",
+			"details": "Complete the astrologian job quest 'The Hands of Fate.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Illuminati Quencher",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "Awake the Metal",
+			"details": "Complete the quest 'Enigma.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Finder of False Gods",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "The War Still Wageth On",
+			"details": "Complete the quests 'The Diabolical Bismarck' and 'Thok Around the Clock.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Lighter than Air",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "Walking on Sunshine",
+			"details": "Complete the quest 'I Believe I Can Fly.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Grandmaster of War",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "Mastering War II",
+			"details": "Achieve level 60 as a gladiator, pugilist, marauder, lancer, archer, rogue, dark knight, and machinist.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Grandmaster of Magic",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "Mastering Magic II",
+			"details": "Achieve level 60 as a conjurer, thaumaturge, arcanist, and astrologian.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Dark Driver",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "A Tankless Job I (Dark Knight)",
+			"details": "Complete 50 high-level full party duties as a dark knight.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "of the Stalwart Sword",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "A Tankless Job II (Dark Knight)",
+			"details": "Complete 100 high-level full party duties as a dark knight.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Keeper of Knowledge",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "Hounding the Rock IV",
+			"details": "Occupy 300 tomeliths on Seal Rock.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Grandmaster of the Hand",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "Mastering the Hand II",
+			"details": "Achieve level 60 as a carpenter, blacksmith, armorer, goldsmith, leatherworker, weaver, alchemist, and culinarian.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Grandmaster of the Land",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "Mastering the Land II",
+			"details": "Achieve level 60 as a miner, botanist, and fisher.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Molder of Masterpieces",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "I Made That (Worth Collecting) III",
+			"details": "Synthesize 1,000 collectables.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Amasser of Masterpieces",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "I Collected That III",
+			"details": "Gather or catch 3,000 collectables.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Business Associate",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "I Traded That III",
+			"details": "Submit 3,000 collectables to Rowena's House of Spendors.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Master Carpenter",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "An Eye for Detail: Carpenter V",
+			"details": "Craft 10,000 high-quality items as a carpenter.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Master Blacksmith",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "An Eye for Detail: Blacksmith V",
+			"details": "Craft 10,000 high-quality items as a blacksmith.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Master Armorer",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "An Eye for Detail: Armorer V",
+			"details": "Craft 10,000 high-quality items as an armorer.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Master Goldsmith",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "An Eye for Detail: Goldsmith V",
+			"details": "Craft 10,000 high-quality items as a goldsmith.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Master Leatherworker",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "An Eye for Detail: Leatherworker V",
+			"details": "Craft 10,000 high-quality items as a leatherworker.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Master Weaver",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "An Eye for Detail: Weaver V",
+			"details": "Craft 10,000 high-quality items as a weaver.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Master Alchemist",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "An Eye for Detail: Alchemist V",
+			"details": "Craft 10,000 high-quality items as an alchemist.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Master Culinarian",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "An Eye for Detail: Culinarian V",
+			"details": "Craft 10,000 high-quality items as a culinarian.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Master Miner",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "An Eye for Quality: Miner IV",
+			"details": "Gather 20,000 high-quality items as a miner.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Master Botanist",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "An Eye for Quality: Botanist IV",
+			"details": "Gather 20,000 high-quality items as a botanist.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Master Fisher",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "The One that Didn't Get Away IV",
+			"details": "Catch 10,000 high-quality fish.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "The Fortunate",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Date With Destiny VI",
+			"details": "Successfully complete 10,000 FATEs.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Good Samaritan",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "The Kindness of Strangers V",
+			"details": "Resurrect a player who is not in your party or alliance 200 times.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Minion Collector",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Despicable You I",
+			"details": "Obtain 50 minions.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Minion Master",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Despicable You II",
+			"details": "Obtain 100 minions.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Mammeteer",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Follow the Leader I",
+			"details": "Obtain 30 follow-type minions.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Prince of Verminion/Princess of Verminion",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "A Load of Verminion III",
+			"details": "Win 100 Lord of Verminion player battle (RP) matches.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Lord of Verminion/Lady of Verminion",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "A Load of Verminion IV",
+			"details": "Win 300 Lord of Verminion player battle (RP) matches.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "House Fortemps Knight",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "So it Goes",
+			"details": "Complete the quest 'As Goes Light, So Goes Darkness.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Sky Pirate",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "Paying the Bills",
+			"details": "Complete the quest 'To Rule the Skies'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Noumenon",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "Anima Crossing",
+			"details": "Complete the quest 'Coming into Its Own.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Sundrop Dancer",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "Top Gundu",
+			"details": "Attain rank 7 (sworn) with the Gundu tribe.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Myth Breaker",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "The King and Die",
+			"details": "Defeat King Thordan in The Minstrel's Ballad: Thordan's Reign.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Veteran Explorer",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "Out of Sight Out of Bounds II",
+			"details": "Complete entries 43-62 in your Heavensward sightseeing log.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Special Advisor",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "Back to School I",
+			"details": "Complete the quest 'More than Meets Her Eye.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Notorious Monster Slayer",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "Crown of Thorns V",
+			"details": "Slay a total of 100 notorious monsters on exploratory missions to the Diadem of any difficulty.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Hungry Wolf",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "A Clean Plate",
+			"details": "Participate in 1,000 matches at the Feast.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Devourer",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "Breaking Fast with Champions",
+			"details": "Triumph in 1,000 matches at the Feast.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Unmoving",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "A Stalwart to Remember",
+			"details": "Triumph in 1,000 matches at the Feast while taking on the role of tank.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Unrelenting",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "A Slayer to Remember",
+			"details": "Triumph in 1,000 matches at the Feast while taking on the role of melee DPS.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Unseen",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "A Sniper to Remember",
+			"details": "Triumph in 1,000 matches at the Feast while taking on the role of ranged physical DPS.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Unleashed",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "A Spellcaster to Remember",
+			"details": "Triumph in 1,000 matches at the Feast while taking on the role of ranged magic DPS.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Undamaged",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "A Sawbones to Remember",
+			"details": "Triumph in 1,000 matches at the Feast while taking on the role of healer.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Mentor",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "I Hope Mentor Will Notice Me II",
+			"details": "Complete 50 duties via Duty Roulette: Mentor.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Mentor of Mentors",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "I Hope Mentor Will Notice Me IV",
+			"details": "Complete 500 duties via Duty Roulette: Mentor.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Carrier of the Kettle",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "A Watched Pot",
+			"details": "Complete the quest 'Kettle to the Mettle.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Gear of Change",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "First Gear",
+			"details": "Complete the quest 'The Cost.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Allthoughts",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "The Midas Touch",
+			"details": "Complete the quest 'A Gob in the Machine.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Newmind",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "Vathcore",
+			"details": "Attain rank 7 reputation (sworn) with the Vath.",
 			"location": "N/A"
 		}]
 	}
