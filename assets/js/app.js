@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	var app = angular.module('XIVTrack', ['ui.bootstrap', 'smart-table']);	
+	var app = angular.module('XIVTrack', ['ui.bootstrap', 'smart-table', 'hc.marked']);	
 	var control = app.controller('TableController', function($scope) {
 		
 		$scope.filterLibrary = {vendor:{name:"Vendor", filtered:false}, quest:{name:"Quest", filtered:false}, dungeon:{name:"Dungeon", filtered:false}, raid:{name:"Raid", filtered:false}, trial:{name:"Trial", filtered:false}, fate:{name:"FATE", filtered:false}, achievement:{name:"Achievement", filtered:false}, unobtainable:{name:"Unobtainable", filtered:false}, merchandise:{name:"Merchandise Bonus", filtered:false}, holiday:{name:"Holiday", filtered:false}, promotion:{name:"Promotion", filtered:false}, cashshop:{name:"Cash Shop", filtered:false}, treasurehunt:{name:"Treasure Hunt", filtered:false}, crafted:{name:"Crafted", filtered:false}, gathered:{name:"Gathered", filtered:false}, gardening:{name:"Gardening", filtered:false}, venture:{name:"Venture", filtered:false}, npc:{name:"NPC", filtered:false}, other:{name:"Other", filtered:false}};
@@ -12,8 +12,8 @@ $(document).ready(function(){
 			{ title:'Minions', id: '0', prefix: 'minion', data: [], sData: [], tableHeading:[], numObtained:0, maxObtained: 0, backgrounds:["cat.jpg", "verminion.jpg"], oneIcon: false},
 			{ title:'Mounts', id: '1', prefix: 'mount', data: [], sData: [], tableHeading:["Attributes"], numObtained:0, maxObtained: 0, backgrounds:["fatchocobo.jpg", "ahriman.jpg"], oneIcon: false},
 			{ title:'Triple Triad', id: '2', prefix: 'triad', data: [], sData: [], tableHeading:["Card"], numObtained:0, maxObtained: 0, backgrounds:["goldsaucer.jpg"], oneIcon: false},
-			{ title:'Barding', id: '3', prefix: 'barding', data: [], sData: [], tableHeading:[], numObtained:0, maxObtained: 0, backgrounds:["goldsaucer.jpg"], oneIcon: false},
-			{ title:'Orchestrion', id: '4', prefix: 'music', data: [], sData: [], tableHeading:[], numObtained:0, maxObtained: 0, backgrounds:["goldsaucer.jpg"], oneIcon: true},
+			{ title:'Barding', id: '3', prefix: 'barding', data: [], sData: [], tableHeading:[], numObtained:0, maxObtained: 0, backgrounds:["highland.jpg"], oneIcon: false},
+			{ title:'Orchestrion', id: '4', prefix: 'music', data: [], sData: [], tableHeading:[], numObtained:0, maxObtained: 0, backgrounds:["orchestrion.jpg"], oneIcon: true},
 			{ title:'Titles', id: '5', prefix: 'title', data: [], sData: [], tableHeading:[], numObtained:0, maxObtained: 0, backgrounds:["goldsaucer.jpg"], oneIcon: true}
 		];
 		

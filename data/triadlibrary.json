@@ -797,6 +797,19 @@
 		}]
 	},
 	{
+		"name": "Honoroit",
+		"lore": "'Oh dear, oh dear...and just when everything was going so well...'",
+		"expansion": "Heavensward",
+		"rarity": "2",
+		"card": "2 7 7 2",
+		"sources": [{
+			"type": "npc",
+			"info": "House Fortemps Manservant",
+			"location": "Fortemps Manor (6, 6)",
+			"details": "2AM - 9AM"
+		}]
+	},
+	{
 		"name": "Behemoth",
 		"lore": "The first sightings of these heavily muscled beasts in the mountains of Coerthas coincided with the advent of the Seventh Umbral Era. Scholars believe them to be the spawn of the elder primal Bahamut, and have dubbed the creatures 'behemoths.'Aside from their obvious physical traits, much about behemoth behavior and physiology remains shrouded in mystery.",
 		"expansion": "ARR",
@@ -835,6 +848,54 @@
 		}]
 	},
 	{
+		"name": "Darkscale",
+		"lore": "A descendant of Nidhogg, this powerful dragon boasts command over a significant army of underlings within the Horde. Darkscale is highly contemptuous of Hraesvelgr and his brood's refusal to join the Dragonsong War─an animosity that has festered into bitter rivalry with the white dragon, Vedrfolnir.",
+		"expansion": "Heavensward",
+		"rarity": "3",
+		"card": "7 2 4 8",
+		"sources": [{
+			"type": "npc",
+			"info": "Mogmill (Unconfirmed)",
+			"location": "The Churning Mists (28, 35)",
+			"details": "Quest 'A Secret From Everyone' must be completed to challenge"
+		},
+		{
+			"type": "fate",
+			"info": "Mogicide",
+			"location": "The Churning Mists (22, 21)"
+		},
+		{
+			"type": "fate",
+			"info": "Rastaban Vibration",
+			"location": "The Churning Mists (14, 13)"
+		},
+		{
+			"type": "fate",
+			"info": "End of the Rainbow (Unconfirmed)",
+			"location": "The Churning Mists (13, 24)"
+		},
+		{
+			"type": "fate",
+			"info": "Darkscale Descendeth",
+			"location": "The Churning Mists (18, 12)"
+		},
+		{
+			"type": "fate",
+			"info": "Darkscale Disappeareth",
+			"location": "The Churning Mists (18, 12)"
+		},
+		{
+			"type": "fate",
+			"info": "Darkscale Devoureth",
+			"location": "The Churning Mists (18, 9)"
+		},
+		{
+			"type": "fate",
+			"info": "Vedrfolnir Devoteth (Unconfirmed)",
+			"location": "The Churning Mists (11, 36)"
+		}]
+	},
+	{
 		"name": "Coeurlregina",
 		"lore": "A legend amongst the hunters of Tailfeather, this aged matriarch of the coeurls has attained immense size and magical potency. By conducting vast arcane energies through her massive elk-like horns and dispersing it into the surrounding air, Coeurlregina is said to be capable of altering the weather itself.",
 		"expansion": "ARR",
@@ -849,6 +910,97 @@
 			"info": "Voracious Vath",
 			"location": "Dravanian Forelands (23, 19)",
 			"details": "Quest 'Yellow Stones' must be completed to challenge, 6AM - 12PM"
+		}]
+	},
+	{
+		"name": "Brachiosaur",
+		"lore": "The discovery of this colossal creature on the isolated isles of the Diadem has perplexed naturalists, who had thought the ancient species long extinct. Possessed of an innate arcane might proportionate to its size, the brachiosaur defends itself with a meteoric rain of conjured boulders.",
+		"expansion": "ARR",
+		"rarity": "3",
+		"card": "4 8 5 4",
+		"sources": [{
+			"type": "vendor",
+			"info": "Mithril Triad Card",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}]
+	},
+	{
+		"name": "Fenrir",
+		"lore": "A massive hoarhound beholden to Lady Iceheart. With its shimmering hide reminiscent of pale moonlight and a demeanor just as cold, this imposing beast was named after the legendary spirit-hound Fenrir.",
+		"expansion": "ARR",
+		"rarity": "3",
+		"card": "4 7 6 3",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Fenrir",
+			"location": "Snowcloak"
+		}]
+	},
+	{
+		"name": "Kraken",
+		"lore": "The terror that sank a thousand ships, this legendary sea monster once guarded the secret cove of Mistbeard, the pirate king. Following its defeat at the hands of treasure-seeking adventurers, however, the kraken fled into the open sea, where it encountered a kindred spirit in Captain Madison.",
+		"expansion": "ARR",
+		"rarity": "3",
+		"card": "6 3 6 6",
+		"sources": [		{
+			"type": "dungeon",
+			"info": "Kraken",
+			"location": "Sastasha (Hard)"
+		}]
+	},
+	{
+		"name": "Vicegerent to the Warden",
+		"lore": "The vicegerent to the Warden was inadvertently roused by careless excavations in the Sunken Temple of Qarn. Wielding an executioner's blade in each hand, this servant of Azeyma sentences to death all looters who would profane Her sacred halls.",
+		"expansion": "ARR",
+		"rarity": "3",
+		"card": "5 7 7 1",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Vicegerent to the Warden",
+			"location": "Sunken Temple of Qarn (Hard)"
+		}]
+	},
+	{
+		"name": "Manxome Molaa Ja Ja",
+		"lore": "Manxome Molaa Ja Ja is both leader and second-in-command of the Silverscales mercenary band. Two-headed Mamool Ja are born, albeit rarely, to the tribes of the west, and are known for their superior intellect and brawn. Such specimens invariably rise to positions of prominence and power.",
+		"attributes": "beastman",
+		"expansion": "ARR",
+		"rarity": "3",
+		"card": "8 3 2 7",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Manxome Molaa Ja Ja",
+			"location": "Wanderer's Palace (Hard)"
+		}]
+	},
+	{
+		"name": "Ferdiad",
+		"lore": "Summoned in ages past by the sorcerers of Mhach to join the assault on Amdapor, this scythe-wielding voidsent was defeated by the city's defenders and consigned to languish behind potent seals. As a lesser noble, Ferdiad occupies the third rung of the hierarchy of twelve.",
+		"expansion": "ARR",
+		"rarity": "3",
+		"card": "4 4 8 6",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Ferdiad",
+			"location": "Amdapor Keep (Hard)"
+		}]
+	},
+	{
+		"name": "Phlegethon",
+		"lore": "Phlegethon was a hero of the rebellion that sought to oppose the rule of Allag in the twilight of the Third Astral Era. After his capture by the technologist Amon, the valiant general was subjected to hideous experiments, his body altered and mind broken, fated to become an eternal guardian of the Crystal Tower.",
+		"expansion": "ARR",
+		"rarity": "3",
+		"card": "7 1 6 7",
+		"sources": [{
+			"type": "raid",
+			"info": "Phlegethon",
+			"location": "The Labyrinth of the Ancients"
+		},
+		{
+			"type": "npc",
+			"info": "Klynthota",
+			"location": "Mor Dhona (30, 14)",
+			"details": "Quest 'Moon Sliver and Me' must be completed to challenge, 11PM - 4AM"
 		}]
 	},
 	{
@@ -921,6 +1073,30 @@
 			"type": "raid",
 			"info": "Echidna (Chest)",
 			"location": "The Void Ark"
+		}]
+	},
+	{
+		"name": "Calcabrina",
+		"lore": "This doll-like construct was created by the Sharlayans to protect the sanctity of the Antitower. Steeped in the energies of generations of mages, the powerful magicks instilled in this guardian have worked eerie transmutations upon its form.",
+		"expansion": "Heavensward",
+		"rarity": "3",
+		"card": "3 6 6 6",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Calcabrina",
+			"location": "Antitower"
+		}]
+	},
+	{
+		"name": "Kuribu",
+		"lore": "Created by the magi of Amdapor using an advanced form of golem construction, this statue is animated by the gems embedded in its chest and hands. Kuribu commands formidable white magicks to aid in its battle against invading voidsent.",
+		"expansion": "Heavensward",
+		"rarity": "3",
+		"card": "7 8 2 3",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Kuribu",
+			"location": "Lost City of Amdapor (Hard)"
 		}]
 	},
 	{
@@ -1246,7 +1422,33 @@
 			"location": "Jonathas, Old Gridania (10, 6)"
 		}]
 	},
-		{
+	{
+		"name": "Artoirel de Fortemps",
+		"lore": "'I am no stranger to the battlefield, Ser Aymeric! My arm will not falter; my shield will not break! Halone as my witness, we will bring these fanatics to justice!'",
+		"expansion": "Heavensward",
+		"rarity": "3",
+		"card": "7 4 3 7",
+		"sources": [{
+			"type": "npc",
+			"info": "House Fortemps Manservant",
+			"location": "Fortemps Manor (6, 6)",
+			"details": "2AM - 9AM"
+		}]
+	},
+	{
+		"name": "Emmanellain de Fortemps",
+		"lore": "'Tis a pleasure to see you again, my lady Laniaitte! You cut an elegant figure as always─a steel-clad rose, equally at home on a battlefield or in a ballroom.'",
+		"expansion": "Heavensward",
+		"rarity": "3",
+		"card": "3 7 7 4",
+		"sources": [{
+			"type": "npc",
+			"info": "House Fortemps Manservant",
+			"location": "Fortemps Manor (6, 6)",
+			"details": "2AM - 9AM"
+		}]
+	},
+	{
 		"name": "Pipin Tarupin",
 		"lore": "'There will be ample time for soul-searching later. For now, we must put some malms between us and Ul'dah.'",
 		"expansion": "ARR",
@@ -1313,7 +1515,43 @@
 			"details": "2PM - 8PM"
 		}]
 	},
+	{
+		"name": "Xande",
+		"lore": "Xande, the first emperor of Allag, was resurrected from the sleep of death by the technologist Amon. Exhuming the ruler's body from his tomb, Amon cultivated the inert vessel for immortality, enlarging and strengthening Xande's form. After the emperor's successful rebirth, clones were made to serve as doubles.",
+		"expansion": "ARR",
+		"rarity": "4",
+		"card": "7 9 6 4",
+		"sources": [{
+			"type": "raid",
+			"info": "Xande",
+			"location": "Syrcus Tower"
+		},
 		{
+			"type": "npc",
+			"info": "Klynthota",
+			"location": "Mor Dhona (30, 14)",
+			"details": "Quest 'Moon Sliver and Me' must be completed to challenge, 11PM - 4AM"
+		}]
+	},
+	{
+		"name": "Brute Justice",
+		"lore": "Charged with the protection of Alexander, Brute Justice is a remarkable amalgamation of five separate guardians. With Onslaughter as its core, Vortexer, Swindler, Blaster, and Brawler complete the union. Brute Justice's lack of autonomy is balanced by its incorruptible loyalty to Quickthinx Allthoughts.",
+		"expansion": "Heavensward",
+		"rarity": "4",
+		"card": "7 7 7 7",
+		"sources": [{
+			"type": "raid",
+			"info": "Brute Justice",
+			"location": "Alexander - The Burden of the Son"
+		},
+		{
+			"type": "npc",
+			"info": "Tapklix",
+			"location": "Dravanian Hinterlands (21, 18)",
+			"details": "Raid 'Alexander - The Burden of the Son' must be completed to challenge, 2pm - 6pm"
+		}]
+	},
+	{
 		"name": "Odin",
 		"lore": "While no one knows exactly when or by whom the Dark Divinity was summoned, the elder primal roams the Twelveswood astride his loyal warhorse Sleipnir seeking a bloody reckoning for misdeeds lost but unforgotten.",
 		"attributes": "primal",
@@ -1435,6 +1673,23 @@
 		}]
 	},
 	{
+		"name": "Sephirot",
+		"lore": "Sephirot was revered as the world's first sacred tree, elevated to godhood by the belief of its devoted worshipers. This towering pillar of the Warring Triad is capable of inducing spontaneous growth, allowing the eikon to enlarge its own form to enormous proportions.",
+		"attributes": "primal",
+		"expansion": "Heavensward",
+		"rarity": "4",
+		"card": "6 6 8 8",
+		"sources": [{
+			"type": "trial",
+			"info": "Sephirot",
+			"location": "Containment Bay S1T7 (Hard)"
+		}, {
+			"type": "trial",
+			"info": "Sephirot",
+			"location": "Containment Bay S1T7 (Extreme)"
+		}]
+	},
+	{
 		"name": "Ultima Weapon",
 		"lore": "A relic of the Third Astral Era, the Ultima Weapon is a feat of Allagan technology-the same technology which saw the reach of the Allagan Empire extend to the four corners of Hydaelyn. Upon rediscovery of the mechanical juggernaut buried deep beneath the lands just beyond Ala Mhigo, the XIVth Legion of the Imperial Garlean Army refitted it to serve as a countermeasure against the ever-growing primal threat.",
 		"attributes": "garlean",
@@ -1504,6 +1759,19 @@
 		}]
 	},
 	{
+		"name": "F'lhaminn",
+		"lore": "'Have I become an open book, or has she acquired still greater powers of insight? I shall choose to believe the latter.'",
+		"attributes": "scion",
+		"expansion": "ARR",
+		"rarity": "4",
+		"card": "7 9 3 7",
+		"sources": [{
+			"type": "vendor",
+			"info": "20,000 MGP",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}]
+	},
+	{
 		"name": "Lahabrea",
 		"lore": "'For the end of your tale is but the beginning of another... The tale of the Crystal's demise!'",
 		"expansion": "ARR",
@@ -1560,6 +1828,37 @@
 			"type": "vendor",
 			"info": "200,400 MGP",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}]
+	},
+	{
+		"name": "Vidofnir",
+		"lore": "Vidofnir was sired by the great wyrm Hraesvelgr. A creature of great age, she has memories of the era when man and dragon lived together in peace, and is revered as an elder by others of her brood.",
+		"expansion": "Heavensward",
+		"rarity": "4",
+		"card": "6 8 8 6",
+		"sources": [{
+			"type": "achievement",
+			"info": "Triple-Decker V",
+			"details": "Obtain 120 unique Triple Triad cards.",
+			"location": "Jonathas, Old Gridania (10, 6)"
+		}]
+	},
+	{
+		"name": "Cloud of Darkness",
+		"lore": "One of the undisputed rulers of the void and an entity of immeasurable strength, the Cloud of Darkness occupies the highest rung of the hierarchy of twelve. This terrifying voidsent entered into a dark covenant with Emperor Xande of Allag in a bid to invade the physical realm.",
+		"expansion": "ARR",
+		"rarity": "5",
+		"card": "6 7 7 A",
+		"sources": [{
+			"type": "raid",
+			"info": "Cloud of Darkness (Unconfirmed)",
+			"location": "The World of Darkness"
+		},
+		{
+			"type": "npc",
+			"info": "Klynthota",
+			"location": "Mor Dhona (30, 14)",
+			"details": "Quest 'Moon Sliver and Me' must be completed to challenge, 11PM - 4AM"
 		}]
 	},
 	{
@@ -1920,310 +2219,6 @@
 			"type": "other",
 			"info": "Win top 3 in the 'Manderville Tournament of Champions' Triple Triad tournament.",
 			"location": "Tournament Recordkeeper, Gold Saucer (4, 7)"
-		}]
-	},
-	{
-		"name": "Honoroit",
-		"lore": "'Oh dear, oh dear...and just when everything was going so well...'",
-		"expansion": "Heavensward",
-		"rarity": "2",
-		"card": "2 7 7 2",
-		"sources": [{
-			"type": "npc",
-			"info": "House Fortemps Manservant",
-			"location": "Fortemps Manor (6, 6)",
-			"details": "2AM - 9AM"
-		}]
-	},
-	{
-		"name": "Brachiosaur",
-		"lore": "The discovery of this colossal creature on the isolated isles of the Diadem has perplexed naturalists, who had thought the ancient species long extinct. Possessed of an innate arcane might proportionate to its size, the brachiosaur defends itself with a meteoric rain of conjured boulders.",
-		"expansion": "ARR",
-		"rarity": "3",
-		"card": "4 8 5 4",
-		"sources": [{
-			"type": "vendor",
-			"info": "Mithril Triad Card",
-			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
-		}]
-	},
-	{
-		"name": "Darkscale",
-		"lore": "A descendant of Nidhogg, this powerful dragon boasts command over a significant army of underlings within the Horde. Darkscale is highly contemptuous of Hraesvelgr and his brood's refusal to join the Dragonsong War─an animosity that has festered into bitter rivalry with the white dragon, Vedrfolnir.",
-		"expansion": "Heavensward",
-		"rarity": "3",
-		"card": "7 2 4 8",
-		"sources": [{
-			"type": "npc",
-			"info": "Mogmill (Unconfirmed)",
-			"location": "The Churning Mists (28, 35)",
-			"details": "Quest 'A Secret From Everyone' must be completed to challenge"
-		},
-		{
-			"type": "fate",
-			"info": "Mogicide",
-			"location": "The Churning Mists (22, 21)"
-		},
-		{
-			"type": "fate",
-			"info": "Rastaban Vibration",
-			"location": "The Churning Mists (14, 13)"
-		},
-		{
-			"type": "fate",
-			"info": "End of the Rainbow (Unconfirmed)",
-			"location": "The Churning Mists (13, 24)"
-		},
-		{
-			"type": "fate",
-			"info": "Darkscale Descendeth",
-			"location": "The Churning Mists (18, 12)"
-		},
-		{
-			"type": "fate",
-			"info": "Darkscale Disappeareth",
-			"location": "The Churning Mists (18, 12)"
-		},
-		{
-			"type": "fate",
-			"info": "Darkscale Devoureth",
-			"location": "The Churning Mists (18, 9)"
-		},
-		{
-			"type": "fate",
-			"info": "Vedrfolnir Devoteth (Unconfirmed)",
-			"location": "The Churning Mists (11, 36)"
-		}]
-	},
-	{
-		"name": "Fenrir",
-		"lore": "A massive hoarhound beholden to Lady Iceheart. With its shimmering hide reminiscent of pale moonlight and a demeanor just as cold, this imposing beast was named after the legendary spirit-hound Fenrir.",
-		"expansion": "ARR",
-		"rarity": "3",
-		"card": "4 7 6 3",
-		"sources": [{
-			"type": "dungeon",
-			"info": "Fenrir",
-			"location": "Snowcloak"
-		}]
-	},
-	{
-		"name": "Kraken",
-		"lore": "The terror that sank a thousand ships, this legendary sea monster once guarded the secret cove of Mistbeard, the pirate king. Following its defeat at the hands of treasure-seeking adventurers, however, the kraken fled into the open sea, where it encountered a kindred spirit in Captain Madison.",
-		"expansion": "ARR",
-		"rarity": "3",
-		"card": "6 3 6 6",
-		"sources": [{
-			"type": "dungeon",
-			"info": "Kraken (Unconfirmed)",
-			"location": "Hullbreaker Isle"
-		},
-		{
-			"type": "dungeon",
-			"info": "Kraken (Unconfirmed)",
-			"location": "Sastasha (Hard)"
-		}]
-	},
-	{
-		"name": "Vicegerent to the Warden",
-		"lore": "The vicegerent to the Warden was inadvertently roused by careless excavations in the Sunken Temple of Qarn. Wielding an executioner's blade in each hand, this servant of Azeyma sentences to death all looters who would profane Her sacred halls.",
-		"expansion": "ARR",
-		"rarity": "3",
-		"card": "5 7 7 1",
-		"sources": [{
-			"type": "dungeon",
-			"info": "Vicegerent to the Warden",
-			"location": "Sunken Temple of Qarn (Hard)"
-		}]
-	},
-	{
-		"name": "Manxome Molaa Ja Ja",
-		"lore": "Manxome Molaa Ja Ja is both leader and second-in-command of the Silverscales mercenary band. Two-headed Mamool Ja are born, albeit rarely, to the tribes of the west, and are known for their superior intellect and brawn. Such specimens invariably rise to positions of prominence and power.",
-		"attributes": "beastman",
-		"expansion": "ARR",
-		"rarity": "3",
-		"card": "8 3 2 7",
-		"sources": [{
-			"type": "dungeon",
-			"info": "Manxome Molaa Ja Ja",
-			"location": "Wanderer's Palace (Hard)"
-		}]
-	},
-	{
-		"name": "Ferdiad",
-		"lore": "Summoned in ages past by the sorcerers of Mhach to join the assault on Amdapor, this scythe-wielding voidsent was defeated by the city's defenders and consigned to languish behind potent seals. As a lesser noble, Ferdiad occupies the third rung of the hierarchy of twelve.",
-		"expansion": "ARR",
-		"rarity": "3",
-		"card": "4 4 8 6",
-		"sources": [{
-			"type": "dungeon",
-			"info": "Ferdiad",
-			"location": "Amdapor Keep (Hard)"
-		}]
-	},
-	{
-		"name": "Calcabrina",
-		"lore": "This doll-like construct was created by the Sharlayans to protect the sanctity of the Antitower. Steeped in the energies of generations of mages, the powerful magicks instilled in this guardian have worked eerie transmutations upon its form.",
-		"expansion": "Heavensward",
-		"rarity": "3",
-		"card": "3 6 6 6",
-		"sources": [{
-			"type": "dungeon",
-			"info": "Calcabrina",
-			"location": "Antitower"
-		}]
-	},
-	{
-		"name": "Kuribu",
-		"lore": "Created by the magi of Amdapor using an advanced form of golem construction, this statue is animated by the gems embedded in its chest and hands. Kuribu commands formidable white magicks to aid in its battle against invading voidsent.",
-		"expansion": "Heavensward",
-		"rarity": "3",
-		"card": "7 8 2 3",
-		"sources": [{
-			"type": "dungeon",
-			"info": "Kuribu",
-			"location": "Lost City of Amdapor (Hard)"
-		}]
-	},
-	{
-		"name": "Phlegethon",
-		"lore": "Phlegethon was a hero of the rebellion that sought to oppose the rule of Allag in the twilight of the Third Astral Era. After his capture by the technologist Amon, the valiant general was subjected to hideous experiments, his body altered and mind broken, fated to become an eternal guardian of the Crystal Tower.",
-		"expansion": "ARR",
-		"rarity": "3",
-		"card": "7 1 6 7",
-		"sources": [{
-			"type": "raid",
-			"info": "Phlegethon",
-			"location": "The Labyrinth of the Ancients"
-		},
-		{
-			"type": "npc",
-			"info": "Klynthota",
-			"location": "Mor Dhona (30, 14)",
-			"details": "Quest 'Moon Sliver and Me' must be completed to challenge, 11PM - 4AM"
-		}]
-	},
-	{
-		"name": "Artoirel de Fortemps",
-		"lore": "'I am no stranger to the battlefield, Ser Aymeric! My arm will not falter; my shield will not break! Halone as my witness, we will bring these fanatics to justice!'",
-		"expansion": "Heavensward",
-		"rarity": "3",
-		"card": "7 4 3 7",
-		"sources": [{
-			"type": "npc",
-			"info": "House Fortemps Manservant",
-			"location": "Fortemps Manor (6, 6)",
-			"details": "2AM - 9AM"
-		}]
-	},
-	{
-		"name": "Emmanellain de Fortemps",
-		"lore": "'Tis a pleasure to see you again, my lady Laniaitte! You cut an elegant figure as always─a steel-clad rose, equally at home on a battlefield or in a ballroom.'",
-		"expansion": "Heavensward",
-		"rarity": "3",
-		"card": "3 7 7 4",
-		"sources": [{
-			"type": "npc",
-			"info": "House Fortemps Manservant",
-			"location": "Fortemps Manor (6, 6)",
-			"details": "2AM - 9AM"
-		}]
-	},
-	{
-		"name": "Xande",
-		"lore": "Xande, the first emperor of Allag, was resurrected from the sleep of death by the technologist Amon. Exhuming the ruler's body from his tomb, Amon cultivated the inert vessel for immortality, enlarging and strengthening Xande's form. After the emperor's successful rebirth, clones were made to serve as doubles.",
-		"expansion": "ARR",
-		"rarity": "4",
-		"card": "7 9 6 4",
-		"sources": [{
-			"type": "raid",
-			"info": "Xande",
-			"location": "Syrcus Tower"
-		},
-		{
-			"type": "npc",
-			"info": "Klynthota",
-			"location": "Mor Dhona (30, 14)",
-			"details": "Quest 'Moon Sliver and Me' must be completed to challenge, 11PM - 4AM"
-		}]
-	},
-	{
-		"name": "Brute Justice",
-		"lore": "Charged with the protection of Alexander, Brute Justice is a remarkable amalgamation of five separate guardians. With Onslaughter as its core, Vortexer, Swindler, Blaster, and Brawler complete the union. Brute Justice's lack of autonomy is balanced by its incorruptible loyalty to Quickthinx Allthoughts.",
-		"expansion": "Heavensward",
-		"rarity": "4",
-		"card": "7 7 7 7",
-		"sources": [{
-			"type": "raid",
-			"info": "Brute Justice",
-			"location": "Alexander - The Burden of the Son"
-		},
-		{
-			"type": "npc",
-			"info": "Tapklix",
-			"location": "Dravanian Hinterlands (21, 18)",
-			"details": "Raid 'Alexander - The Burden of the Son' must be completed to challenge, 2pm - 6pm"
-		}]
-	},
-	{
-		"name": "Sephirot",
-		"lore": "Sephirot was revered as the world's first sacred tree, elevated to godhood by the belief of its devoted worshipers. This towering pillar of the Warring Triad is capable of inducing spontaneous growth, allowing the eikon to enlarge its own form to enormous proportions.",
-		"attributes": "primal",
-		"expansion": "Heavensward",
-		"rarity": "4",
-		"card": "6 6 8 8",
-		"sources": [{
-			"type": "trial",
-			"info": "Sephirot",
-			"location": "Containment Bay S1T7 (Hard)"
-		}, {
-			"type": "trial",
-			"info": "Sephirot",
-			"location": "Containment Bay S1T7 (Extreme)"
-		}]
-	},
-	{
-		"name": "F'lhaminn",
-		"lore": "'Have I become an open book, or has she acquired still greater powers of insight? I shall choose to believe the latter.'",
-		"attributes": "scion",
-		"expansion": "ARR",
-		"rarity": "4",
-		"card": "7 9 3 7",
-		"sources": [{
-			"type": "vendor",
-			"info": "20,000 MGP",
-			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
-		}]
-	},
-	{
-		"name": "Vidofnir",
-		"lore": "Vidofnir was sired by the great wyrm Hraesvelgr. A creature of great age, she has memories of the era when man and dragon lived together in peace, and is revered as an elder by others of her brood.",
-		"expansion": "Heavensward",
-		"rarity": "4",
-		"card": "6 8 8 6",
-		"sources": [{
-			"type": "achievement",
-			"info": "Triple-Decker V",
-			"details": "Obtain 120 unique Triple Triad cards.",
-			"location": "Jonathas, Old Gridania (10, 6)"
-		}]
-	},
-	{
-		"name": "Cloud of Darkness",
-		"lore": "One of the undisputed rulers of the void and an entity of immeasurable strength, the Cloud of Darkness occupies the highest rung of the hierarchy of twelve. This terrifying voidsent entered into a dark covenant with Emperor Xande of Allag in a bid to invade the physical realm.",
-		"expansion": "ARR",
-		"rarity": "5",
-		"card": "6 7 7 A",
-		"sources": [{
-			"type": "raid",
-			"info": "Cloud of Darkness (Unconfirmed)",
-			"location": "The World of Darkness"
-		},
-		{
-			"type": "npc",
-			"info": "Klynthota",
-			"location": "Mor Dhona (30, 14)",
-			"details": "Quest 'Moon Sliver and Me' must be completed to challenge, 11PM - 4AM"
 		}]
 	}
 ]
