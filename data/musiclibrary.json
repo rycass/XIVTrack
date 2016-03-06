@@ -1,0 +1,505 @@
+[
+	{
+		"name": "Prelude - Discoveries",
+		"lore": "ARR login theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "The Leader of the Band I",
+			"details": "Add 10 unique music rolls to your orchestrion.",
+			"location": "Jonathas, Old Gridania (10, 6)"
+		}]
+	},
+	{
+		"name": "Torn from the Heavens",
+		"lore": "Hydra/Chimera theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "50,000 MGP",
+			"location": "Gold Saucer Attendant, Gold Saucer (5, 6)"
+		}]
+	},
+	{
+		"name": "A Cold Wind",
+		"lore": "Heavensward login theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "5,000 MGP",
+			"location": "Gold Saucer Attendant, Gold Saucer (5, 6)"
+		}]
+	},
+	{
+		"name": "Contention",
+		"lore": "Zenith (The Churning Mists) theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "750 Allagan Tomestones of Esoterics",
+			"location": "Hismena, Idyllshire (6, 5)"
+		}]
+	},
+	{
+		"name": "Wailers and Waterwheels",
+		"lore": "Gridania theme, daytime",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "5000 Gil",
+			"location": "Maisenta, New Gridania (12, 11)"
+		}]
+	},
+	{
+		"name": "I Am the Sea",
+		"lore": "Limsa Lominsa theme, daytime",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "5000 Gil",
+			"location": "Bango Zango, Limsa Lominsa Lower Decks (10, 11)"
+		}]
+	},
+	{
+		"name": "A New Hope",
+		"lore": "Thanalan theme, daytime",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "5000 Gil",
+			"location": "Roarich, Ul'Dah - Steps of Nald (11, 10)"
+		}]
+	},
+	{
+		"name": "Solid",
+		"lore": "Ishgard theme, daytime",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "5000 Gil",
+			"location": "Frine, The Pillars (6, 10)"
+		}]
+	},
+	{
+		"name": "The Waking Sands",
+		"lore": "The Waking Sands theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "5000 Gil",
+			"location": "Haneko Burneko, The Waking Sands (6, 4)"
+		}]
+	},
+	{
+		"name": "Painted Foothills",
+		"lore": "Dravanian Forelands theme, daytime",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 60 (Requires Master Alchemist III)",
+			"location": "N/A",
+			"details": "Faded roll available: Hunts in Dravanian Forelands"
+		}]
+	},
+	{
+		"name": "Lost In The Clouds",
+		"lore": "The Sea of Clouds theme, daytime",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 60 (Requires Master Alchemist III)",
+			"location": "N/A",
+			"details": "Faded roll available: Hunts in Sea of Clouds"
+		}]
+	},
+	{
+		"name": "Another Round",
+		"lore": "Bar theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 50",
+			"location": "N/A",
+			"details": "Faded roll available: 1000 Allagan Tomestones of Poetics, Auriana, Mor Dhona (22, 6)"
+		}]
+	},
+	{
+		"name": "Agent of Inquiry",
+		"lore": "Hildibrand theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "30,000 MGP",
+			"location": "Gold Saucer Attendant, Gold Saucer (5, 6)"
+		}]
+	},
+	{
+		"name": "Four-Sided Circle",
+		"lore": "Gold Saucer theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "10,000 MGP",
+			"location": "Gold Saucer Attendant, Gold Saucer (5, 6)"
+		}]
+	},
+	{
+		"name": "Sport of Kings",
+		"lore": "Chocobo Racing theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "15,000 MGP",
+			"location": "Gold Saucer Attendant, Gold Saucer (5, 6)"
+		}]
+	},
+	{
+		"name": "The Only Path",
+		"lore": "Treasure hunt theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 50",
+			"location": "N/A",
+			"details": "Faded roll available: Treasure Hunts"
+		}]
+	},
+	{
+		"name": "A World Apart",
+		"lore": "Final Fantasy XIV ending theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 50",
+			"location": "N/A",
+			"details": "Faded roll available: Exploratory Voyages"
+		}]
+	},
+	{
+		"name": "Tenacity",
+		"lore": "Battlecraft Levequest theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "Amber-encased Vilekin x5",
+			"location": "Amber Trader, Foundation (10, 10)"
+		}]
+	},
+	{
+		"name": "When A Tree Falls",
+		"lore": "Fieldcraft Levequest theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "10 Amber-encased Vilekin",
+			"location": "Amber Trader, Foundation (10, 10)"
+		}]
+	},
+	{
+		"name": "Blood For Blood",
+		"lore": "Frontlines theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 60 (Requires Master Alchemist III)",
+			"location": "N/A",
+			"details": "Faded roll available: 5000 Wolf Marks, Storm Sergeant, Wolves' Den Pier"
+		}]
+	},
+	{
+		"name": "Starved",
+		"lore": "The Feast theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 60 (Requires Master Alchemist III)",
+			"location": "N/A",
+			"details": "Faded roll available: 10,000 Wolf Marks, Storm Sergeant, Wolves' Den Pier"
+		}]
+	},
+	{
+		"name": "A Light In the Storm",
+		"lore": "Pharos Sirius theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 50** (Requires Master Alchemist I)",
+			"location": "N/A",
+			"details": "Faded roll available: Siren, Pharos Sirius"
+		}]
+	},
+	{
+		"name": "The Dark's Embrace",
+		"lore": "Copperbell Mines theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 30",
+			"location": "N/A",
+			"details": "Faded roll available: Ouranos, Copperbell Mines (Hard)"
+		}]
+	},
+	{
+		"name": "The Scars of Battle",
+		"lore": "The Lost City of Amdapor theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 60** (Requires Master Alchemist III)",
+			"location": "N/A",
+			"details": "Faded roll available: Kuribu, The Lost City of Amdapor (Hard)"
+		}]
+	},
+	{
+		"name": "Dark Vows",
+		"lore": "Tam-Tara Deepcroft theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 30",
+			"location": "N/A",
+			"details": "Faded roll available: Avere Bravearm, Tam-Tara Deepcroft (Hard)"
+		}]
+	},
+	{
+		"name": "Riptide",
+		"lore": "Sastasha theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 30",
+			"location": "N/A",
+			"details": "Faded roll available: Kraken, Sastasha (Hard)"
+		}]
+	},
+	{
+		"name": "Imagination",
+		"lore": "The Aetherochemical Research Facility theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 60 (Requires Master Alchemist III)",
+			"location": "N/A",
+			"details": "Faded roll available: Ascian Prime, The Aetherochemical Research Facility"
+		}]
+	},
+	{
+		"name": "Down the Up Staircase",
+		"lore": "The Antitower theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 60* (Requires Master Alchemist III)",
+			"location": "N/A",
+			"details": "Faded roll available: Calcabrina, The Antitower"
+		}]
+	},
+	{
+		"name": "Ultima",
+		"lore": "Ultima Weapon Phase 2 theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "The Leader of the Band II",
+			"details": "Add 30 unique music rolls to your orchestrion.",
+			"location": "Jonathas, Old Gridania (10, 6)"
+		}]
+	},
+	{
+		"name": "The Maker's Ruin",
+		"lore": "Ultima Weapon Phase 1 theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 50*** (Requires Master Alchemist I)",
+			"location": "N/A",
+			"details": "Faded roll available: Ultima Weapon, Minstrel's Ballad: Ultima's Bane"
+		}]
+	},
+	{
+		"name": "Primal Judgement",
+		"lore": "The Bowl of Embers theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 50*** (Requires Master Alchemist I)",
+			"location": "N/A",
+			"details": "Faded roll available: Ifrit, The Bowl of Embers (Extreme)"
+		}]
+	},
+	{
+		"name": "Fallen Angel",
+		"lore": "The Howling Eye theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 50*** (Requires Master Alchemist I)",
+			"location": "N/A",
+			"details": "Faded roll available: Garuda, The Howling Eye (Extreme)"
+		}]
+	},
+	{
+		"name": "Under the Weight",
+		"lore": "The Navel theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 50*** (Requires Master Alchemist I)",
+			"location": "N/A",
+			"details": "Faded roll available: Titan, The Navel (Extreme)"
+		}]
+	},
+	{
+		"name": "Heroes",
+		"lore": "The Singularity Reactor theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 60* (Requires Master Alchemist III)",
+			"location": "N/A",
+			"details": "Faded roll available: King Thordan, Minstrel's Ballad: Thordan's Reign"
+		}]
+	},
+	{
+		"name": "Fiend",
+		"lore": "Containment Bay S1T7 theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 60* (Requires Master Alchemist III)",
+			"location": "N/A",
+			"details": "Faded roll available: Sephirot, Containment Bay S1T7 (Extreme)"
+		}]
+	},
+	{
+		"name": "Hubris",
+		"lore": "The Labyrinth of the Ancients theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 50**** (Requires Master Alchemist II)",
+			"location": "N/A",
+			"details": "Faded roll available: Acheron, The Labyrinth of the Ancients"
+		}]
+	},
+	{
+		"name": "Tumbling Down",
+		"lore": "Acheron theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 50**** (Requires Master Alchemist II)",
+			"location": "N/A",
+			"details": "Faded roll available: Acheron, The Labyrinth of the Ancients"
+		}]
+	},
+	{
+		"name": "Out of the Labyrinth",
+		"lore": "Syrcus Tower theme, out of combat",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 50**** (Requires Master Alchemist II)",
+			"location": "N/A",
+			"details": "Faded roll available: Xande, Syrcus Tower"
+		}]
+	},
+	{
+		"name": "Now I Know the Truth",
+		"lore": "Doga and Unei/Crystal Tower story theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 50**** (Requires Master Alchemist II)",
+			"location": "N/A",
+			"details": "Faded roll available: Xande, Syrcus Tower"
+		}]
+	},
+	{
+		"name": "Blind to the Dark",
+		"lore": "World of Darkness theme, out of combat",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 50**** (Requires Master Alchemist II)",
+			"location": "N/A",
+			"details": "Faded roll available: Cloud of Darkness, The World of Darkness"
+		}]
+	},
+	{
+		"name": "Hunger",
+		"lore": "Cloud of Darkness theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 50**** (Requires Master Alchemist II)",
+			"location": "N/A",
+			"details": "Faded roll available: Cloud of Darkness, The World of Darkness"
+		}]
+	},
+	{
+		"name": "Eternal Wind",
+		"lore": "Crystal Tower ending/Final Fantasy III map theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 60* (Requires Master Alchemist III)",
+			"location": "N/A",
+			"details": "Requires faded rolls for Tumbling Down, Out of the Labyrinth, and Hunger."
+		}]
+	},
+	{
+		"name": "Thunderer",
+		"lore": "Ascian Boss/Twintania theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 50**** (Requires Master Alchemist II)",
+			"location": "N/A",
+			"details": "Faded roll available: Twintania, The Binding Coil of Bahamut - Turn 5"
+		}]
+	},
+	{
+		"name": "Rise of the White Raven",
+		"lore": "Nael Deus Darnus theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 50**** (Requires Master Alchemist II)",
+			"location": "N/A",
+			"details": "Faded roll available: Nael Deus Darnus, The Second Coil of Bahamut - Turn 4"
+		}]
+	},
+	{
+		"name": "From the Ashes",
+		"lore": "Phoenix theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 50**** (Requires Master Alchemist II)",
+			"location": "N/A",
+			"details": "Faded roll available: Phoenix, The Final Coil of Bahamut - Turn 3"
+		}]
+	},
+	{
+		"name": "Answers",
+		"lore": "Final Fantasy XIV main theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 50**** (Requires Master Alchemist IV, specialist)",
+			"location": "N/A",
+			"details": "Faded roll available: Bahamut Prime, The Final Coil of Bahamut - Turn 4 (also requires faded rolls Thunderer, Rise of the White Raven, and From The Ashes)"
+		}]
+	},
+	{
+		"name": "Pa-Paya",
+		"lore": "Holiday theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "Unknown",
+			"location": "N/A"
+		}]
+	}
+]
