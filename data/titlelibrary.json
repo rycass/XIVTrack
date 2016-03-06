@@ -430,7 +430,7 @@
 		}]
 	},
 	{
-		"name": "The Assimilator",
+		"name": "the Assimilator",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -500,7 +500,7 @@
 		}]
 	},
 	{
-		"name": "Lord/Lady Creator",
+		"name": "Lord Creator/Lady Creator",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -520,7 +520,7 @@
 		}]
 	},
 	{
-		"name": "The Last Resort",
+		"name": "the Last Resort",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -530,7 +530,7 @@
 		}]
 	},
 	{
-		"name": "The Sword Of La Noscea",
+		"name": "the Sword of La Noscea",
 		"expansion": "1.0",
 		"sources": [{
 			"type": "unobtainable",
@@ -540,7 +540,7 @@
 		}]
 	},
 	{
-		"name": "The Sword Of The Shroud",
+		"name": "the Sword of the Shroud",
 		"expansion": "1.0",
 		"sources": [{
 			"type": "unobtainable",
@@ -550,7 +550,7 @@
 		}]
 	},
 	{
-		"name": "The Sword Of Thanalan",
+		"name": "the Sword of Thanalan",
 		"expansion": "1.0",
 		"sources": [{
 			"type": "unobtainable",
@@ -560,7 +560,7 @@
 		}]
 	},
 	{
-		"name": "The Sword Of Eorzea",
+		"name": "the Sword of Eorzea",
 		"expansion": "1.0",
 		"sources": [{
 			"type": "unobtainable",
@@ -570,7 +570,7 @@
 		}]
 	},
 	{
-		"name": "The Shield Of La Noscea",
+		"name": "the Shield of La Noscea",
 		"expansion": "1.0",
 		"sources": [{
 			"type": "unobtainable",
@@ -580,7 +580,7 @@
 		}]
 	},
 	{
-		"name": "The Shield Of The Shroud",
+		"name": "the Shield of the Shroud",
 		"expansion": "1.0",
 		"sources": [{
 			"type": "unobtainable",
@@ -590,7 +590,7 @@
 		}]
 	},
 	{
-		"name": "The Shield Of Thanalan",
+		"name": "the Shield of Thanalan",
 		"expansion": "1.0",
 		"sources": [{
 			"type": "unobtainable",
@@ -600,7 +600,7 @@
 		}]
 	},
 	{
-		"name": "The Shield Of Eorzea",
+		"name": "the Shield of Eorzea",
 		"expansion": "1.0",
 		"sources": [{
 			"type": "unobtainable",
@@ -620,7 +620,7 @@
 		}]
 	},
 	{
-		"name": "The Warden's Wall",
+		"name": "the Warden's Wall",
 		"expansion": "1.0",
 		"sources": [{
 			"type": "unobtainable",
@@ -630,7 +630,7 @@
 		}]
 	},
 	{
-		"name": "Bearer Of The Horn",
+		"name": "Bearer of the Horn",
 		"expansion": "1.0",
 		"sources": [{
 			"type": "unobtainable",
@@ -640,7 +640,7 @@
 		}]
 	},
 	{
-		"name": "The Uncommitted",
+		"name": "the Uncommitted",
 		"expansion": "1.0",
 		"sources": [{
 			"type": "unobtainable",
@@ -690,7 +690,7 @@
 		}]
 	},
 	{
-		"name": "A Kobold's Worst Nightmare",
+		"name": "a Kobold's Worst Nightmare",
 		"expansion": "1.0",
 		"sources": [{
 			"type": "unobtainable",
@@ -700,7 +700,7 @@
 		}]
 	},
 	{
-		"name": "An Ixal's Worst Nightmare",
+		"name": "an Ixal's Worst Nightmare",
 		"expansion": "1.0",
 		"sources": [{
 			"type": "unobtainable",
@@ -710,7 +710,7 @@
 		}]
 	},
 	{
-		"name": "An Amalj'aa's Worst Nightmare",
+		"name": "an Amalj'aa's Worst Nightmare",
 		"expansion": "1.0",
 		"sources": [{
 			"type": "unobtainable",
@@ -940,7 +940,7 @@
 		}]
 	},
 	{
-		"name": "the Stormcarrier",
+		"name": "Stormcarrier",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -950,7 +950,7 @@
 		}]
 	},
 	{
-		"name": "the Serpentcarrier",
+		"name": "Serpentcarrier",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -960,7 +960,7 @@
 		}]
 	},
 	{
-		"name": "the Flamecarrier",
+		"name": "Flamecarrier",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -970,7 +970,7 @@
 		}]
 	},
 	{
-		"name": "the Stormbringer",
+		"name": "Stormbringer",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -980,7 +980,7 @@
 		}]
 	},
 	{
-		"name": "the Serpentbringer",
+		"name": "Serpentbringer",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -990,7 +990,7 @@
 		}]
 	},
 	{
-		"name": "the Flamebringer",
+		"name": "Flamebringer",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -2086,16 +2086,6 @@
 			"type": "achievement",
 			"info": "Seeing White II",
 			"details": "Complete the white mage job quest 'Hands of Healing.'",
-			"location": "N/A"
-		}]
-	},
-	{
-		"name": "the Oathkeeper",
-		"expansion": "Heavensward",
-		"sources": [{
-			"type": "achievement",
-			"info": "Like a Knight in Shining Armor II",
-			"details": "Complete the paladin job quest 'This Little Sword of Mine.'",
 			"location": "N/A"
 		}]
 	},

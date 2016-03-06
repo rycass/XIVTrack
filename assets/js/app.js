@@ -14,7 +14,7 @@ $(document).ready(function(){
 			{ title:'Triple Triad', id: '2', prefix: 'triad', data: [], sData: [], tableHeading:["Card"], numObtained:0, maxObtained: 0, backgrounds:["goldsaucer.jpg"], oneIcon: false},
 			{ title:'Barding', id: '3', prefix: 'barding', data: [], sData: [], tableHeading:[], numObtained:0, maxObtained: 0, backgrounds:["highland.jpg"], oneIcon: false},
 			{ title:'Orchestrion', id: '4', prefix: 'music', data: [], sData: [], tableHeading:[], numObtained:0, maxObtained: 0, backgrounds:["orchestrion.jpg"], oneIcon: true},
-			{ title:'Titles', id: '5', prefix: 'title', data: [], sData: [], tableHeading:[], numObtained:0, maxObtained: 0, backgrounds:["goldsaucer.jpg"], oneIcon: true}
+			{ title:'Titles', id: '5', prefix: 'title', data: [], sData: [], tableHeading:[], numObtained:0, maxObtained: 0, backgrounds:["jalzahn.jpg"], oneIcon: true}
 		];
 		
 		$scope.bgStyle = "";
