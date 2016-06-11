@@ -2678,5 +2678,65 @@
 			"details": "Attain rank 7 reputation (sworn) with the Vath.",
 			"location": "N/A"
 		}]
+	},
+	{
+		"name": "the Dragonsong",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "Floor the Horde",
+			"details": "Complete the quest 'Litany of Peace.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Polis Raider",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "Life Aquatic I",
+			"details": "Raid the Aquapolis.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Polis Dweller",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "Life Aquatic IV",
+			"details": "Raid the Aquapolis 20 times.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Polis Lord",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "The Slow Regard of Stolen Things IV",
+			"details": "Raid the deepest room in the Aquapolis 20 times.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Pom Friend",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "Top Mog",
+			"details": "Attain rank 7 reputation (sworn) with the Mogmenders of Moghome.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Knight of Glory",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "In a Blaze of Glory VI",
+			"details": "Guide any of the three Grand Companies to a total of 300 Fields of Glory victories.",
+			"location": "N/A"
+		}]
 	}
 ]

@@ -102,6 +102,21 @@
 		}]
 	},
 	{
+		"name": "Original Fat Chocobo",
+		"lore": "Maybe not larger, but definitely more in charge, this most gluttonous of gluttons inspired the others to great weights. Although most modern chocobos have yellow plumage, historic tomes portray birds covered in feathers whiter than the whitest snowfall─ All the better to see the stains of its many meals.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "other",
+			"info": "Not Yet Implemented (NA/EU servers)",
+			"location": "N/A"
+		},
+		{
+			"type": "promotion",
+			"info": "7-11 promotion (JP servers)",
+			"location": "N/A"
+		}]
+	},
+	{
 		"name": "Parade Chocobo",
 		"lore": "Originally purchased by the Adventurers' Guild for use in festival parades, this portly steed quickly wore out his welcome by devouring a moon's worth of fodder in a single turn of the sun. Unable to pay the price of upkeep, the guild passed the reigns to some- one more 'commendable.'",
 		"attributes": "flying",
@@ -333,17 +348,6 @@
 		}]
 	},
 	{
-		"name": "Kongamato",
-		"lore": "After hatching from an egg laid near the riverbanks, the kongamato larva spends its early life as a water-dwelling insect. Its maturity is signified by metamorphosis, during which its wings sprout forth and it takes to the skies.",
-		"expansion": "Heavensward",
-		"sources": [{
-			"type": "vendor",
-			"info": "200,000 gil",
-			"location": "Vath Stickpeddler, The Dravanian Forelands (24, 19)",
-			"details": "Only offered with 'Sworn' reputation with Vath."
-		}]
-	},
-	{
 		"name": "Twintania",
 		"lore": "Bound to eternal thralldom via an Allagan neurolink, this ancient wyvern from the southern continent of Meracydia will remain a loyal servant as long as you possess its identification key.",
 		"attributes": "flying",
@@ -376,6 +380,39 @@
 		}]
 	},
 	{
+		"name": "Kongamato",
+		"lore": "After hatching from an egg laid near the riverbanks, the kongamato larva spends its early life as a water-dwelling insect. Its maturity is signified by metamorphosis, during which its wings sprout forth and it takes to the skies.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "vendor",
+			"info": "200,000 gil",
+			"location": "Vath Stickpeddler, The Dravanian Forelands (24, 19)",
+			"details": "Only offered with 'Sworn' reputation with Vath."
+		}]
+	},
+	{
+		"name": "Zu",
+		"lore": "This massive bird hunts by grasping its prey within its saw-like beak, and finishes it off with a few violent shakes of its long neck before swallowing the now-dead quarry whole.",
+		"attributes": "flying",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "vendor",
+			"info": "1 Iron Voyage Spoil",
+			"location": "Bertana, Idyllshire (5, 5)"
+		}]
+	},
+	{
+		"name": "Bennu",
+		"lore": "This bird was reborn after drinking deep of the aether that flowed forth from the immortal Phoenix, who appeared in the skies of Carteneau during the Calamity. Named after a legendary bird, bennu means 'a shining object, rising in brilliance.'",
+		"attributes": "flying",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "cashshop",
+			"info": "$25",
+			"location": "N/A"
+		}]
+	},
+	{
 		"name": "Logistics System",
 		"lore": "One of the automated system drones deployed by the Allagans to maintain and protect their strongholds. After being unearthed by the Sons of Saint Coinach, the mechanical sphere was modified by Nero tol Scavea into a personal transportation device.",
 		"attributes": "flying",
@@ -384,6 +421,18 @@
 			"type": "achievement",
 			"info": "Behind Enemy Lines I",
 			"details": "Guide any of the three Grand Companies to a total of 200 Frontline victories.",
+			"location": "Jonathas, Old Gridania (10, 6)"
+		}]
+	},
+	{
+		"name": "Aerodynamics System",
+		"lore": "Unearthed in the eastern lowlands of Coerthas, engineers surmise that this particular Allagan drone would likely have been used in aerial defense, although its weaponry functions are now beyond repair. Even so, it is still quite convenient as a transportation device.",
+		"attributes": "flying",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "In a Blaze of Glory V",
+			"details": "Guide any of the three Grand Companies to a total of 100 Fields of Glory victories.",
 			"location": "Jonathas, Old Gridania (10, 6)"
 		}]
 	},
@@ -418,6 +467,18 @@
 			"type": "holiday",
 			"info": "All Saint's Wake 2015",
 			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Gloria-class Airship",
+		"lore": "Taking inspiration from the half-remembered dream of his grandfather Tatanora, Tatamaru used his encyclopedic knowledge to design a small-scale version of a rotary-winged airship. Its name derives from an airship that appears in an obscure novel of unknown origins.",
+		"attributes": "flying",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "You Are What You Eat IV",
+			"details": "Triumph in 200 matches at the Feast.",
+			"location": "Jonathas, Old Gridania (10, 6)"
 		}]
 	},
 	{
@@ -607,6 +668,17 @@
 		}]
 	},
 	{
+		"name": "Dark Lanner",
+		"lore": "Consumed by malice almost equal to their master's, these birds roost in Nidhogg's lair, and regularly bathe themselves in the aetheric tempests surrounding the Aery. Sight of their glowing wings outside the Churning Mists can set the common folk into a panic, as they are thought to be the Horde's harbingers of death.",
+		"attributes": "flying",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "trial",
+			"info": "Nidhogg",
+			"location": "The Minstrel's Ballad: Nidhogg's Rage"
+		}]
+	},
+	{
 		"name": "Sleipnir",
 		"lore": "Blessed by the elder primal himself, Sleipnir will forever remain loyal to those who have proven themselves worthy. In addition to being fearless in battle, the dark steed is also able to manipulate his corporeal form to accommodate any rider, large or small.",
 		"expansion": "ARR",
@@ -628,34 +700,27 @@
 		}]
 	},
 	{
-		"name": "Zu",
-		"lore": "This massive bird hunts by grasping its prey within its saw-like beak, and finishes it off with a few violent shakes of its long neck before swallowing the now-dead quarry whole.",
+		"name": "Cloud Mallow",
+		"lore": "While cloud mallows grow naturally in the Churning Mists, some of the inhabitants of Moghome have spent generations cultivating their own seeds to allow for stronger stems and larger yields of mallow puffs, a sprinkling of which can stimulate even the most lethargic of moogles to work with unbridled joy.",
+		"attributes": "flying",
 		"expansion": "Heavensward",
 		"sources": [{
 			"type": "vendor",
-			"info": "1 Iron Voyage Spoil",
-			"location": "Bertana, Idyllshire (5, 5)"
+			"info": "200,000 gil",
+			"details": "Only offered with 'Sworn' reputation with Moghome.",
+			"location": "Mogmul Mogbelly, The Churning Mists (16, 29)"
 		}]
 	},
 	{
-		"name": "Gloria-class Airship",
-		"lore": "Taking inspiration from the half-remembered dream of his grandfather Tatanora, Tatamaru used his encyclopedic knowledge to design a small-scale version of a rotary-winged airship. Its name derives from an airship that appears in an obscure novel of unknown origins.",
+		"name": "Astrope",
+		"lore": "The emergent studies of winged horses had to be rewritten with a single sighting of Astrope, confirming that adult pegasi are not only enormous in size, but also possessed of a horn. Wary of most, Astrope only allows those of gentle heart to climb upon its back - a back large enough to seat two!",
+		"attributes": "flying passenger",
 		"expansion": "Heavensward",
 		"sources": [{
 			"type": "achievement",
-			"info": "You Are What You Eat IV",
-			"details": "Triumph in 200 matches at the Feast.",
+			"info": "I Hope Mentor Will Notice Me VI",
+			"details": "Complete 2,000 duties via Duty Roulette: Mentor.",
 			"location": "Jonathas, Old Gridania (10, 6)"
-		}]
-	},
-	{
-		"name": "Original Fat Chocobo",
-		"lore": "Maybe not larger, but definitely more in charge, this most gluttonous of gluttons inspired the others to great weights. Although most modern chocobos have yellow plumage, historic tomes portray birds covered in feathers whiter than the whitest snowfall─ All the better to see the stains of its many meals.",
-		"expansion": "Heavensward",
-		"sources": [{
-			"type": "other",
-			"info": "Unknown",
-			"location": "N/A"
 		}]
 	}
 ]

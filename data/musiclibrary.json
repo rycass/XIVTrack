@@ -62,7 +62,7 @@
 	},
 	{
 		"name": "A New Hope",
-		"lore": "Thanalan theme, daytime",
+		"lore": "Ul'dah theme, daytime",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -72,7 +72,7 @@
 	},
 	{
 		"name": "Solid",
-		"lore": "Ishgard theme, daytime",
+		"lore": "Ishgard, Foundation theme, daytime",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -225,7 +225,7 @@
 			"type": "crafted",
 			"info": "Alchemist 50** (Requires Master Alchemist I)",
 			"location": "N/A",
-			"details": "Faded roll available: Siren, Pharos Sirius"
+			"details": "Faded roll available: Siren, Pharos Sirius or Progenitrix & Progenitor, Pharos Sirius (Hard)"
 		}]
 	},
 	{
@@ -236,7 +236,7 @@
 			"type": "crafted",
 			"info": "Alchemist 30",
 			"location": "N/A",
-			"details": "Faded roll available: Ouranos, Copperbell Mines (Hard)"
+			"details": "Faded roll available: Gyges the Great, Copperbell Mines or Ouranos, Copperbell Mines (Hard)"
 		}]
 	},
 	{
@@ -247,7 +247,7 @@
 			"type": "crafted",
 			"info": "Alchemist 60** (Requires Master Alchemist III)",
 			"location": "N/A",
-			"details": "Faded roll available: Kuribu, The Lost City of Amdapor (Hard)"
+			"details": "Faded roll available: Diabolos, The Lost City of Amdapor or Kuribu, The Lost City of Amdapor (Hard)"
 		}]
 	},
 	{
@@ -258,7 +258,7 @@
 			"type": "crafted",
 			"info": "Alchemist 30",
 			"location": "N/A",
-			"details": "Faded roll available: Avere Bravearm, Tam-Tara Deepcroft (Hard)"
+			"details": "Faded roll available: Galvanath the Dominator, Tam-Tara Deepcroft or Avere Bravearm, Tam-Tara Deepcroft (Hard)"
 		}]
 	},
 	{
@@ -269,7 +269,7 @@
 			"type": "crafted",
 			"info": "Alchemist 30",
 			"location": "N/A",
-			"details": "Faded roll available: Kraken, Sastasha (Hard)"
+			"details": "Faded roll available: Denn the Orcatoothed, Sastasha or Kraken, Sastasha (Hard)"
 		}]
 	},
 	{
@@ -296,7 +296,7 @@
 	},
 	{
 		"name": "Ultima",
-		"lore": "Ultima Weapon Phase 2 theme",
+		"lore": "Ultima Weapon (Phase 2) theme",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -307,7 +307,7 @@
 	},
 	{
 		"name": "The Maker's Ruin",
-		"lore": "Ultima Weapon Phase 1 theme",
+		"lore": "Ultima Weapon (Phase 1) theme",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -362,7 +362,7 @@
 	},
 	{
 		"name": "Fiend",
-		"lore": "Containment Bay S1T7 theme",
+		"lore": "Containment Bay S1T7 (Phase 2) theme",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -395,7 +395,7 @@
 	},
 	{
 		"name": "Out of the Labyrinth",
-		"lore": "Syrcus Tower theme, out of combat",
+		"lore": "Syrcus Tower (non-combat) theme",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -417,7 +417,7 @@
 	},
 	{
 		"name": "Blind to the Dark",
-		"lore": "World of Darkness theme, out of combat",
+		"lore": "World of Darkness (non-combat) theme",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -487,9 +487,324 @@
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
-			"info": "Alchemist 50**** (Requires Master Alchemist IV, specialist)",
+			"info": "Alchemist 60** (Requires Master Alchemist IV, specialist)",
 			"location": "N/A",
 			"details": "Faded roll available: Bahamut Prime, The Final Coil of Bahamut - Turn 4 (also requires faded rolls Thunderer, Rise of the White Raven, and From The Ashes)"
+		}]
+	},
+	{
+		"name": "A Sailor Never Sleeps",
+		"lore": "Limsa Lominsa theme, nighttime",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "5000 Gil",
+			"location": "Bango Zango, Limsa Lominsa Lower Decks (10, 11)"
+		}]
+	},
+	{
+		"name": "Dance of the Fireflies",
+		"lore": "Gridania theme, nighttime",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "5000 Gil",
+			"location": "Maisenta, New Gridania (12, 11)"
+		}]
+	},
+	{
+		"name": "Sultana Dreaming",
+		"lore": "Ul'Dah theme, nighttime",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "5000 Gil",
+			"location": "Roarich, Ul'Dah - Steps of Nald (11, 10)"
+		}]
+	},
+	{
+		"name": "Nobility Obliges",
+		"lore": "Ishgard, The Pillars theme, daytime",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "5000 Gil",
+			"location": "Frine, The Pillars (6, 10)"
+		}]
+	},
+	{
+		"name": "The Mushroomery",
+		"lore": "Matoya's Cave theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "5000 Gil",
+			"location": "Junkmonger, Matoya's Cave (6, 6)"
+		}]
+	},
+	{
+		"name": "Shelter",
+		"lore": "Heavensward town theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "5000 Gil",
+			"location": "Traveling Merchant, Dravanian Forelands (32, 23)"
+		}]
+	},
+	{
+		"name": "Against the Wind",
+		"lore": "Coerthas Western Highlands theme, daytime",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 60 (Requires Master Alchemist III)",
+			"location": "N/A",
+			"details": "Faded roll available: Hunts in Coerthas Western Highlands"
+		}]
+	},
+	{
+		"name": "Landlords",
+		"lore": "The Churning Mists theme, daytime",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 60 (Requires Master Alchemist III)",
+			"location": "N/A",
+			"details": "Faded roll available: Hunts in The Churning Mists"
+		}]
+	},
+	{
+		"name": "Missing Pages",
+		"lore": "Dravanian Hinterlands theme, daytime",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 60 (Requires Master Alchemist III)",
+			"location": "N/A",
+			"details": "Faded roll available: Hunts in Dravanian Hinterlands"
+		}]
+	},
+	{
+		"name": "On Westerly Winds",
+		"lore": "La Noscea field theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "5000 Gil",
+			"location": "Bango Zango, Limsa Lominsa Lower Decks (10, 11)"
+		}]
+	},
+	{
+		"name": "Serenity",
+		"lore": "Black Shroud field theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "5000 Gil",
+			"location": "Maisenta, New Gridania (12, 11)"
+		}]
+	},
+	{
+		"name": "To The Sun",
+		"lore": "Thanalan field theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "5000 Gil",
+			"location": "Roarich, Ul'Dah - Steps of Nald (11, 10)"
+		}]
+	},
+	{
+		"name": "Ominous Prognisticks",
+		"lore": "Heavensward dungeon boss theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "750 Allagan Tomestones of Esoterics",
+			"location": "Hismena, Idyllshire (6, 5)"
+		}]
+	},
+	{
+		"name": "Horizons Calling",
+		"lore": "Hullbreaker Isle theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Krakken",
+			"location": "Hullbreaker Isle"
+		},
+		{
+			"type": "dungeon",
+			"info": "Mistbeard",
+			"location": "Hullbreaker Isle (Hard)"
+		}]
+	},
+	{
+		"name": "The Warrens",
+		"lore": "Snowcloak theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Fenrir",
+			"location": "Snowcloak"
+		}]
+	},
+	{
+		"name": "Ink Long Dry",
+		"lore": "The Great Gubal Library theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "dungeon",
+			"info": "The Everliving Bibliotaph",
+			"location": "The Great Gubal Library"
+		}]
+	},
+	{
+		"name": "Unbreakable",
+		"lore": "The Fractal Continuum theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "dungeon",
+			"info": "The Curator",
+			"location": "The Fractal Continuum"
+		}]
+	},
+	{
+		"name": "Apologies",
+		"lore": "Sohr Khai theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Hraesvelgr",
+			"location": "Sohr Khai"
+		}]
+	},
+	{
+		"name": "Wreck to the Seaman",
+		"lore": "The Whorleater (Phase 1) theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 50*** (Requires Master Alchemist I)",
+			"location": "N/A",
+			"details": "Faded roll available: Leviathan, The Whorleater (Extreme)"
+		}]
+	},
+	{
+		"name": "Through the Maelstrom",
+		"lore": "The Whorleater (Phase 2) theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 50*** (Requires Master Alchemist I)",
+			"location": "N/A",
+			"details": "Faded roll available: Leviathan, The Whorleater (Extreme)"
+		}]
+	},
+	{
+		"name": "Good King Moggle Mog XII",
+		"lore": "Thornmarch theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 50*** (Requires Master Alchemist I)",
+			"location": "N/A",
+			"details": "Faded roll available: King Moggle Mog XII, Thornmarch (Extreme)"
+		}]
+	},
+	{
+		"name": "Revenge of the Horde",
+		"lore": "The Final Steps of Faith theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 50*** (Requires Master Alchemist I)",
+			"location": "N/A",
+			"details": "Faded roll available: Nidhogg, The Minstrel's Ballad: Nidhogg's Rage"
+		}]
+	},
+	{
+		"name": "Battle on the Big Bridge",
+		"lore": "Battle on the Big Bridge theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 50** (Requires Master Alchemist I)",
+			"location": "N/A",
+			"details": "Faded roll available: Gilgamesh, Battle on the Big Bridge or Gilgamesh, Battle in the Big Keep"
+		}]
+	},
+	{
+		"name": "Battle to the Death - Heavensward",
+		"lore": "Containment Bay S1T7 (Phase 1) theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "20,000 MGP",
+			"location": "Gold Saucer Attendant, Gold Saucer (5, 6)"
+		}]
+	},
+	{
+		"name": "Engage",
+		"lore": "The Diadem (non-combat) theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 60 (Requires Master Alchemist III)",
+			"location": "N/A",
+			"details": "Faded roll available: Diadem chests"
+		}]
+	},
+	{
+		"name": "Defender of the Realm",
+		"lore": "Cutscene theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "The Leader of the Band III",
+			"details": "Add 50 unique music rolls to your orchestrion.",
+			"location": "Jonathas, Old Gridania (10, 6)"
+		}]
+	},
+	{
+		"name": "On Windy Meadows",
+		"lore": "Opening/Legacy La Noscea theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "treasurehunt",
+			"info": "Aquapolis, Rooms 5-7",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Whisper of the Land",
+		"lore": "Opening/Legacy Black Shroud theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "treasurehunt",
+			"info": "Aquapolis, Rooms 5-7",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Twilight Over Thanalan",
+		"lore": "Opening/Legacy Thanalan theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "treasurehunt",
+			"info": "Aquapolis, Rooms 5-7",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Dragonsong",
+		"lore": "Heavensward main theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "quest",
+			"info": "Litany of Peace",
+			"location": "Aymeric, Foundation (13, 11)"
 		}]
 	},
 	{
@@ -497,8 +812,8 @@
 		"lore": "Holiday theme",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "other",
-			"info": "Unknown",
+			"type": "holiday",
+			"info": "Hatching-tide 2016",
 			"location": "N/A"
 		}]
 	}

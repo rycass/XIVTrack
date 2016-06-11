@@ -352,12 +352,40 @@
 			"location": "Bertana, Idyllshire (5, 5)"
 		}]
 	},
-		{
+	{
 		"name": "Sephirotic Barding",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
 			"info": "Leatherworker 60** (Requires Master Leatherworker IV, Specialist)",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Egg Hunter Barding",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "holiday",
+			"info": "Hatching-tide 2016",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Race Barding",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Ride to the Challenge I",
+			"details": "Complete the first 15 Chocobo Challenge races.",
+			"location": "Jonathas, Old Gridania (10, 6)"
+		}]
+	},
+			{
+		"name": "Horde Barding",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Leatherworker 60*** (Requires Master Leatherworker IV, Specialist)",
 			"location": "N/A"
 		}]
 	}
