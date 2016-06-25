@@ -2120,6 +2120,18 @@
 			"info": "R'ashaht Rhiki",
 			"location": "Limsa Lominsa Upper Decks (13, 12)",
 			"details": "2PM - 7PM"
+		},
+		[{
+			"type": "npc",
+			"info": "Mordyn",
+			"location": "Limsa Lominsa Upper Decks (11, 8)",
+			"details": "7PM - 12AM"
+		},
+		{
+			"type": "npc",
+			"info": "O'kalkaya",
+			"location": "Limsa Lominsa Upper Decks (12, 14)",
+			"details": "7PM - 11PM"
 		}]
 	},
 	{

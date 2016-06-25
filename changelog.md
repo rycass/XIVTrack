@@ -1,5 +1,9 @@
+# June 25, 2016
+- Minor Triple Triad data corrections.
+
 # June 11, 2016
-- Added 3.25 and 3.3 content.
+- Added 3.2x and 3.3 content.
+- Minor data corrections.
 
 # Mar 6, 2016
 - Added 3.2 content.
