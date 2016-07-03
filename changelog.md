@@ -1,3 +1,6 @@
+# Jul 3, 2016
+- Minor Aquapolis data corrections.
+
 # June 25, 2016
 - Minor Triple Triad data corrections.
 
