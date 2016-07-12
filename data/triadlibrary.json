@@ -1277,9 +1277,14 @@
 			"info": "Vorsaile Heuloix",
 			"location": "New Gridania (9, 11)",
 			"details": "10PM - 3AM"
+		}, {
+			"type": "npc",
+			"info": "Master Mogzin",
+			"location": "Churning Mists (15, 28)",
+			"details": "9PM - 3AM, 'Bloodsworn' Reputation with Moogles required to challenge"
 		}]
 	},
-		{
+	{
 		"name": "Nero Tol Scaeva",
 		"lore": "'Garlond... Soon you will be made to know the true power of magitek.'",
 		"attributes": "garlean",
@@ -1584,9 +1589,10 @@
 		"rarity": "3",
 		"card": "8 1 4 8",
 		"sources": [{
-			"type": "other",
-			"info": "Unknown",
-			"location": "Unknown"
+			"type": "npc",
+			"info": "Master Mogzin",
+			"location": "Churning Mists (15, 28)",
+			"details": "9PM - 3AM, 'Bloodsworn' Reputation with Moogles required to challenge"
 		}]
 	},
 	{
@@ -2033,6 +2039,11 @@
 			"type": "dungeon",
 			"info": "Hraesvelgr",
 			"location": "Sohr Khai"
+		},	{
+			"type": "npc",
+			"info": "Master Mogzin",
+			"location": "Churning Mists (15, 28)",
+			"details": "9PM - 3AM, 'Bloodsworn' Reputation with Moogles required to challenge"
 		}]
 	},
 	{
