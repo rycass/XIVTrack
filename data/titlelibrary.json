@@ -2738,5 +2738,15 @@
 			"details": "Guide any of the three Grand Companies to a total of 300 Fields of Glory victories.",
 			"location": "N/A"
 		}]
+	},
+	{
+		"name": "The Chief Mourner",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "I'll Sleep When I'm Dead",
+			"details": "Complete the quest 'The Nightmare's End.'",
+			"location": "N/A"
+		}]
 	}
 ]

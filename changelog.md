@@ -1,3 +1,6 @@
+# Jul 21, 2016
+- Added 3.35 content.
+
 # Jul 12, 2016
 - Added 'Master Mogzin' Triple Triad NPC and associated cards.
 - Minor Aquapolis data correction.
