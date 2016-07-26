@@ -102,21 +102,6 @@
 		}]
 	},
 	{
-		"name": "Original Fat Chocobo",
-		"lore": "Maybe not larger, but definitely more in charge, this most gluttonous of gluttons inspired the others to great weights. Although most modern chocobos have yellow plumage, historic tomes portray birds covered in feathers whiter than the whitest snowfall─ All the better to see the stains of its many meals.",
-		"expansion": "Heavensward",
-		"sources": [{
-			"type": "other",
-			"info": "Not Yet Implemented (NA/EU servers)",
-			"location": "N/A"
-		},
-		{
-			"type": "promotion",
-			"info": "7-11 promotion (JP servers)",
-			"location": "N/A"
-		}]
-	},
-	{
 		"name": "Parade Chocobo",
 		"lore": "Originally purchased by the Adventurers' Guild for use in festival parades, this portly steed quickly wore out his welcome by devouring a moon's worth of fodder in a single turn of the sun. Unable to pay the price of upkeep, the guild passed the reigns to some- one more 'commendable.'",
 		"attributes": "flying",
@@ -126,6 +111,38 @@
 			"info": "Leaving a Better Impression II",
 			"details": "Receive 3,000 player commendations.",
 			"location": "Jonathas, Old Gridania (10, 6)"
+		}]
+	},
+	{
+		"name": "Original Fat Chocobo",
+		"lore": "Maybe not larger, but definitely more in charge, this most gluttonous of gluttons inspired the others to great weights. Although most modern chocobos have yellow plumage, historic tomes portray birds covered in feathers whiter than the whitest snowfall─ All the better to see the stains of its many meals.",
+		"attributes": "flying",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "promotion",
+			"info": "Amazon promotion (NA servers)",
+			"location": "N/A"
+		},
+		{
+			"type": "promotion",
+			"info": "GamesMaster promotion (EU servers)",
+			"location": "N/A"
+		},
+		{
+			"type": "promotion",
+			"info": "7-11 promotion (JP servers)",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Fat Moogle",
+		"lore": "This plus-sized patrician epitomizes the ancient moogle proverb regarding kupo nuts that says, 'Once you kupop, you cannot stop.' Basic laws of physics suggest that wings as small as the fat moogle's should not provide enough lift for true flight... yet here we are.",
+		"attributes": "flying passenger",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "cashshop",
+			"info": "$30",
+			"location": "N/A"
 		}]
 	},
 	{
@@ -744,6 +761,28 @@
 			"type": "quest",
 			"info": "Fetters of Lament",
 			"location": "Guidance Node, Azys Lla (19, 32)"
+		}]
+	},
+	{
+		"name": "Whisper-go",
+		"lore": "Taken in by the vibrant sights of the Gold Saucer, the wandering executive sought out the plaza's architect to design him a vessel of transportation similar in flamboyance to its myriad attractions. The seats are so finely upholstered riders swear it is as if they are floating on air.",
+		"attributes": "flying",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "holiday",
+			"info": "Yo-kai Watch cross-promotion 2016",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Whisper A-go-go",
+		"lore": "Moved by your unyielding dedication and patronage, the wandering executive once again commissioned the architects of the Gold Saucer, this time to upgrade the Whisper-go as a gift from himself and his friend, the wandering minstrel.",
+		"attributes": "flying",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "holiday",
+			"info": "Yo-kai Watch cross-promotion 2016",
+			"location": "N/A"
 		}]
 	}
 ]

@@ -1,3 +1,9 @@
+# Jul 26, 2016
+- Added Yo-kai Watch content.
+- Added The Rising 2016 content.
+- Added Fat Moogle.
+- Minor data corrections.
+
 # Jul 21, 2016
 - Added 3.35 content.
 
