@@ -119,18 +119,18 @@
 		"attributes": "flying",
 		"expansion": "Heavensward",
 		"sources": [{
-			"type": "promotion",
-			"info": "Amazon promotion (NA servers)",
+			"type": "unobtainable",
+			"info": "Amazon promotion (NA servers) (expired)",
 			"location": "N/A"
 		},
 		{
-			"type": "promotion",
-			"info": "GamesMaster promotion (EU servers)",
+			"type": "unobtainable",
+			"info": "GamesMaster promotion (EU servers) (expired)",
 			"location": "N/A"
 		},
 		{
-			"type": "promotion",
-			"info": "7-11 promotion (JP servers)",
+			"type": "unobtainable",
+			"info": "7-11 promotion (JP servers) (expired)",
 			"location": "N/A"
 		}]
 	},

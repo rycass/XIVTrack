@@ -1,3 +1,6 @@
+# Aug 31, 2016
+- Minor data corrections.
+
 # Jul 26, 2016
 - Added Yo-kai Watch content.
 - Added The Rising 2016 content.

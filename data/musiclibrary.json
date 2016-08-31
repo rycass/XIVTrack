@@ -816,5 +816,25 @@
 			"info": "Hatching-tide 2016",
 			"location": "N/A"
 		}]
+	},
+	{
+		"name": "Moonfire Faire",
+		"lore": "Holiday theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "holiday",
+			"info": "Moonfire Faire 2016",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Heavensward",
+		"lore": "Heavensward main theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "holiday",
+			"info": "The Rising 2016",
+			"location": "N/A"
+		}]
 	}
 ]
