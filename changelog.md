@@ -1,3 +1,9 @@
+# Oct 1, 2016
+- Added 3.4 content.
+- Minor data corrections.
+- Reorganized Orchestrion tab (due to new in-game sort order).
+- Moogle and Moglin cards now classified as "Beastman".
+
 # Aug 31, 2016
 - Minor data corrections.
 

@@ -119,7 +119,7 @@ $(document).ready(function(){
 		
 		$scope.fixImgString = function(str) {
 			if (str == undefined) return "";
-			str = str.replace(/ |#|'|&/g, "_");
+			str = str.replace(/ |#|'|&|,/g, "_");
 			str = str.toLowerCase();
 			return str;
 		}

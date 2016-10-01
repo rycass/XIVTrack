@@ -357,7 +357,7 @@
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
-			"info": "Leatherworker 60** (Requires Master Leatherworker IV, Specialist)",
+			"info": "Leatherworker 60** (Requires Master Leatherworker IV)",
 			"location": "N/A"
 		}]
 	},
@@ -371,6 +371,15 @@
 		}]
 	},
 	{
+		"name": "Far Eastern Barding",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "cashshop",
+			"info": "$10",
+			"location": "N/A"
+		}]
+	},
+	{
 		"name": "Race Barding",
 		"expansion": "ARR",
 		"sources": [{
@@ -380,12 +389,39 @@
 			"location": "Jonathas, Old Gridania (10, 6)"
 		}]
 	},
-			{
+	{
 		"name": "Horde Barding",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
-			"info": "Leatherworker 60*** (Requires Master Leatherworker IV, Specialist)",
+			"info": "Leatherworker 60*** (Requires Master Leatherworker IV)",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Sophic Barding",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Goldsmith 60**** (Requires Master Goldsmith IV, Specialist)",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Mandervillian Barding",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "150,000 MGP",
+			"location": "Gold Saucer Attendant, Gold Saucer (5, 6)"
+		}]
+	},
+	{
+		"name": "Abigail Barding",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "Not yet implemented",
 			"location": "N/A"
 		}]
 	}

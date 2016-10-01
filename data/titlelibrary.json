@@ -1,6 +1,6 @@
 [
 	{
-		"name": "The Insatiable",
+		"name": "the Insatiable",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -10,7 +10,7 @@
 		}]
 	},
 	{
-		"name": "The True",
+		"name": "the True",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -40,7 +40,7 @@
 		}]
 	},
 	{
-		"name": "Of The Vengeful Lance",
+		"name": "of the Vengeful Lance",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -50,7 +50,7 @@
 		}]
 	},
 	{
-		"name": "The Godsbow",
+		"name": "the Godsbow",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -60,7 +60,7 @@
 		}]
 	},
 	{
-		"name": "The White",
+		"name": "the White",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -80,7 +80,7 @@
 		}]
 	},
 	{
-		"name": "The Exterminator",
+		"name": "the Exterminator",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -160,7 +160,7 @@
 		}]
 	},
 	{
-		"name": "Of the Golden Saw",
+		"name": "of the Golden Saw",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -170,7 +170,7 @@
 		}]
 	},
 	{
-		"name": "Of the Golden Anvil",
+		"name": "of the Golden Anvil",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -180,7 +180,7 @@
 		}]
 	},
 	{
-		"name": "Of the Golden Hammer",
+		"name": "of the Golden Hammer",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -190,7 +190,7 @@
 		}]
 	},
 	{
-		"name": "Of the Golden Leaf",
+		"name": "of the Golden Leaf",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -200,7 +200,7 @@
 		}]
 	},
 	{
-		"name": "Of the Golden Hide",
+		"name": "of the Golden Hide",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -210,7 +210,7 @@
 		}]
 	},
 	{
-		"name": "Of the Golden Needle",
+		"name": "of the Golden Needle",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -220,7 +220,7 @@
 		}]
 	},
 	{
-		"name": "Of the Golden Lead",
+		"name": "of the Golden Lead",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -230,7 +230,7 @@
 		}]
 	},
 	{
-		"name": "Of the Golden Ladle",
+		"name": "of the Golden Ladle",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -440,7 +440,7 @@
 		}]
 	},
 	{
-		"name": "Seeker Of Blood",
+		"name": "Seeker of Blood",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -450,7 +450,7 @@
 		}]
 	},
 	{
-		"name": "Seeker Of Truth",
+		"name": "Seeker of Truth",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -460,7 +460,7 @@
 		}]
 	},
 	{
-		"name": "Seeker Of Skill",
+		"name": "Seeker of Skill",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -470,7 +470,7 @@
 		}]
 	},
 	{
-		"name": "Seeker Of Bounty",
+		"name": "Seeker of Bounty",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -2400,7 +2400,7 @@
 		}]
 	},
 	{
-		"name": "The Fortunate",
+		"name": "the Fortunate",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -2741,11 +2741,71 @@
 	},
 	{
 		"name": "the Chief Mourner",
-		"expansion": "Heavensward",
+		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
 			"info": "I'll Sleep When I'm Dead",
 			"details": "Complete the quest 'The Nightmare's End.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Wings of Time",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "Back In Time",
+			"details": "Complete the quest 'Of Endings and Beginnings.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Surrender of Souls",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "No Retreat, No Surrender",
+			"details": "Complete the quest 'An Ending to Mark a New Beginning.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Khloe's Friend",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "And Khloe Was Her Name-o II",
+			"details": "Successfully complete 5 series of Wondrous Tails.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Khloe's Best Friend",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "And Khloe Was Her Name-o VII",
+			"details": "Successfully complete 50 series of Wondrous Tails.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Lucky",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "For The Hoard III",
+			"details": "Discover 1000 pieces of the Accursed Hoard.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "of the Sixth Sense",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "The Trouble With Buried II",
+			"details": "Discover 100 pieces of the Accursed Hoard without using a pomander of intuition.",
 			"location": "N/A"
 		}]
 	}

@@ -522,6 +522,17 @@
 		}]
 	},
 	{
+		"name": "Arrhidaeus",
+		"lore": "Fabricated within Alexander's internal manufactories, Arrhidaeus was primarily used to wreak temporal disruption on any and all invaders. This particular construct saw its weapons systems overridden following capture, and now serves as a glorified transport module.",
+		"attributes": "flying",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "raid",
+			"info": "Alexander Prime",
+			"location": "Alexander - The Burden of the Father (Savage)"
+		}]
+	},
+	{
 		"name": "Unicorn",
 		"lore": "Not long ago, Eorzean unicorns numbered in the thousands, and could oft be seen roaming the Coerthas highlands in great majestic herds that would render the mountains white as snow. Poaching has caused the population to decline, and if it were not for your act of kindness, there would be one fewer.",
 		"expansion": "ARR",
@@ -753,6 +764,17 @@
 		}]
 	},
 	{
+		"name": "Sophic Lanner",
+		"lore": "History tells us that disruption in balance twixt good and evil will invariably result in suffering. The noble lanner serves to restore that balance by placing upon the goddess Sophia's scales the weights of equilibrium - most commonly depicted as our heroes of legend.",
+		"attributes": "flying",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "trial",
+			"info": "Sophia",
+			"location": "Containment Bay P1T6 (Extreme)"
+		}]
+	},
+	{
 		"name": "Midgardsormr",
 		"lore": "Only after proving your bravery in the face of countless perils has the father of dragons found you to be a worthy heir to the light, and granted you a place upon his back.",
 		"attributes": "flying",
@@ -782,6 +804,17 @@
 		"sources": [{
 			"type": "holiday",
 			"info": "Yo-kai Watch cross-promotion 2016",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Black Pegasus",
+		"lore": "While uncommon, tales of pegasi black as ink can be found amongst the folklore of countless tribes. One similarity, however, can be observed in nearly all the renditions─that those unworthy of the steed will have their very life essence sapped the moment they climb upon its back.",
+		"attributes": "flying",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "Not yet implemented",
 			"location": "N/A"
 		}]
 	}

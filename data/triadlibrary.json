@@ -207,6 +207,30 @@
 		}]
 	},
 	{
+		"name": "Apkallu",
+		"lore": "These large, flightless seabirds dwell on the coastlines of Vylbrand. Though apkallu move on land with an awkward waddle, they use their flipper-like wings to glide through the water at impressive speeds. Able to adjust their stomach acids at will, the green-feathered cloudkin store fish in their bellies for feeding their young, but have also been known to spit caustic fluids at predators.",
+		"expansion": "ARR",
+		"rarity": "1",
+		"card": "1 3 4 4",
+		"sources": [{
+			"type": "npc",
+			"info": "Wyra 'Greenhands' Lyegha",
+			"location": "The Battlehall (3, 3)"
+		}]
+	},
+	{
+		"name": "Colibri",
+		"lore": "The distinctive beak of the colorful colibri is said to have evolved from its preference to feed on the nectar of tropical blooms, though its obsession with shiny objects also leads the bird to occasionally swallow shellfish whole. With sufficient time and effort, it is possible to train this native of the south seas to mimic words from the common tongue.",
+		"expansion": "ARR",
+		"rarity": "1",
+		"card": "1 6 4 1",
+		"sources": [{
+			"type": "npc",
+			"info": "Flichoirel the Lordling",
+			"location": "The Battlehall (3, 3)"
+		}]
+	},
+	{
 		"name": "Chocobo",
 		"lore": "The domestication of chocobos in Eorzea appears to date back to prehistory, with ancient paintings recently discovered near Ishgard showing tribesfolk using the flightless yellow cloudkin to till the earth, transport grain, and carry warriors into battle. While the overwhelming majority of chocobos seen in Eorzea today are of Coerthan stock, it is rumored that wild breeds of the species-including those which have retained the capacity for flight-still thrive throughout forests nestled in the vastly unexplored valleys of Abalathia's Spine.",
 		"expansion": "ARR",
@@ -324,21 +348,9 @@
 		}]
 	},
 	{
-		"name": "Tataru Taru",
-		"lore": "'Deep in the desert of my heart,♪ A lonely flower blooms...♪ Yearning for the heavens above♪ To quench my thirst for you.♪ Trololololo~ lololo~♪'",
-		"attributes": "scion",
-		"expansion": "ARR",
-		"rarity": "1",
-		"card": "7 2 3 1",
-		"sources": [{
-			"type": "vendor",
-			"info": "Silver Triad Card",
-			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
-		}]
-	},
-	{
 		"name": "Moogle",
 		"lore": "Do not be fooled by their winsome personae, for moogles are a highly intelligent race of creatures capable of creating utter chaos with the unique brand of elemental magicks at their disposal. For the most part, they are content to keep to themselves, choosing to roam the Twelveswood hidden behind glamours rendering them invisible to all but the most spiritually acute.",
+		"attributes": "beastman",
 		"expansion": "ARR",
 		"rarity": "1",
 		"card": "7 2 3 1",
@@ -355,6 +367,32 @@
 			"info": "Trachtoum",
 			"location": "Lower La Noscea (35, 15)",
 			"details": "8PM - 8AM"
+		}]
+	},
+	{
+		"name": "Magitek Death Claw",
+		"lore": "A redesign of the Allagan “iron claw,” the magitek death claw is kept aloft by the twin rotors housed within its main trunk. While the claw's curved talons are often employed to transport military cargo, it is also deployed on the battlefield to immobilize enemy soldiers.",
+		"attributes": "garlean",
+		"expansion": "ARR",
+		"rarity": "1",
+		"card": "3 4 2 3",
+		"sources": [{
+			"type": "vendor",
+			"info": "Bronze Triad Card",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}]
+	},
+	{
+		"name": "Tataru Taru",
+		"lore": "'Deep in the desert of my heart,♪ A lonely flower blooms...♪ Yearning for the heavens above♪ To quench my thirst for you.♪ Trololololo~ lololo~♪'",
+		"attributes": "scion",
+		"expansion": "ARR",
+		"rarity": "1",
+		"card": "7 2 3 1",
+		"sources": [{
+			"type": "vendor",
+			"info": "Silver Triad Card",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}]
 	},
 	{
@@ -544,6 +582,30 @@
 			"location": "Coerthas Central Highlands (6, 22)"
 		}]
 	},
+		{
+		"name": "Liquid Flame",
+		"lore": "During a bid to duplicate the success of the kobolds and their cultivation of voidsent bombs, Sharlayan alchemists developed the creation of liquid flame almost by accident. Following this serendipitous event, the amorphous entity was bound to serve as an arcane guardian.",
+		"expansion": "ARR",
+		"rarity": "2",
+		"card": "6 4 6 3",
+		"sources": [{
+			"type": "vendor",
+			"info": "Bronze Triad Card",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}]
+	},
+	{
+		"name": "Lost Lamb",
+		"lore": "Highlanders first domesticated sheep in the Age of Endless Frost. Seeking to increase wool yield, they began a program of selective breeding that resulted in the cloud-like appearance of the modern species. Over the years, a goodly number of sheep have been separated from their shepherds, and it is not uncommon to see wild flocks grazing the fields of La Noscea or the plains of Coerthas.",
+		"expansion": "ARR",
+		"rarity": "2",
+		"card": "5 7 4 3",
+		"sources": [{
+			"type": "npc",
+			"info": "Prideful Stag",
+			"location": "The Battlehall (3, 3)"
+		}]
+	},
 	{
 		"name": "Fat Chocobo",
 		"lore": "A chocobo whose insatiable appetite and utter lack of willpower have resulted in a body more fit for a behemoth than a bird. Goblin legend has it this oversized avian is worshipped as a god in the world below, but no compelling evidence has been found to support this myth.",
@@ -651,6 +713,18 @@
 		}]
 	},
 	{
+		"name": "Delivery Moogle",
+		"lore": "'Once we saw how much we were appreciated, we knew we'd found our new calling!'",
+		"expansion": "ARR",
+		"rarity": "2",
+		"card": "3 5 6 5",
+		"sources": [{
+			"type": "vendor",
+			"info": "Bronze Triad Card",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}]
+	},
+	{
 		"name": "Livia sas Junius",
 		"lore": "'Fail to do as my lord commands...and I will spare him the trouble of punishing you.'",
 		"attributes": "garlean",
@@ -682,6 +756,32 @@
 			"type": "npc",
 			"info": "Indolent Imperial",
 			"location": "Mor Dhona (11, 17)"
+		}]
+	},
+	{
+		"name": "Magitek Colossus",
+		"lore": "The colossus is an autonomous suit of magitek armor that fuses the design of the Allagan iron giant with the mechanical mobility of the Garlean vanguard. Able to switch weapons as easily as a regular soldier, the colossus is valued for its versatility on the battlefield.",
+		"attributes": "garlean",
+		"expansion": "ARR",
+		"rarity": "2",
+		"card": "3 6 6 3",
+		"sources": [{
+			"type": "npc",
+			"info": "Hall Overseer",
+			"location": "The Battlehall (3, 3)"
+		}]
+	},
+	{
+		"name": "Hoary Boulder & Coultenet",
+		"lore": "Coultenet: 'On your feat, Hoary!' Hoary Boulder: 'Can't...disappoint...the younglings...Raaargh!'",
+		"attributes": "scion",
+		"expansion": "ARR",
+		"rarity": "2",
+		"card": "7 2 2 7",
+		"sources": [{
+			"type": "vendor",
+			"info": "Gold Triad Card",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}]
 	},
 	{
@@ -819,19 +919,6 @@
 			"info": "Yellow Moon",
 			"location": "Uh'Dah - Steps of Thal (14, 13)",
 			"details": "10PM - 6AM"
-		}]
-	},
-	{
-		"name": "Hoary Boulder & Coultenet",
-		"lore": "Coultenet: 'On your feat, Hoary!' Hoary Boulder: 'Can't...disappoint...the younglings...Raaargh!'",
-		"attributes": "scion",
-		"expansion": "ARR",
-		"rarity": "2",
-		"card": "7 2 2 7",
-		"sources": [{
-			"type": "vendor",
-			"info": "Gold Triad Card",
-			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}]
 	},
 	{
@@ -1025,19 +1112,6 @@
 		}]
 	},
 	{
-		"name": "Manxome Molaa Ja Ja",
-		"lore": "Manxome Molaa Ja Ja is both leader and second-in-command of the Silverscales mercenary band. Two-headed Mamool Ja are born, albeit rarely, to the tribes of the west, and are known for their superior intellect and brawn. Such specimens invariably rise to positions of prominence and power.",
-		"attributes": "beastman",
-		"expansion": "ARR",
-		"rarity": "3",
-		"card": "8 3 2 7",
-		"sources": [{
-			"type": "dungeon",
-			"info": "Manxome Molaa Ja Ja",
-			"location": "Wanderer's Palace (Hard)"
-		}]
-	},
-	{
 		"name": "Ferdiad",
 		"lore": "Summoned in ages past by the sorcerers of Mhach to join the assault on Amdapor, this scythe-wielding voidsent was defeated by the city's defenders and consigned to languish behind potent seals. As a lesser noble, Ferdiad occupies the third rung of the hierarchy of twelve.",
 		"expansion": "ARR",
@@ -1049,24 +1123,7 @@
 			"location": "Amdapor Keep (Hard)"
 		}]
 	},
-	{
-		"name": "Phlegethon",
-		"lore": "Phlegethon was a hero of the rebellion that sought to oppose the rule of Allag in the twilight of the Third Astral Era. After his capture by the technologist Amon, the valiant general was subjected to hideous experiments, his body altered and mind broken, fated to become an eternal guardian of the Crystal Tower.",
-		"expansion": "ARR",
-		"rarity": "3",
-		"card": "7 1 6 7",
-		"sources": [{
-			"type": "raid",
-			"info": "Phlegethon",
-			"location": "The Labyrinth of the Ancients"
-		},
-		{
-			"type": "npc",
-			"info": "Klynthota",
-			"location": "Mor Dhona (30, 14)",
-			"details": "Quest 'Moon Sliver and Me' must be completed to challenge, 11PM - 4AM"
-		}]
-	},
+	
 	{
 		"name": "Griffin",
 		"lore": "The majestic winged creatures inhabit the untamed wilds of Abalathia's Spine. Possessed of unmatched sharpness of vision, a griffin swooping down from the heights to seize its prey in its mighty talons is truly a sight to behold. A symbol of courage and ferocity, the griffin adorns the crest of the fallen nation of Ala Mhigo.",
@@ -1151,18 +1208,6 @@
 			"location": "Saint Mocianne's Arboretum"
 		}]
 	},
-		{
-		"name": "Echidna",
-		"lore": "Echidna is the name of an alluring voidsent bound within the enigmatic Void Ark. The voidmages of Mhach, a city that thrived during the Fifth Astral Era, were said to have employed the fiendish entity as a strategic weapon in their endless conflicts. Scholars conjecture that as a member of voidsent nobility, Echidna likely occupies one of the higher rungs of the hierarchy.",
-		"expansion": "Heavensward",
-		"rarity": "3",
-		"card": "4 6 7 4",
-		"sources": [{
-			"type": "raid",
-			"info": "Echidna (Chest)",
-			"location": "The Void Ark"
-		}]
-	},
 	{
 		"name": "Calcabrina",
 		"lore": "This doll-like construct was created by the Sharlayans to protect the sanctity of the Antitower. Steeped in the energies of generations of mages, the powerful magicks instilled in this guardian have worked eerie transmutations upon its form.",
@@ -1185,6 +1230,101 @@
 			"type": "dungeon",
 			"info": "Kuribu",
 			"location": "Lost City of Amdapor (Hard)"
+		}]
+	},
+	{
+		"name": "Strix",
+		"lore": "A guardian bound to the Rare Romes Room, the highest floor of the Great Gubal Library. Similar to skatenes, Strix is an owl which has been enchanted with heightened intelligence. Strix's comparatively vast intellect, however, grants the creature command over spells of formidable potency.",
+		"expansion": "Heavensward",
+		"rarity": "3",
+		"card": "7 5 1 7",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Strix (Unconfirmed)",
+			"location": "The Great Gubal Library (Hard)"
+		}]
+	},
+	{
+		"name": "Phlegethon",
+		"lore": "Phlegethon was a hero of the rebellion that sought to oppose the rule of Allag in the twilight of the Third Astral Era. After his capture by the technologist Amon, the valiant general was subjected to hideous experiments, his body altered and mind broken, fated to become an eternal guardian of the Crystal Tower.",
+		"expansion": "ARR",
+		"rarity": "3",
+		"card": "7 1 6 7",
+		"sources": [{
+			"type": "raid",
+			"info": "Phlegethon",
+			"location": "The Labyrinth of the Ancients"
+		},
+		{
+			"type": "npc",
+			"info": "Klynthota",
+			"location": "Mor Dhona (30, 14)",
+			"details": "Quest 'Moon Sliver and Me' must be completed to challenge, 11PM - 4AM"
+		}]
+	},
+	{
+		"name": "Echidna",
+		"lore": "Echidna is the name of an alluring voidsent bound within the enigmatic Void Ark. The voidmages of Mhach, a city that thrived during the Fifth Astral Era, were said to have employed the fiendish entity as a strategic weapon in their endless conflicts. Scholars conjecture that as a member of voidsent nobility, Echidna likely occupies one of the higher rungs of the hierarchy.",
+		"expansion": "Heavensward",
+		"rarity": "3",
+		"card": "4 6 7 4",
+		"sources": [{
+			"type": "raid",
+			"info": "Echidna (Chest)",
+			"location": "The Void Ark"
+		}]
+	},
+	{
+		"name": "Moglin",
+		"lore": "'And what better way to help you pass the time than by having you perform all the tiresome tasks that no one ever wants to do, kupo!'",
+		"attributes": "beastman",
+		"expansion": "Heavensward",
+		"rarity": "3",
+		"card": "5 8 4 5",
+		"sources": [{
+			"type": "npc",
+			"info": "Mogmill",
+			"location": "The Churning Mists (28, 35)",
+			"details": "Quest 'A Secret From Everyone' must be completed to challenge"
+		}]
+	},
+	{
+		"name": "Roundrox",
+		"lore": "'Pssshkoh... Someday, Roundrox wants to live in place like giant, together with whirlycog things aplenty.'",
+		"expansion": "Heavensward",
+		"rarity": "3",
+		"card": "8 2 8 2",
+		"sources": [{
+			"type": "npc",
+			"info": "Seika",
+			"location": "Idyllshire (6, 7)",
+			"details": "2PM - 8PM"
+		}]
+	},
+	{
+		"name": "Manxome Molaa Ja Ja",
+		"lore": "Manxome Molaa Ja Ja is both leader and second-in-command of the Silverscales mercenary band. Two-headed Mamool Ja are born, albeit rarely, to the tribes of the west, and are known for their superior intellect and brawn. Such specimens invariably rise to positions of prominence and power.",
+		"attributes": "beastman",
+		"expansion": "ARR",
+		"rarity": "3",
+		"card": "8 3 2 7",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Manxome Molaa Ja Ja",
+			"location": "Wanderer's Palace (Hard)"
+		}]
+	},
+	{
+		"name": "Tozol Huatotl",
+		"lore": "Tozol is of the Huatotl bloodline─one of the four great Ixali families said to be descended from the 'Skysent.' Numbered among the few ritualists capable of performing the rites of primal summoning, Tozol attempted to call forth the capricious Garuda in the stronghold of Xelphatol.",
+		"attributes": "beastman",
+		"expansion": "Heavensward",
+		"rarity": "3",
+		"card": "2 7 6 6",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Tozol Huatotl",
+			"location": "Xelphatol"
 		}]
 	},
 	{
@@ -1282,6 +1422,19 @@
 			"info": "Master Mogzin",
 			"location": "Churning Mists (15, 28)",
 			"details": "9PM - 3AM, 'Bloodsworn' Reputation with Moogles required to challenge"
+		}]
+	},
+	{
+		"name": "Alexander Prime",
+		"lore": "Alexander Prime served as the last line of defense for the mechanical primal's innermost core. As an integral element of the core's central control system, Alexander Prime exhibited a limited ability to manipulate temporal reality, and sought to smite intruders with its divine judgment.",
+		"attributes": "primal",
+		"expansion": "Heavensward",
+		"rarity": "3",
+		"card": "8 7 2 3",
+		"sources": [{
+			"type": "raid",
+			"info": "Alexander Prime",
+			"location": "Alexander - The Soul of the Creator"
 		}]
 	},
 	{
@@ -1596,19 +1749,6 @@
 		}]
 	},
 	{
-		"name": "Moglin",
-		"lore": "'And what better way to help you pass the time than by having you perform all the tiresome tasks that no one ever wants to do, kupo!'",
-		"expansion": "Heavensward",
-		"rarity": "3",
-		"card": "5 8 4 5",
-		"sources": [{
-			"type": "npc",
-			"info": "Mogmill",
-			"location": "The Churning Mists (28, 35)",
-			"details": "Quest 'A Secret From Everyone' must be completed to challenge"
-		}]
-	},
-	{
 		"name": "Charibert",
 		"lore": "'Sickness is wont to fester and spread. It must be burned out ere the infection takes hold.'",
 		"expansion": "Heavensward",
@@ -1621,16 +1761,15 @@
 		}]
 	},
 	{
-		"name": "Roundrox",
-		"lore": "'Pssshkoh... Someday, Roundrox wants to live in place like giant, together with whirlycog things aplenty.'",
-		"expansion": "Heavensward",
+		"name": "Brendt, Brennan, & Bremondt",
+		"lore": "'Become the sort of storied personage I can brag about havin' met, an' I'll consider us square.'",
+		"expansion": "ARR",
 		"rarity": "3",
-		"card": "8 2 8 2",
+		"card": "5 4 6 7",
 		"sources": [{
 			"type": "npc",
-			"info": "Seika",
-			"location": "Idyllshire (6, 7)",
-			"details": "2PM - 8PM"
+			"info": "Nell Half-Full",
+			"location": "The Battlehall (3, 3)"
 		}]
 	},
 	{
@@ -1841,6 +1980,19 @@
 		}]
 	},
 	{
+		"name": "Nael van Darnus",
+		"lore": "'The hour of cleansing is at hand - by my searing light shall the world be purged of its taint.'",
+		"attributes": "garlean",
+		"expansion": "ARR",
+		"rarity": "4",
+		"card": "9 3 9 3",
+		"sources": [{
+			"type": "npc",
+			"info": "Flichoirel the Lordling",
+			"location": "The Battlehall (3, 3)"
+		}]
+	},
+	{
 		"name": "Minfilia",
 		"lore": "'No doubt you're ripe to burst with questions, but have patience-all will be revealed in time.'",
 		"attributes": "scion",
@@ -1899,6 +2051,34 @@
 			"type": "vendor",
 			"info": "20,000 MGP",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}]
+	},
+	{
+		"name": "Heavensward Thancred",
+		"lore": "'If nothing else, you might have warned me that I would emerge from the Lifestream in the altogether.'",
+		"attributes": "scion",
+		"expansion": "Heavensward",
+		"rarity": "4",
+		"card": "9 8 7 1",
+		"sources": [{
+			"type": "achievement",
+			"info": "Triple Team V",
+			"details": "Obtain 60 unique Triple Triad cards.",
+			"location": "Jonathas, Old Gridania (10, 6)"
+		}]
+	},
+	{
+		"name": "Heavensward Y'shtola",
+		"lore": "'If the Ascians will go to any lengths to resurrect their god, then we must needs be as committed to our cause - to unmask them and their schemes, and to crush them both utterly.'",
+		"attributes": "scion",
+		"expansion": "Heavensward",
+		"rarity": "4",
+		"card": "5 9 2 9",
+		"sources": [{
+			"type": "achievement",
+			"info": "Triple-Decker VI",
+			"details": "Obtain 150 unique Triple Triad cards.",
+			"location": "Jonathas, Old Gridania (10, 6)"
 		}]
 	},
 	{
@@ -2057,6 +2237,24 @@
 			"type": "npc",
 			"info": "King Elmer",
 			"location": "Gold Saucer (3, 7)"
+		}]
+	},
+	{
+		"name": "Sophia",
+		"lore": "One of the three eikons who comprise the Warring Triad. Summoned by the diverse peoples of an ancient Meracydian nation, the 'Goddess,' as she was simply known, was revered as an entity of enlightenment. Legends tell that Sophia brought together tribes of disparate form by imbuing their souls with a transcendent understanding of balance and harmony.",
+		"attributes": "primal",
+		"expansion": "Heavensward",
+		"rarity": "5",
+		"card": "6 A 5 8",
+		"sources": [{
+			"type": "trial",
+			"info": "Sophia",
+			"location": "Containment Bay P1T6"
+		},
+		{
+			"type": "trial",
+			"info": "Sophia",
+			"location": "Containment Bay P1T6 (Extreme)"
 		}]
 	},
 	{

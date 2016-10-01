@@ -1017,6 +1017,16 @@
 		}]
 	},
 	{
+		"name": "Shaggy Shoat",
+		"lore": "The orphaned offspring of one of the many wild boars that inhabit the deep ravines of Xelphatol. Having lost its mother, the tiny beast seeks someone of unmatched strength and boundless courage to teach it the ways of survival. Until that someone is found, you will do most nicely.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Tozol Huatotl",
+			"location": "Xelphatol"
+		}]
+	},
+	{
 		"name": "Mammet #001",
 		"lore": "The standard frill-free #001 model is not only the best-selling mammet on the market, but is the blueprint on which all other clockwork servitors are based.",
 		"expansion": "ARR",
@@ -1575,6 +1585,21 @@
 		}]
 	},
 	{
+		"name": "Toy Alexander",
+		"lore": "At first dismissed as a quaint oddity, it has recently been discovered that the Illuminati use this fully functional replica of the primal Alexander to educate young goblins in the fields of metallurgy and engineering.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "raid",
+			"info": "Alexander Prime",
+			"location": "Alexander - The Soul of the Creator"
+		},
+		{
+			"type": "raid",
+			"info": "Alexander Prime",
+			"location": "Alexander - The Soul of the Creator (Savage)"
+		}]
+	},
+	{
 		"name": "Faustlet",
 		"lore": "The Illuminati reportedly designed this minute automaton for the purpose of testing the effectiveness of their newest weapons. Perhaps being used as target practice has filled it with the need to lash out against imagined enemies.",
 		"expansion": "Heavensward",
@@ -1944,6 +1969,16 @@
 		}]
 	},
 	{
+		"name": "Wind-up Moenbryda",
+		"lore": "This anatomically accurate representation of Moenbryda was secretly crafted by none other than Urianger immediately following the untimely passing of his beloved companion. What he did with it before it passed to you hands is a tale best left untold.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "quest",
+			"info": "An Ending to Mark a New Beginning",
+			"location": "Alphinaud, Southern Thanalan (22, 21)"
+		}]
+	},
+	{
 		"name": "Wind-up Alphinaud",
 		"lore": "In an attempt to secure funding for the financially strapped organization, the Crystal Braves treasurer took it upon himself to have three score thousand crafted and delivered to Rowena's House of Splendors for sale... where they have been collecting dust since...",
 		"expansion": "Heavensward",
@@ -2231,6 +2266,76 @@
 		"sources": [{
 			"type": "holiday",
 			"info": "Yo-kai Watch cross-promotion 2016",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Continental Eye",
+		"lore": "Cursed with a weak vessel upon its arrival in the corporeal realm, this malformed and maladroit voidsent was summarily captured and put to work at the Continental Circus...until being sold for a handful of coin to a new owner - you.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "Not yet implemented",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Dress-up Thancred",
+		"lore": "Several moons in the wild, removed from civilization and forced to adopt a more bestial means of survival transformed not only Thancred's body, but his mind. Due to the limitations of clockwork technology, this automaton only depicts those changes to the former.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "Not yet implemented",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Dress-up Alisaie",
+		"lore": "After finding that she could simply not tell her wind-up Alisaie and Alphinaud automatons apart, Tataru went about modifying the former's garments, creating something both new and bold...all while keeping manufacturing costs at an absolute minimum!",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "Not yet implemented",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Wind-up Edda",
+		"lore": "While not confirmed, it is thought this eerily life-like replica of Edda Blackbosom was created by a former companion of the now-deceased (?) adventurer. Those who have possessed the dark fetish assert that its hair grows at night when no one is looking.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "Not yet implemented",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Wind-up Lulu",
+		"lore": "Peoples of the Far East tell the tale of a powerful mage and master of puppets who would rain destruction down on any that might harm her companions as they made their journey to save the world. Her name was Lulu...",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "Not yet implemented",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Wind-up Rikku",
+		"lore": "Peoples of the Far East tell the tale of a plucky young lass with a fiery heart and questionable taste in finery who accompanied a summoner on her journey to bring peace to the world. That young lass's name was Rikku...",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "Not yet implemented",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Namingway",
+		"lore": "While it is whispered that this cheerful vagrant is the sole surviving member of a tribe hailing from none other than the moon, most see Namingway for who he is─a queer fellow with a penchant for giving all he meets absurd nickname then jotting them down in his mysterious journal.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "Not yet implemented",
 			"location": "N/A"
 		}]
 	}
