@@ -61,7 +61,7 @@
 		}]
 	},
 	{
-		"name": "Lost In The Clouds",
+		"name": "Lost in the Clouds",
 		"lore": "The Sea of Clouds, daytime",
 		"expansion": "ARR",
 		"sources": [{
@@ -293,7 +293,7 @@
 			"type": "crafted",
 			"info": "Alchemist 60 (Requires Master Alchemist III)",
 			"location": "N/A",
-			"details": "Faded roll available: Hunts in Dravanian Forelands (Lost of the Clouds)"
+			"details": "Requires faded roll for Lost in the Clouds"
 		}]
 	},
 	{

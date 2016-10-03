@@ -1,3 +1,7 @@
+# Oct 2, 2016
+- Corrected location for Torn from the Heavens.
+- Changed "Not yet implemented" to "Unknown".
+
 # Oct 1, 2016
 - Added 3.4 content.
 - Minor data corrections.
