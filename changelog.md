@@ -1,3 +1,6 @@
+# Oct 9, 2016
+- Added minions drops from Bronze-trimmed Sacks.
+
 # Oct 2, 2016
 - Corrected location for Torn from the Heavens.
 - Changed "Not yet implemented" to "Unknown".
