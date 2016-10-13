@@ -10,6 +10,7 @@
 		<script type="text/javascript" src="assets/js/smart-table.min.js"></script>
 		<script type="text/javascript" src="assets/js/ui-bootstrap.min.js"></script>
 		<script type="text/javascript" src="assets/js/angular-marked.min.js"></script>
+		<script type="text/javascript" src="assets/js/FileSaver.js"></script>
 		<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
 		<link rel="stylesheet" href="assets/css/format.css" />
 		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
@@ -22,7 +23,7 @@
 			</div>
 			<ul class="nav navbar-nav">
 				<li ng-repeat="t in tabs" ng-class="navTabActive(t.id)"><a href="#" ng-click="setTab(t.id)">{{t.title}}</a></li>
-				<li><a href="#" data-toggle="modal" data-target="#settingsModal">Settings</a></li>
+				<li><a href="#" data-toggle="modal" data-target="#settingsModal" ng-click="prepareExport()">Settings</a></li>
 			</ul>
 			<div class="collapse navbar-collapse">
 				<div class="progress-wrapper">
@@ -44,11 +45,12 @@
 						<th class="clickable small-column text-center" st-sort="obtained" st-skip-natural="true">Have?</th>
 					</tr>
 					<tr>
-						<th colspan="{{t.tableHeading.length + 5}}"><input st-search="name" class="form-control" placeholder="Search name..." type="text"/></th>
+						<th colspan="2"><input st-search="name" class="form-control" placeholder="Search name..." type="text"/></th>
+						<th colspan="{{t.tableHeading.length + 3}}"><input ng-model="sourceSearchTerm.term" class="form-control" ng-change="testAllFilters()" placeholder="Search source..." type="text"/></th>
 					</tr>
 				</thead>
 				<tbody>
-					<tr ng-hide="checkFilter(item)" ng-repeat="item in t.data">
+					<tr ng-hide="item.filtered" ng-repeat="item in t.data">
 						<td class="xsmall-column text-center">
 							<div class="item-number">{{item["number"]}}</div>
 						</td>
@@ -72,7 +74,7 @@
 						</td>
 						<td>
 							<div class="reflection-box" popover-trigger="mouseenter" ng-repeat="s in item.activesources" tooltip-placement="right" uib-popover-template="'sourceTemplate.html'">
-								<img class="source" ng-src="assets/icons/system/source_{{fixImgString(s.type)}}.png">
+								<img class="source" ng-src="assets/icons/system/source_{{fixString(s.type)}}.png">
 								<div class="reflection-frame"></div>
 							</div>
 						</td>
@@ -95,14 +97,25 @@
 					<div class="modal-body">
 						<h3>Filters</h3>
 						<div>
-							<button type="button" class="btn btn-btnprimary" ng-class="{'btn-danger':filterObtained, 'btn-success': !filterObtained}" ng-model="filterObtained" uib-btn-checkbox>Obtained</button>
+							<button type="button" class="btn btn-btnprimary" ng-class="{'btn-danger':filterObtained, 'btn-success': !filterObtained}" ng-model="filterObtained" ng-click="testAllFilters()" uib-btn-checkbox>Obtained</button>
+							<button type="button" class="btn btn-btnprimary btn-danger" ng-click="filterAll(true)">All</button>
+							<button type="button" class="btn btn-btnprimary btn-success" ng-click="filterAll(false)">None</button>
 						</div>
 						<div class="btn-group">
-							<button ng-repeat="f in filterLibrary" type="button" class="btn btn-btnprimary" ng-class="{'btn-danger':f.filtered, 'btn-success': !f.filtered}" ng-model="f.filtered" uib-btn-checkbox>{{f.name}}</button>
+							<button ng-repeat="f in filterLibrary" type="button" class="btn btn-btnprimary" ng-class="{'btn-danger':f.filtered, 'btn-success': !f.filtered}" ng-model="f.filtered" ng-click="testAllFilters()" uib-btn-checkbox>{{f.name}}</button>
 						</div>
-						<div class="modal-footer">
-							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						<div>
+							<button type="button" class="btn btn-primary btn-success" ng-click="exportData()">Export to Disk</button>
+							<button type="button" class="btn btn-primary btn-success" ng-click="importData()">Import from Disk</button>
+							<input type="file" id="import-file" />
 						</div>
+						<div>
+							<button type="button" class="btn btn-primary btn-danger" ng-click="clearObtained(true)">Clear Collection</button>	
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
 					</div>
 				</div>
 			</div>
