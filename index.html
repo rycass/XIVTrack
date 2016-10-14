@@ -104,13 +104,25 @@
 						<div class="btn-group">
 							<button ng-repeat="f in filterLibrary" type="button" class="btn btn-btnprimary" ng-class="{'btn-danger':f.filtered, 'btn-success': !f.filtered}" ng-model="f.filtered" ng-click="testAllFilters()" uib-btn-checkbox>{{f.name}}</button>
 						</div>
+						<h3>Import/Export</h3>
+						<h5>From Disk</h5>
 						<div>
-							<button type="button" class="btn btn-primary btn-success" ng-click="exportData()">Export to Disk</button>
-							<button type="button" class="btn btn-primary btn-success" ng-click="importData()">Import from Disk</button>
 							<input type="file" id="import-file" />
+							<button type="button" class="btn btn-primary" ng-click="exportCSV()">Export to Disk</button>
+							<button type="button" class="btn btn-primary" ng-click="importCSV()">Import from Disk</button>
 						</div>
+						<h5>From Lodestone</h5>
 						<div>
-							<button type="button" class="btn btn-primary btn-danger" ng-click="clearObtained(true)">Clear Collection</button>	
+							<input ng-model="lodestoneName" class="form-control" placeholder="Name" type="text"/>
+							<select name="lodestone-server" id="lodestone-server" ng-model="serverSelection.model">
+								<option selected="selected" value="">Server...</option>
+								<option ng-repeat="option in serverSelection.library" value="{{option.name}}">{{option.name}}</option>
+							</select>
+							<button type="button" class="btn btn-primary" ng-click="fetchCharacterID()">Import from Lodestone</button>
+						</div>
+						<h3>Clear Data</h3>
+						<div>
+							<button type="button" class="btn btn-primary" ng-click="clearObtained(true)">Clear Collection</button>	
 						</div>
 					</div>
 					<div class="modal-footer">

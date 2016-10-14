@@ -2,7 +2,7 @@ $(document).ready(function(){
 	var app = angular.module('XIVTrack', ['ui.bootstrap', 'smart-table']);	
 	var control = app.controller('TableController', function($scope) {
 		
-		$scope.filterLibrary = {vendor:{name:"Vendor", filtered:false}, quest:{name:"Quest", filtered:false}, dungeon:{name:"Dungeon", filtered:false}, raid:{name:"Raid", filtered:false}, trial:{name:"Trial", filtered:false}, fate:{name:"FATE", filtered:false}, achievement:{name:"Achievement", filtered:false}, unobtainable:{name:"Unobtainable", filtered:false}, merchandise:{name:"Merchandise Bonus", filtered:false}, holiday:{name:"Holiday", filtered:false}, promotion:{name:"Promotion", filtered:false}, cashshop:{name:"Cash Shop", filtered:false}, treasurehunt:{name:"Treasure Hunt", filtered:false}, crafted:{name:"Crafted", filtered:false}, gathered:{name:"Gathered", filtered:false}, gardening:{name:"Gardening", filtered:false}, venture:{name:"Venture", filtered:false}, npc:{name:"NPC", filtered:false}, other:{name:"Other", filtered:false}};
+		$scope.filterLibrary = {vendor:{name:"Vendor", filtered:false}, quest:{name:"Quest", filtered:false}, dungeon:{name:"Dungeon", filtered:false}, raid:{name:"Raid", filtered:false}, trial:{name:"Trial", filtered:false}, fate:{name:"FATE", filtered:false}, achievement:{name:"Achievement", filtered:false}, unobtainable:{name:"Unobtainable", filtered:false}, merchandise:{name:"Merchandise Bonus", filtered:false}, holiday:{name:"Holiday", filtered:false}, promotion:{name:"Promotion", filtered:false}, cashshop:{name:"Cash Shop", filtered:false}, treasurehunt:{name:"Treasure Hunt", filtered:false}, crafted:{name:"Crafted", filtered:false}, gathered:{name:"Gathered", filtered:false}, gardening:{name:"Gardening", filtered:false}, venture:{name:"Venture", filtered:false}, npc:{name:"NPC", filtered:false}, sightseeing:{name:"Sightseeing", filtered:false}, other:{name:"Other", filtered:false}};
 		$scope.filterObtained = false;
 		$scope.settingTabActive = false;
 		$scope.sortType = "Name";
@@ -15,7 +15,8 @@ $(document).ready(function(){
 			{ title:'Triple Triad', id: '2', prefix: 'triad', data: [], sData: [], tableHeading:["Card"], numObtained:0, maxObtained: 0, backgrounds:["goldsaucer.jpg"], oneIcon: false},
 			{ title:'Barding', id: '3', prefix: 'barding', data: [], sData: [], tableHeading:[], numObtained:0, maxObtained: 0, backgrounds:["highland.jpg"], oneIcon: false},
 			{ title:'Orchestrion', id: '4', prefix: 'music', data: [], sData: [], tableHeading:[], numObtained:0, maxObtained: 0, backgrounds:["orchestrion.jpg"], oneIcon: true},
-			{ title:'Titles', id: '5', prefix: 'title', data: [], sData: [], tableHeading:[], numObtained:0, maxObtained: 0, backgrounds:["jalzahn.jpg"], oneIcon: true}
+			{ title:'Titles', id: '5', prefix: 'title', data: [], sData: [], tableHeading:[], numObtained:0, maxObtained: 0, backgrounds:["jalzahn.jpg"], oneIcon: true},
+			{ title:'Sightseeing', id: '6', prefix: 'sightseeing', data: [], sData: [], tableHeading:[], numObtained:0, maxObtained: 0, backgrounds:["cat.jpg"], oneIcon: false}
 		];
 		
 		$scope.bgStyle = "";
@@ -24,6 +25,75 @@ $(document).ready(function(){
 		
 		$scope.activeTabNum = 0;
 		$scope.activeTab = $scope.tabs[0];
+	
+		$scope.lodestoneName = "";
+		$scope.serverSelection = {model: "",
+			library:[
+				{id: '1', name: 'Adamantoise'}, 
+				{id: '2', name: 'Aegis'},
+				{id: '3', name: 'Alexander'}, 
+				{id: '4', name: 'Anima'},
+				{id: '5', name: 'Asura'},
+				{id: '6', name: 'Atomos'},
+				{id: '7', name: 'Bahamut'},	
+				{id: '8', name: 'Balmung'},
+				{id: '9', name: 'Behemoth'},
+				{id: '10', name: 'Belias'},
+				{id: '11', name: 'Brynhildr'},
+				{id: '12', name: 'Cactuar'},
+				{id: '13', name: 'Carbuncle'},
+				{id: '14', name: 'Cerberus'},
+				{id: '15', name: 'Coeurl'},
+				{id: '16', name: 'Chocobo'},
+				{id: '17', name: 'Diabolos'},
+				{id: '18', name: 'Durandal'},
+				{id: '19', name: 'Excalibur'},
+				{id: '20', name: 'Exodus'},
+				{id: '21', name: 'Faerie'},
+				{id: '22', name: 'Famfrit'},
+				{id: '23', name: 'Fenrir'},
+				{id: '24', name: 'Garuda'},
+				{id: '25', name: 'Gilgamesh'},
+				{id: '26', name: 'Goblin'},
+				{id: '27', name: 'Gungnir'},
+				{id: '28', name: 'Hades'},
+				{id: '29', name: 'Hyperion'},
+				{id: '30', name: 'Ifrit'},
+				{id: '31', name: 'Ixion'},
+				{id: '32', name: 'Jenova'},
+				{id: '33', name: 'Kujata'},
+				{id: '34', name: 'Lamia'},
+				{id: '35', name: 'Leviathan'},
+				{id: '36', name: 'Lich'},
+				{id: '37', name: 'Malboro'},
+				{id: '38', name: 'Mandragora'},
+				{id: '39', name: 'Masamune'},
+				{id: '40', name: 'Mateus'},
+				{id: '41', name: 'Midgardsormr'},
+				{id: '42', name: 'Moogle'},
+				{id: '43', name: 'Odin'},
+				{id: '44', name: 'Pandaemonium'},
+				{id: '45', name: 'Phoenix'},
+				{id: '46', name: 'Ragnarok'},
+				{id: '47', name: 'Ramuh'},
+				{id: '48', name: 'Ridill'},
+				{id: '49', name: 'Sargatanas'},
+				{id: '50', name: 'Shinryu'},
+				{id: '51', name: 'Shiva'},
+				{id: '52', name: 'Siren'},
+				{id: '53', name: 'Tiamat'},
+				{id: '54', name: 'Titan'},
+				{id: '55', name: 'Tonberry'},
+				{id: '56', name: 'Typhon'},
+				{id: '57', name: 'Ultima'},
+				{id: '58', name: 'Ultros'},
+				{id: '59', name: 'Unicorn'},
+				{id: '60', name: 'Valefor'},
+				{id: '61', name: 'Yojimbo'},
+				{id: '62', name: 'Zalera'},
+				{id: '63', name: 'Zeromus'},
+				{id: '64', name: 'Zodiark'}
+		]};
 		
 		$scope.setup = function() {
 			var loop = 0;
@@ -220,7 +290,7 @@ $(document).ready(function(){
 		}
 		
 		//Exports all collection data to CSV file.
-		$scope.exportData = function() {
+		$scope.exportCSV = function() {
 			var csvContent = "tab,name,obtained\n";
 			for (var tnum = 0; tnum < $scope.tabs.length; tnum++) {
 				var tab = $scope.tabs[tnum];
@@ -237,13 +307,13 @@ $(document).ready(function(){
 		
 		//Imports all collection data from CSV file.
 		//To fix: giving it something that's not a CSV file
-		$scope.importData = function() {
+		$scope.importCSV = function() {
 			var fileInput = document.getElementById('import-file');
 			if (fileInput.files.length == 0) {
 				alert("Please select a file!");
 				return;
 			}
-			var confirmVal = confirm("Are you sure? This will overwrite your collection.");
+			var confirmVal = confirm("Import data? This will overwrite your entire collection.");
 			if (!confirmVal) return;
 			
 			var file = fileInput.files[0];
@@ -282,29 +352,152 @@ $(document).ready(function(){
 							return;
 					}
 				}
-				$scope.clearObtained(false)
+				
 				for(var tnum = 0; tnum < $scope.tabs.length; tnum++) {
 					$scope.tabs[tnum].sData = dataArray[tnum];
 				}
 				$scope.forceSyncCollection();
+				alert("Import successful!");
 			}
 			
 			reader.readAsText(file);
 		}
 		
-		$scope.importLodestone = function() {
-			
-			var charID = 3647075; //DEBUG VALUE, FIXME
-			
-			var confirmVal = confirm("Are you sure? This will overwrite your Minion and Mount collection.");
-			if (!confirmVal) return;
-			
+		$scope.fetchCharacterID = function() {
+			var name = $scope.lodestoneName;
+			var server = $scope.serverSelection.model;
+			if (server == "") {
+				alert("Please select a server.");
+				return;
+			}
+			$.ajax({
+				type: "GET",
+				url: "https://xivsync.com:8443/characters/search?name=" + encodeURIComponent(name.toLowerCase()) + "&server=" + encodeURIComponent(server.toLowerCase()),
+				dataType: "json",
+				success: function success(resp) {
+					var finalName = "";
+					if (resp.results.length == 0) {
+						alert("Character not found. Make sure you typed the full name correctly.");
+						return;
+					}
+					var id = 0;
+					if (resp.paging.total > 1) {
+						for (var cnum = 0; cnum < resp.results.length; cnum++) {
+							if (resp.results[cnum].name.toLowerCase() == name.toLowerCase()) {
+								id = resp.results[cnum].id;
+								finalName = resp.results[cnum].name;
+								break;
+							}
+						}
+						if (id == 0) {
+							alert("Multiple characters found. Make sure you typed the full name correctly.");
+							return;
+						}
+					} else {
+						id = resp.results[0].id;
+						finalName = resp.results[0].name;
+					}
+					
+					var confirmVal = confirm("Import " + finalName + " of " + server + "? This will overwrite your Minion and Mount collection.");
+					if (!confirmVal) return;
+					
+					$.ajax({
+						type: "GET",
+						url: "https://xivsync.com:8443/characters/get/" + id + "?restrict=minions,mounts",
+						dataType: "json",
+						success: function success(resp2) {
+							$scope.importLodestone(resp2);
+						}
+					});
+				}
+			});
+		}
+		
+		$scope.importLodestone = function(results) {			
 			var dataArray = [];
 			for(var tnum = 0; tnum < $scope.tabs.length; tnum++) {
-				if ($scope.tabs[tnum].prefix != "minion" || $scope.tabs[tnum].prefix != "mount") continue;
+				if ($scope.tabs[tnum].prefix != "minion" && $scope.tabs[tnum].prefix != "mount") continue;
 				dataArray[tnum] = $.extend(true, [], $scope.tabs[tnum].sData);
+				for(var inum = 0; inum < dataArray[tnum].length; inum++) {
+					dataArray[tnum][inum].obtained = false;
+				}
 			}
+			
+			for (var jnum = 0; jnum < results.minions.length; jnum++) {
+				var dnum = 0;
+				while (dnum < dataArray[0].length) {
+					if ($scope.fixString(results.minions[jnum].name) == $scope.fixString(dataArray[0][dnum].name)) {
+						dataArray[0][dnum].obtained = true;
+						break;
+					} else {
+						dnum++;
+					}
+				}
+				if (dnum >= dataArray[0].length) {
+					alert("I have no idea what " + results.minions[jnum].name + " is.");
+				}
+			}
+			
+			for (var jnum = 0; jnum < results.mounts.length; jnum++) {
+				var dnum = 0;
+				while (dnum < dataArray[1].length) {
+					if ($scope.fixString(results.mounts[jnum].name) == $scope.fixString(dataArray[1][dnum].name)) {
+						dataArray[1][dnum].obtained = true;
+						break;
+					} else {
+						dnum++;
+					}
+				}
+				if (dnum >= dataArray[1].length) {
+					alert("I have no idea what " + results.mounts[jnum].name + " is.");
+				}
+			}
+			
+			for(var tnum = 0; tnum < 2; tnum++) {
+				$scope.tabs[tnum].sData = dataArray[tnum];
+			}
+			
+			$scope.forceSyncCollection();
+			alert("Import successful!");
 		}
+		//Old algorithm, more efficient but easily breaks when order is incorrect
+		//Maybe use to find errors in order?
+		/*
+			var dnum = 0;
+			var lastGoodData = 0;
+			for (var jnum = 0; jnum < results.minions.length; jnum++) {
+				if ($scope.fixString(results.minions[jnum].name) == $scope.fixString(dataArray[0][dnum].name)) {
+					dataArray[0][dnum].obtained = true;
+					lastGoodData = dnum;
+					dnum++;
+				} else {
+					dnum++;
+					jnum--;
+					if (dnum >= dataArray[0].length) {
+						alert("I have no idea what " + results.minions[jnum].name + " is.");
+						jnum++;
+						dnum = lastGoodData;
+					}
+				}
+			}
+			
+			dnum = 0;
+			lastGoodData = 0;
+			for (var jnum = 0; jnum < results.mounts.length; jnum++) {
+				if ($scope.fixString(results.mounts[jnum].name) == $scope.fixString(dataArray[1][dnum].name)) {
+					dataArray[1][dnum].obtained = true;
+					lastGoodData = dnum;
+					dnum++;
+				} else {
+					dnum++;
+					jnum--;
+					if (dnum >= dataArray[1].length) {
+						alert("I have no idea what " + results.mounts[jnum].name + " is.");
+						dnum = lastGoodData;
+					}
+				}
+			}
+		*/
 		
 		//Forces a save of all collection data to localstorage. Also checks collection numbers.
 		$scope.forceSyncCollection = function() {

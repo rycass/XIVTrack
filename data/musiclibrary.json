@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Wailers and Waterwheels",
-		"lore": "Gridania, daytime",
+		"lore": "Locales: Gridania, daytime",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -11,7 +11,7 @@
 	},
 	{
 		"name": "I Am the Sea",
-		"lore": "Limsa Lominsa, daytime",
+		"lore": "Locales: Limsa Lominsa, daytime",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -21,7 +21,7 @@
 	},
 	{
 		"name": "A New Hope",
-		"lore": "Ul'dah, daytime",
+		"lore": "Locales: Ul'dah, daytime",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -31,7 +31,7 @@
 	},
 	{
 		"name": "Solid",
-		"lore": "Ishgard, Foundation, daytime",
+		"lore": "Locales: Ishgard, Foundation, daytime",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -41,7 +41,7 @@
 	},
 	{
 		"name": "The Waking Sands",
-		"lore": "The Waking Sands",
+		"lore": "Locales: The Waking Sands",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -51,7 +51,7 @@
 	},
 	{
 		"name": "Painted Foothills",
-		"lore": "Dravanian Forelands, daytime",
+		"lore": "Locales: Dravanian Forelands, daytime",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -62,7 +62,7 @@
 	},
 	{
 		"name": "Lost in the Clouds",
-		"lore": "The Sea of Clouds, daytime",
+		"lore": "Locales: The Sea of Clouds, daytime",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -73,7 +73,7 @@
 	},
 	{
 		"name": "Another Round",
-		"lore": "Bar areas",
+		"lore": "Locales: Bar areas",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -84,7 +84,7 @@
 	},
 	{
 		"name": "Four-Sided Circle",
-		"lore": "Gold Saucer",
+		"lore": "Locales: Gold Saucer",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -94,7 +94,7 @@
 	},
 	{
 		"name": "Sport of Kings",
-		"lore": "Chocobo Racing",
+		"lore": "Locales: Chocobo Racing",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -104,7 +104,7 @@
 	},
 	{
 		"name": "A Sailor Never Sleeps",
-		"lore": "Limsa Lominsa, nighttime",
+		"lore": "Locales: Limsa Lominsa, nighttime",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -114,7 +114,7 @@
 	},
 	{
 		"name": "Dance of the Fireflies",
-		"lore": "Gridania, nighttime",
+		"lore": "Locales: Gridania, nighttime",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -124,7 +124,7 @@
 	},
 	{
 		"name": "Sultana Dreaming",
-		"lore": "Ul'Dah, nighttime",
+		"lore": "Locales: Ul'Dah, nighttime",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -134,7 +134,7 @@
 	},
 	{
 		"name": "Nobility Obliges",
-		"lore": "Ishgard, The Pillars, daytime",
+		"lore": "Locales: Ishgard, The Pillars, daytime",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -144,7 +144,7 @@
 	},
 	{
 		"name": "The Mushroomery",
-		"lore": "Matoya's Cave",
+		"lore": "Locales: Matoya's Cave",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -154,7 +154,7 @@
 	},
 	{
 		"name": "Shelter",
-		"lore": "Heavensward towns",
+		"lore": "Locales: Heavensward towns",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -164,7 +164,7 @@
 	},
 	{
 		"name": "Against the Wind",
-		"lore": "Coerthas Western Highlands, daytime",
+		"lore": "Locales: Coerthas Western Highlands, daytime",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -175,7 +175,7 @@
 	},
 	{
 		"name": "Landlords",
-		"lore": "The Churning Mists, daytime",
+		"lore": "Locales: The Churning Mists, daytime",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -186,7 +186,7 @@
 	},
 	{
 		"name": "Missing Pages",
-		"lore": "Dravanian Hinterlands, daytime",
+		"lore": "Locales: Dravanian Hinterlands, daytime",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -197,7 +197,7 @@
 	},
 	{
 		"name": "On Westerly Winds",
-		"lore": "La Noscea outdoors",
+		"lore": "Locales: La Noscea outdoors",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -207,7 +207,7 @@
 	},
 	{
 		"name": "Serenity",
-		"lore": "Black Shroud outdoors",
+		"lore": "Locales: Black Shroud outdoors",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -217,7 +217,7 @@
 	},
 	{
 		"name": "To The Sun",
-		"lore": "Thanalan outdoors",
+		"lore": "Locales: Thanalan outdoors",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -227,7 +227,7 @@
 	},
 	{
 		"name": "On Windy Meadows",
-		"lore": "Opening/Legacy La Noscea",
+		"lore": "Locales: Opening/Legacy La Noscea",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "treasurehunt",
@@ -237,7 +237,7 @@
 	},
 	{
 		"name": "Whisper of the Land",
-		"lore": "Opening/Legacy Black Shroud",
+		"lore": "Locales: Opening/Legacy Black Shroud",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "treasurehunt",
@@ -247,7 +247,7 @@
 	},
 	{
 		"name": "Twilight Over Thanalan",
-		"lore": "Opening/Legacy Thanalan",
+		"lore": "Locales: Opening/Legacy Thanalan",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "treasurehunt",
@@ -257,7 +257,7 @@
 	},
 		{
 		"name": "Unspoken",
-		"lore": "Legacy Coerthas",
+		"lore": "Locales: Legacy Coerthas",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "treasurehunt",
@@ -267,7 +267,7 @@
 	},
 	{
 		"name": "Nobility Sleeps",
-		"lore": "Ishgard, Pillars, nighttime",
+		"lore": "Locales: Ishgard, Pillars, nighttime",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -277,7 +277,7 @@
 	},
 	{
 		"name": "Night in the Brume",
-		"lore": "Ishgard, Foundation, nighttime",
+		"lore": "Locales: Ishgard, Foundation, nighttime",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -287,7 +287,7 @@
 	},
 	{
 		"name": "Close to the Heavens",
-		"lore": "Sea of Clouds, nighttime",
+		"lore": "Locales: Sea of Clouds, nighttime",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -298,7 +298,7 @@
 	},
 	{
 		"name": "Smoulder",
-		"lore": "Amalj'aa Tribe theme",
+		"lore": "Locales: Amalj'aa Tribe theme",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -308,7 +308,7 @@
 	},
 	{
 		"name": "Coming Home",
-		"lore": "Vanu Vanu Tribe theme",
+		"lore": "Locales: Vanu Vanu Tribe theme",
 		"expansion": "Heavensward",
 		"sources": [{
 			"type": "vendor",
@@ -318,7 +318,7 @@
 	},
 	{
 		"name": "Behind Closed Doors",
-		"lore": "Inn",
+		"lore": "Locales: Inn",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -338,7 +338,7 @@
 	},
 	{
 		"name": "Reflections",
-		"lore": "Revenant's Toll, nighttime",
+		"lore": "Locales: Revenant's Toll, nighttime",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -349,7 +349,7 @@
 	},
 	{
 		"name": "Where The Heart Is",
-		"lore": "Residential area",
+		"lore": "Locales: Residential area",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -369,7 +369,7 @@
 	},
 	{
 		"name": "Homestead",
-		"lore": "Idyllshire, nighttime",
+		"lore": "Locales: Idyllshire, nighttime",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -379,7 +379,7 @@
 	},
 	{
 		"name": "A Light In the Storm",
-		"lore": "Pharos Sirius",
+		"lore": "Dungeons: Pharos Sirius",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -390,7 +390,7 @@
 	},
 	{
 		"name": "The Dark's Embrace",
-		"lore": "Copperbell Mines",
+		"lore": "Dungeons: Copperbell Mines",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -401,7 +401,7 @@
 	},
 	{
 		"name": "The Scars of Battle",
-		"lore": "The Lost City of Amdapor",
+		"lore": "Dungeons: The Lost City of Amdapor",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -412,7 +412,7 @@
 	},
 	{
 		"name": "Dark Vows",
-		"lore": "Tam-Tara Deepcroft",
+		"lore": "Dungeons: Tam-Tara Deepcroft",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -423,7 +423,7 @@
 	},
 	{
 		"name": "Riptide",
-		"lore": "Sastasha",
+		"lore": "Dungeons: Sastasha",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -434,7 +434,7 @@
 	},
 	{
 		"name": "Imagination",
-		"lore": "The Aetherochemical Research Facility",
+		"lore": "Dungeons: The Aetherochemical Research Facility",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -445,7 +445,7 @@
 	},
 	{
 		"name": "Down the Up Staircase",
-		"lore": "The Antitower",
+		"lore": "Dungeons: The Antitower",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -456,7 +456,7 @@
 	},
 	{
 		"name": "Horizons Calling",
-		"lore": "Hullbreaker Isle",
+		"lore": "Dungeons: Hullbreaker Isle",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "dungeon",
@@ -471,7 +471,7 @@
 	},
 	{
 		"name": "The Warrens",
-		"lore": "Snowcloak",
+		"lore": "Dungeons: Snowcloak",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "dungeon",
@@ -481,7 +481,7 @@
 	},
 	{
 		"name": "Ink Long Dry",
-		"lore": "The Great Gubal Library",
+		"lore": "Dungeons: The Great Gubal Library",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "dungeon",
@@ -491,7 +491,7 @@
 	},
 	{
 		"name": "Unbreakable",
-		"lore": "The Fractal Continuum",
+		"lore": "Dungeons: The Fractal Continuum",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "dungeon",
@@ -501,7 +501,7 @@
 	},
 	{
 		"name": "Apologies",
-		"lore": "Sohr Khai",
+		"lore": "Dungeons: Sohr Khai",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "dungeon",
@@ -511,19 +511,19 @@
 	},
 	{
 		"name": "Silver Tears",
-		"lore": "Keeper of the Lake",
+		"lore": "Dungeons: Keeper of the Lake",
 		"expansion": "ARR",
 		"sources": []
 	},
 	{
 		"name": "Slumber Eternal",
-		"lore": "Sohm Al theme",
+		"lore": "Dungeons: Sohm Al theme",
 		"expansion": "ARR",
 		"sources": []
 	},
 	{
 		"name": "Grounded",
-		"lore": "Xelphatol",
+		"lore": "Dungeons: Xelphatol",
 		"expansion": "Heavensward",
 		"sources": [{
 			"type": "quest",
@@ -533,7 +533,7 @@
 	},
 	{
 		"name": "Torn from the Heavens",
-		"lore": "Hydra/Chimera boss fight",
+		"lore": "Trials: Hydra/Chimera boss fight",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -543,7 +543,7 @@
 	},
 	{
 		"name": "Ultima",
-		"lore": "Ultima Weapon (Phase 2)",
+		"lore": "Trials: Ultima Weapon (Phase 2)",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -554,7 +554,7 @@
 	},
 	{
 		"name": "The Maker's Ruin",
-		"lore": "Ultima Weapon (Phase 1)",
+		"lore": "Trials: Ultima Weapon (Phase 1)",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -565,7 +565,7 @@
 	},
 	{
 		"name": "Primal Judgement",
-		"lore": "The Bowl of Embers",
+		"lore": "Trials: The Bowl of Embers",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -576,7 +576,7 @@
 	},
 	{
 		"name": "Fallen Angel",
-		"lore": "The Howling Eye",
+		"lore": "Trials: The Howling Eye",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -587,7 +587,7 @@
 	},
 	{
 		"name": "Under the Weight",
-		"lore": "The Navel (Final phase)",
+		"lore": "Trials: The Navel (Final phase)",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -598,7 +598,7 @@
 	},
 	{
 		"name": "Heroes",
-		"lore": "The Singularity Reactor",
+		"lore": "Trials: The Singularity Reactor",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -609,7 +609,7 @@
 	},
 	{
 		"name": "Fiend",
-		"lore": "Containment Bay S1T7 (Phase 2)",
+		"lore": "Trials: Containment Bay S1T7 (Phase 2)",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -620,7 +620,7 @@
 	},
 	{
 		"name": "Wreck to the Seaman",
-		"lore": "The Whorleater (Phase 1)",
+		"lore": "Trials: The Whorleater (Phase 1)",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -631,7 +631,7 @@
 	},
 	{
 		"name": "Through the Maelstrom",
-		"lore": "The Whorleater (Phase 2)",
+		"lore": "Trials: The Whorleater (Phase 2)",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -642,7 +642,7 @@
 	},
 	{
 		"name": "Good King Moggle Mog XII",
-		"lore": "Thornmarch (Phase 2)",
+		"lore": "Trials: Thornmarch (Phase 2)",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -653,7 +653,7 @@
 	},
 	{
 		"name": "Revenge of the Horde",
-		"lore": "The Final Steps of Faith",
+		"lore": "Trials: The Final Steps of Faith",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -664,7 +664,7 @@
 	},
 	{
 		"name": "Battle on the Big Bridge",
-		"lore": "Battle on the Big Bridge",
+		"lore": "Trials: Battle on the Big Bridge",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -675,7 +675,7 @@
 	},
 	{
 		"name": "Battle to the Death - Heavensward",
-		"lore": "Containment Bay S1T7 (Phase 1)",
+		"lore": "Trials: Containment Bay S1T7 (Phase 1)",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -685,7 +685,7 @@
 	},
 		{
 		"name": "Footsteps in the Snow",
-		"lore": "Akh Afah Ampitheater (Phase 1)",
+		"lore": "Trials: Akh Afah Ampitheater (Phase 1)",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -696,7 +696,7 @@
 	},
 	{
 		"name": "Oblivion",
-		"lore": "Akh Afah Ampitheater (Phase 2)",
+		"lore": "Trials: Akh Afah Ampitheater (Phase 2)",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -707,7 +707,7 @@
 	},
 	{
 		"name": "Thunder Rolls",
-		"lore": "The Striking Tree",
+		"lore": "Trials: The Striking Tree",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -718,7 +718,7 @@
 	},
 	{
 		"name": "Equilibrium",
-		"lore": "Containment Bay P1T6",
+		"lore": "Trials: Containment Bay P1T6",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -727,9 +727,9 @@
 			"details": "Faded roll available: Sophia, Containment Bay P1T6 (Extreme)"
 		}]
 	},
-		{
+	{
 		"name": "Hubris",
-		"lore": "The Labyrinth of the Ancients",
+		"lore": "Raids: The Labyrinth of the Ancients",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -740,7 +740,7 @@
 	},
 	{
 		"name": "Tumbling Down",
-		"lore": "The Labyrinth of the Ancients, Acheron boss fight",
+		"lore": "Raids: The Labyrinth of the Ancients, Acheron boss fight",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -751,7 +751,7 @@
 	},
 	{
 		"name": "Out of the Labyrinth",
-		"lore": "Syrcus Tower, out of combat",
+		"lore": "Raids: Syrcus Tower, out of combat",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -762,7 +762,7 @@
 	},
 	{
 		"name": "Now I Know the Truth",
-		"lore": "Doga and Unei/Crystal Tower cutscenes",
+		"lore": "Raids: Doga and Unei/Crystal Tower cutscenes",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -773,7 +773,7 @@
 	},
 	{
 		"name": "Blind to the Dark",
-		"lore": "World of Darkness, out of combat",
+		"lore": "Raids: World of Darkness, out of combat",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -784,7 +784,7 @@
 	},
 	{
 		"name": "Hunger",
-		"lore": "World of Darkness, Cloud of Darkness boss fight",
+		"lore": "Raids: World of Darkness, Cloud of Darkness boss fight",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -795,7 +795,7 @@
 	},
 	{
 		"name": "Eternal Wind",
-		"lore": "Crystal Tower ending/Final Fantasy III map remix",
+		"lore": "Raids: Crystal Tower ending/Final Fantasy III map remix",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -806,7 +806,7 @@
 	},
 	{
 		"name": "Thunderer",
-		"lore": "Binding Coil of Bahamut, Twintania boss fight/Ascian boss fights",
+		"lore": "Raids: Binding Coil of Bahamut, Twintania boss fight/Ascian boss fights",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -817,7 +817,7 @@
 	},
 	{
 		"name": "Rise of the White Raven",
-		"lore": "Second Coil of Bahamut, Nael Deus Darnus boss fight",
+		"lore": "Raids: Second Coil of Bahamut, Nael Deus Darnus boss fight",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -828,7 +828,7 @@
 	},
 	{
 		"name": "From the Ashes",
-		"lore": "Final Coil of Bahamut, Phoenix boss fight",
+		"lore": "Raids: Final Coil of Bahamut, Phoenix boss fight",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -839,7 +839,7 @@
 	},
 	{
 		"name": "Answers",
-		"lore": "Final Fantasy XIV main theme",
+		"lore": "Raids: Final Fantasy XIV main theme",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -850,7 +850,7 @@
 	},
 	{
 		"name": "Sins of the Father, Sins of the Son",
-		"lore": "Alexander, pre-boss",
+		"lore": "Raids: Alexander, pre-boss",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "quest",
@@ -860,7 +860,7 @@
 	},
 	{
 		"name": "Locus",
-		"lore": "Alexander boss theme",
+		"lore": "Raids: Alexander boss theme",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "quest",
@@ -870,7 +870,7 @@
 	},
 	{
 		"name": "Metal",
-		"lore": "Alexander - The Burden of the Father/Alexander - The Burden of the Son (Phase 1)/Alxeander - The Eyes of the Creator",
+		"lore": "Raids: Alexander - The Burden of the Father/Alexander - The Burden of the Son (Phase 1)/Alxeander - The Eyes of the Creator",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "quest",
@@ -880,7 +880,7 @@
 	},
 	{
 		"name": "Metal - Brute Justice Mode",
-		"lore": "Alexander - The Burden of the Son (Phase 2)",
+		"lore": "Raids: Alexander - The Burden of the Son (Phase 2)",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "quest",
@@ -890,7 +890,7 @@
 	},
 	{
 		"name": "Exponential Entropy",
-		"lore": "Alexander - The Heart of the Creator",
+		"lore": "Raids: Alexander - The Heart of the Creator",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "quest",
@@ -900,7 +900,7 @@
 	},
 	{
 		"name": "Rise",
-		"lore": "Alexander - The Soul of the Creator",
+		"lore": "Raids: Alexander - The Soul of the Creator",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "quest",
@@ -910,7 +910,7 @@
 	},
 	{
 		"name": "Prelude - Discoveries",
-		"lore": "ARR login screen",
+		"lore": "Others: ARR login screen",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -921,7 +921,7 @@
 	},
 	{
 		"name": "A Cold Wind",
-		"lore": "Heavensward login screen",
+		"lore": "Others: Heavensward login screen",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -931,7 +931,7 @@
 	},
 	{
 		"name": "Contention",
-		"lore": "Zenith, The Churning Mists",
+		"lore": "Others: Zenith, The Churning Mists",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -941,7 +941,7 @@
 	},
 	{
 		"name": "Agent of Inquiry",
-		"lore": "Hildibrand main theme",
+		"lore": "Others: Hildibrand main theme",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -951,7 +951,7 @@
 	},
 	{
 		"name": "The Only Path",
-		"lore": "Cutscene theme",
+		"lore": "Others: Cutscene theme",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -962,7 +962,7 @@
 	},
 	{
 		"name": "A World Apart",
-		"lore": "Final Fantasy XIV ending theme",
+		"lore": "Others: Final Fantasy XIV ending theme",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -973,7 +973,7 @@
 	},
 	{
 		"name": "Tenacity",
-		"lore": "Battlecraft Levequests",
+		"lore": "Others: Battlecraft Levequests",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -983,7 +983,7 @@
 	},
 	{
 		"name": "When A Tree Falls",
-		"lore": "Fieldcraft Levequests",
+		"lore": "Others: Fieldcraft Levequests",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -993,7 +993,7 @@
 	},
 	{
 		"name": "Blood For Blood",
-		"lore": "Frontlines",
+		"lore": "Others: Frontlines",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -1004,7 +1004,7 @@
 	},
 	{
 		"name": "Starved",
-		"lore": "The Feast",
+		"lore": "Others: The Feast",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -1015,7 +1015,7 @@
 	},
 	{
 		"name": "Ominous Prognisticks",
-		"lore": "Heavensward dungeon boss",
+		"lore": "Others: Heavensward dungeon boss",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -1025,7 +1025,7 @@
 	},
 	{
 		"name": "Engage",
-		"lore": "The Diadem, out of combat",
+		"lore": "Others: The Diadem, out of combat",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -1036,7 +1036,7 @@
 	},
 	{
 		"name": "Defender of the Realm",
-		"lore": "Cutscenes",
+		"lore": "Others: Cutscenes",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "achievement",
@@ -1047,7 +1047,7 @@
 	},
 	{
 		"name": "Dragonsong",
-		"lore": "Heavensward main theme",
+		"lore": "Others: Heavensward main theme",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "quest",
@@ -1057,7 +1057,7 @@
 	},
 	{
 		"name": "The Seventh Sun",
-		"lore": "A Realm Reborn credits",
+		"lore": "Others: A Realm Reborn credits",
 		"expansion": "Heavensward",
 		"sources": [{
 			"type": "achievement",
@@ -1068,7 +1068,7 @@
 	},
 	{
 		"name": "Calamity Unbound",
-		"lore": "Binding Coil of Bahamut boss theme",
+		"lore": "Others: Binding Coil of Bahamut boss theme",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "treasurehunt",
@@ -1078,7 +1078,7 @@
 	},
 	{
 		"name": "Battle Theme 1.x",
-		"lore": "Final Fantasy II battle remix",
+		"lore": "Others: Final Fantasy II battle remix",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -1088,7 +1088,7 @@
 	},
 	{
 		"name": "Pa-Paya",
-		"lore": "Hatching-tide theme",
+		"lore": "Seasonal: Hatching-tide theme",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "holiday",
@@ -1098,7 +1098,7 @@
 	},
 	{
 		"name": "Moonfire Faire",
-		"lore": "Moonfire Faire theme",
+		"lore": "Seasonal: Moonfire Faire theme",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "holiday",
@@ -1108,11 +1108,31 @@
 	},
 	{
 		"name": "Heavensward",
-		"lore": "Heavensward main theme",
+		"lore": "Seasonal: Heavensward main theme",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "holiday",
 			"info": "The Rising 2016",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "All Saint's Wake",
+		"lore": "Seasonal: All Saint's Wake theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "holiday",
+			"info": "All Saint's Wake 2016",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Up at Dawn",
+		"lore": "Seasonal: All Saint's Wake theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "holiday",
+			"info": "All Saint's Wake 2016",
 			"location": "N/A"
 		}]
 	}

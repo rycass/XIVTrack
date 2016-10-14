@@ -10,17 +10,17 @@
 		},
 		{
 			"type": "vendor",
-			"info": "2400 Gil",
+			"info": "2400 gil",
 			"location": "Bango Zango, Limsa Lominsa Lower Decks (10, 11)"
 		},
 		{
 			"type": "vendor",
-			"info": "2400 Gil",
+			"info": "2400 gil",
 			"location": "Maisenta, New Gridania (12, 11)"
 		},
 		{
 			"type": "vendor",
-			"info": "2400 Gil",
+			"info": "2400 gil",
 			"location": "Roarich, Ul'Dah - Steps of Nald (11, 10)"
 		}]
 	},
@@ -116,22 +116,22 @@
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
-			"info": "2400 Gil",
+			"info": "2400 gil",
 			"location": "Minion Trader, Gold Saucer (Chocobo Square) (7, 6)"
 		},
 		{
 			"type": "vendor",
-			"info": "2400 Gil",
+			"info": "2400 gil",
 			"location": "Bango Zango, Limsa Lominsa Lower Decks (10, 11)"
 		},
 		{
 			"type": "vendor",
-			"info": "2400 Gil",
+			"info": "2400 gil",
 			"location": "Maisenta, New Gridania (12, 11)"
 		},
 		{
 			"type": "vendor",
-			"info": "2400 Gil",
+			"info": "2400 gil",
 			"location": "Roarich, Ul'Dah - Steps of Nald (11, 10)"
 		}]
 	},
@@ -171,7 +171,7 @@
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
-			"info": "2400 Gil",
+			"info": "2400 gil",
 			"details": "Vendor only sells minion if the FATE 'Attack on Highbridge: Act II' was completed successfully.",
 			"location": "Chachamun, Eastern Thanalan (22, 21)"
 		}]
@@ -298,7 +298,7 @@
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
-			"info": "2400 Gil",
+			"info": "2400 gil",
 			"details": "Vendor walks into position a few minutes after a 'Poor Maid' FATE has been completed. Vendor leaves shortly after a 'Poor Maid' FATE starts.",
 			"location": "Junkmonger Nonoroon, Upper La Noscea (11, 24)"
 		}]
@@ -1102,22 +1102,22 @@
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
-			"info": "2400 Gil",
+			"info": "2400 gil",
 			"location": "Minion Trader, Gold Saucer (Chocobo Square) (7, 6)"
 		},
 		{
 			"type": "vendor",
-			"info": "2400 Gil",
+			"info": "2400 gil",
 			"location": "Bango Zango, Limsa Lominsa Lower Decks (10, 11)"
 		},
 		{
 			"type": "vendor",
-			"info": "2400 Gil",
+			"info": "2400 gil",
 			"location": "Maisenta, New Gridania (12, 11)"
 		},
 		{
 			"type": "vendor",
-			"info": "2400 Gil",
+			"info": "2400 gil",
 			"location": "Roarich, Ul'Dah - Steps of Nald (11, 10)"
 		}]
 	},
@@ -1211,6 +1211,36 @@
 		"sources": [{
 			"type": "crafted",
 			"info": "Weaver 50",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Wind-up Moogle",
+		"lore": "A creation born of 90% love and 10% jealousy (or was that 90% jealousy and 10% love?), this clockwork masterpiece was conceived after the moogles of the Black Shroud began noticing all the adventurers with their new shiny minions, and decided they were not about to be left out.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "merchandise",
+			"info": "FFXIV: ARR Collector's Edition",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Wind-up Delivery Moogle",
+		"lore": "The never-ending flow of adventurers into Eorzea has placed quite a burden on the realm's little letter-carriers. To help lighten their load, several acolytes at the Goldsmiths' Guild volunteered their time to create a veritable army of miniature mail moogles.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "merchandise",
+			"info": "Delivery Moogle plush doll",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Set of Primogs",
+		"lore": "One night, an aspiring moogle bard had a dream?a dream to become the greatest musician in all the realm. But to do it he would need a band of merry moogles to accompany him. The bard had no friends, so instead he decided to create his own band from stolen mammet parts.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "merchandise",
+			"info": "Before the Fall Blu-ray Soundtrack",
 			"location": "N/A"
 		}]
 	},
@@ -1580,46 +1610,6 @@
 		}]
 	},
 	{
-		"name": "Wind-up Moogle",
-		"lore": "A creation born of 90% love and 10% jealousy (or was that 90% jealousy and 10% love?), this clockwork masterpiece was conceived after the moogles of the Black Shroud began noticing all the adventurers with their new shiny minions, and decided they were not about to be left out.",
-		"expansion": "ARR",
-		"sources": [{
-			"type": "merchandise",
-			"info": "FFXIV: ARR Collector's Edition",
-			"location": "N/A"
-		}]
-	},
-	{
-		"name": "Wind-up Delivery Moogle",
-		"lore": "The never-ending flow of adventurers into Eorzea has placed quite a burden on the realm's little letter-carriers. To help lighten their load, several acolytes at the Goldsmiths' Guild volunteered their time to create a veritable army of miniature mail moogles.",
-		"expansion": "ARR",
-		"sources": [{
-			"type": "merchandise",
-			"info": "Delivery Moogle plush doll",
-			"location": "N/A"
-		}]
-	},
-	{
-		"name": "Set of Primogs",
-		"lore": "One night, an aspiring moogle bard had a dream?a dream to become the greatest musician in all the realm. But to do it he would need a band of merry moogles to accompany him. The bard had no friends, so instead he decided to create his own band from stolen mammet parts.",
-		"expansion": "ARR",
-		"sources": [{
-			"type": "merchandise",
-			"info": "Before the Fall Blu-ray Soundtrack",
-			"location": "N/A"
-		}]
-	},
-	{
-		"name": "Magic Broom",
-		"lore": "While you may not hear many of the realm's mages admit it, magicking a household broom to become a self-propelled sweeping servitor (albeit one which does very little actual cleaning) is far more complicated than it sounds, requiring no fewer than seven cants of binding.",
-		"expansion": "ARR",
-		"sources": [{
-			"type": "crafted",
-			"info": "Carpenter 50***",
-			"location": "N/A"
-		}]
-	},
-	{
 		"name": "Wind-up Gilgamesh",
 		"lore": "The masterwork of one of Eorzea's finest goldsmiths, this wind-up automaton, designed to resemble a close acquaintance of the smith's son, was pieced together using parts left over from other projects - his only regret being that he was unable to incorporate hip-gyrating functionality.",
 		"expansion": "ARR",
@@ -1811,6 +1801,16 @@
 		"sources": [{
 			"type": "holiday",
 			"info": "FFXI cross-promotion 2014",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Magic Broom",
+		"lore": "While you may not hear many of the realm's mages admit it, magicking a household broom to become a self-propelled sweeping servitor (albeit one which does very little actual cleaning) is far more complicated than it sounds, requiring no fewer than seven cants of binding.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Carpenter 50***",
 			"location": "N/A"
 		}]
 	},
@@ -2014,6 +2014,16 @@
 		}]
 	},
 	{
+		"name": "Dress-up Thancred",
+		"lore": "Several moons in the wild, removed from civilization and forced to adopt a more bestial means of survival transformed not only Thancred's body, but his mind. Due to the limitations of clockwork technology, this automaton only depicts those changes to the former.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "Wonderous Tails, possible 2-line prize",
+			"location": "Khloe Aliapoh, Idyllshire (6, 6)"
+		}]
+	},
+	{
 		"name": "Wind-up Yda",
 		"lore": "Due to her apparent lack of wit and tendency to be in the wrong place at the wrong time, people are quick to forget that Yda is not only a Scion of the Seventh Dawn, but also an Archon of the Circle of Knowing, hand-picked by the legendary Louisoix to serve Eorzea.",
 		"expansion": "ARR",
@@ -2070,6 +2080,16 @@
 		"sources": [{
 			"type": "cashshop",
 			"info": "$5",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Dress-up Alisaie",
+		"lore": "After finding that she could simply not tell her wind-up Alisaie and Alphinaud automatons apart, Tataru went about modifying the former's garments, creating something both new and bold...all while keeping manufacturing costs at an absolute minimum!",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "Unknown",
 			"location": "N/A"
 		}]
 	},
@@ -2349,28 +2369,8 @@
 		"lore": "Cursed with a weak vessel upon its arrival in the corporeal realm, this malformed and maladroit voidsent was summarily captured and put to work at the Continental Circus...until being sold for a handful of coin to a new owner - you.",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "other",
-			"info": "Unknown",
-			"location": "N/A"
-		}]
-	},
-	{
-		"name": "Dress-up Thancred",
-		"lore": "Several moons in the wild, removed from civilization and forced to adopt a more bestial means of survival transformed not only Thancred's body, but his mind. Due to the limitations of clockwork technology, this automaton only depicts those changes to the former.",
-		"expansion": "ARR",
-		"sources": [{
-			"type": "other",
-			"info": "Unknown",
-			"location": "N/A"
-		}]
-	},
-	{
-		"name": "Dress-up Alisaie",
-		"lore": "After finding that she could simply not tell her wind-up Alisaie and Alphinaud automatons apart, Tataru went about modifying the former's garments, creating something both new and bold...all while keeping manufacturing costs at an absolute minimum!",
-		"expansion": "ARR",
-		"sources": [{
-			"type": "other",
-			"info": "Unknown",
+			"type": "holiday",
+			"info": "All Saint's Wake 2016",
 			"location": "N/A"
 		}]
 	},

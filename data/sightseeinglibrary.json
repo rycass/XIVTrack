@@ -1,0 +1,200 @@
+[
+	{
+		"name": "Barracuda Piers",
+		"lore": "'Under the azure, I gazed down upon warships three, their billowing sails of crimson leaving no doubt as to who truly rules the seas.' Such were the merchant's words and I would see as he saw.\n\nThese docks provide safe mooring for the Thalassocratic Navy's principal squadrons, also known as the Crimson Fleet. To prevent sabotage, admittance to the area is forbidden to the general citzenry; however, on clear days, one may catch a glimpse of the armada flagship, the Triumph, from atop one of Limsa Lominsa's myriad spans.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Limsa Lominsa Upper Decks (9, 7)",
+			"details": "8AM - 12PM, Clear/Fair"
+		}]
+	},
+	{
+		"name": "The Astalicia",
+		"lore": "'A flagon or two o' grog havin' filled me 'ead with big ideas. I eyed that 'ive o' villainy from the pier in the dead of night, feelin' as if I could cut down One-eyed Hyllfyr 'imself. Woke the next mornin' strung up by me ankles. Aye, was lucky to escape with me life.' Such were the buccaneer's words, and I would see as he saw.\n\nRegistered as a trade vessel hailing from foreign waters, this battle-scarred warship captained by the lord of the region's underworld, One-eyed Hyllfyr, serves as a gathering place for brigands, cut-throats, and the purveyors of sundry other breeds of villainy. It is here that the city-state's many pirate crews find new recruits to join their ranks.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Limsa Lominsa Upper Decks (7, 15)",
+			"details": "6PM - 5AM, Clear/Fair"
+		}]
+	},
+	{
+		"name": "Seasong Grotto",
+		"lore": "'In a dank cavern that's never known the sun, the patter of the rain me only companion, I dropped to one knee and said me farewells to me ill-fated mates. They sing no songs for fishermen, but the sea swallows us all the same.' Such were the old mariner's words, and I would see as he saw.\n\n'I am the waves that bear, I am the winds that guide. I am the evening stars, I am the morning sky. I am born of the sea, and there shall I die.' Nestled within a shallow cavern situated to the south of Summerford Farms sits an ancient monolith upon which is carved this, the Sailors' Requiem.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/pray",
+			"location": "Middle La Noscea (20, 19)",
+			"details": "5AM - 8AM, Rain"
+		}]
+	},
+	{
+		"name": "The Skylift",
+		"lore": "",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Middle La Noscea (16, 17)",
+			"details": "12PM - 5PM, Clear/Fair"
+		}]
+	},
+	{
+		"name": "La Thagran Eastroad",
+		"lore": "",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Middle La Noscea (25, 27)",
+			"details": "8AM - 12PM, Clouds"
+		}]
+	},
+	{
+		"name": "The Salt Strand",
+		"lore": "",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Lower La Noscea (23, 40)",
+			"details": "6PM - 5AM, Clear/Fair"
+		}]
+	},
+	{
+		"name": "Red Rooster Stead",
+		"lore": "",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Lower La Noscea (33, 19)",
+			"details": "5AM - 8AM, Fog"
+		}]
+	},
+	{
+		"name": "Brewer's Beacon",
+		"lore": "",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Western La Noscea (29, 30)",
+			"details": "5AM - 8AM, Clear/Fair"
+		}]
+	},
+	{
+		"name": "The Leatherworkers' Guild",
+		"lore": "",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Old Gridania (10, 6)",
+			"details": "12PM - 5PM, Clouds"
+		}]
+	},
+	{
+		"name": "Apkallu Falls",
+		"lore": "",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Old Gridania (10, 6)",
+			"details": "6PM - 5AM, Clear/Fair"
+		}]
+	},
+	{
+		"name": "Bentbranch Meadows",
+		"lore": "",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/sit",
+			"location": "Central Shroud (21, 21)",
+			"details": "12PM - 5PM, Clear/Fair"
+		}]
+	},
+	{
+		"name": "The Sanctum of the Twelve",
+		"lore": "",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/pray",
+			"location": "East Shroud (17, 18)",
+			"details": "8AM - 12PM, Clear/Fair"
+		}]
+	},
+	{
+		"name": "Little Solace",
+		"lore": "",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Middle La Noscea (16, 17)",
+			"details": "12PM - 5PM, Clear/Fair"
+		}]
+	},
+	{
+		"name": "Royal Promenade",
+		"lore": "",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/salute",
+			"location": "Ul'dah - Steps of Thal (11,11)",
+			"details": "5AM - 8AM, Clear/Fair"
+		}]
+	},
+	{
+		"name": "The Gold Court",
+		"lore": "",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Ul'dah - Steps of Thal (11,11)",
+			"details": "12PM - 5PM, Clouds"
+		}]
+	},
+	{
+		"name": "The Jewel of the Desert",
+		"lore": "",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Western Thanalan (22, 22)",
+			"details": "6PM - 5AM, Clear/Fair"
+		}]
+	},
+	{
+		"name": "The Ruins of Sil'dih",
+		"lore": "",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Central Thanalan (15, 22)",
+			"details": "8AM - 12PM, Fog"
+		}]
+	},
+	{
+		"name": "The Lonely Giant",
+		"lore": "",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/comfort",
+			"location": "Eastern Thanalan (19, 24)",
+			"details": "5PM - 6PM, Rain"
+		}]
+	}
+]

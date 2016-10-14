@@ -559,7 +559,8 @@
 			"location": "Cutter's Cry"
 		}, {
 			"type": "npc",
-			"location": "Fufulupa, Western Thanalan (22, 17)"
+			"info": "Fufulupa",
+			"location": "Western Thanalan (22, 17)"
 		}]
 	},
 	{
