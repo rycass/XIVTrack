@@ -7,7 +7,7 @@
 			"type": "sightseeing",
 			"info": "/lookout",
 			"location": "Limsa Lominsa Upper Decks (9, 7)",
-			"details": "8AM - 12PM, Clear/Fair"
+			"details": "8AM - 12PM, Clear/Sunshine"
 		}]
 	},
 	{
@@ -18,7 +18,7 @@
 			"type": "sightseeing",
 			"info": "/lookout",
 			"location": "Limsa Lominsa Upper Decks (7, 15)",
-			"details": "6PM - 5AM, Clear/Fair"
+			"details": "6PM - 5AM, Clear/Sunshine"
 		}]
 	},
 	{
@@ -29,23 +29,23 @@
 			"type": "sightseeing",
 			"info": "/pray",
 			"location": "Middle La Noscea (20, 19)",
-			"details": "5AM - 8AM, Rain"
+			"details": "5AM - 8AM, Rain/Showers"
 		}]
 	},
 	{
 		"name": "The Skylift",
-		"lore": "",
+		"lore": "'Back-breakin', arse-bustin' work, it is. But seein' me vessels ridin' the winds, soarin' off to far lands where me legs will never carry me–well, at least me sweat and blood ain't been for naught, eh?' Such were the laborer's words, and I would see as he saw.\n\nOnce an endless expanse of flat, rocky meadows, middle La Noscea is now severed atwain by a sheer cliff known as the Descent. To maintan overland trade routes from the easterly outposts of Aleport and Bronze Lake, Lominsan engineers created the Skylift–a tower of wooden scaffolding outtfitted with pulleys, winches, and lighter-than-air balloons.",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "sightseeing",
 			"info": "/lookout",
 			"location": "Middle La Noscea (16, 17)",
-			"details": "12PM - 5PM, Clear/Fair"
+			"details": "12PM - 5PM, Clear/Sunshine"
 		}]
 	},
 	{
 		"name": "La Thagran Eastroad",
-		"lore": "",
+		"lore": "'When the skies turn grey and spirits sag, I climb high and look upon roads blazed long ago. I turn my thoughts to the hardships of my forebears till mine own worries drift away, and I find strength to carry on.' Such were the sentry's words, and I would see as she saw.\n\nWhen the Galadion fell victim to the Navigator's fury and ran aground on the southern shores of Vylbrand 700 years ago, it was her two helmsmen, Jean De Nevelle and Guy La Thagran, who were tasked with exploring the newfound island--the former heading east, the latter, west. To this day, their routes still serve as La Noscea's two main thoroughfares.",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "sightseeing",
@@ -56,18 +56,18 @@
 	},
 	{
 		"name": "The Salt Strand",
-		"lore": "",
+		"lore": "'Under the watchful gaze of the Wanderer, I cast a line to the waters far below. Looking upon those pillars, grotesque and beautiful, my thoughts drift to that fateful day five years ago.' Such were the fisher's words and I would see as she saw.\n\nWhen struck by a fallen shard from Dalamud's outer shell, a massive amount of concentrated aether was released from just below the surface of the Rothlyt Sea, immediately fusing with, and crystallizing the towering fount of salt water which was expelled during the impact. City-state-funded exploratory forays into the inner crater have all yet to return...",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "sightseeing",
 			"info": "/lookout",
 			"location": "Lower La Noscea (23, 40)",
-			"details": "6PM - 5AM, Clear/Fair"
+			"details": "6PM - 5AM, Clear/Sunshine"
 		}]
 	},
 	{
 		"name": "Red Rooster Stead",
-		"lore": "",
+		"lore": "'No romance in the farmin' life? Balderdash, I say! Rise at dawn, climb atop the gate and look upon the dew-kissed fields below - then tell me there's any place in the realm ye'd rather be.' Such were the farmer's words and I would see as he saw.\n\nThe farmers on Red Rooster Stead will rarely she from testing their agricultural acumen on exotic crops or untested growing methods, and take pride in their willingness to sacrifice a harvest if it means a better yield an autumn hence. The plantation's name is said to be taken from the bloody cockfights held after nightfall by the gamekeeps.",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "sightseeing",
@@ -78,84 +78,84 @@
 	},
 	{
 		"name": "Brewer's Beacon",
-		"lore": "",
+		"lore": "'When dawn breaks, I quench the flame and pour meself an ale. I step outside, and lose meself in the blue expanse above and below - me hard-earned reward for the ships I've seen to safety, I reckon.' Such were the candlekeep's words and I would see as he saw.\n\nThis relatively new lighthouse was built soon after the Calamity claimed Swiftperch Tower to ensure safe passage for trade vessels carrying shipments of dark stouts and blonde barleywines out of Aleport. In addition, the candlekeeps also keep watch for increasingly frequent rogue tidal waves caused by the stirrings of the Lord of the Whorl.",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "sightseeing",
 			"info": "/lookout",
 			"location": "Western La Noscea (29, 30)",
-			"details": "5AM - 8AM, Clear/Fair"
+			"details": "5AM - 8AM, Clear/Sunshine"
 		}]
 	},
 	{
 		"name": "The Leatherworkers' Guild",
-		"lore": "",
+		"lore": "'Knew it was my calling ever since I was knee-high to a goobbue. When cloudy days sunky my spirits, I'd sneak into the guild, climb as high as my legs could carry me and watch the tanners and tawers at work below.' Such were the craftsman's words, and I would see as he saw.\n\nCrafters for the realm-famous Atelier Fen-Yll, the Leatherworkers' Guild boasts the finest tawers and tanners in all Eorzea. In recent years, the workshop has come to be known for its Geva patterns, which outline methods of working and cutting hides, pelts, skins, and furs in a way that honors the elementals within by minimizing waste.",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "sightseeing",
 			"info": "/lookout",
-			"location": "Old Gridania (10, 6)",
+			"location": "Old Gridania (12, 8)",
 			"details": "12PM - 5PM, Clouds"
 		}]
 	},
 	{
 		"name": "Apkallu Falls",
-		"lore": "",
+		"lore": "'My favoritest place is where I can see the falling water. There's a secret path that only I know. I snuck out of bed to go there last night. Mum and Dad made me promise I wouldn't climb up there anymore–you won't tell them, will you?' Such were the little boy's words, and I would see as he saw.\n\nNamed after a failed attempt by an ambitious Gridanian merchant to hatch and breed apkallus in the linn, Apkallu Falls is most remembered for serving as a place of mediation for the late Louisoix Levellieur, Circle of Knowing Archon and hero of Eorzea.",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "sightseeing",
 			"info": "/lookout",
 			"location": "Old Gridania (10, 6)",
-			"details": "6PM - 5AM, Clear/Fair"
+			"details": "6PM - 5AM, Clear/Sunshine"
 		}]
 	},
 	{
 		"name": "Bentbranch Meadows",
-		"lore": "",
+		"lore": "'Cute little bugger, isn't he? The moogle, that is. Seein' him up there on a clear day, swayin' gently in the wind, it's enough to ull a man to slumber. Me, I settle for a stump and a moment's repose.' Such were the stablehand's words, and I would see as he saw.\n\nOnce Moogle's Gift Mounts was established and its rookery stocked with Ishgard's finest birds, it was not long before an entire settlement had grown up around the stables. The trademark balloon tethered to the main building is actually an Ixali war vessel claimed by chocobokeeps after it became tangled in a nearby tree and was abandoned by its riders.",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "sightseeing",
 			"info": "/sit",
 			"location": "Central Shroud (21, 21)",
-			"details": "12PM - 5PM, Clear/Fair"
+			"details": "12PM - 5PM, Clear/Sunshine"
 		}]
 	},
 	{
 		"name": "The Sanctum of the Twelve",
-		"lore": "",
+		"lore": "'I've never been the pious type, but when the sun strikes those windows and the trees in the gardens glisten, even I find myself mouthing a prayer from time to time.' Such were the botanist's words, and I would see as he saw.\n\nThis sky-scraping ivory cathedral was built following the Age of Endless Frost-a dark period in which the realm was overrun with famine and disease-to serve as a place of refuge and respite for all who sought succor. Soon after, however, it fell into ruin and was all but forgotten...until the advent of the Seventh Umbral Era saw need for its rise once again.",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "sightseeing",
 			"info": "/pray",
 			"location": "East Shroud (17, 18)",
-			"details": "8AM - 12PM, Clear/Fair"
+			"details": "8AM - 12PM, Clear/Sunshine"
 		}]
 	},
 	{
 		"name": "Little Solace",
-		"lore": "",
+		"lore": "'To know the sylph, you must be the sylph. I may lack for wings, but a short climb will put me in a similar position. Lights dancing in the dark before me, I ponder what mischief I might make--er, were I a sylph, that is.' Such were the scholar's words, and I would see as he saw.\n\nLittle is the solace granted to those sylphs who would voice their opposition to the summoning of the Lord of Levin. Little is the solace bequeathed upon those who would abandon their homes in the Sylphlands and shun their frenzied brethren. Thus, it is only through fraternity that those sylphs may ultimately find solace, however little it may be.",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "sightseeing",
 			"info": "/lookout",
-			"location": "Middle La Noscea (16, 17)",
-			"details": "12PM - 5PM, Clear/Fair"
+			"location": "Middle La Noscea (22, 26)",
+			"details": "6PM - 5AM, Clear/Sunshine"
 		}]
 	},
 	{
 		"name": "Royal Promenade",
-		"lore": "",
+		"lore": "'Come morning, when my watch is over, I stand upon the three plates of silver depicting the first three of our kind. Paying reverence to those who came before us, I salute my sworn brothers who stand before me.' Such were the Sultansworn's words, and I would see as he saw.\n\nIn times when the sultan had sole rule over the city-state, the Promenade would serve as an ersatz waiting chamber for those petitioners who sought audience with His Resplendence in the Fragrant Chamber. Now, with power in the hands of the Syndicate, the round is empty, save for the occasional tryst betwixt young nobles.",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "sightseeing",
 			"info": "/salute",
 			"location": "Ul'dah - Steps of Thal (11,11)",
-			"details": "5AM - 8AM, Clear/Fair"
+			"details": "5AM - 8AM, Clear/Sunshine"
 		}]
 	},
 	{
 		"name": "The Gold Court",
-		"lore": "",
+		"lore": "'Even the strings of the tightest purse loosen upon seeing my famed balancing act. From vaulted gardens I leap onto the eastmost streetlamp, then bask as dour, cloudy expressions break into smiles and a shower of gil.' Such were the acrobat's words, and I would see as he saw.\n\nA large atrium in the heart of Ul'dah, the Gold Court's opulence and scale make it a popular meeting place for the city's elite. The plaza was once reserved for the sultan's private balls, but has since been opened to the public due to a lack of funds to maintain the majestic hanging fountain at its center.",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "sightseeing",
@@ -166,18 +166,18 @@
 	},
 	{
 		"name": "The Jewel of the Desert",
-		"lore": "",
+		"lore": "'From a vantage point high above Nophica's Wells, I looked out upon Ul'dah in all its glory--truly a jewel in the desert, shining brighter than a see of stars.' Such were the adventurer's words, and I would see as she saw.\n\nThe commercial hub of Ul'dah is organized strategically around the dome-shaped citadel at its center. Its towering fortifications and protective outer walls bedighted with myriad glass panes and colorful mosaics are visible for malms in all directions, and serve as a stark, yet dazzling detterent to would-be besiegers.",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "sightseeing",
 			"info": "/lookout",
 			"location": "Western Thanalan (22, 22)",
-			"details": "6PM - 5AM, Clear/Fair"
+			"details": "6PM - 5AM, Clear/Sunshine"
 		}]
 	},
 	{
 		"name": "The Ruins of Sil'dih",
-		"lore": "",
+		"lore": "'The fog was so thick you could cut it with a blade. My foot slipped, and in an eyeblink I was sprawled out on a cliff, the ruins of a buried city before me. Sadly, the stinging pain in my arse detracted somewhat from my enjoyment of the scenery.' Such were the adventurer's words, and I would see as he saw.\n\nThe city-states of Ul'dah and Sil'dih co-existed for generations until 400 years ago when bad blood festering betwixt the two sultanates culminated in the War of the Sisters-leaving Sil'dih a smoldering pile of rubble to be claimed by the shifting desert sands. The subsequent relocation of Ul'dah placed the city-state nearly directly above her fallen sibling.",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "sightseeing",
@@ -188,13 +188,1315 @@
 	},
 	{
 		"name": "The Lonely Giant",
-		"lore": "",
+		"lore": "'Merciful are the rains that fall, for they give succor to the thirsting land, and comfort the old wounds of one who journeyed too far from home.' Such were the botanist's words, and I would see as she saw.\n\nLocal legend claims the Lonely Giant is everything from the ghost of a Sil'dihn sultan, to the prototype for a new model of Garlean machina. Ul'dahn scholars, however, simply believe him a Coerthan goobbue who lost his bearings during the chaos of the Calamity, and after a long journey through the Black Shroud, died of exhaustion upon reaching Thanalan.",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "sightseeing",
 			"info": "/comfort",
 			"location": "Eastern Thanalan (19, 24)",
-			"details": "5PM - 6PM, Rain"
+			"details": "5PM - 6PM, Rain/Showers"
+		}]
+	},
+	{
+		"name": "The Invisible City",
+		"lore": "'As I felled my quarry atop a great stone slab, my eyes drifted up to a city swallowed by the clouds and the mountain itself. I know not who once called it home, nor why it fell, but it was a sight to behold.' Such were the adventurer's words, and I would see as he saw.\n\nBuried under nearly a malm of solid rock, if not for a gaping rent torn open by the Calamity, these ancient ruins may have gone undiscovered for another thousand summers. Scholars sent to Highbridge to study the site are currently of a mind that the structures are not of a city, but in fact the tomb of one Lalafuto IV, famed sultan of Belah'dia.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Eastern Thanalan (14, 18)",
+			"details": "8AM - 12PM, Clouds"
+		}]
+	},
+	{
+		"name": "Highbridge",
+		"lore": "'En route from Ul'dah to Gridania, I sought lodgings at Highbridge. Setting out at first light, I looked out upon the wise men of old--at least they looked wiser than me--and asked for guidance in my travels.' Such were the merchant's words, and I would see as he saw.\n\nAfter the Calamity rent eastern Thanalan asunder, one of the first projects commissioned by the Syndicate was the construction of a bridge to span the newly formed chasm and restore the trade route with lands transpontine. The city which has sprung up along its edges is populated almost solely by scholars investigating the nearby ruins of the Invisible City.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/pray",
+			"location": "Eastern Thanalan (21, 20)",
+			"details": "5AM - 8AM, Clear/Sunshine"
+		}]
+	},
+	{
+		"name": "Woad Whisper Canyon",
+		"lore": "'Don't tell Baderon, but if ye ask me, ye'll find no better place to down a flagon of ale than where the water dances, keep'in ye cool on even the 'ottest summer's day.' Such were the laborer's words, and I would see as he saw.\n\nLittle more than a shallow valley but five years past, Woad Whisper Canyon was carved into a gaping gorge in a matter of moons after the Calamity drained Bronze Lake and dramatically altered the course of the Nym River. On hot days, laborers from both Summerford Farms and the Skylift will oft take respite in the cool mists of the falls...if not met by bandits.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Middle La Noscea (20, 13)",
+			"details": "12PM - 5PM, Clear/Sunshine"
+		}]
+	},
+	{
+		"name": "Summerford Farms",
+		"lore": "Overheard at a tavern: 'Erstwhile pirates taken to land, drunk on ale and tales of wenches and plunder, climb atop lamps as if they were manning the crow's nest of a great vessel...'\n\nWhen Merlwyb Bloefhiswyn rose to Admiral, one of her first decrees included the clearing of large swathes of land for new Lominsan settlements. Summerford Farms and its expansive orange groves is one of those locations─its name is derived from the man-made crossings required when late spring runoff from Mt. O'Ghomoro causes the Rogue River to swell.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Middle La Noscea (25, 17)",
+			"details": "5AM - 8AM, Clear/Sunshine"
+		}]
+	},
+	{
+		"name": "The Grey Fleet",
+		"lore": "'I took refuge inside to get away from the rain. To my ill fortune, the beastmen had the same idea. Quickly, I climbed to the roof and plotted a course of escape. Quite a view, though staying alive was a far more pressing concern at the time.' Such were the merchant's words, and I would see as he saw.\n\nSitting high atop Widow Cliffs on the southeastern coast of Vylbrand, the Grey Fleet was built to harness the constant southerly winds funneled down through the Strait of Merlthor, and use them to power the many mills which grind the region's wheat and full its wool.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Lower La Noscea (31, 12)",
+			"details": "12PM - 5PM, Rain/Showers"
+		}]
+	},
+	{
+		"name": "Hidden Falls",
+		"lore": "'The ogling from the men as they recline burns brighter than the summer sun. I don't mind much, provided they're handsome...and wealthy doesn't hurt either.' Such were the young lady's words, and I would see as she saw.\n\nSheltered on three sides by towering cliffs, Hidden Falls can be found several score yalms upstream from where the Agelyss River empties into the Straight of Merlthor. Taken by its beauty, Ul'dahn plutocrat Gegeruju was quick to purchase the land and construct a stage upon which private performances for the magnate's favored clients are held.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/sit",
+			"location": "Eastern La Noscea (32, 23)",
+			"details": "8AM - 12PM, Clear/Sunshine"
+		}]
+	},
+	{
+		"name": "Gullperch Tower",
+		"lore": "'The rains may cloud our view, but they won't stop those who would invade our shores. And so we climb high, scouring the horizon for any sign of danger.' Such were the lookout's words, and I would see as he saw.\n\nOne of three beacons built along the La Noscean coast in the Sixth Astral Era, Gullperch Tower is the easternmost─warning ships navigating the Strait of Merlthor of its deadly shallows, while also serving as a watchtower for pirate and Sahagin raids on Bloodshore.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Eastern La Noscea (29, 33)",
+			"details": "6PM - 5AM, Rain/Showers"
+		}]
+	},
+	{
+		"name": "The Navigator",
+		"lore": "'I've no wife, an' no mind to take one-the only child I'll ever know is the ale I brew. And so, as the cargo ships pull out of the harbor, I say a prayer to the watcher of the seas, that She'll see me sons safe to someone's belly somewhere.' Such were the brewer's words, and I would see as he saw.\n\nCarved centuries past by a famous Roegadyn sculptor, this massive stone effigy located in the center of Aleport's lower plaza serves as hallowed ground upon which sailors might offer solemn prayers to the watcher of the seas before embarking on their journeys across the untamed deep.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/pray",
+			"location": "Western La Noscea (26, 26)",
+			"details": "5PM - 6PM, Clear/Sunshine"
+		}]
+	},
+	{
+		"name": "The Ship Graveyard",
+		"lore": "'If ye're wise, ye won't look too closely. It's not just flotsam the dark tides drag in, and there are sights what could haunt the bravest of men for life. Aye, ye'll not catch me dead going there-least of all at night.' Such were the lighthouse keeper's words, and I would see as he saw.\n\nFor centuries, ships wrecked off the shores of southern Vylbrand have been carried upon currents of this quiet inlet-a timeless reminder of the Deep's boundless wrath. So many are the wooden corpses which populate this watery lichyard, it is said that for every hull visible above the waves, a score more slumber beneath.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Western La Noscea (17, 36)",
+			"details": "6PM - 5AM, Gale"
+		}]
+	},
+	{
+		"name": "Camp Skull Valley",
+		"lore": "Overheard at an inn: 'There's an outpost with quite a view of the land, but you'll want to steel yourself well if you mean to go there...'\n\nNow a strategic outpost for the Maelstrom, Camp Skull Valley was once but a circle of tents occupied by a meager Yellowjacket unit charged with surveilling the area for kobold incursions. Those beastmen foolish enough to venture down from O'Ghomoro were slaughtered and beheaded-their skulls put on display as a warning to others.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Western La Noscea (22, 22)",
+			"details": "8AM - 12PM, Clear/Sunshine"
+		}]
+	},
+	{
+		"name": "Tidegate",
+		"lore": "Overheard at an alehouse: 'When I've misplaced my goods, I climb atop the tents and scour the ground below. Offers a clear view, and you'd be surprised at how sturdy they are...'\n\nTaking advantage of the chaos left in the Calamity's wake, a large force of Sahagin rose from the seas and laid claim to Halfstone, a distant Lominsan settlement on the far-western edge of La Noscea. To prevent any further swells of the beastmen forces, a massive wall was erected between the enemy-occupied lowlands and the allied Skull Valley.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Western La Noscea (19, 23)",
+			"details": "12PM - 5PM, Clear/Sunshine"
+		}]
+	},
+	{
+		"name": "Camp Bronze Lake",
+		"lore": "Overheard at a tavern: 'Nothing like feeling the cool breeze on your skin after a hot bath. The view's nothin' to sneeze at, either...'\n\nThe formation of great underwater fissures during the Calamity saw nearly half of the water comprising Bronze Lake vanish in the span of a single night. The result was the uncovering of ancient Nymian ruins submerged for thousands of of years-most notably, the Wanderer's Palace, a temple dedicated to the god Oschon.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Upper La Noscea (30, 22)",
+			"details": "5PM - 6PM, Clear/Sunshine"
+		}]
+	},
+	{
+		"name": "Thalaos",
+		"lore": "'Under the burning sun, I climbed to the tip of the ancient one and turned my thoughts to the days when it roamed the deep. This was when inspiration struck...' Such were the scholar's words, and I would see as she saw.\n\nThough there is no proof to support the claim, rumor has these sun-bleached remains of a long-dead denizen of the deep are those of one of the legendary twin sea serpents believed to have been unleashed by the Navigator, Llymlaen at the dawn of eras to fill the empty seas (the other being Perykos).",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Upper La Noscea (12, 22)",
+			"details": "12AM - 5PM, Clear/Sunshine"
+		}]
+	},
+	{
+		"name": "Jijiroon's Trading Post",
+		"lore": "Overheard at a tavern: 'Spent the night on that ledge, I did-anything to escape those shelled monstrosities. Wasn't a bad sight, though I can't say I enjoyed the trip down...'\n\nLocated on the western banks of Bronze Lake, Jijiroon's Trading Post is one of two makeshift markets peddling baubles and trinkets to those brave enough to venture that deep into kobold lands. The other is Memeroon's trading post, run by Jijiroon's estranged sibling, to whom the stubborn Qiqirn merchant hasn't spoken in twenty summers.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Upper La Noscea (29, 25)",
+			"details": "6PM - 5AM, Thunderstorm"
+		}]
+	},
+	{
+		"name": "The Floating City of Nym",
+		"lore": "'There were islands floating in the sky, and crystals that shone like terrestrial stars. Even now, I wonder if it was but a dream...' Such were the fledgling adventurer's words, and I would see as she saw.\n\nSuspended high above the foothills of Mt. O'Ghomoro, is the floating City of Nym-central hub of a lost civilization which prospered on Vylbrand during the Fifth Astral Era. The accepted theory as to how the city was torn from the realm involves the over-aspecting of corrupted wind crystals-a phenomenon witnessed late in the Sixth Astral Era.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Outer La Noscea (12, 15)",
+			"details": "6PM - 5AM, Clear/Sunshine"
+		}]
+	},
+	{
+		"name": "Camp Overlook",
+		"lore": "Overheard at an inn: 'You'll want to keep a wide berth of brigands and beastmen both. There's a crumbling gate, overrun by shrubbery. Makes for good cover, and offers an unobstructed view of the road below-two birds with one stone.'\n\nManned by the 'meanest shite-kickin' unit in the whole damn Maelstrom,' Camp Overlook serves as the base of operations for the Red Swallows-a privateer levy tasked with the surveillance of kobold activity in outer La Noscea and along the slopes of Mt. O'Ghomoro.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Outer La Noscea (17, 16)",
+			"details": "5AM - 8AM, Clouds"
+		}]
+	},
+	{
+		"name": "U'Ghamaro Mines",
+		"lore": "'Reeks of sulfur and slumgullion, for sure, but look' down from that furnace, I could swear there was somethin' almost beautiful about the place. Either that or the fumes have gotten to me head...' Such were the soldier's words, and I would see as he saw...\n\nThe brilliant rainbow-colored hues that permeate the otherwise bistre slopes of O'Ghomoro are a result of the endless flow of toxic slumgullion streaming forth from the labyrinthine warrens that make up U'Ghamaro Mines. As more kobolds arrive on the surface each day, there is a scramble to construct new forges to accomodate them.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Outer La Noscea (23, 11)",
+			"details": "12PM - 5PM, Clear/Sunshine"
+		}]
+	},
+	{
+		"name": "The Hermit's Hovel",
+		"lore": "'Someone actually lives there? I'll believe it when I meet the man. Still, you'll not find me complaining-it's a fine place to sit down and rest your weary legs for a spell.' Such were the adventurer's words, and I would see as he saw.\n\nWhile few have ever seen the lord of this humble hideaway which rests precariously on the edge of an unscalable precipice, let alone obtain his permission for entering the premises, that has not stopped travelers from taking full advantage of the respite the location offers, whether it be a dip in the steaming pools, or a few bells' slumber on the soft goosefeather bed.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/sit",
+			"location": "Outer La Noscea (15, 9)",
+			"details": "6PM - 5AM, Rain/Showers"
+		}]
+	},
+	{
+		"name": "The Carline Canopy",
+		"lore": "Overheard about town: 'There's nothing quite like standing beside the mighty waterwheel, watching brave men and women as they come and go.'\n\nNestled cozily within the inn known as the Roost lies the relaxing Carline Canopy, a haven for those seeking a respite from travel's travails of questing's quandaries. Figaga's Gift, the towering waterwheel found outside the cafe, powers the saws and lathes of the Carpenters' Guild, and is widely considered Gridania's grandest architectural achievement.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "New Gridania (14, 14)",
+			"details": "8AM - 12PM, Clear/Sunshine"
+		}]
+	},
+	{
+		"name": "The Lancer's Guild",
+		"lore": "'In my early days of training, I was told to study the movements of my seniors. Climbing to what I thought the perfect vantage point, I earned no praise, only thorough scolding from my instructor.' Such were the guardsman's words, and I would see as he saw.\n\nFounded by legendary Wood Wailer captain Mistalle, the Lancers' Guild doubles as a headquarters for those who keep peace within Gridania, and the greater peace without. It is to these 'Wailing Barracks' that people come with matters whose resolution requires a polearm's edge, and justice meted out to those who have wronged the forest or forestborn.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Old Gridania (14, 5)",
+			"details": "5AM - 8AM, Rain/Showers"
+		}]
+	},
+	{
+		"name": "The Bannock",
+		"lore": "'My subordinates have a knack for disappearing from time to time, but not to worry. Climb high and survey the stump below, and the shirkers and the shadows are soon revealed.' Such were the guard captain's words, and I would see as he saw.\n\nBuilt around the stump of a fallen heavenspillar, the Bannock serves as training grounds for Order of the Twin Adder initiates. There are several theories regarding the origin of the area's name, some claiming it is taken from the hard tack issued to Grand Company recruits, others that it is derived from the training stump's resemblance to those selfsame rations.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Central Shroud (23, 19)",
+			"details": "5AM - 8AM, Rain/Showers"
+		}]
+	},
+	{
+		"name": "Haukke Manor",
+		"lore": "'I fled as fast as my legs could carry me, till I stood atop massive tree roots with nowhere to run. The glow from the windows, so beautiful, yet so terrible...' Such were the madman's words, and I would see as he saw.\n\nLong frowned upon tby the people of Gridania as a symbol of excess, the Seedseers would finally submit to pressure from the citizenry, selling the deed to the manor to Lady Amandine of House Dartancours. The word Haukke is of ancient Padjali origin and means to speak without words.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Central Shroud (13, 23)",
+			"details": "6PM - 5AM, Clear/Sunshine"
+		}]
+	},
+	{
+		"name": "The Guardian Tree",
+		"lore": "'When I feel I have lost my way, I look down upon the ancient arbor under the shining sun. I look down, and I listen.' Such were the conjurer's words, and I would see as she saw.\n\nHaving seen over a thousand summers, the Guardian Tree is purportedly the oldest arbor in all the Black Shroud, and home to the great one-an elder elemental who watches and presides over the forest's denizens. The fruit borne by the tree resembles a plum and is sought after across the Three Continents for its curative properties.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Central Shroud (16, 22)",
+			"details": "12PM - 5PM, Clear/Sunshine"
+		}]
+	},
+	{
+		"name": "Rainbow Bridge",
+		"lore": "'Shimmering in the sun and mist, the bridge is a sign that for all the pain we have inflicted on our forest home, the elementals still grace us with their favor.' Such were the conjurer's words, and I would see as he saw.\n\nWhen struck by the rare sunbeams which happen to penetrate the thick canopy of the Black Shroud, the veil of fine mist created by one of the East Vein's myriad cataracts projects a brilliant rainbow which appears to connect the river's east and west banks. The grotto hidden behind the veil houses one of the forest's most sacred locations-the Lifemend Stump.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Central Shroud (26, 18)",
+			"details": "11AM - 1PM, Clear/Sunshine"
+		}]
+	},
+	{
+		"name": "The Seedbed",
+		"lore": "'Flora or fauna, one cannot but marvel at the wonder of birth.' Such were the scholar's words, and I would see as he saw.\n\nIlluminated in the soft glow of countless moonspores, the Seedbed is an ancient arbor-turned-nursery used by the sylphs to grow and incubate their offspring, also known as podlings.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "East Shroud (20, 10)",
+			"details": "6PM - 5AM, Thunder"
+		}]
+	},
+	{
+		"name": "Buscarron's Druthers",
+		"lore": "'What was I doin' up there at dawn in the pourin' rain? Hells if I can remember, but it wasn't a bad view.' Such were the drunkard's words, and I would see as he saw.\n\nThe Druthers is run by a disenfranchised ex-sentry-turned-tavernkeep and welcomes all manner of folk, from the upstanding to unsavory, so long as they follow Buscarron Strongarm's simple rules of etiquette: sit down, forget your worries, and savor your ale.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "South Shroud (17, 20)",
+			"details": "8AM - 12PM, Thunderstorm"
+		}]
+	},
+	{
+		"name": "South Shroud Landing",
+		"lore": "Overheard at a tavern: 'Bet the people who built that place never thought it would end up used like that.'\n\nConstructed by Highwind Skyways to serve as a landing for cargo airships, this location was quickly abandoned when the imperial presence in the area became too large to ignore. Now the site is used as a makeshift market where bandits and poachers peddle their ill-gotten wares far from the eyes of the law.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "South Shroud (14, 33)",
+			"details": "8AM - 12PM, Clear/Sunshine"
+		}]
+	},
+	{
+		"name": "Urth's Gift",
+		"lore": "'Shrouded in mist, bathed in ephemeral light. I felt as if I'd left the forest behind and come to another world...' Such were the conjurer's words, and I would see as he saw.\n\nAncient writings tell that in exchange for her lifeblood, Lady Urth was able to seal the dark divinity Odin in a crystalline prison beneath a bubbling wellspring. To honor her sacrifice, the land upon which she drew her last breath still bears her name.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "South Shroud (33, 23)",
+			"details": "12PM - 5PM, Fog"
+		}]
+	},
+	{
+		"name": "Quarrymill",
+		"lore": "'As I was cleaning out the chimneys, I could not help but be struck by the view below. My village may be a humble one, but there's nowhere else I'd call home.' Such were the hunter's words, and I would see as he saw.\n\nOnce a deal had been struck between the Gelmorrans and the elementals allowing their return to the forest surface, the Elezen began unearthing large quantities of boulders to build the foundations of their new city, Gridania. The waterwheels of Quarrymill were raised to power the hammers which rendered the massive stones into workable blocks.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "South Shroud (25, 21)",
+			"details": "5AM - 8AM, Clear/Sunshine"
+		}]
+	},
+	{
+		"name": "Ixali Logging Grounds",
+		"lore": "'I stood there atop the butchered arbor, my fist trembling in anger. Those who would harm our forest home must be shown no quarter.' Such were the sentry's words, and I would see as he saw.\n\nThe Ixali have never taken well their banishment from the lack Shroud, and to this day continue to fell the hoary sentinels growing on the forest's outskirts. Too heavy to drag back to their settlements in Natalan or faraway Xelphatol, the ill-gotten lumber is tied to balloons buoyed with Ixali airstones and flown to the beast tribe's homeland under the cover of night.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "North Shroud (18, 19)",
+			"details": "12PM - 5PM, Clear/Sunshine"
+		}]
+	},
+	{
+		"name": "Fallen Neurolink",
+		"lore": "'I don't like it, I can tell you that. That crescent...whatever-it-s...protruding into the sky. It doesn't belong there. It doesn't belong nowhere in this world.' So were the guard's words, and I would see as he saw.\n\nCoined by the learned men of Garlond Ironworks, these massive rings were used to dampen spiritual energies, preventing the focusing of power required to wield magicks. No less than five, each measuring hundreds of yalms across, were required to keep Bahamut silent for a two full eras ... but even then they proved insufficient.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "North Shroud (16, 31)",
+			"details": "6PM - 5AM, Clear/Sunshine"
+		}]
+	},
+	{
+		"name": "Alder Springs",
+		"lore": "'So there I was, starin' out over those naked tree limbs. Was feelin' brave, so I thought I'd see just how far I could go. As it turns out? Pretty far.' Such were the mountaineer's words, and I would see as he saw.\n\nOnce a vast grove of giant alders, the flames of the Calamity reduced the area to a charred graveyard, leaving nothing of the ancient holt but its name.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "North Shroud (15, 27)",
+			"details": "8AM - 12PM, Clouds"
+		}]
+	},
+	{
+		"name": "Castrum Marinum",
+		"lore": "'Say what you will about our foe, you can't deny that the architecture of their outposts has a certain ghastly charm. I would have enjoyed the sunset a while longer, but the cohort doesn't take kindly to tourists.' Such were the scout's words, and I would see as he saw.\n\nSituated atop the roiling Rhotano Sea between Aldenard and the eastern coast of Vylbrand, Castrum Marinum serves as the southernmost outpost for the Garlean Empire's XIVth Legion. The cohort stationed on this man-made floating island is primarily tasked with the resupplying of imperial army cohorts deployed in the La Noscea and Thanalan theaters.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Western Thanalan (8, 5)",
+			"details": "5PM - 6PM, Clear/Sunshine"
+		}]
+	},
+	{
+		"name": "Vesper Bay",
+		"lore": "Overheard in a tavern: 'Go where the wealthy go and do what they do, and sooner or later their good fortune will rub off on you. That said, the merchant wasn't too happy when I climbed atop his estate for a better view...'\n\nA bustling port city strategically situated on the western coast of Thanalan and maintained using funds generously provided by Syndicate chairman Lolorito, Vesper Bay serves as a gateway in and out of sultanate-controlled lands. The colossal bronze statue in the main plaza is said to be an exact likeness of said chairman (when viewed from afar).",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/point",
+			"location": "Western Thanalan (12, 14)",
+			"details": "12PM - 5PM, Clear/Sunshine"
+		}]
+	},
+	{
+		"name": "Black Brush Station",
+		"lore": "'A modern marvel she may be, but a right bitch to keep runnin'. I couldn't tell you how many hours I've spent surveyin' from all directions and altitudes. You can have the view, just give me a good night's sleep!' Such were the railway man's words, and I would see as he saw.\n\nA marvel of modern innovation, the steam engine has transformed the mining industry, increasing efficiency and profits thrice over. It has also led to the transformation of what was once a thinly manned aetheryte outpost into a thriving crossroads of labor and commerce-a new pillar to support the thriving Ul'dahn economy.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Central Thanalan (21, 17)",
+			"details": "6PM - 5AM, Dust Storm"
+		}]
+	},
+	{
+		"name": "Gate of Nald",
+		"lore": "Overheard on the streets: 'Lost me job, me family-and any coin I could spend to drown me sorrows. And so i stood atop the canvas, looking out over the wasteland of me life.'\n\nOne of three main portals accessible by the general populace, the Gate of Nald is wide enough for two fully burdened chocobo carriages to enter abreast and still leave room for the flanking gateguards. Her Resplendance, Nanamo Ul Namo, has commanded that the portcullis remain open night and day, so to welcome all who would partake of Ul'dah's wonders.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/sit",
+			"location": "Central Thanalan (18, 26)",
+			"details": "12PM - 5PM, Clear/Sunshine"
+		}]
+	},
+	{
+		"name": "The Burning Wall",
+		"lore": "Overheard in an alehouse: 'Standing atop the crystal affords you the best view of the place, if you're brave enough to make the climb...'\n\nOnce an unscalable precipice severing eastern Thanalan from the Grand Wake, the Burning Wall earned its name for the deep-red glow it would emit each evening as the sun set. Toppled by the Calamity, that cliff no longer exist-in its place a queer forest of crystalline sentinels and malformed creatures shunned by Nature herself.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Eastern Thanalan (30, 26)",
+			"details": "12PM - 5PM, Clear/Sunshine"
+		}]
+	},
+	{
+		"name": "The Golden Bazaar",
+		"lore": "'A ghost town? Hah! Mark my words, I'll make my fortune there. When the sun is high, I climb atop the fencing and survey the land for untapped veins of ore.' Such were the miner's words, and I would see as he saw.\n\nOnce a waypoint for traders making the journey between Gridania and Ul'dah, the rise of settlements such as Camp Drybone and Highbridge have all but rendered the once prospering hamlet a ghost town. Rumors of mythril deposits in the nearby mountains and treasure in the ruins of the Invisible City, however, may work to rekindle this dying ember.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Eastern Thanalan (10, 16)",
+			"details": "8AM - 12PM, Clear/Sunshine"
+		}]
+	},
+	{
+		"name": "Thal's Respite",
+		"lore": "'Those who do not pay proper obeisance will find their fortunes all too fleeting. Those who do will feel the tears of mercy washing over them like the pouring rains.' Such were the initiate's words, and I would see as he saw.\n\nOverseer of wealth in the afterlife, proper obeisance to the Trader, Thal is required for those who wish to take belongings accumulated in this world to the hereafter. Thal's Respite is oft used by stout devotees by the Order of Nald'Thal as a place of fasting and prayer, but its distance from Ul'dah prevents all but the most affluent from making the journey.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/pray",
+			"location": "Eastern Thanalan (25, 14)",
+			"details": "6PM - 5AM, Rain/Showers"
+		}]
+	},
+	{
+		"name": "Nald's Reflection",
+		"lore": "'Those who do not appay proper obeisance will find fortune ever elusive. Those who do will see the fog lifted, and know the jobs of abundance.' Such were the initiate's words, and I would see as he saw.\n\nOverseer of wealth and commerce upon the corporeal plane, it is believed that through fervent worship of the Trader Nald, one will reap immeasurable fortune in one's living years. Prince and pauper alike once made pilgrimages to this remote place of prayer in search of prosperity...until, that is, the Milvaneth Sacrarium opened a new (toll-based) temple within Ul'dah.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/pray",
+			"location": "Southern Thanalan (12, 22)",
+			"details": "5AM - 8AM, Fog"
+		}]
+	},
+	{
+		"name": "Zahar'ak",
+		"lore": "'Some call the sight bleak, but to me it's a thing of beauty. The winds pound away at the hills, but strong we stand-our gaze locked on our foe.' Such were the sentry's words, and I would see what he saw.\n\nLoosely translated as 'land of perseverance,' Zahar'ak is a forward stronghold for the Amalj'aa host based in Zanr'ak. The beast tribe believes the scorched plains of Thanalan to be hallowed ground blessed by the cleansing flames of their primal deity, Ifrit, and as such, are intent on driving from the land all whom they deem invaders.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Southern Thanalan (19, 20)",
+			"details": "5AM - 8AM, Clear/Sunshine"
+		}]
+	},
+	{
+		"name": "The Sagolii Desert",
+		"lore": "'After a fortnight of wandering, I found myself under the searing sun, looking out upon the ruins of Allag. It was then I swore to myself: I will not succumb-not this way.' Such were the wayfarer's words, and I would see what he saw.\n\nAccording to the Sons of Saint Coinach, the Sagolii Desert was once a verdant sea of lush plains capable of sustaining great civilizations, as is evidenced by the ruins recently discovered in the area. How such a place devolved into a lifeless desert remains a mystery, but recent disaster tells us an ancient Calamity is likely the culprit.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Southern Thanalan (21, 38)",
+			"details": "12PM - 5PM, Heatwave"
+		}]
+	},
+	{
+		"name": "The Sunken Temple of Qarn",
+		"lore": "Overheard in a tavern: '...Ah, a fellow antiquarian! There's a slanted stone slab that affords you the best vantage point of the ruins.'\n\nMost scholars of ancient Belah'dian civilization claim this twisting labyrinth of complex chambers to be a place of worship dedicated to the sun goddess, Azeyma. Recent diggings, however, have uncovered older chambers buried beneath the new containing relics not of the Sixth Astral Era, suggesting that the temple may have been built by a different people.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Southern Thanalan (23, 11)",
+			"details": "12PM - 5PM, Clear/Sunshine"
+		}]
+	},
+	{
+		"name": "Minotaur Malm",
+		"lore": "'Beads of sweat flying from their broad shoulders, massive muscles tightening and loosening-no, I've not seen a finer sight in all the realm.' Such were the warrioress's words, and I would see what she saw.\n\nLocal legend has that long ago, a young goatherd leading his pack to water at Forgotten Springs was set upon and chased a full malm through these caves by a minotaur. There has yet to be a second sighting of the creature, but the stories are enough to frighten away most who would consider passage through this trading post used by the Seventy-Seven Caravans.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/psych",
+			"location": "Southern Thanalan (14, 26)",
+			"details": "5AM - 8AM, Heatwave"
+		}]
+	},
+	{
+		"name": "East Watchtower",
+		"lore": "'On the watch, slumber's siren call is your greatest foe. When I feel myself drifting off at my post, I envision my commander standing before me, and put the fear of the gods in myself.' Such were the sentry's words, and I would see what he saw.\n\nTo power their legions of war machina, the Garleans require a steady supply of the aether-based fuel known as ceruleum. Bluefog housing the largest deposit in Eorzea, the Empire has begun their own mining operation but a stone's throw from the allied refineries, heightening tensions in the area and prompting the construction of two watchtowers.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/salute",
+			"location": "Northern Thanalan (22, 25)",
+			"details": "5AM - 8AM, Clear/Sunshine"
+		}]
+	},
+	{
+		"name": "Ceruleum Pipeline",
+		"lore": "'My duties include keeping the portcullis well oiled. A right fine view on a clear day, but don't lose your balance-it's a long way down.' Such were the soldier's words, and I would see what he saw.\n\nEven before airships and engines were commonplace in Eorzea, Amajina & Sons Mineral Concern recognized the potential value of ceruleum and laid claim to nearly all of the untapped deposits in northern Thanalan. In an iconic twist, for many years before the Garlean invasion, the Concern's biggest customer was, in fact, the imperial army.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Northern Thanalan (20, 29)",
+			"details": "6PM - 5AM, Clear/Sunshine"
+		}]
+	},
+	{
+		"name": "Bluefog",
+		"lore": "'Fog ain't supposed to be blue, least not where I come from-gives me the creeps. On such rare occasions as it clears up, I look upon the valley from on high. Simple pleasure, but it keeps me from losin' my bloody mind.' Such were the laborer's words, and I would see what he saw.\n\nThough abundant on the northern continent of Ilsabard, only a handful of ceruleum deposits have ever been discovered on Aldenard, the largest being buried under the Sea of Spires in northern Thanalan. Ceruleum is a highly unstable substance and will begin to evaporate when in contact with air, resulting in the bluish haze from which this area earns its name.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Northern Thanalan (20, 22)",
+			"details": "12PM - 5PM, Clear/Sunshine"
+		}]
+	},
+	{
+		"name": "Raubahn's Push",
+		"lore": "'Even in the wind and swirling snow, the talons are unmistakable, clutching toward the skies. Don't ask what compelled me to clim to the very tip of one, but I can tell you the sight was something to behold.' Such were the sentry's words, and I would see what he saw.\n\nIn the final days of the Sixth Astral Era, the ceruleum fields of northern Thanalan proved to be one of the most hotly contested areas in all Eorzea, with the Empire amassing a giant host outside of Bluefog to seize control of the local fuel refineries. Though outnumbered three to one, Raubahn and his army succeeded in 'pushing' back the enemy.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Northern Thanalan (20, 17)",
+			"details": "8AM - 12PM, Clouds"
+		}]
+	},
+	{
+		"name": "Abandoned Amajina Mythril Mine",
+		"lore": "'I didn't know what those madmen were going to do with me, and I wasn't about to find out. When the fog descended, I snuck out across a collapsed pillar. Lucky to be alive, though I do wish I'd had the luxury to enjoy the view.' Such were the adventurer's words, and I would see what he saw.\n\nThe discovery of mythril in a small copper mine in Bluefog triggered the Great Rush which saw would-be prospectors flock to the Sea of Spires in search of quick and easy fortune. The veins that ran through the mountains, however, were not deep, and it was but ten summers before the mines ceased to yield the precious metal, forcing many to abandon their claims.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Northern Thanalan (26, 22)",
+			"details": "6PM - 5AM, Fog"
+		}]
+	},
+	{
+		"name": "The Nail",
+		"lore": "'I suppose the view is impressive, yes, but it's rare that I have a moment to appreciate it. Too much work to be done before the sun goes down.' Such were the draughtsman's words, and I would see what he saw.\n\nAs is described in the Enchiridion, to ensure the realm of man did not drift apart from the firmament, Halone struck the Nail through both, ever binding the two. And though assailed on all sides by great metal shards fallen from the lesser moon Dalamud's crust, the ancient peak remained standing, a testament to the land's life force.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Coerthas Central Highlands (25, 29)",
+			"details": "5PM - 6PM, Clear/Sunshine"
+		}]
+	},
+	{
+		"name": "The Observatorium",
+		"lore": "Overheard at a tavern: 'It wasn't what you could call me finest hour. I slipped and fell, and snagged me garments on something-or-another. I was enjoying the sight-till I realized how damned ridiculous I'd look if anyone came upon me. Dusted meself off and went on me way.'\n\n300 years ago, Ishgardian astrologian Adaunel the Younger convinced the Holy See that he could predict the comings and goings of the Dravanian Horde by studying the movements of the heavens, and thus secured funding for the construction of the First Dicasterial Observatorium of Aetherial and Astrological Phenomena and its grand astroscope.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Coerthas Central Highlands (25, 29)",
+			"details": "6PM - 5AM, Fog"
+		}]
+	},
+	{
+		"name": "The Frozen Fang",
+		"lore": "'From on high, I looked down upon the dread carcass. Ah, to have been the hero who pierced the wyrm's heart with a ballista that day! The mere thought stirred my blood on the coldest of days.' Such were the knight's words, and I would see what he saw.\n\nIn years past, the hot alpine summers would have seen this fallen Dravanian outflyer blown with maggots and reduced to bones in a matter of days. Now, in the endless winter wrought by the Calamity, the carcass rests in the permafrost under a thin blanket of snow, perfectly preserved since the day he was pierced through the heart by a ballista.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Coerthas Central Highlands (11, 15)",
+			"details": "8AM - 12PM, Blizzard"
+		}]
+	},
+	{
+		"name": "The Holy See of Ishgard",
+		"lore": "'I look upon my homeland, its proud spires soaring in the azure, and swear a silent oath. My spear shall not leave my hand until the last dread wyrm has fallen.' Such were the knight's words, and I would see what he saw.\n\nFor the past thousand years, Ishgard has waged a bloody war with the dragons of Dravania. To fend off the enemy horde, a complex web of defenses, magical and corporeal, have been added piecemeal to the city proper's outer walls, transforming her into an impenetrable bastion, while at the same time, isolating her and her people from the outside world.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Coerthas Central Highlands (12, 17)",
+			"details": "5AM - 8AM, Clear/Sunshine"
+		}]
+	},
+	{
+		"name": "Boulder Downs",
+		"lore": "'In the shadow of those unholy rocks, the mightiest giant will look as a dwarf. Yet from the right vantage point, even one of humble stature can look upon them all.' Such were the knight's words, and I would see as he saw.\n\nBefore the Calamity, Boulder Downs was a vast sloped lea littered with moraine deposited by realm-swallowing glaciers long receded. The rain of debris that accompanied the fall of Dalamud, however, transformed the landscape into a frozen wasteland pocked with gaping impact craters and peculiar dark matter formations.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Coerthas Central Highlands (7, 28)",
+			"details": "5PM - 6PM, Clear/Sunshine"
+		}]
+	},
+	{
+		"name": "The Fury's Gaze",
+		"lore": "'Dragons, heretics-I've started into the eye of many a foe. Stone has no eyes, yet no other gaze can pierce me to the very depths of my soul.' Such were the knight's words, and I would see as he saw.\n\nA place holy to all Ishgardians, it is believed that when a man stands within this hidden grotto, the Fury Herself will reach deep into the darkest recesses of his soul and lay out his sins before him, allowing the man to repent those failings. The Monument Tower nearby was built to protect this hallowed ground from the taint of dragons and heretics.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Coerthas Central Highlands (7, 31)",
+			"details": "6PM - 5AM, Blizzard"
+		}]
+	},
+	{
+		"name": "Snowcloak",
+		"lore": "'As I stood there, my thoughts turned to those left behind in the west. The sun shone strong, yet it could not keep my tears from turning to ice on my cheeks.' Such were the researcher's words, and I would see as she saw.\n\nThe bitter cold which swept over the Coerthas highlands following the Calamity did not only blanket the region in snow and ice, but transformed the water of Twinpools and the Swiftrun into a mountainous flow of ice-a flow which has slowly crept through western Coerthas highlands and now has completely engulfed Gargoyle Crossing, preventing passage.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Coerthas Central Highlands (2, 21)",
+			"details": "8AM - 12PM, Clear/Sunshine"
+		}]
+	},
+	{
+		"name": "Camp Dragonhead",
+		"lore": "'Clearing the parapets after a snowfall is arduous work, but gazing out over the hoar-kissed peaks, a man might forget his aches and pains for awhile.' So were the knights words, and I would see as he saw.\n\nIts name taken from a rocky outcropping said to be the head of a Dravanian king turned to stone by the almighty hand of Halone, this outpost acts as the Coerthas central highlands' southernmost line of defense for the Holy See, tasked with fending off Ixali raids from Natalan, incursions by heretic factions, and the occasional yeti scare.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Coerthas Central Highlands (26, 17)",
+			"details": "12PM - 5AM, Clear/Sunshine"
+		}]
+	},
+	{
+		"name": "The Steel Vigil",
+		"lore": "Overheard in a tavern: '...Bollocks, I say! Ye haven't truly seen the Vigil until ye've seen it from that very spot. Ye'll be wantin' to tread carefully, mind ye.'\n\nOne of four citadel watchtowers built along the Sea of Clouds, the Steel Vigil warned the Holy See of aerial attacks for centuries before being razed and gutted by the Dravanian Horde and their vile commander, Svara. Now, only the outer walls remain, leaving a bitter reminder of the dragons' destructive power.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Coerthas Central Highlands (28, 10)",
+			"details": "5AM - 8AM, Clear/Sunshine"
+		}]
+	},
+	{
+		"name": "Castrum Centri",
+		"lore": "'It's unnatural, is what it is-roads and towers made of metal-and yet I couldn't avert my eyes. Then I heard the great steel beast rousing in the distance, and thought I'd best be on my way.' Such were the scout's words, and I would see as he saw.\n\nCastrum Centri was erected with material salvaged from the ruins of Castrum Novum-the Garlean Empire's first major outpost in Eorzea, constructed in the final year of the Sixth Astral Era by VIIth Legion legatus Nael van Darnus. It houses several ceruleum mining pits, a magitek manufactory, and the Phantom Train, used to transport ordnance to outlying castra.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Mor Dhona (9, 13)",
+			"details": "12PM - 5PM, Gloom"
+		}]
+	},
+	{
+		"name": "The Crystal Tower",
+		"lore": "'It was a scene not of this world: a forest of crystal, and in the distance a spire that stretched so high it could have touched the heavens...' Such were the adventurer's words, and I would see as she saw.\n\nAs if somehow beckoned forth from its hypogeal prison by the events of the Calamity, this sky-scraping spire now commands the Mor Dhonan horizon. Through their research, the Sons of Saint Coinach have determined that the monolith, also known as the Syrcus Tower, was constructed to collect and store the endless energies of the sun.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Mor Dhona (27, 8)",
+			"details": "6PM - 5AM, Clear/Sunshine"
+		}]
+	},
+	{
+		"name": "Rathefrost",
+		"lore": "'In fields of crystal, I stood tall atop one of the stones and took in the view in all its shimmering desolation.' Such were the adventurer's words, and I would see what he saw.\n\nThe fall of the Agrius into Silvertear Falls not only drained the magnificent multi-tiered lake, but instantly crystallized the majority of the region's flora-a result of mass quantities of ceruleum fuel reacting with aether released upon Midgardsormr's death. What remains is a brilliant, yet dead landscape akin to a twisted garden pocked with blooming geodes.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Mor Dhona (18, 17)",
+			"details": "12PM - 5PM, Clear/Sunshine"
+		}]
+	},
+	{
+		"name": "The Keeper of the Lake",
+		"lore": "Overheard in a tavern: 'I was an adventurer meself, aye. Till that day when, from atop a tree, I saw that ungodly thing-that twisted mass of metal and scale. Ran from the lake as fast as my legs could carry. Reckoned I'd be safer livin' the rest of my days out of a bottle.'\n\nMaintaining a silent vigil over Silvertear Lake, the keeper is wrought from the wreckage of the imperial flagship, the Agrius, and the entangled remains of Midgardsormr. For many religious and mythological enthusiasts, it stands as proof of the existence of the gods. For most people, however, it serves as a grim reminder of the horrific power of Garlemald.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/sit",
+			"location": "Mor Dhona (26, 11)",
+			"details": "5PM - 6PM, Clear/Sunshine"
+		}]
+	},
+	{
+		"name": "Falcon's Nest",
+		"lore": "From its humble origins as a lonely cluster of barracks nestled in the mountains of western Coerthas, the village of Falcon's Nest grew and prospered until the Calamity came and the icy winter took its deathly toll. Its name derives from the falconers who reside there with their snow-white charges, defending their mountain home from the Dravanian threat.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Coerthas Western Highlands (32, 36)"
+		}]
+	},
+	{
+		"name": "Camp Riversmeet",
+		"lore": "Once a key military outpost for the Ishgardian forces, this strategic location where the waters of the Swiftrun and the Coerthas flow together is home to a lone aetheryte shard, which has stood abandoned in the years since the Calamity.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Coerthas Western Highlands (20, 23)"
+		}]
+	},
+	{
+		"name": "The Dreaming Dragon",
+		"lore": "What appears to be an island floating amidst the icy waters of Ashpool is said to have once been a living, breathing dragon─magicked into slumber by the Holy See until ash enveloped its body and its limbs turned nigh unto stone.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Coerthas Western Highlands (10, 18)"
+		}]
+	},
+	{
+		"name": "The Dusk Vigil",
+		"lore": "The Calamity was not kind to this once-proud watchtower, from which Ser Yuhelmeric and the brave knights of House Durendaire once stood watch against the encroaching Horde. Since the walls fell and the chill took hold, it has come to be inhabited by all manner of fell beasts, and gods only know what else.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Coerthas Western Highlands (20, 6)"
+		}]
+	},
+	{
+		"name": "Gorgagne Mills",
+		"lore": "Ser Gorgagne was a proud knight and bannerman of House Durendaire, until the fateful day when the heir of that house vanished from sight while under his care, never to be seen again. Devastated by the loss of the boy and his own failing, he put aside his blade and built this farm, where he quietly lived out the rest of his days.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Coerthas Western Highlands (31, 4)"
+		}]
+	},
+	{
+		"name": "Hemlock",
+		"lore": "Once a bustling village and home to the woodcutters who plied their trade in the western highlands of Coerthas, this settlement - named for the large evergreens unique to the area - was abandoned when the chill came, and it remains a ghost town to this day.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Coerthas Western Highlands (36, 19)"
+		}]
+	},
+	{
+		"name": "The Bed of Bones",
+		"lore": "It remains to be confirmed whether, as the tales say, yetis prefer to slumber atop makeshift bedding fashioned from the remains of their victims─in large part because prominent naturalists have been reluctant to do the fieldwork necessary to corroborate this claim.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Coerthas Western Highlands (20, 36)"
+		}]
+	},
+	{
+		"name": "Loth ast Gnath",
+		"lore": "Built from a highly viscous blend of Dravanian clay and saliva, the nests of the Gnath are surprisingly stable, able to withstand the harsh elements of the Dravanian forelands. The smoke that rises from the mound-like structures is believed to be a sort of incense with a scent that, for reasons unknown, keeps would-be dragon invaders at bay..",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Dravanian Forelands (27, 36)"
+		}]
+	},
+	{
+		"name": "Anyx Minor",
+		"lore": "The shattered ruins of a once-proud city. The official stance of the Holy See is that it was a settlement of heretics, razed to the ground by Halone in an act of divine retribution, though scholars disagree on the historical accuracy of this interpretation.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Dravanian Forelands (12, 39)"
+		}]
+	},
+	{
+		"name": "Anyx Trine",
+		"lore": "Three towers unique in that they appear to have been built to house both man and dragon, an architectural oddity which would seem to corroborate the Holy See's position that they were erected by heretic witches for themselves and their dragon consorts.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Dravanian Forelands (16, 23)"
+		}]
+	},
+	{
+		"name": "The Hundred Throes",
+		"lore": "The rushing river has all but swallowed these ancient ruins at the base of Sohm Al, which now serve as a nest to all manner of beastkin who find sustenance in its waters, and the dragons who find sustenance in said beastkin.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Dravanian Forelands (29, 6)"
+		}]
+	},
+	{
+		"name": "Halo",
+		"lore": "This once ancient altar sits in the fiery depths of Mourn. Once adorned by statues depicting a girl and a dragon, only the latter has survived to the present age. Lift your eyes above the structure, and the base of the floating peak of Sohm Al can be seen.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/pray",
+			"location": "The Dravanian Forelands (8, 6)"
+		}]
+	},
+	{
+		"name": "Tailfeather",
+		"lore": "Founded by hunters who came to the frontiers in hopes of snaring the wild chocobos of the forest, this settlement and those who call it home are shielded from the eyes of the dragons by the canopy of the majestic caelumtrees that rise high above it.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Dravanian Forelands (33, 23)"
+		}]
+	},
+	{
+		"name": "Sohm Al",
+		"lore": "Of all the mighty peaks that comprise Abalathia's Spine, none rise higher than Sohm Al, the highest point in all Eorzea. It is held as a sacred land by the dragons, who are said to journey here when they feel their life slipping away. Formed not of stone but solid crystal, the massive mountain floating above the ground below is a marvelous sight to behold.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Dravanian Forelands (11, 13)"
+		}]
+	},
+	{
+		"name": "Moghome",
+		"lore": "A settlement that sits curiously atop Sohm Al, the tallest peak in Eorzea, in the heart of the dragons' demesne. What pact might the moogles have made with the great wyrm Hraesvelgr to allow them to live here in peace?",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Churning Mists (29, 35)"
+		}]
+	},
+	{
+		"name": "The Aery",
+		"lore": "Vicious aetheric storms rage in Nidhogg's lair, keeping out all those who would dare disturb the great wyrm in his slumber─be it one of years or centuries.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Churning Mists (29, 13)"
+		}]
+	},
+	{
+		"name": "Tharl Oom Khash",
+		"lore": "An ancient structure half consumed by crystal, its name means 'crystal from remorse' in the tongue of dragons. From the sheer mass of crystallization, it has been posited that an entity possessed of aetheric power to rival the seven great wyrms laid down its life here...",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Churning Mists (18, 6)"
+		}]
+	},
+	{
+		"name": "Zenith",
+		"lore": "A majestic fortress in Hraesvelgr's domain, watched over at the great wyrm's behest by the moogles who make their home in the Churning Mists. Though the years─a thousand of them─have taken their toll, it still stands proud and strong, stirring the heart of all who lay eyes upon it.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Churning Mists (7, 27)"
+		}]
+	},
+	{
+		"name": "The Lost Landlord",
+		"lore": "This colossus stands on an island in Greensward. Its name was bestowed by the moogles, who believe it to be a statue of the 'king of the land-dwellers,' though no records remain that could shed light on the identity of this individual, and whether or not he ever truly walked the realm.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/pray",
+			"location": "The Churning Mists (17, 37)"
+		}]
+	},
+	{
+		"name": "The House of Letters",
+		"lore": "The thousand-year-old ruins of a tower said to have been built by the hand of man and dragon in the days before the war. Even now, as it lies crumbling in ruin, one can still make out the letters engraved in its walls, which have led the moogles to give it the name by which it is commonly known.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Churning Mists (35, 20)"
+		}]
+	},
+	{
+		"name": "The Rookery",
+		"lore": "As the moogles tell it, the place known as the Rookery was once a bustling skyport where wayfarers came and went on the backs of trained wyverns. These days, the buildings remain, but the only dragons in sight are the vicious minions of Nidhogg.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Churning Mists (23, 18)"
+		}]
+	},
+	{
+		"name": "Camp Cloudtop",
+		"lore": "An outpost manned by the Rose Knights of House Haillenarte, who stand watch against Dravanian incursions from atop the floating islets in the sky. Boasts the Protector, a mighty airship that would avail the Ishgardians greatly in their battle against the Horde were it ever repaired to full strength.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Sea of Clouds (15, 37)"
+		}]
+	},
+	{
+		"name": "The Nidifice",
+		"lore": "A nest of great migratory birds that travel with the seasons from the Near East to Eorzea and back again in search of warmer climes. It is here that they lay their eggs, raise their young, and teach them to take to the skies before making the journey anew.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/doze",
+			"location": "The Sea of Clouds (37, 40)"
+		}]
+	},
+	{
+		"name": "Voor Sian Siran",
+		"lore": "A spring formed from moisture in the atmosphere accumulated and solidified by the power of water crystals. It is said that the knight who first discovered these ethereal waters shared the story with a wandering minstrel, who declared it to be the legendary paradise of Voor Sian Siran. However, this claim has been met with some skepticism, given the minstrel's penchant for embellishment.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Sea of Clouds (39, 21)"
+		}]
+	},
+	{
+		"name": "Mok Oogl Island",
+		"lore": "An island whose name, in the tongue of the Vanu Vanu, translates to 'a noise heard on high.' On the island stands a monument engraved with a mark of moogle design, but no sign of the creatures themselves, leaving its origins clouded in mystery.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Sea of Clouds (13, 8)"
+		}]
+	},
+	{
+		"name": "Hall of the Fallen Plume",
+		"lore": "Among the most sacred locations of the Vanu Vanu, this is said to be the spot where a single feather from Bismarck, ruler of the clouds, fell to the surface. In recent years, the elder of the violent Vundu tribe has claimed it as his seat of power, from which he rules with an iron claw.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Sea of Clouds (18, 27)"
+		}]
+	},
+	{
+		"name": "Ok' Vundu Vana",
+		"lore": "Roughly translating as 'high home of the Vundu,' this village is home to the Vanu Vanu's aggressive Vundu tribe. Exceedingly proud, the Vundu believe that the voices of those who live highest in the skies will be heard loud and clear by the ruler of the clouds.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Sea of Clouds (25, 23)"
+		}]
+	},
+	{
+		"name": "Hengr's Crucible",
+		"lore": "This oddly shaped isle, floating in the eastern reaches of the Sea of Clouds, is named for the witch Hengr, a figure of Coerthan faerie tales whose cauldron its shape is said to resemble. In recent years, it has become a gathering place for the notoriously territorial toco tocos.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Sea of Clouds (38, 11)"
+		}]
+	},
+	{
+		"name": "The Arkhitekton",
+		"lore": "Once home to Sharlayan masters who fashioned aetherytes within its halls, this workshop is now home to the Illuminati, a nasty band of goblins who would wield the ancient technologies within for their own nefarious ends.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Dravanian Hinterlands (40, 21)"
+		}]
+	},
+	{
+		"name": "The Answering Quarter",
+		"lore": "This Sharlayan settlement stretches across the western banks of the Thaliak. Home to the Saint Mocianne Arboretum and a center for education and scholarly pursuits, it hearkens back to the cities of learning that flourished in bygone times.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Dravanian Hinterlands (17, 23)"
+		}]
+	},
+	{
+		"name": "The Cenotaph",
+		"lore": "A towering monolith erected in tribute to the great scholars who have passed on, leaving behind the knowledge that has shaped the realm. The names of countless men of learning are etched in the mighty stone, along with the motto of Sharlayan: 'Knowledge Seeks No Man.'",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Dravanian Hinterlands (22, 27)"
+		}]
+	},
+	{
+		"name": "The Tipped Ewer",
+		"lore": "The spot where the melted snows of Abalathia's Spine flow emerge from their source to descend down the mountain, forming the countless tributaries that come together as the mighty Thaliak River. The name is said to come from the deity whose name the river bears and the magicked pitcher from which poured the waters of knowledge.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Dravanian Hinterlands (10, 35)"
+		}]
+	},
+	{
+		"name": "Great Gubal Library",
+		"lore": "A massive library constructed by the Sharlayans to house the wealth of knowledge they had amassed in their travels across the realm. Though the vast majority of the tomes that once lined its shelves were carried back to the motherland in the exodus, it is said forbidden texts still slumber in sealed-off vaults below.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Dravanian Hinterlands (28, 37)"
+		}]
+	},
+	{
+		"name": "The Orn Wild",
+		"lore": "A primeval forest that stretches across the northern reaches of the Dravanian hinterlands, its rich verdure sustained by the pristine waters of the Thaliak. Nigh untouched by the hand of man, its wilds stand between those who would make their way to Sharlayan without braving a trek across the forelands.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Dravanian Hinterlands (32, 11)"
+		}]
+	},
+	{
+		"name": "Saint Mocianne's Arboretum",
+		"lore": "This botanical garden built by the Sharlayans once was home to fauna and flora collected from across the realm, the study of which yielded numerous discoveries regarding our natural world. Sadly, it was abandoned in the exodus, the teeming life within left to run wild and unchecked.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Dravanian Hinterlands (13, 21)"
+		}]
+	},
+	{
+		"name": "The Gration",
+		"lore": "Flagship of the VIth Legion of the Garlean Empire, of the same make as the fallen Agrius. It now lies grounded, its ceruleum engines sealed in aetheric ice by the hand of Shiva, Lady of Frost.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Azys Lla (39, 17)"
+		}]
+	},
+	{
+		"name": "The Fractal Continuum",
+		"lore": "A mighty warship converted to a museum, intended to preserve for eternity precious artifacts from the thousand-year history of the Allagan Empire. From everyday tools to advanced military technology, the objects within are a testament to the fallen civilization's surpassing might and prosperity.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Azys Lla (33, 35)"
+		}]
+	},
+	{
+		"name": "Antithesis",
+		"lore": "Home to Tiamat, great wyrm of Midgardsormr's first brood, who fell to and was imprisoned by the Allagans. Even now, she laments her fateful decision to summon her brood-brother Bahamut back as a primal to aid her in her struggle.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Azys Lla (6, 30)"
+		}]
+	},
+	{
+		"name": "Aetherochemical Research Facility",
+		"lore": "An ancient Allagan research facility, wherein studies in restraining dragons and mastering primals were conducted. Test subjects from failed experiments prowl its long-since-abandoned halls.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Azys Lla (10, 35)"
+		}]
+	},
+	{
+		"name": "Helix",
+		"lore": "A massive port of sorts that stands among the wastes of Azys Lla. As the guidance node tells it, it was one of the few Imperial landings massive enough to house Ragnarok-class internment hulks. It would seem the docking rings that remain are but a fraction of those that stood in bygone days.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Azys Lla (6, 9)"
+		}]
+	},
+	{
+		"name": "Quarantine Block",
+		"lore": "This floating islet in a lonely corner of Azys Lla served as an isolation area for chimerical creations which failed to meet established safety parameters. Historical records indicate that the facility began its life as a research center for advanced agricultural crossbreeding.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Azys Lla (9, 21)"
+		}]
+	},
+	{
+		"name": "Recombination Labs",
+		"lore": "This Allagan research facility gave birth to countless numbers of chimerical creations. Though the guidance system is quick to assure all visitors that the good behavior of the creatures born here was─at least at one point─guaranteed, recent visitors may find themselves having doubts.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Azys Lla (30, 11)"
+		}]
+	},
+	{
+		"name": "The Pike",
+		"lore": "A monumental stone sculpture carved in the likeness of Haldrath, the first Azure Dragoon. The stonemason Percelle devoted thirty of her later years chiseling the piece, and it has stood for more than 150 years since. Even today, one cannot find a more stirring tribute to one of Ishgard's founding fathers.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/rally",
+			"location": "Coerthas Western Highlands (32, 28)"
+		}]
+	},
+	{
+		"name": "Black Iron Bridge",
+		"lore": "This testament to the skill of House Dzemael's artisans serves the main road stretching from the capital to the Dusk Vigil. Although built primarily of solid stone, the bridge was named for its suspended metal chains, wrought from black iron impervious to the blazing temperatures of a dragon's exhalation.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Coerthas Western Highlands (29, 23)"
+		}]
+	},
+	{
+		"name": "Dragonspit",
+		"lore": "Said to be as scalding as a wyrm's breath, Dragonspit is a colorful analogy for the hot springs nestled between the cliffs near the Slate Mountains. Local wildlife has long been attracted to the warmth of the natural thermal pools, and their numbers have only increased following the advent of the long winter. The steaming springs are also frequented by Ishgardian knights, who laud them for their supposed healing properties.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/sit",
+			"location": "Coerthas Western Highlands (9, 10)"
+		}]
+	},
+	{
+		"name": "The Slate Mountains",
+		"lore": "These mountains on the outskirts of Ishgard were valued as a mining site for slate of exceptional quality. Three years past, the knights of House Dzemael attempted to carve an Ishgardian stronghold into the cliffs, enraging the dragon Cuelebre and his followers. Remnants of the gruesome battle that followed still lie scattered about the crags, unable to decay in the chilled altitude.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/me",
+			"location": "Coerthas Western Highlands (12, 8)"
+		}]
+	},
+	{
+		"name": "Whilom River",
+		"lore": "When asked to explain the origin of its name, the local hunters usually say that while the river courses with tranquility in the present day, it once ran scarlet with the blood of the Dravanians and their foes. Those who fraternize with the dragons refute this interpretation, asserting instead that the river is symbolic of the passage of time since the sorrowful parting of paths between man and dragon.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Dravanian Forelands (23, 39)"
+		}]
+	},
+	{
+		"name": "Loth ast Vath",
+		"lore": "Cast out from the main colony, a minority of Gnath known as the Nonmind built Loth ast Vath as a sanctuary for other exiles. The word 'Vath' is derogatory in the Gnathic tongue, referring to those who can no longer link their thoughts to the Overmind. Possessed of individual personalities unlike their Onemind brothers, the Vath learn to live with each other's differing thoughts in the makeshift colony.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Dravanian Forelands (24, 18)"
+		}]
+	},
+	{
+		"name": "The Hissing Cobbles",
+		"lore": "The remaining fragment of a forgotten highway, the Hissing Cobbles have been molded by the inexorable march of time, its neatly arranged grids of stone fading into earth and dust. The hunters of Tailfeather bitterly call it such as many a tracked quarry have escaped, startled by the hissing sound of boots grating on loose gravel.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Dravanian Forelands (34, 15)"
+		}]
+	},
+	{
+		"name": "The Danneroad",
+		"lore": "This road leading to Anyx Trine was originally called Dran Errn, which roughly translates to 'the path of dragon and man.' Due to the difficult pronunciation, the road became known as the Danneroad over time, and its profound meaning was forgotten by all but the Dravanians.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Dravanian Forelands (18, 32)"
+		}]
+	},
+	{
+		"name": "Statue of the Unsung",
+		"lore": "A solitary statue of a dragon in the southeastern corner of the Churning Mists. While it is difficult to ascertain the circumstances which led to its creation, the sculpture's foundation bears a weathered inscription in an early script which reads 'along with the memory of thine heroic sapphire wings.'",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Churning Mists (33, 32)"
+		}]
+	},
+	{
+		"name": "Landlord Colony",
+		"lore": "The many dwellings here show evidence of extensive damage, likely the work of a furious Nidhogg following the betrayal of man. The moogles tell that the ruins were once home to the 'lords of the lower lands,' although their history was lost in the great wyrm's wrath.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/pray",
+			"location": "The Churning Mists (37, 14)"
+		}]
+	},
+	{
+		"name": "The Old Father",
+		"lore": "The moogles consider this ancient tree to be the forebearer of all flora in the Churning Mists. They believe that the Father bore witness to a time before man and dragon descended into their millennium of bloodshed.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Churning Mists (14, 25)"
+		}]
+	},
+	{
+		"name": "Coldwind",
+		"lore": "When the Rose Knights first came to the Sea of Clouds and treated with the Zundu, they asked the chieftain what he called this islet floating northwest of Ok' Zundu, to which he responded 'small island beneath which cold winds of Coerthas ever blow.' For the sake of brevity, the knights simply called it Coldwind.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Sea of Clouds (6, 6)"
+		}]
+	},
+	{
+		"name": "The Shattered Back",
+		"lore": "The strong seasonal winds from the north have carved the crags of this floating isle into their unique shapes. The knights of Ishgard called it the Shattered Back for its ominous resemblance to the gnarled rib bones of a great beast.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Sea of Clouds (26, 6)"
+		}]
+	},
+	{
+		"name": "Provenance",
+		"lore": "When Ser Marielle was appointed to the Rose Knights of Camp Cloudtop, she spotted this heart-shaped island atop the deck of her airship bound for post. It reminded the knight of a place of provenance where two lovers would begin their journey together, and the island was named thus.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Sea of Clouds (9, 28)"
+		}]
+	},
+	{
+		"name": "The Sage's Cataract",
+		"lore": "As the Thaliak River stretches north towards the Orn Wild, it spills over this grand waterfall. In the past, students would compete to see who could swim closest to the cataract's edge without succumbing to its powerful torrents. A ban on entering the waters was eventually imposed after too many accidents.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Dravanian Hinterlands (12, 13)"
+		}]
+	},
+	{
+		"name": "The Path of Knowing",
+		"lore": "This colossal bridge was once a bustling artery for researchers, students, and curators commuting to and from the Great Gubal Library. Its stone pillars suffered significant damage when the Calamity reshaped the land, causing a portion of the walkway to crumble and collapse.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Dravanian Hinterlands (19, 38)"
+		}]
+	},
+	{
+		"name": "The Daggers",
+		"lore": "An area of the hinterlands where clusters of stone columns shaped like daggers protrude from the earth. The scholars of Sharlayan had long been engulfed in a heated debate over whether the name was too simple and colloquial, but a different one was never decided upon as the proposals began to exceed the columns in number.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Dravanian Hinterlands (30, 31)"
+		}]
+	},
+	{
+		"name": "Centrifugal Crystal Engine",
+		"lore": "This seemingly indefatigable engine harnessed the power of the imprisoned Warring Triad to transmute the life force of chimera experiments into synthetic crystal. These manufactured shards would then be used to fuel the cultivation of the chimeras as part of research into the possibility of obtaining limitless power.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Azys Lla (10, 14)"
+		}]
+	},
+	{
+		"name": "Biomass Incubation Complex",
+		"lore": "A research facility dedicated to chimera splicing experiments. Its construction was prompted by 'imaginative requests' from the Allagan Research Council and related institutes, leading to the cultivation of all manner of living prototypes. The mutagenesis nearby serves as an annex to the complex.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Azys Lla (35, 6)"
+		}]
+	},
+	{
+		"name": "The Cathedral",
+		"lore": "A cathedral designed in a distinct Meracydian style. The architecture suggests a place of worship by a tribe of treelike beings who believed themselves 'remnants' of Sephirot. To research the link between faith and primal summoning, the Allagans moved the ancient structure to Azys Lla from its original location on the southern continent.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Azys Lla (26, 28)"
 		}]
 	}
 ]

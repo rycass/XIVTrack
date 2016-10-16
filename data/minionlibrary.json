@@ -2365,6 +2365,16 @@
 		}]
 	},
 	{
+		"name": "Namingway",
+		"lore": "While it is whispered that this cheerful vagrant is the sole surviving member of a tribe hailing from none other than the moon, most see Namingway for who he is─a queer fellow with a penchant for giving all he meets absurd nickname then jotting them down in his mysterious journal.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "merchandise",
+			"info": "Encyclopedia Eorzea",
+			"location": "N/A"
+		}]
+	},
+	{
 		"name": "Continental Eye",
 		"lore": "Cursed with a weak vessel upon its arrival in the corporeal realm, this malformed and maladroit voidsent was summarily captured and put to work at the Continental Circus...until being sold for a handful of coin to a new owner - you.",
 		"expansion": "ARR",
@@ -2397,16 +2407,6 @@
 	{
 		"name": "Wind-up Rikku",
 		"lore": "Peoples of the Far East tell the tale of a plucky young lass with a fiery heart and questionable taste in finery who accompanied a summoner on her journey to bring peace to the world. That young lass's name was Rikku...",
-		"expansion": "ARR",
-		"sources": [{
-			"type": "other",
-			"info": "Unknown",
-			"location": "N/A"
-		}]
-	},
-	{
-		"name": "Namingway",
-		"lore": "While it is whispered that this cheerful vagrant is the sole surviving member of a tribe hailing from none other than the moon, most see Namingway for who he is─a queer fellow with a penchant for giving all he meets absurd nickname then jotting them down in his mysterious journal.",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "other",
