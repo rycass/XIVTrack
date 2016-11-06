@@ -404,6 +404,16 @@
 		}]
 	},
 	{
+		"name": "Continental Eye",
+		"lore": "Cursed with a weak vessel upon its arrival in the corporeal realm, this malformed and maladroit voidsent was summarily captured and put to work at the Continental Circus...until being sold for a handful of coin to a new owner - you.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "holiday",
+			"info": "All Saint's Wake 2016",
+			"location": "N/A"
+		}]
+	},
+	{
 		"name": "Fledgling Dodo",
 		"lore": "Dodos mature extremely fast, going from fledgling to full-grown fryer in but a few short moons. This, coupled with the fact an adult female can lay up to seven eggs a sennight, makes this particular cloudkin the perfect option for feeding the hungry masses.",
 		"expansion": "ARR",
@@ -1780,7 +1790,17 @@
 		"expansion": "ARR",
 		"sources": [{
 			"type": "merchandise",
-			"info": "FFXIV Heavensward OST Blu-ray Soundtrack",
+			"info": "Heavensward OST Blu-ray Soundtrack",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Namingway",
+		"lore": "While it is whispered that this cheerful vagrant is the sole surviving member of a tribe hailing from none other than the moon, most see Namingway for who he is─a queer fellow with a penchant for giving all he meets absurd nickname then jotting them down in his mysterious journal.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "merchandise",
+			"info": "Encyclopedia Eorzea",
 			"location": "N/A"
 		}]
 	},
@@ -1791,6 +1811,16 @@
 		"sources": [{
 			"type": "merchandise",
 			"info": "The Art of Ishgard -Stone and Steel-",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Wind-up Rikku",
+		"lore": "Peoples of the Far East tell the tale of a plucky young lass with a fiery heart and questionable taste in finery who accompanied a summoner on her journey to bring peace to the world. That young lass's name was Rikku...",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "merchandise",
+			"info": "Fanfest 2016 (Las Vegas)",
 			"location": "N/A"
 		}]
 	},
@@ -2089,8 +2119,8 @@
 		"expansion": "ARR",
 		"sources": [{
 			"type": "other",
-			"info": "Unknown",
-			"location": "N/A"
+			"info": "Wonderous Tails, possible 2-line prize",
+			"location": "Khloe Aliapoh, Idyllshire (6, 6)"
 		}]
 	},
 	{
@@ -2212,6 +2242,16 @@
 			"type": "quest",
 			"info": "Litany of Peace",
 			"location": "Aymeric, Foundation (13, 11)"
+		}]
+	},
+	{
+		"name": "Wind-up Edda",
+		"lore": "While not confirmed, it is thought this eerily life-like replica of Edda Blackbosom was created by a former companion of the now-deceased (?) adventurer. Those who have possessed the dark fetish assert that its hair grows at night when no one is looking.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "Iron-trimmed Sack (Appraisal)",
+			"location": "Expedition Bishop, South Shroud (25, 20)"
 		}]
 	},
 	{
@@ -2365,48 +2405,8 @@
 		}]
 	},
 	{
-		"name": "Namingway",
-		"lore": "While it is whispered that this cheerful vagrant is the sole surviving member of a tribe hailing from none other than the moon, most see Namingway for who he is─a queer fellow with a penchant for giving all he meets absurd nickname then jotting them down in his mysterious journal.",
-		"expansion": "ARR",
-		"sources": [{
-			"type": "merchandise",
-			"info": "Encyclopedia Eorzea",
-			"location": "N/A"
-		}]
-	},
-	{
-		"name": "Continental Eye",
-		"lore": "Cursed with a weak vessel upon its arrival in the corporeal realm, this malformed and maladroit voidsent was summarily captured and put to work at the Continental Circus...until being sold for a handful of coin to a new owner - you.",
-		"expansion": "ARR",
-		"sources": [{
-			"type": "holiday",
-			"info": "All Saint's Wake 2016",
-			"location": "N/A"
-		}]
-	},
-	{
-		"name": "Wind-up Edda",
-		"lore": "While not confirmed, it is thought this eerily life-like replica of Edda Blackbosom was created by a former companion of the now-deceased (?) adventurer. Those who have possessed the dark fetish assert that its hair grows at night when no one is looking.",
-		"expansion": "ARR",
-		"sources": [{
-			"type": "other",
-			"info": "Unknown",
-			"location": "N/A"
-		}]
-	},
-	{
 		"name": "Wind-up Lulu",
 		"lore": "Peoples of the Far East tell the tale of a powerful mage and master of puppets who would rain destruction down on any that might harm her companions as they made their journey to save the world. Her name was Lulu...",
-		"expansion": "ARR",
-		"sources": [{
-			"type": "other",
-			"info": "Unknown",
-			"location": "N/A"
-		}]
-	},
-	{
-		"name": "Wind-up Rikku",
-		"lore": "Peoples of the Far East tell the tale of a plucky young lass with a fiery heart and questionable taste in finery who accompanied a summoner on her journey to bring peace to the world. That young lass's name was Rikku...",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "other",

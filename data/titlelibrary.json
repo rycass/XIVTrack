@@ -2808,5 +2808,45 @@
 			"details": "Discover 100 pieces of the Accursed Hoard without using a pomander of intuition.",
 			"location": "N/A"
 		}]
+	},
+	{
+		"name": "Hero Of Gelmorra",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "In Too Deep VI",
+			"details": "Clear the 100th floor of the Palace of the Dead.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Lonely Explorer",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Pal-less Palace II",
+			"details": "Clear the 1st through the 100th floors of the Palace of the Dead solo.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Lightbringer",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Some Kinna Wonderful",
+			"details": "Obtain a piece of kinna gear.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Corpse Dancer",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Dead Tired",
+			"details": "Complete the quest 'Dead but Not Gone.'",
+			"location": "N/A"
+		}]
 	}
 ]

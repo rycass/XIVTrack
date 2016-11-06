@@ -23,7 +23,7 @@
 			</div>
 			<ul class="nav navbar-nav">
 				<li ng-repeat="t in tabs" ng-class="navTabActive(t.id)"><a href="#" ng-click="setTab(t.id)">{{t.title}}</a></li>
-				<li><a href="#" data-toggle="modal" data-target="#settingsModal" ng-click="prepareExport()">Settings</a></li>
+				<li><a href="#" ng-click="setTab(-1)">Settings</a></li>
 			</ul>
 			<div class="collapse navbar-collapse">
 				<div class="progress-wrapper">
@@ -32,7 +32,7 @@
 			</div>
 		</nav>
 
-		<div class="container main">
+		<div class="container main" ng-if="!tabActive(-1)">
 			<table class="table table-hover table-condensed" st-table="t.data" st-safe-src="t.sData" ng-repeat="t in tabs" ng-if="tabActive(t.id)">
 				<thead>
 					<tr>
@@ -87,14 +87,12 @@
 			</table>
 		</div>
 		
-		<div class="modal fade" id="settingsModal" tabindex="-1" role="dialog" aria-labelledby="settingsModalLabel">
-			<div class="modal-dialog" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		<div class="container main" ng-if="tabActive(-1)">
+				<div>
+					<div>
 						<h4 class="modal-title" id="settingsModalLabel">Settings</h4>
 					</div>
-					<div class="modal-body">
+					<div>
 						<h3>Filters</h3>
 						<div>
 							<button type="button" class="btn btn-btnprimary" ng-class="{'btn-danger':filterObtained, 'btn-success': !filterObtained}" ng-model="filterObtained" ng-click="testAllFilters()" uib-btn-checkbox>Obtained</button>
@@ -107,9 +105,11 @@
 						<h3>Import/Export</h3>
 						<h5>From Disk</h5>
 						<div>
-							<input type="file" id="import-file" />
+							<input type="file" file-reader="fileContent" />
 							<button type="button" class="btn btn-primary" ng-click="exportCSV()">Export to Disk</button>
-							<button type="button" class="btn btn-primary" ng-click="importCSV()">Import from Disk</button>
+							<button type="button" class="btn btn-primary" ng-click="importCSV()" data-toggle="modal" data-target="#importModal">Import from Disk</button>
+							
+							{{fileContent}}
 						</div>
 						<h5>From Lodestone</h5>
 						<div>
@@ -118,16 +118,12 @@
 								<option selected="selected" value="">Server...</option>
 								<option ng-repeat="option in serverSelection.library" value="{{option.name}}">{{option.name}}</option>
 							</select>
-							<button type="button" class="btn btn-primary" ng-click="fetchCharacterID()">Import from Lodestone</button>
+							<button type="button" class="btn btn-primary" ng-click="fetchCharacterID()" data-toggle="modal" data-target="#importModal">Import from Lodestone</button>
 						</div>
 						<h3>Clear Data</h3>
 						<div>
-							<button type="button" class="btn btn-primary" ng-click="clearObtained(true)">Clear Collection</button>	
+							<button type="button" class="btn btn-primary" ng-click="clearObtained(true)">Clear Collection</button>
 						</div>
-					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-					</div>
 					</div>
 				</div>
 			</div>
@@ -146,6 +142,20 @@
 					<div class="modal-footer">
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="modal fade" id="importModal" tabindex="-2" role="dialog" data-backdrop="static" aria-labelledby="changelogModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-body" ng-bind="getDebugText()">
+					</div>
+					<div class="modal-body" ng-bind="getImportText()">
+					</div>
+					<button type="button" class="btn btn-default btn-success" ng-click="importConfirmClicked(true)" ng-show="isImportChoice()">Yes</button>
+					<button type="button" class="btn btn-default btn-danger" ng-click="importConfirmClicked(false)" ng-show="isImportChoice()">No</button>
+					<button type="button" class="btn btn-default btn-danger" ng-click="importDoneClicked()" ng-if="isImportDone()">Done</button>
 				</div>
 			</div>
 		</div>

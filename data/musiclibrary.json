@@ -513,22 +513,73 @@
 		"name": "Silver Tears",
 		"lore": "Dungeons: Keeper of the Lake",
 		"expansion": "ARR",
-		"sources": []
+		"sources": [{
+			"type": "dungeon",
+			"info": "Midgardsormr",
+			"location": "The Keeper of the Lake"
+		}]
 	},
 	{
 		"name": "Slumber Eternal",
 		"lore": "Dungeons: Sohm Al theme",
 		"expansion": "ARR",
-		"sources": []
+		"sources": [{
+			"type": "dungeon",
+			"info": "Sohm Al",
+			"location": "Tioman"
+		}]
 	},
 	{
 		"name": "Grounded",
 		"lore": "Dungeons: Xelphatol",
-		"expansion": "Heavensward",
+		"expansion": "ARR",
 		"sources": [{
 			"type": "quest",
 			"info": "Shadows of the First",
 			"location": "Alphinaud, Fortemps Manor (6, 6)"
+		}]
+	},
+	{
+		"name": "Blackbosom",
+		"lore": "Dungeons: Palace of the Dead (Floor 50) FIXME",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "??? (Appraisal)",
+			"location": "Expedition Bishop, South Shroud (25, 20)"
+		}]
+	},
+	{
+		"name": "Blasphemous Experiment",
+		"lore": "Dungeons: Palace of the Dead (Floor 100) FIXME",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "1 Gelmorran Potsherd",
+			"location": "E-Una-Kotor, South Shroud (25, 20)",
+			"details": "Available after clearing floor 100 of Palace of the Dead."
+		}]
+	},
+	{
+		"name": "Fog of Phantom",
+		"lore": "Dungeons: Palace of the Dead (Floor 150) FIXME",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "5 Gelmorran Potsherd",
+			"location": "E-Una-Kotor, South Shroud (25, 20)",
+			"details": "Available after clearing floor 150 of Palace of the Dead."
+		}]
+	},
+	{
+		"name": "Notice of Death",
+		"lore": "Dungeons: Palace of the Dead (Floor 200) FIXME",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "10 Gelmorran Potsherd",
+			"location": "E-Una-Kotor, South Shroud (25, 20)",
+			"details": "Available after clearing floor 200 of Palace of the Dead."
 		}]
 	},
 	{
@@ -1128,11 +1179,51 @@
 	},
 	{
 		"name": "Up at Dawn",
-		"lore": "Seasonal: All Saint's Wake theme",
+		"lore": "Seasonal: Haunted Manor",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "holiday",
 			"info": "All Saint's Wake 2016",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Starlight Celebration",
+		"lore": "Seasonal: Starlight Celebration theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "holiday",
+			"info": "Starlight Celebration 2016",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Heavensturn",
+		"lore": "Seasonal: Heavensturn theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "holiday",
+			"info": "Heavensturn 2016",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Borderless (Duality)",
+		"lore": "???: Ravana's Theme, Phase 1?",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "merchandise",
+			"info": "Duality Arrangement Album",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Unbending Steel (Duality)",
+		"lore": "???: Ravana's Theme, Phase 2?",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "merchandise",
+			"info": "Duality Arrangement Album",
 			"location": "N/A"
 		}]
 	}

@@ -25,76 +25,11 @@ $(document).ready(function(){
 		
 		$scope.activeTabNum = 0;
 		$scope.activeTab = $scope.tabs[0];
-	
-		$scope.lodestoneName = "";
-		$scope.serverSelection = {model: "",
-			library:[
-				{id: '1', name: 'Adamantoise'}, 
-				{id: '2', name: 'Aegis'},
-				{id: '3', name: 'Alexander'}, 
-				{id: '4', name: 'Anima'},
-				{id: '5', name: 'Asura'},
-				{id: '6', name: 'Atomos'},
-				{id: '7', name: 'Bahamut'},	
-				{id: '8', name: 'Balmung'},
-				{id: '9', name: 'Behemoth'},
-				{id: '10', name: 'Belias'},
-				{id: '11', name: 'Brynhildr'},
-				{id: '12', name: 'Cactuar'},
-				{id: '13', name: 'Carbuncle'},
-				{id: '14', name: 'Cerberus'},
-				{id: '15', name: 'Coeurl'},
-				{id: '16', name: 'Chocobo'},
-				{id: '17', name: 'Diabolos'},
-				{id: '18', name: 'Durandal'},
-				{id: '19', name: 'Excalibur'},
-				{id: '20', name: 'Exodus'},
-				{id: '21', name: 'Faerie'},
-				{id: '22', name: 'Famfrit'},
-				{id: '23', name: 'Fenrir'},
-				{id: '24', name: 'Garuda'},
-				{id: '25', name: 'Gilgamesh'},
-				{id: '26', name: 'Goblin'},
-				{id: '27', name: 'Gungnir'},
-				{id: '28', name: 'Hades'},
-				{id: '29', name: 'Hyperion'},
-				{id: '30', name: 'Ifrit'},
-				{id: '31', name: 'Ixion'},
-				{id: '32', name: 'Jenova'},
-				{id: '33', name: 'Kujata'},
-				{id: '34', name: 'Lamia'},
-				{id: '35', name: 'Leviathan'},
-				{id: '36', name: 'Lich'},
-				{id: '37', name: 'Malboro'},
-				{id: '38', name: 'Mandragora'},
-				{id: '39', name: 'Masamune'},
-				{id: '40', name: 'Mateus'},
-				{id: '41', name: 'Midgardsormr'},
-				{id: '42', name: 'Moogle'},
-				{id: '43', name: 'Odin'},
-				{id: '44', name: 'Pandaemonium'},
-				{id: '45', name: 'Phoenix'},
-				{id: '46', name: 'Ragnarok'},
-				{id: '47', name: 'Ramuh'},
-				{id: '48', name: 'Ridill'},
-				{id: '49', name: 'Sargatanas'},
-				{id: '50', name: 'Shinryu'},
-				{id: '51', name: 'Shiva'},
-				{id: '52', name: 'Siren'},
-				{id: '53', name: 'Tiamat'},
-				{id: '54', name: 'Titan'},
-				{id: '55', name: 'Tonberry'},
-				{id: '56', name: 'Typhon'},
-				{id: '57', name: 'Ultima'},
-				{id: '58', name: 'Ultros'},
-				{id: '59', name: 'Unicorn'},
-				{id: '60', name: 'Valefor'},
-				{id: '61', name: 'Yojimbo'},
-				{id: '62', name: 'Zalera'},
-				{id: '63', name: 'Zeromus'},
-				{id: '64', name: 'Zodiark'}
-		]};
 		
+		/***********************
+		 * Setup/Loading Stuff *
+		 ***********************/
+		 
 		$scope.setup = function() {
 			var loop = 0;
 			while (loop < $scope.tabs.length) {
@@ -102,18 +37,6 @@ $(document).ready(function(){
 				loop++;
 			}
 			$scope.setBackground();
-		}
-		
-		$scope.setBackground = function() {
-			var bglist = $scope.activeTab.backgrounds;
-			if (Math.random() <= .1) {
-				bglist = $scope.rareBackgrounds;
-			}
-			var chosenbg;
-			var numInList = bglist.length;
-			chosenbg = bglist[Math.floor(Math.random() * numInList)];
-			
-			$scope.bgStyle = "url('assets/backgrounds/" + chosenbg + "')";
 		}
 		
 		$scope.handleJson = function(tab) {
@@ -142,14 +65,53 @@ $(document).ready(function(){
 			req.send();
 		}
 		
+		/********************
+		 * Tab Manipulation *
+		 ********************/
+		
 		$scope.setTab = function(num) {
-			$scope.activeTab = $scope.tabs[num];
 			$scope.activeTabNum = num;
 			$scope.setBackground();
 			$scope.sourceSearchTerm.term = "";
+			if (num == -1) return; //Settings tab doesn't need anything else
+			$scope.activeTab = $scope.tabs[num];
 			$scope.testAllFilters();
 		}
 		
+		$scope.setBackground = function() {
+			var bglist = $scope.activeTab.backgrounds;
+			if (Math.random() <= .1) {
+				bglist = $scope.rareBackgrounds;
+			}
+			var chosenbg;
+			var numInList = bglist.length;
+			chosenbg = bglist[Math.floor(Math.random() * numInList)];
+			
+			$scope.bgStyle = "url('assets/backgrounds/" + chosenbg + "')";
+		}
+		
+		$scope.tabActive = function(num) {
+			if ($scope.activeTabNum == num) return true;
+			else return false;
+		}
+		
+		$scope.navTabActive = function(num) {
+			if ($scope.activeTabNum == num) return "active";
+			else return "";
+		}
+		
+		$scope.getNumObtained = function() {
+			return $scope.activeTab.numObtained;
+		}
+		
+		$scope.getMaxObtained = function() {
+			return $scope.activeTab.maxObtained;
+		}
+		
+		/***********************
+		 * Filter Manipulation *
+		 ***********************/
+		 
 		$scope.testAllFilters = function() {
 			for (var inum = 0; inum < $scope.activeTab.sData.length; inum++) {
 				$scope.testFilters($scope.activeTab.sData[inum]);
@@ -198,23 +160,9 @@ $(document).ready(function(){
 			$scope.testAllFilters();
 		}
 		
-		$scope.tabActive = function(num) {
-			if ($scope.activeTabNum == num) return true;
-			else return false;
-		}
-		
-		$scope.navTabActive = function(num) {
-			if ($scope.activeTabNum == num) return "active";
-			else return "";
-		}
-		
-		$scope.getNumObtained = function() {
-			return $scope.activeTab.numObtained;
-		}
-		
-		$scope.getMaxObtained = function() {
-			return $scope.activeTab.maxObtained;
-		}
+		/*********************
+		 * Item Manipulation *
+		 *********************/
 		
 		$scope.getItemImage = function(item, tab) {
 			if (tab.oneIcon) return "all_" + tab.prefix;
@@ -289,6 +237,137 @@ $(document).ready(function(){
 			return true;
 		}
 		
+		/*****************
+		 * Import/Export *
+		 *****************/
+		
+		$scope.lodestoneName = "";
+		$scope.serverSelection = {model: "",
+			library:[
+				{id: '1', name: 'Adamantoise'}, 
+				{id: '2', name: 'Aegis'},
+				{id: '3', name: 'Alexander'}, 
+				{id: '4', name: 'Anima'},
+				{id: '5', name: 'Asura'},
+				{id: '6', name: 'Atomos'},
+				{id: '7', name: 'Bahamut'},	
+				{id: '8', name: 'Balmung'},
+				{id: '9', name: 'Behemoth'},
+				{id: '10', name: 'Belias'},
+				{id: '11', name: 'Brynhildr'},
+				{id: '12', name: 'Cactuar'},
+				{id: '13', name: 'Carbuncle'},
+				{id: '14', name: 'Cerberus'},
+				{id: '15', name: 'Coeurl'},
+				{id: '16', name: 'Chocobo'},
+				{id: '17', name: 'Diabolos'},
+				{id: '18', name: 'Durandal'},
+				{id: '19', name: 'Excalibur'},
+				{id: '20', name: 'Exodus'},
+				{id: '21', name: 'Faerie'},
+				{id: '22', name: 'Famfrit'},
+				{id: '23', name: 'Fenrir'},
+				{id: '24', name: 'Garuda'},
+				{id: '25', name: 'Gilgamesh'},
+				{id: '26', name: 'Goblin'},
+				{id: '27', name: 'Gungnir'},
+				{id: '28', name: 'Hades'},
+				{id: '29', name: 'Hyperion'},
+				{id: '30', name: 'Ifrit'},
+				{id: '31', name: 'Ixion'},
+				{id: '32', name: 'Jenova'},
+				{id: '33', name: 'Kujata'},
+				{id: '34', name: 'Lamia'},
+				{id: '35', name: 'Leviathan'},
+				{id: '36', name: 'Lich'},
+				{id: '37', name: 'Malboro'},
+				{id: '38', name: 'Mandragora'},
+				{id: '39', name: 'Masamune'},
+				{id: '40', name: 'Mateus'},
+				{id: '41', name: 'Midgardsormr'},
+				{id: '42', name: 'Moogle'},
+				{id: '43', name: 'Odin'},
+				{id: '44', name: 'Pandaemonium'},
+				{id: '45', name: 'Phoenix'},
+				{id: '46', name: 'Ragnarok'},
+				{id: '47', name: 'Ramuh'},
+				{id: '48', name: 'Ridill'},
+				{id: '49', name: 'Sargatanas'},
+				{id: '50', name: 'Shinryu'},
+				{id: '51', name: 'Shiva'},
+				{id: '52', name: 'Siren'},
+				{id: '53', name: 'Tiamat'},
+				{id: '54', name: 'Titan'},
+				{id: '55', name: 'Tonberry'},
+				{id: '56', name: 'Typhon'},
+				{id: '57', name: 'Ultima'},
+				{id: '58', name: 'Ultros'},
+				{id: '59', name: 'Unicorn'},
+				{id: '60', name: 'Valefor'},
+				{id: '61', name: 'Yojimbo'},
+				{id: '62', name: 'Zalera'},
+				{id: '63', name: 'Zeromus'},
+				{id: '64', name: 'Zodiark'}
+		]};
+		
+		$scope.importState = 0;
+		$scope.importStateEnum = { OFF: 0, CHECK_FILE: 1, CONFIRM_FILE: 2, READ_FILE: 3, IMPORT_FILE: 4, CHECK_LODE: 5, CONFIRM_LODE: 6, READ_LODE: 7, IMPORT_LODE: 8, DONE: 9, ERROR: 10, CLEAR: 11};
+		$scope.importStateStrings = ["", "Checking file...", "Import data? This will overwrite your entire collection.", "Loading from file...", "Importing...", "Checking Lodestone...", "Import data? This will overwrite your entire collection.", "Downloading from Lodestone...", "Importing...", "Import complete! Click button below to refresh.", "Error"];
+		$scope.importHasError = false;
+		$scope.importErrorMessage = "";
+		
+		$scope.fileInput = null;
+		
+		$scope.getImportText = function() {
+			if ($scope.importHasError) return $scope.importErrorMessage;
+			else return $scope.importStateStrings[$scope.importState];
+		}
+		$scope.getDebugText = function() {
+			return "state: " + $scope.importState;
+		}
+		
+		$scope.isImportChoice = function() {
+			return ($scope.importState == $scope.importStateEnum.CONFIRM_FILE || $scope.importState == $scope.importStateEnum.CONFIRM_LODE);
+		}
+		
+		$scope.isImportDone = function() {
+			return ($scope.importState == $scope.importStateEnum.DONE || $scope.importHasError);
+		}
+		
+		$scope.importConfirmClicked = function(state) {
+			if ($scope.importState = $scope.importStateEnum.CONFIRM_FILE) {
+				if(state) {
+					$scope.importCSVConfirm();
+					return;
+				} else {
+					$scope.importCSVDeny();
+					return;
+				}
+			}
+		}
+		
+		$scope.importDoneClicked = function() {
+			if ($scope.importHasError) {
+				$scope.importClearError();
+				$('#importModal').modal('hide');
+			} else {
+				//refresh
+			}
+		}
+		
+		$scope.importSetError = function(text) {
+			$scope.importState = $scope.importStateEnum.ERROR;
+			$scope.importHasError = true;
+			$scope.importErrorMessage = text;
+		}
+		
+		$scope.importClearError = function() {
+			$scope.importState = $scope.importStateEnum.OFF;
+			$scope.importHasError = false;
+			$scope.importErrorMessage = "";
+			//$scope.fileInput = null;
+		}
+		
 		//Exports all collection data to CSV file.
 		$scope.exportCSV = function() {
 			var csvContent = "tab,name,obtained\n";
@@ -306,21 +385,33 @@ $(document).ready(function(){
 		}
 		
 		//Imports all collection data from CSV file.
-		//To fix: giving it something that's not a CSV file
+		//fixme: giving it something that's not a CSV file
 		$scope.importCSV = function() {
-			var fileInput = document.getElementById('import-file');
-			if (fileInput.files.length == 0) {
-				alert("Please select a file!");
+			if ($scope.importState != $scope.importStateEnum.OFF) return; //Don't let it run twice
+			$scope.importState = $scope.importStateEnum.CHECK_FILE;
+			if ($scope.fileInput == null) {
+				$scope.importSetError("Please select a file.");
 				return;
 			}
-			var confirmVal = confirm("Import data? This will overwrite your entire collection.");
-			if (!confirmVal) return;
 			
-			var file = fileInput.files[0];
+			//file validation should go here
+			if (false) { //if it's not valid error out.
+				$scope.importSetError("Invalid file. Please select a file created by XIVTrack.");
+			}
+			
+			$scope.importState = $scope.importStateEnum.CONFIRM_FILE;
+		}
+		
+		//The other half of CSV import, to be run if the user confirms that they want to do it.
+		$scope.importCSVConfirm = function() {
+			$scope.importState = $scope.importStateEnum.IMPORT_FILE;
+			var file = $scope.fileInput;
 			var data = "";
 			
 			var reader = new FileReader();
-			reader.onload = function(e) {
+			reader.onload = function(e) { //it's probably this fixme
+			//it's deffo this, do http://stackoverflow.com/questions/26353676/how-to-read-csv-file-content-in-angular-js http://plnkr.co/edit/eeQbR65oE8iljm7ueGhX?p=preview instead
+			//probably an issue with lodestone too
 				data = reader.result;
 				var importArray = $scope.CSVToArray(data);
 				var dataArray = [];
@@ -356,11 +447,18 @@ $(document).ready(function(){
 				for(var tnum = 0; tnum < $scope.tabs.length; tnum++) {
 					$scope.tabs[tnum].sData = dataArray[tnum];
 				}
+				$scope.importState = $scope.importStateEnum.DONE;
 				$scope.forceSyncCollection();
-				alert("Import successful!");
 			}
 			
-			reader.readAsText(file);
+			reader.readAsText(file);	
+		}
+		
+		//User wants to cancel CSV import, reset state and clear file.
+		$scope.importCSVDeny = function() {
+			//$scope.fileInput = null;
+			$scope.importState = $scope.importStateEnum.OFF;
+			$('#importModal').modal('hide');
 		}
 		
 		$scope.fetchCharacterID = function() {
@@ -459,6 +557,7 @@ $(document).ready(function(){
 			
 			$scope.forceSyncCollection();
 			alert("Import successful!");
+			window.location.reload();
 		}
 		//Old algorithm, more efficient but easily breaks when order is incorrect
 		//Maybe use to find errors in order?
@@ -583,5 +682,27 @@ $(document).ready(function(){
 	}
 		
 		$scope.setup();
+	});
+	var fileDirective = app.directive('fileReader', function() {
+		return {
+			scope: {
+				fileReader:"="
+			},
+			link: function(scope, element) {
+				$(element).on('change', function(changeEvent) {
+					var files = changeEvent.target.files;
+					if (files.length) {
+						var r = new FileReader();
+						r.onload = function(e) {
+							var contents = e.target.result;
+							scope.$apply(function () {
+								scope.fileReader = contents;
+							});
+						};
+						r.readAsText(files[0]);
+					}
+				});
+			}
+		}
 	});
 });
