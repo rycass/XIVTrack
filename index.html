@@ -105,11 +105,9 @@
 						<h3>Import/Export</h3>
 						<h5>From Disk</h5>
 						<div>
-							<input type="file" file-reader="fileContent" />
+							<input type="file" id="import-file" />
 							<button type="button" class="btn btn-primary" ng-click="exportCSV()">Export to Disk</button>
 							<button type="button" class="btn btn-primary" ng-click="importCSV()" data-toggle="modal" data-target="#importModal">Import from Disk</button>
-							
-							{{fileContent}}
 						</div>
 						<h5>From Lodestone</h5>
 						<div>

@@ -312,11 +312,9 @@ $(document).ready(function(){
 		
 		$scope.importState = 0;
 		$scope.importStateEnum = { OFF: 0, CHECK_FILE: 1, CONFIRM_FILE: 2, READ_FILE: 3, IMPORT_FILE: 4, CHECK_LODE: 5, CONFIRM_LODE: 6, READ_LODE: 7, IMPORT_LODE: 8, DONE: 9, ERROR: 10, CLEAR: 11};
-		$scope.importStateStrings = ["", "Checking file...", "Import data? This will overwrite your entire collection.", "Loading from file...", "Importing...", "Checking Lodestone...", "Import data? This will overwrite your entire collection.", "Downloading from Lodestone...", "Importing...", "Import complete! Click button below to refresh.", "Error"];
+		$scope.importStateStrings = ["", "Checking file...", "Import data? This will overwrite your entire collection.", "Loading from file...", "Importing...", "Checking Lodestone...", "Import data? This will overwrite your entire collection.", "Downloading from Lodestone...", "Importing...", "Import complete!", "Error"];
 		$scope.importHasError = false;
 		$scope.importErrorMessage = "";
-		
-		$scope.fileInput = null;
 		
 		$scope.getImportText = function() {
 			if ($scope.importHasError) return $scope.importErrorMessage;
@@ -347,12 +345,8 @@ $(document).ready(function(){
 		}
 		
 		$scope.importDoneClicked = function() {
-			if ($scope.importHasError) {
-				$scope.importClearError();
-				$('#importModal').modal('hide');
-			} else {
-				//refresh
-			}
+			$scope.importClearError();
+			$('#importModal').modal('hide');
 		}
 		
 		$scope.importSetError = function(text) {
@@ -365,7 +359,6 @@ $(document).ready(function(){
 			$scope.importState = $scope.importStateEnum.OFF;
 			$scope.importHasError = false;
 			$scope.importErrorMessage = "";
-			//$scope.fileInput = null;
 		}
 		
 		//Exports all collection data to CSV file.
@@ -389,7 +382,8 @@ $(document).ready(function(){
 		$scope.importCSV = function() {
 			if ($scope.importState != $scope.importStateEnum.OFF) return; //Don't let it run twice
 			$scope.importState = $scope.importStateEnum.CHECK_FILE;
-			if ($scope.fileInput == null) {
+			var file = document.getElementById('import-file');
+			if (file.files.length == 0) {
 				$scope.importSetError("Please select a file.");
 				return;
 			}
@@ -405,50 +399,50 @@ $(document).ready(function(){
 		//The other half of CSV import, to be run if the user confirms that they want to do it.
 		$scope.importCSVConfirm = function() {
 			$scope.importState = $scope.importStateEnum.IMPORT_FILE;
-			var file = $scope.fileInput;
+			var file = document.getElementById('import-file').files[0];
 			var data = "";
 			
 			var reader = new FileReader();
-			reader.onload = function(e) { //it's probably this fixme
-			//it's deffo this, do http://stackoverflow.com/questions/26353676/how-to-read-csv-file-content-in-angular-js http://plnkr.co/edit/eeQbR65oE8iljm7ueGhX?p=preview instead
-			//probably an issue with lodestone too
-				data = reader.result;
-				var importArray = $scope.CSVToArray(data);
-				var dataArray = [];
-				for(var tnum = 0; tnum < $scope.tabs.length; tnum++) {
-					dataArray[tnum] = $.extend(true, [], $scope.tabs[tnum].sData);
-				}
-				
-				for(var impnum = 1; impnum < importArray.length; impnum++) {
-					if(importArray[impnum][0] == "") continue;
-					var itemMatched = false;
+			reader.onload = function(e) {
+				$scope.$apply(function() {
+					data = reader.result;
+					var importArray = $scope.CSVToArray(data);
+					var dataArray = [];
 					for(var tnum = 0; tnum < $scope.tabs.length; tnum++) {
-						if($scope.tabs[tnum].prefix == importArray[impnum][0]) {
-							for(var inum = 0; inum < dataArray[tnum].length; inum++) {
-								var item = dataArray[tnum][inum];
-								if(importArray[impnum][1] == $scope.fixString(item.name)) {
-									dataArray[tnum][inum].obtained = (importArray[impnum][2] == "true");
-									itemMatched = true;
-									break;
-								}								
-							}
-							if (!itemMatched) {
-								alert("Error! Item " + importArray[impnum][1] + " not found in data. Aborting.");
-								return;
+						dataArray[tnum] = $.extend(true, [], $scope.tabs[tnum].sData);
+					}
+					
+					for(var impnum = 1; impnum < importArray.length; impnum++) {
+						if(importArray[impnum][0] == "") continue;
+						var itemMatched = false;
+						for(var tnum = 0; tnum < $scope.tabs.length; tnum++) {
+							if($scope.tabs[tnum].prefix == importArray[impnum][0]) {
+								for(var inum = 0; inum < dataArray[tnum].length; inum++) {
+									var item = dataArray[tnum][inum];
+									if(importArray[impnum][1] == $scope.fixString(item.name)) {
+										dataArray[tnum][inum].obtained = (importArray[impnum][2] == "true");
+										itemMatched = true;
+										break;
+									}								
+								}
+								if (!itemMatched) {
+									alert("Error! Item " + importArray[impnum][1] + " not found in data. Aborting.");
+									return;
+								}
 							}
 						}
+						if (!itemMatched) {
+								alert("Error! Tab " + importArray[impnum][0] + " not found. Aborting.");
+								return;
+						}
 					}
-					if (!itemMatched) {
-							alert("Error! Tab " + importArray[impnum][0] + " not found. Aborting.");
-							return;
+					
+					for(var tnum = 0; tnum < $scope.tabs.length; tnum++) {
+						$scope.tabs[tnum].sData = dataArray[tnum];
 					}
-				}
-				
-				for(var tnum = 0; tnum < $scope.tabs.length; tnum++) {
-					$scope.tabs[tnum].sData = dataArray[tnum];
-				}
-				$scope.importState = $scope.importStateEnum.DONE;
-				$scope.forceSyncCollection();
+					$scope.importState = $scope.importStateEnum.DONE;
+				$scope.forceSyncCollection();}
+				);
 			}
 			
 			reader.readAsText(file);	
@@ -456,7 +450,6 @@ $(document).ready(function(){
 		
 		//User wants to cancel CSV import, reset state and clear file.
 		$scope.importCSVDeny = function() {
-			//$scope.fileInput = null;
 			$scope.importState = $scope.importStateEnum.OFF;
 			$('#importModal').modal('hide');
 		}
@@ -682,27 +675,5 @@ $(document).ready(function(){
 	}
 		
 		$scope.setup();
-	});
-	var fileDirective = app.directive('fileReader', function() {
-		return {
-			scope: {
-				fileReader:"="
-			},
-			link: function(scope, element) {
-				$(element).on('change', function(changeEvent) {
-					var files = changeEvent.target.files;
-					if (files.length) {
-						var r = new FileReader();
-						r.onload = function(e) {
-							var contents = e.target.result;
-							scope.$apply(function () {
-								scope.fileReader = contents;
-							});
-						};
-						r.readAsText(files[0]);
-					}
-				});
-			}
-		}
 	});
 });
