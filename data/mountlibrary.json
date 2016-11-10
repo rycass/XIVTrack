@@ -635,6 +635,17 @@
 		}]
 	},
 	{
+		"name": "Pegasus",
+		"lore": "While rumors of a winged horse have graced ancient tomes for centuries, until recently, very little in the way of proof of their existence remained save the random feather or horseshoe housed in some remote monastery's reliquary.",
+		"attributes": "flying",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "vendor",
+			"info": "99 Brass Pirate Sky Spoils",
+			"location": "Spoils Collector, The Pillars (15, 11)"
+		}]
+	},
+	{
 		"name": "Astrope",
 		"lore": "The emergent studies of winged horses had to be rewritten with a single sighting of Astrope, confirming that adult pegasi are not only enormous in size, but also possessed of a horn. Wary of most, Astrope only allows those of gentle heart to climb upon its back - a back large enough to seat two!",
 		"attributes": "flying passenger",
@@ -644,27 +655,6 @@
 			"info": "I Hope Mentor Will Notice Me VI",
 			"details": "Complete 2,000 duties via Duty Roulette: Mentor.",
 			"location": "Jonathas, Old Gridania (10, 6)"
-		}]
-	},
-	{
-		"name": "Sleipnir",
-		"lore": "Blessed by the elder primal himself, Sleipnir will forever remain loyal to those who have proven themselves worthy. In addition to being fearless in battle, the dark steed is also able to manipulate his corporeal form to accommodate any rider, large or small.",
-		"expansion": "ARR",
-		"sources": [{
-			"type": "cashshop",
-			"info": "$25",
-			"location": "N/A"
-		}]
-	},
-	{
-		"name": "Pegasus",
-		"lore": "While rumors of a winged horse have graced ancient tomes for centuries, until recently, very little in the way of proof of their existence remained save the random feather or horseshoe housed in some remote monastery's reliquary.",
-		"attributes": "flying",
-		"expansion": "Heavensward",
-		"sources": [{
-			"type": "vendor",
-			"info": "99 Brass Pirate Sky Spoils",
-			"location": "Spoils Collector, The Pillars (15, 11)"
 		}]
 	},
 	{
@@ -701,8 +691,19 @@
 		}]
 	},
 	{
+		"name": "Sleipnir",
+		"lore": "Blessed by the elder primal himself, Sleipnir will forever remain loyal to those who have proven themselves worthy. In addition to being fearless in battle, the dark steed is also able to manipulate his corporeal form to accommodate any rider, large or small.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "cashshop",
+			"info": "$25",
+			"location": "N/A"
+		}]
+	},
+	{
 		"name": "White Lanner",
 		"lore": "These birds are clad in roiling clouds, and noble Vanu Vanu warriors would sit astride them as part of Bismarck's retinue. The grace with which they glide through the skies evokes the image of a flower petal being carried by gentle western winds.",
+		"attributes": "flying",
 		"expansion": "Heavensward",
 		"sources": [{
 			"type": "trial",
@@ -717,6 +718,7 @@
 	{
 		"name": "Rose Lanner",
 		"lore": "The ferocity of these birds is enough to give pause to the bravest warrior, and their keen talons cut through flesh as cleanly the Chandrahas themselves. Any who endeavor to mount the rose lanner must possess the savagery that defines the Wrath of the Colony.",
+		"attributes": "flying",
 		"expansion": "Heavensward",
 		"sources": [{
 			"type": "trial",
@@ -731,6 +733,7 @@
 	{
 		"name": "Round Lanner",
 		"lore": "These birds are possessed of dignity equal to the noble personages whom they serve. Ancient Ishgardian knights often indulged themselves in falconry, and lanners were revered for their abilities, their lyncean eyes being well-suited for sighting prey on the ground.",
+		"attributes": "flying",
 		"expansion": "Heavensward",
 		"sources": [{
 			"type": "trial",
@@ -745,6 +748,7 @@
 	{
 		"name": "Warring Lanner",
 		"lore": "These birds are enveloped in an aura radiating a majesty that belies the savage nature of their master. According to the ancient legends of a treelike people native to Meracydia, the lanners bore the seeds of the World Tree across the seas, planting the verdant forests that dot the realm today.",
+		"attributes": "flying",
 		"expansion": "Heavensward",
 		"sources": [{
 			"type": "trial",
