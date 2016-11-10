@@ -1,3 +1,10 @@
+# Nov 10, 2016
+- Added 3.45 content.
+- Added missing locations for 3.4 content.
+- Added holiday content for the rest of 2016.
+- Added tabs in music descriptions.
+- Minor data corrections.
+
 # Oct 9, 2016
 - Added minions drops from Bronze-trimmed Sacks.
 

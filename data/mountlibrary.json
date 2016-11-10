@@ -658,6 +658,17 @@
 		}]
 	},
 	{
+		"name": "Black Pegasus",
+		"lore": "While uncommon, tales of pegasi black as ink can be found amongst the folklore of countless tribes. One similarity, however, can be observed in nearly all the renditions─that those unworthy of the steed will have their very life essence sapped the moment they climb upon its back.",
+		"attributes": "flying",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "Gold-trimmed Sack (Appraisal)",
+			"location": "Expedition Bishop, South Shroud (25, 20)"
+		}]
+	},
+	{
 		"name": "Storm Warsteed",
 		"lore": "After witnessing dazzling demonstrations of how a warsteed might turn the tide of battle, the Grand Companies of Eorzea emptied their coffers at the feet of the Far Eastern uma bugyo, each seeking to put themselves at an advantage during Frontline campaigns.",
 		"expansion": "ARR",
@@ -808,17 +819,6 @@
 		"sources": [{
 			"type": "holiday",
 			"info": "Yo-kai Watch cross-promotion 2016",
-			"location": "N/A"
-		}]
-	},
-	{
-		"name": "Black Pegasus",
-		"lore": "While uncommon, tales of pegasi black as ink can be found amongst the folklore of countless tribes. One similarity, however, can be observed in nearly all the renditions─that those unworthy of the steed will have their very life essence sapped the moment they climb upon its back.",
-		"attributes": "flying",
-		"expansion": "ARR",
-		"sources": [{
-			"type": "other",
-			"info": "Unknown",
 			"location": "N/A"
 		}]
 	}

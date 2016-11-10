@@ -541,17 +541,17 @@
 	},
 	{
 		"name": "Blackbosom",
-		"lore": "Dungeons: Palace of the Dead (Floor 50) FIXME",
+		"lore": "Dungeons: Palace of the Dead (Floor 50)",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
-			"info": "??? (Appraisal)",
+			"info": "Iron-trimmed Sack (Appraisal)",
 			"location": "Expedition Bishop, South Shroud (25, 20)"
 		}]
 	},
 	{
 		"name": "Blasphemous Experiment",
-		"lore": "Dungeons: Palace of the Dead (Floor 100) FIXME",
+		"lore": "Dungeons: Palace of the Dead (Floor 100)",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -562,7 +562,7 @@
 	},
 	{
 		"name": "Fog of Phantom",
-		"lore": "Dungeons: Palace of the Dead (Floor 150) FIXME",
+		"lore": "Dungeons: Palace of the Dead theme (Floor 97-99)",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -573,7 +573,7 @@
 	},
 	{
 		"name": "Notice of Death",
-		"lore": "Dungeons: Palace of the Dead (Floor 200) FIXME",
+		"lore": "Dungeons: Palace of the Dead (Cutscene)",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -1209,7 +1209,7 @@
 	},
 	{
 		"name": "Borderless (Duality)",
-		"lore": "???: Ravana's Theme, Phase 1?",
+		"lore": "???: Thok Ast Thok (Phase 1)",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "merchandise",
@@ -1219,7 +1219,7 @@
 	},
 	{
 		"name": "Unbending Steel (Duality)",
-		"lore": "???: Ravana's Theme, Phase 2?",
+		"lore": "???: Thok Ast Thok (Phase 2)",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "merchandise",
