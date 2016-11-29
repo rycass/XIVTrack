@@ -112,6 +112,11 @@ $(document).ready(function(){
 		 * Filter Manipulation *
 		 ***********************/
 		 
+		 
+		$scope.swapFilter = function() {
+			$scope.filterObtained = !$scope.filterObtained;
+			$scope.testAllFilters();
+		}
 		$scope.testAllFilters = function() {
 			for (var inum = 0; inum < $scope.activeTab.sData.length; inum++) {
 				$scope.testFilters($scope.activeTab.sData[inum]);
@@ -420,20 +425,16 @@ $(document).ready(function(){
 				$scope.$apply(function() {
 					data = reader.result;
 					var importArray = $scope.CSVToArray(data);
-					var dataArray = [];
-					for(var tnum = 0; tnum < $scope.tabs.length; tnum++) {
-						dataArray[tnum] = $.extend(true, [], $scope.tabs[tnum].sData);
-					}
 					
 					for(var impnum = 1; impnum < importArray.length; impnum++) {
 						if(importArray[impnum][0] == "") continue;
 						var itemMatched = false;
 						for(var tnum = 0; tnum < $scope.tabs.length; tnum++) {
 							if($scope.tabs[tnum].prefix == importArray[impnum][0]) {
-								for(var inum = 0; inum < dataArray[tnum].length; inum++) {
-									var item = dataArray[tnum][inum];
+								for(var inum = 0; inum < $scope.tabs[tnum].sData.length; inum++) {
+									var item = $scope.tabs[tnum].sData[inum];
 									if(importArray[impnum][1] == $scope.fixString(item.name)) {
-										dataArray[tnum][inum].obtained = (importArray[impnum][2] == "true");
+										$scope.tabs[tnum].sData[inum].obtained = (importArray[impnum][2] == "true");
 										itemMatched = true;
 										break;
 									}								
@@ -450,9 +451,6 @@ $(document).ready(function(){
 						}
 					}
 					
-					for(var tnum = 0; tnum < $scope.tabs.length; tnum++) {
-						$scope.tabs[tnum].sData = dataArray[tnum];
-					}
 					$scope.importState = $scope.importStateEnum.DONE;
 				$scope.forceSyncCollection();}
 				);
@@ -532,47 +530,35 @@ $(document).ready(function(){
 		$scope.importLodestone = function(rawResults) {
 			var results = rawResults.data;
 			$scope.importState = $scope.importStateEnum.IMPORT_LODE;
-			var dataArray = [];
-			for(var tnum = 0; tnum < $scope.tabs.length; tnum++) {
-				if ($scope.tabs[tnum].prefix != "minion" && $scope.tabs[tnum].prefix != "mount") continue;
-				dataArray[tnum] = $.extend(true, [], $scope.tabs[tnum].sData);
-				for(var inum = 0; inum < dataArray[tnum].length; inum++) {
-					dataArray[tnum][inum].obtained = false;
-				}
-			}
 			
 			for (var m in results.minions) {
 				var dnum = 0;
-				while (dnum < dataArray[0].length) {
-					if ($scope.fixString(results.minions[m].name) == $scope.fixString(dataArray[0][dnum].name)) {
-						dataArray[0][dnum].obtained = true;
+				while (dnum < $scope.tabs[0].sData.length) {
+					if ($scope.fixString(results.minions[m].name) == $scope.fixString($scope.tabs[0].sData[dnum].name)) {
+						$scope.tabs[0].sData[dnum].obtained = true;
 						break;
 					} else {
 						dnum++;
 					}
 				}
-				if (dnum >= dataArray[0].length) {
+				if (dnum >= $scope.tabs[0].sData.length) {
 					console.log("Item " + results.minions[m].name + " not found in data. Ignoring.");
 				}
 			}
 			
 			for (var m in results.mounts) {
 				var dnum = 0;
-				while (dnum < dataArray[1].length) {
-					if ($scope.fixString(results.mounts[m].name) == $scope.fixString(dataArray[1][dnum].name)) {
-						dataArray[1][dnum].obtained = true;
+				while (dnum < $scope.tabs[1].sData.length) {
+					if ($scope.fixString(results.mounts[m].name) == $scope.fixString($scope.tabs[1].sData[dnum].name)) {
+						$scope.tabs[1].sData[dnum].obtained = true;
 						break;
 					} else {
 						dnum++;
 					}
 				}
-				if (dnum >= dataArray[1].length) {
+				if (dnum >= $scope.tabs[1].sData.length) {
 					console.log("Item " + results.mounts[m].name + " not found in data. Ignoring.");
 				}
-			}
-			
-			for(var tnum = 0; tnum < 2; tnum++) {
-				$scope.tabs[tnum].sData = dataArray[tnum];
 			}
 			
 			$scope.forceSyncCollection();
