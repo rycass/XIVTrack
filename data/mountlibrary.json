@@ -334,6 +334,7 @@
 	{
 		"name": "Fenrir",
 		"lore": "Following the rise of Ishgard, hoarhounds all but disappeared from the Coerthas highlands. However, the shift in climate caused by the Calamity has seen the legendary beasts descend from their mountain dens once more.",
+		"attributes": "flying",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -399,6 +400,7 @@
 	{
 		"name": "Kongamato",
 		"lore": "After hatching from an egg laid near the riverbanks, the kongamato larva spends its early life as a water-dwelling insect. Its maturity is signified by metamorphosis, during which its wings sprout forth and it takes to the skies.",
+		"attributes": "flying",
 		"expansion": "Heavensward",
 		"sources": [{
 			"type": "vendor",

@@ -16,6 +16,10 @@
 	z-index: -1;
 }
 
+.centered {
+	text-align: center;
+}
+
 .clickable {
 	cursor: pointer;
 }

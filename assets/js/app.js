@@ -171,6 +171,9 @@ $(document).ready(function(){
 		
 		$scope.fixString = function(str) {
 			if (str == undefined) return "";
+			if (str == "Wind-up Merlwyb" || str == "Wind-up Kan-E" || str == "Wind-up Raubahn") {
+				str = "Wind-up Leader"; //stupid hack
+			}
 			str = str.replace(/ |#|'|&|,/g, "_");
 			str = str.toLowerCase();
 			return str;
@@ -315,13 +318,13 @@ $(document).ready(function(){
 		$scope.importStateStrings = ["", "Checking file...", "Import data? This will overwrite your entire collection.", "Loading from file...", "Importing...", "Checking Lodestone...", "Import data? This will overwrite your entire collection.", "Downloading from Lodestone...", "Importing...", "Import complete!", "Error"];
 		$scope.importHasError = false;
 		$scope.importErrorMessage = "";
+		$scope.importFinalName = "";
+		$scope.importId = "";
 		
 		$scope.getImportText = function() {
 			if ($scope.importHasError) return $scope.importErrorMessage;
+			else if ($scope.importState == $scope.importStateEnum.CONFIRM_LODE) return "Import data from character " + $scope.importFinalName + "? This will overwrite your entire collection.";
 			else return $scope.importStateStrings[$scope.importState];
-		}
-		$scope.getDebugText = function() {
-			return "state: " + $scope.importState;
 		}
 		
 		$scope.isImportChoice = function() {
@@ -333,12 +336,22 @@ $(document).ready(function(){
 		}
 		
 		$scope.importConfirmClicked = function(state) {
-			if ($scope.importState = $scope.importStateEnum.CONFIRM_FILE) {
+			if ($scope.importState == $scope.importStateEnum.CONFIRM_FILE) {
 				if(state) {
 					$scope.importCSVConfirm();
 					return;
 				} else {
-					$scope.importCSVDeny();
+					$scope.importDeny();
+					return;
+				}
+			}
+			
+			if ($scope.importState == $scope.importStateEnum.CONFIRM_LODE) {
+				if(state) {
+					$scope.importLodeConfirm();
+					return;
+				} else {
+					$scope.importDeny();
 					return;
 				}
 			}
@@ -426,14 +439,14 @@ $(document).ready(function(){
 									}								
 								}
 								if (!itemMatched) {
-									alert("Error! Item " + importArray[impnum][1] + " not found in data. Aborting.");
-									return;
+									console.log("Item " + importArray[impnum][1] + " not found in data. Ignoring.");
+									continue;
 								}
 							}
 						}
 						if (!itemMatched) {
-								alert("Error! Tab " + importArray[impnum][0] + " not found. Aborting.");
-								return;
+								console.log("Tab " + importArray[impnum][0] + " not found. Ignoring.");
+								continue;
 						}
 					}
 					
@@ -448,63 +461,77 @@ $(document).ready(function(){
 			reader.readAsText(file);	
 		}
 		
-		//User wants to cancel CSV import, reset state and clear file.
-		$scope.importCSVDeny = function() {
+		//User wants to cancel import. Clear everything.
+		$scope.importDeny = function() {
 			$scope.importState = $scope.importStateEnum.OFF;
 			$('#importModal').modal('hide');
 		}
 		
-		$scope.fetchCharacterID = function() {
-			var name = $scope.lodestoneName;
-			var server = $scope.serverSelection.model;
-			if (server == "") {
-				alert("Please select a server.");
-				return;
-			}
+		$scope.importLodeConfirm = function() {
+			$scope.importState = $scope.importStateEnum.READ_LODE;
 			$.ajax({
 				type: "GET",
-				url: "https://xivsync.com:8443/characters/search?name=" + encodeURIComponent(name.toLowerCase()) + "&server=" + encodeURIComponent(server.toLowerCase()),
+				url: "https://api.xivdb.com/character/" + $scope.importId,
 				dataType: "json",
-				success: function success(resp) {
-					var finalName = "";
-					if (resp.results.length == 0) {
-						alert("Character not found. Make sure you typed the full name correctly.");
-						return;
-					}
-					var id = 0;
-					if (resp.paging.total > 1) {
-						for (var cnum = 0; cnum < resp.results.length; cnum++) {
-							if (resp.results[cnum].name.toLowerCase() == name.toLowerCase()) {
-								id = resp.results[cnum].id;
-								finalName = resp.results[cnum].name;
-								break;
-							}
-						}
-						if (id == 0) {
-							alert("Multiple characters found. Make sure you typed the full name correctly.");
-							return;
-						}
-					} else {
-						id = resp.results[0].id;
-						finalName = resp.results[0].name;
-					}
-					
-					var confirmVal = confirm("Import " + finalName + " of " + server + "? This will overwrite your Minion and Mount collection.");
-					if (!confirmVal) return;
-					
-					$.ajax({
-						type: "GET",
-						url: "https://xivsync.com:8443/characters/get/" + id + "?restrict=minions,mounts",
-						dataType: "json",
-						success: function success(resp2) {
-							$scope.importLodestone(resp2);
-						}
+				success: function success(resp2) {
+					$scope.$apply(function() {
+						$scope.importLodestone(resp2);
 					});
 				}
 			});
 		}
 		
-		$scope.importLodestone = function(results) {			
+		$scope.fetchCharacterID = function() {
+			if ($scope.importState != $scope.importStateEnum.OFF) return; //Don't let it run twice
+			$scope.importState = $scope.importStateEnum.CHECK_LODE;
+			var name = document.getElementById('import-name').value;
+			var server = $scope.serverSelection.model;
+			if (server == "") {
+				$scope.importSetError("Please select a server.");
+				return;
+			}
+			if (name == "") {
+				$scope.importSetError("Please enter a name.");
+				return;
+			}
+			$.ajax({
+				type: "GET",
+				url: "https://api.xivdb.com/search?one=characters&server|et=" + encodeURIComponent(server.toLowerCase()) + "&string=" + encodeURIComponent(name.toLowerCase()),
+				dataType: "json",
+				success: function success(resp) {
+					$scope.$apply(function() {
+					var r = resp.characters.results;
+					var finalName = "";
+					if (r.length == 0) {
+						$scope.importSetError("Character not found. Check spelling/server and try again.");
+						return;
+					}
+					var id = 0;
+					if (r.length > 1) {
+						for (var cnum = 0; cnum < r.length; cnum++) {
+							if (r[cnum].name.toLowerCase() == name.toLowerCase()) {
+								$scope.importId = r[cnum].id;
+								$scope.importFinalName = r[cnum].name;
+								break;
+							}
+						}
+						if (id == 0) {
+							$scope.importSetError("Multiple characters found. Please type the full name and try again.");
+							return;
+						}
+					} else {
+						$scope.importId = r[0].id;
+						$scope.importFinalName = r[0].name;
+					}
+					$scope.importState = $scope.importStateEnum.CONFIRM_LODE;
+				});
+				}
+			});
+		}
+		
+		$scope.importLodestone = function(rawResults) {
+			var results = rawResults.data;
+			$scope.importState = $scope.importStateEnum.IMPORT_LODE;
 			var dataArray = [];
 			for(var tnum = 0; tnum < $scope.tabs.length; tnum++) {
 				if ($scope.tabs[tnum].prefix != "minion" && $scope.tabs[tnum].prefix != "mount") continue;
@@ -514,10 +541,10 @@ $(document).ready(function(){
 				}
 			}
 			
-			for (var jnum = 0; jnum < results.minions.length; jnum++) {
+			for (var m in results.minions) {
 				var dnum = 0;
 				while (dnum < dataArray[0].length) {
-					if ($scope.fixString(results.minions[jnum].name) == $scope.fixString(dataArray[0][dnum].name)) {
+					if ($scope.fixString(results.minions[m].name) == $scope.fixString(dataArray[0][dnum].name)) {
 						dataArray[0][dnum].obtained = true;
 						break;
 					} else {
@@ -525,14 +552,14 @@ $(document).ready(function(){
 					}
 				}
 				if (dnum >= dataArray[0].length) {
-					alert("I have no idea what " + results.minions[jnum].name + " is.");
+					console.log("Item " + results.minions[m].name + " not found in data. Ignoring.");
 				}
 			}
 			
-			for (var jnum = 0; jnum < results.mounts.length; jnum++) {
+			for (var m in results.mounts) {
 				var dnum = 0;
 				while (dnum < dataArray[1].length) {
-					if ($scope.fixString(results.mounts[jnum].name) == $scope.fixString(dataArray[1][dnum].name)) {
+					if ($scope.fixString(results.mounts[m].name) == $scope.fixString(dataArray[1][dnum].name)) {
 						dataArray[1][dnum].obtained = true;
 						break;
 					} else {
@@ -540,7 +567,7 @@ $(document).ready(function(){
 					}
 				}
 				if (dnum >= dataArray[1].length) {
-					alert("I have no idea what " + results.mounts[jnum].name + " is.");
+					console.log("Item " + results.mounts[m].name + " not found in data. Ignoring.");
 				}
 			}
 			
@@ -549,47 +576,8 @@ $(document).ready(function(){
 			}
 			
 			$scope.forceSyncCollection();
-			alert("Import successful!");
-			window.location.reload();
+			$scope.importState = $scope.importStateEnum.DONE;
 		}
-		//Old algorithm, more efficient but easily breaks when order is incorrect
-		//Maybe use to find errors in order?
-		/*
-			var dnum = 0;
-			var lastGoodData = 0;
-			for (var jnum = 0; jnum < results.minions.length; jnum++) {
-				if ($scope.fixString(results.minions[jnum].name) == $scope.fixString(dataArray[0][dnum].name)) {
-					dataArray[0][dnum].obtained = true;
-					lastGoodData = dnum;
-					dnum++;
-				} else {
-					dnum++;
-					jnum--;
-					if (dnum >= dataArray[0].length) {
-						alert("I have no idea what " + results.minions[jnum].name + " is.");
-						jnum++;
-						dnum = lastGoodData;
-					}
-				}
-			}
-			
-			dnum = 0;
-			lastGoodData = 0;
-			for (var jnum = 0; jnum < results.mounts.length; jnum++) {
-				if ($scope.fixString(results.mounts[jnum].name) == $scope.fixString(dataArray[1][dnum].name)) {
-					dataArray[1][dnum].obtained = true;
-					lastGoodData = dnum;
-					dnum++;
-				} else {
-					dnum++;
-					jnum--;
-					if (dnum >= dataArray[1].length) {
-						alert("I have no idea what " + results.mounts[jnum].name + " is.");
-						dnum = lastGoodData;
-					}
-				}
-			}
-		*/
 		
 		//Forces a save of all collection data to localstorage. Also checks collection numbers.
 		$scope.forceSyncCollection = function() {
