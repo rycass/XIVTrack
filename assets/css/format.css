@@ -207,3 +207,7 @@ table > tbody > tr:nth-of-type(2n+1) {
 .st-sort-descent:before{
 	content: '\25BC';
 }
+
+.row {
+	margin: 10px;
+}

@@ -88,44 +88,62 @@
 		</div>
 		
 		<div class="container main" ng-if="tabActive(-1)">
-				<div>
-					<div>
-						<h4 class="modal-title" id="settingsModalLabel">Settings</h4>
-					</div>
-					<div>
-						<h3>Filters</h3>
-						<div>
-							<button type="button" class="btn btn-btnprimary" ng-class="{'btn-danger':filterObtained, 'btn-success': !filterObtained}" ng-model="filterObtained" ng-click="swapFilter()" uib-btn-checkbox>Obtained</button>
-							<button type="button" class="btn btn-btnprimary btn-danger" ng-click="filterAll(true)">All</button>
-							<button type="button" class="btn btn-btnprimary btn-success" ng-click="filterAll(false)">None</button>
-						</div>
-						<div class="btn-group">
-							<button ng-repeat="f in filterLibrary" type="button" class="btn btn-btnprimary" ng-class="{'btn-danger':f.filtered, 'btn-success': !f.filtered}" ng-model="f.filtered" ng-click="testAllFilters()" uib-btn-checkbox>{{f.name}}</button>
-						</div>
-						<h3>Import/Export</h3>
-						<h5>From Disk</h5>
-						<div>
-							<input type="file" id="import-file" />
-							<button type="button" class="btn btn-primary" ng-click="exportCSV()">Export to Disk</button>
-							<button type="button" class="btn btn-primary" ng-click="importCSV()" data-toggle="modal" data-target="#importModal">Import from Disk</button>
-						</div>
-						<h5>From Lodestone</h5>
-						<div>
-							<input id="import-name" class="form-control" placeholder="Name" type="text"/>
-							<select name="lodestone-server" id="lodestone-server" ng-model="serverSelection.model">
-								<option selected="selected" value="">Server...</option>
-								<option ng-repeat="option in serverSelection.library" value="{{option.name}}">{{option.name}}</option>
-							</select>
-							<button type="button" class="btn btn-primary" ng-click="fetchCharacterID()" data-toggle="modal" data-target="#importModal">Import from Lodestone</button>
-						</div>
-						<h3>Clear Data</h3>
-						<div>
-							<button type="button" class="btn btn-primary" ng-click="clearObtained(true)">Clear Collection</button>
-						</div>
-						<div class="modal-footer"></div>
-					</div>
+			<div class="row">
+				<div class="col-sm-2">
+					Filters
+				</div>
+				<div class="col-sm-2">
+					<button type="button" class="btn btn-btnprimary" ng-class="{'btn-danger':filterObtained, 'btn-success': !filterObtained}" ng-model="filterObtained" ng-click="swapFilter()" uib-btn-checkbox>Obtained</button><br />
+					<button type="button" class="btn btn-btnprimary" ng-click="filterAll(true)">All</button>
+					<button type="button" class="btn btn-btnprimary" ng-click="filterAll(false)">None</button>
+				</div>
+				<div class="col-sm-8 btn-group">
+					<button ng-repeat="f in filterLibrary" type="button" class="btn btn-btnprimary" ng-class="{'btn-danger':f.filtered, 'btn-success': !f.filtered}" ng-model="f.filtered" ng-click="testAllFilters()" uib-btn-checkbox>{{f.name}}</button>
 				</div>
 			</div>
+			<div class="row">
+				<div class="col-sm-2">
+					Import from Disk
+				</div>
+				<div class="col-sm-5">
+					<input type="file" id="import-file" />
+				</div>
+				<div class="col-sm-5">
+					<button type="button" class="btn btn-primary" ng-click="importCSV()" data-toggle="modal" data-target="#importModal">Import from Disk</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-2">
+					Import from Lodestone
+				</div>
+				<div class="col-sm-5">
+					<input id="import-name" class="form-control" placeholder="Name" type="text"/>
+					<select name="lodestone-server" id="lodestone-server" ng-model="serverSelection.model">
+						<option selected="selected" value="">Server...</option>
+						<option ng-repeat="option in serverSelection.library" value="{{option.name}}">{{option.name}}</option>
+					</select>
+				</div>
+				<div class="col-sm-5">
+					<button type="button" class="btn btn-primary" ng-click="fetchCharacterID()" data-toggle="modal" data-target="#importModal">Import from Lodestone</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-2">
+					Export to Disk
+				</div>
+				<div class="col-sm-10">
+					<button type="button" class="btn btn-primary" ng-click="exportCSV()">Export to Disk</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-2">
+					Clear Data
+				</div>
+				<div class="col-sm-10">
+					<button type="button" class="btn btn-primary" ng-click="clearObtained(true)">Clear Collection</button>
+				</div>
+			</div>
+			<div class="modal-footer"></div>
 		</div>
 		
 		<div class="modal fade" id="changelogModal" tabindex="-1" role="dialog" aria-labelledby="changelogModalLabel">
