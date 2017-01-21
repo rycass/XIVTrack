@@ -114,7 +114,7 @@ $(document).ready(function(){
 		
 		$scope.getItemImage = function(item, tab) {
 			if (tab.oneIcon) return "all_" + tab.prefix;
-			else return $scope.fixImgString(item.name) + "_" + tab.prefix;
+			return $scope.fixImgString($scope.getName(item)) + "_" + tab.prefix;
 		}
 		
 		$scope.fixImgString = function(str) {
@@ -133,8 +133,13 @@ $(document).ready(function(){
 			return item["card"].split(" ")[position];
 		}
 		
+		$scope.getName = function (item) {
+			if (item.internalname) return item.internalname;
+			else return item.name;
+		}
+		
 		$scope.toggleObtained = function(item, tab) {
-			var str = tab.prefix + "_" + item.name;
+			var str = tab.prefix + "_" + $scope.getName(item);
 			str = str.replace(/ |#|'/g, "_");
 			if (item.obtained == false) tab.numObtained++;
 			else tab.numObtained--;
@@ -143,7 +148,7 @@ $(document).ready(function(){
 		}
 		
 		$scope.fetchObtained = function (item, tab) {
-			var str = tab.prefix + "_" + item.name;
+			var str = tab.prefix + "_" + $scope.getName(item);
 			str = str.replace(/ |#|'/g, "_");
 			if (localStorage.getItem(str) == "true") {
 				tab.numObtained++;
