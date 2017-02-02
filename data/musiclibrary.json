@@ -1495,6 +1495,16 @@
 		}]
 	},
 	{
+		"name": "The Kiss",
+		"lore": "Seasonal: Valentione's Day theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "holiday",
+			"info": "Valentione's Day 2017",
+			"location": "N/A"
+		}]
+	},
+	{
 		"name": "Borderless (Duality)",
 		"lore": "Mog Station: Flying Mount remix",
 		"expansion": "ARR",

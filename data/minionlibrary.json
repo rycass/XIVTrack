@@ -1526,6 +1526,16 @@
 		}]
 	},
 	{
+		"name": "Angel Of Mercy",
+		"lore": "A missing tinker has recently returned to Ul'dah claiming to have been 'rescued by an angel.' While most believe the man to merely be a recipient of a passerby mage's kindness, he has since dedicated his life to creating automata in the image of his heavenly savior.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "holiday",
+			"info": "Valentione's Day 2017",
+			"location": "N/A"
+		}]
+	},
+	{
 		"name": "Wind-up Cursor",
 		"lore": "If we are to believe the slurred ravings of a self-proclaimed goblin theologian deep in his cups, this seemingly inconspicuous white glove is actually the 'Hand of Fate' by which all of us are controlled from a dimension beyond the aether.",
 		"expansion": "ARR",
@@ -2497,16 +2507,6 @@
 		"sources": [{
 			"type": "holiday",
 			"info": "Yo-kai Watch cross-promotion 2016",
-			"location": "N/A"
-		}]
-	},
-	{
-		"name": "Angel Of Mercy",
-		"lore": "A missing tinker has recently returned to Ul'dah claiming to have been 'rescued by an angel.' While most believe the man to merely be a recipient of a passerby mage's kindness, he has since dedicated his life to creating automata in the image of his heavenly savior.",
-		"expansion": "?",
-		"sources": [{
-			"type": "other",
-			"info": "Unknown",
 			"location": "N/A"
 		}]
 	},

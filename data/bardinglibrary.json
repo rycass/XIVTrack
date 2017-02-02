@@ -433,5 +433,14 @@
 			"info": "Armorer 60**** (Requires Master Armorer IV, Specialist)",
 			"location": "N/A"
 		}]
+	},
+		{
+		"name": "Butlery Barding",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "cashshop",
+			"info": "$10",
+			"location": "N/A"
+		}]
 	}
 ]
