@@ -586,8 +586,8 @@
 		"expansion": "ARR",
 		"sources": [{
 			"type": "dungeon",
-			"info": "Sohm Al",
-			"location": "Tioman"
+			"info": "Tioman",
+			"location": "Sohm Al"
 		}]
 	},
 	{
