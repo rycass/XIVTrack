@@ -455,6 +455,17 @@
 		}]
 	},
 	{
+		"name": "Archon Throne",
+		"lore": "Despite claims that it was once the chair of Louisoix Leveilleur, former residents of Sharlayan have confirmed that it is naught more than an ordinary furnishing enchanted by a Great Gubal Library bibliophile who was tired of not being able to reach the upper shelves.",
+		"attributes": "flying",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "750,000 MGP",
+			"location": "Gold Saucer Attendant, Gold Saucer (5, 6)"
+		}]
+	},
+	{
 		"name": "Logistics System",
 		"lore": "One of the automated system drones deployed by the Allagans to maintain and protect their strongholds. After being unearthed by the Sons of Saint Coinach, the mechanical sphere was modified by Nero tol Scavea into a personal transportation device.",
 		"attributes": "flying",
@@ -508,6 +519,11 @@
 		"sources": [{
 			"type": "holiday",
 			"info": "All Saint's Wake 2015",
+			"location": "N/A"
+		},
+		{
+			"type": "cashshop",
+			"info": "$12",
 			"location": "N/A"
 		}]
 	},
@@ -767,6 +783,10 @@
 			"type": "trial",
 			"info": "Sephirot",
 			"location": "Containment Bay S1T7 (Extreme)"
+		}, {
+			"type": "vendor",
+			"info": "99 Fiend Totem",
+			"location": "Bertana, Idyllshire (5, 5)"
 		}]
 	},
 	{
@@ -778,6 +798,10 @@
 			"type": "trial",
 			"info": "Nidhogg",
 			"location": "The Minstrel's Ballad: Nidhogg's Rage"
+		}, {
+			"type": "vendor",
+			"info": "99 Horde Totem",
+			"location": "Bertana, Idyllshire (5, 5)"
 		}]
 	},
 	{
@@ -789,6 +813,29 @@
 			"type": "trial",
 			"info": "Sophia",
 			"location": "Containment Bay P1T6 (Extreme)"
+		}]
+	},
+	{
+		"name": "Demonic Lanner",
+		"lore": "The centaurs of ancient Meracydia believed that their mighty god Zurvan would send out his lanner before a battle to inform his enemies of their impending defeat.",
+		"attributes": "flying",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "trial",
+			"info": "Zurvan",
+			"location": "Containment Bay Z1T9 (Extreme)"
+		}]
+	},
+	{
+		"name": "Firebird",
+		"lore": "The Far East is home to numerous legends concerning birds of flame who sacrifice their lives to save the world, only to rise from the ashes of destruction to rule the skies once again. The Firebird is one of those legends...made a mount.",
+		"attributes": "flying",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "quest",
+			"info": "Fiery Wings, Fiery Hearts",
+			"details": "Quest requires the following mounts to begin: White Lanner, Rose Lanner, Round Lanner, Warring Lanner, Dark Lanner, Sophic Lanner, and Demonic Lanner.",
+			"location": "Walking Atlas, Idyllshire (8, 6)"
 		}]
 	},
 	{
@@ -808,9 +855,10 @@
 		"attributes": "flying",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "holiday",
-			"info": "Yo-kai Watch cross-promotion 2016",
-			"location": "N/A"
+			"type": "unobtainable",
+			"info": "Achievement: You Must Needs Befriend Them All",
+			"details": "Obtain all Yo-kai minions.",
+			"location": "Jonathas, Old Gridania (10, 6)"
 		}]
 	},
 	{
@@ -819,8 +867,67 @@
 		"attributes": "flying",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "holiday",
-			"info": "Yo-kai Watch cross-promotion 2016",
+			"type": "unobtainable",
+			"info": "Achievement: More Inventory Slots, Please",
+			"details": "Obtain all the Yo-kai weapons.",
+			"location": "Jonathas, Old Gridania (10, 6)"
+		}]
+	},
+	{
+		"name": "Goten",
+		"lore": "This otherworldly mount, cobbled together from the carcasses of noble beasts and armored in elaborate gold plate, is said only to accept as riders those who have proven their might and mettle on the fields of battle.",
+		"attributes": "flying",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Fatal Feast",
+			"details": "Emerge victorious in 30 Feast matches while using a title received from the disreputable priest.",
+			"location": "Jonathas, Old Gridania (10, 6)"
+		}]
+	},
+	{
+		"name": "Ginga",
+		"lore": "This otherworldly mount, cobbled together from the carcasses of noble beasts and armored in elaborate silver plate, is said only to accept as riders those who have proven their might and mettle on the fields of battle.",
+		"attributes": "flying",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Frontline Fury",
+			"details": "Emerge victorious in 10 Frontline campaigns while using a title received from the disreputable priest.",
+			"location": "Jonathas, Old Gridania (10, 6)"
+		}]
+	},
+	{
+		"name": "Raigo",
+		"lore": "The most daunting of Mado horses, Raigo eclipses its unholy brethren Goten and Ginga in both size and ferocity. As such, the creature will not suffer the burden of carrying a soul unbloodied, and therefore unworthy.",
+		"attributes": "flying",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Furious Fatalities",
+			"details": "Emerge victorious in a combination of 60 Frontline campaigns and Feast matches while using a title received from the disreputable priest.",
+			"location": "Jonathas, Old Gridania (10, 6)"
+		}]
+	},
+	{
+		"name": "Eggshilaration System",
+		"lore": "After learning of the latest of the Dreamer's visions - a giant floating ovoid delivering eggs to all the good boys and girls of the realm - Nonotta and friends literally scrambled to find a means of bringing her dream to life. All it required was a little aid from the Sons of Saint Coinach...and the remnants of some ancient Allagan technology.",
+		"attributes": "flying",
+		"expansion": "?",
+		"sources": [{
+			"type": "other",
+			"info": "Unknown",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Flying Cumulus",
+		"lore": "There is but one man in all of Hydaelyn who can create such a mystical masterpiece, and it is said he resides upon a misty peak hidden within the mountain ranges of Doma. Crafted by stitching together dozens of smaller clouds, the cumulus allows a single rider to explore the skies...but only if she has an inherent affinity for magicks.",
+		"attributes": "flying",
+		"expansion": "?",
+		"sources": [{
+			"type": "other",
+			"info": "Unknown",
 			"location": "N/A"
 		}]
 	}

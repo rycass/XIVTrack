@@ -1,3 +1,12 @@
+# Feb 2, 2017
+- Added Valentione's Day 2017 content.
+- Added Butlery Barding.
+
+# Jan 21, 2017
+- Added 3.5 content.
+- Updated expired merchandise rewards.
+- Minor data corrections.
+
 # Nov 10, 2016
 - Added 3.45 content.
 - Added missing locations for 3.4 content.

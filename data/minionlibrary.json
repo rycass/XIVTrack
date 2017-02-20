@@ -562,6 +562,11 @@
 			"type": "holiday",
 			"info": "All Saint's Wake 2015",
 			"location": "N/A"
+		},
+		{
+			"type": "cashshop",
+			"info": "$5",
+			"location": "N/A"
 		}]
 	},
 	{
@@ -1107,6 +1112,26 @@
 		}]
 	},
 	{
+		"name": "Bullpup",
+		"lore": "The Garleans have a long history of canine breeding that extends far back into the nation's days as a republic. The intent of this practice is to produce fearless, loyal killing machines, and those that fail to display the desired traits are...discarded.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "dungeon",
+			"info": "The Griffin",
+			"location": "Baelsar's Wall"
+		}]
+	},
+	{
+		"name": "Anima",
+		"lore": "Ardashir fashioned this new body utilizing the anima's original soulstone. No longer limited to the immediate vicinity of the anima weapon, it is free to explore the realm at your side. Whether it will grow to become a real boy or girl, however, remains to be seen.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "quest",
+			"info": "Body and Soul",
+			"location": "Automaton, Azys Lla (7, 12)"
+		}]
+	},
+	{
 		"name": "Mammet #001",
 		"lore": "The standard frill-free #001 model is not only the best-selling mammet on the market, but is the blueprint on which all other clockwork servitors are based.",
 		"expansion": "ARR",
@@ -1162,6 +1187,16 @@
 			"info": "Bump on a Log: Immortal Flames",
 			"details": "Complete all Immortal Flames entries in the hunting log.",
 			"location": "Jonathas, Old Gridania (10, 6)"
+		}]
+	},
+	{
+		"name": "Gigi",
+		"lore": "The secret to the lost art of temporal magicks is believed to be buried deep within this ancient automaton created by the legendary Sharlayan archmagus Quan. Vitality levels are dangerously low due to a power drainage necessary to save the lives of his companions.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "quest",
+			"info": "If I Could Turn Back Time",
+			"location": "Hildibrand, The Dravanian Forelands (20, 22)"
 		}]
 	},
 	{
@@ -1249,8 +1284,8 @@
 		"lore": "One night, an aspiring moogle bard had a dream?a dream to become the greatest musician in all the realm. But to do it he would need a band of merry moogles to accompany him. The bard had no friends, so instead he decided to create his own band from stolen mammet parts.",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "merchandise",
-			"info": "Before the Fall Blu-ray Soundtrack",
+			"type": "unobtainable",
+			"info": "Before the Fall Blu-ray Soundtrack (expired)",
 			"location": "N/A"
 		}]
 	},
@@ -1450,6 +1485,17 @@
 		}]
 	},
 	{
+		"name": "Wind-up Ohl Deeh",
+		"lore": "This remarkably true-to-life replica of his bosom buddy Ohl Deeh was carefully handcrafted by Master Mogzin not as an expression of his undying friendship, but 'to scare his wits all the way to Weston Waters.'",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "vendor",
+			"info": "30,000 gil",
+			"details": "Only offered with 'Sworn' reputation with Moghome.",
+			"location": "Mogmul Mogbelly, The Churning Mists (16, 29)"
+		}]
+	},
+	{
 		"name": "Wind-up Edvya",
 		"lore": "Forty years after the founding of the Thorne Dynasty, sultan Baldric Thorne was blessed by the gods with a single daughter, Edvya, whom he loved fiercely. The history surrounding the two, now known as the 'Legend of the Lost Lady' gave rise to the festival of Little Ladies' Day.",
 		"expansion": "ARR",
@@ -1476,6 +1522,16 @@
 		{
 			"type": "cashshop",
 			"info": "$5",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Angel Of Mercy",
+		"lore": "A missing tinker has recently returned to Ul'dah claiming to have been 'rescued by an angel.' While most believe the man to merely be a recipient of a passerby mage's kindness, he has since dedicated his life to creating automata in the image of his heavenly savior.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "holiday",
+			"info": "Valentione's Day 2017",
 			"location": "N/A"
 		}]
 	},
@@ -1534,8 +1590,8 @@
 		"lore": "The original Enterprise was designed and built while Garlond family prodigy Cid was still working as a military engineer for the Garlean Empire. The aft crane - intended for the loading of imperial weaponry - was added to the airship in the days before Cid's defection.",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "merchandise",
-			"info": "Art of Eorzea artbook",
+			"type": "unobtainable",
+			"info": "Art of Eorzea artbook (expired)",
 			"location": "N/A"
 		}]
 	},
@@ -1617,6 +1673,16 @@
 			"type": "raid",
 			"info": "Calofisteri",
 			"location": "The Weeping City of Mhach"
+		}]
+	},
+	{
+		"name": "Wind-up Scathach",
+		"lore": "On the sole of her left foot can be seen the inscription, 'With this, I profess my love to thee.' The lettering, however, does not match the Eorzean used during the latter Fourth Astral Era, suggesting that the automaton was crafted far after the fall of Mhach.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "raid",
+			"info": "Diabolos Hollow",
+			"location": "Dun Scaith"
 		}]
 	},
 	{
@@ -1820,7 +1886,27 @@
 		"expansion": "ARR",
 		"sources": [{
 			"type": "merchandise",
-			"info": "Fanfest 2016 (Las Vegas)",
+			"info": "Fanfest 2016-2017 (Las Vegas)",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Wind-up Lulu",
+		"lore": "Peoples of the Far East tell the tale of a powerful mage and master of puppets who would rain destruction down on any that might harm her companions as they made their journey to save the world. Her name was Lulu...",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "merchandise",
+			"info": "Fanfest 2016-2017 (Tokyo)",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Wind-up Yuna",
+		"lore": "Peoples of the Far East tell the tale of a beautiful summoner who embarked on a perilous journey to deliver restless souls to the afterlife and thus bring peace to the world. Her name was Yuna...",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "merchandise",
+			"info": "Fanfest 2016-2017 (Germany)",
 			"location": "N/A"
 		}]
 	},
@@ -2049,7 +2135,7 @@
 		"expansion": "ARR",
 		"sources": [{
 			"type": "other",
-			"info": "Wonderous Tails, possible 2-line prize",
+			"info": "Wondrous Tails, possible 2-line prize",
 			"location": "Khloe Aliapoh, Idyllshire (6, 6)"
 		}]
 	},
@@ -2119,7 +2205,7 @@
 		"expansion": "ARR",
 		"sources": [{
 			"type": "other",
-			"info": "Wonderous Tails, possible 2-line prize",
+			"info": "Wondrous Tails, possible 2-line prize",
 			"location": "Khloe Aliapoh, Idyllshire (6, 6)"
 		}]
 	},
@@ -2255,12 +2341,32 @@
 		}]
 	},
 	{
+		"name": "Wind-up Estinien",
+		"lore": "It is said the creators of this lifelike replica spent several days quarreling over what color to paint the now-infamous dragoon's armor - blue or red. After consultation with Vault officials, the decision was made to proceed with the former.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "Wondrous Tails, possible 2-line prize",
+			"location": "Khloe Aliapoh, Idyllshire (6, 6)"
+		}]
+	},
+	{
 		"name": "Wind-up Sun",
 		"lore": "Designed to provide light for road repairmen toiling during the small hours of the night, wind-up suns have become all the talk amongst Ul'dahn mesdames ever since it was discovered the extra light worked wonders at hiding unsightly blemishes and wrinkles.",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
 			"info": "1 Elixir",
+			"location": "Magic Pot, Western La Noscea (11, 36)"
+		}]
+	},
+	{
+		"name": "Wind-up Moon",
+		"lore": "Following a report that excessive exposure to the bright light emitted by wind-up suns may be causing the very blemishes that Ul'dahn mesdames thought to hide, demand for a less-radiant alternative skyrocketed, ultimately giving rise to the wind-up moon.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "1 Hi-Elixir",
 			"location": "Magic Pot, Western La Noscea (11, 36)"
 		}]
 	},
@@ -2405,9 +2511,9 @@
 		}]
 	},
 	{
-		"name": "Wind-up Lulu",
-		"lore": "Peoples of the Far East tell the tale of a powerful mage and master of puppets who would rain destruction down on any that might harm her companions as they made their journey to save the world. Her name was Lulu...",
-		"expansion": "ARR",
+		"name": "Wind-up Nidhogg",
+		"lore": "An enemy of the Holy See for over a thousand years, it is difficult for the people of Ishgard to not experience feelings of intense loathing when setting their eyes upon this harmless replica.",
+		"expansion": "?",
 		"sources": [{
 			"type": "other",
 			"info": "Unknown",

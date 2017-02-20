@@ -403,7 +403,7 @@
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
-			"info": "Goldsmith 60**** (Requires Master Goldsmith IV, Specialist)",
+			"info": "Goldsmith 60**** (Requires Master Goldsmith IV)",
 			"location": "N/A"
 		}]
 	},
@@ -423,6 +423,24 @@
 			"type": "vendor",
 			"info": "150,000 MGP",
 			"location": "Gold Saucer Attendant, Gold Saucer (5, 6)"
+		}]
+	},
+	{
+		"name": "Zurvanite Barding",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Armorer 60**** (Requires Master Armorer IV, Specialist)",
+			"location": "N/A"
+		}]
+	},
+		{
+		"name": "Butlery Barding",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "cashshop",
+			"info": "$10",
+			"location": "N/A"
 		}]
 	}
 ]

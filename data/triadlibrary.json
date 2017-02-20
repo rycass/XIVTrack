@@ -51,7 +51,7 @@
 		"card": "4 2 4 3",
 		"sources": [{
 			"type": "vendor",
-			"info": "Bronze Triad Card",
+			"info": "520 MGP (Bronze Triad Card)",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
 			"type": "npc",
@@ -67,7 +67,7 @@
 		"card": "5 2 3 4",
 		"sources": [{
 			"type": "vendor",
-			"info": "Bronze Triad Card",
+			"info": "520 MGP (Bronze Triad Card)",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
 			"type": "npc",
@@ -107,7 +107,7 @@
 		"card": "4 3 3 3",
 		"sources": [{
 			"type": "vendor",
-			"info": "Bronze Triad Card",
+			"info": "520 MGP (Bronze Triad Card)",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
 			"type": "npc",
@@ -172,7 +172,7 @@
 		"card": "2 2 5 5",
 		"sources": [{
 			"type": "vendor",
-			"info": "Bronze Triad Card",
+			"info": "520 MGP (Bronze Triad Card)",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
 			"type": "npc",
@@ -231,6 +231,18 @@
 		}]
 	},
 	{
+		"name": "Opo-Opo",
+		"lore": "These monkey-like beastkin are found inhabiting densely forested regions, with each colony consisting of several dozen individuals led by a single alpha. Possessed of long tails and opposable thumbs, opo-opos are often seen leaping nimbly from tree branch to tree branch in search of fruit - their favored food. In recent years, however, several colonies have discovered a taste for beans, leaving many a farmer cursing over their plundered fields.",
+		"expansion": "ARR",
+		"rarity": "1",
+		"card": "6 1 2 4",
+		"sources": [{
+			"type": "vendor",
+			"info": "840 MGP",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}]
+	},
+	{
 		"name": "Chocobo",
 		"lore": "The domestication of chocobos in Eorzea appears to date back to prehistory, with ancient paintings recently discovered near Ishgard showing tribesfolk using the flightless yellow cloudkin to till the earth, transport grain, and carry warriors into battle. While the overwhelming majority of chocobos seen in Eorzea today are of Coerthan stock, it is rumored that wild breeds of the species-including those which have retained the capacity for flight-still thrive throughout forests nestled in the vastly unexplored valleys of Abalathia's Spine.",
 		"expansion": "ARR",
@@ -267,7 +279,7 @@
 		"card": "1 1 7 4",
 		"sources": [{
 			"type": "vendor",
-			"info": "Silver Triad Card",
+			"info": "1,150 MGP (Silver Triad Card)",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
 			"type": "npc",
@@ -284,7 +296,7 @@
 		"card": "4 6 3 1",
 		"sources": [{
 			"type": "vendor",
-			"info": "Silver Triad Card",
+			"info": "1,150 MGP (Silver Triad Card)",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
 			"type": "npc",
@@ -305,7 +317,7 @@
 		"card": "4 2 5 4",
 		"sources": [{
 			"type": "vendor",
-			"info": "Silver Triad Card",
+			"info": "1,150 MGP (Silver Triad Card)",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
 			"type": "npc",
@@ -322,7 +334,7 @@
 		"card": "6 2 4 2",
 		"sources": [{
 			"type": "vendor",
-			"info": "Silver Triad Card",
+			"info": "1,150 MGP (Silver Triad Card)",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}]
 	},
@@ -378,7 +390,7 @@
 		"card": "3 4 2 3",
 		"sources": [{
 			"type": "vendor",
-			"info": "Bronze Triad Card",
+			"info": "520 MGP (Bronze Triad Card)",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}]
 	},
@@ -391,7 +403,7 @@
 		"card": "7 2 3 1",
 		"sources": [{
 			"type": "vendor",
-			"info": "Silver Triad Card",
+			"info": "1,150 MGP (Silver Triad Card)",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}]
 	},
@@ -591,7 +603,7 @@
 		"card": "6 4 6 3",
 		"sources": [{
 			"type": "vendor",
-			"info": "Bronze Triad Card",
+			"info": "520 MGP (Bronze Triad Card)",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}]
 	},
@@ -605,6 +617,18 @@
 			"type": "npc",
 			"info": "Prideful Stag",
 			"location": "The Battlehall (3, 3)"
+		}]
+	},
+	{
+		"name": "Adamantoise",
+		"lore": "Native to the Near Eastern island of Thavnair, adamantoises were introduced to Eorzea towards the end of the Sixth Astral Era. Dodo eggs were commonly imported for feast days, and it was to one of these shipments that a batch of adamantoise eggs was mistakenly added. A number of the creatures hatched and fled into the wild, where they established themselves in the local ecosystems. In Gridania, the question of the adamantoise's place in the natural order is yet debated with some fervor.",
+		"expansion": "ARR",
+		"rarity": "2",
+		"card": "4 5 4 7",
+		"sources": [{
+			"type": "vendor",
+			"info": "840 MGP",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}]
 	},
 	{
@@ -628,7 +652,7 @@
 		"card": "6 6 2 6",
 		"sources": [{
 			"type": "vendor",
-			"info": "Bronze Triad Card",
+			"info": "520 MGP (Bronze Triad Card)",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
 			"type": "npc",
@@ -721,7 +745,7 @@
 		"card": "3 5 6 5",
 		"sources": [{
 			"type": "vendor",
-			"info": "Bronze Triad Card",
+			"info": "520 MGP (Bronze Triad Card)",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}]
 	},
@@ -773,6 +797,32 @@
 		}]
 	},
 	{
+		"name": "Magitek Vanguard",
+		"lore": "The main duty of the autonomous vanguard is to put its cermet drills to work boring through castle gates and defensive bulwarks. True to its name, the vanguard is also employed as an advance troop unit, as well as fulfilling the role of base sentinel by destroying enemy siege weaponry. Heavy infantry variations with enhanced armor and shock troop units with increased mobility are also known to exist.",
+		"attributes": "garlean",
+		"expansion": "ARR",
+		"rarity": "2",
+		"card": "7 3 4 5",
+		"sources": [{
+			"type": "vendor",
+			"info": "2,160 MGP (Imperial Triad Card)",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}]
+	},
+	{
+		"name": "Magitek Gunship",
+		"lore": "This compact airship was developed by the imperial army for ground suppression initiatives, as well as non-combat tasks which utilize its auxiliary limbs. Also capable of transporting small squads, magitek gunships are assigned to a wide range of units, from engineering corps to troop deployment details.",
+		"attributes": "garlean",
+		"expansion": "ARR",
+		"rarity": "2",
+		"card": "5 3 5 5",
+		"sources": [{
+			"type": "vendor",
+			"info": "2,160 MGP (Imperial Triad Card)",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}]
+	},
+	{
 		"name": "Hoary Boulder & Coultenet",
 		"lore": "Coultenet: 'On your feat, Hoary!' Hoary Boulder: 'Can't...disappoint...the younglings...Raaargh!'",
 		"attributes": "scion",
@@ -781,7 +831,7 @@
 		"card": "7 2 2 7",
 		"sources": [{
 			"type": "vendor",
-			"info": "Gold Triad Card",
+			"info": "2,160 MGP (Gold Triad Card)",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}]
 	},
@@ -793,7 +843,7 @@
 		"card": "3 7 5 5",
 		"sources": [{
 			"type": "vendor",
-			"info": "Gold Triad Card",
+			"info": "2,160 MGP (Gold Triad Card)",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
 			"type": "npc",
@@ -809,7 +859,7 @@
 		"card": "5 3 5 7",
 		"sources": [{
 			"type": "vendor",
-			"info": "Gold Triad Card",
+			"info": "2,160 MGP (Gold Triad Card)",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
 			"type": "npc",
@@ -825,7 +875,7 @@
 		"card": "7 5 3 5",
 		"sources": [{
 			"type": "vendor",
-			"info": "Gold Triad Card",
+			"info": "2,160 MGP (Gold Triad Card)",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
 			"type": "npc",
@@ -853,7 +903,7 @@
 		"card": "7 1 3 7",
 		"sources": [{
 			"type": "vendor",
-			"info": "Gold Triad Card",
+			"info": "2,160 MGP (Gold Triad Card)",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
 			"type": "npc",
@@ -969,7 +1019,7 @@
 		"card": "2 7 4 8",
 		"sources": [{
 			"type": "vendor",
-			"info": "Bronze Triad Card",
+			"info": "520 MGP (Bronze Triad Card)",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
 			"type": "npc",
@@ -990,7 +1040,7 @@
 		"card": "4 8 7 2",
 		"sources": [{
 			"type": "vendor",
-			"info": "Mythril Triad Card",
+			"info": "8,000 MGP (Mythril Triad Card)",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
 			"type": "npc",
@@ -1006,12 +1056,6 @@
 		"rarity": "3",
 		"card": "7 2 4 8",
 		"sources": [{
-			"type": "npc",
-			"info": "Mogmill (Unconfirmed)",
-			"location": "The Churning Mists (28, 35)",
-			"details": "Quest 'A Secret From Everyone' must be completed to challenge"
-		},
-		{
 			"type": "fate",
 			"info": "Mogicide",
 			"location": "The Churning Mists (22, 21)"
@@ -1023,28 +1067,8 @@
 		},
 		{
 			"type": "fate",
-			"info": "End of the Rainbow (Unconfirmed)",
+			"info": "End of the Rainbow",
 			"location": "The Churning Mists (13, 24)"
-		},
-		{
-			"type": "fate",
-			"info": "Darkscale Descendeth",
-			"location": "The Churning Mists (18, 12)"
-		},
-		{
-			"type": "fate",
-			"info": "Darkscale Disappeareth",
-			"location": "The Churning Mists (18, 12)"
-		},
-		{
-			"type": "fate",
-			"info": "Darkscale Devoureth",
-			"location": "The Churning Mists (18, 9)"
-		},
-		{
-			"type": "fate",
-			"info": "Vedrfolnir Devoteth (Unconfirmed)",
-			"location": "The Churning Mists (11, 36)"
 		}]
 	},
 	{
@@ -1055,7 +1079,7 @@
 		"card": "8 5 5 5",
 		"sources": [{
 			"type": "vendor",
-			"info": "Mythril Triad Card",
+			"info": "8,000 MGP (Mythril Triad Card)",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
 			"type": "npc",
@@ -1072,7 +1096,7 @@
 		"card": "4 8 5 4",
 		"sources": [{
 			"type": "vendor",
-			"info": "Mithril Triad Card",
+			"info": "8,000 MGP (Mythril Triad Card)",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}]
 	},
@@ -1241,8 +1265,20 @@
 		"card": "7 5 1 7",
 		"sources": [{
 			"type": "dungeon",
-			"info": "Strix (Unconfirmed)",
+			"info": "Strix",
 			"location": "The Great Gubal Library (Hard)"
+		}]
+	},
+	{
+		"name": "Lava Scorpion",
+		"lore": "A creature of living lava, this hulking nightmare lurked in the pools of magma hidden within the heart of Sohm Al. When the dragons were no longer present to keep the scorpion in check, the ancient menace resurfaced and began agitating the mountain's volcanic core with its wild thrashing.",
+		"expansion": "ARR",
+		"rarity": "3",
+		"card": "5 3 5 8",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Lava Scorpion",
+			"location": "Sohm Al (Hard)"
 		}]
 	},
 	{
@@ -1452,6 +1488,32 @@
 		}]
 	},
 	{
+		"name": "Magitek Predator",
+		"lore": "The most recent model in the Empire's line of piloted magitek armor. Though based on the reaper design, the predator has been outfitted with bladed arms to improve its close-quarter combat capabilities and also features simplified armor plating for enhanced mobility.",
+		"attributes": "garlean",
+		"expansion": "ARR",
+		"rarity": "3",
+		"card": "5 5 4 7",
+		"sources": [{
+			"type": "vendor",
+			"info": "2,160 MGP (Imperial Triad Card)",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}]
+	},
+	{
+		"name": "Magitek Sky Armor",
+		"lore": "An airborne unit constructed to accommodate a single pilot, sky armor is designed for maximum maneuverability. Previous flying models such as the juggernaut have, by necessity, been built on an enormous scale, but by implementing the advances made in the invention of the reaper, imperial engineers have succeeded in creating significantly smaller vessels.",
+		"attributes": "garlean",
+		"expansion": "ARR",
+		"rarity": "3",
+		"card": "7 6 6 2",
+		"sources": [{
+			"type": "vendor",
+			"info": "2,160 MGP (Imperial Triad Card)",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}]
+	},
+	{
 		"name": "Thancred",
 		"lore": "'I've been something of a liability of late, I know. 'Tis high time I set about making amends.'",
 		"attributes": "scion",
@@ -1514,7 +1576,7 @@
 		"card": "7 8 4 1",
 		"sources": [{
 			"type": "vendor",
-			"info": "Silver Triad Card",
+			"info": "1,150 MGP (Silver Triad Card)",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
 			"type": "npc",
@@ -1534,7 +1596,7 @@
 			"location": "Battle on the Big Bridge"
 		}, {
 			"type": "vendor",
-			"info": "Mythril Triad Card",
+			"info": "8,000 MGP (Mythril Triad Card)",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}]
 	},
@@ -1715,7 +1777,7 @@
 		"card": "6 6 6 5",
 		"sources": [{
 			"type": "vendor",
-			"info": "Mythril Triad Card",
+			"info": "8,000 MGP (Mythril Triad Card)",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
 			"type": "npc",
@@ -1774,6 +1836,19 @@
 		}]
 	},
 	{
+		"name": "Griffin",
+		"internalname": "griffin_baelsar",
+		"lore": "'You say no mortal should wield these eyes? Then I shall gladly become a demon! I will suckle on the souls of the hopeless, and liberate the homeland they no longer deserve!'",
+		"expansion": "ARR",
+		"rarity": "3",
+		"card": "1 8 4 8",
+		"sources": [{
+			"type": "dungeon",
+			"info": "The Griffin",
+			"location": "Baelsar's Wall"
+		}]
+	},
+	{
 		"name": "Xande",
 		"lore": "Xande, the first emperor of Allag, was resurrected from the sleep of death by the technologist Amon. Exhuming the ruler's body from his tomb, Amon cultivated the inert vessel for immortality, enlarging and strengthening Xande's form. After the emperor's successful rebirth, clones were made to serve as doubles.",
 		"expansion": "ARR",
@@ -1822,6 +1897,18 @@
 		}]
 	},
 	{
+		"name": "Diabolos Hollow",
+		"lore": "By absorbing the power of Scathach, Diabolos's own might was enhanced by an order of magnitude. Encased in armor of hardened shadow, and commanding ruinous new magicks, the master of nightmare boasted a strength to rival the greatest entities of the voidsent hierarchy.",
+		"expansion": "Heavensward",
+		"rarity": "4",
+		"card": "9 4 8 4",
+		"sources": [{
+			"type": "raid",
+			"info": "Diabolos Hollow",
+			"location": "Dun Scaith"
+		}]
+	},
+	{
 		"name": "Odin",
 		"lore": "While no one knows exactly when or by whom the Dark Divinity was summoned, the elder primal roams the Twelveswood astride his loyal warhorse Sleipnir seeking a bloody reckoning for misdeeds lost but unforgotten.",
 		"attributes": "primal",
@@ -1834,7 +1921,7 @@
 			"location": "Urth's Fount"
 		}, {
 			"type": "vendor",
-			"info": "Mythril Triad Card",
+			"info": "8,000 MGP (Mythril Triad Card)",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
 			"type": "npc",
@@ -1902,9 +1989,10 @@
 			"info": "Shiva",
 			"location": "Akh Afah Ampitheatre (Extreme)"
 		}, {
-			"type": "vendor",
-			"info": "Mythril Triad Card",
-			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+			"type": "other",
+			"info": "Platinum Triad Card",
+			"location": "Tournament Recordkeeper, Gold Saucer (4, 7)",
+			"details": "Available as a tournament reward."
 		}]
 	},
 	{
@@ -1972,11 +2060,11 @@
 			"location": "The Minstrel's Ballad: Ultima's Bane"
 		}, {
 			"type": "vendor",
-			"info": "Gold Triad Card",
+			"info": "2,160 MGP (Gold Triad Card)",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
 			"type": "vendor",
-			"info": "Mythril Triad Card",
+			"info": "8,000 MGP (Mythril Triad Card)",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}]
 	},
@@ -1994,6 +2082,19 @@
 		}]
 	},
 	{
+		"name": "Armored Weapon",
+		"lore": "Heavily armored and heavily armed, this magitek weapon maintains stability by shifting weight over its multiple mechanical legs. The pilot sits ensconced within a sealed cockpit, protected from the weapon's explosive firepower - a notable improvement over previous designs.",
+		"attributes": "garlean",
+		"expansion": "ARR",
+		"rarity": "4",
+		"card": "7 3 9 5",
+		"sources": [{
+			"type": "vendor",
+			"info": "2,160 MGP (Imperial Triad Card)",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}]
+	},
+	{
 		"name": "Minfilia",
 		"lore": "'No doubt you're ripe to burst with questions, but have patience-all will be revealed in time.'",
 		"attributes": "scion",
@@ -2002,7 +2103,7 @@
 		"card": "5 9 3 8",
 		"sources": [{
 			"type": "vendor",
-			"info": "Silver Triad Card",
+			"info": "1,150 MGP (Silver Triad Card)",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
 			"type": "npc",
@@ -2090,7 +2191,7 @@
 		"card": "8 4 4 9",
 		"sources": [{
 			"type": "vendor",
-			"info": "Silver Triad Card",
+			"info": "1,150 MGP (Silver Triad Card)",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
 			"type": "other",
@@ -2107,7 +2208,7 @@
 		"card": "2 5 9 9",
 		"sources": [{
 			"type": "vendor",
-			"info": "Gold Triad Card",
+			"info": "2,160 MGP (Gold Triad Card)",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
 			"type": "npc",
@@ -2188,7 +2289,7 @@
 		"card": "6 7 7 A",
 		"sources": [{
 			"type": "raid",
-			"info": "Cloud of Darkness (Unconfirmed)",
+			"info": "Cloud of Darkness",
 			"location": "The World of Darkness"
 		},
 		{
@@ -2256,6 +2357,24 @@
 			"type": "trial",
 			"info": "Sophia",
 			"location": "Containment Bay P1T6 (Extreme)"
+		}]
+	},
+	{
+		"name": "Zurvan",
+		"lore": "One of the three eikons who comprise the Warring Triad. Worshipped by a centaur-like race on Meracydia, Zurvan was known as the deity of eternity, or 'He who standeth above all other gods.' Brought into being by his followers as a symbol of overwhelming victory, this entity's frightful appearance and merciless appetite for justice earned him the title of the 'Demon.'",
+		"attributes": "primal",
+		"expansion": "Heavensward",
+		"rarity": "5",
+		"card": "A 3 8 7",
+		"sources": [{
+			"type": "trial",
+			"info": "Zurvan",
+			"location": "Containment Bay Z1T9"
+		},
+		{
+			"type": "trial",
+			"info": "Zurvan",
+			"location": "Containment Bay Z1T9 (Extreme)"
 		}]
 	},
 	{
@@ -2403,7 +2522,7 @@
 		"card": "A A 5 2",
 		"sources": [{
 			"type": "vendor",
-			"info": "Gold Triad Card",
+			"info": "2,160 MGP (Gold Triad Card)",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}]
 	},
@@ -2437,7 +2556,7 @@
 			"location": "The World of Darkness"
 		}, {
 			"type": "vendor",
-			"info": "Mythril Triad Card",
+			"info": "8,000 MGP (Mythril Triad Card)",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
 			"type": "npc",
@@ -2476,7 +2595,7 @@
 			"location": "Battle in the Big Keep"
 		}, {
 			"type": "vendor",
-			"info": "Mythril Triad Card",
+			"info": "8,000 MGP (Mythril Triad Card)",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
 			"type": "npc",
@@ -2497,7 +2616,7 @@
 			"location": "The Dragon's Neck"
 		}, {
 			"type": "vendor",
-			"info": "Mythril Triad Card",
+			"info": "8,000 MGP (Mythril Triad Card)",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}, {
 			"type": "npc",
@@ -2539,7 +2658,7 @@
 		"card": "8 5 6 A",
 		"sources": [{
 			"type": "vendor",
-			"info": "Gold Triad Card",
+			"info": "2,160 MGP (Gold Triad Card)",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}]
 	},

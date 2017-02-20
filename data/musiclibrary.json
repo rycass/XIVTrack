@@ -377,6 +377,67 @@
 			"location": "Junkmonger, Idyllshire (6, 7)"
 		}]
 	},
+		{
+		"name": "Flibbertigibbet",
+		"lore": "Locales: Sylph Tribe theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "3 Sylphic Goldleaf",
+			"location": "Sylphic Vendor, East Shroud (22, 26)"
+		}]
+	},
+	{
+		"name": "Piece of Mind",
+		"lore": "Locales: Vath Tribe theme",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "vendor",
+			"info": "3 Black Copper Gil",
+			"location": "Vath Stickpeddler, The Dravanian Forelands (24, 19)"
+		}]
+	},
+	{
+		"name": "Frontiers Within",
+		"lore": "Locales: Revenant's Toll, daytime",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "100 Allagan Tomestones of Poetics",
+			"location": "Auriana, Mor Dhona (22, 6)"
+		}]
+	},
+	{
+		"name": "Fleeting Rays",
+		"lore": "Locales: Burning Wall/Floating City of Nym",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "5000 gil",
+			"details": "Vendor only sells minion if the FATE 'Attack on Highbridge: Act II' was completed successfully.",
+			"location": "Chachamun, Eastern Thanalan (22, 21)"
+		}]
+	},
+	{
+		"name": "Saltswept",
+		"lore": "Locales: La Noscea towns",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "5000 gil",
+			"location": "Merchant & Mender, Western La Noscea (26, 26)"
+		}]
+	},
+	{
+		"name": "Thicker Than a Knife's Blade",
+		"lore": "Locales: The Forgotten Knight",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "300 Centurio Seals",
+			"location": "Ardolain, Foundation (12, 11)"
+		}]
+	},
 	{
 		"name": "A Light In the Storm",
 		"lore": "Dungeons: Pharos Sirius",
@@ -521,12 +582,12 @@
 	},
 	{
 		"name": "Slumber Eternal",
-		"lore": "Dungeons: Sohm Al theme",
+		"lore": "Dungeons: Sohm Al",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "dungeon",
-			"info": "Sohm Al",
-			"location": "Tioman"
+			"info": "Tioman",
+			"location": "Sohm Al"
 		}]
 	},
 	{
@@ -562,7 +623,7 @@
 	},
 	{
 		"name": "Fog of Phantom",
-		"lore": "Dungeons: Palace of the Dead theme (Floor 97-99)",
+		"lore": "Dungeons: Palace of the Dead (Floor 97-99)",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -580,6 +641,36 @@
 			"info": "10 Gelmorran Potsherd",
 			"location": "E-Una-Kotor, South Shroud (25, 20)",
 			"details": "Available after clearing floor 200 of Palace of the Dead."
+		}]
+	},
+	{
+		"name": "Hallowed Halls",
+		"lore": "Dungeons: The Vault",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Ser Charibert",
+			"location": "The Vault"
+		}]
+	},
+	{
+		"name": "Quicksand",
+		"lore": "Dungeons: Sohm Al (Hard)",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "quest",
+			"info": "The Fires of Sohm Al",
+			"location": "Gossamer Moogle, Idyllshire (4, 8)"
+		}]
+	},
+	{
+		"name": "Another Brick",
+		"lore": "Dungeons: Baelsar's Wall",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "quest",
+			"info": "Griffin, Griffin on the Wall",
+			"location": "Alisaie, Mor Dhona (22, 8)"
 		}]
 	},
 	{
@@ -779,6 +870,72 @@
 		}]
 	},
 	{
+		"name": "The Corpse Hall",
+		"lore": "Trials: Urth's Fount",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 50**** (Requires Master Alchemist II)",
+			"location": "N/A",
+			"details": "Faded roll available: ?"
+		}]
+	},
+	{
+		"name": "Limitless Blue",
+		"lore": "Trials: The Limitless Blue (Phase 1)",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist Alchemist 60* (Requires Master Alchemist III)",
+			"location": "N/A",
+			"details": "Faded roll available: Bismarck, The Limitless Blue (Extreme)"
+		}]
+	},
+	{
+		"name": "Woe That is Madness",
+		"lore": "Trials: The Limitless Blue (Phase 2)",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 60* (Requires Master Alchemist III)",
+			"location": "N/A",
+			"details": "Faded roll available: Bismarck, The Limitless Blue (Extreme)"
+		}]
+	},
+	{
+		"name": "The Hand that Gives the Rose",
+		"lore": "Trials: Thok Ast Thok (Phase 1)",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 60* (Requires Master Alchemist III)",
+			"location": "N/A",
+			"details": "Faded roll available: Ravana, Thok Ast Thok (Extreme)"
+		}]
+	},
+	{
+		"name": "Unbending Steel",
+		"lore": "Trials: Thok Ast Thok (Phase 2)",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 60* (Requires Master Alchemist III)",
+			"location": "N/A",
+			"details": "Faded roll available: Ravana, Thok Ast Thok (Extreme)"
+		}]
+	},
+	{
+		"name": "Infinity",
+		"lore": "Trials: Containment Bay Z1T9 (Phase 2)",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 60*** (Requires Master Alchemist IV)",
+			"location": "N/A",
+			"details": "Faded roll available: Zurvan, Containment Bay Z1T9 (Extreme)"
+		}]
+	},
+	{
 		"name": "Hubris",
 		"lore": "Raids: The Labyrinth of the Ancients",
 		"expansion": "ARR",
@@ -791,7 +948,7 @@
 	},
 	{
 		"name": "Tumbling Down",
-		"lore": "Raids: The Labyrinth of the Ancients, Acheron boss fight",
+		"lore": "Raids: The Labyrinth of the Ancients, Acheron",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -802,7 +959,7 @@
 	},
 	{
 		"name": "Out of the Labyrinth",
-		"lore": "Raids: Syrcus Tower, out of combat",
+		"lore": "Raids: Syrcus Tower (Out of combat)",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -813,7 +970,7 @@
 	},
 	{
 		"name": "Now I Know the Truth",
-		"lore": "Raids: Doga and Unei/Crystal Tower cutscenes",
+		"lore": "Raids: Doga and Unei's theme",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -824,7 +981,7 @@
 	},
 	{
 		"name": "Blind to the Dark",
-		"lore": "Raids: World of Darkness, out of combat",
+		"lore": "Raids: World of Darkness (Out of combat)",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -857,7 +1014,7 @@
 	},
 	{
 		"name": "Thunderer",
-		"lore": "Raids: Binding Coil of Bahamut, Twintania boss fight/Ascian boss fights",
+		"lore": "Raids: Binding Coil of Bahamut - Turn 5/Ascian boss fights",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -868,7 +1025,7 @@
 	},
 	{
 		"name": "Rise of the White Raven",
-		"lore": "Raids: Second Coil of Bahamut, Nael Deus Darnus boss fight",
+		"lore": "Raids: Second Coil of Bahamut - Turn 4 (Phase 2)",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -879,7 +1036,7 @@
 	},
 	{
 		"name": "From the Ashes",
-		"lore": "Raids: Final Coil of Bahamut, Phoenix boss fight",
+		"lore": "Raids: Final Coil of Bahamut - Turn 3",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -901,7 +1058,7 @@
 	},
 	{
 		"name": "Sins of the Father, Sins of the Son",
-		"lore": "Raids: Alexander, pre-boss",
+		"lore": "Raids: Alexander (Pre-boss)",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "quest",
@@ -911,7 +1068,7 @@
 	},
 	{
 		"name": "Locus",
-		"lore": "Raids: Alexander boss theme",
+		"lore": "Raids: Alexander bosses",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "quest",
@@ -921,7 +1078,7 @@
 	},
 	{
 		"name": "Metal",
-		"lore": "Raids: Alexander - The Burden of the Father/Alexander - The Burden of the Son (Phase 1)/Alxeander - The Eyes of the Creator",
+		"lore": "Raids: Alexander - The Burden of the Father/Alexander - The Burden of the Son (Phase 1)/Alexander - The Eyes of the Creator",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "quest",
@@ -951,12 +1108,102 @@
 	},
 	{
 		"name": "Rise",
-		"lore": "Raids: Alexander - The Soul of the Creator",
+		"lore": "Raids: Alexander - The Soul of the Creator (Phase 2)",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "quest",
 			"info": "Judgement Day",
 			"location": "Biggs, The Dravanian Hinterlands (22, 19)"
+		}]
+	},
+	{
+		"name": "Moebius",
+		"lore": "Raids: Alexander - The Soul of the Creator (Phase 1)",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "1 Alexandrian Gear",
+			"location": "Bertana, Idyllshire (5, 5)"
+		}]
+	},
+	{
+		"name": "Tempest",
+		"lore": "Raids: The Second Coil of Bahamut - Turn 4 (Phase 1)",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "30,000 MGP",
+			"location": "Gold Saucer Attendant, Gold Saucer (5, 6)"
+		}]
+	},
+	{
+		"name": "Spiral",
+		"lore": "Raids: Binding Coils (Pre-boss, In combat)",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "30,000 MGP",
+			"location": "Gold Saucer Attendant, Gold Saucer (5, 6)"
+		}]
+	},
+	{
+		"name": "Aetherosphere",
+		"lore": "Raids: Void Ark",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "1 Mhachi Farthing",
+			"location": "Bertana, Idyllshire (5, 5)"
+		}]
+	},
+	{
+		"name": "Six Fulms Under",
+		"lore": "Raids: Void Ark, Echidna",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "1 Mhachi Farthing",
+			"location": "Bertana, Idyllshire (5, 5)"
+		}]
+	},
+	{
+		"name": "Teardrops in the Rain",
+		"lore": "Raids: The Weeping City of Mhach (Out of combat)",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "1 Mhachi Penny",
+			"location": "Bertana, Idyllshire (5, 5)"
+		}]
+	},
+	{
+		"name": "A Thousand Faces",
+		"lore": "Raids: The Weeping City of Mhach, Ozma (Inside)",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "1 Mhachi Penny",
+			"location": "Bertana, Idyllshire (5, 5)"
+		}]
+	},
+	{
+		"name": "Promises",
+		"lore": "Raids: Dun Scaith, Deathgaze",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "quest",
+			"info": "Where the Shadows Reign",
+			"location": "Stacia, The Sea of Clouds (6, 6)"
+		}]
+	},
+	{
+		"name": "Shadow of the Body",
+		"lore": "Raids: Dun Scaith",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "quest",
+			"info": "Where the Shadows Reign",
+			"location": "Stacia, The Sea of Clouds (6, 6)"
 		}]
 	},
 	{
@@ -992,7 +1239,7 @@
 	},
 	{
 		"name": "Agent of Inquiry",
-		"lore": "Others: Hildibrand main theme",
+		"lore": "Others: Hildibrand's theme",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -1002,7 +1249,7 @@
 	},
 	{
 		"name": "The Only Path",
-		"lore": "Others: Cutscene theme",
+		"lore": "Others: Cutscenes",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -1076,7 +1323,7 @@
 	},
 	{
 		"name": "Engage",
-		"lore": "Others: The Diadem, out of combat",
+		"lore": "Others: The Diadem (Out of combat)",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -1135,6 +1382,46 @@
 			"type": "vendor",
 			"info": "20,000 MGP",
 			"location": "Gold Saucer Attendant, Gold Saucer (5, 6)"
+		}]
+	},
+	{
+		"name": "Breaking Boundaries",
+		"lore": "Others: Job quest finale",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "treasurehunt",
+			"info": "Aquapolis",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Canticle",
+		"lore": "Others: Alphinaud and Alisae's theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "5000 Gil",
+			"location": "Housing Merchant, The Goblet (11, 9)"
+		},
+		{
+			"type": "vendor",
+			"info": "5000 Gil",
+			"location": "Housing Merchant, The Lavender Beds (11, 8)"
+		},
+		{
+			"type": "vendor",
+			"info": "5000 Gil",
+			"location": "Housing Merchant, Mist (10, 11)"
+		}]
+	},
+	{
+		"name": "Forever Lost",
+		"lore": "Others: Cutscenes",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "quest",
+			"info": "Louisoix's Finest Student",
+			"location": "Alphinaud, East Shroud (22, 31)"
 		}]
 	},
 	{
@@ -1208,8 +1495,18 @@
 		}]
 	},
 	{
+		"name": "The Kiss",
+		"lore": "Seasonal: Valentione's Day theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "holiday",
+			"info": "Valentione's Day 2017",
+			"location": "N/A"
+		}]
+	},
+	{
 		"name": "Borderless (Duality)",
-		"lore": "???: Thok Ast Thok (Phase 1)",
+		"lore": "Mog Station: Flying Mount remix",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "merchandise",
@@ -1219,7 +1516,7 @@
 	},
 	{
 		"name": "Unbending Steel (Duality)",
-		"lore": "???: Thok Ast Thok (Phase 2)",
+		"lore": "Mog Station: Thok Ast Thok (Phase 2) remix",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "merchandise",
