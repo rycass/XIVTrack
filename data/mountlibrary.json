@@ -926,8 +926,30 @@
 		"attributes": "flying",
 		"expansion": "?",
 		"sources": [{
+			"type": "unobtainable",
+			"info": "Chinese server exclusive",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Lone Hellhound",
+		"lore": "Having survived, alone, the hellish darkness that is the void, this demonic beast will not soon suffer the presence of others, choosing typically to attack before he himself becomes a victim. Which is why it is all the more surprising that the hound would allow someone on his back.",
+		"attributes": "flying",
+		"expansion": "Heavensward",
+		"sources": [{
 			"type": "other",
-			"info": "Unknown",
+			"info": "Top 100, The Feast Solo (Season 3)",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Pack Hellhound",
+		"lore": "Having commanded armies in the hellish darkness that is the void, this demonic beast will not soon submit at the feet of another. Which is why it is all the more surprising that the hound would allow someone on her back.",
+		"attributes": "flying",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "other",
+			"info": "Top 100, The Feast Group (Season 3)",
 			"location": "N/A"
 		}]
 	}

@@ -1132,6 +1132,38 @@
 		}]
 	},
 	{
+		"name": "Hellpup",
+		"lore": "Whelped in the blackness of the void, only to be abandoned by her mother, this hellpup survived by devouring the flesh of the litter's remaining hounds. Since then, she has wandered alone, searching for someone to love.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "other",
+			"info": "Top 10, The Feast Solo (Season 3)",
+			"location": "N/A"
+		},
+		{
+			"type": "achievement",
+			"info": "Mama Said Knock You Out III",
+			"details": "Record 300 KOs in the Feast.",
+			"location": "Jonathas, Old Gridania (10, 6)"
+		}]
+	},
+	{
+		"name": "Faepup",
+		"lore": "Whelped in the blackness of the void, and raised to be a proud and merciless killer, this deceptively adorable pup does not (obviously) take well to companionship. The rare exception, however, has been made for those who have shown they will not back down in fear.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "other",
+			"info": "Top 10, The Feast Party (Season 3)",
+			"location": "N/A"
+		},
+		{
+			"type": "achievement",
+			"info": "How Can I Help III",
+			"details": "Record 300 assists in the Feast.",
+			"location": "Jonathas, Old Gridania (10, 6)"
+		}]
+	},
+	{
 		"name": "Mammet #001",
 		"lore": "The standard frill-free #001 model is not only the best-selling mammet on the market, but is the blueprint on which all other clockwork servitors are based.",
 		"expansion": "ARR",
@@ -2513,6 +2545,16 @@
 	{
 		"name": "Wind-up Nidhogg",
 		"lore": "An enemy of the Holy See for over a thousand years, it is difficult for the people of Ishgard to not experience feelings of intense loathing when setting their eyes upon this harmless replica.",
+		"expansion": "?",
+		"sources": [{
+			"type": "other",
+			"info": "Unknown",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Wind-up Hraesvelgr",
+		"lore": "An uncanny attention to detail has been paid in the creation of this automaton, commissioned to help Ishgardians remember a time when hate did not rule the hearts of man and dragon. This is especially true of Hraesvelgr's eyes in which can be seen both love and sadness.",
 		"expansion": "?",
 		"sources": [{
 			"type": "other",
