@@ -1,3 +1,7 @@
+# Mar 1, 2017
+- Fixed Lone Hellhound and Pack Hellhound mount order.
+- Fixed missing icons.
+
 # Feb 28, 2017
 - Added 3.55a content.
 - Minor data corrections.
