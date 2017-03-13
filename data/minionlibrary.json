@@ -997,6 +997,11 @@
 			"type": "vendor",
 			"info": "Bronze-trimmed Sack (Appraisal)",
 			"location": "Expedition Bishop, South Shroud (25, 20)"
+		},
+		{
+			"type": "fate",
+			"info": "Purple Haze",
+			"location": "The Diadem"
 		}]
 	},
 	{
@@ -1004,8 +1009,13 @@
 		"lore": "After losing his master, this raptor expertly trained in the art of falconry wandered the skies in search of purpose, finally arriving in the Diadem where it has since awaited the arrival of one worthy to lead him once more into the field to pursue new quarry.",
 		"expansion": "Heavensward",
 		"sources": [{
-			"type": "other",
+			"type": "unobtainable",
 			"info": "Silver Chest",
+			"location": "The Diadem (Original)"
+		},
+		{
+			"type": "fate",
+			"info": "On The Inside",
 			"location": "The Diadem"
 		}]
 	},
@@ -1119,6 +1129,21 @@
 			"type": "dungeon",
 			"info": "The Griffin",
 			"location": "Baelsar's Wall"
+		}]
+	},
+	{
+		"name": "Pegasus Colt",
+		"lore": "Having lost his mother, this winged steed from the Diadem has settled upon a decidedly wingless bipedal surrogate to lead him somewhere over the rainbow.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "fate",
+			"info": "Blood Wings",
+			"location": "The Diadem"
+		},
+		{
+			"type": "vendor",
+			"info": "50 Brass Pirate Sky Spoils",
+			"location": "Spoils Collector, The Pillars (15, 10)"
 		}]
 	},
 	{
@@ -1289,6 +1314,11 @@
 			"type": "crafted",
 			"info": "Weaver 50",
 			"location": "N/A"
+		},
+		{
+			"type": "fate",
+			"info": "Where's The Beef",
+			"location": "The Diadem"
 		}]
 	},
 	{
@@ -1833,6 +1863,16 @@
 		}]
 	},
 	{
+		"name": "Baby Brachiosaur",
+		"lore": "This adorable automaton was cobbled together by a sky pirate (who had once apprenticed as a goldsmith) after claiming to have spotted one of the mythical creatures from the deck of his crew's airship on a journey deep into the Diadem.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "fate",
+			"info": "Secret of the Lost Legend",
+			"location": "The Diadem"
+		}]
+	},
+	{
 		"name": "Wind-up Sasquatch",
 		"lore": "Crafted by the Leatherworkers' Guild, this lifelike clockwork replica of a sasquatch is hoped to bring attention to the creatures' dwindling numbers in the wild.",
 		"expansion": "ARR",
@@ -2091,6 +2131,11 @@
 			"type": "crafted",
 			"info": "Weaver 60* (Requires Master Weaver III)",
 			"location": "N/A"
+		},
+		{
+			"type": "fate",
+			"info": "Embrace Of The Serpent",
+			"location": "The Diadem"
 		}]
 	},
 		{
@@ -2383,6 +2428,16 @@
 		}]
 	},
 	{
+		"name": "Wind-up Hraesvelgr",
+		"lore": "An uncanny attention to detail has been paid in the creation of this automaton, commissioned to help Ishgardians remember a time when hate did not rule the hearts of man and dragon. This is especially true of Hraesvelgr's eyes in which can be seen both love and sadness.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "merchandise",
+			"info": "Scars of War artbook",
+			"location": "N/A"
+		}]
+	},
+	{
 		"name": "Wind-up Sun",
 		"lore": "Designed to provide light for road repairmen toiling during the small hours of the night, wind-up suns have become all the talk amongst Ul'dahn mesdames ever since it was discovered the extra light worked wonders at hiding unsightly blemishes and wrinkles.",
 		"expansion": "ARR",
@@ -2545,16 +2600,6 @@
 	{
 		"name": "Wind-up Nidhogg",
 		"lore": "An enemy of the Holy See for over a thousand years, it is difficult for the people of Ishgard to not experience feelings of intense loathing when setting their eyes upon this harmless replica.",
-		"expansion": "?",
-		"sources": [{
-			"type": "other",
-			"info": "Unknown",
-			"location": "N/A"
-		}]
-	},
-	{
-		"name": "Wind-up Hraesvelgr",
-		"lore": "An uncanny attention to detail has been paid in the creation of this automaton, commissioned to help Ishgardians remember a time when hate did not rule the hearts of man and dragon. This is especially true of Hraesvelgr's eyes in which can be seen both love and sadness.",
 		"expansion": "?",
 		"sources": [{
 			"type": "other",

@@ -417,7 +417,7 @@
 		"sources": [{
 			"type": "vendor",
 			"info": "1 Iron Voyage Spoil",
-			"location": "Bertana, Idyllshire (5, 5)"
+			"location": "Spoils Collector, The Pillars (14, 10)"
 		}]
 	},
 	{
@@ -682,7 +682,7 @@
 		"sources": [{
 			"type": "vendor",
 			"info": "99 Brass Pirate Sky Spoils",
-			"location": "Spoils Collector, The Pillars (15, 11)"
+			"location": "Spoils Collector, The Pillars (14, 10)"
 		}]
 	},
 	{
@@ -835,6 +835,10 @@
 			"type": "trial",
 			"info": "Sophia",
 			"location": "Containment Bay P1T6 (Extreme)"
+		}, {
+			"type": "vendor",
+			"info": "99 Goddess Totem",
+			"location": "Bertana, Idyllshire (5, 5)"
 		}]
 	},
 	{

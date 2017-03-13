@@ -1425,6 +1425,16 @@
 		}]
 	},
 	{
+		"name": "Jewel",
+		"lore": "Others: The Diadem (In combat)",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "Lockbox (Appraisal)",
+			"location": "Picker of Locks, The Pillars (14, 10)"
+		}]
+	},
+	{
 		"name": "Pa-Paya",
 		"lore": "Seasonal: Hatching-tide theme",
 		"expansion": "ARR",
