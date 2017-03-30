@@ -368,6 +368,11 @@
 			"type": "holiday",
 			"info": "Hatching-tide 2016",
 			"location": "N/A"
+		},
+		{
+			"type": "cashshop",
+			"info": "$7",
+			"location": "N/A"
 		}]
 	},
 	{

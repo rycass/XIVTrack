@@ -1347,7 +1347,7 @@
 		"expansion": "ARR",
 		"sources": [{
 			"type": "unobtainable",
-			"info": "Before the Fall Blu-ray Soundtrack (expired)",
+			"info": "FFXIV: ARR 'Before the Fall' Blu-ray Soundtrack (expired)",
 			"location": "N/A"
 		}]
 	},
@@ -1928,7 +1928,7 @@
 		"expansion": "ARR",
 		"sources": [{
 			"type": "merchandise",
-			"info": "Heavensward OST Blu-ray Soundtrack",
+			"info": "FFXIV: Heavensward Blu-ray Soundtrack",
 			"location": "N/A"
 		}]
 	},
@@ -2068,7 +2068,7 @@
 		"expansion": "ARR",
 		"sources": [{
 			"type": "unobtainable",
-			"info": "FFXIV 'Before Meteor' OST Blu-ray Soundtrack (Expired)",
+			"info": "FFXIV 'Before Meteor' Blu-ray Soundtrack (Expired)",
 			"location": "N/A"
 		}]
 	},
@@ -2078,7 +2078,7 @@
 		"expansion": "ARR",
 		"sources": [{
 			"type": "unobtainable",
-			"info": "FFXIV: ARR OST Blu-ray Soundtrack (Expired)",
+			"info": "FFXIV: ARR Blu-ray Soundtrack (Expired)",
 			"location": "N/A"
 		}]
 	},
@@ -2602,8 +2602,8 @@
 		"lore": "An enemy of the Holy See for over a thousand years, it is difficult for the people of Ishgard to not experience feelings of intense loathing when setting their eyes upon this harmless replica.",
 		"expansion": "?",
 		"sources": [{
-			"type": "other",
-			"info": "Unknown",
+			"type": "merchandise",
+			"info": "FFXIV: Heavensward 'The Far Edge of Fate' Blu-ray Soundtrack",
 			"location": "N/A"
 		}]
 	}

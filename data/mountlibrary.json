@@ -850,6 +850,10 @@
 			"type": "trial",
 			"info": "Zurvan",
 			"location": "Containment Bay Z1T9 (Extreme)"
+		}, {
+			"type": "vendor",
+			"info": "99 Demon Totem",
+			"location": "Bertana, Idyllshire (5, 5)"
 		}]
 	},
 	{

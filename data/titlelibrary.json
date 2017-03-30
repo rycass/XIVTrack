@@ -3098,5 +3098,15 @@
 			"details": "Deliver 150 collectables to Zhloe Aliapoh.",
 			"location": "N/A"
 		}]
+	},
+	{
+		"name": "Fatewalker",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "Five Minutes Of Fate",
+			"details": "Complete the quest 'The Far Edge of Fate.'",
+			"location": "N/A"
+		}]
 	}
 ]
