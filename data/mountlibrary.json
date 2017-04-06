@@ -477,6 +477,17 @@
 		}]
 	},
 	{
+		"name": "Eggshilaration System",
+		"lore": "After learning of the latest of the Dreamer's visions - a giant floating ovoid delivering eggs to all the good boys and girls of the realm - Nonotta and friends literally scrambled to find a means of bringing her dream to life. All it required was a little aid from the Sons of Saint Coinach...and the remnants of some ancient Allagan technology.",
+		"attributes": "flying",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "holiday",
+			"info": "Hatching-tide 2017",
+			"location": "N/A"
+		}]
+	},
+	{
 		"name": "Archon Throne",
 		"lore": "Despite claims that it was once the chair of Louisoix Leveilleur, former residents of Sharlayan have confirmed that it is naught more than an ordinary furnishing enchanted by a Great Gubal Library bibliophile who was tired of not being able to reach the upper shelves.",
 		"attributes": "flying",
@@ -937,17 +948,6 @@
 			"info": "Furious Fatalities",
 			"details": "Emerge victorious in a combination of 60 Frontline campaigns and Feast matches while using a title received from the disreputable priest.",
 			"location": "Jonathas, Old Gridania (10, 6)"
-		}]
-	},
-	{
-		"name": "Eggshilaration System",
-		"lore": "After learning of the latest of the Dreamer's visions - a giant floating ovoid delivering eggs to all the good boys and girls of the realm - Nonotta and friends literally scrambled to find a means of bringing her dream to life. All it required was a little aid from the Sons of Saint Coinach...and the remnants of some ancient Allagan technology.",
-		"attributes": "flying",
-		"expansion": "?",
-		"sources": [{
-			"type": "other",
-			"info": "Unknown",
-			"location": "N/A"
 		}]
 	},
 	{
