@@ -1,5 +1,5 @@
 .main {
-	margin-top: 60px;
+	margin-top: 90px;
 	margin-bottom: 10px;
 	background-color: #eee;
 	background-color: rgba(238,238,238,0.7);
@@ -24,6 +24,11 @@
 	cursor: pointer;
 }
 
+nav.navbar {
+	color: black;
+	border-bottom: 2px solid;
+}
+
 .navbar-brand {
 	font-weight: bold;
 	font-size: 1.5em;
@@ -34,27 +39,59 @@
 	-webkit-transition: all 0.1s ease;
 }
 
-.navbar-default .navbar-nav > li > a:focus,
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li.active > a,
-.navbar-default .navbar-nav > li.active > a:focus,
-.navbar-default .navbar-nav > li.active > a:hover {
+.navbar-default .navbar-tabs > li > a:focus,
+.navbar-default .navbar-tabs > li > a:hover,
+.navbar-default .navbar-tabs > li.active > a,
+.navbar-default .navbar-tabs > li.active > a:focus,
+.navbar-default .navbar-tabs > li.active > a:hover {
 	background-color: #337AB7;
 	color: #fff;
 }
 
-.progress {
-	margin: 0;
+.navbar-right {
+	margin-right: 5px;
 }
 
-.progress-wrapper {
-	margin: 15px 30px;
+.progress {
+	background-color: grey;
+	border-radius: 0px;
+	margin: 0px;
+}
+
+.progress-bar-custom {
+	background-color: black;
 }
 
 .progress-bar span {
 	padding-left: 6px;
 	padding-right: 6px;
 	cursor: default;
+}
+
+.btn,
+.btn.btn-danger {
+	border-radius: 3px;
+}
+
+.btn-btnprimary {
+	border-color: black;
+	border: 1px solid;
+}
+
+.btn-wide {
+	width: 100%;
+}
+
+.filter-header {
+	text-align: center;
+}
+
+.setting-text {
+	vertical-align: middle;
+}
+
+body {
+	background-color: #efefef;
 }
 
 footer.footer {
@@ -209,5 +246,18 @@ table > tbody > tr:nth-of-type(2n+1) {
 }
 
 .row {
-	margin: 10px;
+	margin: 0px;
+}
+
+.row-menu {
+	margin-bottom: 4px;
+}
+
+.inactive-source {
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+}
+
+#filterpane {
+	padding-bottom: 4px;
 }

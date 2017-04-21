@@ -2,26 +2,27 @@ $(document).ready(function(){
 	var app = angular.module('XIVTrack', ['ui.bootstrap', 'smart-table']);	
 	var control = app.controller('TableController', function($scope) {
 		
-		//categories: solo, group, assorted, economy, other, meta
-		$scope.filterLibrary = {vendor:{name:"Vendor", category:"assorted", filtered:false}, quest:{name:"Quest", category:"solo", filtered:false}, dungeon:{name:"Dungeon", category:"group", filtered:false}, raid:{name:"Raid", category:"group", filtered:false}, trial:{name:"Trial", category:"group", filtered:false}, fate:{name:"FATE", category:"solo", filtered:false}, achievement:{name:"Achievement", category:"assorted", filtered:false}, unobtainable:{name:"Unobtainable", category:"other", filtered:false}, merchandise:{name:"Merchandise Bonus", category:"meta", filtered:false}, holiday:{name:"Holiday", category:"other", filtered:false}, promotion:{name:"Promotion", category:"meta", filtered:false}, cashshop:{name:"Cash Shop", category:"meta", filtered:false}, treasurehunt:{name:"Treasure Hunt", category:"assorted", filtered:false}, crafted:{name:"Crafted", category:"economy", filtered:false}, gathered:{name:"Gathered", category:"economy", filtered:false}, gardening:{name:"Gardening", category:"economy", filtered:false}, venture:{name:"Venture", category:"economy", filtered:false}, npc:{name:"NPC", category:"solo", filtered:false}, sightseeing:{name:"Sightseeing", category:"solo", filtered:false}, other:{name:"Other", category:"other", filtered:false}};
+		//categories: solo, group, assorted, economy, other
+		$scope.filterCategories = ["Solo", "Group", "Assorted", "Economy", "Other"];
+		$scope.filterLibrary = {vendor:{key:"vendor", name:"Vendor", category:"assorted", filtered:false}, quest:{key:"quest", name:"Quest", category:"solo", filtered:false}, dungeon:{key:"dungeon", name:"Dungeon", category:"group", filtered:false}, raid:{key:"raid", name:"Raid", category:"group", filtered:false}, trial:{key:"trial", name:"Trial", category:"group", filtered:false}, fate:{key:"fate", name:"FATE", category:"solo", filtered:false}, achievement:{key:"achievement", name:"Achievement", category:"assorted", filtered:false}, unobtainable:{key:"unobtainable", name:"Unobtainable", category:"other", filtered:false}, merchandise:{key:"merchandise", name:"Merchandise", category:"other", filtered:false}, holiday:{key:"holiday", name:"Holiday", category:"other", filtered:false}, promotion:{key:"promotion", name:"Promotion", category:"other", filtered:false}, cashshop:{key:"cashshop", name:"Cash Shop", category:"other", filtered:false}, treasurehunt:{key: "treasurehunt", name:"Treasure Hunt", category:"assorted", filtered:false}, crafted:{key:"crafted", name:"Crafted", category:"economy", filtered:false}, gathered:{key:"gathered", name:"Gathered", category:"economy", filtered:false}, gardening:{key:"gardening", name:"Gardening", category:"economy", filtered:false}, venture:{key:"venture", name:"Venture", category:"economy", filtered:false}, npc:{key:"npc", name:"NPC", category:"solo", filtered:false}, sightseeing:{key:"sightseeing", name:"Sightseeing", category:"solo", filtered:false}, other:{key:"other", name:"Other", category:"other", filtered:false}};
 		$scope.filterObtained = false;
 		$scope.settingTabActive = false;
 		$scope.sortType = "Name";
 		$scope.reverseSort = false;
 		$scope.sourceSearchTerm = {term: ""};
+		$scope.filterCollapsed = true;
 		
+		//["vendor", "quest", "dungeon", "raid", "trial", "fate", "achievement", "unobtainable", "merchandise", "holiday", "promotion", "cashshop", "treasurehunt", "crafted", "gathered", "gardening", "venture", "npc", "sightseeing", "other"]
 		$scope.tabs = [
-			{ title:'Minions', id: '0', prefix: 'minion', data: [], sData: [], tableHeading:[], numObtained:0, maxObtained: 0, backgrounds:["cat.jpg", "verminion.jpg"], oneIcon: false},
-			{ title:'Mounts', id: '1', prefix: 'mount', data: [], sData: [], tableHeading:["Attributes"], numObtained:0, maxObtained: 0, backgrounds:["fatchocobo.jpg", "ahriman.jpg"], oneIcon: false},
-			{ title:'Triple Triad', id: '2', prefix: 'triad', data: [], sData: [], tableHeading:["Card"], numObtained:0, maxObtained: 0, backgrounds:["goldsaucer.jpg"], oneIcon: false},
-			{ title:'Barding', id: '3', prefix: 'barding', data: [], sData: [], tableHeading:[], numObtained:0, maxObtained: 0, backgrounds:["highland.jpg"], oneIcon: false},
-			{ title:'Orchestrion', id: '4', prefix: 'music', data: [], sData: [], tableHeading:[], numObtained:0, maxObtained: 0, backgrounds:["orchestrion.jpg"], oneIcon: true},
-			{ title:'Titles', id: '5', prefix: 'title', data: [], sData: [], tableHeading:[], numObtained:0, maxObtained: 0, backgrounds:["jalzahn.jpg"], oneIcon: true},
-			{ title:'Sightseeing', id: '6', prefix: 'sightseeing', data: [], sData: [], tableHeading:[], numObtained:0, maxObtained: 0, backgrounds:["cat.jpg"], oneIcon: false}
+			{ title:'Minions', id: '0', prefix: 'minion', data: [], sData: [], tableHeading:[], numObtained:0, maxObtained: 0, filters: ["vendor", "quest", "dungeon", "raid", "trial", "fate", "achievement", "unobtainable", "merchandise", "holiday", "promotion", "cashshop", "treasurehunt", "crafted", "gathered", "gardening", "venture", "other"], oneIcon: false},
+			{ title:'Mounts', id: '1', prefix: 'mount', data: [], sData: [], tableHeading:["Attributes"], numObtained:0, maxObtained: 0, filters: ["vendor", "quest", "raid", "trial", "achievement", "unobtainable", "merchandise", "holiday", "promotion", "cashshop", "other"], oneIcon: false},
+			{ title:'Triple Triad', id: '2', prefix: 'triad', data: [], sData: [], tableHeading:["Card"], numObtained:0, maxObtained: 0, filters: ["vendor", "quest", "dungeon", "raid", "trial", "fate", "achievement", "npc", "other"], oneIcon: false},
+			{ title:'Barding', id: '3', prefix: 'barding', data: [], sData: [], tableHeading:[], numObtained:0, maxObtained: 0, filters: ["vendor", "quest", "fate", "achievement", "unobtainable", "merchandise", "holiday", "promotion", "cashshop", "crafted", "other"], oneIcon: false},
+			{ title:'Orchestrion', id: '4', prefix: 'music', data: [], sData: [], tableHeading:[], numObtained:0, maxObtained: 0, filters: ["vendor", "quest", "dungeon", "achievement", "merchandise", "holiday", "cashshop", "treasurehunt", "crafted"], oneIcon: true},
+			{ title:'Titles', id: '5', prefix: 'title', data: [], sData: [], tableHeading:[], numObtained:0, maxObtained: 0, filters: ["achievement", "unobtainable"], oneIcon: true},
+			{ title:'Sightseeing', id: '6', prefix: 'sightseeing', data: [], sData: [], tableHeading:[], numObtained:0, maxObtained: 0, filters: ["sightseeing"], oneIcon: false}
 		];
 		
-		$scope.bgStyle = "";
-		$scope.rareBackgrounds = ["santa.jpg"];
 		$scope.attributes = {flying:'Flying Mount', passenger: 'Passenger Mount', beastman: 'Beastman', primal: 'Primal', scion: 'Scion', garlean: 'Garlean'};
 		
 		$scope.activeTabNum = 0;
@@ -37,7 +38,7 @@ $(document).ready(function(){
 				$scope.handleJson($scope.tabs[loop]);
 				loop++;
 			}
-			$scope.setBackground();
+			$scope.loadFilters();
 		}
 		
 		$scope.handleJson = function(tab) {
@@ -72,23 +73,11 @@ $(document).ready(function(){
 		
 		$scope.setTab = function(num) {
 			$scope.activeTabNum = num;
-			$scope.setBackground();
 			$scope.sourceSearchTerm.term = "";
 			if (num == -1) return; //Settings tab doesn't need anything else
 			$scope.activeTab = $scope.tabs[num];
+			$scope.loadFilters();
 			$scope.testAllFilters();
-		}
-		
-		$scope.setBackground = function() {
-			var bglist = $scope.activeTab.backgrounds;
-			if (Math.random() <= .1) {
-				bglist = $scope.rareBackgrounds;
-			}
-			var chosenbg;
-			var numInList = bglist.length;
-			chosenbg = bglist[Math.floor(Math.random() * numInList)];
-			
-			$scope.bgStyle = "url('assets/backgrounds/" + chosenbg + "')";
 		}
 		
 		$scope.tabActive = function(num) {
@@ -111,13 +100,17 @@ $(document).ready(function(){
 		
 		/***********************
 		 * Filter Manipulation *
-		 ***********************/
-		 
-		 
-		$scope.swapFilter = function() {
-			$scope.filterObtained = !$scope.filterObtained;
+		 ***********************/		 
+		$scope.swapObtainedFilter = function() {
+			localStorage.setItem("filter_" + $scope.activeTabNum + "_obtained", $scope.filterObtained);
 			$scope.testAllFilters();
 		}
+		
+		$scope.saveFilter = function(f) {
+			localStorage.setItem("filter_" + $scope.activeTab.id + "_" + f.key, f.filtered);
+			$scope.testAllFilters();
+		}
+		
 		$scope.testAllFilters = function() {
 			for (var inum = 0; inum < $scope.activeTab.sData.length; inum++) {
 				$scope.testFilters($scope.activeTab.sData[inum]);
@@ -132,24 +125,14 @@ $(document).ready(function(){
 				return;
 			}
 			
-			item.activesources = [];
+			item.filtered = true;
 			for (var snum = 0; snum < item.sources.length; snum++) {
 				s = item.sources[snum];
-				//If the source's type is on the filter, don't push it to active sources
-				if ($scope.filterLibrary[s.type].filtered) continue;
 				
-				//If there's a search term for sources and it's not found in the source, don't push it to active sources
-				if ($scope.sourceSearchTerm.term != "") {
-					if (!s.info.toLowerCase().includes($scope.sourceSearchTerm.term.toLowerCase()) && !s.location.toLowerCase().includes($scope.sourceSearchTerm.term.toLowerCase()) && (!s.details || !s.details.toLowerCase().includes($scope.sourceSearchTerm.term.toLowerCase()))) continue; //still needs to search details
+				if ($scope.isSourceActive(s)) {
+					item.filtered = false;
+					break;
 				}
-					
-				item.activesources.push(s);
-			}
-			
-			//If there are no active sources left, the item gets completely filtered
-			if (item.activesources.length == 0) {
-				item.filtered = true;
-				return;
 			}
 			
 			return;
@@ -161,9 +144,56 @@ $(document).ready(function(){
 		
 		$scope.filterAll = function(val) {
 			for (var filter in $scope.filterLibrary) {
-				$scope.filterLibrary[filter].filtered = val;
+				var f = $scope.filterLibrary[filter];
+				f.filtered = val;
+				localStorage.setItem("filter_" + $scope.activeTab.id + "_" + f.key, val);
 			}
 			$scope.testAllFilters();
+		}
+		
+		$scope.isSourceActive = function(s) {
+			//Source is filtered if its type is filtered out
+			if ($scope.filterLibrary[s.type].filtered) return false;
+
+			//Source is filtered if there is an active search term that doesn't match it
+			if ($scope.sourceSearchTerm.term != "") {
+				if (!s.info.toLowerCase().includes($scope.sourceSearchTerm.term.toLowerCase()) && !s.location.toLowerCase().includes($scope.sourceSearchTerm.term.toLowerCase()) && (!s.details || !s.details.toLowerCase().includes($scope.sourceSearchTerm.term.toLowerCase()))) return false;
+			}
+			
+			//Source is active if it's not filtered...
+			return true
+		}
+		
+		$scope.getFiltersInCategory = function(cat) {
+			flist = [];
+			for (var filter in $scope.filterLibrary) {
+				var f = $scope.filterLibrary[filter];
+				if (cat.toLowerCase() == f.category.toLowerCase()) {
+					flist.push(f);
+				}
+			}
+			return flist;
+		}
+		
+		$scope.loadFilters = function() {
+			$scope.filterObtained = (localStorage.getItem("filter_" + $scope.activeTabNum + "_obtained") == "true");
+			for (var filter in $scope.filterLibrary) {
+				var f = $scope.filterLibrary[filter];
+				if (localStorage.getItem("filter_" + $scope.activeTab.id + "_" + f.key) == "true") {
+					f.filtered = true;
+				} else {
+					f.filtered = false;
+				}
+			}
+			$scope.testAllFilters();
+		}
+		
+		$scope.filterExistsInTab = function(f) {
+			for (var num in $scope.activeTab.filters) {
+				var filter = $scope.activeTab.filters[num];
+				if (f.key == filter) return true;
+			}
+			return false;
 		}
 		
 		/*********************
@@ -321,7 +351,7 @@ $(document).ready(function(){
 		
 		$scope.importState = 0;
 		$scope.importStateEnum = { OFF: 0, CHECK_FILE: 1, CONFIRM_FILE: 2, READ_FILE: 3, IMPORT_FILE: 4, CHECK_LODE: 5, CONFIRM_LODE: 6, READ_LODE: 7, IMPORT_LODE: 8, DONE: 9, ERROR: 10, CLEAR: 11};
-		$scope.importStateStrings = ["", "Checking file...", "Import data? This will overwrite your entire collection.", "Loading from file...", "Importing...", "Checking Lodestone...", "Import data? This will overwrite your entire collection.", "Downloading from Lodestone...", "Importing...", "Import complete!", "Error"];
+		$scope.importStateStrings = ["", "Checking file...", "Import data? This will overwrite your entire collection.", "Loading from file...", "Importing...", "Checking Lodestone...", "Import data? This will overwrite your minions and mount collections.", "Downloading from Lodestone...", "Importing...", "Import complete!", "Error"];
 		$scope.importHasError = false;
 		$scope.importErrorMessage = "";
 		$scope.importFinalName = "";
@@ -329,7 +359,7 @@ $(document).ready(function(){
 		
 		$scope.getImportText = function() {
 			if ($scope.importHasError) return $scope.importErrorMessage;
-			else if ($scope.importState == $scope.importStateEnum.CONFIRM_LODE) return "Import data from character " + $scope.importFinalName + "? This will overwrite your entire collection.";
+			else if ($scope.importState == $scope.importStateEnum.CONFIRM_LODE) return "Import mount/minion data from character " + $scope.importFinalName + "? This will overwrite those collections.";
 			else return $scope.importStateStrings[$scope.importState];
 		}
 		
@@ -408,7 +438,7 @@ $(document).ready(function(){
 			}
 			
 			//file validation should go here
-			if (false) { //if it's not valid error out.
+			if (false) { //if it's not a valid file, error out
 				$scope.importSetError("Invalid file. Please select a file created by XIVTrack.");
 			}
 			
@@ -447,8 +477,9 @@ $(document).ready(function(){
 							}
 						}
 						if (!itemMatched) {
-								console.log("Tab " + importArray[impnum][0] + " not found. Ignoring.");
-								continue;
+								console.log("Tab " + importArray[impnum][0] + " not found. Aborting.");
+								$scope.importSetError("Invalid file. Please select a file created by XIVTrack.");
+								return;
 						}
 					}
 					
@@ -532,8 +563,22 @@ $(document).ready(function(){
 			var results = rawResults.data;
 			$scope.importState = $scope.importStateEnum.IMPORT_LODE;
 			
+			//Clear tabs being imported
+			for (var tnum = 0; tnum < 2; tnum++) {
+				var tab = $scope.tabs[tnum];
+				for (var inum = 0; inum < tab.sData.length; inum++) {
+					var item = tab.sData[inum];
+					item.obtained = false;
+					var str = $scope.fixString(tab.prefix + "_" + item.name);
+					localStorage.setItem(str, "false");
+				}
+				tab.numObtained = 0;
+			}
+			
+			//Import minions
 			for (var m in results.minions) {
 				var dnum = 0;
+				var found = false;
 				while (dnum < $scope.tabs[0].sData.length) {
 					if ($scope.fixString(results.minions[m].name) == $scope.fixString($scope.tabs[0].sData[dnum].name)) {
 						$scope.tabs[0].sData[dnum].obtained = true;
@@ -547,8 +592,10 @@ $(document).ready(function(){
 				}
 			}
 			
+			//Import mounts
 			for (var m in results.mounts) {
 				var dnum = 0;
+				var found = false;
 				while (dnum < $scope.tabs[1].sData.length) {
 					if ($scope.fixString(results.mounts[m].name) == $scope.fixString($scope.tabs[1].sData[dnum].name)) {
 						$scope.tabs[1].sData[dnum].obtained = true;
