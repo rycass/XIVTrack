@@ -439,8 +439,26 @@
 			"location": "N/A"
 		}]
 	},
-		{
+	{
 		"name": "Butlery Barding",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "cashshop",
+			"info": "$10",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Demonic Barding",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "cashshop",
+			"info": "$10",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Angelic Barding",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "cashshop",
