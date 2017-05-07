@@ -117,20 +117,20 @@
 		"name": "Original Fat Chocobo",
 		"lore": "Maybe not larger, but definitely more in charge, this most gluttonous of gluttons inspired the others to great weights. Although most modern chocobos have yellow plumage, historic tomes portray birds covered in feathers whiter than the whitest snowfall─ All the better to see the stains of its many meals.",
 		"attributes": "flying",
-		"expansion": "Heavensward",
+		"expansion": "ARR",
 		"sources": [{
 			"type": "unobtainable",
-			"info": "Amazon promotion (NA servers) (expired)",
+			"info": "Amazon promotion 2016 (NA servers) (expired)",
 			"location": "N/A"
 		},
 		{
 			"type": "unobtainable",
-			"info": "GamesMaster promotion (EU servers) (expired)",
+			"info": "GamesMaster promotion 2016 (EU servers) (expired)",
 			"location": "N/A"
 		},
 		{
-			"type": "unobtainable",
-			"info": "7-11 promotion (JP servers) (expired)",
+			"type": "merchandise",
+			"info": "7-11 promotion 2016/2017 (JP servers)",
 			"location": "N/A"
 		}]
 	},
@@ -891,6 +891,23 @@
 		}]
 	},
 	{
+		"name": "Flying Cumulus",
+		"lore": "There is but one man in all of Hydaelyn who can create such a mystical masterpiece, and it is said he resides upon a misty peak hidden within the mountain ranges of Doma. Crafted by stitching together dozens of smaller clouds, the cumulus allows a single rider to explore the skies...but only if she has an inherent affinity for magicks.",
+		"attributes": "flying",
+		"expansion": "ARR",
+		"sources": [
+		{
+			"type": "merchandise",
+			"info": "Amazon promotion 2017 (NA servers)",
+			"location": "N/A"
+		},
+		{
+			"type": "merchandise",
+			"info": "7-11 promotion 2017 (JP servers)",
+			"location": "N/A"
+		}]
+	},
+	{
 		"name": "Whisper-go",
 		"lore": "Taken in by the vibrant sights of the Gold Saucer, the wandering executive sought out the plaza's architect to design him a vessel of transportation similar in flamboyance to its myriad attractions. The seats are so finely upholstered riders swear it is as if they are floating on air.",
 		"attributes": "flying",
@@ -948,17 +965,6 @@
 			"info": "Furious Fatalities",
 			"details": "Emerge victorious in a combination of 60 Frontline campaigns and Feast matches while using a title received from the disreputable priest.",
 			"location": "Jonathas, Old Gridania (10, 6)"
-		}]
-	},
-	{
-		"name": "Flying Cumulus",
-		"lore": "There is but one man in all of Hydaelyn who can create such a mystical masterpiece, and it is said he resides upon a misty peak hidden within the mountain ranges of Doma. Crafted by stitching together dozens of smaller clouds, the cumulus allows a single rider to explore the skies...but only if she has an inherent affinity for magicks.",
-		"attributes": "flying",
-		"expansion": "?",
-		"sources": [{
-			"type": "unobtainable",
-			"info": "Chinese server exclusive",
-			"location": "N/A"
 		}]
 	}
 ]
