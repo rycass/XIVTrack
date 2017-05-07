@@ -41,9 +41,13 @@ nav.navbar {
 
 .navbar-default .navbar-tabs > li > a:focus,
 .navbar-default .navbar-tabs > li > a:hover,
-.navbar-default .navbar-tabs > li.active > a,
-.navbar-default .navbar-tabs > li.active > a:focus,
-.navbar-default .navbar-tabs > li.active > a:hover {
+.navbar-default .navbar-tabs > li.active > a {
+	background-color: #337AB7;
+	color: #fff;
+}
+
+.navbar-default .navbar-filter > li > a:hover,
+.navbar-default .navbar-filter > li > a:not(.collapsed) {
 	background-color: #337AB7;
 	color: #fff;
 }
