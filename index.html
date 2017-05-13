@@ -23,39 +23,41 @@
 					<uib-progressbar value="0" max="1" ng-if="activeTabNum == -1"></uib-progressbar>
 				</div>
 			</div>
-			<div class="navbar row">
-				<div class="navbar-header">
-				    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<div class="navbar-brand">XIVTrack</div>
+			<div class="container">
+				<div class="navbar row">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<div class="navbar-brand">XIVTrack</div>
+					</div>
+					<div id="navbar" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav navbar-tabs">
+							<li ng-repeat="t in tabs" ng-class="navTabActive(t.id)"><a href="#" ng-click="setTab(t.id)">{{t.title}}</a></li>
+						</ul>
+						<ul class="nav navbar-nav navbar-filter navbar-right">
+							<li><a class="collapsed" href="#filterpane" data-toggle="collapse">Filters</a></li>
+						</ul>
+						<ul class="nav navbar-nav navbar-tabs navbar-right">
+							<li ng-class="navTabActive(-1)"><a href="#" ng-click="setTab(-1)">Import/Export</a></li>
+						</ul>
+					</div>
 				</div>
-				<div id="navbar" class="navbar-collapse collapse">
-					<ul class="nav navbar-nav navbar-tabs">
-						<li ng-repeat="t in tabs" ng-class="navTabActive(t.id)"><a href="#" ng-click="setTab(t.id)">{{t.title}}</a></li>
-					</ul>
-					<ul class="nav navbar-nav navbar-filter navbar-right">
-						<li><a href="#filterpane" data-toggle="collapse">Filters</a></li>
-					</ul>
-					<ul class="nav navbar-nav navbar-tabs navbar-right">
-						<li ng-class="navTabActive(-1)"><a href="#" ng-click="setTab(-1)">Import/Export</a></li>
-					</ul>
-				</div>
-			</div>
-			<div id="filterpane" class="collapse row row-menu">
-				<div class="col-sm-2">
-					<div class="filter-header">Filter Settings</div>
-					<button type="button" class="btn row row-menu btn-btnprimary btn-wide" ng-class="{'btn-danger':filterObtained, 'btn-success': !filterObtained}" ng-model="filterObtained" ng-click="swapObtainedFilter()" uib-btn-checkbox>Filter Obtained</button>
-					<button type="button" class="btn row row-menu btn-btnprimary btn-wide" ng-click="filterAll(true)">Filter All</button>
-					<button type="button" class="btn row row-menu btn-btnprimary btn-wide" ng-click="filterAll(false)">Show All</button>
-				</div>
-				<div class="col-sm-2" ng-repeat="cat in filterCategories">
-					<div class="filter-header">{{cat}}</div>
-					<div ng-repeat="f in getFiltersInCategory(cat)" class="row row-menu">
-						<button type="button" class="btn btn-btnprimary btn-wide" ng-class="{'btn-danger':f.filtered && filterExistsInTab(f), 'btn-success': !f.filtered && filterExistsInTab(f), 'disabled': !filterExistsInTab(f)}" ng-model="f.filtered" ng-click="saveFilter(f)" uib-btn-checkbox>{{f.name}}</button>
+				<div id="filterpane" class="collapse row row-menu">
+					<div class="col-sm-2">
+						<div class="filter-header">Filter Settings</div>
+						<button type="button" class="btn row row-menu btn-btnprimary btn-wide" ng-class="{'btn-danger':filterObtained, 'btn-success': !filterObtained}" ng-model="filterObtained" ng-click="swapObtainedFilter()" uib-btn-checkbox>Filter Obtained</button>
+						<button type="button" class="btn row row-menu btn-btnprimary btn-wide" ng-click="filterAll(true)">Filter All</button>
+						<button type="button" class="btn row row-menu btn-btnprimary btn-wide" ng-click="filterAll(false)">Show All</button>
+					</div>
+					<div class="col-sm-2" ng-repeat="cat in filterCategories">
+						<div class="filter-header">{{cat}}</div>
+						<div ng-repeat="f in getFiltersInCategory(cat)" class="row row-menu">
+							<button type="button" class="btn btn-btnprimary btn-wide" ng-class="{'btn-danger':f.filtered && filterExistsInTab(f), 'btn-success': !f.filtered && filterExistsInTab(f), 'disabled': !filterExistsInTab(f)}" ng-model="f.filtered" ng-click="saveFilter(f)" uib-btn-checkbox>{{f.name}}</button>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -75,7 +77,7 @@
 					</tr>
 					<tr>
 						<th colspan="2"><input st-search="name" class="form-control" placeholder="Search name..." type="text"/></th>
-						<th colspan="{{t.tableHeading.length + 3}}"><input ng-model="sourceSearchTerm.term" class="form-control" ng-change="testAllFilters()" placeholder="Search source..." type="text"/></th>
+						<th colspan="{{t.tableHeading.length + 2}}"><input ng-model="sourceSearchTerm.term" class="form-control" ng-change="testAllFilters()" placeholder="Search source..." type="text"/></th>
 					</tr>
 				</thead>
 				<tbody>
@@ -119,49 +121,47 @@
 		<div class="container main" ng-if="tabActive(-1)">
 			<form class="form-horizontal">
 				<div class="form-group">
-					<label class="control-label col-sm-3">Import from Disk</label>
-					<div class="col-sm-2">
+					<label class="control-label col-sm-4">Import from Disk</label>
+					<div class="col-sm-8">
 						<input type="file" id="import-file" accept=".csv"/>
 					</div>
 				</div>
 				<div class="form-group">
-					<div class="col-sm-1 col-sm-offset-3">
-						<button type="button" class=" btn btn-primary btn-wide" ng-click="importCSV()" data-toggle="modal" data-target="#importModal">Import</button>
+					<div class="col-sm-8 col-sm-offset-4">
+						<button type="button" class=" btn btn-primary" ng-click="importCSV()" data-toggle="modal" data-target="#importModal">Import</button>
 					</div>
 				</div>
 			</form>
 			<form class="form-horizontal">
 				<div class="form-group">
-					<label class="control-label col-sm-3">Import from Lodestone</label>
-					<div class="col-sm-2">
-						<input id="import-name" class="form-control" placeholder="Name" type="text"/>
-					</div>
-					<div class="col-sm-2">
-						<select class="form-control" name="lodestone-server" id="lodestone-server" ng-model="serverSelection.model">
+					<label class="control-label col-sm-4">Import from Lodestone</label>
+					<div class="col-sm-8">
+						<input id="import-name" class="form-control import-input" placeholder="Name" type="text"/>
+						<select class="form-control import-input" name="lodestone-server" id="lodestone-server" ng-model="serverSelection.model">
 							<option selected="selected" value="">Server...</option>
 							<option ng-repeat="option in serverSelection.library" value="{{option.name}}">{{option.name}}</option>
 						</select>
 					</div>
 				</div>
 				<div class="form-group">
-					<div class="col-sm-1 col-sm-offset-3">
-						<button type="button" class="btn btn-primary btn-wide" ng-click="fetchCharacterID()" data-toggle="modal" data-target="#importModal">Import</button>
+					<div class="col-sm-8 col-sm-offset-4">
+						<button type="button" class="btn btn-primary" ng-click="fetchCharacterID()" data-toggle="modal" data-target="#importModal">Import</button>
 					</div>
 				</div>
 			</form>
 			<form class="form-horizontal">
 				<div class="form-group">
-					<label class="control-label col-sm-3">Export to Disk</label>
-					<div class="col-sm-1">
-						<button type="button" class="btn btn-primary btn-wide" ng-click="exportCSV()">Export</button>
+					<label class="control-label col-sm-4">Export to Disk</label>
+					<div class="col-sm-8">
+						<button type="button" class="btn btn-primary" ng-click="exportCSV()">Export</button>
 					</div>
 				</div>
 			</form>
 			<form class="form-horizontal">
 				<div class="form-group">
-					<label class="control-label col-sm-3">Clear Collection Data</label>
-					<div class="col-sm-1">
-						<button type="button" class="btn btn-primary btn-wide" ng-click="clearObtained(true)">Clear</button>
+					<label class="control-label col-sm-4">Clear Collection Data</label>
+					<div class="col-sm-8">
+						<button type="button" class="btn btn-primary" ng-click="clearObtained(true)">Clear</button>
 					</div>
 				</div>
 			</form>

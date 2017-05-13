@@ -24,9 +24,22 @@
 	cursor: pointer;
 }
 
+.import-input {
+	width: 30%;
+}
+
+.disabled,
+.disabled:focus,
+.disabled:hover {
+	color: lightgrey;
+}
+
+.navbar {
+	border: none;
+}
+
 nav.navbar {
-	color: black;
-	border-bottom: 2px solid;
+	box-shadow: 2px 1px 1px rgba(0,0,0,.5);
 }
 
 .navbar-brand {
@@ -41,11 +54,14 @@ nav.navbar {
 
 .navbar-default .navbar-tabs > li > a:focus,
 .navbar-default .navbar-tabs > li > a:hover,
-.navbar-default .navbar-tabs > li.active > a {
+.navbar-default .navbar-tabs > li.active > a,
+.navbar-default .navbar-tabs > li.active > a:focus,
+.navbar-default .navbar-tabs > li.active > a:hover {
 	background-color: #337AB7;
 	color: #fff;
 }
 
+.navbar-default .navbar-filter > li > a:focus,
 .navbar-default .navbar-filter > li > a:hover,
 .navbar-default .navbar-filter > li > a:not(.collapsed) {
 	background-color: #337AB7;
@@ -101,11 +117,17 @@ body {
 footer.footer {
 	padding: 20px 0;
 	background-color: #efefef;
+	text-align: center;
 }
 
 table {
 	margin-top: 15px;
 	border: 2px solid #ddd;
+}
+
+tr {
+	border-left: 2px solid #ddd;
+	border-right: 2px solid #ddd;
 }
 
 table > thead > tr {
@@ -120,6 +142,10 @@ table > tbody > tr {
 
 table > tbody > tr:nth-of-type(2n+1) {
 	background-color: rgba(238,238,238,0.7);
+}
+
+.table > tbody > tr:hover {
+	background-color: darkgrey;
 }
 
 .xsmall-column {
