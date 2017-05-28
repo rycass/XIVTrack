@@ -2811,7 +2811,7 @@
 	},
 	{
 		"name": "Hero Of Gelmorra",
-		"expansion": "ARR",
+		"expansion": "Heavensward",
 		"sources": [{
 			"type": "achievement",
 			"info": "In Too Deep VI",
@@ -2821,7 +2821,7 @@
 	},
 	{
 		"name": "Lonely Explorer",
-		"expansion": "ARR",
+		"expansion": "Heavensward",
 		"sources": [{
 			"type": "achievement",
 			"info": "Pal-less Palace II",
@@ -2831,7 +2831,7 @@
 	},
 	{
 		"name": "Lightbringer",
-		"expansion": "ARR",
+		"expansion": "Heavensward",
 		"sources": [{
 			"type": "achievement",
 			"info": "Some Kinna Wonderful",
@@ -2841,7 +2841,7 @@
 	},
 	{
 		"name": "Corpse Dancer",
-		"expansion": "ARR",
+		"expansion": "Heavensward",
 		"sources": [{
 			"type": "achievement",
 			"info": "Dead Tired",
@@ -2991,7 +2991,7 @@
 	},
 	{
 		"name": "Moonlifter",
-		"expansion": "ARR",
+		"expansion": "Heavensward",
 		"sources": [{
 			"type": "achievement",
 			"info": "Hey Now, You're An All-star",
@@ -3001,7 +3001,7 @@
 	},
 	{
 		"name": "Papalymo's Final Witness",
-		"expansion": "ARR",
+		"expansion": "Heavensward",
 		"sources": [{
 			"type": "achievement",
 			"info": "School's Out Forever",
@@ -3011,7 +3011,7 @@
 	},
 	{
 		"name": "of the Holy Body",
-		"expansion": "ARR",
+		"expansion": "Heavensward",
 		"sources": [{
 			"type": "achievement",
 			"info": "Back To School III",
@@ -3021,7 +3021,7 @@
 	},
 	{
 		"name": "Gigi's Best Friend",
-		"expansion": "ARR",
+		"expansion": "Heavensward",
 		"sources": [{
 			"type": "achievement",
 			"info": "That Is What You Are",
@@ -3031,11 +3031,81 @@
 	},
 	{
 		"name": "Tamer Of The Undying Flame",
-		"expansion": "ARR",
+		"expansion": "Heavensward",
 		"sources": [{
 			"type": "achievement",
 			"info": "Just Like Fire",
 			"details": "Obtain a Firebird Whistle.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Mortal Fist",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "Mama Said Knock You Out II",
+			"details": "Record 100 KOs in the Feast.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Rhalgr's Right Fist",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "Mama Said Knock You Out V",
+			"details": "Record 5,000 KOs in the Feast.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Tablesetter",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "How Can I Help II",
+			"details": "Record 100 assists in the Feast.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Halone's Cup Bearer",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "How Can I Help V",
+			"details": "Record 5,000 assists in the Feast.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Zhloe's Friend",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "Satisfaction Guaranteed: Zhloe Aliapoh V",
+			"details": "Achieve a satisfaction level of 5 with Zhloe Aliapoh.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Zhloe's Best Friend",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "The Customer Is Always Right: Zhloe Aliapoh VI",
+			"details": "Deliver 150 collectables to Zhloe Aliapoh.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Fatewalker",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "Five Minutes Of Fate",
+			"details": "Complete the quest 'The Far Edge of Fate.'",
 			"location": "N/A"
 		}]
 	}

@@ -1,3 +1,27 @@
+# May 28, 2017
+- Visual improvements.
+- Added "All" and "None" buttons to the filter list. (These enable/disable all filters.)
+- Sources that have been filtered out are still visible, but greyed out. Items with no unfiltered sources remain unshown.
+- Filters are now saved across sessions, and are seperated on a per-tab basis.
+- Added source-based searching.
+- Added ability to import from/export to CSV files.
+- Added ability to import Minions and Mounts from Lodestone. Thanks xivsync.com for providing an API! (Can't import other data, as it isn't available on Lodestone.)
+- Added Sightseeing tab.
+			
+# Mar 30, 2017
+- Added 3.56 content.
+
+# Mar 13, 2017
+- Added 3.55b content.
+
+# Mar 1, 2017
+- Fixed Lone Hellhound and Pack Hellhound mount order.
+- Fixed missing icons.
+
+# Feb 28, 2017
+- Added 3.55a content.
+- Minor data corrections.
+
 # Feb 2, 2017
 - Added Valentione's Day 2017 content.
 - Added Butlery Barding.

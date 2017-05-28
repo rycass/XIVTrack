@@ -997,6 +997,11 @@
 			"type": "vendor",
 			"info": "Bronze-trimmed Sack (Appraisal)",
 			"location": "Expedition Bishop, South Shroud (25, 20)"
+		},
+		{
+			"type": "fate",
+			"info": "Purple Haze",
+			"location": "The Diadem"
 		}]
 	},
 	{
@@ -1004,8 +1009,13 @@
 		"lore": "After losing his master, this raptor expertly trained in the art of falconry wandered the skies in search of purpose, finally arriving in the Diadem where it has since awaited the arrival of one worthy to lead him once more into the field to pursue new quarry.",
 		"expansion": "Heavensward",
 		"sources": [{
-			"type": "other",
+			"type": "unobtainable",
 			"info": "Silver Chest",
+			"location": "The Diadem (Original)"
+		},
+		{
+			"type": "fate",
+			"info": "On The Inside",
 			"location": "The Diadem"
 		}]
 	},
@@ -1122,6 +1132,21 @@
 		}]
 	},
 	{
+		"name": "Pegasus Colt",
+		"lore": "Having lost his mother, this winged steed from the Diadem has settled upon a decidedly wingless bipedal surrogate to lead him somewhere over the rainbow.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "fate",
+			"info": "Blood Wings",
+			"location": "The Diadem"
+		},
+		{
+			"type": "vendor",
+			"info": "50 Brass Pirate Sky Spoils",
+			"location": "Spoils Collector, The Pillars (15, 10)"
+		}]
+	},
+	{
 		"name": "Anima",
 		"lore": "Ardashir fashioned this new body utilizing the anima's original soulstone. No longer limited to the immediate vicinity of the anima weapon, it is free to explore the realm at your side. Whether it will grow to become a real boy or girl, however, remains to be seen.",
 		"expansion": "Heavensward",
@@ -1129,6 +1154,38 @@
 			"type": "quest",
 			"info": "Body and Soul",
 			"location": "Automaton, Azys Lla (7, 12)"
+		}]
+	},
+	{
+		"name": "Hellpup",
+		"lore": "Whelped in the blackness of the void, only to be abandoned by her mother, this hellpup survived by devouring the flesh of the litter's remaining hounds. Since then, she has wandered alone, searching for someone to love.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "other",
+			"info": "Top 10, The Feast Solo (Season 3)",
+			"location": "N/A"
+		},
+		{
+			"type": "achievement",
+			"info": "Mama Said Knock You Out III",
+			"details": "Record 300 KOs in the Feast.",
+			"location": "Jonathas, Old Gridania (10, 6)"
+		}]
+	},
+	{
+		"name": "Faepup",
+		"lore": "Whelped in the blackness of the void, and raised to be a proud and merciless killer, this deceptively adorable pup does not (obviously) take well to companionship. The rare exception, however, has been made for those who have shown they will not back down in fear.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "other",
+			"info": "Top 10, The Feast Party (Season 3)",
+			"location": "N/A"
+		},
+		{
+			"type": "achievement",
+			"info": "How Can I Help III",
+			"details": "Record 300 assists in the Feast.",
+			"location": "Jonathas, Old Gridania (10, 6)"
 		}]
 	},
 	{
@@ -1257,6 +1314,11 @@
 			"type": "crafted",
 			"info": "Weaver 50",
 			"location": "N/A"
+		},
+		{
+			"type": "fate",
+			"info": "Where's The Beef",
+			"location": "The Diadem"
 		}]
 	},
 	{
@@ -1285,7 +1347,7 @@
 		"expansion": "ARR",
 		"sources": [{
 			"type": "unobtainable",
-			"info": "Before the Fall Blu-ray Soundtrack (expired)",
+			"info": "FFXIV: ARR 'Before the Fall' Blu-ray Soundtrack (expired)",
 			"location": "N/A"
 		}]
 	},
@@ -1801,6 +1863,16 @@
 		}]
 	},
 	{
+		"name": "Baby Brachiosaur",
+		"lore": "This adorable automaton was cobbled together by a sky pirate (who had once apprenticed as a goldsmith) after claiming to have spotted one of the mythical creatures from the deck of his crew's airship on a journey deep into the Diadem.",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "fate",
+			"info": "Secret of the Lost Legend",
+			"location": "The Diadem"
+		}]
+	},
+	{
 		"name": "Wind-up Sasquatch",
 		"lore": "Crafted by the Leatherworkers' Guild, this lifelike clockwork replica of a sasquatch is hoped to bring attention to the creatures' dwindling numbers in the wild.",
 		"expansion": "ARR",
@@ -1856,7 +1928,7 @@
 		"expansion": "ARR",
 		"sources": [{
 			"type": "merchandise",
-			"info": "Heavensward OST Blu-ray Soundtrack",
+			"info": "FFXIV: Heavensward Blu-ray Soundtrack",
 			"location": "N/A"
 		}]
 	},
@@ -1996,7 +2068,7 @@
 		"expansion": "ARR",
 		"sources": [{
 			"type": "unobtainable",
-			"info": "FFXIV 'Before Meteor' OST Blu-ray Soundtrack (Expired)",
+			"info": "FFXIV 'Before Meteor' Blu-ray Soundtrack (Expired)",
 			"location": "N/A"
 		}]
 	},
@@ -2006,7 +2078,7 @@
 		"expansion": "ARR",
 		"sources": [{
 			"type": "unobtainable",
-			"info": "FFXIV: ARR OST Blu-ray Soundtrack (Expired)",
+			"info": "FFXIV: ARR Blu-ray Soundtrack (Expired)",
 			"location": "N/A"
 		}]
 	},
@@ -2059,6 +2131,11 @@
 			"type": "crafted",
 			"info": "Weaver 60* (Requires Master Weaver III)",
 			"location": "N/A"
+		},
+		{
+			"type": "fate",
+			"info": "Embrace Of The Serpent",
+			"location": "The Diadem"
 		}]
 	},
 		{
@@ -2351,6 +2428,16 @@
 		}]
 	},
 	{
+		"name": "Wind-up Hraesvelgr",
+		"lore": "An uncanny attention to detail has been paid in the creation of this automaton, commissioned to help Ishgardians remember a time when hate did not rule the hearts of man and dragon. This is especially true of Hraesvelgr's eyes in which can be seen both love and sadness.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "merchandise",
+			"info": "Scars of War artbook",
+			"location": "N/A"
+		}]
+	},
+	{
 		"name": "Wind-up Sun",
 		"lore": "Designed to provide light for road repairmen toiling during the small hours of the night, wind-up suns have become all the talk amongst Ul'dahn mesdames ever since it was discovered the extra light worked wonders at hiding unsightly blemishes and wrinkles.",
 		"expansion": "ARR",
@@ -2513,10 +2600,10 @@
 	{
 		"name": "Wind-up Nidhogg",
 		"lore": "An enemy of the Holy See for over a thousand years, it is difficult for the people of Ishgard to not experience feelings of intense loathing when setting their eyes upon this harmless replica.",
-		"expansion": "?",
+		"expansion": "ARR",
 		"sources": [{
-			"type": "other",
-			"info": "Unknown",
+			"type": "merchandise",
+			"info": "FFXIV: Heavensward 'The Far Edge of Fate' Blu-ray Soundtrack",
 			"location": "N/A"
 		}]
 	}

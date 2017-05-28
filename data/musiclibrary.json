@@ -1425,12 +1425,57 @@
 		}]
 	},
 	{
+		"name": "Jewel",
+		"lore": "Others: The Diadem (In combat)",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "Lockbox (Appraisal)",
+			"location": "Picker of Locks, The Pillars (14, 10)"
+		}]
+	},
+	{
+		"name": "He Who Continues the Attack",
+		"lore": "Others: Regula van Hydrus' theme",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "quest",
+			"info": "Fly Free, My Pretty",
+			"location": "Yda, The Rising Stones (6, 6)"
+		}]
+	},
+	{
+		"name": "Imperial Will",
+		"lore": "Others: Garlean theme",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "quest",
+			"info": "Fly Free, My Pretty",
+			"location": "Yda, The Rising Stones (6, 6)"
+		}]
+	},
+	{
+		"name": "Steel Reason",
+		"lore": "Others: Garlean Boss theme",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "quest",
+			"info": "The Obvious Solution",
+			"location": "Alisaie, The Rising Stones (6, 6)"
+		}]
+	},
+	{
 		"name": "Pa-Paya",
 		"lore": "Seasonal: Hatching-tide theme",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "holiday",
 			"info": "Hatching-tide 2016",
+			"location": "N/A"
+		},
+		{
+			"type": "cashshop",
+			"info": "$3",
 			"location": "N/A"
 		}]
 	},

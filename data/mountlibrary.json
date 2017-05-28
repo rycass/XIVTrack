@@ -117,20 +117,20 @@
 		"name": "Original Fat Chocobo",
 		"lore": "Maybe not larger, but definitely more in charge, this most gluttonous of gluttons inspired the others to great weights. Although most modern chocobos have yellow plumage, historic tomes portray birds covered in feathers whiter than the whitest snowfall─ All the better to see the stains of its many meals.",
 		"attributes": "flying",
-		"expansion": "Heavensward",
+		"expansion": "ARR",
 		"sources": [{
 			"type": "unobtainable",
-			"info": "Amazon promotion (NA servers) (expired)",
+			"info": "Amazon promotion 2016 (NA servers) (expired)",
 			"location": "N/A"
 		},
 		{
 			"type": "unobtainable",
-			"info": "GamesMaster promotion (EU servers) (expired)",
+			"info": "GamesMaster promotion 2016 (EU servers) (expired)",
 			"location": "N/A"
 		},
 		{
-			"type": "unobtainable",
-			"info": "7-11 promotion (JP servers) (expired)",
+			"type": "merchandise",
+			"info": "7-11 promotion 2016/2017 (JP servers)",
 			"location": "N/A"
 		}]
 	},
@@ -417,7 +417,7 @@
 		"sources": [{
 			"type": "vendor",
 			"info": "1 Iron Voyage Spoil",
-			"location": "Bertana, Idyllshire (5, 5)"
+			"location": "Spoils Collector, The Pillars (14, 10)"
 		}]
 	},
 	{
@@ -452,6 +452,39 @@
 			"type": "vendor",
 			"info": "10 Gelmorran Potsherd",
 			"location": "E-Una-Kotor, South Shroud (25, 20)"
+		}]
+	},
+	{
+		"name": "Lone Hellhound",
+		"lore": "Having survived, alone, the hellish darkness that is the void, this demonic beast will not soon suffer the presence of others, choosing typically to attack before he himself becomes a victim. Which is why it is all the more surprising that the hound would allow someone on his back.",
+		"attributes": "flying",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "other",
+			"info": "Top 100, The Feast Solo (Season 3)",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Pack Hellhound",
+		"lore": "Having commanded armies in the hellish darkness that is the void, this demonic beast will not soon submit at the feet of another. Which is why it is all the more surprising that the hound would allow someone on her back.",
+		"attributes": "flying",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "other",
+			"info": "Top 100, The Feast Group (Season 3)",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Eggshilaration System",
+		"lore": "After learning of the latest of the Dreamer's visions - a giant floating ovoid delivering eggs to all the good boys and girls of the realm - Nonotta and friends literally scrambled to find a means of bringing her dream to life. All it required was a little aid from the Sons of Saint Coinach...and the remnants of some ancient Allagan technology.",
+		"attributes": "flying",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "holiday",
+			"info": "Hatching-tide 2017",
+			"location": "N/A"
 		}]
 	},
 	{
@@ -660,7 +693,7 @@
 		"sources": [{
 			"type": "vendor",
 			"info": "99 Brass Pirate Sky Spoils",
-			"location": "Spoils Collector, The Pillars (15, 11)"
+			"location": "Spoils Collector, The Pillars (14, 10)"
 		}]
 	},
 	{
@@ -813,6 +846,10 @@
 			"type": "trial",
 			"info": "Sophia",
 			"location": "Containment Bay P1T6 (Extreme)"
+		}, {
+			"type": "vendor",
+			"info": "99 Goddess Totem",
+			"location": "Bertana, Idyllshire (5, 5)"
 		}]
 	},
 	{
@@ -824,6 +861,10 @@
 			"type": "trial",
 			"info": "Zurvan",
 			"location": "Containment Bay Z1T9 (Extreme)"
+		}, {
+			"type": "vendor",
+			"info": "99 Demon Totem",
+			"location": "Bertana, Idyllshire (5, 5)"
 		}]
 	},
 	{
@@ -847,6 +888,23 @@
 			"type": "quest",
 			"info": "Fetters of Lament",
 			"location": "Guidance Node, Azys Lla (19, 32)"
+		}]
+	},
+	{
+		"name": "Flying Cumulus",
+		"lore": "There is but one man in all of Hydaelyn who can create such a mystical masterpiece, and it is said he resides upon a misty peak hidden within the mountain ranges of Doma. Crafted by stitching together dozens of smaller clouds, the cumulus allows a single rider to explore the skies...but only if she has an inherent affinity for magicks.",
+		"attributes": "flying",
+		"expansion": "ARR",
+		"sources": [
+		{
+			"type": "merchandise",
+			"info": "Amazon promotion 2017 (NA servers)",
+			"location": "N/A"
+		},
+		{
+			"type": "merchandise",
+			"info": "7-11 promotion 2017 (JP servers)",
+			"location": "N/A"
 		}]
 	},
 	{
@@ -907,28 +965,6 @@
 			"info": "Furious Fatalities",
 			"details": "Emerge victorious in a combination of 60 Frontline campaigns and Feast matches while using a title received from the disreputable priest.",
 			"location": "Jonathas, Old Gridania (10, 6)"
-		}]
-	},
-	{
-		"name": "Eggshilaration System",
-		"lore": "After learning of the latest of the Dreamer's visions - a giant floating ovoid delivering eggs to all the good boys and girls of the realm - Nonotta and friends literally scrambled to find a means of bringing her dream to life. All it required was a little aid from the Sons of Saint Coinach...and the remnants of some ancient Allagan technology.",
-		"attributes": "flying",
-		"expansion": "?",
-		"sources": [{
-			"type": "other",
-			"info": "Unknown",
-			"location": "N/A"
-		}]
-	},
-	{
-		"name": "Flying Cumulus",
-		"lore": "There is but one man in all of Hydaelyn who can create such a mystical masterpiece, and it is said he resides upon a misty peak hidden within the mountain ranges of Doma. Crafted by stitching together dozens of smaller clouds, the cumulus allows a single rider to explore the skies...but only if she has an inherent affinity for magicks.",
-		"attributes": "flying",
-		"expansion": "?",
-		"sources": [{
-			"type": "other",
-			"info": "Unknown",
-			"location": "N/A"
 		}]
 	}
 ]
