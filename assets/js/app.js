@@ -202,16 +202,18 @@ $(document).ready(function(){
 		
 		$scope.getItemImage = function(item, tab) {
 			if (tab.oneIcon) return "all_" + tab.prefix;
-			else return $scope.fixString(item.name) + "_" + tab.prefix;
+			else return $scope.fixString(item.name, true) + "_" + tab.prefix;
 		}
 		
-		$scope.fixString = function(str) {
+		$scope.fixString = function(str, isImg) {
 			if (str == undefined) return "";
 			if (str == "Wind-up Merlwyb" || str == "Wind-up Kan-E" || str == "Wind-up Raubahn") {
 				str = "Wind-up Leader"; //stupid hack
 			}
 			str = str.replace(/ |#|'|&|,/g, "_");
-			str = str.toLowerCase();
+			if (isImg) {
+				str = str.toLowerCase();
+			}
 			return str;
 		}
 		
@@ -232,7 +234,7 @@ $(document).ready(function(){
 		//Argument: item (Item) - Item to be checked.
 		//Argument: tab (Tab) - Tab to check for item on.
 		$scope.toggleObtained = function(item, tab) {
-			var str = $scope.fixString(tab.prefix + "_" + item.name);
+			var str = $scope.fixString(tab.prefix + "_" + item.name, false);
 			if (item.obtained == false) tab.numObtained++;
 			else tab.numObtained--;
 			item.obtained = !item.obtained;
@@ -244,7 +246,7 @@ $(document).ready(function(){
 		//Argument: tab (Tab) - Tab to check for item on.
 		//Returns: True if the item has been collected. False if it has not.
 		$scope.fetchObtained = function (item, tab) {
-			var str = $scope.fixString(tab.prefix + "_" + item.name);
+			var str = $scope.fixString(tab.prefix + "_" + item.name, false);
 			if (localStorage.getItem(str) == null) {
 				localStorage.setItem(str, "false");
 			}
@@ -268,7 +270,7 @@ $(document).ready(function(){
 				for (var inum = 0; inum < tab.sData.length; inum++) {
 					var item = tab.sData[inum];
 					item.obtained = false;
-					var str = $scope.fixString(tab.prefix + "_" + item.name);
+					var str = $scope.fixString(tab.prefix + "_" + item.name, false);
 					localStorage.setItem(str, "false");
 				}
 				tab.numObtained = 0;
@@ -417,7 +419,7 @@ $(document).ready(function(){
 				var tab = $scope.tabs[tnum];
 				for (var inum = 0; inum < tab.sData.length; inum++) {
 					var item = tab.sData[inum];
-					var str = tab.prefix + "," + $scope.fixString(item.name) + "," + item.obtained + "\n";
+					var str = tab.prefix + "," + $scope.fixString(item.name, false) + "," + item.obtained + "\n";
 					csvContent += str;
 				}
 			}
@@ -464,7 +466,7 @@ $(document).ready(function(){
 							if($scope.tabs[tnum].prefix == importArray[impnum][0]) {
 								for(var inum = 0; inum < $scope.tabs[tnum].sData.length; inum++) {
 									var item = $scope.tabs[tnum].sData[inum];
-									if(importArray[impnum][1] == $scope.fixString(item.name)) {
+									if(importArray[impnum][1] == $scope.fixString(item.name, false)) {
 										$scope.tabs[tnum].sData[inum].obtained = (importArray[impnum][2] == "true");
 										itemMatched = true;
 										break;
@@ -569,7 +571,7 @@ $(document).ready(function(){
 				for (var inum = 0; inum < tab.sData.length; inum++) {
 					var item = tab.sData[inum];
 					item.obtained = false;
-					var str = $scope.fixString(tab.prefix + "_" + item.name);
+					var str = $scope.fixString(tab.prefix + "_" + item.name, false);
 					localStorage.setItem(str, "false");
 				}
 				tab.numObtained = 0;
@@ -580,7 +582,7 @@ $(document).ready(function(){
 				var dnum = 0;
 				var found = false;
 				while (dnum < $scope.tabs[0].sData.length) {
-					if ($scope.fixString(results.minions[m].name) == $scope.fixString($scope.tabs[0].sData[dnum].name)) {
+					if ($scope.fixString(results.minions[m].name, false) == $scope.fixString($scope.tabs[0].sData[dnum].name, false)) {
 						$scope.tabs[0].sData[dnum].obtained = true;
 						break;
 					} else {
@@ -597,7 +599,7 @@ $(document).ready(function(){
 				var dnum = 0;
 				var found = false;
 				while (dnum < $scope.tabs[1].sData.length) {
-					if ($scope.fixString(results.mounts[m].name) == $scope.fixString($scope.tabs[1].sData[dnum].name)) {
+					if ($scope.fixString(results.mounts[m].name, false) == $scope.fixString($scope.tabs[1].sData[dnum].name, false)) {
 						$scope.tabs[1].sData[dnum].obtained = true;
 						break;
 					} else {
@@ -620,7 +622,7 @@ $(document).ready(function(){
 				tab.numObtained = 0;
 				for (var inum = 0; inum < tab.sData.length; inum++) {
 					var item = tab.sData[inum];
-					var str = $scope.fixString(tab.prefix + "_" + item.name);
+					var str = $scope.fixString(tab.prefix + "_" + item.name, false);
 					if (item.obtained == true) {
 						localStorage.setItem(str, "true");
 						tab.numObtained++;

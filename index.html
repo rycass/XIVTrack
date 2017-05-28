@@ -105,7 +105,7 @@
 						</td>
 						<td>
 							<div class="reflection-box" popover-trigger="mouseenter" ng-repeat="s in item.sources" tooltip-placement="right" uib-popover-template="'sourceTemplate.html'">
-								<img class="source" ng-class="{'inactive-source': !isSourceActive(s)}" ng-src="assets/icons/system/source_{{fixString(s.type)}}.png">
+								<img class="source" ng-class="{'inactive-source': !isSourceActive(s)}" ng-src="assets/icons/system/source_{{fixString(s.type, true)}}.png">
 								<div class="reflection-frame"></div>
 							</div>
 						</td>
