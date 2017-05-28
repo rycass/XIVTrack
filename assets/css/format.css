@@ -1,5 +1,5 @@
 .main {
-	margin-top: 60px;
+	margin-top: 90px;
 	margin-bottom: 10px;
 	background-color: #eee;
 	background-color: rgba(238,238,238,0.7);
@@ -16,8 +16,30 @@
 	z-index: -1;
 }
 
+.centered {
+	text-align: center;
+}
+
 .clickable {
 	cursor: pointer;
+}
+
+.import-input {
+	width: 30%;
+}
+
+.disabled,
+.disabled:focus,
+.disabled:hover {
+	color: lightgrey;
+}
+
+.navbar {
+	border: none;
+}
+
+nav.navbar {
+	box-shadow: 2px 1px 1px rgba(0,0,0,.5);
 }
 
 .navbar-brand {
@@ -30,21 +52,34 @@
 	-webkit-transition: all 0.1s ease;
 }
 
-.navbar-default .navbar-nav > li > a:focus,
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li.active > a,
-.navbar-default .navbar-nav > li.active > a:focus,
-.navbar-default .navbar-nav > li.active > a:hover {
+.navbar-default .navbar-tabs > li > a:focus,
+.navbar-default .navbar-tabs > li > a:hover,
+.navbar-default .navbar-tabs > li.active > a,
+.navbar-default .navbar-tabs > li.active > a:focus,
+.navbar-default .navbar-tabs > li.active > a:hover {
 	background-color: #337AB7;
 	color: #fff;
 }
 
-.progress {
-	margin: 0;
+.navbar-default .navbar-filter > li > a:focus,
+.navbar-default .navbar-filter > li > a:hover,
+.navbar-default .navbar-filter > li > a:not(.collapsed) {
+	background-color: #337AB7;
+	color: #fff;
 }
 
-.progress-wrapper {
-	margin: 15px 30px;
+.navbar-right {
+	margin-right: 5px;
+}
+
+.progress {
+	background-color: grey;
+	border-radius: 0px;
+	margin: 0px;
+}
+
+.progress-bar-custom {
+	background-color: black;
 }
 
 .progress-bar span {
@@ -53,14 +88,46 @@
 	cursor: default;
 }
 
+.btn,
+.btn.btn-danger {
+	border-radius: 3px;
+}
+
+.btn-btnprimary {
+	border-color: black;
+	border: 1px solid;
+}
+
+.btn-wide {
+	width: 100%;
+}
+
+.filter-header {
+	text-align: center;
+}
+
+.setting-text {
+	vertical-align: middle;
+}
+
+body {
+	background-color: #efefef;
+}
+
 footer.footer {
 	padding: 20px 0;
 	background-color: #efefef;
+	text-align: center;
 }
 
 table {
 	margin-top: 15px;
 	border: 2px solid #ddd;
+}
+
+tr {
+	border-left: 2px solid #ddd;
+	border-right: 2px solid #ddd;
 }
 
 table > thead > tr {
@@ -75,6 +142,10 @@ table > tbody > tr {
 
 table > tbody > tr:nth-of-type(2n+1) {
 	background-color: rgba(238,238,238,0.7);
+}
+
+.table > tbody > tr:hover {
+	background-color: #e3e3e3;
 }
 
 .xsmall-column {
@@ -202,4 +273,21 @@ table > tbody > tr:nth-of-type(2n+1) {
 
 .st-sort-descent:before{
 	content: '\25BC';
+}
+
+.row {
+	margin: 0px;
+}
+
+.row-menu {
+	margin-bottom: 4px;
+}
+
+.inactive-source {
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+}
+
+#filterpane {
+	padding-bottom: 4px;
 }
