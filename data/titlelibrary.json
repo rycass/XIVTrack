@@ -3000,12 +3000,22 @@
 		}]
 	},
 	{
-		"name": "Papalymo's Final Witness",
+		"name": "The Finest Pupil's Ally",
 		"expansion": "Heavensward",
 		"sources": [{
 			"type": "achievement",
 			"info": "School's Out Forever",
 			"details": "Complete the quest 'Louisoix's Finest Student.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Fatewalker",
+		"expansion": "Heavensward",
+		"sources": [{
+			"type": "achievement",
+			"info": "Five Minutes Of Fate",
+			"details": "Complete the quest 'The Far Edge of Fate.'",
 			"location": "N/A"
 		}]
 	},
@@ -3096,16 +3106,6 @@
 			"type": "achievement",
 			"info": "The Customer Is Always Right: Zhloe Aliapoh VI",
 			"details": "Deliver 150 collectables to Zhloe Aliapoh.",
-			"location": "N/A"
-		}]
-	},
-	{
-		"name": "Fatewalker",
-		"expansion": "Heavensward",
-		"sources": [{
-			"type": "achievement",
-			"info": "Five Minutes Of Fate",
-			"details": "Complete the quest 'The Far Edge of Fate.'",
 			"location": "N/A"
 		}]
 	}

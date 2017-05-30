@@ -1,6 +1,9 @@
+# May 28, 2016
+- Added Make It Rain 2017 content.
+
 # May 28, 2017
 - Visual improvements.
-- Added "All" and "None" buttons to the filter list. (These enable/disable all filters.)
+- Added "Filter All" and "Show All" buttons to the filter list. (These enable/disable all filters.)
 - Sources that have been filtered out are still visible, but greyed out. Items with no unfiltered sources remain unshown.
 - Filters are now saved across sessions, and are seperated on a per-tab basis.
 - Added source-based searching.

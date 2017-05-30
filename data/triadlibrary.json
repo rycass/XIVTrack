@@ -1012,6 +1012,18 @@
 		}]
 	},
 	{
+		"name": "Gold Saucer Attendant",
+		"lore": "'You look lost, honey. Why don't I show you around?'",
+		"expansion": "ARR",
+		"rarity": "2",
+		"card": "6 4 1 7",
+		"sources": [{
+			"type": "holiday",
+			"info": "Make It Rain 2017",
+			"location": "N/A"
+		}]
+	},
+	{
 		"name": "Behemoth",
 		"lore": "The first sightings of these heavily muscled beasts in the mountains of Coerthas coincided with the advent of the Seventh Umbral Era. Scholars believe them to be the spawn of the elder primal Bahamut, and have dubbed the creatures 'behemoths.'Aside from their obvious physical traits, much about behemoth behavior and physiology remains shrouded in mystery.",
 		"expansion": "ARR",
@@ -1836,7 +1848,7 @@
 		}]
 	},
 	{
-		"name": "Griffin",
+		"name": "The Griffin",
 		"internalname": "griffin_baelsar",
 		"lore": "'You say no mortal should wield these eyes? Then I shall gladly become a demon! I will suckle on the souls of the hopeless, and liberate the homeland they no longer deserve!'",
 		"expansion": "ARR",
@@ -1849,21 +1861,15 @@
 		}]
 	},
 	{
-		"name": "Xande",
-		"lore": "Xande, the first emperor of Allag, was resurrected from the sleep of death by the technologist Amon. Exhuming the ruler's body from his tomb, Amon cultivated the inert vessel for immortality, enlarging and strengthening Xande's form. After the emperor's successful rebirth, clones were made to serve as doubles.",
+		"name": "Roland",
+		"lore": "'Something tells me you understand that which I have told you─that you, perchance, share a similar dream.'",
 		"expansion": "ARR",
-		"rarity": "4",
-		"card": "7 9 6 4",
+		"rarity": "3",
+		"card": "3 2 8 7",
 		"sources": [{
-			"type": "raid",
-			"info": "Xande",
-			"location": "Syrcus Tower"
-		},
-		{
-			"type": "npc",
-			"info": "Klynthota",
-			"location": "Mor Dhona (30, 14)",
-			"details": "Quest 'Moon Sliver and Me' must be completed to challenge, 11PM - 4AM"
+			"type": "holiday",
+			"info": "Make It Rain 2017",
+			"location": "N/A"
 		}]
 	},
 	{
@@ -1882,6 +1888,24 @@
 			"info": "Tapklix",
 			"location": "Dravanian Hinterlands (21, 18)",
 			"details": "Raid 'Alexander - The Burden of the Son' must be completed to challenge, 2pm - 6pm"
+		}]
+	},
+	{
+		"name": "Xande",
+		"lore": "Xande, the first emperor of Allag, was resurrected from the sleep of death by the technologist Amon. Exhuming the ruler's body from his tomb, Amon cultivated the inert vessel for immortality, enlarging and strengthening Xande's form. After the emperor's successful rebirth, clones were made to serve as doubles.",
+		"expansion": "ARR",
+		"rarity": "4",
+		"card": "7 9 6 4",
+		"sources": [{
+			"type": "raid",
+			"info": "Xande",
+			"location": "Syrcus Tower"
+		},
+		{
+			"type": "npc",
+			"info": "Klynthota",
+			"location": "Mor Dhona (30, 14)",
+			"details": "Quest 'Moon Sliver and Me' must be completed to challenge, 11PM - 4AM"
 		}]
 	},
 	{
@@ -2279,6 +2303,18 @@
 			"info": "Idle Imperial",
 			"location": "Azys Lla (28, 31)",
 			"details": "9PM - 8AM"
+		}]
+	},
+	{
+		"name": "Gigi",
+		"lore": "'BuT hOw CaN i EvEr Be AcCePtEd As YoUr SoN iF i ReMaIn A mAmMeT?'",
+		"expansion": "ARR",
+		"rarity": "4",
+		"card": "7 6 4 8",
+		"sources": [{
+			"type": "holiday",
+			"info": "Make It Rain 2017",
+			"location": "N/A"
 		}]
 	},
 	{
