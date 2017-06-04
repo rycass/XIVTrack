@@ -582,7 +582,7 @@ $(document).ready(function(){
 				var dnum = 0;
 				var found = false;
 				while (dnum < $scope.tabs[0].sData.length) {
-					if ($scope.fixString(results.minions[m].name, false) == $scope.fixString($scope.tabs[0].sData[dnum].name, false)) {
+					if ($scope.fixString(results.minions[m].name, true) == $scope.fixString($scope.tabs[0].sData[dnum].name, true)) {
 						$scope.tabs[0].sData[dnum].obtained = true;
 						break;
 					} else {
@@ -599,7 +599,7 @@ $(document).ready(function(){
 				var dnum = 0;
 				var found = false;
 				while (dnum < $scope.tabs[1].sData.length) {
-					if ($scope.fixString(results.mounts[m].name, false) == $scope.fixString($scope.tabs[1].sData[dnum].name, false)) {
+					if ($scope.fixString(results.mounts[m].name, true) == $scope.fixString($scope.tabs[1].sData[dnum].name, true)) {
 						$scope.tabs[1].sData[dnum].obtained = true;
 						break;
 					} else {
