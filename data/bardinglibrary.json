@@ -404,47 +404,20 @@
 		}]
 	},
 	{
-		"name": "Sophic Barding",
-		"expansion": "ARR",
-		"sources": [{
-			"type": "crafted",
-			"info": "Goldsmith 60**** (Requires Master Goldsmith IV)",
-			"location": "N/A"
-		}]
-	},
-	{
-		"name": "Abigail Barding",
-		"expansion": "ARR",
-		"sources": [{
-			"type": "vendor",
-			"info": "Silver-trimmed Sack (Appraisal)",
-			"location": "Expedition Bishop, South Shroud (25, 20)"
-		}]
-	},
-	{
-		"name": "Mandervillian Barding",
-		"expansion": "ARR",
-		"sources": [{
-			"type": "vendor",
-			"info": "150,000 MGP",
-			"location": "Gold Saucer Attendant, Gold Saucer (5, 6)"
-		}]
-	},
-	{
-		"name": "Zurvanite Barding",
-		"expansion": "ARR",
-		"sources": [{
-			"type": "crafted",
-			"info": "Armorer 60**** (Requires Master Armorer IV, Specialist)",
-			"location": "N/A"
-		}]
-	},
-	{
 		"name": "Butlery Barding",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "cashshop",
 			"info": "$10",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Sophic Barding",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Goldsmith 60**** (Requires Master Goldsmith IV)",
 			"location": "N/A"
 		}]
 	},
@@ -464,6 +437,69 @@
 			"type": "cashshop",
 			"info": "$10",
 			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Mandervillian Barding",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "150,000 MGP",
+			"location": "Gold Saucer Attendant, Gold Saucer (5, 6)"
+		}]
+	},
+	{
+		"name": "Abigail Barding",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "Silver-trimmed Sack (Appraisal)",
+			"location": "Expedition Bishop, South Shroud (25, 20)"
+		}]
+	},
+	{
+		"name": "Zurvanite Barding",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Armorer 60**** (Requires Master Armorer IV)",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Reveler's Barding",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Armorer 70 (Requires Master Armorer IV)",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Ala Mhigan Barding",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "fate",
+			"info": "Rattle and Humbaba (Gold)",
+			"location": "The Peaks (15, 30)"
+		}]
+	},
+	{
+		"name": "Blissful Barding",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Armorer 70 (Requires Master Armorer IV)",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Hingan Barding",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "4 Veteran Clan Mark Log",
+			"location": "Eschina, Rhalgr's Reach (13, 11)"
 		}]
 	}
 ]

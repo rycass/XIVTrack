@@ -101,6 +101,16 @@
 		}]
 	},
 	{
+		"name": "Castaway Chocobo Chick",
+		"lore": "You won't hear this from his beak, but the chocobo chick you rescued from the sea's slippery grasp cannot actually swim─the only thing keeping the bird afloat is a life preserver some kind sailor tossed from his ship before sailing off into the sunset.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "gathered",
+			"info": "Fisher 50",
+			"location": "Isle of Endless Summer North Shore, Eastern La Noscea (36, 26)"
+		}]
+	},
+	{
 		"name": "Midgardsormr",
 		"lore": "Father of Dragons, Keeper of the Lake, Bane of the XIVth Legion - while it is difficult to believe the yalm-long pup could be any of these things, he assures you his current form is only temporary while he awaits the reconstruction of a new corporeal vessel.",
 		"expansion": "ARR",
@@ -1189,6 +1199,81 @@
 		}]
 	},
 	{
+		"name": "Odder Otter",
+		"lore": "Otters of the Far East are highly cunning creatures, some scholars having ventured as far as to claim the rodents' intelligence is, in fact, comparable to that of a Qiqirn, despite lacking the latter's propensity for spoken communication.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "venture",
+			"info": "Woodland Exploration XX",
+			"location": "N/A"
+		},
+		{
+			"type": "venture",
+			"info": "Highland Exploration XX",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Fox Pup",
+		"lore": "Despite its appearance, this fox pup is actually the offspring of a thousand-year-old vulpine spirit yet incapable of taking on the body of a man that it may seduce its prey into relinquishing their very souls. Or not. There truly is no way to tell.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "vendor",
+			"info": "3 Sassho-seki Fragment",
+			"location": "Eschina, Rhalgr's Reach (13, 11)"
+		}]
+	},
+	{
+		"name": "Tora-jiro",
+		"lore": "Being saved by the selfsame hunter who brutally slayed your family for a sack of coin and a punny title can be awkward for a growing tiger pup. On one hand, he brutally slayed your family. On the other, he provides you bowls of rich, tasty cream.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "vendor",
+			"info": "800 Centurio Seals",
+			"location": "Estrild, Kugane (10, 10)"
+		}]
+	},
+	{
+		"name": "Tiny Tatsunoko",
+		"lore": "A single ilm to the right or left and this cute creature would have been kebab. Fate, however, intervened, and now the wavekin follows its would-be transfixer─the tiny tyke having taken quite well to the upper world's drier climes.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "gathered",
+			"info": "Fisher 70 (Spearfishing)",
+			"location": "The Ruby Sea (39, 6)"
+		}]
+	},
+	{
+		"name": "Bombfish",
+		"lore": "Given its name after a fisher claimed to witness the wavekin explode after tossing it on a grill, the bombfish is, in fact, neither related to bombs of voidsent origin or even that combustible.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Shisui Yohi",
+			"location": "Shisui of the Violet Tides"
+		}]
+	},
+	{
+		"name": "Road Sparrow",
+		"lore": "Tired of his humdrum life back in Yanxia, this former house sparrow set off on the journey of a lifetime, finally arriving several moons later in Bardam's Mettle, where he fell in with a flock of ferocious yol and learned the true meaning of freedom.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Yol",
+			"location": "Bardam's Mettle"
+		}]
+	},
+	{
+		"name": "Ghido",
+		"lore": "Some say this denizen of the Sirensong Sea has seen upwards of seven hundred summers, and in that time his hate for blue-blazoned armor has only grown. As for why, no one knows.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Lorelei",
+			"location": "The Sirensong Sea"
+		}]
+	},
+	{
 		"name": "Mammet #001",
 		"lore": "The standard frill-free #001 model is not only the best-selling mammet on the market, but is the blueprint on which all other clockwork servitors are based.",
 		"expansion": "ARR",
@@ -1362,6 +1447,16 @@
 		}]
 	},
 	{
+		"name": "Wind-up Meateater",
+		"lore": "This fully functioning automaton was discovered in the pack of a Qiqirn bandit slain on the Hunt. Why a Qiqirn was carrying a copy of itself on its person is a question you could ask yourself, but as they say, 'ignorance is bliss.'",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "vendor",
+			"info": "800 Centurio Seals",
+			"location": "Estrild, Kugane (10, 10)"
+		}]
+	},
+	{
 		"name": "Wind-up Goblin",
 		"lore": "Designed to resemble goblin hero Brayflox Alltalks, you cannot help but wonder at the symbol carved into the sole of its left foot - the mark of the dreaded Illuminati.",
 		"expansion": "ARR",
@@ -1499,7 +1594,7 @@
 			"type": "vendor",
 			"info": "30,000 gil",
 			"details": "Only offered with 'Trusted' reputation with Vanu Vanu.",
-			"location": "Luna Vanu, Sea of Clouds (7, 14)"
+			"location": "Luna Vanu, The Sea of Clouds (7, 14)"
 		}]
 	},
 	{
@@ -1510,7 +1605,7 @@
 			"type": "vendor",
 			"info": "30,000 gil",
 			"details": "Only offered with 'Sworn' reputation with Vanu Vanu.",
-			"location": "Luna Vanu, Sea of Clouds (7, 14)"
+			"location": "Luna Vanu, The Sea of Clouds (7, 14)"
 		}]
 	},
 		{
@@ -1883,12 +1978,42 @@
 		}]
 	},
 	{
+		"name": "Magitek Avenger F1",
+		"lore": "It appears the Empire created these faithful reproductions to train field engineers on how to repair actual avenger-class warmachina. The fact that the selfsame models are sold to imperial children as toys is a telling sign of the invaders' mindset.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Zenos Yae Galvus",
+			"location": "Ala Mhigo"
+		}]
+	},
+	{
+		"name": "Ivon Coeurlfist Doll",
+		"lore": "A complete dismantling of the coeurl-fisted caricature shows that, unlike the automatons of Ul'dah, the puffered paunch of this poppet contains naught but cotton and straw, leading one to wonder...how in the seven hells does it walk!?",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Ivon Coeurlfist",
+			"location": "Temple of the Fist"
+		}]
+	},
+	{
 		"name": "Wind-up Warrior of Light",
 		"lore": "The brilliant blue suit of armor worn by the wind-up Warrior of Light is based upon ancient Allagan designs rediscovered in recent years by adventurers returned from the Crystal Tower.",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "promotion",
 			"info": "360 days (12 months) subscribed",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Wind-up Red Mage",
+		"lore": "Tales of mages dabbling in the schools of both black and white abound, but most end in the adept realizing that she should have focused on a single art rather than allowing hubris to drive her to believe that she might excel in both.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "unobtainable",
+			"info": "FFXIV: Stormblood Preorder Bonus (Expired)",
 			"location": "N/A"
 		}]
 	},
@@ -1934,11 +2059,21 @@
 	},
 	{
 		"name": "Namingway",
-		"lore": "While it is whispered that this cheerful vagrant is the sole surviving member of a tribe hailing from none other than the moon, most see Namingway for who he is─a queer fellow with a penchant for giving all he meets absurd nickname then jotting them down in his mysterious journal.",
+		"lore": "While it is whispered that this cheerful vagrant is the sole surviving member of a tribe hailing from none other than the moon, most see Namingway for who he is-a queer fellow with a penchant for giving all he meets absurd nickname then jotting them down in his mysterious journal.",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "merchandise",
 			"info": "Encyclopedia Eorzea",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Wind-up Bartz",
+		"lore": "The legend of Bartz and his trusty chocobo steed Boko is known far and wide, their journeys inspiring entire generations to adventure. Though, disagreement as to the appropriate spelling of the carefree youth's name has led to many a hurt butz.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "merchandise",
+			"info": "FFXIV: Stormblood Collector's Edition",
 			"location": "N/A"
 		}]
 	},
@@ -1949,6 +2084,16 @@
 		"sources": [{
 			"type": "merchandise",
 			"info": "The Art of Ishgard -Stone and Steel-",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Wind-up Yuna",
+		"lore": "Peoples of the Far East tell the tale of a beautiful summoner who embarked on a perilous journey to deliver restless souls to the afterlife and thus bring peace to the world. Her name was Yuna...",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "merchandise",
+			"info": "Fanfest 2016-2017 (Germany)",
 			"location": "N/A"
 		}]
 	},
@@ -1969,16 +2114,6 @@
 		"sources": [{
 			"type": "merchandise",
 			"info": "Fanfest 2016-2017 (Tokyo)",
-			"location": "N/A"
-		}]
-	},
-	{
-		"name": "Wind-up Yuna",
-		"lore": "Peoples of the Far East tell the tale of a beautiful summoner who embarked on a perilous journey to deliver restless souls to the afterlife and thus bring peace to the world. Her name was Yuna...",
-		"expansion": "ARR",
-		"sources": [{
-			"type": "merchandise",
-			"info": "Fanfest 2016-2017 (Germany)",
 			"location": "N/A"
 		}]
 	},
@@ -2019,7 +2154,7 @@
 		"sources": [{
 			"type": "fate",
 			"info": "On Dangerous Ground (Gold)",
-			"location": "Sea of Clouds (21, 12)"
+			"location": "The Sea of Clouds (21, 12)"
 		}]
 	},
 	{
@@ -2115,7 +2250,7 @@
 	},
 	{
 		"name": "Wind-up Titan",
-		"lore": "The second in the Weavers' Guild's popular series of primal automatons. The guild consulted with Trachtoum─a master axeman from the Company of Heroes─whose firsthand account of his battle against 'Tidus' formed the basis of this true-to-life design.",
+		"lore": "The second in the Weavers' Guild's popular series of primal automatons. The guild consulted with Trachtoum-a master axeman from the Company of Heroes-whose firsthand account of his battle against 'Tidus' formed the basis of this true-to-life design.",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -2125,7 +2260,7 @@
 	},
 	{
 		"name": "Wind-up Leviathan",
-		"lore": "Following the release of their wind-up Titan, the Weavers' Guild once again approached Trachtoum for consultation─a task to which he eagerly 'rose,' providing the guild with a crude sketch of a certain body part he insists is identical in length and girth to 'the' Leviathan.",
+		"lore": "Following the release of their wind-up Titan, the Weavers' Guild once again approached Trachtoum for consultation-a task to which he eagerly 'rose,' providing the guild with a crude sketch of a certain body part he insists is identical in length and girth to 'the' Leviathan.",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -2155,6 +2290,36 @@
 		"sources": [{
 			"type": "crafted",
 			"info": "Weaver 60* (Requires Master Weaver III)",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Wind-up Bismarck",
+		"lore": "Seeing Limsa Lominsa crawling with wind-up Ifrits, Titans, Ramuhs, even Ravanas, the Bismarck proprietor wondered why there were still no automatons designed in the likeness of his establishment's namesake, and so commissioned one made.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Weaver 60* (Requires Master Weaver III)",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Wind-up Susano",
+		"lore": "With an itsy Yata-no-Kagami in his left hand and a bitsy Ame-no-Murakumo in his right, one might almost forget the miniature Magatama throbbing wildly in this liliputian Lord of the Revel's breast. Almost.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Weaver 70 (Requires Master Weaver IV)",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Wind-up Lakshmi",
+		"lore": "Created to epitomize Lakshmi's flawless beauty, a certain minstrel prone to wandering flippantly deemed it 'not to his liking,' ultimately driving the original craftsman to take his own life, and leaving his apprentice to hastily touch up the features.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Weaver 70 (Requires Master Weaver IV)",
 			"location": "N/A"
 		}]
 	},
@@ -2303,7 +2468,7 @@
 		"sources": [{
 			"type": "quest",
 			"info": "A Difference of Opinion",
-			"location": "Alphinaud, Sea of Clouds (19, 12)"
+			"location": "Alphinaud, The Sea of Clouds (19, 12)"
 		}]
 	},
 	{
@@ -2365,6 +2530,16 @@
 			"type": "cashshop",
 			"info": "$5",
 			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Dress-up Yugiri",
+		"lore": "Inspired by an automaton brought across the sea from faraway Aldenard, a Doman dollmaker set out to see if he could replicate the foreign techniques used to breathe life into the creation, the result being this fairly faithful rendition.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Yojimbo",
+			"location": "Kugane Castle"
 		}]
 	},
 	{
@@ -2435,6 +2610,26 @@
 			"type": "merchandise",
 			"info": "Scars of War artbook",
 			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Wind-up Nidhogg",
+		"lore": "An enemy of the Holy See for over a thousand years, it is difficult for the people of Ishgard to not experience feelings of intense loathing when setting their eyes upon this harmless replica.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "merchandise",
+			"info": "FFXIV: Heavensward 'The Far Edge of Fate' Blu-ray Soundtrack",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Mock-up Grynewaht",
+		"lore": "This anatomically accurate simulacrum of the imperial soldier Grynewaht appears to have been built by magitek engineers to determine the most efficient means by which to incorporate magitek implants into the Roegadyn's body.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Hypertuned Grynewaht",
+			"location": "Doma Castle"
 		}]
 	},
 	{
@@ -2598,12 +2793,32 @@
 		}]
 	},
 	{
-		"name": "Wind-up Nidhogg",
-		"lore": "An enemy of the Holy See for over a thousand years, it is difficult for the people of Ishgard to not experience feelings of intense loathing when setting their eyes upon this harmless replica.",
+		"name": "Wind-up Khloe",
+		"lore": "Ever since she began receiving them on her doorstep-one a day, every day, without fail-Khloe Aliapoh can't help but think there is something seriously wrong with whoever is sending her these disturbingly lifelike automatons.",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "merchandise",
-			"info": "FFXIV: Heavensward 'The Far Edge of Fate' Blu-ray Soundtrack",
+			"type": "other",
+			"info": "Unknown",
+			"location": "Unknown"
+		}]
+	},
+	{
+		"name": "Wind-up Chimera",
+		"lore": "It is hard to imagine anyone taking pleasure in creating to-scale replicas of the very abominations that contributed to the end of an entire civilization. Then again, it is so utterly adorable.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "Unknown",
+			"location": "Unknown"
+		}]
+	},
+	{
+		"name": "Bom Boko",
+		"lore": "Supposedly Far Eastern raccoon dogs are nothing like the raccoons of Eorzea, shunning a life of rifling through garbage for one of transmogrification into everyday kitchenware such as tea crocks. Go figure.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "venture",
+			"info": "Field Exploration XX",
 			"location": "N/A"
 		}]
 	}

@@ -3108,5 +3108,315 @@
 			"details": "Deliver 150 collectables to Zhloe Aliapoh.",
 			"location": "N/A"
 		}]
+	},
+	{
+		"name": "Survivor Of The Song",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "achievement",
+			"info": "Incidentally Speaking",
+			"details": "Complete the main scenario quest 'Not without Incident.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Ijin Traveler",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "achievement",
+			"info": "Destination Unknown",
+			"details": "Complete the main scenario quest 'Once More, to the Ruby Sea.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Confederate",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "achievement",
+			"info": "Unexplained",
+			"details": "Complete the main scenario quest 'Tide Goes In, Imperials Go Out.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Adversary",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "achievement",
+			"info": "Put Your Wings Up",
+			"details": "Complete the main scenario quest 'All the Little Angels.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Steppe Warrior",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "achievement",
+			"info": "Crimson Footprints",
+			"details": "Complete the main scenario quest 'In Crimson They Walked.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "The Returned",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "achievement",
+			"info": "Catch Me If You Can",
+			"details": "Complete the main scenario quest A Swift and Secret Departure.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Lyse's Right Fist",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "achievement",
+			"info": "Cheek To Cheek",
+			"details": "Complete the main scenario quest 'The Lady In Red.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Liberator",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "achievement",
+			"info": "The Measure Of His Reach",
+			"details": "Complete the main scenario quest 'Stormblood.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Ul Cup Champion",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "achievement",
+			"info": "Like A Knight In Shining Armor III",
+			"details": "Complete the paladin job quest 'Raising the Sword.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Fistful",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "achievement",
+			"info": "Bulletproof III",
+			"details": "Complete the monk job quest 'The Power to Protect.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Loved By The Axe",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "achievement",
+			"info": "I Am The Warrior III",
+			"details": "Complete the warrior job quest 'The Heart of the Problem.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Blood Dragoon",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "achievement",
+			"info": "Dragoon Age III",
+			"details": "Complete the dragoon job quest 'Dragon Sound.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "of the True Autumn",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "achievement",
+			"info": "A Bard's Tale III",
+			"details": "Complete the bard job quest 'Sweet Dreams Are Made of Peace.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Padjal Protector",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "achievement",
+			"info": "Seeing White III",
+			"details": "Complete the white mage job quest 'What She Always Wanted.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Gembreaker",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "achievement",
+			"info": "Back In Black III",
+			"details": "Complete the black mage job quest 'One Golem to Rule Them All.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the First Caller",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "achievement",
+			"info": "Soul Summoner III",
+			"details": "Complete the summoner job quest 'An Art for the Living.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Keeper of the Liliacs",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "achievement",
+			"info": "Flying Colors III",
+			"details": "Complete the scholar job quest 'Our Unsung Heroes.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Eorzean Ninja",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "achievement",
+			"info": "Against The Ninja III",
+			"details": "Complete the ninja job quest 'When Clans Collide.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "of the Swirling Abyss",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "achievement",
+			"info": "A Dark Day's Knight III",
+			"details": "Complete the dark knight job quest 'Our Compromise.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Howler",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "achievement",
+			"info": "I'm A Machinist, Not A Man III",
+			"details": "Complete the machinist job quest 'The Mongrel and the Knight.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "of the Eastern Skies",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "achievement",
+			"info": "The Stars In Our Faults III",
+			"details": "Complete the astrologian job quest 'Foxfire.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "the Red",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "achievement",
+			"info": "Red On Arrival II",
+			"details": "Complete the red mage job quest 'With Heart and Steel.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Muso",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "achievement",
+			"info": "SAM I Am II",
+			"details": "Complete the samurai job quest 'The Battle on Bekko.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "God of War/Goddess of War",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "achievement",
+			"info": "Mastering War III",
+			"details": "Achieve level 70 as a gladiator, pugilist, marauder, lancer, archer, rogue, dark knight, machinist, and samurai.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "God of Magic/Goddess of Magic",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "achievement",
+			"info": "Mastering Magic III",
+			"details": "Achieve level 70 as a conjurer, thaumaturge, arcanist, astrologian, and red mage.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "God of the Hand/Goddess of the Hand",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "achievement",
+			"info": "Mastering The Hand III",
+			"details": "Achieve level 70 as a carpenter, blacksmith, armorer, goldsmith, leatherworker, weaver, alchemist, and culinarian.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "God of the Land/Goddess of the Land",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "achievement",
+			"info": "Mastering The Land III",
+			"details": "Achieve level 70 as a miner, botanist, and fisher.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "of the Longest Hunt",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Bring Your A Game V",
+			"details": "Slay 3,000 rank A elite marks.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "of the Endless Hunt",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Bring Your A Game VI",
+			"details": "Slay 10,000 rank A elite marks.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Thrillseeker",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Bring Your S Game V",
+			"details": "Slay 2,000 rank S elite marks.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Ultimate Thrillseeker",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Bring Your S Game VI",
+			"details": "Slay 5,000 rank S elite marks.",
+			"location": "N/A"
+		}]
 	}
 ]

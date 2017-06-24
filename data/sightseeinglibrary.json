@@ -232,7 +232,7 @@
 	},
 	{
 		"name": "Summerford Farms",
-		"lore": "Overheard at a tavern: 'Erstwhile pirates taken to land, drunk on ale and tales of wenches and plunder, climb atop lamps as if they were manning the crow's nest of a great vessel...'\n\nWhen Merlwyb Bloefhiswyn rose to Admiral, one of her first decrees included the clearing of large swathes of land for new Lominsan settlements. Summerford Farms and its expansive orange groves is one of those locations─its name is derived from the man-made crossings required when late spring runoff from Mt. O'Ghomoro causes the Rogue River to swell.",
+		"lore": "Overheard at a tavern: 'Erstwhile pirates taken to land, drunk on ale and tales of wenches and plunder, climb atop lamps as if they were manning the crow's nest of a great vessel...'\n\nWhen Merlwyb Bloefhiswyn rose to Admiral, one of her first decrees included the clearing of large swathes of land for new Lominsan settlements. Summerford Farms and its expansive orange groves is one of those locations-its name is derived from the man-made crossings required when late spring runoff from Mt. O'Ghomoro causes the Rogue River to swell.",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "sightseeing",
@@ -265,7 +265,7 @@
 	},
 	{
 		"name": "Gullperch Tower",
-		"lore": "'The rains may cloud our view, but they won't stop those who would invade our shores. And so we climb high, scouring the horizon for any sign of danger.' Such were the lookout's words, and I would see as he saw.\n\nOne of three beacons built along the La Noscean coast in the Sixth Astral Era, Gullperch Tower is the easternmost─warning ships navigating the Strait of Merlthor of its deadly shallows, while also serving as a watchtower for pirate and Sahagin raids on Bloodshore.",
+		"lore": "'The rains may cloud our view, but they won't stop those who would invade our shores. And so we climb high, scouring the horizon for any sign of danger.' Such were the lookout's words, and I would see as he saw.\n\nOne of three beacons built along the La Noscean coast in the Sixth Astral Era, Gullperch Tower is the easternmost-warning ships navigating the Strait of Merlthor of its deadly shallows, while also serving as a watchtower for pirate and Sahagin raids on Bloodshore.",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "sightseeing",
@@ -901,7 +901,7 @@
 	},
 	{
 		"name": "The Dreaming Dragon",
-		"lore": "What appears to be an island floating amidst the icy waters of Ashpool is said to have once been a living, breathing dragon─magicked into slumber by the Holy See until ash enveloped its body and its limbs turned nigh unto stone.",
+		"lore": "What appears to be an island floating amidst the icy waters of Ashpool is said to have once been a living, breathing dragon-magicked into slumber by the Holy See until ash enveloped its body and its limbs turned nigh unto stone.",
 		"expansion": "Heavensward",
 		"sources": [{
 			"type": "sightseeing",
@@ -941,7 +941,7 @@
 	},
 	{
 		"name": "The Bed of Bones",
-		"lore": "It remains to be confirmed whether, as the tales say, yetis prefer to slumber atop makeshift bedding fashioned from the remains of their victims─in large part because prominent naturalists have been reluctant to do the fieldwork necessary to corroborate this claim.",
+		"lore": "It remains to be confirmed whether, as the tales say, yetis prefer to slumber atop makeshift bedding fashioned from the remains of their victims-in large part because prominent naturalists have been reluctant to do the fieldwork necessary to corroborate this claim.",
 		"expansion": "Heavensward",
 		"sources": [{
 			"type": "sightseeing",
@@ -1031,7 +1031,7 @@
 	},
 	{
 		"name": "The Aery",
-		"lore": "Vicious aetheric storms rage in Nidhogg's lair, keeping out all those who would dare disturb the great wyrm in his slumber─be it one of years or centuries.",
+		"lore": "Vicious aetheric storms rage in Nidhogg's lair, keeping out all those who would dare disturb the great wyrm in his slumber-be it one of years or centuries.",
 		"expansion": "Heavensward",
 		"sources": [{
 			"type": "sightseeing",
@@ -1051,7 +1051,7 @@
 	},
 	{
 		"name": "Zenith",
-		"lore": "A majestic fortress in Hraesvelgr's domain, watched over at the great wyrm's behest by the moogles who make their home in the Churning Mists. Though the years─a thousand of them─have taken their toll, it still stands proud and strong, stirring the heart of all who lay eyes upon it.",
+		"lore": "A majestic fortress in Hraesvelgr's domain, watched over at the great wyrm's behest by the moogles who make their home in the Churning Mists. Though the years-a thousand of them-have taken their toll, it still stands proud and strong, stirring the heart of all who lay eyes upon it.",
 		"expansion": "Heavensward",
 		"sources": [{
 			"type": "sightseeing",
@@ -1291,7 +1291,7 @@
 	},
 	{
 		"name": "Recombination Labs",
-		"lore": "This Allagan research facility gave birth to countless numbers of chimerical creations. Though the guidance system is quick to assure all visitors that the good behavior of the creatures born here was─at least at one point─guaranteed, recent visitors may find themselves having doubts.",
+		"lore": "This Allagan research facility gave birth to countless numbers of chimerical creations. Though the guidance system is quick to assure all visitors that the good behavior of the creatures born here was-at least at one point-guaranteed, recent visitors may find themselves having doubts.",
 		"expansion": "Heavensward",
 		"sources": [{
 			"type": "sightseeing",
@@ -1497,6 +1497,458 @@
 			"type": "sightseeing",
 			"info": "/lookout",
 			"location": "Azys Lla (26, 28)"
+		}]
+	},
+	{
+		"name": "Castellum Velodyna",
+		"lore": "Built upon the bridge over the Velodyna River, this imperial fortification serves as a critical waypoint for supplies, connecting the many military installations to the east with Baelsar's Wall to the west. Rising sky-high from the center is a great tower that provides moorage for airships.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Fringes (21, 26)"
+		}]
+	},
+	{
+		"name": "Gyr Kehim",
+		"lore": "A monastery established some three centuries ago by Heimart, high priest of the Fist of Rhalgr. In the ancient Mhachi language, the name means 'one's mirage'-a reference to the arduous training that monks underwent to face their inner self in their quest to master both body and mind.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Fringes (24, 16)"
+		}]
+	},
+	{
+		"name": "Schism",
+		"lore": "In a time out of mind, seeking to approach the sublimity of Rhalgr, a man began pummeling a mountain with his fists. After decades of nigh ceaseless striking, he succeeded in forming a great cavern in the mountain. This nameless soul is revered as the first monk of the Fist of Rhalgr, and the temple was later built here, within the hollow he had created.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Fringes (23, 7)"
+		}]
+	},
+	{
+		"name": "Castrum Oriens",
+		"lore": "This Garlean stronghold has its beginnings as the construction base for Baelsar's Wall. Following the Seventh Umbral Calamity, it was expanded to become a fully fledged castrum for the Black Wolf's renewed invasion efforts. Nowadays, it is held by the the Order of the Twin Adder and jointly garrisoned by Alliance forces.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Fringes (9, 10)"
+		}]
+	},
+	{
+		"name": "Dimwold",
+		"lore": "A gloomy forest occupying the southern expanse of East End. Drenched by the waters of Timmon Beck and numerous subterranean springs, the air beneath the boughs is laden with moisture, giving rise to a constant veil of light-smothering mist.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Fringes (8, 26)"
+		}]
+	},
+	{
+		"name": "Djanan Qhat",
+		"lore": "A distinctive castle of clay built by the Ananta, housing within its depths a shrine to the goddess Lakshmi, Lady of Bliss. For this reason it was given its name, which means 'mother's bed' in the Ananta tongue. At present it is occupied by the dominant Qalyana tribe.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Fringes (36, 16)"
+		}]
+	},
+	{
+		"name": "The Peering Stones",
+		"lore": "The village of the M tribe, perched high atop a crag. Its position affords residents a commanding view of their entire territory, and neither trespasser nor prey may pass through unnoticed. As the Garleans deem hunting cultures savage, however, imperial rule has proven harder upon them than most.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Fringes (30, 25)"
+		}]
+	},
+	{
+		"name": "Hidden Tear",
+		"lore": "A shrine for honoring the departed, backed by a waterfall whose constant roaring muffles one's sobs and whose spraying hides one's tears. Under imperial rule, however, religious rites were outlawed, and for a long time people could not hold even the simplest services to remember loved ones.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Peaks (33, 10)"
+		}]
+	},
+	{
+		"name": "Coldhearth",
+		"lore": "Tucked away in a forgotten corner of the Peaks, this sleepy hamlet is known for producing mercenaries, a tradition that was born out of necessity. With its lands yielding precious little bounty, youths took to leaving hearth and home behind to trade their sword arms for coin, most notable among them being Raubahn Aldynn, the Bull of Ala Mhigo.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Peaks (27, 36)"
+		}]
+	},
+	{
+		"name": "Nyunkrepf's Hope",
+		"lore": "When the Sixth Umbral Calamity befell Eorzea and the realm was transformed into a sea, this great vessel, built by a man hailing far from the north named Nyunkrepf, saved full many lives. Having taken aboard countless souls drifting in the floodwaters, it was finally transported by magicks to its current resting place.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Peaks (22, 32)"
+		}]
+	},
+	{
+		"name": "Ala Gannha",
+		"lore": "Situated in the Peak's northern reaches, this village once flourished through its quarry, the beautiful stone sourced and cut here used to build no lesser a structure than the royal palace of Ala Mhigo. Such prosperous days, however, have become but a memory, and the villagers are faced with the harsh realities of a failing industry.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Peaks (25, 5)"
+		}]
+	},
+	{
+		"name": "Specula Imperatoris",
+		"lore": "After claiming Gyr Abania for its own, the Empire erected this monstrous tower in order to maintain watch over the region. A communications spire was later added in preparation for the next phase of the Eorzean invasion, followed by an energy spire for activating the Ultima Weapon.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Peaks (19, 23)"
+		}]
+	},
+	{
+		"name": "The Arms of Meed",
+		"lore": "Cleanse your mind, hone your flesh, redeem your soul-so teaches the Fist of Rhalgr. The temple was built in accordance with this belief, that those who have committed wrongs might atone for their sins. Seven years of grueling training here will earn you the Destroyer's forgiveness no matter the weight of your crime.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Peaks (8, 37)"
+		}]
+	},
+	{
+		"name": "The Ziggurat",
+		"lore": "The Sixth Umbral Calamity wreaked havoc upon the realm's aetherial flow, giving rise to unstable weather patterns. Desiring to correct the disturbance, descendants of the Amdapori and the Mhachi set aside past differences and came together to build the Ziggurat, which served as a weight to still the land's writhing currents of aether.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Peaks (18, 14)"
+		}]
+	},
+	{
+		"name": "Emprise",
+		"lore": "In the past, monks who completed their training at the Temple of the Fist were honored in a ceremony held in this hallowed cloister. Once alive with activity, thronging with monks and pilgrims alike, it was laid to waste at the mad king's command and is now home to naught but ghosts of the past.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Peaks (7, 7)"
+		}]
+	},
+	{
+		"name": "Ala Mhigo",
+		"lore": "Having conquered all the lands of Gyr Abania, King Anshelm ordered the construction of a fortress city that would serve to repel invaders from Ilsabard. Completed in the year 1335 of the Sixth Astral Era, it stood as a symbol of defiance until it fell to the Empire, whereupon it became a symbol of oppression.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Lochs (23, 33)"
+		}]
+	},
+	{
+		"name": "The Ala Mhigan Quarter",
+		"lore": "A residential area situated to the south of Ala Mhigo, built to accommodate the city's growing population. As the newest district to be added, it is a considerable distance from the royal palace, and was expected to become an enclave for the less well-to-do. Under Garlean rule, it more or less retained that status, serving to quarter the Aan-those without citizenship.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Lochs (35, 33)"
+		}]
+	},
+	{
+		"name": "Sothwatch",
+		"lore": "A watchtower erected to guard against invaders that may emerge from the cloudy expanses to the south. In the event of a threat, a flaming arrow is loosed from the top to alert those in the city. The Garleans saw no use for it, however, and it has stood empty in the years following Ala Mhigo's fall.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Lochs (13, 35)"
+		}]
+	},
+	{
+		"name": "The Divine Audience",
+		"lore": "A magnificent altar fashioned in the form of a stairway extending high above Loch Seld, at the top of which worshipers may come face-to-face with the statue of the Destroyer. Formerly a place of piety, it earned a bloody reputation when the mad king Theodoric took to using it as an execution site.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/pray",
+			"location": "The Lochs (20, 16)"
+		}]
+	},
+	{
+		"name": "The Ducts",
+		"lore": "In order to supply Ala Mhigo with potable water, brine was channeled from Loch Seld to be distilled. With the Empire's arrival, however, existing techniques were replaced with magitek-based filtration systems, and the facility was rendered obsolete and abandoned.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Lochs (33, 30)",
+			"details": "Underground in the waterways"
+		}]
+	},
+	{
+		"name": "Porta Praetoria",
+		"lore": "Formerly a checkpoint along the main highroad to Ala Mhigo, it was incorporated into the newly constructed Castrum Abania. Prior to the Garlean invasion, the area bustled with merchants bound for the Near East, but mercantile endeavors have since given way to military ones.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Lochs (6, 22)"
+		}]
+	},
+	{
+		"name": "The Sekiseigumi Barracks",
+		"lore": "An unassuming space leading to the Sekiseigumi Barracks, the headquarters of Kugane's peacekeeping force. Off-duty Sekiseigumi members are often seen relaxing at the nearby teahouse, and if you tilt your head up, you can take in the unashamedly grandiose main gates of Kugane Castle.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Kogane (14, 9)"
+		}]
+	},
+	{
+		"name": "Bokairo Inn",
+		"lore": "An inn with sweeping ocean views, famed for the healing properties of its hot springs. The public baths of Hingashi are largely mixed gender, and it is customary to bathe naked. But in a trading hub such as Kugane, where folk of myriad cultures and creeds mingle, one is expected to don not one's nameday but bathing suit.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/sit",
+			"location": "Kogane (9, 7)"
+		}]
+	},
+	{
+		"name": "Kogane Alleyways",
+		"lore": "Meaning 'gold' in ancient Hingan, Kugane is a port where golden fortunes are made, and it is on this bustling street that merchants earn lesser fortunes, or 'kogane.' From foreign wares to local specialties, there is something to suit every taste. Those who have had their fill of the markets may also find amusement at the renowned Mujikoza theater.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Kogane (11, 11)"
+		}]
+	},
+	{
+		"name": "Kogane Dori",
+		"lore": "This quiet canal-side lane offers a splendid view of the Tasogare Bridge, built in the distinctive arched style of the Far East. Just beyond lies the Kugane Ofunakura, where vessels that sail the seas are made, above which rises the airship tower, where vessels that soar the skies are moored.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Kogane (13, 12)"
+		}]
+	},
+	{
+		"name": "Shiokaze Hostelry",
+		"lore": "A towering tavern-the largest in Kugane-favored by local merchants and dockworkers and foreign visitors alike. Guests can indulge in Far Eastern cuisine made with the freshest seafood while sipping on fine rice wine imported from Koshu, the main island of Hingashi.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Kogane (10, 10)",
+			"details": "Good luck!"
+		}]
+	},
+	{
+		"name": "Tamamizu",
+		"lore": "An underwater village founded by the peaceful Kojin of the Blue. Though the Kojin are able to survive for long periods without air, they do not possess gills like the Sahagin. So it was that they developed magicks that allowed them to create an immense bubble of air within which to dwell.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Ruby Sea (Underwater) (25, 13)"
+		}]
+	},
+	{
+		"name": "Shoal Rock",
+		"lore": "One of many isles that pepper the Ruby Sea, hemmed in to the north by a circular formation of enormous coral whereupon the Confederacy established an outpost. According to Hingan historians, the isle was formed of magma that spewed forth from Hells' Lid.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Ruby Sea (32, 8)"
+		}]
+	},
+	{
+		"name": "Heaven-on-High",
+		"lore": "A slender tower of stone stacked to impossible heights, seemingly piercing the very heavens. Aside from a Far Eastern myth that attributes its creation to the kami, little is known about the structure. During a time of war, audacious pirates of the Confederacy made landfall and claimed the spot for their own.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Ruby Sea (24, 5)"
+		}]
+	},
+	{
+		"name": "Sakazuki",
+		"lore": "Its name meaning 'goblet,' this island is said to be the birthplace of the Confederacy, where rival pirates first toasted as brothers and pledged themselves to a common cause. Today it remains an important outpost, constantly garrisoned by sharp-eyed guards who keep watch for vessels that sail the Ruby Sea.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Ruby Sea (31, 37)"
+		}]
+	},
+	{
+		"name": "The Isle of Zekki",
+		"lore": "So named as the home of a fearsome fiend, even the Kojin of the Red, who have long dwelled here, came to know the isle by this moniker. An island in truth in the distant past, it was joined to the mainland by magma over the course of multiple volcanic eruptions.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Ruby Sea (10, 26)"
+		}]
+	},
+	{
+		"name": "Isari",
+		"lore": "A small fishing village situated on the eastern coastline of Othard, its name a reference to its livelihood. For a time the Confederacy had something of a presence here, operating out of a little shack and collecting its Ruby Tithe.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Ruby Sea (6, 10)"
+		}]
+	},
+	{
+		"name": "The Swallow's Compass",
+		"lore": "Enshrined within this tomb, his likeness carved on an imposing scale into the cliffside, is the person of Ganen, the great general who united the warring clans of Yanxia to arise as the first king of Doma. A skilled swordsman and mage both, he is credited as the founding father of Doman geomancy.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Yanxia (12, 26)"
+		}]
+	},
+	{
+		"name": "Castrum Fluminis",
+		"lore": "Established twenty-five years ago as an advance post for the invasion of Doma, the castrum served for a time afterwards as an administrative center for the imperial occupation. As repairs on Doma Castle progressed, its occupants relocated to the city, abandoning it to nature.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Yanxia (30, 32)"
+		}]
+	},
+	{
+		"name": "Namai",
+		"lore": "A village situated amidst the mountains of the Gensui Chain, named for the local word for the aquatic arrowhead plant, an allusion to its long history in rice farming. The arrival of the Empire placed this lifestyle under siege, but through perserverance the villagers continue to hold on to their ways.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Yanxia (34, 18)"
+		}]
+	},
+	{
+		"name": "Prism Lake",
+		"lore": "An enigmatic lake carved out in steps, whose waters have taken on the colors of the rainbow. Scholars attribute its beautiful coloration to the rich and exposed deposits of high-purity crystals in the area, while legend tells of an angelic being who fashioned a bridge of rainbow for her mortal lover.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Yanxia (30, 6)"
+		}]
+	},
+	{
+		"name": "Doma Castle",
+		"lore": "The seat of power in the nation of Doma, whose dominion encompassed the entirety of Yanxia. The crag-top site was chosen in order to control the One River, an artery of trade and transport and a vital source of water in the region. Under imperial rule, it was made into a viceroyalty and its military capabilities were greatly expanded.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Yanxia (14, 6)"
+		}]
+	},
+	{
+		"name": "Dairyu Moon Gates",
+		"lore": "Built into natural rock with openings fashioned in the shape of a full moon, this series of colossal portals regulate traffic upon the One River. The Empire, desiring to exert greater control, further added magitek field generators.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Yanxia (19, 20)"
+		}]
+	},
+	{
+		"name": "Yuzuka Manor",
+		"lore": "For generations, the lords of the Yuzuka family faithfully served the Doman monarchy as governors of One River settlements, and this was their dwelling. Razed during the rebellion, a clan of Namazu has since taken up residence.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Yanxia (15, 31)"
+		}]
+	},
+	{
+		"name": "Ceol Aen",
+		"lore": "A cluster of ancient stone pillars located near Bardam's Mettle, upon each of which the songs of the peoples of the Steppe are graven. Although the pillars' placement may appear haphazard, when the wind blows through them, they are said to come alive with melodies from ages past.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Yanxia (14, 9)"
+		}]
+	},
+	{
+		"name": "Dotharl Khaa",
+		"lore": "In the language of the Steppe, 'khaa' means a spring, and the Dotharl tribe has laid claim to this particular one. It is a rare oasis in the deathly dry climes of the Nhaama Desert, and travellers are strongly advised to replenish their water supplies ere they continue on.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Azim Steppe (12, 31)"
+		}]
+	},
+	{
+		"name": "The Dusk Throne",
+		"lore": "A grand monument marking the sacred site where Nhaama, goddess of the moon, is said to have created a corporeal form of herself and become the Dusk Mother. The sands of time, however, have ever disdained the works of men, and for all its prodigious size, the desert is threatening to swallow it up.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Azim Steppe (19, 33)"
+		}]
+	},
+	{
+		"name": "Reunion",
+		"lore": "Once a united people, the Xaela were divided into over fifty disparate tribes, but by gathering here they may be as one once more. Such was the hope of the Qestir when they founded this hub of trade. Nowadays, in addition to all the peoples of the Steppe, merchants from foreign lands may be seen here as well.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Azim Steppe (34, 31)"
+		}]
+	},
+	{
+		"name": "Chakha Zoh",
+		"lore": "Resting within this shrine are the bones of a revered Xaela woman who fearlessly faced a monstrous dragon in order to protect her people. It is customary for tribes that triumph at the Naadam to come here to make an offering.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/pray",
+			"location": "The Azim Steppe (20, 12)"
+		}]
+	},
+	{
+		"name": "The Dawn Throne",
+		"lore": "A grand monument marking the sacred site where Azim, god of the sun, is said to have created a corporeal form of himself and become the Dawn Father. Tended and improved over the years by the Steppe's most powerful tribes, it now rests upon the waters of Azim Khaat and is crowned by a magnificent palace.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Azim Steppe (22, 21)"
 		}]
 	}
 ]

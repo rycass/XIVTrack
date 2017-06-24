@@ -382,6 +382,20 @@
 		}]
 	},
 	{
+		"name": "Namazu",
+		"lore": "A beast tribe native to the Far East. Short and squat, the Namazu are nevertheless excellent swimmers, and subsist mainly on a diet of harpooned fish. Though proximity to the settlements of other races has done much to civilize these sociable creatures, a significant number of their clans yet remain wild and savage.",
+		"attributes": "beastman",
+		"expansion": "Stormblood",
+		"rarity": "1",
+		"card": "5 1 1 6",
+		"sources": [{
+			"type": "npc",
+			"info": "Gyoei",
+			"location": "Yanxia (15, 31)",
+			"details": "Quest 'Criminal Phrenology' must be completed to challenge"
+		}]
+	},
+	{
 		"name": "Magitek Death Claw",
 		"lore": "A redesign of the Allagan “iron claw,” the magitek death claw is kept aloft by the twin rotors housed within its main trunk. While the claw's curved talons are often employed to transport military cargo, it is also deployed on the battlefield to immobilize enemy soldiers.",
 		"attributes": "garlean",
@@ -455,7 +469,7 @@
 		"sources": [{
 			"type": "npc",
 			"info": "Voracious Vath",
-			"location": "Dravanian Forelands (23, 19)",
+			"location": "The Dravanian Forelands (23, 19)",
 			"details": "Quest 'Yellow Stones' must be completed to challenge, 6AM - 12PM"
 		}]
 	},
@@ -640,7 +654,7 @@
 		"sources": [{
 			"type": "fate",
 			"info": "Special Tarasque Force",
-			"location": "Dravanian Forelands (13, 36)"
+			"location": "The Dravanian Forelands (13, 36)"
 		}]
 	},
 	{
@@ -747,6 +761,34 @@
 			"type": "vendor",
 			"info": "520 MGP (Bronze Triad Card)",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}]
+	},
+	{
+		"name": "Kojin",
+		"lore": "This marine race of beastmen has lived in the Ruby Sea for generations. As at home underwater as they are on land, they have flourished on the bounty of the ocean. The Kojin revere the kami─a legion of gods found within the great and the small─and strive ceaselessly to collect those objects in which they believe their deities reside.",
+		"attributes": "beastman",
+		"expansion": "Stormblood",
+		"rarity": "2",
+		"card": "4 4 5 5",
+		"sources": [{
+			"type": "npc",
+			"info": "Tsuzura",
+			"location": "The Ruby Sea (28, 16)",
+			"details": "Quest 'Our Most Venerated Ancestor' must be completed to challenge"
+		}]
+	},
+	{
+		"name": "Anata",
+		"lore": "The Ananta are a people native to the Fringes of Gyr Abania. A race consisting entirely of females, they resemble women from the waist up, but take the form of undulating serpents from the waist down. They are known for their elegant metallic jewelry, which they shape with the caress of magic rather than by the blow of a hammer.",
+		"attributes": "beastman",
+		"expansion": "Stormblood",
+		"rarity": "2",
+		"card": "2 3 5 7",
+		"sources": [{
+			"type": "npc",
+			"info": "Garima",
+			"location": "The Fringes (28, 20)",
+			"details": "Quest 'Delicate as a Flower' must be completed to challenge"
 		}]
 	},
 	{
@@ -1024,6 +1066,30 @@
 		}]
 	},
 	{
+		"name": "M'naago",
+		"lore": "'I won't let you down, sir!'",
+		"expansion": "Stormblood",
+		"rarity": "2",
+		"card": "7 4 4 1",
+		"sources": [{
+			"type": "npc",
+			"info": "Ercanbald",
+			"location": "Rhalgr's Reach (9, 9)"
+		}]
+	},
+	{
+		"name": "Kotokaze",
+		"lore": "'We would welcome your custom, miss.'",
+		"expansion": "Stormblood",
+		"rarity": "2",
+		"card": "6 5 2 6",
+		"sources": [{
+			"type": "npc",
+			"info": "Kotokaze",
+			"location": "Kuzane (10, 10)"
+		}]
+	},
+	{
 		"name": "Behemoth",
 		"lore": "The first sightings of these heavily muscled beasts in the mountains of Coerthas coincided with the advent of the Seventh Umbral Era. Scholars believe them to be the spawn of the elder primal Bahamut, and have dubbed the creatures 'behemoths.'Aside from their obvious physical traits, much about behemoth behavior and physiology remains shrouded in mystery.",
 		"expansion": "ARR",
@@ -1096,7 +1162,7 @@
 		}, {
 			"type": "npc",
 			"info": "Voracious Vath",
-			"location": "Dravanian Forelands (23, 19)",
+			"location": "The Dravanian Forelands (23, 19)",
 			"details": "Quest 'Yellow Stones' must be completed to challenge, 6AM - 12PM"
 		}]
 	},
@@ -1294,6 +1360,30 @@
 		}]
 	},
 	{
+		"name": "Mammoth",
+		"lore": "These lumbering, herbivorous beastkin inhabit chilly plains and snowy mountainsides, protected from the elements by thick matted hides. Ordinarily placid in temperament, mammoths are known to become aggressive if startled, thrashing about with their long, curved tusks. Even the largest of predators will give these creatures a wide berth, preferring to avoid the risk of injury or death.",
+		"expansion": "Stormblood",
+		"rarity": "3",
+		"card": "3 6 8 3",
+		"sources": [{
+			"type": "fate",
+			"info": "Wham, Bam, Thank You, Mammoth",
+			"location": "The Azim Steppe (31, 23)"
+		}]
+	},
+	{
+		"name": "Phoebad",
+		"lore": "Phoebads are a type of golem that occur naturally in areas rich in salt crystals, such as Loch Seld and other similar bodies of water. In folklore, phoebads are said to have once been people who defied the revelations of Rhalgr, and were transformed as punishment for their disobedience.",
+		"expansion": "Stormblood",
+		"rarity": "3",
+		"card": "1 8 3 8",
+		"sources": [{
+			"type": "fate",
+			"info": "Tall Tale",
+			"location": "The Lochs (21, 25)"
+		}]
+	},
+	{
 		"name": "Phlegethon",
 		"lore": "Phlegethon was a hero of the rebellion that sought to oppose the rule of Allag in the twilight of the Third Astral Era. After his capture by the technologist Amon, the valiant general was subjected to hideous experiments, his body altered and mind broken, fated to become an eternal guardian of the Crystal Tower.",
 		"expansion": "ARR",
@@ -1438,7 +1528,7 @@
 		}, {
 			"type": "trial",
 			"info": "Garuda",
-			"location": "The Howling Eye(Extreme)"
+			"location": "The Howling Eye (Extreme)"
 		}, {
 			"type": "npc",
 			"info": "Marcette",
@@ -1487,6 +1577,40 @@
 		}]
 	},
 	{
+		"name": "Susano",
+		"lore": "A deity summoned forth by the Kojin, Susano resided in three sacred receptacles. As well as being one of the greatest kami, this entity is also revered as the god of the sea. The Lord of the Revel rejoices in both battle and banquet, meeting all challengers with jubilant and unrestrained ferocity.",
+		"attributes": "primal",
+		"expansion": "Stormblood",
+		"rarity": "3",
+		"card": "8 2 3 8",
+		"sources": [{
+			"type": "trial",
+			"info": "Susano",
+			"location": "The Pool of Tribute (Hard)"
+		}, {
+			"type": "trial",
+			"info": "Susano",
+			"location": "The Pool of Tribute (Extreme)"
+		}]
+	},
+	{
+		"name": "Lakshmi",
+		"lore": "The Lady of Bliss, worshiped by the Ananta. Venerated for her dominion over fertility and beauty, Ananta mythology holds that she bestowed a sliver of her gifts upon her serpentine children. Envisioned as a kind and benevolent deity, she enfolds her believers in an embrace of dream-like comfort.",
+		"attributes": "primal",
+		"expansion": "Stormblood",
+		"rarity": "3",
+		"card": "5 3 7 7",
+		"sources": [{
+			"type": "trial",
+			"info": "Lakshmi",
+			"location": "Emanation (Hard)"
+		}, {
+			"type": "trial",
+			"info": "Lakshmi",
+			"location": "Emanation (Extreme)"
+		}]
+	},
+	{
 		"name": "Nero Tol Scaeva",
 		"lore": "'Garlond... Soon you will be made to know the true power of magitek.'",
 		"attributes": "garlean",
@@ -1523,6 +1647,19 @@
 			"type": "vendor",
 			"info": "2,160 MGP (Imperial Triad Card)",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}]
+	},
+	{
+		"name": "Grynewaht",
+		"lore": "'It's like all my namedays have come at once!'",
+		"attributes": "garlean",
+		"expansion": "Stormblood",
+		"rarity": "3",
+		"card": "4 7 7 4",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Hypertuned Grynewaht",
+			"location": "Doma Castle"
 		}]
 	},
 	{
@@ -1700,7 +1837,7 @@
 		"sources": [{
 			"type": "npc",
 			"info": "Marcechamp",
-			"location": "Dravanian Forelands (31, 32)",
+			"location": "The Dravanian Forelands (31, 32)",
 			"details": "7PM - 5AM"
 		}]
 	},
@@ -1872,6 +2009,58 @@
 		}]
 	},
 	{
+		"name": "Rasho",
+		"lore": "'Men who revere manners and tradition can be found the world over. But not here.'",
+		"expansion": "Stormblood",
+		"rarity": "3",
+		"card": "2 4 8 7",
+		"sources": [{
+			"type": "npc",
+			"info": "Kaizan",
+			"location": "The Ruby Sea (22, 8)",
+			"details": "Quest 'A Dance with Snakes' must be completed to challenge"
+		}]
+	},
+	{
+		"name": "Cirina",
+		"lore": "'The Mol hearken to the whispers of the elder gods, which guide us in our daily lives.'",
+		"expansion": "Stormblood",
+		"rarity": "3",
+		"card": "8 3 6 5",
+		"sources": [{
+			"type": "npc",
+			"info": "Nigen",
+			"location": "The Azim Steppe (32, 11)",
+			"details": "Quest 'And Dzo It Goes' must be completed to challenge"
+		}]
+	},
+	{
+		"name": "Magnai",
+		"lore": "'We shall not speak as equals. Born of the Sun are Oronir, and born of the earth are you.'",
+		"expansion": "Stormblood",
+		"rarity": "3",
+		"card": "4 6 4 7",
+		"sources": [{
+			"type": "npc",
+			"info": "Ogodei",
+			"location": "The Azim Steppe (22, 20)",
+			"details": "Quest 'A Warm Welcome' must be completed to challenge"
+		}]
+	},
+	{
+		"name": "Sadu",
+		"lore": "'None are braver than the Dotharl, for we do not fear death.'",
+		"expansion": "Stormblood",
+		"rarity": "3",
+		"card": "4 6 7 6",
+		"sources": [{
+			"type": "npc",
+			"info": "Munglig",
+			"location": "The Azim Steppe (12, 33)",
+			"details": "Quest 'The Undying Ones' must be completed to challenge"
+		}]
+	},
+	{
 		"name": "Brute Justice",
 		"lore": "Charged with the protection of Alexander, Brute Justice is a remarkable amalgamation of five separate guardians. With Onslaughter as its core, Vortexer, Swindler, Blaster, and Brawler complete the union. Brute Justice's lack of autonomy is balanced by its incorruptible loyalty to Quickthinx Allthoughts.",
 		"expansion": "Heavensward",
@@ -1885,7 +2074,7 @@
 		{
 			"type": "npc",
 			"info": "Tapklix",
-			"location": "Dravanian Hinterlands (21, 18)",
+			"location": "The Dravanian Hinterlands (21, 18)",
 			"details": "Raid 'Alexander - The Burden of the Son' must be completed to challenge, 2pm - 6pm"
 		}]
 	},
@@ -2071,6 +2260,19 @@
 		}]
 	},
 	{
+		"name": "Shinryu",
+		"lore": "A deity of destruction, born not of faith, but of a desire for vengeance. Drawing on the power of his brethren's sacrifice and the eyes of a great wyrm, Ilberd summoned Shinryu to annihilate the forces of the Garlean Empire. This entity is surmised to have taken the form of a dragon as part of its purpose in emulating─and ultimately overshadowing─the devastation wrought by the elder primal Bahamut.",
+		"attributes": "primal",
+		"expansion": "Stormblood",
+		"rarity": "4",
+		"card": "2 7 8 8",
+		"sources": [{
+			"type": "trial",
+			"info": "Shinryu",
+			"location": "The Royal Menagerie"
+		}]
+	},
+	{
 		"name": "Ultima Weapon",
 		"lore": "A relic of the Third Astral Era, the Ultima Weapon is a feat of Allagan technology-the same technology which saw the reach of the Allagan Empire extend to the four corners of Hydaelyn. Upon rediscovery of the mechanical juggernaut buried deep beneath the lands just beyond Ala Mhigo, the XIVth Legion of the Imperial Garlean Army refitted it to serve as a countermeasure against the ever-growing primal threat.",
 		"attributes": "garlean",
@@ -2115,6 +2317,20 @@
 			"type": "vendor",
 			"info": "2,160 MGP (Imperial Triad Card)",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}]
+	},
+	{
+		"name": "Yotsuyu",
+		"lore": "'My appetite for your agony is as an abyss─bottomless. Insatiable.'",
+		"attributes": "garlean",
+		"expansion": "Stormblood",
+		"rarity": "4",
+		"card": "6 9 8 2",
+		"sources": [{
+			"type": "npc",
+			"info": "Imperial Deserter",
+			"location": "The Lochs (33, 30)",
+			"details": "Quest 'Stormblood' must be completed to challenge"
 		}]
 	},
 	{
@@ -2187,8 +2403,8 @@
 		"card": "9 8 7 1",
 		"sources": [{
 			"type": "achievement",
-			"info": "Triple Team V",
-			"details": "Obtain 60 unique Triple Triad cards.",
+			"info": "Triple-decker VI",
+			"details": "Obtain 150 unique Triple Triad cards.",
 			"location": "Jonathas, Old Gridania (10, 6)"
 		}]
 	},
@@ -2201,8 +2417,36 @@
 		"card": "5 9 2 9",
 		"sources": [{
 			"type": "achievement",
-			"info": "Triple-Decker VI",
-			"details": "Obtain 150 unique Triple Triad cards.",
+			"info": "Triple-Team V",
+			"details": "Defeat 60 unique NPCs at Triple Triad.",
+			"location": "Jonathas, Old Gridania (10, 6)"
+		}]
+	},
+	{
+		"name": "Krile",
+		"lore": "'Would you care to attempt a more dextrous deflection?'",
+		"attributes": "scion",
+		"expansion": "Stormblood",
+		"rarity": "4",
+		"card": "7 2 8 8",
+		"sources": [{
+			"type": "achievement",
+			"info": "Triple-decker VII",
+			"details": "Obtain 190 unique Triple Triad cards.",
+			"location": "Jonathas, Old Gridania (10, 6)"
+		}]
+	},
+	{
+		"name": "Lyse",
+		"lore": "'I'm sorry for lying to you. My real name is Lyse.'",
+		"attributes": "scion",
+		"expansion": "Stormblood",
+		"rarity": "4",
+		"card": "8 6 1 9",
+		"sources": [{
+			"type": "achievement",
+			"info": "Triple-Team VI",
+			"details": "Defeat 70 unique NPCs at Triple Triad.",
 			"location": "Jonathas, Old Gridania (10, 6)"
 		}]
 	},
@@ -2444,6 +2688,19 @@
 		}]
 	},
 	{
+		"name": "Zenos Yae Galvus",
+		"lore": "'Do not disappoint me, girl. Or I will kill you.'",
+		"attributes": "garlean",
+		"expansion": "Stormblood",
+		"rarity": "5",
+		"card": "A 6 7 6",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Zenos Yae Galvus",
+			"location": "Ala Mhigo"
+		}]
+	},
+	{
 		"name": "Hildibrand & Nashu Mhaakaracca",
 		"lore": "'I swear to you, here and now: I, Hildibrand, agent of enquiry, inspector extraordinaire, shall scour all creation-from the deepest pit of the seven hells to the very pinnacle of the heavens-for your Pure Heart!'",
 		"expansion": "ARR",
@@ -2547,6 +2804,19 @@
 			"type": "trial",
 			"info": "King Thordan",
 			"location": "The Minstrel's Ballad: Thordan's Reign"
+		}]
+	},
+	{
+		"name": "Hien",
+		"lore": "'My blade or my head. Which would you have of me?'",
+		"expansion": "Stormblood",
+		"rarity": "5",
+		"card": "A 2 5 A",
+		"sources": [{
+			"type": "npc",
+			"info": "Kiuka",
+			"location": "Doman Enclave (5, 4)",
+			"details": "Quest 'The World Turned Upside Down' must be completed to challenge"
 		}]
 	},
 	{

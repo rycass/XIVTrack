@@ -51,13 +51,13 @@
 	},
 	{
 		"name": "Painted Foothills",
-		"lore": "Locales: Dravanian Forelands, daytime",
+		"lore": "Locales: The Dravanian Forelands, daytime",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
 			"info": "Alchemist 60 (Requires Master Alchemist III)",
 			"location": "N/A",
-			"details": "Faded roll available: Hunts in Dravanian Forelands"
+			"details": "Faded roll available: Hunts in The Dravanian Forelands"
 		}]
 	},
 	{
@@ -68,7 +68,7 @@
 			"type": "crafted",
 			"info": "Alchemist 60 (Requires Master Alchemist III)",
 			"location": "N/A",
-			"details": "Faded roll available: Hunts in Sea of Clouds"
+			"details": "Faded roll available: Hunts in The Sea of Clouds"
 		}]
 	},
 	{
@@ -159,7 +159,7 @@
 		"sources": [{
 			"type": "vendor",
 			"info": "5000 Gil",
-			"location": "Traveling Merchant, Dravanian Forelands (32, 23)"
+			"location": "Traveling Merchant, The Dravanian Forelands (32, 23)"
 		}]
 	},
 	{
@@ -186,13 +186,13 @@
 	},
 	{
 		"name": "Missing Pages",
-		"lore": "Locales: Dravanian Hinterlands, daytime",
+		"lore": "Locales: The Dravanian Hinterlands, daytime",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
 			"info": "Alchemist 60 (Requires Master Alchemist III)",
 			"location": "N/A",
-			"details": "Faded roll available: Hunts in Dravanian Hinterlands"
+			"details": "Faded roll available: Hunts in The Dravanian Hinterlands"
 		}]
 	},
 	{
@@ -287,7 +287,7 @@
 	},
 	{
 		"name": "Close to the Heavens",
-		"lore": "Locales: Sea of Clouds, nighttime",
+		"lore": "Locales: The Sea of Clouds, nighttime",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -313,7 +313,7 @@
 		"sources": [{
 			"type": "vendor",
 			"info": "3 Vanu Whitebone",
-			"location": "Luna Vanu, Sea of Clouds (7, 14)"
+			"location": "Luna Vanu, The Sea of Clouds (7, 14)"
 		}]
 	},
 	{
@@ -436,6 +436,68 @@
 			"type": "vendor",
 			"info": "300 Centurio Seals",
 			"location": "Ardolain, Foundation (12, 11)"
+		}]
+	},
+	{
+		"name": "Skylords",
+		"lore": "Locales: The Churning Mists, nighttime",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 60 (Requires Master Alchemist III)",
+			"location": "N/A",
+			"details": "Faded roll available: Hunts in The Churning Mists"
+		}]
+	},
+	{
+		"name": "The Silent Regard of Stars",
+		"lore": "Locales: The Dravanian Hinterlands, nighttime",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 60 (Requires Master Alchemist III)",
+			"location": "N/A",
+			"details": "Faded roll available: Hunts in The Dravanian Hinterlands"
+		}]
+	},
+	{
+		"name": "Beyond the Wall",
+		"lore": "Locales: The Fringes, daytime",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "fate",
+			"info": "The Evil Seed (Gold)",
+			"location": "The Fringes (14, 22)"
+		}]
+	},
+	{
+		"name": "Liquid Flame",
+		"lore": "Locales: The Ruby Sea, daytime",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "fate",
+			"info": "Never Say Daimyo (Gold)",
+			"location": "The Ruby Sea (19, 9)"
+		}]
+	},
+	{
+		"name": "Drowning in the Horizon",
+		"lore": "Locales: The Azim Steppe, daytime",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "300 Centurio Seals",
+			"location": "Estrild, Kugane (10, 10)"
+		}]
+	},
+	{
+		"name": "The Edge",
+		"lore": "Locales: Ninja Cutscenes",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "5000 gil",
+			"location": "Merchant & Mender, Eastern La Noscea (20, 20)"
 		}]
 	},
 	{
@@ -671,6 +733,26 @@
 			"type": "quest",
 			"info": "Griffin, Griffin on the Wall",
 			"location": "Alisaie, Mor Dhona (22, 8)"
+		}]
+	},
+	{
+		"name": "Poison Ivy",
+		"lore": "Dungeons: Saint Mocianne's Arboretum",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Belladonna",
+			"location": "Saint Mocianne's Arboretum"
+		}]
+	},
+	{
+		"name": "Bibliophobia",
+		"lore": "Dungeons: The Great Gubal Library (Hard)",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Strix",
+			"location": "The Great Gubal Library (Hard)"
 		}]
 	},
 	{
@@ -933,6 +1015,28 @@
 			"info": "Alchemist 60*** (Requires Master Alchemist IV)",
 			"location": "N/A",
 			"details": "Faded roll available: Zurvan, Containment Bay Z1T9 (Extreme)"
+		}]
+	},
+	{
+		"name": "Revelation",
+		"lore": "Trials: Pool of Tribute",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 70* (Requires Master Alchemist IV)",
+			"location": "N/A",
+			"details": "Faded roll available: Susano, Pool of Tribute (Extreme)"
+		}]
+	},
+	{
+		"name": "Beauty's Wicked Wiles",
+		"lore": "Trials: Emanation",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 70* (Requires Master Alchemist IV)",
+			"location": "N/A",
+			"details": "Faded roll available: Lakshmi, Emanation (Extreme)"
 		}]
 	},
 	{
@@ -1462,6 +1566,86 @@
 			"type": "quest",
 			"info": "The Obvious Solution",
 			"location": "Alisaie, The Rising Stones (6, 6)"
+		}]
+	},
+	{
+		"name": "Ambient Waves",
+		"lore": "Others: Ambient track",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "5000 Gil",
+			"location": "Housing Merchant, The Goblet (11, 9)"
+		},
+		{
+			"type": "vendor",
+			"info": "5000 Gil",
+			"location": "Housing Merchant, The Lavender Beds (11, 8)"
+		},
+		{
+			"type": "vendor",
+			"info": "5000 Gil",
+			"location": "Housing Merchant, Mist (10, 11)"
+		}]
+	},
+	{
+		"name": "Ambient Birdsong",
+		"lore": "Others: Ambient track",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "5000 Gil",
+			"location": "Housing Merchant, The Goblet (11, 9)"
+		},
+		{
+			"type": "vendor",
+			"info": "5000 Gil",
+			"location": "Housing Merchant, The Lavender Beds (11, 8)"
+		},
+		{
+			"type": "vendor",
+			"info": "5000 Gil",
+			"location": "Housing Merchant, Mist (10, 11)"
+		}]
+	},
+	{
+		"name": "Ambient Rainfall",
+		"lore": "Others: Ambient track",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "5000 Gil",
+			"location": "Housing Merchant, The Goblet (11, 9)"
+		},
+		{
+			"type": "vendor",
+			"info": "5000 Gil",
+			"location": "Housing Merchant, The Lavender Beds (11, 8)"
+		},
+		{
+			"type": "vendor",
+			"info": "5000 Gil",
+			"location": "Housing Merchant, Mist (10, 11)"
+		}]
+	},
+	{
+		"name": "Ambient Cricketsong",
+		"lore": "Others: Ambient track",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "5000 Gil",
+			"location": "Housing Merchant, The Goblet (11, 9)"
+		},
+		{
+			"type": "vendor",
+			"info": "5000 Gil",
+			"location": "Housing Merchant, The Lavender Beds (11, 8)"
+		},
+		{
+			"type": "vendor",
+			"info": "5000 Gil",
+			"location": "Housing Merchant, Mist (10, 11)"
 		}]
 	},
 	{

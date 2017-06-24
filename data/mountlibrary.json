@@ -233,6 +233,17 @@
 		}]
 	},
 	{
+		"name": "Battle Panther",
+		"lore": "History tells us that no dark hero's story is complete without the companionship of a wily panther. Their sable coat, their savage nature, their attunement with the umbral, their thirst for blood. It is as if the gods created these creatures in the image of a dark knight...or perhaps it was the other way around.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Tank You, Dark Knight III",
+			"details": "Complete 300 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), level 50/60 duty roulette dungeons, or duty roulette leveling duties as a dark knight. *Each roulette only counts with daily award bonus.",
+			"location": "Jonathas, Old Gridania (10, 6)"
+		}]
+	},
+	{
 		"name": "Ahriman",
 		"lore": "Though little is known of the void and the creatures which call the extra-dimensional realm home, scholars have discovered that there is a strict hierarchy amongst voidsent consisting of twelve distinct tiers. Ahrimans are believed to fall into the fifth, making them formidable foes... when not enthralled by curses.",
 		"attributes": "flying",
@@ -299,6 +310,17 @@
 		}]
 	},
 	{
+		"name": "Battle Lion",
+		"lore": "There was a time when members of Ul'dah's elite Sultansworn strode the Steps of Nald and Thal atop silver-plated lions, striking fear and awe into the mewling masses. An effort to return to those days of glory has seen the summoning of several of Thavnair's most prominent beast tamers to the Rose of the Desert.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Tank You, Paladin III",
+			"details": "Complete 300 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), level 50/60 duty roulette dungeons, or duty roulette leveling duties as a paladin. *Each roulette only counts with daily award bonus.",
+			"location": "Jonathas, Old Gridania (10, 6)"
+		}]
+	},
+	{
 		"name": "Warbear",
 		"lore": "In generations past, warriors seeking fame and glory would journey out into the untamed wilds of Abalathia's Spine in search of the giant grizzled bears that roamed the mountains, and would wrestle the beasts into submission, riding their prizes back to civilization. That is, or die trying.",
 		"expansion": "ARR",
@@ -306,6 +328,17 @@
 			"type": "achievement",
 			"info": "But Somebody's Gotta Do It (Warrior)",
 			"details" :"Complete 200 high-level full party duties as a warrior.",
+			"location": "Jonathas, Old Gridania (10, 6)"
+		}]
+	},
+	{
+		"name": "Battle Bear",
+		"lore": "The bears of Abalathia's Spine are not known to suffer the presence of man in their territory, let alone allow one to mount their backs and command them hither and yon. Then what, pray tell, has come over this particular specimen? Perhaps one look into your inner beast convinced the creature that submission spelled survival.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "Tank You, Warrior III",
+			"details": "Complete 300 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), level 50/60 duty roulette dungeons, or duty roulette leveling duties as a warrior. *Each roulette only counts with daily award bonus.",
 			"location": "Jonathas, Old Gridania (10, 6)"
 		}]
 	},
@@ -477,6 +510,28 @@
 		}]
 	},
 	{
+		"name": "Lone Faehound",
+		"lore": "Covered from muzzle to tail in an otherworldly silver coat, the faehound appears more akin to something out of a faerie tale than from the nether-reaches of the void. Yet do not be fooled by the beast's appearance, for he is an equal in strength to all but the highest ranking voidsent, his heart swollen with savagery from a lifetime hunting alone.",
+		"attributes": "flying",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "Top 100, The Feast Solo (Season 4)",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Pack Faehound",
+		"lore": "Covered from muzzle to tail in an otherworldly silver coat, the faehound appears more akin to something out of a faerie tale than from the nether-reaches of the void. Yet do not be fooled by the beast's appearance, for she is an equal in strength to all but the highest ranking voidsent, her heart swollen with savagery from a lifetime leading a pack of her own.",
+		"attributes": "flying",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "Top 100, The Feast Group (Season 4)",
+			"location": "N/A"
+		}]
+	},
+	{
 		"name": "Eggshilaration System",
 		"lore": "After learning of the latest of the Dreamer's visions - a giant floating ovoid delivering eggs to all the good boys and girls of the realm - Nonotta and friends literally scrambled to find a means of bringing her dream to life. All it required was a little aid from the Sons of Saint Coinach...and the remnants of some ancient Allagan technology.",
 		"attributes": "flying",
@@ -496,6 +551,28 @@
 			"type": "vendor",
 			"info": "750,000 MGP",
 			"location": "Gold Saucer Attendant, Gold Saucer (5, 6)"
+		}]
+	},
+	{
+		"name": "Syldra",
+		"lore": "Legends say there once lived a kindly sea dragon who befriended a pirate, and that their friendship knew no bounds. This is not that sea dragon; however with a little time and caring, who is to say that a similar relationship cannot be forged? *Sea dragons have no relation to actual dragons.",
+		"attributes": "flying",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "merchandise",
+			"info": "FFXIV: Stormblood Collector's Edition",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Yol",
+		"lore": "High atop the granite peaks of Othard's Fanged Crescent do the yol claim their demesne, descending to the Azim Steppe to prey upon the soft warriors who pretend not to fear the winged monsters of their ancestor's tales. Rare indeed is it that a yol might cede its back to the likes of man, though to those who have proved their mettle, the creatures have been known to make exception.",
+		"attributes": "flying",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "quest",
+			"info": "In the Footsteps of Bardam the Brave",
+			"location": "Hien, The Azim Steppe (11, 11)"
 		}]
 	},
 	{
@@ -880,6 +957,28 @@
 		}]
 	},
 	{
+		"name": "Reveling Kamuy",
+		"lore": "Upon receiving from his Kojin worshipers the offering of a sad, orphaned wolf pup, Susano proceeded to grant him the gift of flight, as well as an impressive coat of glowing fur, that he might be worthy of the revel.",
+		"attributes": "flying",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "trial",
+			"info": "Susano",
+			"location": "The Pool of Tribute (Extreme)"
+		}]
+	},
+	{
+		"name": "Blissful Kamuy",
+		"lore": "Believe it or not, this monstrous canine did not always glow, only achieving its heavenly effulgence upon receiving the blessing of Lakshmi after being offered to the Lady of Bliss by her loyal Ananta dreamers.",
+		"attributes": "flying",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "trial",
+			"info": "Lakshmi",
+			"location": "Emanation (Extreme)"
+		}]
+	},
+	{
 		"name": "Midgardsormr",
 		"lore": "Only after proving your bravery in the face of countless perils has the father of dragons found you to be a worthy heir to the light, and granted you a place upon his back.",
 		"attributes": "flying",
@@ -965,6 +1064,39 @@
 			"info": "Furious Fatalities",
 			"details": "Emerge victorious in a combination of 60 Frontline campaigns and Feast matches while using a title received from the disreputable priest.",
 			"location": "Jonathas, Old Gridania (10, 6)"
+		}]
+	},
+	{
+		"name": "Ixion",
+		"lore": "Ask any Gyr Abanian youth, and she will tell you the story of Ixion, Rhalgr's magnificent steed─swift as a levinbolt and strong as thunderclap. However, the recent discovery of several ancient Mhachi texts suggests that the creature may simply be a stallion augmented by ancient technologies that have granted Ixion life eternal...and the ability to shoot lightning from its eyes.",
+		"attributes": "flying",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "vendor",
+			"info": "12 Ixion Horns",
+			"location": "Eschina, Rhalgr's Reach (13, 11)"
+		}]
+	},
+	{
+		"name": "Centurio Tiger",
+		"lore": "In a rare display of misguided compassion, a member of Clan Centurio returned from a Hunt with the whimpering cub of a slain S-rank mark. Unable to grant it the mercy it so deserved, the veteran took to caring for the beast until his deceit was discovered and his membership revoked. However, by then, not a single other member could bring themselves to harm the pet they had all come to love.",
+		"attributes": "flying",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "You Got Game",
+			"details": "Obtain the achievements 'Bring Your A Game V' and 'Bring Your S Game V.'",
+			"location": "Jonathas, Old Gridania (10, 6)"
+		}]
+	},
+	{
+		"name": "Magitek Predator",
+		"lore": "Predator series warmachina were originally designed in an attempt to improve magitek reaper killing potential via the addition of close-quarters weaponry. While the extra firepower led to a higher kill ratio, the weight it added severely hampered maneuverability. This unique model, however, appears to have had its weapons removed and replaced with an experimental propulsion engine.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "Unknown",
+			"location": "Unknown"
 		}]
 	}
 ]
