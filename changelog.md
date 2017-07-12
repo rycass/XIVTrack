@@ -1,10 +1,14 @@
-# June 24, 2016
+# July 12, 2017
+- Added 4.01 content.
+- Added some missing sources for 4.0 content.
+
+# June 24, 2017
 - Added 4.0 content. Enjoy Stormblood!
 - There are still a couple of things with unknown sources. These will be added in the near future.
 - Fixed sources for Heavensward Y'shtola and Heavensward Thancred Triple Triad cards.
 - Added some missing cash shop bardings.
 
-# May 28, 2016
+# May 28, 2017
 - Added Make It Rain 2017 content.
 
 # May 28, 2017

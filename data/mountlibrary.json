@@ -191,6 +191,16 @@
 		}]
 	},
 	{
+		"name": "Magitek Predator",
+		"lore": "Predator series warmachina were originally designed in an attempt to improve magitek reaper killing potential via the addition of close-quarters weaponry. While the extra firepower led to a higher kill ratio, the weight it added severely hampered maneuverability. This unique model, however, appears to have had its weapons removed and replaced with an experimental propulsion engine.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Zenos Yae Galvus",
+			"location": "Ala Mhigo"
+		}]
+	},
+	{
 		"name": "Goobbue",
 		"lore": "Traded for a song by the High Satrap of a distant land, the secret to taming these creatures once thought to be unbreakable was introduced to Eorzea by a mysterious wandering minstrel who journeyed through the realm in the final days before the Calamity.",
 		"expansion": "ARR",
@@ -573,6 +583,29 @@
 			"type": "quest",
 			"info": "In the Footsteps of Bardam the Brave",
 			"location": "Hien, The Azim Steppe (11, 11)"
+		}]
+	},
+	{
+		"name": "Centurio Tiger",
+		"lore": "In a rare display of misguided compassion, a member of Clan Centurio returned from a Hunt with the whimpering cub of a slain S-rank mark. Unable to grant it the mercy it so deserved, the veteran took to caring for the beast until his deceit was discovered and his membership revoked. However, by then, not a single other member could bring themselves to harm the pet they had all come to love.",
+		"attributes": "flying",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "achievement",
+			"info": "You Got Game",
+			"details": "Obtain the achievements 'Bring Your A Game V' and 'Bring Your S Game V.'",
+			"location": "Jonathas, Old Gridania (10, 6)"
+		}]
+	},
+	{
+		"name": "Ixion",
+		"lore": "Ask any Gyr Abanian youth, and she will tell you the story of Ixion, Rhalgr's magnificent steed─swift as a levinbolt and strong as thunderclap. However, the recent discovery of several ancient Mhachi texts suggests that the creature may simply be a stallion augmented by ancient technologies that have granted Ixion life eternal...and the ability to shoot lightning from its eyes.",
+		"attributes": "flying",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "vendor",
+			"info": "12 Ixion Horns",
+			"location": "Eschina, Rhalgr's Reach (13, 11)"
 		}]
 	},
 	{
@@ -1064,39 +1097,6 @@
 			"info": "Furious Fatalities",
 			"details": "Emerge victorious in a combination of 60 Frontline campaigns and Feast matches while using a title received from the disreputable priest.",
 			"location": "Jonathas, Old Gridania (10, 6)"
-		}]
-	},
-	{
-		"name": "Ixion",
-		"lore": "Ask any Gyr Abanian youth, and she will tell you the story of Ixion, Rhalgr's magnificent steed─swift as a levinbolt and strong as thunderclap. However, the recent discovery of several ancient Mhachi texts suggests that the creature may simply be a stallion augmented by ancient technologies that have granted Ixion life eternal...and the ability to shoot lightning from its eyes.",
-		"attributes": "flying",
-		"expansion": "Stormblood",
-		"sources": [{
-			"type": "vendor",
-			"info": "12 Ixion Horns",
-			"location": "Eschina, Rhalgr's Reach (13, 11)"
-		}]
-	},
-	{
-		"name": "Centurio Tiger",
-		"lore": "In a rare display of misguided compassion, a member of Clan Centurio returned from a Hunt with the whimpering cub of a slain S-rank mark. Unable to grant it the mercy it so deserved, the veteran took to caring for the beast until his deceit was discovered and his membership revoked. However, by then, not a single other member could bring themselves to harm the pet they had all come to love.",
-		"attributes": "flying",
-		"expansion": "ARR",
-		"sources": [{
-			"type": "achievement",
-			"info": "You Got Game",
-			"details": "Obtain the achievements 'Bring Your A Game V' and 'Bring Your S Game V.'",
-			"location": "Jonathas, Old Gridania (10, 6)"
-		}]
-	},
-	{
-		"name": "Magitek Predator",
-		"lore": "Predator series warmachina were originally designed in an attempt to improve magitek reaper killing potential via the addition of close-quarters weaponry. While the extra firepower led to a higher kill ratio, the weight it added severely hampered maneuverability. This unique model, however, appears to have had its weapons removed and replaced with an experimental propulsion engine.",
-		"expansion": "ARR",
-		"sources": [{
-			"type": "other",
-			"info": "Unknown",
-			"location": "Unknown"
 		}]
 	}
 ]

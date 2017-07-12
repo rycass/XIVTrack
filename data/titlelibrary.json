@@ -3418,5 +3418,15 @@
 			"details": "Slay 5,000 rank S elite marks.",
 			"location": "N/A"
 		}]
+	},
+	{
+		"name": "Deltascape Deleter",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "achievement",
+			"info": "Delta Force",
+			"details": "Complete the quest 'The Anomaly.'",
+			"location": "N/A"
+		}]
 	}
 ]

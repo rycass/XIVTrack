@@ -1254,6 +1254,16 @@
 		}]
 	},
 	{
+		"name": "Bom Boko",
+		"lore": "Supposedly Far Eastern raccoon dogs are nothing like the raccoons of Eorzea, shunning a life of rifling through garbage for one of transmogrification into everyday kitchenware such as tea crocks. Go figure.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "venture",
+			"info": "Field Exploration XX",
+			"location": "N/A"
+		}]
+	},
+	{
 		"name": "Road Sparrow",
 		"lore": "Tired of his humdrum life back in Yanxia, this former house sparrow set off on the journey of a lifetime, finally arriving several moons later in Bardam's Mettle, where he fell in with a flock of ferocious yol and learned the true meaning of freedom.",
 		"expansion": "ARR",
@@ -1843,6 +1853,16 @@
 		}]
 	},
 	{
+		"name": "Wind-up Exdeath",
+		"lore": "Retrieved in the Deltascape, this full-metal automaton is a recreation of a terrible villain appearing in ancient legend. While its scintillant blue armor suggests the figure is a knight, Exdeath was believed to be a powerful warlock born from a tree.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "raid",
+			"info": "Exdeath",
+			"location": "Deltascape V4.0"
+		}]
+	},
+	{
 		"name": "Wind-up Gilgamesh",
 		"lore": "The masterwork of one of Eorzea's finest goldsmiths, this wind-up automaton, designed to resemble a close acquaintance of the smith's son, was pieced together using parts left over from other projects - his only regret being that he was unable to incorporate hip-gyrating functionality.",
 		"expansion": "ARR",
@@ -2377,7 +2397,7 @@
 		"expansion": "ARR",
 		"sources": [{
 			"type": "other",
-			"info": "Wondrous Tails, possible 2-line prize",
+			"info": "Wondrous Tails, possible 1-line prize",
 			"location": "Khloe Aliapoh, Idyllshire (6, 6)"
 		}]
 	},
@@ -2633,6 +2653,16 @@
 		}]
 	},
 	{
+		"name": "Wind-up Khloe",
+		"lore": "Ever since she began receiving them on her doorstep-one a day, every day, without fail-Khloe Aliapoh can't help but think there is something seriously wrong with whoever is sending her these disturbingly lifelike automatons.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "Wondrous Tails, possible 2-line prize",
+			"location": "Khloe Aliapoh, Idyllshire (6, 6)"
+		}]
+	},
+	{
 		"name": "Wind-up Sun",
 		"lore": "Designed to provide light for road repairmen toiling during the small hours of the night, wind-up suns have become all the talk amongst Ul'dahn mesdames ever since it was discovered the extra light worked wonders at hiding unsightly blemishes and wrinkles.",
 		"expansion": "ARR",
@@ -2793,16 +2823,6 @@
 		}]
 	},
 	{
-		"name": "Wind-up Khloe",
-		"lore": "Ever since she began receiving them on her doorstep-one a day, every day, without fail-Khloe Aliapoh can't help but think there is something seriously wrong with whoever is sending her these disturbingly lifelike automatons.",
-		"expansion": "ARR",
-		"sources": [{
-			"type": "other",
-			"info": "Unknown",
-			"location": "Unknown"
-		}]
-	},
-	{
 		"name": "Wind-up Chimera",
 		"lore": "It is hard to imagine anyone taking pleasure in creating to-scale replicas of the very abominations that contributed to the end of an entire civilization. Then again, it is so utterly adorable.",
 		"expansion": "ARR",
@@ -2810,16 +2830,6 @@
 			"type": "other",
 			"info": "Unknown",
 			"location": "Unknown"
-		}]
-	},
-	{
-		"name": "Bom Boko",
-		"lore": "Supposedly Far Eastern raccoon dogs are nothing like the raccoons of Eorzea, shunning a life of rifling through garbage for one of transmogrification into everyday kitchenware such as tea crocks. Go figure.",
-		"expansion": "ARR",
-		"sources": [{
-			"type": "venture",
-			"info": "Field Exploration XX",
-			"location": "N/A"
 		}]
 	}
 ]
