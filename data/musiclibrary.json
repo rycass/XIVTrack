@@ -501,6 +501,36 @@
 		}]
 	},
 	{
+		"name": "Navigator's Glory - The Theme of Limsa Lominsa",
+		"lore": "Locales: Legacy Limsa Lominsa",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "treasurehunt",
+			"info": "The Lost Canals of Uznair",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Born of the Boughs - The Theme of Gridania",
+		"lore": "Locales: Legacy Gridania",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "treasurehunt",
+			"info": "The Lost Canals of Uznair",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "The Twin Faces of Fate - The Theme of Ul'dah",
+		"lore": "Locales: Legacy Ul'dah",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "treasurehunt",
+			"info": "The Lost Canals of Uznair",
+			"location": "N/A"
+		}]
+	},
+	{
 		"name": "A Light In the Storm",
 		"lore": "Dungeons: Pharos Sirius",
 		"expansion": "ARR",
@@ -1730,6 +1760,36 @@
 		"sources": [{
 			"type": "holiday",
 			"info": "Valentione's Day 2017",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Hyper Rainbow Z",
+		"lore": "Seasonal: Posing Rangers theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "holiday",
+			"info": "Moonfire Faire 2017 (Unconfirmed)",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Stormblood",
+		"lore": "Seasonal: Stormblood main theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "holiday",
+			"info": "The Rising 2017 (Unconfirmed)",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Answers - Reprise",
+		"lore": "Seasonal: End of 1.0/The Rising theme",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "holiday",
+			"info": "The Rising 2017 (Unconfirmed)",
 			"location": "N/A"
 		}]
 	},
