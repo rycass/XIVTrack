@@ -2008,6 +2008,16 @@
 		}]
 	},
 	{
+		"name": "Wind-up Namazu",
+		"lore": "Not too many summers past, there wasn't a house in all Radz-at-Han that didn't echo with the pitter-patter of Hingan-made wind-up Namazu dolls, their misplaced eyes and bewhiskered lips the source of much mirth in the Near Eastern nation.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "treasurehunt",
+			"info": "The Lost Canals Of Uznair",
+			"location": "N/A"
+		}]
+	},
+	{
 		"name": "Ivon Coeurlfist Doll",
 		"lore": "A complete dismantling of the coeurl-fisted caricature shows that, unlike the automatons of Ul'dah, the puffered paunch of this poppet contains naught but cotton and straw, leading one to wonder...how in the seven hells does it walk!?",
 		"expansion": "ARR",
@@ -2825,6 +2835,26 @@
 	{
 		"name": "Wind-up Chimera",
 		"lore": "It is hard to imagine anyone taking pleasure in creating to-scale replicas of the very abominations that contributed to the end of an entire civilization. Then again, it is so utterly adorable.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "Unknown",
+			"location": "Unknown"
+		}]
+	},
+	{
+		"name": "Wind-up Gosetsu",
+		"lore": "Crafted to honor Gosetsu-hero and leader of the oppressed peoples of Far Eastern Doma-this miniature replica is faithful down to the blademaster's sword, Samonji.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "Unknown",
+			"location": "Unknown"
+		}]
+	},
+	{
+		"name": "Wind-up Lyse",
+		"lore": "Tataru's choice of raiment for this lifelike recreation of Ala Mhigo's newest heroine was, by no means, made with the sole intention of confusing the public into believing Lyse was a dancer by profession. Honest.",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "other",

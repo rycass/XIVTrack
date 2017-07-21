@@ -2710,7 +2710,7 @@
 		}]
 	},
 	{
-		"name": "Polis Lord",
+		"name": "Polis Lord/Polis Lady",
 		"expansion": "Heavensward",
 		"sources": [{
 			"type": "achievement",
@@ -3190,6 +3190,16 @@
 		}]
 	},
 	{
+		"name": "Deltascape Deleter",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "achievement",
+			"info": "Delta Force",
+			"details": "Complete the quest 'The Anomaly.'",
+			"location": "N/A"
+		}]
+	},
+	{
 		"name": "Ul Cup Champion",
 		"expansion": "Stormblood",
 		"sources": [{
@@ -3420,12 +3430,32 @@
 		}]
 	},
 	{
-		"name": "Deltascape Deleter",
+		"name": "Canal Raider",
 		"expansion": "Stormblood",
 		"sources": [{
 			"type": "achievement",
-			"info": "Delta Force",
-			"details": "Complete the quest 'The Anomaly.'",
+			"info": "Raider of the Lost Canals I",
+			"details": "Raid the Lost Canals of Uznair.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Canal Dweller",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "achievement",
+			"info": "Raider of the Lost Canals IV",
+			"details": "Raid the Lost Canals of Uznair 20 times.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Canal Lord/Canal Lady",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "achievement",
+			"info": "Deep End IV",
+			"details": "Raid the deepest sluice in the Lost Canals of Uznair 20 times.",
 			"location": "N/A"
 		}]
 	}

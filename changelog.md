@@ -1,3 +1,7 @@
+# July 21, 2017
+- Added 4.05 content.
+- Corrected "Polis Lord" title.
+
 # July 12, 2017
 - Added 4.01 content.
 - Added some missing sources for 4.0 content.

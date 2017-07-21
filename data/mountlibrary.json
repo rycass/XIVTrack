@@ -609,6 +609,17 @@
 		}]
 	},
 	{
+		"name": "Alte Roite",
+		"lore": "While none can be certain the exact intentions of a self-aware interdimensional construct, logic suggests this winged aberration is a reimagination of Alte Roite─a legendary wizard who is said could take the shape of a dragon at will.",
+		"attributes": "flying",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "raid",
+			"info": "Neo Exdeath",
+			"location": "Deltascape V4.0 (Savage)"
+		}]
+	},
+	{
 		"name": "Logistics System",
 		"lore": "One of the automated system drones deployed by the Allagans to maintain and protect their strongholds. After being unearthed by the Sons of Saint Coinach, the mechanical sphere was modified by Nero tol Scavea into a personal transportation device.",
 		"attributes": "flying",
@@ -1097,6 +1108,18 @@
 			"info": "Furious Fatalities",
 			"details": "Emerge victorious in a combination of 60 Frontline campaigns and Feast matches while using a title received from the disreputable priest.",
 			"location": "Jonathas, Old Gridania (10, 6)"
+		}]
+	},
+	{
+		"name": "Falcon",
+		"lore": "An independent project of Garlond Ironworks engineer Wedge, this single-rider airship allegedly recorded some of the fastest flight speeds ever...until a tragic accident following an attempt to see how high the ship could soar convinced its creator that perhaps a modicum of restraint was necessary.",
+		"attributes": "flying",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "promotion",
+			"info": "'Fly the Falcon' campaign",
+			"location": "N/A",
+			"details": "Subscribe for 90 days between July 1, 2017 and September 30, 2017"
 		}]
 	}
 ]
