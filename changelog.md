@@ -1,3 +1,6 @@
+# July 25, 2017
+- Corrected "Fox Kit" minion name.
+
 # July 21, 2017
 - Added 4.05 content.
 - Corrected "Polis Lord" title.
