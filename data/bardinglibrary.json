@@ -293,8 +293,8 @@
 		"name": "Noble Barding",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "unobtainable",
-			"info": "Hairstyle Contest, 2015",
+			"type": "other",
+			"info": "Rewarded through various contests",
 			"location": "N/A"
 		}]
 	},

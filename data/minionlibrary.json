@@ -2422,6 +2422,16 @@
 		}]
 	},
 	{
+		"name": "Wind-up Lyse",
+		"lore": "Tataru's choice of raiment for this lifelike recreation of Ala Mhigo's newest heroine was, by no means, made with the sole intention of confusing the public into believing Lyse was a dancer by profession. Honest.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "holiday",
+			"info": "The Rising 2017",
+			"location": "N/A"
+		}]
+	},
+	{
 		"name": "Wind-up Papalymo",
 		"lore": "After a clerical error resulted in a sizable windfall for the organization, Scions of the Seventh Dawn coinkeeper Tataru took it upon herself to use the funds to commission wind-up automatons crafted in the likeness of her own favorite members - Papalymo being the first.",
 		"expansion": "ARR",
@@ -2653,6 +2663,16 @@
 		}]
 	},
 	{
+		"name": "Wind-up Gosetsu",
+		"lore": "Crafted to honor Gosetsu-hero and leader of the oppressed peoples of Far Eastern Doma-this miniature replica is faithful down to the blademaster's sword, Samonji.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "holiday",
+			"info": "The Rising 2017",
+			"location": "N/A"
+		}]
+	},
+	{
 		"name": "Mock-up Grynewaht",
 		"lore": "This anatomically accurate simulacrum of the imperial soldier Grynewaht appears to have been built by magitek engineers to determine the most efficient means by which to incorporate magitek implants into the Roegadyn's body.",
 		"expansion": "ARR",
@@ -2835,26 +2855,6 @@
 	{
 		"name": "Wind-up Chimera",
 		"lore": "It is hard to imagine anyone taking pleasure in creating to-scale replicas of the very abominations that contributed to the end of an entire civilization. Then again, it is so utterly adorable.",
-		"expansion": "ARR",
-		"sources": [{
-			"type": "other",
-			"info": "Unknown",
-			"location": "Unknown"
-		}]
-	},
-	{
-		"name": "Wind-up Gosetsu",
-		"lore": "Crafted to honor Gosetsu-hero and leader of the oppressed peoples of Far Eastern Doma-this miniature replica is faithful down to the blademaster's sword, Samonji.",
-		"expansion": "ARR",
-		"sources": [{
-			"type": "other",
-			"info": "Unknown",
-			"location": "Unknown"
-		}]
-	},
-	{
-		"name": "Wind-up Lyse",
-		"lore": "Tataru's choice of raiment for this lifelike recreation of Ala Mhigo's newest heroine was, by no means, made with the sole intention of confusing the public into believing Lyse was a dancer by profession. Honest.",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "other",
