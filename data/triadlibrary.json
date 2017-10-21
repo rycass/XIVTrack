@@ -238,6 +238,18 @@
 		"card": "6 1 2 4",
 		"sources": [{
 			"type": "vendor",
+			"info": "600 MGP",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}]
+	},
+	{
+		"name": "Mossling",
+		"lore": "Appearing as little more than mossy spheres with legs, these seedkin are fond of wetlands and humid climes. Mosslings are highly active when moisture is abundant, but exhibit a tendency to huddle together in damp clumps when dry weather threatens, presumably in an effort to prevent unwanted evaporation.",
+		"expansion": "ARR",
+		"rarity": "1",
+		"card": "1 5 5 2",
+		"sources": [{
+			"type": "vendor",
 			"info": "840 MGP",
 			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}]
@@ -646,6 +658,18 @@
 		}]
 	},
 	{
+		"name": "Chapuli",
+		"lore": "A common sight in the wilds of Gyr Abania, chapuli use the blade-like horn on their heads to strip plants bare before settling down to feast on the fallen foliage. Though primarily herbivores, they display surprising savagery when agitated, and have been known to attack both men and beasts. Powerful hind legs enable the chapuli to leap impressive distances, much to the dismay of their fleeing victims.",
+		"expansion": "ARR",
+		"rarity": "2",
+		"card": "6 7 2 2",
+		"sources": [{
+			"type": "vendor",
+			"info": "1,200 MGP",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
+		}]
+	},
+	{
 		"name": "Fat Chocobo",
 		"lore": "A chocobo whose insatiable appetite and utter lack of willpower have resulted in a body more fit for a behemoth than a bird. Goblin legend has it this oversized avian is worshipped as a god in the world below, but no compelling evidence has been found to support this myth.",
 		"expansion": "Heavensward",
@@ -784,6 +808,20 @@
 		"expansion": "Stormblood",
 		"rarity": "2",
 		"card": "2 3 5 7",
+		"sources": [{
+			"type": "npc",
+			"info": "Garima",
+			"location": "The Fringes (28, 20)",
+			"details": "Quest 'Delicate as a Flower' must be completed to challenge"
+		}]
+	},
+	{
+		"name": "Qiqirn Meateater",
+		"lore": "The Qiqirn tribes of Gyr Abania are an unusually bloodthirsty breed who consume the flesh of animal and man alike. Classified as wild beasts by the Garlean Empire and thus unworthy of contact, these carnivorous savages have been largely ignored even as they continue to terrorize local settlements.",
+		"attributes": "beastman",
+		"expansion": "Stormblood",
+		"rarity": "2",
+		"card": "5 1 7 5",
 		"sources": [{
 			"type": "npc",
 			"info": "Garima",
@@ -1350,7 +1388,7 @@
 	{
 		"name": "Lava Scorpion",
 		"lore": "A creature of living lava, this hulking nightmare lurked in the pools of magma hidden within the heart of Sohm Al. When the dragons were no longer present to keep the scorpion in check, the ancient menace resurfaced and began agitating the mountain's volcanic core with its wild thrashing.",
-		"expansion": "ARR",
+		"expansion": "Heavensward",
 		"rarity": "3",
 		"card": "5 3 5 8",
 		"sources": [{
@@ -1384,6 +1422,18 @@
 		}]
 	},
 	{
+		"name": "Hrodric Poisontongue",
+		"lore": "Cousin to Theodoric, the last king of Ala Mhigo, the noble-born Hrodric was fifth in line to the throne. Compelled by an unwavering sense of justice, he made frequent attempts to counsel and calm the volatile monarch, but such efforts were construed an act of treason. Sentenced for his crime, Hrodric suffered a terrible punishment: cursed to forever inhabit the form of a monstrous beast.",
+		"expansion": "Stormblood",
+		"rarity": "3",
+		"card": "7 2 6 7",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Hrodric Poisontongue",
+			"location": "The Drowned City of Skalla"
+		}]
+	},
+	{
 		"name": "Phlegethon",
 		"lore": "Phlegethon was a hero of the rebellion that sought to oppose the rule of Allag in the twilight of the Third Astral Era. After his capture by the technologist Amon, the valiant general was subjected to hideous experiments, his body altered and mind broken, fated to become an eternal guardian of the Crystal Tower.",
 		"expansion": "ARR",
@@ -1411,6 +1461,18 @@
 			"type": "raid",
 			"info": "Echidna (Chest)",
 			"location": "The Void Ark"
+		}]
+	},
+	{
+		"name": "Rofocale",
+		"lore": "Chariot, speech, and attire all suggest this twisted denizen of Rabanastre was once a high-ranking general in the city's standing army, transformed by the power of the Duma.",
+		"expansion": "Stormblood",
+		"rarity": "3",
+		"card": "8 4 1 7",
+		"sources": [{
+			"type": "raid",
+			"info": "Rofocale",
+			"location": "The Royal City of Rabanastre"
 		}]
 	},
 	{
@@ -2061,6 +2123,19 @@
 		}]
 	},
 	{
+		"name": "Fordola rem Lupis",
+		"lore": "'You're no kin of mine!'",
+		"expansion": "Stormblood",
+		"rarity": "3",
+		"card": "3 5 6 8",
+		"sources": [{
+			"type": "npc",
+			"info": "Imperial Deserter",
+			"location": "The Lochs (33, 30)",
+			"details": "Quest 'Stormblood' must be completed to challenge"
+		}]
+	},
+	{
 		"name": "Brute Justice",
 		"lore": "Charged with the protection of Alexander, Brute Justice is a remarkable amalgamation of five separate guardians. With Onslaughter as its core, Vortexer, Swindler, Blaster, and Brawler complete the union. Brute Justice's lack of autonomy is balanced by its incorruptible loyalty to Quickthinx Allthoughts.",
 		"expansion": "Heavensward",
@@ -2118,6 +2193,18 @@
 			"type": "raid",
 			"info": "Diabolos Hollow",
 			"location": "Dun Scaith"
+		}]
+	},
+	{
+		"name": "Argath Thadalfus",
+		"lore": "A minor noble long deceased, Argath is resurrected and granted unimaginable power by the Duma-a rare crystal thought to be naught more than legend. Drunk on this newfound strength, Argath takes on the form of a two-faced god, terrorizing all those who would seek an audience deep within the sealed ruins of the Royal City of Lesalia.",
+		"expansion": "Stormblood",
+		"rarity": "4",
+		"card": "8 9 5 2",
+		"sources": [{
+			"type": "raid",
+			"info": "Argath Thadalfus",
+			"location": "The Royal City of Rabanastre"
 		}]
 	},
 	{
@@ -2817,6 +2904,18 @@
 			"info": "Kiuka",
 			"location": "Doman Enclave (5, 4)",
 			"details": "Quest 'The World Turned Upside Down' must be completed to challenge"
+		}]
+	},
+	{
+		"name": "Raubahn & Pipin",
+		"lore": "'Ho! You've improved, lad!' 'Come now, Father. You lured the fool onto my blade, and do not try to deny it!'",
+		"expansion": "ARR",
+		"rarity": "5",
+		"card": "6 1 A A",
+		"sources": [{
+			"type": "vendor",
+			"info": "400,000 MGP (Gold Triad Card)",
+			"location": "Triple Triad Trader, Gold Saucer (4, 7)"
 		}]
 	},
 	{

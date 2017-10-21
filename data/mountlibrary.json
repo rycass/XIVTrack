@@ -386,6 +386,27 @@
 		}]
 	},
 	{
+		"name": "Managarm",
+		"lore": "Some say that Managarm is merely a myth. Others believe it to be an extinct beast. Both are wrong, as you well know. According to Abalathian legend, this fearsome hound roams the celestial sphere in pursuit of the moon, whose light it relishes─or so it may appear to those who witness it soaring the skies, spawning spectral flames.",
+		"attributes": "flying",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "promotion",
+			"info": "8 Gold Chocobo Feathers (Recruit-a-Friend)",
+			"location": "Calamity Salvager, Limsa Lominsa Upper Decks (11, 14)"
+		},
+		{
+			"type": "promotion",
+			"info": "8 Gold Chocobo Feathers (Recruit-a-Friend)",
+			"location": "Calamity Salvager, Old Gridania (10, 8)"
+		},
+		{
+			"type": "promotion",
+			"info": "8 Gold Chocobo Feathers (Recruit-a-Friend)",
+			"location": "Calamity Salvager, Ul'dah - Steps of Thal (12, 13)"
+		}]
+	},
+	{
 		"name": "Griffin",
 		"lore": "Fantastical winged beasts native to the unscalable peaks of Abalathia's Spine, griffins actually have a long history of serving as mounts. Indeed, before the city-state's fall, the Ala Mhigan army maintained a regiment of griffin-back soldiers who would harry opposing forces.",
 		"attributes": "flying",
@@ -586,6 +607,17 @@
 		}]
 	},
 	{
+		"name": "Korpokkur Kolossus",
+		"lore": "In search of an ideal home, this korpokkur journeyed long malms before finally coming to a stop at the Gold Saucer. The trek across the scorching Sagolii had reduced it to a withered husk, but when next it drank, it experienced what could only be described as an epic rebound.",
+		"attributes": "flying",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "750,000 MGP",
+			"location": "Gold Saucer Attendant, Gold Saucer (5, 6)"
+		}]
+	},
+	{
 		"name": "Centurio Tiger",
 		"lore": "In a rare display of misguided compassion, a member of Clan Centurio returned from a Hunt with the whimpering cub of a slain S-rank mark. Unable to grant it the mercy it so deserved, the veteran took to caring for the beast until his deceit was discovered and his membership revoked. However, by then, not a single other member could bring themselves to harm the pet they had all come to love.",
 		"attributes": "flying",
@@ -691,6 +723,18 @@
 			"info": "You Are What You Eat IV",
 			"details": "Triumph in 200 matches at the Feast.",
 			"location": "Jonathas, Old Gridania (10, 6)"
+		}]
+	},
+	{
+		"name": "Falcon",
+		"lore": "An independent project of Garlond Ironworks engineer Wedge, this single-rider airship allegedly recorded some of the fastest flight speeds ever...until a tragic accident following an attempt to see how high the ship could soar convinced its creator that perhaps a modicum of restraint was necessary.",
+		"attributes": "flying",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "promotion",
+			"info": "'Fly the Falcon' campaign",
+			"location": "N/A",
+			"details": "Subscribe for 90 days between July 1, 2017 and September 30, 2017"
 		}]
 	},
 	{
@@ -1023,6 +1067,17 @@
 		}]
 	},
 	{
+		"name": "Legendary Kamuy",
+		"lore": "Perpetually enveloped in a divine glow, it is said to have been born when an Ala Mhigan war hound chanced to bathe in Shinryu's light in the moment of the primal's birth.",
+		"attributes": "flying",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "trial",
+			"info": "Shinryu",
+			"location": "The Minstrel's Ballad: Shinryu's Domain"
+		}]
+	},
+	{
 		"name": "Midgardsormr",
 		"lore": "Only after proving your bravery in the face of countless perils has the father of dragons found you to be a worthy heir to the light, and granted you a place upon his back.",
 		"attributes": "flying",
@@ -1111,15 +1166,48 @@
 		}]
 	},
 	{
-		"name": "Falcon",
-		"lore": "An independent project of Garlond Ironworks engineer Wedge, this single-rider airship allegedly recorded some of the fastest flight speeds ever...until a tragic accident following an attempt to see how high the ship could soar convinced its creator that perhaps a modicum of restraint was necessary.",
+		"name": "Flying Chair",
+		"lore": "Featuring elegant lines and designed to minimize waste, this lovingly crafted chair is bound to fly into the hearts of adventurers the world over. No assembly required.",
 		"attributes": "flying",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "promotion",
-			"info": "'Fly the Falcon' campaign",
-			"location": "N/A",
-			"details": "Subscribe for 90 days between July 1, 2017 and September 30, 2017"
+			"type": "crafted",
+			"info": "Alchemist 70** (Requires Master Alchemist V, Specialist)",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Striped Ray",
+		"lore": "Raised and trained by the Kojin, this striped ray has the same mellow temperament as its original masters. Its flat body works in like fashion to the aether-imbued wings of an airship, allowing it to catch water- and wind-aspected aether to glide through both sea and sky with ease.",
+		"attributes": "flying",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "12 Kojin Sango",
+			"details": "Only offered with '?' reputation with Divine Circle.",
+			"location": "Shikitahe, The Ruby Sea (29, 17)"
+		}]
+	},
+	{
+		"name": "Magitek Avenger",
+		"lore": "The goblins have carried out extensive work on this magitek avenger, among other things changing it from an autonomous killing machine to one requiring a pilot. After all, there's no substituting the satisfaction of dealing vengeance with one's own hands. Sort of.",
+		"attributes": "flying",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "Unknown",
+			"location": "?"
+		}]
+	},
+	{
+		"name": "Starlight Bear",
+		"lore": "Unlike his wild cousins, the bear can be relied upon to delight folk rather than tear them apart. Raised from a cub by Celebrant Baenfaeld, he has mastered the art of Starburst-lobbing, a skill that proved useful in hunting down thieving treants.",
+		"attributes": "flying",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "holiday",
+			"info": "Starlight Festival 2017",
+			"location": "N/A"
 		}]
 	}
 ]

@@ -1950,5 +1950,178 @@
 			"info": "/lookout",
 			"location": "The Azim Steppe (22, 21)"
 		}]
+	},
+	{
+		"name": "The Destroyer",
+		"lore": "Over the course of centuries, disciples of the Fist of Rhalgr worked away at the rocky cliff, carving it back to create this colossal image of the Destroyer. By virtue of its size, it is said to have stood defiant through the mad king's savage attack on the temple, and stands defiant to this day.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Rhalgr's Reach (11, 13)"
+		}]
+	},
+	{
+		"name": "Bloodstorm",
+		"lore": "Set at the feet of the Destroyer, this monument enstrines in stone the words of a high priest of the Fist of Rhalgr: 'A storm of blood approaches fast, Hells open, Heavens weep. For no one soul doth lie beyond The measure of His Reach.'",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Azim Steppe (22, 21)"
+		}]
+	},
+	{
+		"name": "The Yawn",
+		"lore": "Writhing with a mysterious pink substance, this cavernous hollow was torn from the earth during the titanic struggle between Omega and Shinryu. In a bid to bring down its steely foe, the primal unleashged a beam of all-consuming light from its maw, the slightest veering of which could have been disastrous for the nearby M tribe village.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Azim Steppe (22, 21)",
+			"details": "Nighttime"
+		}]
+	},
+	{
+		"name": "Ala Ghiri",
+		"lore": "Situated along the highroad connecting Ala Mhigo to the rest of Aldenard, Ala Ghiri once served as a trade hub and a vital waypoint for overland trade with the east. Under imperial rule, that trade came to focus upon catering to the needs of the occupation force.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Peaks (14, 36)"
+		}]
+	},
+	{
+		"name": "Specula Imperatoris #2",
+		"lore": "Its name meaning 'the emperor's watchtower,' this forbidding military installation is situated at the heart of the mountainous Peaks region. For long years it has cast its menacing shadow over the land and people's hearts both, dominating the skyline as an ever-present reminder of imperial rule.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Peaks (20, 22)"
+		}]
+	},
+	{
+		"name": "The Sunken Destroyer",
+		"lore": "This image of the Destroyer was erected on Loch Seld to mark the fist of Rhalgr's designation as the state religion of Ala Mhigo. Then, the faith's star waxed bright, but such days were not to endure. Deeming the monks a threat to his rule, the mad king set about their destruction, and ordered his personal guard to tear down the image, sending it sinking to the depths.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Azim Steppe (22, 21)"
+		}]
+	},
+	{
+		"name": "The Ala Mhigan Quarter #2",
+		"lore": "A residential area situated to the south of Ala Mhigo. Under Garlean rule, it was assigned for the use of the Aan, those lowliest subjects of the Empire not accorded citizenship. During that time, it was also known as the Peregrine Quarter - a reference to the derogatory name by which the imperial occupiers called Ala Mhigan natives.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Azim Steppe (22, 21)"
+		}]
+	},
+	{
+		"name": "The Statue of Zuiko",
+		"lore": "Depicted in majestic detail astride his rearing steed is the great warlord Zuiko, revered founder of Suenokuni. While his realm occupies the southern region of Shisu encompassing Kugane, it must be noted that the port city's administration alone falls under bakufu jurisdiction.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Kugane (11, 9)",
+			"details": "Good luck!!!"
+		}]
+	},
+	{
+		"name": "Rakuza District",
+		"lore": "By special permission from the bakufu, this commerical district enjoys considerably relaxed trade restrictions. Wares find their way here from the world over, as do visitors of all persuasions, who have no shortage of amusements and hostelries to keep them entertained and rested in turn.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Kugane (9, 8)"
+		}]
+	},
+	{
+		"name": "Tenkonto",
+		"lore": "In the Far Eastern tongue, Tenkonto means aetherlyte. Since the ancient times in Hingashi, the construction and maintenance of these devices have been the exclusive domain of the Onishishu, a collective of skilled craftsmen who jealously guard their secrets. As a portal into Kugane, the area is kept under strict surveillance by the Sekiseigumi.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Kugane (12, 10)"
+		}]
+	},
+	{
+		"name": "Kugane Ofunakura",
+		"lore": "Founded under the auspices of Kugane's lord bugyo, this facility specializes in the construction of smaller crafts and the repair of visiting vessels. Accordingly, the shipwrights employed here are versed not only in local shipbuilding traditions, but in foreign techniques as well.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Kugane (10, 12)"
+		}]
+	},
+	{
+		"name": "Shisui of the Violet Tides",
+		"lore": "Hidden away at the bottom of the Turquoise Trench, this magnificent palace is home to the Ruby Princess, leader of those Raen who dwell beneat the waves. While its beauty can be appreciated from afar, special permission is required to enter the grounds - a priviledge seldom granted.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Ruby Sea (Underwater) (5, 36)"
+		}]
+	},
+	{
+		"name": "East Othard Coastline",
+		"lore": "Blessed by the bounty of the Ruby Sea, the eastern coastline of Othard has long boasted a flourishing fishing trade, and villages like Isari are a common sight. The region also abounds in natural beauty, as numerous poems throughout the ages will attest.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Ruby Sea (9, 19)",
+			"details": "Daytime"
+		}]
+	},
+	{
+		"name": "Crick",
+		"lore": "For the longest time, folk gave these shores a wide berth for fear of the kami, who they believed erected the enigmatic tower known as Heaven-on-High. The pirates of the Confederacy harbored no such fears, however, and one day they claimed the land for their own and established an outpost.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Ruby Sea (21, 12)"
+		}]
+	},
+	{
+		"name": "Imperial Hypersonic Assault Craft L-XXIII",
+		"lore": "The letters emblazoned upon its rusted fuselage mark it as the 23rd craft of the XIIth Imperial Legion. Dispatched to Doma in a bid to suppress the rebellion, witnesses say it was brought down by the vulpine guardian of Yanxia, to sink to its watery grave at the bottom of the One River.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Yanxia (Underwater) (35, 38)"
+		}]
+	},
+	{
+		"name": "Mol Iloh",
+		"lore": "The current home of the Mol, one of the many Xaela tribes that roam the Azim Steppe. Being nomads, their stay here is but temporary, and the turn of the seasons will see them strike camp in search of greener pastures for their livestock. Though quite sturdy when erected, the yurts are designed for ease of relocation.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "Yanxia (Underwater) (35, 38)"
+		}]
+	},
+	{
+		"name": "Moai Statue",
+		"lore": "Similar statues are said to be found scattered across the world, but it is not known who made them, nor to what end. The absence of horns and the position of the ears have led some to believe that they were fashioned by Hyurs in their own likeness, but there is as yet no conclusive evidence.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "sightseeing",
+			"info": "/lookout",
+			"location": "The Azim Steppe (Underwater) (21, 20)"
+		}]
 	}
 ]

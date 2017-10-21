@@ -79,7 +79,7 @@
 			"type": "crafted",
 			"info": "Alchemist 50",
 			"location": "N/A",
-			"details": "Faded roll available: 1000 Allagan Tomestones of Poetics, Auriana, Mor Dhona (22, 6)"
+			"details": "Faded roll available: 500 Allagan Tomestones of Poetics, Auriana, Mor Dhona (22, 6)"
 		}]
 	},
 	{
@@ -344,7 +344,7 @@
 			"type": "crafted",
 			"info": "Alchemist 50",
 			"location": "N/A",
-			"details": "Faded roll available: 1000 Allagan Tomestones of Poetics, Auriana, Mor Dhona (22, 6)"
+			"details": "Faded roll available: 500 Allagan Tomestones of Poetics, Auriana, Mor Dhona (22, 6)"
 		}]
 	},
 	{
@@ -403,7 +403,7 @@
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
-			"info": "100 Allagan Tomestones of Poetics",
+			"info": "500 Allagan Tomestones of Poetics",
 			"location": "Auriana, Mor Dhona (22, 6)"
 		}]
 	},
@@ -528,6 +528,86 @@
 			"type": "treasurehunt",
 			"info": "The Lost Canals of Uznair",
 			"location": "N/A"
+		}]
+	},
+	{
+		"name": "The Measure of Our Reach",
+		"lore": "Locales: Ala Mhigan anthem",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "quest",
+			"info": "The Butcher's Blood",
+			"location": "Arenvald, The Lochs (32, 32)"
+		}]
+	},
+	{
+		"name": "The Measure of His Reach",
+		"lore": "Locales: Ala Mhigan anthem, Garlean version",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "quest",
+			"info": "A Blissful Arrival",
+			"location": "Alphinaud, The Lochs (15, 25)"
+		}]
+	},
+	{
+		"name": "Impact",
+		"lore": "Locales: Ralgr's Reach, daytime",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "1600 Allagan Tomestones of Verity",
+			"location": "Enna, Rhalgr's Reach (13, 11)"
+		}]
+	},
+	{
+		"name": "Crimson Sunrise",
+		"lore": "Locales: FIXME",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "treasurehunt",
+			"info": "The Hidden Canals of Uznair",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "On High",
+		"lore": "Locales: The Azim Steppe, daytime",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "vendor",
+			"info": "400 Red Crafters' Scrip",
+			"location": "Scrip Exchange, Rhalgr's Reach (10, 12)"
+		}]
+	},
+	{
+		"name": "Songs of Salt and Suffering",
+		"lore": "Locales: The Lochs, daytime",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "vendor",
+			"info": "400 Red Gatherers' Scrip",
+			"location": "Scrip Exchange, Rhalgr's Reach (10, 12)"
+		}]
+	},
+	{
+		"name": "A Father's Pride",
+		"lore": "Locales: FIXME",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "treasurehunt",
+			"info": "The Hidden Canals of Uznair",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Indomitable",
+		"lore": "Locales: Kojin Tribe theme",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "vendor",
+			"info": "3 Kojin Sango",
+			"location": "Shikitahe, The Ruby Sea (29, 17)"
 		}]
 	},
 	{
@@ -786,6 +866,46 @@
 		}]
 	},
 	{
+		"name": "The Open Box",
+		"lore": "Dungeons: Shisui of the Violet Tides",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Shisui Yohi",
+			"location": "Shisui of the Violet Tides"
+		}]
+	},
+	{
+		"name": "Most Unworthy",
+		"lore": "Dungeons: Bardam's Mettle",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Yol",
+			"location": "Bardam's Mettle"
+		}]
+	},
+	{
+		"name": "Deception",
+		"lore": "Dungeons: Kugane Castle",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Yojimbo",
+			"location": "Kugane Castle"
+		}]
+	},
+	{
+		"name": "Far From Home",
+		"lore": "Dungeons: The Drowned City of Skalla",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Hrodric Poisontongue",
+			"location": "The Drowned City of Skalla"
+		}]
+	},
+	{
 		"name": "Torn from the Heavens",
 		"lore": "Trials: Hydra/Chimera boss fight",
 		"expansion": "ARR",
@@ -989,7 +1109,7 @@
 			"type": "crafted",
 			"info": "Alchemist 50**** (Requires Master Alchemist II)",
 			"location": "N/A",
-			"details": "Faded roll available: ?"
+			"details": "Faded roll available: Odin, OUrth's Fount"
 		}]
 	},
 	{
@@ -1067,6 +1187,28 @@
 			"info": "Alchemist 70* (Requires Master Alchemist IV)",
 			"location": "N/A",
 			"details": "Faded roll available: Lakshmi, Emanation (Extreme)"
+		}]
+	},
+	{
+		"name": "The Worm's Head",
+		"lore": "Trials: The Royal Menagerie (Phase 1)",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 70* (Requires Master Alchemist IV, Specialist)",
+			"location": "N/A",
+			"details": "Faded roll available: Shinryu, The Minstrel's Ballad: Shinryu's Domain"
+		}]
+	},
+	{
+		"name": "The Worm's Tail",
+		"lore": "Trials: The Royal Menagerie (Phase 2)",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Alchemist 70* (Requires Master Alchemist IV, Specialist)",
+			"location": "N/A",
+			"details": "Faded roll available: Shinryu, The Minstrel's Ballad: Shinryu's Domain"
 		}]
 	},
 	{
@@ -1192,7 +1334,7 @@
 	},
 	{
 		"name": "Sins of the Father, Sins of the Son",
-		"lore": "Raids: Alexander (Pre-boss)",
+		"lore": "Raids: Alexander",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "quest",
@@ -1272,7 +1414,7 @@
 	},
 	{
 		"name": "Spiral",
-		"lore": "Raids: Binding Coils (Pre-boss, In combat)",
+		"lore": "Raids: Binding Coils (In combat)",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
@@ -1341,6 +1483,56 @@
 		}]
 	},
 	{
+		"name": "Trisection",
+		"lore": "Raids: The Royal City of Rabanastre",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "raid",
+			"info": "Argath Thadalfus",
+			"location": "The Royal City of Rabanastre"
+		}]
+	},
+	{
+		"name": "Precipitous Combat",
+		"lore": "Raids: The Royal City of Rabanastre, Bosses",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "raid",
+			"info": "Argath Thadalfus",
+			"location": "The Royal City of Rabanastre"
+		}]
+	},
+	{
+		"name": "Ultima's Transformation",
+		"lore": "Raids: The Royal City of Rabanastre, Argath Thadalfus",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "raid",
+			"info": "Argath Thadalfus",
+			"location": "The Royal City of Rabanastre"
+		}]
+	},
+	{
+		"name": "Protagonist's Theme",
+		"lore": "Raids: Return to Ivalice, cutscene",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "quest",
+			"info": "A City Fallen",
+			"location": "Ramza Bas Lexentale, The Prima Vista Bridge"
+		}]
+	},
+	{
+		"name": "Background Story",
+		"lore": "Raids: Return to Ivalice, cutscene",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "quest",
+			"info": "A City Fallen",
+			"location": "Ramza Bas Lexentale, The Prima Vista Bridge"
+		}]
+	},
+	{
 		"name": "Prelude - Discoveries",
 		"lore": "Others: ARR login screen",
 		"expansion": "ARR",
@@ -1367,7 +1559,7 @@
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
-			"info": "750 Allagan Tomestones of Esoterics",
+			"info": "375 Allagan Tomestones of Poetics",
 			"location": "Hismena, Idyllshire (6, 5)"
 		}]
 	},
@@ -1451,7 +1643,7 @@
 		"expansion": "ARR",
 		"sources": [{
 			"type": "vendor",
-			"info": "750 Allagan Tomestones of Esoterics",
+			"info": "375 Allagan Tomestones of Poetics",
 			"location": "Hismena, Idyllshire (6, 5)"
 		}]
 	},
@@ -1679,6 +1871,66 @@
 		}]
 	},
 	{
+		"name": "Ambient Insects",
+		"lore": "Others: Ambient track",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "5000 Gil",
+			"location": "Housing Merchant, The Goblet (11, 9)"
+		},
+		{
+			"type": "vendor",
+			"info": "5000 Gil",
+			"location": "Housing Merchant, The Lavender Beds (11, 8)"
+		},
+		{
+			"type": "vendor",
+			"info": "5000 Gil",
+			"location": "Housing Merchant, Mist (10, 11)"
+		}]
+	},
+	{
+		"name": "Ambient Bonfire",
+		"lore": "Others: Ambient track",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "5000 Gil",
+			"location": "Housing Merchant, The Goblet (11, 9)"
+		},
+		{
+			"type": "vendor",
+			"info": "5000 Gil",
+			"location": "Housing Merchant, The Lavender Beds (11, 8)"
+		},
+		{
+			"type": "vendor",
+			"info": "5000 Gil",
+			"location": "Housing Merchant, Mist (10, 11)"
+		}]
+	},
+	{
+		"name": "Ambient Kitchen",
+		"lore": "Others: Ambient track",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "vendor",
+			"info": "5000 Gil",
+			"location": "Housing Merchant, The Goblet (11, 9)"
+		},
+		{
+			"type": "vendor",
+			"info": "5000 Gil",
+			"location": "Housing Merchant, The Lavender Beds (11, 8)"
+		},
+		{
+			"type": "vendor",
+			"info": "5000 Gil",
+			"location": "Housing Merchant, Mist (10, 11)"
+		}]
+	},
+	{
 		"name": "Pa-Paya",
 		"lore": "Seasonal: Hatching-tide theme",
 		"expansion": "ARR",
@@ -1810,6 +2062,26 @@
 		"sources": [{
 			"type": "merchandise",
 			"info": "Duality Arrangement Album",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Heroes (Orchestra)",
+		"lore": "Mog Station: The Singularity Reactor remix",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "merchandise",
+			"info": "Eorzean Symphony Album",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Ultima (Duality)",
+		"lore": "Mog Station: Ultima Weapon (Phase 2) remix",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "merchandise",
+			"info": "Eorzean Symphony Album",
 			"location": "N/A"
 		}]
 	}

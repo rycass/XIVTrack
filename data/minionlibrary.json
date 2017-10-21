@@ -1274,6 +1274,36 @@
 		}]
 	},
 	{
+		"name": "Mameshiba",
+		"lore": "An unscrupulous merchant passed this pup off as a rare species of miniature dog known as the mameshiba. Such a thing does not exist. Rather than have the hapless owners discover the deception when it grows, it was trained to run away.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "venture",
+			"info": "Quick Exploration (Miner)",
+			"location": "N/A"
+		},
+		{
+			"type": "venture",
+			"info": "Highland Exploration XXII",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Koala Joey",
+		"lore": "While logging in the forest, a retainer reports that a vicious bear dropped on his head from above, giving him a good mauling before scampering off. Adventurers are cautioned against - Awww, look at the adorable little critter!",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "venture",
+			"info": "Quick Exploration (Botany)",
+			"location": "N/A"
+		},
+		{
+			"type": "venture",
+			"info": "Woodland Exploration XXII",
+			"location": "N/A"
+		}]
+	},
+	{
 		"name": "Ghido",
 		"lore": "Some say this denizen of the Sirensong Sea has seen upwards of seven hundred summers, and in that time his hate for blue-blazoned armor has only grown. As for why, no one knows.",
 		"expansion": "ARR",
@@ -1281,6 +1311,31 @@
 			"type": "dungeon",
 			"info": "Lorelei",
 			"location": "The Sirensong Sea"
+		}]
+	},
+	{
+		"name": "Salt & Pepper Seal",
+		"lore": "None can say how this seal pup came to be at Loch Seld, but the person who first saw it took to calling it 'salt' for the briny water, then someone else came along and added 'pepper,' because why not. The rest, as they say, is history.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "dungeon",
+			"info": "Hrodric Poisontongue",
+			"location": "The Drowned City of Skalla"
+		}]
+	},
+	{
+		"name": "Axolotl Eft",
+		"lore": "The retainer who reeled in this specimen claims it is the fabled hundred-eyed axolotl, but at a glance it is short at least ninety-eight. Nor would the man say where he found the creature. For now, it shall be called an 'axolotl eft' until such time as naturalists decide what it actually is.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "venture",
+			"info": "Quick Exploration (Fisher)",
+			"location": "N/A"
+		},
+		{
+			"type": "venture",
+			"info": "Waterside Exploration XXII",
+			"location": "N/A"
 		}]
 	},
 	{
@@ -1663,6 +1718,27 @@
 		}]
 	},
 	{
+		"name": "Wind-up Kojin",
+		"lore": "A mammet made in the likeness of the vessel for the kami Tsukumo, but given a green rather than blue coat of paint in order to differentiate it from the actual divinity. The Blue Kojin are hopeful of making a tidy profit by selling scores of these in Kugane.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "vendor",
+			"info": "5 Kojin Sango",
+			"details": "Only offered with 'Respected' reputation with Divine Circle.",
+			"location": "Shikitahe, The Ruby Sea (29, 17)"
+		}]
+	},
+	{
+		"name": "Wind-up Matanga",
+		"lore": "A mammet made to resemble a Matanga found in the Hidden Canals of Uznair. Originally clothed, it was divested of its modesty by thieves targeting the jewels that adorned its lavish garments, hence its embarrassment. If only someone would cover up its shame. Shame. Shame.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "treasurehunt",
+			"info": "The Hidden Canals Of Uznair",
+			"location": "N/A"
+		}]
+	},
+	{
 		"name": "Wind-up Edvya",
 		"lore": "Forty years after the founding of the Thorne Dynasty, sultan Baldric Thorne was blessed by the gods with a single daughter, Edvya, whom he loved fiercely. The history surrounding the two, now known as the 'Legend of the Lost Lady' gave rise to the festival of Little Ladies' Day.",
 		"expansion": "ARR",
@@ -1780,6 +1856,16 @@
 			"type": "promotion",
 			"info": "270 days (9 months) subscribed",
 			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Dress-up Raubahn",
+		"lore": "Ostensibly produced to commemorate Ala Mhigo's liberation, this avatar of the Flame General was originally meant to serve as an apology for the campaign's troubled start. To that end, it was said to have been programmed to beg forgiveness a dozen different ways.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "quest",
+			"info": "Return of the Bull",
+			"location": "Raubahn, The Lochs (28, 22)"
 		}]
 	},
 	{
@@ -1998,6 +2084,16 @@
 		}]
 	},
 	{
+		"name": "Wind-up Chimera",
+		"lore": "It is hard to imagine anyone taking pleasure in creating to-scale replicas of the very abominations that contributed to the end of an entire civilization. Then again, it is so utterly adorable.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Weaver 70* (Requires Master Weaver V)",
+			"location": "N/A"
+		}]
+	},
+	{
 		"name": "Magitek Avenger F1",
 		"lore": "It appears the Empire created these faithful reproductions to train field engineers on how to repair actual avenger-class warmachina. The fact that the selfsame models are sold to imperial children as toys is a telling sign of the invaders' mindset.",
 		"expansion": "ARR",
@@ -2025,6 +2121,31 @@
 			"type": "dungeon",
 			"info": "Ivon Coeurlfist",
 			"location": "Temple of the Fist"
+		}]
+	},
+	{
+		"name": "Wind-up Ixion",
+		"lore": "In a bid to lure brave (or foolish) adventurers to hunt the legendary steed Ixion, the people of Gyr Abania pitched in coin to have this mammet produced─a handsome reward, they believe, for risking grisly death by impalement and/or lightning.",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "vendor",
+			"info": "5 Ixion Horns",
+			"location": "Eschina, Rhalgr's Reach (13, 11)"
+		}]
+	},
+	{
+		"name": "Tengu Doll",
+		"lore": "A doll made in the likeness of a legendary Far Eastern creature, surprisingly animated for an inanimate object - a mystery Far Eastern folk would attribute to the mischievous Tengu. Much like how a coveted piece of gear boasting five materia slots suddenly becomes a doll.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "venture",
+			"info": "Quick Exploration (DoW/DoM classes)",
+			"location": "N/A"
+		},
+		{
+			"type": "venture",
+			"info": "Field Exploration XXII",
+			"location": "N/A"
 		}]
 	},
 	{
@@ -2173,7 +2294,7 @@
 		"expansion": "ARR",
 		"sources": [{
 			"type": "venture",
-			"info": "Highlands Exploration XV",
+			"info": "Highland Exploration XV",
 			"location": "N/A"
 		}]
 	},
@@ -2326,6 +2447,16 @@
 	{
 		"name": "Wind-up Bismarck",
 		"lore": "Seeing Limsa Lominsa crawling with wind-up Ifrits, Titans, Ramuhs, even Ravanas, the Bismarck proprietor wondered why there were still no automatons designed in the likeness of his establishment's namesake, and so commissioned one made.",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Weaver 60* (Requires Master Weaver III)",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Wind-up Ravana",
+		"lore": "Desiring that the tale of Ravana's clash with the Warrior of Light be preserved for posterity, a Gnath historian commissioned the Goldsmiths' Guild to recreate the Lord of the Hive as a mammet. Comes complete with Chandrahas and fierce love of battle.",
 		"expansion": "ARR",
 		"sources": [{
 			"type": "crafted",
@@ -2693,6 +2824,16 @@
 		}]
 	},
 	{
+		"name": "Wind-up Hien",
+		"lore": "Under imperial rule, Doman dollmakers were forbidden from crafting automatons such as the kiyofusa, but this did not stop one brave soul from honoring the popular young Lord Hien with a mammet in his likeness. Its creator can rightly be proud!",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "Wondrous Tails, possible 2-line prize",
+			"location": "Khloe Aliapoh, Idyllshire (6, 6)"
+		}]
+	},
+	{
 		"name": "Wind-up Sun",
 		"lore": "Designed to provide light for road repairmen toiling during the small hours of the night, wind-up suns have become all the talk amongst Ul'dahn mesdames ever since it was discovered the extra light worked wonders at hiding unsightly blemishes and wrinkles.",
 		"expansion": "ARR",
@@ -2853,13 +2994,13 @@
 		}]
 	},
 	{
-		"name": "Wind-up Chimera",
-		"lore": "It is hard to imagine anyone taking pleasure in creating to-scale replicas of the very abominations that contributed to the end of an entire civilization. Then again, it is so utterly adorable.",
+		"name": "Wind-up Shinryu",
+		"lore": "The designer of this mammet was tasked with recreating the dread-filled moment when Shinryu gains his freedom, bursting forth from a cocoon of light. The result is a rather loose interpretation, to say the least.",
 		"expansion": "ARR",
 		"sources": [{
-			"type": "other",
-			"info": "Unknown",
-			"location": "Unknown"
+			"type": "crafted",
+			"info": "Weaver 70** (Requires Master Weaver V, Specialist)",
+			"location": "N/A"
 		}]
 	}
 ]

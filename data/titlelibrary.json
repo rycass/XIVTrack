@@ -3458,5 +3458,123 @@
 			"details": "Raid the deepest sluice in the Lost Canals of Uznair 20 times.",
 			"location": "N/A"
 		}]
+	},
+	{
+		"name": "Naago's Friend",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "achievement",
+			"info": "Satisfaction Guaranteed: M'naago V",
+			"details": "Achieve a satisfaction level of 5 with M'naago.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Naago's Partner",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "achievement",
+			"info": "The Customer Is Always Right: M'naago VI",
+			"details": "Deliver 150 collectables to M'naago.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Wings of Steel",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "Unknown",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Wings of Fire",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "other",
+			"info": "Unknown",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Deep Canal Raider",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "achievement",
+			"info": "Raider of the Hidden Canals I",
+			"details": "Raid the Hidden Canals of Uznair.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Deep Canal Dweller",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "achievement",
+			"info": "Raider of the Hidden Canals IV",
+			"details": "Raid the Hidden Canals of Uznair 20 times.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "The Luckiest Of Lords/The Luckiest Of Ladies",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "achievement",
+			"info": "The Deeper End IV",
+			"details": "Raid the deepest sluice in the Hidden Canals of Uznair 20 times.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Canal Raider",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "achievement",
+			"info": "Raider of the Lost Canals I",
+			"details": "Raid the Lost Canals of Uznair.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Canal Dweller",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "achievement",
+			"info": "Raider of the Lost Canals IV",
+			"details": "Raid the Lost Canals of Uznair 20 times.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Crimson Explorer",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "achievement",
+			"info": "Oh, The Sights We'll See II",
+			"details": "Complete entries 46-62 in your Stormblood sightseeing log.",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Raubahn's Left Arm",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "achievement",
+			"info": "More Heroes",
+			"details": "Complete the main scenario quest 'Return of the Bull.'",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "of the Blue",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "achievement",
+			"info": "Divinity: Original Kojin",
+			"details": "Attain rank 7 reputation (sworn) with the Divine Circle.",
+			"location": "N/A"
+		}]
 	}
 ]

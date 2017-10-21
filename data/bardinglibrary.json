@@ -501,5 +501,23 @@
 			"info": "4 Veteran Clan Mark Log",
 			"location": "Eschina, Rhalgr's Reach (13, 11)"
 		}]
+	},
+	{
+		"name": "Shinryu Barding",
+		"expansion": "ARR",
+		"sources": [{
+			"type": "crafted",
+			"info": "Armorer 70** (Requires Master Armorer V)",
+			"location": "N/A"
+		}]
+	},
+	{
+		"name": "Ixion Barding",
+		"expansion": "Stormblood",
+		"sources": [{
+			"type": "vendor",
+			"info": "5 Ixion Horns",
+			"location": "Eschina, Rhalgr's Reach (13, 11)"
+		}]
 	}
 ]
