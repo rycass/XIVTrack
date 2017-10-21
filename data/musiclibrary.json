@@ -562,7 +562,7 @@
 	},
 	{
 		"name": "Crimson Sunrise",
-		"lore": "Locales: FIXME",
+		"lore": "Locales: Kugane, daytime",
 		"expansion": "Stormblood",
 		"sources": [{
 			"type": "treasurehunt",
@@ -592,7 +592,7 @@
 	},
 	{
 		"name": "A Father's Pride",
-		"lore": "Locales: FIXME",
+		"lore": "Locales: Yanxia, daytime",
 		"expansion": "Stormblood",
 		"sources": [{
 			"type": "treasurehunt",
