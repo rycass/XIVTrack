@@ -3528,26 +3528,6 @@
 		}]
 	},
 	{
-		"name": "Canal Raider",
-		"expansion": "Stormblood",
-		"sources": [{
-			"type": "achievement",
-			"info": "Raider of the Lost Canals I",
-			"details": "Raid the Lost Canals of Uznair.",
-			"location": "N/A"
-		}]
-	},
-	{
-		"name": "Canal Dweller",
-		"expansion": "Stormblood",
-		"sources": [{
-			"type": "achievement",
-			"info": "Raider of the Lost Canals IV",
-			"details": "Raid the Lost Canals of Uznair 20 times.",
-			"location": "N/A"
-		}]
-	},
-	{
 		"name": "Crimson Explorer",
 		"expansion": "Stormblood",
 		"sources": [{
