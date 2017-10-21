@@ -1,3 +1,9 @@
+# September 21, 2017
+- Added 4.1 content.
+		
+# August 26, 2017
+- Added 2017 summer holiday items.
+
 # July 25, 2017
 - Corrected "Fox Kit" minion name.
 
